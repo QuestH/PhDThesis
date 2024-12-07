@@ -1,0 +1,26 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Surface Topography Data}}{25}{table.caption.9}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Bearing Specification}}{34}{table.caption.10}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Lubricant and Material Properties}}{35}{table.caption.11}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Extrapolated film formulae and numerical model central film thickness comparison}}{44}{table.caption.12}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Cylindrical Roller Bearing Specification}}{59}{table.caption.13}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Bearing Rheological Properties}}{59}{table.caption.14}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Pinion Geometry}}{61}{table.caption.15}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Gear Geometry}}{61}{table.caption.16}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Range of ANN film thickness calculation parameters}}{79}{table.caption.20}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Roller Bearing Parameters}}{82}{table.caption.23}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Operating Conditions}}{82}{table.caption.24}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces $R^2$ performance of ANN structures using 600 data points and a LogSig activation function}}{85}{table.caption.26}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces $R^2$ performance of ANN structures using 600 data points and a Tanh activation function}}{85}{table.caption.27}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces $R^2$ performance of ANN structures using 600 data points and a Tanh activation function}}{85}{table.caption.28}%
+\contentsline {table}{\numberline {5.7}{\ignorespaces Training time of ANN structures with LogSig activation function and 600 data points}}{86}{table.caption.29}%
+\contentsline {table}{\numberline {5.8}{\ignorespaces Training time of ANN structures with LogSig activation function and 1000 data points}}{86}{table.caption.30}%
+\contentsline {table}{\numberline {5.9}{\ignorespaces Training time of ANN structures with LogSig activation function and 2000 data points}}{86}{table.caption.31}%
+\contentsline {table}{\numberline {5.10}{\ignorespaces Training time of ANN structures with LogSig activation function and 5000 data points}}{86}{table.caption.32}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

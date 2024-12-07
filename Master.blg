@@ -1,0 +1,102 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Master.aux
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+The style file: IEEEtranN.bst
+Reallocating 'name_of_file' (item size: 1) to 36 items.
+A level-1 auxiliary file: Acknowledgement/acknowledgement.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: Abstract/abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 34 items.
+A level-1 auxiliary file: Nomenclature/nomenclature_new.aux
+Reallocating 'name_of_file' (item size: 1) to 39 items.
+A level-1 auxiliary file: Nomenclature/list_of_abbreviations.aux
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: Publications/Publications.aux
+Reallocating 'name_of_file' (item size: 1) to 42 items.
+A level-1 auxiliary file: Chapters/01_Introduction/Introduction.aux
+Reallocating 'name_of_file' (item size: 1) to 52 items.
+A level-1 auxiliary file: Chapters/02_Literature_Review/Literature_Review.aux
+Reallocating 'name_of_file' (item size: 1) to 157 items.
+A level-1 auxiliary file: Chapters/03_Investigating_the_Effect_of_Lubrication_on_the_Tribodynamic_Behaviour_of_High-Speed_Roller_Bearings/Experimental_and_Numerical_Tribodynamics.aux
+Reallocating 'name_of_file' (item size: 1) to 107 items.
+A level-1 auxiliary file: Chapters/04_Modelling_Lubricated_Bearings_in_a_Flexible_Multi-Body_Dynamic_Environment/Lubricated_FMBD.aux
+White space in argument---line 39 of file Chapters/04_Modelling_Lubricated_Bearings_in_a_Flexible_Multi-Body_Dynamic_Environment/Lubricated_FMBD.aux
+ : \citation{Flowchart
+ :                     of models}
+I'm skipping whatever remains of this command
+Reallocating 'name_of_file' (item size: 1) to 106 items.
+A level-1 auxiliary file: Chapters/05_Artificial_Neural_Networks_for_EHL_Film_Thickness_Predictions/ANN_Lubricated_Bearing_FMBD.aux
+Reallocating 'name_of_file' (item size: 1) to 132 items.
+A level-1 auxiliary file: Chapters/06_Implicit_Bearing_EHL_Film_Thickness_Predictions_Using_an_Artificial_Neural_Network_at_System_Level/ANN_System_Level.aux
+Reallocating 'name_of_file' (item size: 1) to 40 items.
+A level-1 auxiliary file: Chapters/07_Conclusions/Conclusions.aux
+Reallocating 'name_of_file' (item size: 1) to 23 items.
+Reallocating 'name_of_file' (item size: 1) to 32 items.
+A level-1 auxiliary file: Chapters/Appendix/Appendix1.aux
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: Literature/library.bib
+-- IEEEtranN.bst version 1.13 (2008/09/30) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+** Natbib version - not for normal IEEE work.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Warning--edition ordinal word "Book No. 3" may be too high (or improper) for conversion in Grubin1949
+Warning--empty booktitle in Walker2018a
+Warning--empty journal in Rahnejat1984
+Warning--empty journal in Roelands1966
+Warning--empty journal in Houpert1984
+Warning--edition ordinal word "SI" may be too high (or improper) for conversion in Dowson1977
+Warning--empty journal in Dietl1997
+Warning--empty booktitle in Parikyan2001
+Warning--missing publisher in Han1995
+
+Done.
+You've used 106 entries,
+            4783 wiz_defined-function locations,
+            1692 strings with 29990 characters,
+and the built_in function-call counts, 91837 in all, are:
+= -- 8443
+> -- 2447
+< -- 729
++ -- 1291
+- -- 518
+* -- 4824
+:= -- 14230
+add.period$ -- 212
+call.type$ -- 106
+change.case$ -- 211
+chr.to.int$ -- 1619
+cite$ -- 115
+duplicate$ -- 6183
+empty$ -- 6463
+format.name$ -- 767
+if$ -- 20712
+int.to.chr$ -- 3
+int.to.str$ -- 107
+missing$ -- 851
+newline$ -- 418
+num.names$ -- 318
+pop$ -- 2143
+preamble$ -- 1
+purify$ -- 106
+quote$ -- 6
+skip$ -- 7020
+stack$ -- 0
+substring$ -- 3842
+swap$ -- 4649
+text.length$ -- 156
+text.prefix$ -- 0
+top$ -- 6
+type$ -- 1563
+warning$ -- 9
+while$ -- 443
+width$ -- 0
+write$ -- 1326
+(There was 1 error message)

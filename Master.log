@@ -1,0 +1,2192 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.16)  23 FEB 2024 13:33
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./Master.tex
+(Master.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+(Classes/PhDThesisPSnPDF.cls
+
+LaTeX Warning: You have requested document class `Classes/PhDThesisPSnPDF',
+               but the document class provides `PhDThesisPSnPDF'.
+
+Document Class: PhDThesisPSnPDF 2016/04/23 A PhD thesis class file by Krishna K
+umar (v2.3.1)
+https://github.com/kks32/phd-thesis-template/
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo
+File: bk12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@chapter=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.
+cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.de
+f
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+)))
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count196
+\calc@Bcount=\count197
+\calc@Adimen=\dimen141
+\calc@Bdimen=\dimen142
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count198
+\calc@Cskip=\skip52
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/tocbibind\tocbibind.st
+y
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count199
+\c@@ppsavesec=\count266
+\c@@ppsaveapp=\count267
+) (C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/graphics\dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx
+))
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf.
+sty
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.
+sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefin
+ekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.st
+y
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.st
+y
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.st
+y
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmd
+s.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
+base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.
+cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+)))
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen143
+\Gin@req@width=\dimen144
+) (C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/datetime\datetime.st
+y
+Package: datetime 2015/03/20 v2.60 Date Time Package
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count268
+) (C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fmtcount.st
+y
+Package: fmtcount 2020/01/30 v3.07
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks18
+\XKV@tempa@toks=\toks19
+)
+\XKV@depth=\count269
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fcprefix.sty
+Package: fcprefix 2012/09/28
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fcnumparser.s
+ty
+Package: fcnumparser 2017/06/15
+\fc@digit@counter=\count270
+))
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen145
+)
+\c@padzeroesN=\count271
+\fc@tmpcatcode=\count272
+\@DT@modctr=\count273
+\@ordinalctr=\count274
+\@orgargctr=\count275
+\@strctr=\count276
+\@tmpstrctr=\count277
+\@DT@loopN=\count278
+\@DT@X=\count279
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/datetime\datetime-defa
+ults.sty
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count280
+\@month=\count281
+\@year=\count282
+\c@HOUR=\count283
+\c@HOURXII=\count284
+\c@MINUTE=\count285
+\c@TOHOUR=\count286
+\c@TOMINUTE=\count287
+\c@SECOND=\count288
+\currenthour=\count289
+\currentminute=\count290
+\currentsecond=\count291
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 308.
+\@dtctr=\count292
+\dayofyear=\count293
+\dayofweek=\count294
+LaTeX Info: Redefining \today on input line 736.
+\dt@a=\toks21
+\dt@b=\toks22
+)
+\PHD@hour=\count295
+\PHD@minute=\count296
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip53
+\bibsep=\skip54
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count297
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathptmx.sty
+Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+PhDThesisPSnPDF: Using Times Roman font
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks23
+\inpenc@posthook=\toks24
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11
+2.
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+))
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.st
+y
+Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
+\MT@toks=\toks25
+\MT@tempbox=\box51
+\MT@count=\count298
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
+LaTeX Info: Redefining \leftprotrusion on input line 1060.
+\MT@prot@toks=\toks26
+LaTeX Info: Redefining \rightprotrusion on input line 1078.
+LaTeX Info: Redefining \textls on input line 1368.
+\MT@outer@kern=\dimen146
+LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
+\MT@listname@count=\count299
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pd
+ftex.def
+File: microtype-pdftex.def 2023/03/13 v3.1a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 902.
+LaTeX Info: Redefining \lslig on input line 902.
+\MT@outer@space=\skip55
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cf
+g
+File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
+))
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/generic/pdftex\glyphtounicod
+e.tex)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip56
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen147
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count300
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count301
+\leftroot@=\count302
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count303
+\DOTSCASE@=\count304
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen148
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count305
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count306
+\dotsspace@=\muskip16
+\c@parentequation=\count307
+\dspbrk@lvl=\count308
+\tag@help=\toks27
+\row@=\count309
+\column@=\count310
+\maxfields@=\count311
+\andhelp@=\toks28
+\eqnshift@=\dimen149
+\alignsep@=\dimen150
+\tagshift@=\dimen151
+\tagwidth@=\dimen152
+\totwidth@=\dimen153
+\lineht@=\dimen154
+\@envbody=\toks29
+\multlinegap=\skip57
+\multlinetaggap=\skip58
+\mathdisplay@stack=\toks30
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.
+sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacr
+o.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\getti
+tlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count312
+)
+\@linkdim=\dimen155
+\Hy@linkcounter=\count313
+\Hy@pagecounter=\count314
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count315
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4064.
+Package hyperref Info: Hyper figures OFF on input line 4181.
+Package hyperref Info: Link nesting OFF on input line 4186.
+Package hyperref Info: Hyper index ON on input line 4189.
+Package hyperref Info: Plain pages OFF on input line 4196.
+Package hyperref Info: Backreferencing OFF on input line 4201.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4448.
+\c@Hy@tempcnt=\count316
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4786.
+\XeTeXLinkMargin=\dimen156
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcal
+c.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count317
+\Field@Width=\dimen157
+\Fld@charsize=\dimen158
+Package hyperref Info: Hyper figures OFF on input line 6065.
+Package hyperref Info: Link nesting OFF on input line 6070.
+Package hyperref Info: Hyper index ON on input line 6073.
+Package hyperref Info: backreferencing OFF on input line 6080.
+Package hyperref Info: Link coloring OFF on input line 6085.
+Package hyperref Info: Link coloring with OCG OFF on input line 6090.
+Package hyperref Info: PDF/A mode OFF on input line 6095.
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count318
+\c@Item=\count319
+\c@Hfootnote=\count320
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2023-11-26 v7.01g Hyperref driver for pdfTeX
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count321
+\c@bookmark@seq@number=\count322
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfi
+lecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\unique
+counter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip59
+)
+Package hyperref Info: Option `final' set `true' on input line 621.
+Package hyperref Info: Option `plainpages' set `false' on input line 621.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 621.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 621.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 621.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 621.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 621.
+Package hyperref Info: Option `linktocpage' set `true' on input line 621.
+Package hyperref Info: Option `colorlinks' set `true' on input line 621.
+
+PhDThesisPSnPDF: The University identity guidelines recommend using left aligne
+d text. Please use `flushleft' in the documentclass option, if you wish to left
+ align your text
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip60
+\f@nch@O@elh=\skip61
+\f@nch@O@erh=\skip62
+\f@nch@O@olh=\skip63
+\f@nch@O@orh=\skip64
+\f@nch@O@elf=\skip65
+\f@nch@O@erf=\skip66
+\f@nch@O@olf=\skip67
+\f@nch@O@orf=\skip68
+) (C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/nomencl\nomencl.sty
+Package: nomencl 2021/11/10 v5.6 Nomenclature package
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.s
+ty
+Package: tocbasic 2023/07/07 v3.41 KOMA-Script package (handling toc-files)
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.st
+y
+Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.s
+ty
+Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-h
+ook.sty
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
+
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.st
+y
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 368.
+)
+\scr@dte@tocline@numberwidth=\skip69
+\scr@dte@tocline@numbox=\box54
+)
+Package tocbasic Info: omitting babel extension for `nlo'
+(tocbasic)             because of missing \bbl@set@language on input line 187.
+Package tocbasic Info: omitting babel extension for `nls'
+(tocbasic)             because of missing \bbl@set@language on input line 188.
+\nomlabelwidth=\dimen159
+\nom@tempdim=\dimen160
+\nomitemsep=\skip70
+)
+\@nomenclaturefile=\write3
+\openout3 = `Master.nlo'.
+
+Package nomencl Info: Writing nomenclature file Master.nlo on input line 1025.
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/base\makeidx.sty
+Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
+)
+\@indexfile=\write4
+\openout4 = `Master.idx'.
+
+
+Writing index file Master.idx
+) (Preamble/preamble.tex
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count323
+\Gm@cntv=\count324
+\c@Gm@tempcnt=\count325
+\Gm@bindingoffset=\dimen161
+\Gm@wd@mp=\dimen162
+\Gm@odd@mp=\dimen163
+\Gm@even@mp=\dimen164
+\Gm@layoutwidth=\dimen165
+\Gm@layoutheight=\dimen166
+\Gm@layouthoffset=\dimen167
+\Gm@layoutvoffset=\dimen168
+\Gm@dimlist=\toks31
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)
+) (C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen169
+\captionmargin=\dimen170
+\caption@leftmargin=\dimen171
+\caption@rightmargin=\dimen172
+\caption@width=\dimen173
+\caption@indent=\dimen174
+\caption@parindent=\dimen175
+\caption@hangindent=\dimen176
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count326
+\c@continuedfloat=\count327
+Package caption Info: hyperref package is loaded.
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count328
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count329
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/refstyle\refstyle.sty
+Package: refstyle 2024/02/01 v0.6b Reference formatting (DNJ Els)
+Package refstyle Info: Config file refstyle.cfg used on input line 323.
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/refstyle\refstyle.cfg
+File: refstyle.cfg 2024/02/01 v0.6b Configuration file for refstyle (DNJ Els)
+Package refstyle Info: New reference template \newref{part} on input line 468.
+Package refstyle Info: \partkey created on input line 468.
+Package refstyle Info: \partlabel created on input line 468.
+Package refstyle Info: \partref created on input line 468.
+Package refstyle Info: \Partref created on input line 468.
+Package refstyle Info: \partrangeref created on input line 468.
+Package refstyle Info: \Partrangeref created on input line 468.
+Package refstyle Info: \partpageref created on input line 468.
+Package refstyle Info: New reference template \newref{chap} on input line 501.
+Package refstyle Info: \chapkey created on input line 501.
+Package refstyle Info: \chaplabel created on input line 501.
+Package refstyle Info: \chapref created on input line 501.
+Package refstyle Info: \Chapref created on input line 501.
+Package refstyle Info: \chaprangeref created on input line 501.
+Package refstyle Info: \Chaprangeref created on input line 501.
+Package refstyle Info: \chappageref created on input line 501.
+Package refstyle Info: New reference template \newref{sec} on input line 511.
+Package refstyle Info: \seckey created on input line 511.
+Package refstyle Info: \seclabel created on input line 511.
+Package refstyle Info: \secref created on input line 511.
+Package refstyle Info: \Secref created on input line 511.
+Package refstyle Info: \secrangeref created on input line 511.
+Package refstyle Info: \Secrangeref created on input line 511.
+Package refstyle Info: \secpageref created on input line 511.
+Package refstyle Info: New reference template \newref{eq} on input line 526.
+Package refstyle Info: \eqkey created on input line 526.
+Package refstyle Info: \eqlabel created on input line 526.
+Package refstyle Info: \eqref created on input line 526.
+Package refstyle Info: \Eqref created on input line 526.
+Package refstyle Info: \eqrangeref created on input line 526.
+Package refstyle Info: \Eqrangeref created on input line 526.
+Package refstyle Info: \eqpageref created on input line 526.
+Package refstyle Info: New reference template \newref{fig} on input line 539.
+Package refstyle Info: \figkey created on input line 539.
+Package refstyle Info: \figlabel created on input line 539.
+Package refstyle Info: \figref created on input line 539.
+Package refstyle Info: \Figref created on input line 539.
+Package refstyle Info: \figrangeref created on input line 539.
+Package refstyle Info: \Figrangeref created on input line 539.
+Package refstyle Info: \figpageref created on input line 539.
+Package refstyle Info: New reference template \newref{tab} on input line 548.
+Package refstyle Info: \tabkey created on input line 548.
+Package refstyle Info: \tablabel created on input line 548.
+Package refstyle Info: \tabref created on input line 548.
+Package refstyle Info: \Tabref created on input line 548.
+Package refstyle Info: \tabrangeref created on input line 548.
+Package refstyle Info: \Tabrangeref created on input line 548.
+Package refstyle Info: \tabpageref created on input line 548.
+Package refstyle Info: New reference template \newref{fn} on input line 563.
+Package refstyle Info: \fnkey created on input line 563.
+Package refstyle Info: \fnlabel created on input line 563.
+Package refstyle Info: \fnref created on input line 563.
+Package refstyle Info: \Fnref created on input line 563.
+Package refstyle Info: \fnrangeref created on input line 563.
+Package refstyle Info: \Fnrangeref created on input line 563.
+Package refstyle Info: \fnpageref created on input line 563.
+))
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen177
+\ar@mcellbox=\box55
+\extrarowheight=\dimen178
+\NC@list=\toks32
+\extratabsurround=\skip71
+\backup@length=\skip72
+\ar@cellbox=\box56
+)
+\rotheadsize=\dimen179
+\c@nlinenum=\count330
+\TeXr@lab=\toks33
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xfrac\xfrac
+.sty
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2024-01-04 L3 programming layer (loader) 
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pd
+ftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count331
+\l__pdf_internal_box=\box57
+))
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3
+keys2e.sty
+Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpar
+se.sty
+Package: xparse 2023-10-10 L3 Experimental document command parser
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xtemplate\x
+template.sty
+Package: xtemplate 2023-10-10 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen180
+\l__xtemplate_tmp_int=\count332
+\l__xtemplate_tmp_muskip=\muskip18
+\l__xtemplate_tmp_skip=\skip73
+)
+Package: xfrac 2023-10-10 L3 Experimental split-level fractions
+\l__xfrac_slash_box=\box58
+\l__xfrac_tmp_box=\box59
+\l__xfrac_denominator_bot_sep_dim=\dimen181
+\l__xfrac_numerator_bot_sep_dim=\dimen182
+\l__xfrac_numerator_top_sep_dim=\dimen183
+\l__xfrac_slash_left_sep_dim=\dimen184
+\l__xfrac_slash_right_sep_dim=\dimen185
+\l__xfrac_slash_left_muskip=\muskip19
+\l__xfrac_slash_right_muskip=\muskip20
+
+Package xtemplate Info: Declaring object type 'xfrac' taking 3 argument(s) on
+(xtemplate)             line 80.
+
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
+Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
+Package bm Info: No bold for \OT1/ztmcm/m/n, using \pmb.
+Package bm Info: No bold for \OML/ztmcm/m/it, using \pmb.
+Package bm Info: No bold for \OMS/ztmcm/m/n, using \pmb.
+Package bm Info: No bold for \OMX/ztmcm/m/n, using \pmb.
+Package bm Info: No bold for \OT1/ptm/bx/n, using \pmb.
+Package bm Info: No bold for \OT1/ptm/m/it, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+LaTeX Info: Redefining \color on input line 758.
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
+\everycr=\toks34
+\minrowclearance=\skip74
+\rownum=\count333
+) (C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count334
+\float@exts=\toks35
+\float@box=\box60
+\@float@everytoks=\toks36
+\@floatcapt=\box61
+)
+\@float@every@figure=\toks37
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen186
+\lightrulewidth=\dimen187
+\cmidrulewidth=\dimen188
+\belowrulesep=\dimen189
+\belowbottomsep=\dimen190
+\aboverulesep=\dimen191
+\abovetopsep=\dimen192
+\cmidrulesep=\dimen193
+\cmidrulekern=\dimen194
+\defaultaddspace=\dimen195
+\@cmidla=\count335
+\@cmidlb=\count336
+\@aboverulesep=\dimen196
+\@belowrulesep=\dimen197
+\@thisruleclass=\count337
+\@lastruleclass=\count338
+\@thisrulewidth=\dimen198
+) (C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.st
+y
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip75
+\multirow@cntb=\count339
+\multirow@dima=\skip76
+\bigstrutjot=\dimen199
+) (C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2024-02-07 v3.3.11 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count340
+\l__siunitx_number_exponent_fixed_int=\count341
+\l__siunitx_number_min_decimal_int=\count342
+\l__siunitx_number_min_integer_int=\count343
+\l__siunitx_number_round_precision_int=\count344
+\l__siunitx_number_lower_threshold_int=\count345
+\l__siunitx_number_upper_threshold_int=\count346
+\l__siunitx_number_group_first_int=\count347
+\l__siunitx_number_group_size_int=\count348
+\l__siunitx_number_group_minimum_int=\count349
+\l__siunitx_angle_tmp_dim=\dimen256
+\l__siunitx_angle_marker_box=\box62
+\l__siunitx_angle_unit_box=\box63
+\l__siunitx_compound_count_int=\count350
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/translations\translati
+ons.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+)
+\l__siunitx_table_tmp_box=\box64
+\l__siunitx_table_tmp_dim=\dimen257
+\l__siunitx_table_column_width_dim=\dimen258
+\l__siunitx_table_integer_box=\box65
+\l__siunitx_table_decimal_box=\box66
+\l__siunitx_table_uncert_box=\box67
+\l__siunitx_table_before_box=\box68
+\l__siunitx_table_after_box=\box69
+\l__siunitx_table_before_dim=\dimen259
+\l__siunitx_table_carry_dim=\dimen260
+\l__siunitx_unit_tmp_int=\count351
+\l__siunitx_unit_position_int=\count352
+\l__siunitx_unit_total_int=\count353
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/numprint\numprint.sty
+Package: numprint 2012/08/20 v1.39 Print numbers (HH)
+\c@nprt@mantissa@digitsbefore=\count354
+\c@nprt@mantissa@digitsafter=\count355
+\c@nprt@exponent@digitsbefore=\count356
+\c@nprt@exponent@digitsafter=\count357
+\nprt@digitwidth=\skip77
+\nprt@sepwidth=\skip78
+\nprt@decimalwidth=\skip79
+\nprt@blockwidth=\skip80
+\nprt@digittoks=\toks38
+\nprt@pretoks=\toks39
+\nprt@posttoks=\toks40
+\nprt@thisdigit=\count358
+\nprt@curpos=\count359
+\nprt@rndpos=\count360
+\c@nprt@digitsfirstblock=\count361
+\c@nprt@blockcnt=\count362
+\c@nprt@cntprint=\count363
+
+No configuration file `numprint.cfg' found.))
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip81
+\enit@outerparindent=\dimen261
+\enit@toks=\toks41
+\enit@inbox=\box70
+\enit@count@id=\count364
+\enitdp@description=\count365
+) (Title/thesis-info.tex)
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 38.
+ (Master.aux (Acknowledgement/acknowledgement.aux)
+(Abstract/abstract.aux) (Nomenclature/nomenclature_new.aux)
+(Nomenclature/list_of_abbreviations.aux) (Publications/Publications.aux)
+(Chapters/01_Introduction/Introduction.aux)
+(Chapters/02_Literature_Review/Literature_Review.aux)
+(Chapters/03_Investigating_the_Effect_of_Lubrication_on_the_Tribodynamic_Behavi
+our_of_High-Speed_Roller_Bearings/Experimental_and_Numerical_Tribodynamics.aux
+
+LaTeX Warning: Label `Viscous friction Evans and Johnson' multiply defined.
+
+
+LaTeX Warning: Label `eq1.12' multiply defined.
+
+
+LaTeX Warning: Label `eq3.38' multiply defined.
+
+)
+(Chapters/04_Modelling_Lubricated_Bearings_in_a_Flexible_Multi-Body_Dynamic_Env
+ironment/Lubricated_FMBD.aux)
+(Chapters/05_Artificial_Neural_Networks_for_EHL_Film_Thickness_Predictions/ANN_
+Lubricated_Bearing_FMBD.aux)
+(Chapters/06_Implicit_Bearing_EHL_Film_Thickness_Predictions_Using_an_Artificia
+l_Neural_Network_at_System_Level/ANN_System_Level.aux)
+(Chapters/07_Conclusions/Conclusions.aux) (Chapters/Appendix/Appendix1.aux))
+\openout1 = `Master.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
+kii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count366
+\scratchdimen=\dimen262
+\scratchbox=\box71
+\nofMPsegments=\count367
+\nofMParguments=\count368
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count369
+\MPscratchDim=\dimen263
+\MPnumerator=\count370
+\makeMPintoPDFobject=\count371
+\everyMPtoPDFconversion=\toks43
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fc-english.de
+f
+File: fc-english.def 2016/01/12
+)
+LaTeX Info: Redefining \microtypecontext on input line 38.
+Package microtype Info: Applying patch `item' on input line 38.
+Package microtype Info: Applying patch `toc' on input line 38.
+
+
+Package microtype Warning: Unable to apply patch `eqnum' on input line 38.
+
+Package microtype Info: Applying patch `footnote' on input line 38.
+Package microtype Info: Applying patch `verbatim' on input line 38.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 38.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
+Package hyperref Info: Link coloring ON on input line 38.
+
+(Master.out) (Master.out)
+\@outlinefile=\write5
+\openout5 = `Master.out'.
+
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 38.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(91.04881pt, 415.41025pt, 91.04881pt)
+* v-part:(T,H,B)=(85.35826pt, 668.63977pt, 91.04881pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=415.41025pt
+* \textheight=668.63977pt
+* \oddsidemargin=33.00519pt
+* \evensidemargin=4.55246pt
+* \topmargin=-21.28552pt
+* \headheight=14.5pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=88.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tra
+nslations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 38.
+\PHD@Title=\box72
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 42.
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `ztmcm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 42.
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 42.
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 42.
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 4
+2.
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+\PHD@crest=\box73
+\PHD@collegecrest=\box74
+\PHD@author=\box75
+\PHD@supervisor=\box76
+\PHD@advisor=\box77
+\PHD@dept=\box78
+\PHD@submission=\box79
+\PHD@collegedate=\box80
+\PHD@titlepagespacing=\skip82
+
+[1
+
+
+{C:/Users/u28z01/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/u28
+z01/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
+\openout2 = `Acknowledgement/acknowledgement.aux'.
+
+
+(Acknowledgement/acknowledgement.tex [2
+
+
+]) [3
+
+]
+\openout2 = `Abstract/abstract.aux'.
+
+ (Abstract/abstract.tex [4
+
+
+
+
+])
+[5
+
+] [6
+
+
+
+] (Master.toc [7
+
+] [8])
+\tf@toc=\write6
+\openout6 = `Master.toc'.
+
+ [9] [10
+
+] (Master.lof [11])
+\tf@lof=\write7
+\openout7 = `Master.lof'.
+
+ [12] (Master.lot)
+\tf@lot=\write8
+\openout8 = `Master.lot'.
+
+
+[13
+
+]
+\openout2 = `Nomenclature/nomenclature_new.aux'.
+
+ (Nomenclature/nomenclature_new.tex [14
+
+
+] [15]
+Overfull \vbox (12.74203pt too high) has occurred while \output is active []
+
+
+[16]
+Overfull \hbox (54.25766pt too wide) detected at line 66
+[]
+ []
+
+
+Overfull \vbox (6.08049pt too high) has occurred while \output is active []
+
+
+[17]
+Overfull \vbox (11.47888pt too high) has occurred while \output is active []
+
+
+[18])
+\openout2 = `Nomenclature/list_of_abbreviations.aux'.
+
+ (Nomenclature/list_of_abbreviations.tex [19
+
+
+
+
+]) [20]
+\openout2 = `Publications/Publications.aux'.
+
+
+(Publications/Publications.tex) [21
+
+
+
+
+] [22
+
+
+
+]
+\openout2 = `Chapters/01_Introduction/Introduction.aux'.
+
+
+(Chapters/01_Introduction/Introduction.tex
+Chapter 1.
+
+LaTeX Warning: File `BCGAnalysis.png' not found on input line 7.
+
+
+! Package pdftex.def Error: File `BCGAnalysis.png' not found: using draft setti
+ng.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 ...udegraphics[width=150 mm]{BCGAnalysis.png}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 7
+.
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+[1
+
+
+] [2] [3]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
+7.
+
+(C:\Users\u28z01\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+[4]) [5]
+\openout2 = `Chapters/02_Literature_Review/Literature_Review.aux'.
+
+ (Chapters/02_Literature_Review/Literature_Review.tex [6
+
+
+
+
+]
+Chapter 2.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 8.
+
+[7] [8] [9]
+
+Package natbib Warning: Citation `Meyer1980' on page 10 undefined on input line
+ 32.
+
+
+Package natbib Warning: Citation `Aini1990' on page 10 undefined on input line 
+36.
+
+[10]) [11]
+\openout2 = `Chapters/03_Investigating_the_Effect_of_Lubrication_on_the_Tribody
+namic_Behaviour_of_High-Speed_Roller_Bearings/Experimental_and_Numerical_Tribod
+ynamics.aux'.
+
+
+(Chapters/03_Investigating_the_Effect_of_Lubrication_on_the_Tribodynamic_Behavi
+our_of_High-Speed_Roller_Bearings/Experimental_and_Numerical_Tribodynamics.tex
+[12
+
+
+
+
+]
+Chapter 3.
+[13]
+<Graphics/ExpTribo Figure 1 - Methodology Overview.png, id=689, 395.97937pt x 5
+22.45187pt>
+File: Graphics/ExpTribo Figure 1 - Methodology Overview.png Graphic file (type 
+png)
+<use Graphics/ExpTribo Figure 1 - Methodology Overview.png>
+Package pdftex.def Info: Graphics/ExpTribo Figure 1 - Methodology Overview.png 
+ used on input line 16.
+(pdftex.def)             Requested size: 284.52756pt x 375.40771pt.
+<Graphics/ExpTribo Figure 2 - CRB in equilibrium position.png, id=695, 637.6321
+9pt x 531.48563pt>
+File: Graphics/ExpTribo Figure 2 - CRB in equilibrium position.png Graphic file
+ (type png)
+<use Graphics/ExpTribo Figure 2 - CRB in equilibrium position.png>
+Package pdftex.def Info: Graphics/ExpTribo Figure 2 - CRB in equilibrium positi
+on.png  used on input line 24.
+(pdftex.def)             Requested size: 284.52756pt x 237.1632pt.
+
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[14 <./Graphics/ExpTribo Figure 1 - Methodology Overview.png>]
+<Graphics/ExpTribo Figure 3 – Mutual separation and convergence of inner and 
+outer races 2.png, id=704, 961.34157pt x 466.74374pt>
+File: Graphics/ExpTribo Figure 3 – Mutual separation and convergence of inner
+ and outer races 2.png Graphic file (type png)
+<use Graphics/ExpTribo Figure 3 – Mutual separation and convergence of inner 
+and outer races 2.png>
+Package pdftex.def Info: Graphics/ExpTribo Figure 3 – Mutual separation and c
+onvergence of inner and outer races 2.png  used on input line 32.
+(pdftex.def)             Requested size: 426.79134pt x 207.21245pt.
+ [15 <./Graphics/ExpTribo Figure 2 - CRB in equilibrium position.png>]
+<Graphics/ExpTribo Figure 4 - EHL film thickness and pressure distribution at c
+ontact.png, id=717, 611.28375pt x 502.12593pt>
+File: Graphics/ExpTribo Figure 4 - EHL film thickness and pressure distribution
+ at contact.png Graphic file (type png)
+<use Graphics/ExpTribo Figure 4 - EHL film thickness and pressure distribution 
+at contact.png>
+Package pdftex.def Info: Graphics/ExpTribo Figure 4 - EHL film thickness and pr
+essure distribution at contact.png  used on input line 44.
+(pdftex.def)             Requested size: 284.52756pt x 233.716pt.
+
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[16 <./Graphics/ExpTribo Figure 3 – Mutual separation and convergence of inne
+r and outer races 2.png>]
+<Graphics/ExpTribo Figure 5 – Experimental rig schematic.png, id=725, 746.037
+19pt x 462.97969pt>
+File: Graphics/ExpTribo Figure 5 – Experimental rig schematic.png Graphic fil
+e (type png)
+<use Graphics/ExpTribo Figure 5 – Experimental rig schematic.png>
+Package pdftex.def Info: Graphics/ExpTribo Figure 5 – Experimental rig schema
+tic.png  used on input line 54.
+(pdftex.def)             Requested size: 341.43306pt x 211.8853pt.
+ [17 <./Graphics/ExpTribo Figure 4 - EHL film thickness and pressure distributi
+on at contact.png>]
+<Graphics/ExpTribo Figure 6(a) - Accelerometer Locations on Test Bracket.png, i
+d=734, 778.40813pt x 435.12563pt>
+File: Graphics/ExpTribo Figure 6(a) - Accelerometer Locations on Test Bracket.p
+ng Graphic file (type png)
+<use Graphics/ExpTribo Figure 6(a) - Accelerometer Locations on Test Bracket.pn
+g>
+Package pdftex.def Info: Graphics/ExpTribo Figure 6(a) - Accelerometer Location
+s on Test Bracket.png  used on input line 65.
+(pdftex.def)             Requested size: 426.79134pt x 238.58284pt.
+<Graphics/ExpTribo Figure 6(b) Laser Vibrometer Locations on Shaft 2.png, id=73
+5, 597.73312pt x 452.4403pt>
+File: Graphics/ExpTribo Figure 6(b) Laser Vibrometer Locations on Shaft 2.png G
+raphic file (type png)
+<use Graphics/ExpTribo Figure 6(b) Laser Vibrometer Locations on Shaft 2.png>
+Package pdftex.def Info: Graphics/ExpTribo Figure 6(b) Laser Vibrometer Locatio
+ns on Shaft 2.png  used on input line 71.
+(pdftex.def)             Requested size: 341.43306pt x 258.43904pt.
+
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[18 <./Graphics/ExpTribo Figure 5 – Experimental rig schematic.png>] [19 <./G
+raphics/ExpTribo Figure 6(a) - Accelerometer Locations on Test Bracket.png> <./
+Graphics/ExpTribo Figure 6(b) Laser Vibrometer Locations on Shaft 2.png>]
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[20] [21]
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[22] [23]
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[24] [25]
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[26] [27]
+Overfull \hbox (22.2627pt too wide) detected at line 404
+[][][][] \OT1/ztmcm/m/n/12 + [] [] \OMS/ztmcm/m/n/12 ^^@ [] [] \OT1/ztmcm/m/n/1
+2 	\OML/ztmcm/m/it/12 U \OT1/ztmcm/m/n/12 = 0
+ []
+
+
+Overfull \hbox (11.97554pt too wide) detected at line 408
+[][][][] \OT1/ztmcm/m/n/12 + [] [] \OMS/ztmcm/m/n/12 ^^@ [] [] \OT1/ztmcm/m/n/1
+2 	\OML/ztmcm/m/it/12 U \OT1/ztmcm/m/n/12 = []
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[28] [29]
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[30] [31]
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[32]
+<Graphics/ExpTribo Figure 9 - Validation of dimensionless pressure distribution
+, present model (solid), Masjedi and Khonsari (dashed).png, id=933, 1557.56906p
+t x 752.0597pt>
+File: Graphics/ExpTribo Figure 9 - Validation of dimensionless pressure distrib
+ution, present model (solid), Masjedi and Khonsari (dashed).png Graphic file (t
+ype png)
+<use Graphics/ExpTribo Figure 9 - Validation of dimensionless pressure distribu
+tion, present model (solid), Masjedi and Khonsari (dashed).png>
+Package pdftex.def Info: Graphics/ExpTribo Figure 9 - Validation of dimensionle
+ss pressure distribution, present model (solid), Masjedi and Khonsari (dashed).
+png  used on input line 582.
+(pdftex.def)             Requested size: 341.43306pt x 164.85692pt.
+<Graphics/ExpTribo Figure 10 - Validation of dimensionless film thickness distr
+ibution, present model (solid), Masjedi and Khonsari (dashed).png, id=934, 1531
+.97343pt x 786.68906pt>
+File: Graphics/ExpTribo Figure 10 - Validation of dimensionless film thickness 
+distribution, present model (solid), Masjedi and Khonsari (dashed).png Graphic 
+file (type png)
+<use Graphics/ExpTribo Figure 10 - Validation of dimensionless film thickness d
+istribution, present model (solid), Masjedi and Khonsari (dashed).png>
+Package pdftex.def Info: Graphics/ExpTribo Figure 10 - Validation of dimensionl
+ess film thickness distribution, present model (solid), Masjedi and Khonsari (d
+ashed).png  used on input line 588.
+(pdftex.def)             Requested size: 341.43306pt x 175.32886pt.
+ [33 <./Graphics/ExpTribo Figure 9 - Validation of dimensionless pressure distr
+ibution, present model (solid), Masjedi and Khonsari (dashed).png>]
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[34 <./Graphics/ExpTribo Figure 10 - Validation of dimensionless film thickness
+ distribution, present model (solid), Masjedi and Khonsari (dashed).png>]
+<Graphics/ExpTribo Figure 7 - Bearing Bore Displacement Frequency Spectra.png, 
+id=951, 1976.88562pt x 866.48718pt>
+File: Graphics/ExpTribo Figure 7 - Bearing Bore Displacement Frequency Spectra.
+png Graphic file (type png)
+<use Graphics/ExpTribo Figure 7 - Bearing Bore Displacement Frequency Spectra.p
+ng>
+Package pdftex.def Info: Graphics/ExpTribo Figure 7 - Bearing Bore Displacement
+ Frequency Spectra.png  used on input line 677.
+(pdftex.def)             Requested size: 426.79134pt x 187.05795pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 677--678
+[][] 
+ []
+
+[35]
+<Graphics/ExpTribo Figure 8 - Shaft Displacement Frequency Spectra.png, id=959,
+ 1973.87437pt x 959.83594pt>
+File: Graphics/ExpTribo Figure 8 - Shaft Displacement Frequency Spectra.png Gra
+phic file (type png)
+<use Graphics/ExpTribo Figure 8 - Shaft Displacement Frequency Spectra.png>
+Package pdftex.def Info: Graphics/ExpTribo Figure 8 - Shaft Displacement Freque
+ncy Spectra.png  used on input line 683.
+(pdftex.def)             Requested size: 426.79134pt x 207.53238pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 683--684
+[][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[36 <./Graphics/ExpTribo Figure 7 - Bearing Bore Displacement Frequency Spectra
+.png> <./Graphics/ExpTribo Figure 8 - Shaft Displacement Frequency Spectra.png>
+]
+<Graphics/ExpTribo Figure 11 - Contact Load and Film Thickness - Outer Race.png
+, id=970, 1674.255pt x 762.59906pt>
+File: Graphics/ExpTribo Figure 11 - Contact Load and Film Thickness - Outer Rac
+e.png Graphic file (type png)
+<use Graphics/ExpTribo Figure 11 - Contact Load and Film Thickness - Outer Race
+.png>
+Package pdftex.def Info: Graphics/ExpTribo Figure 11 - Contact Load and Film Th
+ickness - Outer Race.png  used on input line 695.
+(pdftex.def)             Requested size: 426.79134pt x 194.39618pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 695--696
+[][] 
+ []
+
+<Graphics/ExpTribo Figure 12 - Film and Load - EHL to Hydrodynamic Regime.png, 
+id=973, 1626.075pt x 779.91376pt>
+File: Graphics/ExpTribo Figure 12 - Film and Load - EHL to Hydrodynamic Regime.
+png Graphic file (type png)
+<use Graphics/ExpTribo Figure 12 - Film and Load - EHL to Hydrodynamic Regime.p
+ng>
+Package pdftex.def Info: Graphics/ExpTribo Figure 12 - Film and Load - EHL to H
+ydrodynamic Regime.png  used on input line 703.
+(pdftex.def)             Requested size: 426.79134pt x 204.70067pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 703--704
+[][] 
+ []
+
+[37 <./Graphics/ExpTribo Figure 11 - Contact Load and Film Thickness - Outer Ra
+ce.png>]
+<Graphics/ExpTribo Figure 13 – Viscous and Boundary Friction at Outer Race Co
+ntact.png, id=980, 1657.69313pt x 757.32938pt>
+File: Graphics/ExpTribo Figure 13 – Viscous and Boundary Friction at Outer Ra
+ce Contact.png Graphic file (type png)
+<use Graphics/ExpTribo Figure 13 – Viscous and Boundary Friction at Outer Rac
+e Contact.png>
+Package pdftex.def Info: Graphics/ExpTribo Figure 13 – Viscous and Boundary F
+riction at Outer Race Contact.png  used on input line 712.
+(pdftex.def)             Requested size: 426.79134pt x 194.98271pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 712--713
+[][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[38 <./Graphics/ExpTribo Figure 12 - Film and Load - EHL to Hydrodynamic Regime
+.png>]
+<Graphics/ExpTribo Figure 14 – EHL and hydrodynamic conditions during roller 
+operation.png, id=989, 1321.18594pt x 740.7675pt>
+File: Graphics/ExpTribo Figure 14 – EHL and hydrodynamic conditions during ro
+ller operation.png Graphic file (type png)
+<use Graphics/ExpTribo Figure 14 – EHL and hydrodynamic conditions during rol
+ler operation.png>
+Package pdftex.def Info: Graphics/ExpTribo Figure 14 – EHL and hydrodynamic c
+onditions during roller operation.png  used on input line 732.
+(pdftex.def)             Requested size: 426.79134pt x 239.28847pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 732--733
+[][] 
+ []
+
+[39 <./Graphics/ExpTribo Figure 13 – Viscous and Boundary Friction at Outer R
+ace Contact.png>]
+<Graphics/ExpTribo Figure 15 - Contact Load Difference Between Dry and Lubricat
+ed Model.png, id=1002, 1589.1872pt x 832.61063pt>
+File: Graphics/ExpTribo Figure 15 - Contact Load Difference Between Dry and Lub
+ricated Model.png Graphic file (type png)
+<use Graphics/ExpTribo Figure 15 - Contact Load Difference Between Dry and Lubr
+icated Model.png>
+Package pdftex.def Info: Graphics/ExpTribo Figure 15 - Contact Load Difference 
+Between Dry and Lubricated Model.png  used on input line 742.
+(pdftex.def)             Requested size: 426.79134pt x 223.60094pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 742--743
+[][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[40 <./Graphics/ExpTribo Figure 14 – EHL and hydrodynamic conditions during r
+oller operation.png>]
+<Graphics/ExpTribo Figure 16a.png, id=1009, 1583.16469pt x 745.28438pt>
+File: Graphics/ExpTribo Figure 16a.png Graphic file (type png)
+<use Graphics/ExpTribo Figure 16a.png>
+Package pdftex.def Info: Graphics/ExpTribo Figure 16a.png  used on input line 7
+53.
+(pdftex.def)             Requested size: 311.55768pt x 146.66609pt.
+<Graphics/ExpTribo Figure 16b.png, id=1010, 1593.70406pt x 746.79pt>
+File: Graphics/ExpTribo Figure 16b.png Graphic file (type png)
+<use Graphics/ExpTribo Figure 16b.png>
+Package pdftex.def Info: Graphics/ExpTribo Figure 16b.png  used on input line 7
+60.
+(pdftex.def)             Requested size: 311.55768pt x 145.9824pt.
+<Graphics/ExpTribo Figure 16c.png, id=1011, 1593.70406pt x 752.0597pt>
+File: Graphics/ExpTribo Figure 16c.png Graphic file (type png)
+<use Graphics/ExpTribo Figure 16c.png>
+Package pdftex.def Info: Graphics/ExpTribo Figure 16c.png  used on input line 7
+67.
+(pdftex.def)             Requested size: 311.55768pt x 147.01253pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[41 <./Graphics/ExpTribo Figure 15 - Contact Load Difference Between Dry and Lu
+bricated Model.png>]
+<Graphics/ExpTribo Figure 17 – Selected Points for Numerical EHL Model.png, i
+d=1018, 963.6pt x 464.937pt>
+File: Graphics/ExpTribo Figure 17 – Selected Points for Numerical EHL Model.p
+ng Graphic file (type png)
+<use Graphics/ExpTribo Figure 17 – Selected Points for Numerical EHL Model.pn
+g>
+Package pdftex.def Info: Graphics/ExpTribo Figure 17 – Selected Points for Nu
+merical EHL Model.png  used on input line 782.
+(pdftex.def)             Requested size: 426.79134pt x 205.92084pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 782--783
+[][] 
+ []
+
+<Graphics/ExpTribo Figure 18a.png, id=1019, 1594.45688pt x 757.32938pt>
+File: Graphics/ExpTribo Figure 18a.png Graphic file (type png)
+<use Graphics/ExpTribo Figure 18a.png>
+Package pdftex.def Info: Graphics/ExpTribo Figure 18a.png  used on input line 7
+93.
+(pdftex.def)             Requested size: 203.5533pt x 96.67667pt.
+<Graphics/ExpTribo Figure 18b.png, id=1020, 1594.45688pt x 757.32938pt>
+File: Graphics/ExpTribo Figure 18b.png Graphic file (type png)
+<use Graphics/ExpTribo Figure 18b.png>
+Package pdftex.def Info: Graphics/ExpTribo Figure 18b.png  used on input line 8
+00.
+(pdftex.def)             Requested size: 203.5533pt x 96.67667pt.
+<Graphics/ExpTribo Figure 18c.png, id=1021, 1594.45688pt x 756.57657pt>
+File: Graphics/ExpTribo Figure 18c.png Graphic file (type png)
+<use Graphics/ExpTribo Figure 18c.png>
+Package pdftex.def Info: Graphics/ExpTribo Figure 18c.png  used on input line 8
+07.
+(pdftex.def)             Requested size: 203.5533pt x 96.58057pt.
+<Graphics/ExpTribo Figure 18d.png, id=1022, 1594.45688pt x 757.32938pt>
+File: Graphics/ExpTribo Figure 18d.png Graphic file (type png)
+<use Graphics/ExpTribo Figure 18d.png>
+Package pdftex.def Info: Graphics/ExpTribo Figure 18d.png  used on input line 8
+14.
+(pdftex.def)             Requested size: 203.5533pt x 96.67667pt.
+<Graphics/ExpTribo Figure 18e.png, id=1023, 1594.45688pt x 753.5653pt>
+File: Graphics/ExpTribo Figure 18e.png Graphic file (type png)
+<use Graphics/ExpTribo Figure 18e.png>
+Package pdftex.def Info: Graphics/ExpTribo Figure 18e.png  used on input line 8
+21.
+(pdftex.def)             Requested size: 203.5533pt x 96.19615pt.
+<Graphics/ExpTribo Figure 18f.png, id=1024, 1594.45688pt x 754.31813pt>
+File: Graphics/ExpTribo Figure 18f.png Graphic file (type png)
+<use Graphics/ExpTribo Figure 18f.png>
+Package pdftex.def Info: Graphics/ExpTribo Figure 18f.png  used on input line 8
+28.
+(pdftex.def)             Requested size: 203.5533pt x 96.29227pt.
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[42 <./Graphics/ExpTribo Figure 16a.png> <./Graphics/ExpTribo Figure 16b.png> <
+./Graphics/ExpTribo Figure 16c.png>]
+Overfull \hbox (50.00626pt too wide) in paragraph at lines 844--861
+ [][] 
+ []
+
+[43 <./Graphics/ExpTribo Figure 17 – Selected Points for Numerical EHL Model.
+png>]
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[44 <./Graphics/ExpTribo Figure 18a.png> <./Graphics/ExpTribo Figure 18b.png> <
+./Graphics/ExpTribo Figure 18c.png> <./Graphics/ExpTribo Figure 18d.png> <./Gra
+phics/ExpTribo Figure 18e.png> <./Graphics/ExpTribo Figure 18f.png>]) [45]
+\openout2 = `Chapters/04_Modelling_Lubricated_Bearings_in_a_Flexible_Multi-Body
+_Dynamic_Environment/Lubricated_FMBD.aux'.
+
+
+(Chapters/04_Modelling_Lubricated_Bearings_in_a_Flexible_Multi-Body_Dynamic_Env
+ironment/Lubricated_FMBD.tex [46
+
+
+
+
+]
+Chapter 4.
+[47] [48] [49]
+
+Package natbib Warning: Citation `Flowchart of models' on page 50 undefined on 
+input line 29.
+
+<Graphics/FlexiTribo Figure 1. Flowchart of Models.png, id=1123, 963.6pt x 542.
+025pt>
+File: Graphics/FlexiTribo Figure 1. Flowchart of Models.png Graphic file (type 
+png)
+<use Graphics/FlexiTribo Figure 1. Flowchart of Models.png>
+Package pdftex.def Info: Graphics/FlexiTribo Figure 1. Flowchart of Models.png 
+ used on input line 32.
+(pdftex.def)             Requested size: 426.79134pt x 240.06314pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 32--33
+[][] 
+ []
+
+<Graphics/FlexiTribo Figure 2. System Level Model Schematic.png, id=1126, 963.6
+pt x 542.025pt>
+File: Graphics/FlexiTribo Figure 2. System Level Model Schematic.png Graphic fi
+le (type png)
+<use Graphics/FlexiTribo Figure 2. System Level Model Schematic.png>
+Package pdftex.def Info: Graphics/FlexiTribo Figure 2. System Level Model Schem
+atic.png  used on input line 42.
+(pdftex.def)             Requested size: 426.79134pt x 240.06314pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 42--43
+[][] 
+ []
+
+[50] [51 <./Graphics/FlexiTribo Figure 1. Flowchart of Models.png>] [52 <./Grap
+hics/FlexiTribo Figure 2. System Level Model Schematic.png>] [53]
+<Graphics/FlexiTribo Figure 3. Bearing Schematic.png, id=1161, 963.6pt x 542.02
+5pt>
+File: Graphics/FlexiTribo Figure 3. Bearing Schematic.png Graphic file (type pn
+g)
+<use Graphics/FlexiTribo Figure 3. Bearing Schematic.png>
+Package pdftex.def Info: Graphics/FlexiTribo Figure 3. Bearing Schematic.png  u
+sed on input line 114.
+(pdftex.def)             Requested size: 426.79134pt x 240.06314pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 114--115
+[][] 
+ []
+
+[54 <./Graphics/FlexiTribo Figure 3. Bearing Schematic.png>]
+<Graphics/FlexiTribo Figure 4. Dry vs Lubricated Roller-Race Contact.png, id=11
+75, 963.6pt x 542.025pt>
+File: Graphics/FlexiTribo Figure 4. Dry vs Lubricated Roller-Race Contact.png G
+raphic file (type png)
+<use Graphics/FlexiTribo Figure 4. Dry vs Lubricated Roller-Race Contact.png>
+Package pdftex.def Info: Graphics/FlexiTribo Figure 4. Dry vs Lubricated Roller
+-Race Contact.png  used on input line 136.
+(pdftex.def)             Requested size: 426.79134pt x 240.06314pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 136--137
+[][] 
+ []
+
+[55 <./Graphics/FlexiTribo Figure 4. Dry vs Lubricated Roller-Race Contact.png>
+] [56]
+<Graphics/FlexiTribo Figure 5. Contact Level Validation.png, id=1212, 1445.4pt 
+x 673.01437pt>
+File: Graphics/FlexiTribo Figure 5. Contact Level Validation.png Graphic file (
+type png)
+<use Graphics/FlexiTribo Figure 5. Contact Level Validation.png>
+Package pdftex.def Info: Graphics/FlexiTribo Figure 5. Contact Level Validation
+.png  used on input line 190.
+(pdftex.def)             Requested size: 426.79134pt x 198.72237pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 190--191
+[][] 
+ []
+
+[57 <./Graphics/FlexiTribo Figure 5. Contact Level Validation.png (PNG copy)>]
+[58] [59]
+<Graphics/FlexiTribo Figure 6. PMSM Torque Profile and Maximum and Minimum Torq
+ue Fluctuation.png, id=1248, 1445.4pt x 673.01437pt>
+File: Graphics/FlexiTribo Figure 6. PMSM Torque Profile and Maximum and Minimum
+ Torque Fluctuation.png Graphic file (type png)
+<use Graphics/FlexiTribo Figure 6. PMSM Torque Profile and Maximum and Minimum 
+Torque Fluctuation.png>
+Package pdftex.def Info: Graphics/FlexiTribo Figure 6. PMSM Torque Profile and 
+Maximum and Minimum Torque Fluctuation.png  used on input line 296.
+(pdftex.def)             Requested size: 426.79134pt x 198.72237pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 296--297
+[][] 
+ []
+
+[60 <./Graphics/FlexiTribo Figure 6. PMSM Torque Profile and Maximum and Minimu
+m Torque Fluctuation.png (PNG copy)>] [61]
+<Graphics/FlexiTribo Figure 7. Rolling Element Contact Stiffness - Dry vs Lubri
+cated Maximum Values.png, id=1259, 1445.4pt x 673.01437pt>
+File: Graphics/FlexiTribo Figure 7. Rolling Element Contact Stiffness - Dry vs 
+Lubricated Maximum Values.png Graphic file (type png)
+<use Graphics/FlexiTribo Figure 7. Rolling Element Contact Stiffness - Dry vs L
+ubricated Maximum Values.png>
+Package pdftex.def Info: Graphics/FlexiTribo Figure 7. Rolling Element Contact 
+Stiffness - Dry vs Lubricated Maximum Values.png  used on input line 362.
+(pdftex.def)             Requested size: 426.79134pt x 198.72237pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 362--363
+[][] 
+ []
+
+<Graphics/FlexiTribo Figure 8. Rolling Element Contact Force - Dry vs Lubricate
+d Percentage Increase.png, id=1261, 1445.4pt x 673.01437pt>
+File: Graphics/FlexiTribo Figure 8. Rolling Element Contact Force - Dry vs Lubr
+icated Percentage Increase.png Graphic file (type png)
+<use Graphics/FlexiTribo Figure 8. Rolling Element Contact Force - Dry vs Lubri
+cated Percentage Increase.png>
+Package pdftex.def Info: Graphics/FlexiTribo Figure 8. Rolling Element Contact 
+Force - Dry vs Lubricated Percentage Increase.png  used on input line 370.
+(pdftex.def)             Requested size: 426.79134pt x 198.72237pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 370--371
+[][] 
+ []
+
+[62 <./Graphics/FlexiTribo Figure 7. Rolling Element Contact Stiffness - Dry vs
+ Lubricated Maximum Values.png (PNG copy)>]
+<Graphics/FlexiTribo Figure 9. Inner Race Stiffness - Dry vs Lubricated Operati
+ng Envelope.png, id=1268, 1445.4pt x 673.01437pt>
+File: Graphics/FlexiTribo Figure 9. Inner Race Stiffness - Dry vs Lubricated Op
+erating Envelope.png Graphic file (type png)
+<use Graphics/FlexiTribo Figure 9. Inner Race Stiffness - Dry vs Lubricated Ope
+rating Envelope.png>
+Package pdftex.def Info: Graphics/FlexiTribo Figure 9. Inner Race Stiffness - D
+ry vs Lubricated Operating Envelope.png  used on input line 378.
+(pdftex.def)             Requested size: 426.79134pt x 198.72237pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 378--379
+[][] 
+ []
+
+<Graphics/FlexiTribo Figure 10. Inner Race Displacement - Dry vs Lubricated Ope
+rating Envelope.png, id=1270, 1445.4pt x 673.01437pt>
+File: Graphics/FlexiTribo Figure 10. Inner Race Displacement - Dry vs Lubricate
+d Operating Envelope.png Graphic file (type png)
+<use Graphics/FlexiTribo Figure 10. Inner Race Displacement - Dry vs Lubricated
+ Operating Envelope.png>
+Package pdftex.def Info: Graphics/FlexiTribo Figure 10. Inner Race Displacement
+ - Dry vs Lubricated Operating Envelope.png  used on input line 386.
+(pdftex.def)             Requested size: 426.79134pt x 198.72237pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 386--387
+[][] 
+ []
+
+[63 <./Graphics/FlexiTribo Figure 8. Rolling Element Contact Force - Dry vs Lub
+ricated Percentage Increase.png (PNG copy)>] [64 <./Graphics/FlexiTribo Figure 
+9. Inner Race Stiffness - Dry vs Lubricated Operating Envelope.png (PNG copy)> 
+<./Graphics/FlexiTribo Figure 10. Inner Race Displacement - Dry vs Lubricated O
+perating Envelope.png (PNG copy)>]
+<Graphics/FlexiTribo Figure 11. Inner Race Acceleration - Dry vs Lubricated Ope
+rating Envelope.png, id=1282, 1445.4pt x 673.01437pt>
+File: Graphics/FlexiTribo Figure 11. Inner Race Acceleration - Dry vs Lubricate
+d Operating Envelope.png Graphic file (type png)
+<use Graphics/FlexiTribo Figure 11. Inner Race Acceleration - Dry vs Lubricated
+ Operating Envelope.png>
+Package pdftex.def Info: Graphics/FlexiTribo Figure 11. Inner Race Acceleration
+ - Dry vs Lubricated Operating Envelope.png  used on input line 394.
+(pdftex.def)             Requested size: 426.79134pt x 198.72237pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 394--395
+[][] 
+ []
+
+<Graphics/FlexiTribo Figure 12. Rolling Element Contact Stiffness - Dry vs Lubr
+icated Minimum Values.png, id=1283, 1445.4pt x 673.01437pt>
+File: Graphics/FlexiTribo Figure 12. Rolling Element Contact Stiffness - Dry vs
+ Lubricated Minimum Values.png Graphic file (type png)
+<use Graphics/FlexiTribo Figure 12. Rolling Element Contact Stiffness - Dry vs 
+Lubricated Minimum Values.png>
+Package pdftex.def Info: Graphics/FlexiTribo Figure 12. Rolling Element Contact
+ Stiffness - Dry vs Lubricated Minimum Values.png  used on input line 400.
+(pdftex.def)             Requested size: 426.79134pt x 198.72237pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 400--401
+[][] 
+ []
+
+[65 <./Graphics/FlexiTribo Figure 11. Inner Race Acceleration - Dry vs Lubricat
+ed Operating Envelope.png (PNG copy)> <./Graphics/FlexiTribo Figure 12. Rolling
+ Element Contact Stiffness - Dry vs Lubricated Minimum Values.png (PNG copy)>]
+<Graphics/FlexiTribo Figure 13. Film Thickness vs Contact Force 21 000 rpm.png,
+ id=1290, 1445.4pt x 673.01437pt>
+File: Graphics/FlexiTribo Figure 13. Film Thickness vs Contact Force 21 000 rpm
+.png Graphic file (type png)
+<use Graphics/FlexiTribo Figure 13. Film Thickness vs Contact Force 21 000 rpm.
+png>
+Package pdftex.def Info: Graphics/FlexiTribo Figure 13. Film Thickness vs Conta
+ct Force 21 000 rpm.png  used on input line 408.
+(pdftex.def)             Requested size: 426.79134pt x 198.72237pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 408--409
+[][] 
+ []
+
+<Graphics/FlexiTribo Figure 14. Film Thickness vs Contact Force 12 500 rpm.png,
+ id=1291, 1445.4pt x 673.01437pt>
+File: Graphics/FlexiTribo Figure 14. Film Thickness vs Contact Force 12 500 rpm
+.png Graphic file (type png)
+<use Graphics/FlexiTribo Figure 14. Film Thickness vs Contact Force 12 500 rpm.
+png>
+Package pdftex.def Info: Graphics/FlexiTribo Figure 14. Film Thickness vs Conta
+ct Force 12 500 rpm.png  used on input line 414.
+(pdftex.def)             Requested size: 426.79134pt x 198.72237pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 414--415
+[][] 
+ []
+
+[66 <./Graphics/FlexiTribo Figure 13. Film Thickness vs Contact Force 21 000 rp
+m.png (PNG copy)> <./Graphics/FlexiTribo Figure 14. Film Thickness vs Contact F
+orce 12 500 rpm.png (PNG copy)>]) [67] [68]
+\openout2 = `Chapters/05_Artificial_Neural_Networks_for_EHL_Film_Thickness_Pred
+ictions/ANN_Lubricated_Bearing_FMBD.aux'.
+
+
+(Chapters/05_Artificial_Neural_Networks_for_EHL_Film_Thickness_Predictions/ANN_
+Lubricated_Bearing_FMBD.tex
+Chapter 5.
+[69
+
+
+
+
+] [70] [71] [72] [73] [74] [75] [76] [77]
+<Graphics/ANN_Explicit_MarianvsGreenwood.png, id=1423, 674.52pt x 505.4082pt>
+File: Graphics/ANN_Explicit_MarianvsGreenwood.png Graphic file (type png)
+<use Graphics/ANN_Explicit_MarianvsGreenwood.png>
+Package pdftex.def Info: Graphics/ANN_Explicit_MarianvsGreenwood.png  used on i
+nput line 230.
+(pdftex.def)             Requested size: 426.79134pt x 319.79698pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 230--231
+[][] 
+ []
+
+[78 <./Graphics/ANN_Explicit_MarianvsGreenwood.png (PNG copy)>] [79] [80]
+[81] [82]
+<Graphics/ANN_Explicit_Bearing Normal Load.png, id=1474, 977.5722pt x 473.1276p
+t>
+File: Graphics/ANN_Explicit_Bearing Normal Load.png Graphic file (type png)
+<use Graphics/ANN_Explicit_Bearing Normal Load.png>
+Package pdftex.def Info: Graphics/ANN_Explicit_Bearing Normal Load.png  used on
+ input line 406.
+(pdftex.def)             Requested size: 373.86668pt x 180.94543pt.
+<Graphics/ANN_Explicit_Bearing Entrainment Velocity.png, id=1475, 973.236pt x 4
+75.0548pt>
+File: Graphics/ANN_Explicit_Bearing Entrainment Velocity.png Graphic file (type
+ png)
+<use Graphics/ANN_Explicit_Bearing Entrainment Velocity.png>
+Package pdftex.def Info: Graphics/ANN_Explicit_Bearing Entrainment Velocity.png
+  used on input line 413.
+(pdftex.def)             Requested size: 373.86668pt x 182.4871pt.
+<Graphics/ANN_Explicit_Bearing Reduced Radius.png, id=1476, 985.7628pt x 489.02
+7pt>
+File: Graphics/ANN_Explicit_Bearing Reduced Radius.png Graphic file (type png)
+<use Graphics/ANN_Explicit_Bearing Reduced Radius.png>
+Package pdftex.def Info: Graphics/ANN_Explicit_Bearing Reduced Radius.png  used
+ on input line 420.
+(pdftex.def)             Requested size: 373.86668pt x 185.46654pt.
+ [83] [84 <./Graphics/ANN_Explicit_Bearing Normal Load.png (PNG copy)> <./Graph
+ics/ANN_Explicit_Bearing Entrainment Velocity.png (PNG copy)> <./Graphics/ANN_E
+xplicit_Bearing Reduced Radius.png (PNG copy)>]
+<Graphics/ANN_Explicit_ActFun_LogSig.jpg, id=1493, 736.4313pt x 118.16145pt>
+File: Graphics/ANN_Explicit_ActFun_LogSig.jpg Graphic file (type jpg)
+<use Graphics/ANN_Explicit_ActFun_LogSig.jpg>
+Package pdftex.def Info: Graphics/ANN_Explicit_ActFun_LogSig.jpg  used on input
+ line 453.
+(pdftex.def)             Requested size: 415.41025pt x 66.65495pt.
+<Graphics/ANN_Explicit_ActFun_Tanh.jpg, id=1494, 736.4313pt x 118.16145pt>
+File: Graphics/ANN_Explicit_ActFun_Tanh.jpg Graphic file (type jpg)
+<use Graphics/ANN_Explicit_ActFun_Tanh.jpg>
+Package pdftex.def Info: Graphics/ANN_Explicit_ActFun_Tanh.jpg  used on input l
+ine 459.
+(pdftex.def)             Requested size: 415.41025pt x 66.65495pt.
+<Graphics/ANN_Explicit_ActFun_ReLU.jpg, id=1495, 736.4313pt x 118.16145pt>
+File: Graphics/ANN_Explicit_ActFun_ReLU.jpg Graphic file (type jpg)
+<use Graphics/ANN_Explicit_ActFun_ReLU.jpg>
+Package pdftex.def Info: Graphics/ANN_Explicit_ActFun_ReLU.jpg  used on input l
+ine 465.
+(pdftex.def)             Requested size: 415.41025pt x 66.65495pt.
+<Graphics/ANN_Explicit_LogSig_600.jpg, id=1496, 736.4313pt x 117.5592pt>
+File: Graphics/ANN_Explicit_LogSig_600.jpg Graphic file (type jpg)
+<use Graphics/ANN_Explicit_LogSig_600.jpg>
+Package pdftex.def Info: Graphics/ANN_Explicit_LogSig_600.jpg  used on input li
+ne 471.
+(pdftex.def)             Requested size: 415.41025pt x 66.31522pt.
+<Graphics/ANN_Explicit_LogSig_1000.jpg, id=1497, 736.4313pt x 117.5592pt>
+File: Graphics/ANN_Explicit_LogSig_1000.jpg Graphic file (type jpg)
+<use Graphics/ANN_Explicit_LogSig_1000.jpg>
+Package pdftex.def Info: Graphics/ANN_Explicit_LogSig_1000.jpg  used on input l
+ine 477.
+(pdftex.def)             Requested size: 415.41025pt x 66.31522pt.
+<Graphics/ANN_Explicit_LogSig_2000.jpg, id=1498, 736.4313pt x 118.16145pt>
+File: Graphics/ANN_Explicit_LogSig_2000.jpg Graphic file (type jpg)
+<use Graphics/ANN_Explicit_LogSig_2000.jpg>
+Package pdftex.def Info: Graphics/ANN_Explicit_LogSig_2000.jpg  used on input l
+ine 483.
+(pdftex.def)             Requested size: 415.41025pt x 66.65495pt.
+<Graphics/ANN_Explicit_LogSig_5000.jpg, id=1499, 736.4313pt x 118.16145pt>
+File: Graphics/ANN_Explicit_LogSig_5000.jpg Graphic file (type jpg)
+<use Graphics/ANN_Explicit_LogSig_5000.jpg>
+Package pdftex.def Info: Graphics/ANN_Explicit_LogSig_5000.jpg  used on input l
+ine 489.
+(pdftex.def)             Requested size: 415.41025pt x 66.65495pt.
+<Graphics/ANN_Explicit_600_Rval.png, id=1500, 528.0528pt x 520.8258pt>
+File: Graphics/ANN_Explicit_600_Rval.png Graphic file (type png)
+<use Graphics/ANN_Explicit_600_Rval.png>
+Package pdftex.def Info: Graphics/ANN_Explicit_600_Rval.png  used on input line
+ 496.
+(pdftex.def)             Requested size: 203.5533pt x 200.76888pt.
+<Graphics/ANN_Explicit_1000_Rval.png, id=1501, 529.0164pt x 520.8258pt>
+File: Graphics/ANN_Explicit_1000_Rval.png Graphic file (type png)
+<use Graphics/ANN_Explicit_1000_Rval.png>
+Package pdftex.def Info: Graphics/ANN_Explicit_1000_Rval.png  used on input lin
+e 503.
+(pdftex.def)             Requested size: 203.5533pt x 200.40332pt.
+<Graphics/ANN_Explicit_2000_Rval.png, id=1502, 528.0528pt x 520.8258pt>
+File: Graphics/ANN_Explicit_2000_Rval.png Graphic file (type png)
+<use Graphics/ANN_Explicit_2000_Rval.png>
+Package pdftex.def Info: Graphics/ANN_Explicit_2000_Rval.png  used on input lin
+e 510.
+(pdftex.def)             Requested size: 203.5533pt x 200.76888pt.
+<Graphics/ANN_Explicit_5000_Rval.png, id=1503, 528.0528pt x 520.8258pt>
+File: Graphics/ANN_Explicit_5000_Rval.png Graphic file (type png)
+<use Graphics/ANN_Explicit_5000_Rval.png>
+Package pdftex.def Info: Graphics/ANN_Explicit_5000_Rval.png  used on input lin
+e 517.
+(pdftex.def)             Requested size: 203.5533pt x 200.76888pt.
+
+
+LaTeX Warning: Reference `w' on page 85 undefined on input line 533.
+
+<Graphics/ANN_Explicit Film Thickness Comparisons.png, id=1506, 1003.5894pt x 4
+88.5452pt>
+File: Graphics/ANN_Explicit Film Thickness Comparisons.png Graphic file (type p
+ng)
+<use Graphics/ANN_Explicit Film Thickness Comparisons.png>
+Package pdftex.def Info: Graphics/ANN_Explicit Film Thickness Comparisons.png  
+used on input line 538.
+(pdftex.def)             Requested size: 426.79134pt x 207.75941pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 538--539
+[][] 
+ []
+
+[85 <./Graphics/ANN_Explicit_ActFun_LogSig.jpg> <./Graphics/ANN_Explicit_ActFun
+_Tanh.jpg> <./Graphics/ANN_Explicit_ActFun_ReLU.jpg>] [86 <./Graphics/ANN_Expli
+cit_LogSig_600.jpg> <./Graphics/ANN_Explicit_LogSig_1000.jpg> <./Graphics/ANN_E
+xplicit_LogSig_2000.jpg> <./Graphics/ANN_Explicit_LogSig_5000.jpg>] [87 <./Grap
+hics/ANN_Explicit_600_Rval.png (PNG copy)> <./Graphics/ANN_Explicit_1000_Rval.p
+ng (PNG copy)> <./Graphics/ANN_Explicit_2000_Rval.png (PNG copy)> <./Graphics/A
+NN_Explicit_5000_Rval.png (PNG copy)>]) [88 <./Graphics/ANN_Explicit Film Thick
+ness Comparisons.png (PNG copy)>] [89]
+\openout2 = `Chapters/06_Implicit_Bearing_EHL_Film_Thickness_Predictions_Using_
+an_Artificial_Neural_Network_at_System_Level/ANN_System_Level.aux'.
+
+
+(Chapters/06_Implicit_Bearing_EHL_Film_Thickness_Predictions_Using_an_Artificia
+l_Neural_Network_at_System_Level/ANN_System_Level.tex [90
+
+
+
+
+]
+Chapter 6.
+) [91]
+\openout2 = `Chapters/07_Conclusions/Conclusions.aux'.
+
+ (Chapters/07_Conclusions/Conclusions.tex [92
+
+
+
+
+]
+Chapter 7.
+) [93] (Master.bbl [94
+
+
+
+] [95] [96] [97]
+Underfull \hbox (badness 10000) in paragraph at lines 207--213
+\T1/ptm/m/n/12 (+20) article / 101 / 3 / 305 / 410221 / Dynamics-[]of-[]Rolling
+Element-[]BearingsPart-[]IIhttps :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--213
+\T1/ptm/m/n/12 (+20) / / asmedigitalcollection . asme . org / tribology / artic
+le / 101 / 3 / 293 / 410262 /
+ []
+
+[98] [99] [100] [101]
+Underfull \hbox (badness 1205) in paragraph at lines 515--518
+[]\T1/ptm/m/n/12 (+20) D. Dow-son and G. R. Hig-gin-son, ``A nu-mer-i-cal so-lu
+-tion to the elasto-
+ []
+
+[102] [103] [104]) [105]
+\openout2 = `Chapters/Appendix/Appendix1.aux'.
+
+ (Chapters/Appendix/Appendix1.tex [106
+
+
+]
+Appendix A.
+) [107]
+
+Package natbib Warning: There were undefined citations.
+
+(Master.aux (Acknowledgement/acknowledgement.aux) (Abstract/abstract.aux)
+(Nomenclature/nomenclature_new.aux) (Nomenclature/list_of_abbreviations.aux)
+(Publications/Publications.aux) (Chapters/01_Introduction/Introduction.aux)
+(Chapters/02_Literature_Review/Literature_Review.aux)
+(Chapters/03_Investigating_the_Effect_of_Lubrication_on_the_Tribodynamic_Behavi
+our_of_High-Speed_Roller_Bearings/Experimental_and_Numerical_Tribodynamics.aux)
+
+(Chapters/04_Modelling_Lubricated_Bearings_in_a_Flexible_Multi-Body_Dynamic_Env
+ironment/Lubricated_FMBD.aux)
+(Chapters/05_Artificial_Neural_Networks_for_EHL_Film_Thickness_Predictions/ANN_
+Lubricated_Bearing_FMBD.aux)
+(Chapters/06_Implicit_Bearing_EHL_Film_Thickness_Predictions_Using_an_Artificia
+l_Neural_Network_at_System_Level/ANN_System_Level.aux)
+(Chapters/07_Conclusions/Conclusions.aux) (Chapters/Appendix/Appendix1.aux))
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `Master.out' has not changed.
+(rerunfilecheck)             Checksum: 120FB70C6B8965EABF80D670CCC483FF;13706.
+ ) 
+Here is how much of TeX's memory you used:
+ 25885 strings out of 474485
+ 533991 string characters out of 5743262
+ 1951542 words of memory out of 5000000
+ 46781 multiletter control sequences out of 15000+600000
+ 624456 words of font info for 304 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 125i,13n,121p,1790b,1250s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\u28z01\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ect
+t1200.pk><C:/Users/u28z01/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmex10.pfb><C:/Users/u28z01/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb><C:/Users/u28z01/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/u28z01/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/u28z01/AppData/Local/
+Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/u28z01/AppData/Local/
+Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/u28z01/AppData/Local/
+Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/u28z01/AppData/Local
+/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/u28z01/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Master.pdf (129 pages, 11867593 bytes).
+PDF statistics:
+ 1837 PDF objects out of 2073 (max. 8388607)
+ 544 named destinations out of 1000 (max. 500000)
+ 64273 words of extra memory for PDF output out of 74296 (max. 10000000)
+

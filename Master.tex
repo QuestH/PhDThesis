@@ -1,0 +1,81 @@
+% ******************************* PhD Thesis Template **************************
+% Please have a look at the README.md file for info on how to use the template
+\documentclass[a4paper,12pt,times,numbered,print,index,custommargin]{Classes/PhDThesisPSnPDF}
+
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{nomencl}
+\makenomenclature
+
+% ********************************** Preamble **********************************
+% Preamble: Contains packages and user-defined commands and settings
+\input{Preamble/preamble}
+
+% ************************ Thesis Information & Meta-data **********************
+% Thesis title and author information, refernce file for biblatex
+\input{Title/thesis-info}
+
+% ***************************** Abstract Separate ******************************
+% To printout only the titlepage and the abstract with the PhD title and the
+% author name for submission to the Student Registry, use the `abstract' option in
+% the document class.
+
+\ifdefineAbstract
+	\includeonly{Declaration/declaration, Abstract/abstract}
+\fi
+
+% ***************************** Chapter Mode ***********************************
+% The chapter mode allows user to only print particular chapters with references
+% Title, Contents, Frontmatter are disabled by default
+% Useful option to review a particular chapter or to send it to supervisior.
+% To use choose `chapter' option in the document class
+
+\ifdefineChapter
+	\includeonly{,References/Bib}
+\fi
+
+% ******************************** Front Matter ********************************
+\begin{document}
+
+\frontmatter
+
+\maketitle
+
+%\include{Dedication/dedication}
+%\include{Declaration/declaration}
+\include{Acknowledgement/acknowledgement}
+\include{Abstract/abstract}
+
+% *********************** Adding TOC and List of Figures ***********************
+
+\tableofcontents
+
+\listoffigures
+
+\listoftables
+
+\include{Nomenclature/nomenclature_new}
+
+\include{Nomenclature/list_of_abbreviations}
+
+\include{Publications/Publications}
+
+\mainmatter
+
+\include{Chapters/01_Introduction/Introduction}
+\include{Chapters/02_Literature_Review/Literature_Review}
+\include{Chapters/03_Investigating_the_Effect_of_Lubrication_on_the_Tribodynamic_Behaviour_of_High-Speed_Roller_Bearings/Experimental_and_Numerical_Tribodynamics}
+\include{Chapters/04_Modelling_Lubricated_Bearings_in_a_Flexible_Multi-Body_Dynamic_Environment/Lubricated_FMBD}
+\include{Chapters/05_Artificial_Neural_Networks_for_EHL_Film_Thickness_Predictions/ANN_Lubricated_Bearing_FMBD}
+\include{Chapters/06_Implicit_Bearing_EHL_Film_Thickness_Predictions_Using_an_Artificial_Neural_Network_at_System_Level/ANN_System_Level}
+\include{Chapters/07_Conclusions/Conclusions}
+
+\bibliography{Literature/library.bib}
+
+\begin{appendices} % Using appendices environment for more functunality
+	\include{Chapters/Appendix/Appendix1}
+%	\include{Appendix2/appendix2}
+%	\include{Appendix3/appendix3}
+\end{appendices}
+
+\end{document}
