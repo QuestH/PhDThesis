@@ -3,46 +3,49 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Roller-race model for line contact \cite {Zaretsky2016}\relax }}{13}{figure.2.1}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Ball-race model for point contact \cite {Zaretsky2016}\relax }}{13}{figure.2.2}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Hertzian Contact Deflection\relax }}{14}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Effect of dimensionless inlet distance on film thickness for starvation modelling \cite {Hamrock1976}\relax }}{19}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces EHL film and pressure distribution \cite {Larsson2013}\relax }}{21}{figure.2.5}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Stribeck curve and specific film thickness ($\lambda $) \cite {Ali2015}\relax }}{23}{figure.2.6}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Methodology Overview.\relax }}{16}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Cylindrical roller bearing in equilibrium position.\relax }}{17}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Mutual separation and convergence of inner and outer races.\relax }}{18}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces EHL film thickness and pressure distribution at contact.\relax }}{19}{figure.3.4}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Experimental rig schematic.\relax }}{20}{figure.3.5}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Accelerometer locations on test bracket.\relax }}{21}{figure.3.6}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Laser vibrometer locations on shaft.\relax }}{21}{figure.3.7}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Validation of dimensionless pressure distribution, present model (solid), Masjedi and Khonsari (dashed).\relax }}{35}{figure.3.8}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Validation of dimensionless film thickness distribution, present model (solid), Masjedi and Khonsari (dashed)\relax }}{36}{figure.3.9}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Bearing bore displacement frequency spectra.\relax }}{38}{figure.3.10}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Shaft displacement frequency spectra.\relax }}{38}{figure.3.11}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Contact load and film thickness - Outer race.\relax }}{39}{figure.3.12}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Film and load - EHL to hydrodynamic regime.\relax }}{40}{figure.3.13}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Viscous and boundary friction at the outer race contact.\relax }}{41}{figure.3.14}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces EHL and hydrodynamic conditions during roller operation. Key: IR = Iso-viscous Rigid, VR = Viscous Rigid, VE = Viscous Elastic, IE = Iso-viscous Elastic.\relax }}{42}{figure.3.15}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Contact load difference between dry and lubricated model.\relax }}{43}{figure.3.16}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Dry and lubricated model load difference: a) 3\nobreakspace {}050\nobreakspace {}$rpm$, b) 14\nobreakspace {}135\nobreakspace {}$rpm$, c) 14\nobreakspace {}855\nobreakspace {}$rpm$.\relax }}{44}{figure.3.17}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Selected points for the numerical EHL model.\relax }}{45}{figure.3.18}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces EHL pressure and film thickness distributions: a) Node 1, b) Node 2, c) Node 3, d) Node 4, e) Node 5, f) Node 6\relax }}{46}{figure.3.19}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Methodology Overview.\relax }}{26}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Cylindrical roller bearing in equilibrium position.\relax }}{27}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Mutual separation and convergence of inner and outer races.\relax }}{28}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces EHL film thickness and pressure distribution at contact.\relax }}{29}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Experimental rig schematic.\relax }}{30}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Accelerometer locations on test bracket.\relax }}{31}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Laser vibrometer locations on shaft.\relax }}{31}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Validation of dimensionless pressure distribution, present model (solid), Masjedi and Khonsari (dashed).\relax }}{45}{figure.3.8}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Validation of dimensionless film thickness distribution, present model (solid), Masjedi and Khonsari (dashed)\relax }}{46}{figure.3.9}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Bearing bore displacement frequency spectra.\relax }}{48}{figure.3.10}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Shaft displacement frequency spectra.\relax }}{48}{figure.3.11}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Contact load and film thickness - Outer race.\relax }}{49}{figure.3.12}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Film and load - EHL to hydrodynamic regime.\relax }}{50}{figure.3.13}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Viscous and boundary friction at the outer race contact.\relax }}{51}{figure.3.14}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces EHL and hydrodynamic conditions during roller operation. Key: IR = Iso-viscous Rigid, VR = Viscous Rigid, VE = Viscous Elastic, IE = Iso-viscous Elastic.\relax }}{52}{figure.3.15}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Contact load difference between dry and lubricated model.\relax }}{53}{figure.3.16}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Dry and lubricated model load difference: a) 3\nobreakspace {}050\nobreakspace {}$rpm$, b) 14\nobreakspace {}135\nobreakspace {}$rpm$, c) 14\nobreakspace {}855\nobreakspace {}$rpm$.\relax }}{54}{figure.3.17}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Selected points for the numerical EHL model.\relax }}{55}{figure.3.18}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces EHL pressure and film thickness distributions: a) Node 1, b) Node 2, c) Node 3, d) Node 4, e) Node 5, f) Node 6\relax }}{56}{figure.3.19}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Flowchart of models.\relax }}{53}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces System level model schematic.\relax }}{54}{figure.4.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Bearing schematic.\relax }}{56}{figure.4.3}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Dry vs lubricated roller-race contact.\relax }}{57}{figure.4.4}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Contact level validation.\relax }}{59}{figure.4.5}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces PMSM torque profile and maximum and minimum torque fluctuation.\relax }}{62}{figure.4.6}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Rolling element contact stiffness - Dry vs lubricated maximum values.\relax }}{64}{figure.4.7}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Rolling element contact force - Dry vs lubricated percentage increase.\relax }}{65}{figure.4.8}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Inner race stiffness - Dry vs lubricated operating envelope.\relax }}{66}{figure.4.9}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Inner race displacement - Dry vs lubricated operating envelope.\relax }}{66}{figure.4.10}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Inner race acceleration - Dry vs lubricated operating envelope.\relax }}{67}{figure.4.11}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Rolling element contact stiffness - Dry vs lubricated minimum values.\relax }}{67}{figure.4.12}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Film thickness vs contact force 21\nobreakspace {}000\nobreakspace {}$\mathrm {rpm}$.\relax }}{68}{figure.4.13}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Film thickness vs contact force 12\nobreakspace {}500\nobreakspace {}$\mathrm {rpm}$.\relax }}{68}{figure.4.14}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Flowchart of models.\relax }}{63}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces System level model schematic.\relax }}{64}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Bearing schematic.\relax }}{66}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Dry vs lubricated roller-race contact.\relax }}{67}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Contact level validation.\relax }}{69}{figure.4.5}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces PMSM torque profile and maximum and minimum torque fluctuation.\relax }}{72}{figure.4.6}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Rolling element contact stiffness - Dry vs lubricated maximum values.\relax }}{74}{figure.4.7}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Rolling element contact force - Dry vs lubricated percentage increase.\relax }}{75}{figure.4.8}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Inner race stiffness - Dry vs lubricated operating envelope.\relax }}{76}{figure.4.9}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Inner race displacement - Dry vs lubricated operating envelope.\relax }}{76}{figure.4.10}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Inner race acceleration - Dry vs lubricated operating envelope.\relax }}{77}{figure.4.11}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Rolling element contact stiffness - Dry vs lubricated minimum values.\relax }}{77}{figure.4.12}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Film thickness vs contact force 21\nobreakspace {}000\nobreakspace {}$\mathrm {rpm}$.\relax }}{78}{figure.4.13}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Film thickness vs contact force 12\nobreakspace {}500\nobreakspace {}$\mathrm {rpm}$.\relax }}{78}{figure.4.14}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Greenwood informed training data vs Marian et al. \cite {Marian2022}.\relax }}{80}{figure.5.1}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Individual rolling element input values to ANN : a) Contact load, b) Contact entrainment velocity, c) Contact reduced radius\relax }}{86}{figure.5.2}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces $10-[14-14-14]_3-1$ using Hyperbolic Tangent activation function : a) 600 points, b) 1000 points, c) 2000 points, d) 5000 points\relax }}{89}{figure.5.3}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces ANN, numerical and analytical central film thickness comparisons.\relax }}{90}{figure.5.4}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Greenwood informed training data vs Marian et al. \cite {Marian2022}.\relax }}{90}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Individual rolling element input values to ANN : a) Contact load, b) Contact entrainment velocity, c) Contact reduced radius\relax }}{96}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces $10-[14-14-14]_3-1$ using Hyperbolic Tangent activation function : a) 600 points, b) 1000 points, c) 2000 points, d) 5000 points\relax }}{99}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces ANN, numerical and analytical central film thickness comparisons.\relax }}{100}{figure.5.4}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
