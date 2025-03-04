@@ -31,7 +31,7 @@ With a trend towards cost saving zero-prototype development, the use of simulati
 \subsection{Numerical EHL Model}
 
 Reynold’s equation \cite{Reynolds1886} is the governing equation of fluid film lubrication theory. For Newtonian fluids it can be derived from the full Navier-Stokes equations making the following assumptions, primarily the neglection of inertial forces and only retaining viscous forces on the lubricant \cite{Gohar1988}:
-\begin{enumerate} % REQUIRES DIRECTIONS ADDING
+\begin{enumerate} % TODO REQUIRES DIRECTIONS ADDING
 	\item Body forces are negligible (mass of film is negligible)
 	\item Pressure is constant through the lubricant film (z-direction) due to thin film (dimensions of the region of pressure are typically 100 times the central film thickness).
 	\item No slip at boundaries
@@ -124,3 +124,49 @@ The final form of the equation is therefore:
 \subsection{Finite Difference Formulation}
 
 For finite difference formulation, the central difference formula based on Taylor series expansion \cite{Hoffmann2000} is used. The second derivative of pressure using second order central discretization for the spatial domain is therefore:
+
+\begin{equation}\label{eq1.15}
+	\frac{\partial^2 P}{\partial X^2}=\frac{P_{i-1}-2 P_i+P_{i+1}}{\Delta X^2}
+\end{equation}
+
+and the first derivative is given by:
+
+\begin{equation}\label{eq1.16}
+	\frac{\partial P}{\partial X}=\frac{P_{i+1}-P_{i-1}}{2 \Delta X}
+\end{equation}
+
+Replacing terms in the final form of the discretized Reynolds equation:
+
+\begin{equation}\label{eq1.17}
+	\frac{P_{i-1}-2 P_i+P_{i+1}}{\Delta X^2}+\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{3}{H} \frac{\partial H}{\partial X}-\frac{3}{2 \bar{\eta}} \frac{\partial \bar{\eta}}{\partial X}\right] \frac{P_{i+1}-P_{i-1}}{2 \Delta X}-\frac{6 \bar{\eta}}{H^2}\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{1}{H} \frac{\partial H}{\partial X}\right] \Psi U=0
+\end{equation}
+
+\begin{equation}\label{eq1.18}
+	\frac{P_{i-1}+P_{i+1}}{\Delta X^2}+\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{3}{H} \frac{\partial H}{\partial X}-\frac{3}{2 \bar{\eta}} \frac{\partial \bar{\eta}}{\partial X}\right] \frac{P_{i+1}-P_{i-1}}{2 \Delta X}-\frac{6 \bar{\eta}}{H^2}\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{1}{H} \frac{\partial H}{\partial X}\right] \Psi U=\frac{2 P_i}{\Delta X^2}
+\end{equation}
+
+Pressure at each node points can then be represented by:
+
+\begin{equation}\label{eq1.19}
+	P_i=\frac{\frac{P_{i-1}+P_{i+1}}{\Delta X^2}+\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{3}{H} \frac{\partial H}{\partial X}-\frac{3}{2 \bar{\eta}} \frac{\partial \bar{\eta}}{\partial X}\right] \frac{P_{i+1}-P_{i-1}}{2 \Delta X}-\frac{6 \bar{\eta}}{H^2}\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{1}{H} \frac{\partial H}{\partial X}\right] \Psi U}{2\left(\frac{1}{\Delta X^2}\right)}	
+\end{equation}
+
+Simplified to:
+
+\begin{equation}\label{eq1.20}
+	P_i=\frac{P_{x x}+P_x-E}{2\left(\frac{1}{\Delta X^2}\right)}
+\end{equation}
+
+where
+
+\begin{equation}\label{eq1.21}
+	P x x=\frac{P_{i-1}+P_{i+1}}{\Delta X^2}
+\end{equation}
+
+\begin{equation}\label{eq1.22}
+	P x=\frac{P_{i+1}-P_{i-1}}{2 \Delta X}\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{3}{H} \frac{\partial H}{\partial X}-\frac{3}{2 \bar{\eta}} \frac{\partial \bar{\eta}}{\partial X}\right]
+\end{equation}
+
+\begin{equation}\label{eq1.23}
+	E=\frac{6 \bar{\eta}}{H^2}\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{1}{H} \frac{\partial H}{\partial X}\right] \Psi U
+\end{equation}

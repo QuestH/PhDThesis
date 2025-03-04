@@ -41,19 +41,68 @@ Film shape and the elastohydrodynamic pressure profile at the contact could not 
 
 These lubricated dynamic models were performed for low shaft rotational speed. In Mohammadpour’s analysis, input shaft speeds of 209 rad/s resulted in much slower entrainment velocities than in EV case studies. The rollers and races were also considered rigid in these investigations. Thus far, tribo-dynamic models have not been found that model the bearing races as flexible bodies or at high speeds.
 
-\subsection{Contact Mechanics}
+\subsection{Hertzian Contact Mechanics}
 
-\begin{figure}[H]
+Two types of contacts occur in machine elements: conformal and non-conformal. Conformal contacts occur between a concave and a convex body of similar radius, such as in journal bearings. This leads to a relatively large contact area over which load can be distributed and resultant pressures are in the order of MPa. The contact between rolling elements and races is non-conformal in nature as the contacting surfaces are both convex. This type of contact creates a very small contact region over which force is transmitted, leading to very high contact pressures being generated in the order of GPa. Under these pressures, the contact surfaces deform elastically. In the case of a lubricated contact, a lubricant film forms in between the contacting surfaces in the order of microns (typically < $2 \mu \mathrm{m}$) \cite{Gohar2018}. Non-conformal contacts are typically found in rolling element bearings, gear contacts and cam follower pairs.
+
+A fundamental aspect of these contacts is that the approach of the bodies under external load leads to the deformation of both bodies and the emergence of a contact patch. For two cylinders in contact with their axes parallel, a rectangular or line contact is formed along the length of the cylinders with width $2b$ (see Figure \ref{LineContact}). An elliptical point contact results from contacting bodies that have different radii along both principal axes \cite{Johnson1985} (see Figure \ref{PointContact}). In the case of cylindrical elements, such as those in NRBs, CRBs and TRBs, the mutual approach of the roller and race forms a line contact. Spherical elements, such as those found in DGBBs and ACBBs, generate an elliptical contact at their conjunction with the raceway
+
+\begin{figure}
+	\centerline{\includegraphics[width=125 mm]{LineContact.png}}
+	\caption{Roller-race model for line contact \cite{Zaretsky2016}}
+	\label{LineContact}
+\end{figure}
+
+\begin{figure}
 	\centerline{\includegraphics[width=125 mm]{PointContact.png}}
 	\caption{Ball-race model for point contact \cite{Zaretsky2016}}
 	\label{PointContact}
 \end{figure}
 
-\begin{figure}[H]
-	\centerline{\includegraphics[width=125 mm]{LineContact.png}}
-	\caption{Roller-race model for line contact \cite{Zaretsky2016}}
-	\label{BCGAnalysis}
+Two cylinders with radii $R_1$ and $R_2$ contacting in a non-conformal manner can be simplified as a rigid cylinder in contact with an elastic half-space. This cylinder, as represented in Figure \ref{LineContact}, has a radius known as the reduced radius, $R^{\prime}$:
+
+\begin{equation}\label{eq2.1}
+	\frac{1}{R^{\prime}}=\frac{1}{R_1}+\frac{1}{R_2}
+\end{equation}
+
+The material properties of the two bodies are evaluated in a similar way. The elastic modulus, $E$ and Poisson's ratio, $v$, of both bodies are combined to calculate the reduced elastic modulus:
+
+\begin{equation}\label{eq2.2}
+	\frac{1}{E^{\prime}}=\frac{1}{2}\left(\frac{1-v_1^2}{E_1}+\frac{1-v_2^2}{E_2}\right)
+\end{equation}
+
+According to Hertz's theory of elastostatic solids in contact \cite{Hertz1881}, assuming the contact is frictionless, when load is applied to the cylinder it will experience very small strains. The amount that the cylinder deflects is much smaller than the radius of the cylinder, that is $\delta \ll R^{\prime}$. The total area of the contact is also much smaller than the radius of the cylinder $a \ll R^{\prime}$ (exaggerated in \ref{HertzianContactDeflection}). For example, a cylinder with a radius in order of $mm$ will have a contact width of a few tenths of a $mm$ and deflection a few tenths of a micron ( $\delta<a \ll$ $\left.R^{\prime}\right)$.
+
+\begin{figure}
+	\centerline{\includegraphics[width=100 mm]{Hertzian_Contact_Deflection.png}}
+	\caption{Hertzian Contact Deflection}
+	\label{HertzianContactDeflection}
 \end{figure}
 
-Rolling bearing life prediction, theory, and
-application Erwin V. Zaretsky
+The value of the deflection determines the stiffness of the contact and the displacement of the inner bearing race with respect to the outer. The contact area determines the contact pressures and hence maximum sub-surface stresses. Excessive sub-surface stress could lead to inelastic deformation and subsequent fatigue spalling.
+
+Analytical formulae provide a way of calculating the dimensions of the contact patch, $b$, and the resultant maximum Hertzian pressure, $P_h$ given a known force, $w$, material properties and geometry of bodies. For the case of the line contact these are:
+
+\begin{equation}\label{eq2.3}
+	b=\sqrt{\frac{8 w R_{z x}}{\pi E_r}}
+\end{equation}
+
+\begin{equation}\label{eq2.4}
+	P_h=\sqrt{\frac{2 w}{\pi b}}
+\end{equation}
+
+where $w$ is load per unit length.
+
+\subsection{Elastohydrodynamic Lubrication}
+
+Under the EHL regime, both the elastic deformation of the solids in contacts as well as hydrodynamic theory are considered. Elastic bodies in contact for the case of ellipsoidal contacts was first investigated by Hertz in 1881 [6], allowing him to obtain the pressure distribution within an ellipsoidal contact. Separate studies on hydrodynamic lubrication were being performed by Reynolds in 1886 [7], based on a simplified version of the Navier-Stokes equation. It took a further 30 years before the two studies would be combined.
+
+Early EHL studies began in 1916 when the pioneering work by Reynolds was applied to a simplified model of a gear-tooth contact by Martin [8]; replicated as two contacting cylinders. This analysis assumed that the solid bodies were rigid and the lubricant to behave with constant viscosity (ie. a hydrodynamic analysis). The resultant pressures were too high and the film thickness so low (1-10nm) that coverage of asperities (typical order of 100nm for machined gear teeth) was not possible. This contradicted experimental findings where machining tracks on high-speed gear tooth flanks were still visible after prolonged usage, which could only be explained by the presence of a sufficient lubricant film.
+
+Between the 1930’s and 1950’s, significant research was performed to include both the elastic deformation of the surfaces and the effect of pressure on viscosity. Peppler [9] and Meldahl [10] both included the effects of surface deformation for non-conformal contacts, with Gatcombe [11] amongst others investigating viscosity increase due to the high pressure in the contact area. Typical EHL pressures are in the range of 0.5-4GPa and the resulting piezo-viscous properties were found to be partially instrumental to forming the film.
+
+Considered the origin of EHL, Grubin’s pioneering work in 1949 [12] combined both elastic deformation and viscosity increase under pressure in film thickness calculations for the first time. In this analysis, he assumed that the deformed surface profiles in a highly loaded lubricated contact matched those produced in a classic dry Hertzian contact of the same materials and loading conditions. Reynolds equation could then be solved at the inlet region of the contact and a more accurate determination of the separation of the solids in the central region was found. This led to a film thickness in the predicted range (an order higher than Martin’s theory) and a more realistic pressure distribution than previous work. This pioneering study formed the basis for future EHL studies.
+
+The first numerical solution of the line contact problem was presented shortly after by Petrusevich [13] which agreed with Grubin’s main conclusions. It contained the three main features of an EHL contact: a nearly parallel film in the contact zone with local constriction at the exit, a Hertzian pressure profile, and secondary local maximum pressure or ‘spike’ at the outlet (see Figure 6). In 1959, Dowson and Higginson [14] presented their numerical solution to the isothermal line contact EHL problem. Their iterative inverse method enabled the evaluation of film thickness and pressure distribution for line contact problems for lightly loaded cases. Throughout the 1960s, the authors investigated the effects of variables such as dimensionless surface velocity, materials parameter and load on EHL solutions. The authors then curve fitted their results and generated an empirical formula for isothermal line contacts [15], which was then improved upon by Dowson [16] and Dowson and Toyoda [17]. The formulae predict the minimum film thickness as a function of the rolling velocity, load and material parameters.
+
+Empirical formulae are widely used today for analytical calculations that do not require the computational intensity of a full numerical solution. They are, however, somewhat limited to the operating parameters used in original simulations and do not offer the capabilities of a full numerical solution such as the modelling of inlet starvation at high speeds.
