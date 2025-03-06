@@ -1,72 +1,47 @@
 \chapter{Introduction} \label{Introduction}
 
-The automotive industry is currently transitioning into the next phase of powertrain technology. As automotive manufacturers are forced to meet tightening fleet-wide emissions regulations, the electrified vehicle market share is increasing. The EU has established policy \cite{EUL110/5} that requires all new cars and vans sold in Europe to be zero-emission by 2035 as part of a broader strategy for a climate-neutral EU by 2050.
+The automotive industry is transitioning into the next phase of powertrain technology. As automotive manufacturers are forced to meet tightening fleet-wide emissions regulations, the electrified vehicle market share is increasing. The European Union (EU) has established ambitious policy \cite{EUL110/5}, mandating that all new cars and vans sold in Europe be zero-emission by 2035 as part of a broader strategy to achieve climate neutrality by 2050. The EU aims to have electrified vehicles - both Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) - make up 80 \% of its automotive market share by 2030. In China, government subsidies and investment in battery technology is also yielding a rapid advancement in electrified vehicle adoption - primarily in the passenger car segment. Whilst the industry remains susceptible geopolitical and market influences, one thing is clear - future powertrains will rely on electrification, either partially or entirely.
 
-EU overwhelming market share of 80\% by 2030 
+To achieve high-efficiency and adhere to packaging constraints, modern electrified powertrains utilize ultra-high speed and low load motors. These motors introduce new challenges regarding NVH (Noise, Vibration and Harshness) and the tribology of interacting conjunctions. The compact, lightweight and efficient motors operate under significantly different working conditions and are subject to different underlying physics; such as regime of lubrication, dynamic response and magneto-mechanical interactions. This style of powertrain architecture therefore involves high-speed rolling element bearing operation in both the motor and transmission.
 
-BEV PHEV 
-
-The type and 
-
-Recent EU stagnation in the market, due in part to uncertainty surrounding emission rules. - push toward hybrid.
-
-nevertheless, changing industry and a move towards more complex powertrains, incorporating electrified components. High speed. 
-
-Europe - ambitious climate policies and stringent emissions legislation. Competition with Chinese subsidised markets
-
-China, electrified passenger car segment is domination 
-
-Investment in battery technology is advancing the growth of 
-
-Whilst the industry is susceptible geopolitical and market influences, one thing is clear - future powertrains will rely either in whole or in part on electrification.
-
-
-The use of ultra-high speed and low load motors introduces new challenges regarding NVH (Noise, Vibration and Harshness) and the tribology of interacting conjunctions. The compact, lightweight and efficient motors operate under significantly different working conditions and are subject to different underlying physics; such as regime of lubrication, dynamic response and magneto-mechanical interactions. This style of powertrain architecture therefore involves high-speed bearing operation in both the motor and transmission.
-
-With a trend towards cost saving zero-prototype development, the use of simulation tools in modern powertrain development is also growing. Significant cost reductions can be achieved using commercial flexible multi-body dynamic solvers to replicate system level operation of these vehicles. Multi-system vehicle powertrain concepts are pushing complexity of simulation models and this requires accurate and robust component level understanding. Associated performance characteristics of the bearings such as friction and wear, thermal stability and generated vibration and noise must be accurately modelled at the development stage to ensure full system success \cite{Wensing1972a}. 
-
-Simulating electrified powertrains using flexible multi-body dynamic (FMBD) models can enable substantial cost and time savings for automotive manufacturers due to a reduced need for physical prototyping. With increasing complexity and operational speeds of these systems, the accuracy at the component level is of major importance. Bearings are crucial structural components and their dynamic response significantly affects the behaviour of the interconnected structures.
-
-
+Bearings are crucial structural components and their dynamic response significantly affects the behaviour of the interconnected structures. With a trend towards cost saving zero-prototype development, the use of simulation tools in modern powertrain development is also growing. Multi-system vehicle powertrain concepts are pushing complexity of simulation models and this requires accurate and robust component level understanding. Associated performance characteristics of the bearings such as friction and wear, thermal stability and generated vibration and noise must be accurately modelled at the development stage to ensure full system success \cite{Wensing1972a}.
 
 
 \section{Research Questions} \label{Research Questions}
 
-Fundamental aim of thesis
+The primary objective of this work is to investigate the interaction between tribology and dynamics in rolling element bearings, with particular focus on the significance of this multi-physics interaction in high-speed automotive applications. Specifically, this work examines the influence of the elastohydrodynamic film, and assesses the necessity of its implicit inclusion in dynamic bearing modelling. Computational viability of this coupled approach is assessed, and the use of an artificial neural network is evaluated to address the accuracy of the EHL solution. This overarching aim is addressed through the following research questions:
 
 \begin{enumerate}
-	\item
-	\item
-	\item
-	\item
-	\item
+	\item Must the elastohydrodynamic (EHL) film be considered at contact level in the modelling of high-speed rolling element bearings in automotive transmissions?
+	\item What is the influence of the EHL film on the dynamic behaviour of electrified vehicle powertrains?
+	\item Can an artificial neural network be used to predict film thickness across a broad range of rolling element bearing input parameters?
+	\item Can computational efficiency be improved whilst maintaining the accuracy of the numerical EHL solution?
+
 \end{enumerate}
 
 \section{Contribution to Knowledge} \label{Contribution to Knowledge}
 
-Novelties in thesis
+The main novelties of this work are summarised below:
 
 \begin{enumerate}
-	\item
-	\item
-	\item
-	\item
-	\item
+	\item A novel methodology comprising experiments and numerical modelling has been developed to enable component and conjunction level tribo-dynamic analysis of a roller bearing under previously unreported speeds and loading conditions.
+	\item A coupled co-simulation approach has been established to integrate an implicit lubricated bearing model within a high-speed system-level FMBD model. The lubricated bearing model considers the EHL film in the evaluation of the bearing dynamics.
+	\item An ANN has been trained using input data from the numerical EHL solution to predict bearing film thickness across a wide range of input variables.
+	\item The ANN has been embedded within an FMBD system model to calculate EHL film thickness and consider it implicitly in the evaluation of the bearing dynamics. The film thickness evaluation achieves the accuracy of numerical models without the associated computational limitations.
 \end{enumerate}
-
 
 \section{Structure of Thesis} \label{Structure of Thesis}
 
-The research in this thesis is presented with the following structure:
+The research in this thesis is presented in the following structure:
 
 \paragraph{Chapter 1} introduces the topic of the thesis and provides the specific research questions that the work aims to answer.
 
-\paragraph{Chapter 2} provides a review of the literature pertinent to the thesis topic, as well as covering the necessary aspects required to address the research questions.
+\paragraph{Chapter 2} provides a review of the literature pertinent to the thesis topic, as well as covering the necessary principles required to address the research questions.
 
-\paragraph{Chapter 3} presents a high-speed experimental test rig which was used to obtain boundary conditions for tribological models. The governing equations for the thesis are also introduced in this chapter.
+\paragraph{Chapter 3} presents a high-speed experimental test rig which was used to obtain kinematic boundary conditions for tribological models. The importance of including the lubricant film in high-speed dynamic bearing models is assessed here. The governing equations for the thesis are also introduced in this chapter.
 
-\paragraph{Chapter 4} integrates the tribological models into a flexible system level multi-body dynamic model. High-speed simulations are performed with operating conditions representative of those in an electrified transmission. The elastohydrodynamic film is modelled implicitly at the roller-race conjunction.
+\paragraph{Chapter 4} integrates the tribological models used in Chapter 3 into a system-level flexible multi-body dynamic model. High-speed simulations are performed with operating conditions representative of those in an electrified transmission. The elastohydrodynamic film is modelled implicitly at the roller-race conjunction, and its affect on system dynamics is evaluated.
 
-\paragraph{Chapter 5} addresses the computational efficiency of implicitly coupling the EHL film in dynamic simulation. An artificial neural network is trained using a wide design space of input variables required for the EHL film estimation. This replaces the analytical film thickness approach in Chapter 4 to overcome the shortcomings of the regressed equations.
+\paragraph{Chapter 5} introduces an artificial neural network (ANN) to address the shortcomings of the analytical approach when estimating EHL film thickness at high speeds. The ANN is trained using a wide design space of input variables. The accuracy of the model and computational efficiency is assessed. The ANN is embedded within the dynamic system level model from Chapter 4 as an alternative approach to the analytical solution for film thickness. 
 
 \paragraph{Chapter 6} presents the general conclusions of the work, and outlines potential future work that could succeed this research.
