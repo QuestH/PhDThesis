@@ -39,6 +39,7 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'field_info' (item size: 4) to 10805 items.
 Database file #1: Literature/library.bib
 Warning--I didn't find a database entry for "Meyer1980"
 -- IEEEtranN.bst version 1.13 (2008/09/30) by Michael Shell.
@@ -57,45 +58,45 @@ Warning--empty journal in Dietl1997
 Warning--missing publisher in Han1995
 
 Done.
-You've used 108 entries,
+You've used 128 entries,
             4783 wiz_defined-function locations,
-            1707 strings with 30266 characters,
-and the built_in function-call counts, 93151 in all, are:
-= -- 8593
-> -- 2453
-< -- 737
-+ -- 1296
-- -- 518
-* -- 4890
-:= -- 14479
-add.period$ -- 216
-call.type$ -- 108
-change.case$ -- 215
-chr.to.int$ -- 1633
-cite$ -- 115
-duplicate$ -- 6283
-empty$ -- 6562
-format.name$ -- 772
-if$ -- 21002
-int.to.chr$ -- 3
-int.to.str$ -- 109
-missing$ -- 861
-newline$ -- 426
-num.names$ -- 324
-pop$ -- 2151
+            1831 strings with 33347 characters,
+and the built_in function-call counts, 110054 in all, are:
+= -- 10175
+> -- 2830
+< -- 888
++ -- 1513
+- -- 590
+* -- 5721
+:= -- 17093
+add.period$ -- 256
+call.type$ -- 128
+change.case$ -- 252
+chr.to.int$ -- 1961
+cite$ -- 135
+duplicate$ -- 7428
+empty$ -- 7774
+format.name$ -- 889
+if$ -- 24844
+int.to.chr$ -- 4
+int.to.str$ -- 129
+missing$ -- 1009
+newline$ -- 490
+num.names$ -- 384
+pop$ -- 2504
 preamble$ -- 1
-purify$ -- 108
+purify$ -- 128
 quote$ -- 6
-skip$ -- 7129
+skip$ -- 8457
 stack$ -- 0
-substring$ -- 3875
-swap$ -- 4715
-text.length$ -- 158
+substring$ -- 4659
+swap$ -- 5586
+text.length$ -- 190
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 1596
+type$ -- 1892
 warning$ -- 7
-while$ -- 450
+while$ -- 536
 width$ -- 0
-write$ -- 1354
+write$ -- 1589
 (There was 1 error message)

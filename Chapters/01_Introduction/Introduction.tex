@@ -1,5 +1,4 @@
-\chapter{Introduction}
-\label{Introduction}
+\chapter{Introduction} \label{Introduction}
 
 The automotive industry is currently transitioning into the next phase of powertrain technology. As automotive manufacturers are forced to meet tightening fleet-wide emissions regulations, the electrified vehicle market share is increasing. The EU has established policy \cite{EUL110/5} that requires all new cars and vans sold in Europe to be zero-emission by 2035 as part of a broader strategy for a climate-neutral EU by 2050.
 
@@ -26,147 +25,48 @@ The use of ultra-high speed and low load motors introduces new challenges regard
 
 With a trend towards cost saving zero-prototype development, the use of simulation tools in modern powertrain development is also growing. Significant cost reductions can be achieved using commercial flexible multi-body dynamic solvers to replicate system level operation of these vehicles. Multi-system vehicle powertrain concepts are pushing complexity of simulation models and this requires accurate and robust component level understanding. Associated performance characteristics of the bearings such as friction and wear, thermal stability and generated vibration and noise must be accurately modelled at the development stage to ensure full system success \cite{Wensing1972a}. 
 
-\section{Numerical EHL Model}
+Simulating electrified powertrains using flexible multi-body dynamic (FMBD) models can enable substantial cost and time savings for automotive manufacturers due to a reduced need for physical prototyping. With increasing complexity and operational speeds of these systems, the accuracy at the component level is of major importance. Bearings are crucial structural components and their dynamic response significantly affects the behaviour of the interconnected structures.
 
-\subsection{Numerical EHL Model}
 
-Reynold’s equation \cite{Reynolds1886} is the governing equation of fluid film lubrication theory. For Newtonian fluids it can be derived from the full Navier-Stokes equations making the following assumptions, primarily the neglection of inertial forces and only retaining viscous forces on the lubricant \cite{Gohar1988}:
-\begin{enumerate} % TODO REQUIRES DIRECTIONS ADDING
-	\item Body forces are negligible (mass of film is negligible)
-	\item Pressure is constant through the lubricant film (z-direction) due to thin film (dimensions of the region of pressure are typically 100 times the central film thickness).
-	\item No slip at boundaries
-	\item Lubricant flow is laminar (low Reynolds number)
-	\item Inertia and surface tension forces are negligible compared with viscous forces (working fluid has low mass and low acceleration)
-	\item Shear stress and velocity gradients are only significant across the lubricant film %ADD DIRECTION OF THIS!!!!
-	\item The lubricant behaves as a Newtonian fluid
-	\item Lubricant viscosity in constant across the film %ADD DIRECTION!!!
-	\item The lubricant boundary surfaces are parallel or at a small angle with respect to each other
+
+
+\section{Research Questions} \label{Research Questions}
+
+Fundamental aim of thesis
+
+\begin{enumerate}
+	\item
+	\item
+	\item
+	\item
+	\item
 \end{enumerate}
 
-Reynolds equation is a second order, non-linear partial differential equation. It is made up of the pressure induced terms (Poiseuille flow) and the boundary velocity-induced term (Couette flow). 
+\section{Contribution to Knowledge} \label{Contribution to Knowledge}
 
-For the line contact problem, such as that at the conjunction between a cylindrical roller and race, dimensions in the side-leakage direction,$y$, are much bigger than the direction of entraining motion, $x$. Pressure in $y$ direction is assumed constant due to the negligible gradient, and the contact can be analysed in 1-dimension. The assumption is valid in the contact apart from small regions near the edge where the roller profile changes. A simplified 1-dimensional version of Reynolds equation can therefore be used:
-\begin{equation}\label{eq1.1}
-	\frac{\partial}{\partial x}\left[\frac{\rho h^{3}}{6 \eta}\left(\frac{\partial p}{\partial x}\right)-\rho h u\right]=2 \frac{\partial(\rho h)}{\partial t}
-\end{equation}
+Novelties in thesis
 
-To solve Reynolds equation numerically, it must first be discretized and then solved using the finite-difference method. The following procedure explains this discretization.
+\begin{enumerate}
+	\item
+	\item
+	\item
+	\item
+	\item
+\end{enumerate}
 
-Due to the steady state nature of the investigations, with the absence of shock loading, the transient squeeze term can be removed:
-\begin{equation}\label{eq1.2}
-	\frac{\partial}{\partial x}\left[\frac{\rho h^{3}}{6 \eta}\left(\frac{\partial p}{\partial x}\right)-\rho h u\right]=0
-\end{equation}
 
-Due to the many orders of magnitude differences between lubricant film thickness (µm) and pressures (GPa), the numerical solution often becomes unstable. Dimensionless parameters are therefore defined to remove this instability. These are as follows:
-\begin{equation}\label{eq1.3}
-	\begin{aligned}
-		U &=\frac{u}{u_{a v}} & \partial x &=a \partial X \\
-		\mathrm{X} &=\frac{x}{\mathrm{a}} & \partial \rho &=\rho_{0} \partial \bar{\rho} \\
-		\bar{\rho} &=\frac{\rho}{\rho_{0}} & \partial \eta &=\eta_{0} \partial \bar{\eta} \\
-		\bar{\eta} &=\frac{\eta}{\eta_{0}} & \partial h &=\frac{a^{2}}{R_{z x}} \partial H \\
-		\mathrm{H} &=\frac{h R_{x}}{a^{2}} & \partial p &=p_{h} \partial P \\
-		\mathrm{P} &=\frac{p}{p_{h}} & \\
-		\mathrm{~W}^{*} &=\frac{w}{E_{r} R_{z x} L} &
-	\end{aligned}
-\end{equation}
+\section{Structure of Thesis} \label{Structure of Thesis}
 
-Terms in the simplified Reynolds equation are replaced with dimensionless parameters. Similar terms are then grouped and rearranged to give the final form:
-\begin{equation}\label{eq1.4}
-	\frac{\partial}{\partial X}\left[\frac{\bar{\rho} H^{3}}{6 \bar{\eta}}\left(\frac{\partial P}{\partial X}\right)\right]=\Psi\left[\frac{\partial}{\partial X} \bar{\rho} H U\right]
-\end{equation}
+The research in this thesis is presented with the following structure:
 
-where
-\begin{equation}\label{eq1.5}
-	\Psi=\frac{12 u_{a v} R_{z x}^{2} \eta_{0}}{p_{h}}
-\end{equation}
+\paragraph{Chapter 1} introduces the topic of the thesis and provides the specific research questions that the work aims to answer.
 
-Grouping terms for simplicity
-\begin{equation}\label{eq1.6}
-	M=\frac{\bar{\rho} H^{3}}{6 \bar{\eta}}
-\end{equation}
+\paragraph{Chapter 2} provides a review of the literature pertinent to the thesis topic, as well as covering the necessary aspects required to address the research questions.
 
-\begin{equation}\label{eq1.7}
-	Q=\bar{\rho} H
-\end{equation}
+\paragraph{Chapter 3} presents a high-speed experimental test rig which was used to obtain boundary conditions for tribological models. The governing equations for the thesis are also introduced in this chapter.
 
-Making substitutions
-\begin{equation}\label{eq1.8}
-	\frac{\partial}{\partial X}\left[M\left(\frac{\partial P}{\partial X}\right)\right]=\Psi \frac{\partial}{\partial X}[Q U
-\end{equation}
+\paragraph{Chapter 4} integrates the tribological models into a flexible system level multi-body dynamic model. High-speed simulations are performed with operating conditions representative of those in an electrified transmission. The elastohydrodynamic film is modelled implicitly at the roller-race conjunction.
 
-\begin{equation}\label{eq1.9}
-	\left[M \frac{\partial^{2} P}{\partial X^{2}}+\left(\frac{\partial M}{\partial X}\right) \frac{\partial P}{\partial X}\right]=\Psi\left[U \frac{\partial Q}{\partial X}+Q \frac{\partial U}{\partial X}\right]
-\end{equation}
+\paragraph{Chapter 5} addresses the computational efficiency of implicitly coupling the EHL film in dynamic simulation. An artificial neural network is trained using a wide design space of input variables required for the EHL film estimation. This replaces the analytical film thickness approach in Chapter 4 to overcome the shortcomings of the regressed equations.
 
-The final term is removed, as velocity, $U$, is independent of $x$ when no stretching of the surfaces occurs. This is then differentiated to give:
-\begin{equation}\label{eq1.10}
-	\frac{\partial M}{\partial X}=\frac{\partial}{\partial X}\left[\frac{\bar{\rho} H^{3}}{6 \bar{\eta}}\right]=\frac{H^{2}}{2 \bar{\eta}}\left[\left(\frac{H}{3}\right) \frac{\partial P}{\partial X}+\bar{\rho} \frac{\partial H}{\partial X}-\left(\frac{\bar{\rho} H}{2 \bar{\eta}}\right) \frac{\partial \bar{\eta}}{\partial X}\right]
-\end{equation}
-and
-\begin{equation}\label{eq1.11}
-	\frac{\partial Q}{\partial X}=\frac{\partial}{\partial X}[\bar{\rho} H]=H \frac{\partial \bar{\rho}}{\partial X}+\bar{\rho} \frac{\partial H}{\partial X}
-\end{equation}
-
-Substituting into Equation \ref{eq1.9} gives the following:
-\begin{equation}\label{eq1.12}
-	\frac{\bar{\rho} H^{3}}{6 \bar{\eta}} \frac{\partial^{2} P}{\partial X^{2}}+\frac{H^{2}}{2 \bar{\eta}}\left[\frac{H}{3} \frac{\partial \bar{\rho}}{\partial X}+\bar{\rho} \frac{\partial H}{\partial X}-\frac{\bar{\rho} H}{2 \bar{\eta}} \frac{\partial \bar{\eta}}{\partial X}\right] \frac{\partial P}{\partial X}-\Psi U\left[H \frac{\partial \bar{\rho}}{\partial X}+\bar{\rho} \frac{\partial H}{\partial X}\right]=0
-\end{equation}
-
-\begin{equation}\label{eq1.13}
-	\frac{\partial^{2} P}{\partial X^{2}}+\frac{3}{\bar{\rho} H}\left[\frac{H}{3} \frac{\partial \bar{\rho}}{\partial X}+\bar{\rho} \frac{\partial H}{\partial X}-\frac{\bar{\rho} H}{2 \bar{\eta}} \frac{\partial \bar{\eta}}{\partial X}\right] \frac{\partial P}{\partial X}-\frac{6 \bar{\eta}}{\bar{\rho} H^{3}} \Psi U\left[H \frac{\partial \bar{\rho}}{\partial X}+\bar{\rho} \frac{\partial H}{\partial X}\right]=0
-\end{equation}
-
-The final form of the equation is therefore:
-\begin{equation}\label{eq1.14}
-	\frac{\partial^{2} P}{\partial X^{2}}+\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{3}{H} \frac{\partial H}{\partial X}-\frac{3}{2 \bar{\eta}} \frac{\partial \bar{\eta}}{\partial X}\right] \frac{\partial P}{\partial X}-\frac{6 \bar{\eta}}{H^{2}}\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{1}{H} \frac{\partial H}{\partial X}\right] \Psi U=0
-\end{equation}
-
-\subsection{Finite Difference Formulation}
-
-For finite difference formulation, the central difference formula based on Taylor series expansion \cite{Hoffmann2000} is used. The second derivative of pressure using second order central discretization for the spatial domain is therefore:
-
-\begin{equation}\label{eq1.15}
-	\frac{\partial^2 P}{\partial X^2}=\frac{P_{i-1}-2 P_i+P_{i+1}}{\Delta X^2}
-\end{equation}
-
-and the first derivative is given by:
-
-\begin{equation}\label{eq1.16}
-	\frac{\partial P}{\partial X}=\frac{P_{i+1}-P_{i-1}}{2 \Delta X}
-\end{equation}
-
-Replacing terms in the final form of the discretized Reynolds equation:
-
-\begin{equation}\label{eq1.17}
-	\frac{P_{i-1}-2 P_i+P_{i+1}}{\Delta X^2}+\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{3}{H} \frac{\partial H}{\partial X}-\frac{3}{2 \bar{\eta}} \frac{\partial \bar{\eta}}{\partial X}\right] \frac{P_{i+1}-P_{i-1}}{2 \Delta X}-\frac{6 \bar{\eta}}{H^2}\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{1}{H} \frac{\partial H}{\partial X}\right] \Psi U=0
-\end{equation}
-
-\begin{equation}\label{eq1.18}
-	\frac{P_{i-1}+P_{i+1}}{\Delta X^2}+\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{3}{H} \frac{\partial H}{\partial X}-\frac{3}{2 \bar{\eta}} \frac{\partial \bar{\eta}}{\partial X}\right] \frac{P_{i+1}-P_{i-1}}{2 \Delta X}-\frac{6 \bar{\eta}}{H^2}\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{1}{H} \frac{\partial H}{\partial X}\right] \Psi U=\frac{2 P_i}{\Delta X^2}
-\end{equation}
-
-Pressure at each node points can then be represented by:
-
-\begin{equation}\label{eq1.19}
-	P_i=\frac{\frac{P_{i-1}+P_{i+1}}{\Delta X^2}+\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{3}{H} \frac{\partial H}{\partial X}-\frac{3}{2 \bar{\eta}} \frac{\partial \bar{\eta}}{\partial X}\right] \frac{P_{i+1}-P_{i-1}}{2 \Delta X}-\frac{6 \bar{\eta}}{H^2}\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{1}{H} \frac{\partial H}{\partial X}\right] \Psi U}{2\left(\frac{1}{\Delta X^2}\right)}	
-\end{equation}
-
-Simplified to:
-
-\begin{equation}\label{eq1.20}
-	P_i=\frac{P_{x x}+P_x-E}{2\left(\frac{1}{\Delta X^2}\right)}
-\end{equation}
-
-where
-
-\begin{equation}\label{eq1.21}
-	P x x=\frac{P_{i-1}+P_{i+1}}{\Delta X^2}
-\end{equation}
-
-\begin{equation}\label{eq1.22}
-	P x=\frac{P_{i+1}-P_{i-1}}{2 \Delta X}\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{3}{H} \frac{\partial H}{\partial X}-\frac{3}{2 \bar{\eta}} \frac{\partial \bar{\eta}}{\partial X}\right]
-\end{equation}
-
-\begin{equation}\label{eq1.23}
-	E=\frac{6 \bar{\eta}}{H^2}\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{1}{H} \frac{\partial H}{\partial X}\right] \Psi U
-\end{equation}
+\paragraph{Chapter 6} presents the general conclusions of the work, and outlines potential future work that could succeed this research.

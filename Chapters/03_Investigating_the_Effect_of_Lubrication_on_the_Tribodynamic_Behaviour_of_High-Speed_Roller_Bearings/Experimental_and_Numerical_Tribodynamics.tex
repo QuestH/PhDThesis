@@ -36,7 +36,7 @@ Figure \ref{CRB in equilibrium position} shows the cylindrical roller bearing (C
 
 Figure \ref{Mutual separation and convergence of inner and outer races} presents the case whereby an instantaneous force is applied to the inner race. This causes deflection of the rollers in the loaded region and clearance around the rollers in the unloaded region. The value of the total deflection, $\delta_i$ at the inner and outer race corresponds to the component of displacement of the bearing centre at the instantaneous position of that particular roller. In the current study, this value was experimentally measured from the test rig and is used quasi-statically as the boundary condition for the tribological model. It should be noted that in-plane two degrees of freedom motion are analysed in this study which is a valid assumption under dominant radial loading with secondary horizontal motion from the full system dynamics. Misalignment along the length of the rollers is not considered due to the high stiffness of the shaft and bracket, hence a 1-dimensional analysis for EHL is sufficient \cite{Gupta1979}.
 
-In the loaded region, the Hertzian load-deflection relationship is used to obtain the resulting instantaneous load on the roller. This value is then used implicitly within an analytical tribological model to calculate contact film thickness for an individual roller as it passes through different angular positions during a speed sweep. An extrapolated film thickness formula is used for this purpose. The calculated film thickness imposes additional deformation at the contact points which itself changes the calculated load. Hence, an iterative approach is required between the force calculation and implicit tribological model. In this part of the workflow, the stiffness and damping of the EHL film is neglected due to its rigid-like stiffness, which is several orders of magnitude higher than the Hertzian contact \cite{Dareing1975} \cite{Mehdigoli1990} !!!USE LATEST REFERENCES FROM TRIBODYNAMIC PAPER.
+In the loaded region, the Hertzian load-deflection relationship is used to obtain the resulting instantaneous load on the roller. This value is then used implicitly within an analytical tribological model to calculate contact film thickness for an individual roller as it passes through different angular positions during a speed sweep. An extrapolated film thickness formula is used for this purpose. The calculated film thickness imposes additional deformation at the contact points which itself changes the calculated load. Hence, an iterative approach is required between the force calculation and implicit tribological model. In this part of the workflow, the stiffness and damping of the EHL film is neglected due to its rigid-like stiffness, which is several orders of magnitude higher than the Hertzian contact \cite{Dareing1975} \cite{Mehdigoli1990} TODO !!!USE LATEST REFERENCES FROM TRIBODYNAMIC PAPER.
 
 For in-depth tribological investigations, the numerical solution of the fluid film is essential. This provides the pressure, film thickness and shear distributions in the contact to study the durability and frictional efficiency of the system. In the current study, the load on the roller and contact kinematics obtained from the implicit bearing model is used explicitly in a 1-dimensional elastohydrodynamic model to obtain film thickness and pressure distribution at the contact for specific loading periods through the speed sweep, as is shown in Figure \ref{EHL film thickness and pressure distribution at contact}. This explicit approach significantly improves the computational efficiency of the model and in principle, maintains the accuracy since only the central value of the film is required in the load calculation.
 
@@ -281,7 +281,7 @@ To inform the boundary friction model, surface topography data are required. An 
 
 Whilst the analytical solution used in the implicit tribological model provides central film thickness, the film thickness and pressure distributions can only be obtained explicitly through the full solution of Reynolds equation in conjunction with rheological and elastic field models. In a line contact, where contact dimensions in the side-leakage direction ($y_c$) are much larger than the direction of entraining motion ($x_c$), pressure in $y_c$ direction is assumed constant due to the negligible gradient and the contact can be analysed in one dimension. This assumption is valid in the contact apart from small regions near the edge. Reynolds equation is used to calculate contact pressures.
 
-\subsection{Reynold's Equation}
+\subsection{Reynolds Equation}
 
 Reynold’s equation \cite{Reynolds1886} is the governing equation of fluid film lubrication theory. For Newtonian fluids it can be derived from the full Navier-Stokes equations making the following assumptions, primarily the neglection of inertial forces and only retaining viscous forces on the lubricant \cite{Gohar1988}:
 \begin{enumerate} % REQUIRES DIRECTIONS ADDING
@@ -383,7 +383,7 @@ The final form of the equation is therefore:
 	\frac{\partial^{2} P}{\partial X^{2}}+\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{3}{H} \frac{\partial H}{\partial X}-\frac{3}{2 \bar{\eta}} \frac{\partial \bar{\eta}}{\partial X}\right] \frac{\partial P}{\partial X}-\frac{6 \bar{\eta}}{H^{2}}\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{1}{H} \frac{\partial H}{\partial X}\right] \Psi U=0
 \end{equation}
 
-\subsection{Finite Difference Formulation}
+\subsection{Finite Difference Formulation} \label{Finite Difference Formulation}
 
 For finite difference formulation, the central difference formula based on Taylor series expansion \cite{Hoffmann2000} is used. The second derivative of pressure using second order central discretization for the spatial domain is therefore:
 
@@ -504,13 +504,13 @@ with the three constants dependant on the lubricant, obtained from knowing three
 
 The methodology for the 1D EHL solution used within this thesis is as follows.
 
-Reynolds equation is used to calculate contact pressures. Assuming a thin film of Newtonian lubricant in a line contact, the following form is used and discretized in the manner shown previously:
+Reynolds equation is used to calculate contact pressures. Assuming a thin film of Newtonian lubricant in a line contact, the following form is used and discretized as described in Section \ref{Finite Difference Formulation}:
 
 \begin{equation}\label{eq3.33}
 	\frac{\partial}{\partial X}\left[\frac{\bar{\rho} H^3}{6 \bar{\eta}}\left(\frac{\partial P}{\partial X}\right)\right]=\Psi\left[\frac{\partial}{\partial X} \bar{\rho} H U\right]
 \end{equation}
 
-where $X$ is the direction of entraining motion into the contact. Squeeze film motion is neglected for this analysis. The pressure-density relationship in the compressible model is modelled using Dowson-Higginson \cite{Dowson1977} (\ref{eq3.29}). The Roelands \cite{Roelands1966} model (\ref{eq3.25}) is used for the pressure-viscosity relationship.
+where $X$ is the direction of entraining motion into the contact. Squeeze film motion is neglected for this analysis. The pressure-density relationship in the compressible model is modelled using Dowson-Higginson \cite{Dowson1977} (\ref{eq3.29}). Roelands law \cite{Roelands1966} (\ref{eq3.25}) is used for the pressure-viscosity relationship.
 
 Pressure distribution is obtained from the variations in film thickness at the contact, which is defined as below:
 
