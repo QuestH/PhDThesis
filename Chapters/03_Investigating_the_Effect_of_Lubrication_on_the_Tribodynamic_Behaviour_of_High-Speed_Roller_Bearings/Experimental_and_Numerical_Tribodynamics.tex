@@ -6,11 +6,11 @@ Prior to the development of the 6 DOF dynamic model, a high-speed experimental t
 
 \section{Overall Workflow}
 
-To obtain the film thickness at the roller-race contact, the load on each roller must be calculated implicitly based on the contact deflection. This is obtained conventionally from a dynamic model by solving the equations of motion, but these are currently lacking the required in-depth physics such as system flexibility, flexibility of races and thermal effects \cite{Ahlgren2015b} \cite{Matsubara1988} \cite{Wang2015} \cite{Liu2017c}.
+To obtain the film thickness at the roller-race contact, the load on each roller must be calculated implicitly based on the contact deflection. This is obtained conventionally from a dynamic model by solving the equations of motion, but these are currently lacking the required in-depth physics such as system flexibility, flexibility of races and thermal effects \cite{Matsubara1988} \cite{Wang2015} \cite{Liu2017c}.
 
 To circumvent the need for a complex flexible dynamic model and to capture real behaviour of a bearing under test, displacement of the bearing centre and hence contact deflection is captured from experimental test results.
 
-An experimental test rig is used to obtain the relative displacement between the inner and outer bearing races. Then, using the Hertzian load-deflection relationship and accounting for the lubricant film thickness, load on an individual roller is found at each instantaneous position around the bearing centre through a speed sweep of 0~–~15~000~rpm. An implicit analytical tribological model is used which calculates the film thickness at the contact. This loop is iterated to account for the tribodynamic coupling. After the experimentally informed implicit tribodynamic model is solved, load and speed values at specific rotational velocities are used within an explicit numerical EHL model to calculate film thickness and pressure distribution across the contact. The flow diagram in \ref{Experimental Tribodynamics Methodology Overview} illustrates the methodology used. Interactions between each stage will be explained in subsequent sections.
+An experimental test rig is used to obtain the relative displacement between the inner and outer bearing races. Then, using the Hertzian load-deflection relationship and accounting for the lubricant film thickness, load on an individual roller is found at each instantaneous position around the bearing centre through a speed sweep of 0~–~15~000~$rpm$. An implicit analytical tribological model is used which calculates the film thickness at the contact. This loop is iterated to account for the tribodynamic coupling. After the experimentally informed implicit tribodynamic model is solved, load and speed values at specific rotational velocities are used within an explicit numerical EHL model to calculate film thickness and pressure distribution across the contact. The flow diagram in \ref{Experimental Tribodynamics Methodology Overview} illustrates the methodology used. Interactions between each stage will be explained in subsequent sections.
 
 \begin{figure}
 	\centerline{\includegraphics[width=100 mm]{ExpTribo Figure 1 - Methodology Overview.png}}
@@ -244,7 +244,7 @@ Viscous Friction due to shearing of the lubricant film in the EHL contact is fou
 
 where
 
-\begin{equation}\label{Viscous friction Evans and Johnson}
+\begin{equation}\label{Viscous friction Evans and Johnson mu}
 	\mu=0.87 \alpha \tau_0+1.74 \frac{\tau_0}{\bar{p}} \ln \left[\frac{1.2}{\tau_0 h}\left(\frac{2 K \eta_0}{1+9.6 \xi}\right)^{\frac{1}{2}}\right]
 \end{equation}
 
@@ -520,7 +520,7 @@ Pressure distribution is obtained from the variations in film thickness at the c
 
 where $h_0$ is the central film thickness, the second term represents an idealised film thickness parabola, with the final term representing the localised contact deflection. Central film thickness is first estimated using:
 
-%Check this!!!!!!!!!!! and get reference from FMBD modelling paper
+TODO Check this!!!!!!!!!!! and get reference from FMBD modelling paper
 
 \begin{equation}\label{eq3.35}
 	h_0=R_{z x} 3.06 G^{* 0.56} U^{* 0.69} W^{*-0.1}
@@ -545,7 +545,7 @@ Below, the method of solution for the numerical EHL model is provided:
 	\item An initial estimation of lubricant film thickness, $h_0$ is made.
 	\item Inlet and outlet distances are set to $-4.5a$ to $1.5a$ based on the contact half width calculation. This sets up the computational domain, and assumes fully flooded inlet conditions. %%REFERENCE TO LITERATURE HERE
 	\item Pressure distribution and film thickness are obtained through simultaneous solutions of equations \ref{eq3.33} to \ref{eq3.35} using the dimensionless parameters defined in \ref{eq3.3}. The Newton-Raphson iterative scheme is used for speed and robustness of convergence \cite{Okumara1982}. Pressure convergence criterion is required for the iterative solution:
-	\begin{equation}\label{eq3.38}
+	\begin{equation}\label{eq3.39}
 		\operatorname{Err}_{\text {pressure }}=\frac{\sum_{i=1}^n\left|p_{\text {new }}-p_{\text {old }}\right|}{\sum_{i=1}^n p_{\text {old }}} \leq \varepsilon_p
 	\end{equation}
 
