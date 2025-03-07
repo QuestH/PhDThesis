@@ -286,16 +286,22 @@ The bearing geometry is detailed in Table \ref{Cylindrical Roller Bearing Specif
 
 \subsection{Representative Excitation Methodology}
 
-The system level model is decomposed, with excitation forces calculated externally before application within the model. A separate electrified transmission model is used to generate realistic excitation forces and torques from a spur gear pair and a permanent magnetic synchronous motor (PMSM). This system represents the first stage of an electric hub motor used in automotive applications. 
+The system level model is decomposed, with excitation forces calculated externally before application within the model. A separate electrified transmission model is used to generate realistic excitation forces and torques from a spur gear pair and a permanent magnetic synchronous motor (PMSM). This system represents the first stage of an electric hub motor used in automotive applications.
+
+\begin{figure}  
+	\includegraphics[width=150mm]{FlexiTribo Figure 6. PMSM Torque Profile and Maximum and Minimum Torque Fluctuation.png}
+	\caption{PMSM torque profile and maximum and minimum torque fluctuation.}
+	\label{PMSM torque profile}
+\end{figure} 
 
 Radial and tangential gear pair forces at the pinion centre, as well as torque fluctuations of the electric motor are extracted to be used as inputs to the system level model. These are applied as external forces to the shaft, $f^a$, from Equation \ref{External forces}. All bodies in this separate system were modelled as rigid, so that structural excitation forces did not contribute to the resultant forces at the pinion.
 
 The motor has a peak torque of 68~$\mathrm{Nm}$, and a maximum operating speed of 21~000~$\mathrm{rpm}$. The torque transfer through the gear pair reduces as the speed increases due to the torque profile of the PMSM, as shown in Figure \ref{PMSM torque profile}. Stator tooth forces from the PMSM are neglected in the model due to their minimal contribution to lateral forces once resolved. For input to the model, the radial and normal forces are simplified by adopting sinusoidal inputs of the same magnitude and frequency of the gear pair at different speeds. The torque ripple from the motor is simplified using the same method.
 
 \begin{figure}  
-	\includegraphics[width=150mm]{FlexiTribo Figure 6. PMSM Torque Profile and Maximum and Minimum Torque Fluctuation.png}
-	\caption{PMSM torque profile and maximum and minimum torque fluctuation.}
-	\label{PMSM torque profile}
+	\includegraphics[width=125mm]{Hub_motor_excitation_model_annotated.png}
+	\caption{Hub motor excitation model.}
+	\label{Hub_motor_excitation_model}
 \end{figure} 
 
 \begin{table*}
@@ -308,7 +314,7 @@ The motor has a peak torque of 68~$\mathrm{Nm}$, and a maximum operating speed o
 		\hline
 		\ \textbf{Parameter} & \textbf{Value} \\ [0.5ex]
 		\hline
-		Number of teeth 17 & \\ [0.5ex]
+		Number of teeth & 17 \\ [0.5ex]
 		\hline
 		Normal module & 0.004 $m$ \\ [0.5ex]
 		\hline
@@ -320,7 +326,7 @@ The motor has a peak torque of 68~$\mathrm{Nm}$, and a maximum operating speed o
 		\hline
 		Active root diameter & 0.065 $m$ \\ [0.5ex]
 		\hline
-	    Width & 0.035 $m$ \\ [0.5ex]
+		Width & 0.035 $m$ \\ [0.5ex]
 		\hline
 	\end{tabular}
 \end{table*}
@@ -351,6 +357,60 @@ The motor has a peak torque of 68~$\mathrm{Nm}$, and a maximum operating speed o
 		\hline
 	\end{tabular}
 \end{table*}
+
+\subsection{Co-Simulation of Coupled Models}
+A coupled simulation approach is employed to implement the lubricated components level bearing model within the flexible multi-body dynamic (FMBD) environment. AVL EXCITE\textsuperscript{TM} Power Unit R2020.1 contains integrated “Link to MATLAB” functionality, whereby joints within the model can be replaced with a user function created in MATLAB Simulink\textregistered\ R2019b.
+
+\paragraph{Connected Degrees of Freedom}
+
+Connections are created between bodies in the FMBD software using pins. Pins are assigned to specific nodes on the shaft and housing. The pins transmit a 6-element vector that describe the 6 DOFs (degrees of freedom) of the connection point. The first 3 elements translational degrees of freedom, whilst the latter represent rotational degrees of freedom. This are concatenated into a single communication vector that is then transferred to MATLAB\textregistered\.
+
+\begin{figure}  
+	\includegraphics[width=125mm]{Communication_Vector_MATLAB.png}
+	\caption{Communication vector and degrees of freedom.}
+	\label{Communication_Vector_MATLAB}
+\end{figure} 
+
+Two vectors are transferred from EXCITE to MATLAB\textregistered\: one containing displacement information in all 6 DOFs and the other containing velocity information. Force vectors of equal size are then computed within the component level model in MATLAB\textregistered\ and returned to EXCITE\textsuperscript{TM} Power Unit.
+
+The connection to MATLAB\textregistered\ is facilitated via an S-function. Therefore, a Simulink® model is required. A generic block developed by AVL, the EXCITE\textsuperscript{TM} Power Unit Simulink block, is used for this purpose:
+
+\paragraph{Output Port}
+
+Output data from the FMBD model is organised in vector format, of size 6$n$ where $n$ is the total number of connections being passed from MATLAB\textregistered to EXCITE\textsuperscript{TM} Power Unit. To access data for each connection, and then split this into specific degrees of freedom, two levels of Demux elements are needed.
+
+\begin{enumerate}
+	\item The first level of Demux splits the output vector into $n$ pins, of size 6 to represent the degrees of freedom at each pin. 
+	\item The second level of Demux blocks splits the 6-element vector for each pin into the 6 scalar values that represent the data for each degree of freedom. These can then be used as inputs to the MATLAB\textregistered\ function block within the Simulink\textregistered\ model.	
+\end{enumerate}
+
+\begin{figure}  
+	\includegraphics[width=125mm]{Output Port.png}
+	\caption{Output port Demux blocks and degrees of freedom.}
+	\label{Output Port Simulink}
+\end{figure} 
+
+\paragraph{Input Port}
+
+At the input port to the EXCITE\textsuperscript{TM} Power Unit Simulink block, a vector of 6$n$ elements must be passed. This requires two Mux blocks: the first to combine the degrees of freedom of each pin, and the second to combine all of these connection vectors into a single vector that is passed to EXCITE\textsuperscript{TM} Power Unit.
+
+\begin{figure}  
+	\includegraphics[width=125mm]{Input Port.png}
+	\caption{Input port Mux blocks and degrees of freedom.}
+	\label{Input Port Simulink}
+\end{figure} 
+
+\paragraph{Simulink Model}
+
+To integrate the lubricated bearing model into the Simulink\textregistered\ model, the MATLAB\textregistered\ Function block is used. The input variable sizes are defined at the beginning of the function, and the appropriate degrees of freedom are connected to the block in the order of which they appear in the function. The function blocks and hence lubricated bearing models are highlighted in \ref{Simulink_model_schematic}, as well as the ports and the demux blocks that split the degrees of freedom.
+
+\begin{figure}  
+	\includegraphics[width=150mm]{Simulink_schematic_annotated.png}
+	\caption{Simulink\textregistered\ model schematic.}
+	\label{Simulink_model_schematic}
+\end{figure} 
+
+The coupled simulation supported by \textsuperscript{TM} Power Unit is explicit in nature. This means that there is no iteration at each time step between the dynamic solver and the bearing model. A sufficiently fine time step is therefore required to prevent numerical divergence of results due to error accumulation. It was found that a time step of 1e-6~$s$ was fine enough to ensure numerical convergence, whilst also remaining computationally efficient.
 
 \section{Results and Discussion}
 

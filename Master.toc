@@ -61,26 +61,31 @@
 \contentsline {section}{\numberline {4.4}System Level Flexible Model}{58}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Lubricated Component Level Model}{62}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Representative Excitation Methodology}{67}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}Results and Discussion}{68}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Conclusions}{75}{subsection.4.5.1}%
-\contentsline {chapter}{\numberline {5}Artificial Neural Networks for EHL Film Thickness Predictions}{77}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Abstract}{77}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Introduction}{78}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Artificial Neural Network Fundamentals}{80}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Numerical EHL Methodology}{81}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Artificial Neural Network Methodology}{81}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}ANN Training Process}{81}{subsection.5.3.3}%
-\contentsline {subsubsection}{Numeric Database Construction}{82}{section*.26}%
-\contentsline {section}{\numberline {5.4}Machine Learning Methodologies}{84}{section.5.4}%
-\contentsline {paragraph}{Advantages}{84}{section*.27}%
-\contentsline {paragraph}{Disadvantages}{84}{section*.28}%
-\contentsline {subsubsection}{ANN Structure}{86}{section*.30}%
-\contentsline {subsubsection}{Explicit Roller Bearing Implementation}{90}{section*.31}%
-\contentsline {section}{\numberline {5.5}Results and Discussion}{91}{section.5.5}%
-\contentsline {subsubsection}{ANN Structure and Performance}{91}{section*.34}%
-\contentsline {subsubsection}{Bearing Film Thickness Predictions}{93}{section*.42}%
-\contentsline {section}{\numberline {5.6}Conclusions}{96}{section.5.6}%
-\contentsline {section}{\numberline {5.7}Conclusions}{96}{section.5.7}%
-\contentsline {chapter}{\numberline {6}Conclusions}{99}{chapter.6}%
-\contentsline {chapter}{References}{101}{chapter*.43}%
-\contentsline {chapter}{Appendix \numberline {A}MFEIT Reconstruction Images}{115}{appendix.a.A}%
+\contentsline {subsection}{\numberline {4.4.3}Co-Simulation of Coupled Models}{68}{subsection.4.4.3}%
+\contentsline {paragraph}{Connected Degrees of Freedom}{70}{section*.26}%
+\contentsline {paragraph}{Output Port}{70}{section*.27}%
+\contentsline {paragraph}{Input Port}{71}{section*.28}%
+\contentsline {paragraph}{Simulink Model}{71}{section*.29}%
+\contentsline {section}{\numberline {4.5}Results and Discussion}{73}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Conclusions}{77}{subsection.4.5.1}%
+\contentsline {chapter}{\numberline {5}Artificial Neural Networks for EHL Film Thickness Predictions}{79}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Abstract}{79}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Introduction}{80}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Artificial Neural Network Fundamentals}{82}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Numerical EHL Methodology}{83}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Artificial Neural Network Methodology}{83}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}ANN Training Process}{83}{subsection.5.3.3}%
+\contentsline {subsubsection}{Numeric Database Construction}{84}{section*.30}%
+\contentsline {section}{\numberline {5.4}Machine Learning Methodologies}{86}{section.5.4}%
+\contentsline {paragraph}{Advantages}{86}{section*.31}%
+\contentsline {paragraph}{Disadvantages}{86}{section*.32}%
+\contentsline {subsubsection}{ANN Structure}{88}{section*.34}%
+\contentsline {subsubsection}{Explicit Roller Bearing Implementation}{92}{section*.35}%
+\contentsline {section}{\numberline {5.5}Results and Discussion}{93}{section.5.5}%
+\contentsline {subsubsection}{ANN Structure and Performance}{93}{section*.38}%
+\contentsline {subsubsection}{Bearing Film Thickness Predictions}{95}{section*.46}%
+\contentsline {section}{\numberline {5.6}Conclusions}{98}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Conclusions}{98}{section.5.7}%
+\contentsline {chapter}{\numberline {6}Conclusions}{101}{chapter.6}%
+\contentsline {chapter}{References}{103}{chapter*.47}%
+\contentsline {chapter}{Appendix \numberline {A}MFEIT Reconstruction Images}{117}{appendix.a.A}%

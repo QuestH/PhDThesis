@@ -543,7 +543,7 @@ Below, the method of solution for the numerical EHL model is provided:
 \begin{enumerate} % Requires ammendments depending on where in the context of the thesis this is placed
 	\item Input the load value obtained from the implicit tribological model for an instantaneous position as well as contact kinematics from experimental conditions.
 	\item An initial estimation of lubricant film thickness, $h_0$ is made.
-	\item Inlet and outlet distances are set to $-4.5a$ to $1.5a$ based on the contact half width calculation. This sets up the computational domain, and assumes fully flooded inlet conditions. %%REFERENCE TO LITERATURE HERE
+	\item Inlet and outlet distances are set to $-4.5a$ to $1.5a$ based on the contact half width calculation. This sets up the computational domain, and assumes fully flooded inlet conditions \cite{Hamrock1976}. 
 	\item Pressure distribution and film thickness are obtained through simultaneous solutions of equations \ref{eq3.33} to \ref{eq3.35} using the dimensionless parameters defined in \ref{eq3.3}. The Newton-Raphson iterative scheme is used for speed and robustness of convergence \cite{Okumara1982}. Pressure convergence criterion is required for the iterative solution:
 	\begin{equation}\label{eq3.39}
 		\operatorname{Err}_{\text {pressure }}=\frac{\sum_{i=1}^n\left|p_{\text {new }}-p_{\text {old }}\right|}{\sum_{i=1}^n p_{\text {old }}} \leq \varepsilon_p
@@ -574,8 +574,6 @@ Below, the method of solution for the numerical EHL model is provided:
 \end{enumerate}
 
 \subsection{Numerical EHL Model Validation}
-!!ADD FURTHER VALIDATION WALKER!!
-
 Conjunction level validation of the numerical method for solving the EHL film thickness and pressure distributions was performed using the work of Masjedi and Khonsari \cite{Masjedi2012}. These were validated against their smooth surface plots with no asperity pressure contribution. The dimensionless input parameters were $W^*$ = 1~$\times 10^{-4}$, $U^*$ = 1~$\times 10^{-11}$ and $G^*$~=~4500. The results shown in Figure \ref{EHL Pressure Validation Masjedi Khonsari} and Figure \ref{EHL Film Validation Masjedi Khonsari} show a good agreement between the model used in the study and the work of Masjedi and Khonsari for the dimensionless pressure, $P$, and dimensionless film thickness, $H$, respectively.
 
 \begin{figure}
