@@ -86,6 +86,9 @@
 \contentsline {subsubsection}{Bearing Film Thickness Predictions}{95}{section*.46}%
 \contentsline {section}{\numberline {5.6}Conclusions}{98}{section.5.6}%
 \contentsline {section}{\numberline {5.7}Conclusions}{98}{section.5.7}%
-\contentsline {chapter}{\numberline {6}Conclusions}{101}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{101}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Overall Conclusions}{101}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Research Questions}{101}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Future Work}{101}{section.6.3}%
 \contentsline {chapter}{References}{103}{chapter*.47}%
 \contentsline {chapter}{Appendix \numberline {A}MFEIT Reconstruction Images}{117}{appendix.a.A}%
