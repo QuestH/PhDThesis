@@ -60,12 +60,25 @@ E.~Parliament and of~the Council~of 19~April~2023, ``Regulation (eu)
   2023/851,'' \emph{Official Journal of the European Union L 110}, pp. 1--19, 4
   2023.
 
+\bibitem[Cai et~al.(2021)Cai, Wu, Zhou, Liang, and Wang]{Cai2021}
+\BIBentryALTinterwordspacing
+W.~Cai, X.~Wu, M.~Zhou, Y.~Liang, and Y.~Wang, ``Review and development of
+  electric motor systems and electric powertrains for new energy vehicles,''
+  \emph{Automotive Innovation}, vol.~4, pp. 3--22, 2021. [Online]. Available:
+  \url{https://doi.org/10.1007/s42154-021-00139-z}
+\BIBentrySTDinterwordspacing
+
 \bibitem[Wensing(1972)]{Wensing1972a}
 \BIBentryALTinterwordspacing
 J.~A. Wensing, ``The dynamics of ball bearings,'' \emph{Wear}, vol.~19, p. 360,
   3 1972. [Online]. Available:
   \url{https://linkinghub.elsevier.com/retrieve/pii/0043164872901652}
 \BIBentrySTDinterwordspacing
+
+\bibitem[Harris and Kotzalas(2007)]{Harris2007}
+T.~A. Harris and M.~N. Kotzalas, \emph{Essential Concepts of Bearing
+  Technology}, 5th~ed.\hskip 1em plus 0.5em minus 0.4em\relax Taylor and
+  Francis Group, 2007.
 
 \bibitem[Stribeck(1907)]{Stribeck1907}
 R.~Stribeck, ``Ball bearings for various loads,'' \emph{Trans. ASME}, vol.~29,
@@ -130,21 +143,15 @@ B.~R. Jorgensen and Y.~C. Shin, ``Dynamics of machine tool spindle/bearing
   load effects,'' \emph{Journal of Manufacturing Science and Engineering,
   Transactions of the ASME}, vol. 120, pp. 387--394, 1998.
 
-\bibitem[Kabus et~al.(2012)Kabus, Hansen, and Mouritsen]{Kabus2012}
-S.~Kabus, M.~R. Hansen, and O.~Mouritsen, ``A new quasi-static cylindrical
-  roller bearing model to accurately consider non-hertzian contact pressure in
-  time domain simulations,'' \emph{Journal of Tribology}, vol. 134, pp. 1--10,
-  2012.
-
-\bibitem[Teutsch and Sauer(2004)]{Teutsch2004}
-R.~Teutsch and B.~Sauer, ``An alternative slicing technique to consider
-  pressure concentrations in non-hertzian line contacts,'' \emph{Journal of
-  Tribology}, vol. 126, pp. 436--442, 2004.
-
-\bibitem[Harris and Kotzalas(2007)]{Harris2007}
-T.~A. Harris and M.~N. Kotzalas, \emph{Essential Concepts of Bearing
-  Technology}, 5th~ed.\hskip 1em plus 0.5em minus 0.4em\relax Taylor and
-  Francis Group, 2007.
+\bibitem[de~Mul et~al.(1989{\natexlab{b}})de~Mul, Vree, and Maas]{DeMul1989_1}
+\BIBentryALTinterwordspacing
+J.~M. de~Mul, J.~M. Vree, and D.~A. Maas, ``Equilibrium and associated load
+  distribution in ball and roller bearings loaded in five degrees of freedom
+  while neglecting friction—part i: General theory and application to ball
+  bearings,'' \emph{Journal of Tribology}, vol. 111, pp. 142--148, 1 1989.
+  [Online]. Available:
+  \url{https://asmedigitalcollection.asme.org/tribology/article/111/1/142/432329/Equilibrium-and-Associated-Load-Distribution-in}
+\BIBentrySTDinterwordspacing
 
 \bibitem[Sopanen and Mikkola(2003{\natexlab{a}})]{Sopanen2003_1}
 \BIBentryALTinterwordspacing
@@ -180,11 +187,6 @@ M.~Matsubara, H.~Rahnejat, and R.~Gohar, ``Computational modelling of precision
   \url{http://dx.doi.org/10.1016/0890-6955(88)90056-9}
 \BIBentrySTDinterwordspacing
 
-\bibitem[Rahnejat and Rothberg(2004)]{Rahnejat2004}
-H.~Rahnejat and S.~Rothberg, \emph{Mulit-body dynamics: Monitoring and
-  simulation techniques III}, 1st~ed.\hskip 1em plus 0.5em minus 0.4em\relax
-  Wiley, 2004.
-
 \bibitem[Gupta(1979)]{Gupta1979}
 \BIBentryALTinterwordspacing
 P.~K. Gupta, ``Dynamics of rolling-element bearings—part i: Cylindrical
@@ -198,6 +200,39 @@ P.~K. Gupta, ``Dynamics of rolling-element bearings—part i: Cylindrical
 R.~Aini, H.~Rahnejat, and R.~Gohar, ``A five degrees of freedom analysis of
   vibrations in precision spindles,'' \emph{International Journal of Machine
   Tools and Manufacture}, vol.~30, pp. 1--18, 1990.
+
+\bibitem[Rahnejat and Rothberg(2004)]{Rahnejat2004}
+H.~Rahnejat and S.~Rothberg, \emph{Mulit-body dynamics: Monitoring and
+  simulation techniques III}, 1st~ed.\hskip 1em plus 0.5em minus 0.4em\relax
+  Wiley, 2004.
+
+\bibitem[Questa et~al.(2021)Questa, Mohammadpour, Theodossiades, Garner,
+  Bewsher, and Offner]{Questa2020}
+\BIBentryALTinterwordspacing
+H.~Questa, M.~Mohammadpour, S.~Theodossiades, C.~Garner, S.~Bewsher, and
+  G.~Offner, ``Tribo-dynamic analysis of high-speed roller bearings for
+  electrified vehicle powertrains,'' \emph{Tribology International}, vol. 154,
+  p. 106675, 2 2021. [Online]. Available:
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S0301679X20305004}
+\BIBentrySTDinterwordspacing
+
+\bibitem[Stone(1982)]{Stone1982}
+B.~J. Stone, ``The state of the art in the measurement of the stiffness and
+  damping of rolling element bearings,'' \emph{CIRP Annals - Manufacturing
+  Technology}, vol.~31, pp. 529--538, 1982.
+
+\bibitem[Dietl(1997)]{Dietl1997}
+P.~Dietl, ``Damping and stiffness characteristics of rolling element
+  bearings-theory and experiment,'' 1997.
+
+\bibitem[Bizarre et~al.(2018)Bizarre, Nonato, and Cavalca]{Bizarre2018}
+\BIBentryALTinterwordspacing
+L.~Bizarre, F.~Nonato, and K.~Cavalca, ``Formulation of five degrees of freedom
+  ball bearing model accounting for the nonlinear stiffness and damping of
+  elastohydrodynamic point contacts,'' \emph{Mechanism and Machine Theory},
+  vol. 124, pp. 179--196, 6 2018. [Online]. Available:
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S0094114X1830106X}
+\BIBentrySTDinterwordspacing
 
 \bibitem[Rahnejat and Gohar(1985)]{Rahnejat1985}
 H.~Rahnejat and R.~Gohar, ``The vibrations of radial ball bearings,''
@@ -220,18 +255,34 @@ M.~Mohammadpour, P.~Johns-Rahnejat, and H.~Rahnejat, ``Roller bearing dynamics
   http://journals.sagepub.com/doi/10.1177/1464419315569621}
 \BIBentrySTDinterwordspacing
 
-\bibitem[Dareing and Johnson(1975)]{Dareing1975}
+\bibitem[Sopanen and Mikkola(2003{\natexlab{b}})]{Sopanen2003_2}
 \BIBentryALTinterwordspacing
-D.~W. Dareing and K.~L. Johnson, ``Fluid film damping of rolling contact
-  vibrations,'' \emph{Journal of Mechanical Engineering Science}, vol.~17, pp.
-  214--218, 8 1975. [Online]. Available:
-  \url{http://journals.sagepub.com/doi/10.1243/JMES_JOUR_1975_017_031_02}
+J.~Sopanen and A.~Mikkola, ``Dynamic model of a deep-groove ball bearing
+  including localized and distributed defects. part 2: Implementation and
+  results,'' \emph{Proceedings of the Institution of Mechanical Engineers, Part
+  K: Journal of Multi-body Dynamics}, vol. 217, pp. 213--223, 9 2003. [Online].
+  Available: \url{http://journals.sagepub.com/doi/10.1243/14644190360713560}
 \BIBentrySTDinterwordspacing
 
-\bibitem[Mehdigoli et~al.(1990)Mehdigoli, Rahnejat, and Gohar]{Mehdigoli1990}
-H.~Mehdigoli, H.~Rahnejat, and R.~Gohar, ``Vibration response of wavy surfaced
-  disc in elastohydrodynamic rolling contact,'' \emph{Wear}, vol. 139, pp.
-  1--15, 1990.
+\bibitem[Sawalhi and Randall(2008)]{Sawalhi2008}
+N.~Sawalhi and R.~B. Randall, ``Simulating gear and bearing interactions in the
+  presence of faults. part i. the combined gear bearing dynamic model and the
+  simulation of localised bearing faults,'' \emph{Mechanical Systems and Signal
+  Processing}, vol.~22, pp. 1924--1951, 2008.
+
+\bibitem[Liu and Shao(2017)]{Liu2017b}
+J.~Liu and Y.~Shao, ``Vibration modelling of nonuniform surface waviness in a
+  lubricated roller bearing,'' \emph{JVC/Journal of Vibration and Control},
+  vol.~23, pp. 1115--1132, 2017.
+
+\bibitem[Nonato and Cavalca(2014)]{Nonato2014}
+\BIBentryALTinterwordspacing
+F.~Nonato and K.~L. Cavalca, ``An approach for including the stiffness and
+  damping of elastohydrodynamic point contacts in deep groove ball bearing
+  equilibrium models,'' \emph{Journal of Sound and Vibration}, vol. 333, pp.
+  6960--6978, 2014. [Online]. Available:
+  \url{http://dx.doi.org/10.1016/j.jsv.2014.08.011}
+\BIBentrySTDinterwordspacing
 
 \bibitem[Gohar and Rahnejat(2018)]{Gohar2018}
 \BIBentryALTinterwordspacing
@@ -247,6 +298,17 @@ K.~L. Johnson, \emph{Contact Mechanics}.\hskip 1em plus 0.5em minus 0.4em\relax
 \bibitem[Hertz(1881)]{Hertz1881}
 H.~Hertz, ``On the contact of elastic solids,'' \emph{J. Reine Angew, Math.},
   vol.~92, pp. 156--171, 1881.
+
+\bibitem[Kabus et~al.(2012)Kabus, Hansen, and Mouritsen]{Kabus2012}
+S.~Kabus, M.~R. Hansen, and O.~Mouritsen, ``A new quasi-static cylindrical
+  roller bearing model to accurately consider non-hertzian contact pressure in
+  time domain simulations,'' \emph{Journal of Tribology}, vol. 134, pp. 1--10,
+  2012.
+
+\bibitem[Teutsch and Sauer(2004)]{Teutsch2004}
+R.~Teutsch and B.~Sauer, ``An alternative slicing technique to consider
+  pressure concentrations in non-hertzian line contacts,'' \emph{Journal of
+  Tribology}, vol. 126, pp. 436--442, 2004.
 
 \bibitem[Reynolds(1886)]{Reynolds1886}
 \BIBentryALTinterwordspacing
@@ -298,11 +360,11 @@ D.~Dowson and G.~R. Higginson, ``A numerical solution to the
 ------, \emph{Elastohydrodynamic Lubrication}.\hskip 1em plus 0.5em minus
   0.4em\relax Pergamon, 1966.
 
-\bibitem[Dowson and Toyoda(1979)]{Dowson1979}
+\bibitem[Dowson and Toyoda(1978)]{Dowson1979}
 D.~Dowson and S.~Toyoda, ``A central film thickness formula for
   elastohydrodynamic line contacts,'' \emph{Proceedings of the Fifth Leeds-Lyon
   Symposium on Tribology, Mechanical Engineering Publications}, pp. 60--65,
-  1979.
+  1978.
 
 \bibitem[Ertel(1939)]{Ertel1939}
 A.~M. Ertel, ``Hydrodynamic lubrication based on new principles,'' \emph{Akad.
@@ -449,6 +511,28 @@ M.~Denni, N.~Biboulet, V.~Abousleiman, and A.~A. Lubrecht, ``Dynamic study of a
   \url{https://doi.org/10.1016/j.triboint.2019.03.054}
 \BIBentrySTDinterwordspacing
 
+\bibitem[Walford and Stone(1983)]{Walford1983}
+\BIBentryALTinterwordspacing
+T.~L.~H. Walford and B.~J. Stone, ``The sources of damping in rolling element
+  bearings under oscillating conditions,'' \emph{Proceedings of the Institution
+  of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science},
+  vol. 197, pp. 225--232, 10 1983. [Online]. Available:
+  \url{http://journals.sagepub.com/doi/10.1243/PIME_PROC_1983_197_102_02}
+\BIBentrySTDinterwordspacing
+
+\bibitem[Dareing and Johnson(1975)]{Dareing1975}
+\BIBentryALTinterwordspacing
+D.~W. Dareing and K.~L. Johnson, ``Fluid film damping of rolling contact
+  vibrations,'' \emph{Journal of Mechanical Engineering Science}, vol.~17, pp.
+  214--218, 8 1975. [Online]. Available:
+  \url{http://journals.sagepub.com/doi/10.1243/JMES_JOUR_1975_017_031_02}
+\BIBentrySTDinterwordspacing
+
+\bibitem[Mehdigoli et~al.(1990)Mehdigoli, Rahnejat, and Gohar]{Mehdigoli1990}
+H.~Mehdigoli, H.~Rahnejat, and R.~Gohar, ``Vibration response of wavy surfaced
+  disc in elastohydrodynamic rolling contact,'' \emph{Wear}, vol. 139, pp.
+  1--15, 1990.
+
 \bibitem[Walker et~al.(2018)Walker, Questa, Bewsher, Schweiger, and
   Sopouch]{Walker2018a}
 J.~Walker, H.~Questa, S.~R. Bewsher, C.~Schweiger, and M.~Sopouch,
@@ -533,84 +617,9 @@ R.~G. Budynas and J.~K. Nisbett, \emph{Shigley's Mechanical Engineering
 B.~J. Hamrock, ``Film thickness for different regimes of fluid-film
   lubrication,'' pp. 1--14, 1980.
 
-\bibitem[Cai et~al.(2021)Cai, Wu, Zhou, Liang, and Wang]{Cai2021}
-\BIBentryALTinterwordspacing
-W.~Cai, X.~Wu, M.~Zhou, Y.~Liang, and Y.~Wang, ``Review and development of
-  electric motor systems and electric powertrains for new energy vehicles,''
-  \emph{Automotive Innovation}, vol.~4, pp. 3--22, 2021. [Online]. Available:
-  \url{https://doi.org/10.1007/s42154-021-00139-z}
-\BIBentrySTDinterwordspacing
-
-\bibitem[de~Mul et~al.(1989{\natexlab{b}})de~Mul, Vree, and Maas]{DeMul1989_1}
-\BIBentryALTinterwordspacing
-J.~M. de~Mul, J.~M. Vree, and D.~A. Maas, ``Equilibrium and associated load
-  distribution in ball and roller bearings loaded in five degrees of freedom
-  while neglecting friction—part i: General theory and application to ball
-  bearings,'' \emph{Journal of Tribology}, vol. 111, pp. 142--148, 1 1989.
-  [Online]. Available:
-  \url{https://asmedigitalcollection.asme.org/tribology/article/111/1/142/432329/Equilibrium-and-Associated-Load-Distribution-in}
-\BIBentrySTDinterwordspacing
-
-\bibitem[Questa et~al.(2021)Questa, Mohammadpour, Theodossiades, Garner,
-  Bewsher, and Offner]{Questa2020}
-\BIBentryALTinterwordspacing
-H.~Questa, M.~Mohammadpour, S.~Theodossiades, C.~Garner, S.~Bewsher, and
-  G.~Offner, ``Tribo-dynamic analysis of high-speed roller bearings for
-  electrified vehicle powertrains,'' \emph{Tribology International}, vol. 154,
-  p. 106675, 2 2021. [Online]. Available:
-  \url{https://linkinghub.elsevier.com/retrieve/pii/S0301679X20305004}
-\BIBentrySTDinterwordspacing
-
-\bibitem[Stone(1982)]{Stone1982}
-B.~J. Stone, ``The state of the art in the measurement of the stiffness and
-  damping of rolling element bearings,'' \emph{CIRP Annals - Manufacturing
-  Technology}, vol.~31, pp. 529--538, 1982.
-
-\bibitem[Dietl(1997)]{Dietl1997}
-P.~Dietl, ``Damping and stiffness characteristics of rolling element
-  bearings-theory and experiment,'' 1997.
-
-\bibitem[Bizarre et~al.(2018)Bizarre, Nonato, and Cavalca]{Bizarre2018}
-\BIBentryALTinterwordspacing
-L.~Bizarre, F.~Nonato, and K.~Cavalca, ``Formulation of five degrees of freedom
-  ball bearing model accounting for the nonlinear stiffness and damping of
-  elastohydrodynamic point contacts,'' \emph{Mechanism and Machine Theory},
-  vol. 124, pp. 179--196, 6 2018. [Online]. Available:
-  \url{https://linkinghub.elsevier.com/retrieve/pii/S0094114X1830106X}
-\BIBentrySTDinterwordspacing
-
-\bibitem[Sopanen and Mikkola(2003{\natexlab{b}})]{Sopanen2003_2}
-\BIBentryALTinterwordspacing
-J.~Sopanen and A.~Mikkola, ``Dynamic model of a deep-groove ball bearing
-  including localized and distributed defects. part 2: Implementation and
-  results,'' \emph{Proceedings of the Institution of Mechanical Engineers, Part
-  K: Journal of Multi-body Dynamics}, vol. 217, pp. 213--223, 9 2003. [Online].
-  Available: \url{http://journals.sagepub.com/doi/10.1243/14644190360713560}
-\BIBentrySTDinterwordspacing
-
-\bibitem[Sawalhi and Randall(2008)]{Sawalhi2008}
-N.~Sawalhi and R.~B. Randall, ``Simulating gear and bearing interactions in the
-  presence of faults. part i. the combined gear bearing dynamic model and the
-  simulation of localised bearing faults,'' \emph{Mechanical Systems and Signal
-  Processing}, vol.~22, pp. 1924--1951, 2008.
-
-\bibitem[Liu and Shao(2017)]{Liu2017b}
-J.~Liu and Y.~Shao, ``Vibration modelling of nonuniform surface waviness in a
-  lubricated roller bearing,'' \emph{JVC/Journal of Vibration and Control},
-  vol.~23, pp. 1115--1132, 2017.
-
-\bibitem[Nonato and Cavalca(2014)]{Nonato2014}
-\BIBentryALTinterwordspacing
-F.~Nonato and K.~L. Cavalca, ``An approach for including the stiffness and
-  damping of elastohydrodynamic point contacts in deep groove ball bearing
-  equilibrium models,'' \emph{Journal of Sound and Vibration}, vol. 333, pp.
-  6960--6978, 2014. [Online]. Available:
-  \url{http://dx.doi.org/10.1016/j.jsv.2014.08.011}
-\BIBentrySTDinterwordspacing
-
 \bibitem[Lundberg and Yhland(1949)]{Lundberg1949}
-G.~Lundberg and E.~Yhland, ``Cylinder compressed between two plane bodies,''
-  \emph{SKF}, 1949.
+G.~Lundberg and E.~Yhland, \emph{Cylinder compressed between two plane
+  bodies}.\hskip 1em plus 0.5em minus 0.4em\relax SKF, 1949.
 
 \bibitem[Parikyan et~al.(2001)Parikyan, Resch, and Priebsch]{Parikyan2001}
 \BIBentryALTinterwordspacing
@@ -627,15 +636,6 @@ G.~Offner, ``Modelling of condensed flexible bodies considering non-linear
   inertia effects resulting from gross motions,'' \emph{Proceedings of the
   Institution of Mechanical Engineers, Part K: Journal of Multi-body Dynamics},
   vol. 225, pp. 204--219, 2011.
-
-\bibitem[Walford and Stone(1983)]{Walford1983}
-\BIBentryALTinterwordspacing
-T.~L.~H. Walford and B.~J. Stone, ``The sources of damping in rolling element
-  bearings under oscillating conditions,'' \emph{Proceedings of the Institution
-  of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science},
-  vol. 197, pp. 225--232, 10 1983. [Online]. Available:
-  \url{http://journals.sagepub.com/doi/10.1243/PIME_PROC_1983_197_102_02}
-\BIBentrySTDinterwordspacing
 
 \bibitem[Nelias et~al.(2008)Nelias, Bercea, and Paleu]{Nelias2008}
 D.~Nelias, I.~Bercea, and V.~Paleu, ``Prediction of roller skewing in tapered
