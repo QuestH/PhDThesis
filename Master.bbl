@@ -29,11 +29,6 @@ E.~V. Zaretsky, ``Rolling bearing life prediction, theory, and application,''
   \url{https://ntrs.nasa.gov/api/citations/20160013905/downloads/20160013905.pdf}
 \BIBentrySTDinterwordspacing
 
-\bibitem[Hamrock and Dowson(1976{\natexlab{a}})]{Hamrock1976}
-B.~J. Hamrock and D.~Dowson, ``Isothermal elastohydrodynamic lubrication of
-  point contacts - 4. starvation results.'' \emph{American Society of
-  Mechanical Engineers (Paper)}, pp. 223--228, 1976.
-
 \bibitem[Larsson(2013)]{Larsson2013}
 \BIBentryALTinterwordspacing
 R.~Larsson, \emph{EHL Film Thickness Behavior}.\hskip 1em plus 0.5em minus
@@ -379,7 +374,7 @@ H.~P. Evans and R.~W. Snidle, ``Elastohydrodynamic lubrication of point
 B.~J. Hamrock and B.~O. Jacobson, ``Elastohydrodynamic lubrication of line
   contacts,'' \emph{ASLE Transactions}, vol.~27, pp. 275--287, 1984.
 
-\bibitem[Hamrock and Dowson(1976{\natexlab{b}})]{Hamrock1976a}
+\bibitem[Hamrock and Dowson(1976{\natexlab{a}})]{Hamrock1976a}
 B.~J. Hamrock and D.~Dowson, ``Isothermal elastohydrodynamic lubrication of
   point contacts - 1. theoretical formulation.'' \emph{J Lubr Technol Trans
   ASME}, vol. 98 Ser F, pp. 223--229, 1976.
@@ -440,6 +435,11 @@ P.~E. Wolveridge, K.~P. Baglin, and J.~F. Archard, ``The starved lubrication of
   Mechanical Engineers}, vol. 185, pp. 1159--1169, 6 1970. [Online]. Available:
   \url{http://journals.sagepub.com/doi/10.1243/PIME_PROC_1970_185_126_02}
 \BIBentrySTDinterwordspacing
+
+\bibitem[Hamrock and Dowson(1976{\natexlab{b}})]{Hamrock1976}
+B.~J. Hamrock and D.~Dowson, ``Isothermal elastohydrodynamic lubrication of
+  point contacts - 4. starvation results.'' \emph{American Society of
+  Mechanical Engineers (Paper)}, pp. 223--228, 1976.
 
 \bibitem[Yang et~al.(2001)Yang, Qu, Chang, and Guo]{Yang2001}
 P.~Yang, S.~Qu, Q.~Chang, and F.~Guo, ``On the theory of thermal

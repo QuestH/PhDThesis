@@ -1,9 +1,9 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Roller-race model for line contact \cite {Zaretsky2016}.\relax }}{11}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Ball-race model for point contact \cite {Zaretsky2016}.\relax }}{11}{figure.2.2}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Roller-race model for line contact}}{11}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Ball-race model for point contact}}{11}{figure.2.2}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Hertzian contact deflection.\relax }}{12}{figure.2.3}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Effect of dimensionless inlet distance on film thickness for starvation modelling \cite {Hamrock1976}.\relax }}{18}{figure.2.4}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Effect of dimensionless inlet distance on film thickness for starvation modelling}}{18}{figure.2.4}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces EHL film and pressure distribution \cite {Larsson2013}.\relax }}{20}{figure.2.5}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Stribeck curve and specific film thickness ($\lambda $) \cite {Ali2015}.\relax }}{21}{figure.2.6}%
 \addvspace {10\p@ }
@@ -47,7 +47,7 @@
 \contentsline {figure}{\numberline {4.18}{\ignorespaces Film thickness vs contact force 21\nobreakspace {}000\nobreakspace {}$\mathrm {rpm}$.\relax }}{78}{figure.4.18}%
 \contentsline {figure}{\numberline {4.19}{\ignorespaces Film thickness vs contact force 12\nobreakspace {}500\nobreakspace {}$\mathrm {rpm}$.\relax }}{78}{figure.4.19}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Greenwood informed training data vs Marian et al. \cite {Marian2022}.\relax }}{90}{figure.5.1}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Greenwood informed training data vs Marian et al.}}{90}{figure.5.1}%
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Individual rolling element input values to ANN : a) Contact load, b) Contact entrainment velocity, c) Contact reduced radius\relax }}{96}{figure.5.2}%
 \contentsline {figure}{\numberline {5.3}{\ignorespaces $10-[14-14-14]_3-1$ using Hyperbolic Tangent activation function : a) 600 points, b) 1000 points, c) 2000 points, d) 5000 points\relax }}{99}{figure.5.3}%
 \contentsline {figure}{\numberline {5.4}{\ignorespaces ANN, numerical and analytical central film thickness comparisons.\relax }}{100}{figure.5.4}%
