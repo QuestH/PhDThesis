@@ -11,14 +11,13 @@ With a trend towards cost saving zero-prototype development, the use of simulati
 
 \section{Research Questions} \label{Research Questions}
 
-The primary objective of this work is to investigate the interaction between tribology and dynamics in rolling element bearings, with particular focus on the significance of this multi-physics interaction in high-speed automotive applications. Specifically, this work examines the influence of the elastohydrodynamic (EHL) film, and assesses the necessity of its implicit inclusion in dynamic bearing modelling. Computational viability of this coupled approach is assessed, and the use of an artificial neural network (ANN) is evaluated to address the accuracy of the EHL solution. This overarching aim is addressed through the following research questions:
+The primary objective of this work is to investigate the interaction between tribology and dynamics in rolling element bearings, with particular focus on the significance of this multi-physics interaction in high-speed automotive applications. Specifically, this work examines the influence of the elastohydrodynamic (EHL) film, and assesses the necessity of its implicit inclusion in dynamic bearing modelling. Computational viability of this coupled approach is assessed, and the use of an artificial neural network (ANN) is evaluated to address the accuracy requirements of the numerical EHL solution. This overarching aim is addressed through the following research questions:
 
 \begin{enumerate}
-	\item Must the EHL film be considered at contact level in the modelling of high-speed rolling element bearings in automotive transmissions?
-	\item What is the influence of the EHL film on the dynamic behaviour of electrified vehicle powertrains?
+	\item How does the EHL film affect the contact stiffness of rolling element bearings in electrified vehicle powertrains?
+	\item How considerable is implicit consideration of the EHL film on the dynamic behaviour of bearings in these powertrains?
 	\item Can an artificial neural network be used to predict film thickness across a broad range of rolling element bearing input parameters?
-	\item Can  computational efficiency be improved whilst maintaining the accuracy of the numerical EHL solution?
-
+	\item Can the ANN be employed implicitly within an flexible multi-body dynamic to compute film thickness to the acuracy of the numerical solution without the computational efficiency limitations? 
 \end{enumerate}
 
 
@@ -32,7 +31,7 @@ The research in this thesis is presented in the following structure:
 
 \paragraph{Chapter 3} presents a high-speed experimental test rig which was used to obtain kinematic boundary conditions for tribological models. The importance of including the lubricant film in high-speed dynamic bearing models is assessed here. The governing equations for the thesis are also introduced in this chapter.
 
-\paragraph{Chapter 4} integrates the tribological models used in Chapter 3 into a system-level flexible multi-body dynamic (FMBD) model. High-speed simulations are performed with operating conditions representative of those in an electrified transmission. The EHL film is modelled implicitly at the roller-race conjunction, and its affect on system dynamics is evaluated.
+\paragraph{Chapter 4} integrates the tribological models used in Chapter 3 into a system-level FMBD model. High-speed simulations are performed with operating conditions representative of those in an electrified transmission. The EHL film is modelled implicitly at the roller-race conjunction, and its affect on system dynamics is evaluated.
 
 \paragraph{Chapter 5} introduces an ANN  to address the shortcomings of the analytical approach when estimating EHL film thickness at high speeds. The ANN is trained using a wide design space of input variables. The accuracy of the model and computational efficiency is assessed. The ANN is embedded within the dynamic system level model from Chapter 4 as an alternative approach to the analytical solution for film thickness. 
 

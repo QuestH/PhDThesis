@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.17)  9 MAR 2025 18:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.17)  9 MAR 2025 21:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2089,11 +2089,11 @@ licit Film Thickness Comparisons.png (PNG copy)>] [99]
 
 ]
 Chapter 6.
-[101] [102]) [103] (Master.bbl [104
+[101] [102] [103]) [104] (Master.bbl [105
 
 
 
-] [105] [106]
+] [106]
 Underfull \hbox (badness 10000) in paragraph at lines 162--168
 \T1/ptm/m/n/12 (+20) article / 101 / 3 / 305 / 410221 / Dynamics-[]of-[]Rolling
 Element-[]BearingsPart-[]IIhttps :
@@ -2176,7 +2176,7 @@ e1/urw/symbol/usyr.pfb><C:/Users/wshq/AppData/Local/Programs/MiKTeX/fonts/type1
 /urw/times/utmb8a.pfb><C:/Users/wshq/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/times/utmr8a.pfb><C:/Users/wshq/AppData/Local/Programs/MiKTeX/fonts/type1/u
 rw/times/utmri8a.pfb>
-Output written on Master.pdf (143 pages, 14587897 bytes).
+Output written on Master.pdf (143 pages, 14589088 bytes).
 PDF statistics:
  2139 PDF objects out of 2487 (max. 8388607)
  636 named destinations out of 1000 (max. 500000)
