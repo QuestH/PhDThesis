@@ -8,17 +8,16 @@
 \contentsline {paragraph}{Chapter 4}{xviii}{section*.10}%
 \contentsline {paragraph}{Greek Symbols}{xix}{section*.11}%
 \contentsline {chapter}{List of Abbreviations}{xx}{section*.11}%
-\contentsline {chapter}{Publications}{xxiii}{chapter*.12}%
+\contentsline {chapter}{Publications}{xxii}{chapter*.12}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Research Questions}{2}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Contribution to Knowledge}{2}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Structure of Thesis}{3}{section.1.3}%
-\contentsline {paragraph}{Chapter 1}{3}{section*.14}%
-\contentsline {paragraph}{Chapter 2}{3}{section*.15}%
+\contentsline {section}{\numberline {1.2}Structure of Thesis}{2}{section.1.2}%
+\contentsline {paragraph}{Chapter 1}{2}{section*.14}%
+\contentsline {paragraph}{Chapter 2}{2}{section*.15}%
 \contentsline {paragraph}{Chapter 3}{3}{section*.16}%
 \contentsline {paragraph}{Chapter 4}{3}{section*.17}%
 \contentsline {paragraph}{Chapter 5}{3}{section*.18}%
-\contentsline {paragraph}{Chapter 6}{4}{section*.19}%
+\contentsline {paragraph}{Chapter 6}{3}{section*.19}%
 \contentsline {chapter}{\numberline {2}Literature Review}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Rolling Element Bearing Introduction}{5}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Rolling Element Bearing Modelling}{6}{section.2.2}%
@@ -95,9 +94,10 @@
 \contentsline {subsubsection}{Bearing Film Thickness Predictions}{95}{section*.50}%
 \contentsline {section}{\numberline {5.6}Conclusions}{98}{section.5.6}%
 \contentsline {section}{\numberline {5.7}Conclusions}{98}{section.5.7}%
-\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{101}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Conclusions and Future Works}{101}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Overall Conclusions}{101}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Addressing the Research Questions}{101}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Future Work}{102}{section.6.3}%
-\contentsline {chapter}{References}{103}{chapter*.51}%
-\contentsline {chapter}{Appendix \numberline {A}Appendix}{117}{appendix.a.A}%
+\contentsline {section}{\numberline {6.2}Contributions to Knowledge}{102}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Addressing the Research Questions}{103}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Future Works}{103}{section.6.4}%
+\contentsline {chapter}{References}{105}{chapter*.51}%
+\contentsline {chapter}{Appendix \numberline {A}Appendix}{119}{appendix.a.A}%

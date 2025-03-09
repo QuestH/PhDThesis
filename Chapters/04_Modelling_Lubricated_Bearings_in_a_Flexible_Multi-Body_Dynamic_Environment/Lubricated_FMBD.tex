@@ -2,11 +2,9 @@
 \label{Lubricated FMBD}
 
 \section{Introduction}
-In the previous chapter, the necessity of implicitly modelling the EHL film at the roller-race contact is highlighted.
+The previous chapter highlights the necessity of implicitly modelling the EHL film at the roller-race contact. A workflow was established to implicitly account for the lubricant film at the roller-race conjunction. However, bearing motion is obtained experimentally, which limits the investigation to component level analysis. Since this work aims to investigate the effect of the EHL film at system level, and dynamic model must be developed.
 
-This chapter presents a new flexible dynamic model for drive systems comprising lubricated bearings operating under conditions representative of electrified vehicle powertrains. The multi-physics approach importantly accounts for the tribological phenomena at the roller–race conjunction and models their effect on shaft-bearing system dynamics. 
-
-This is achieved by embedding a non-linear lubricated bearing model within an FMBD; this is something which has not, to the authors’ knowledge, been reported on hitherto. The time-varying system operating conditions reflect that of an electrified powertrain. The kinematic behaviour of a flexible shaft at each time step of a dynamic simulation is passed to the bearing model. A contact slicing method \cite{Andreason1973} is employed to calculate the reaction forces of the individual rolling elements based on the roller–race contact deflection \cite{Lundberg1949}. The total deflection is influenced by the thickness of the EHL film within the contact, which is implicitly included within the analysis through an iterative procedure. The resulting race forces are returned to the system level model and the equations of motion are solved at each time step. Comparisons are made between modelling the bearings as dry and lubricated. The dynamic results including acceleration, force magnitudes and stiffness variations have been obtained for realistic loading conditions of a 54~$kW$ electric hub motor up to speeds of 21~000~$rpm$.
+This chapter presents a new flexible dynamic model for drive systems comprising lubricated bearings operating under conditions representative of electrified vehicle powertrains. This is achieved by embedding a non-linear lubricated bearing model within an FMBD model; something which has not, to the authors’ knowledge, been reported on hitherto. The time-varying system operating conditions reflect that of an electrified powertrain. The kinematic behaviour of a flexible shaft at each time step of a dynamic simulation is passed to the bearing model. A contact slicing method \cite{Andreason1973} is employed to calculate the reaction forces of the individual rolling elements based on the roller–race contact deflection \cite{Lundberg1949}. The total deflection is influenced by the thickness of the EHL film within the contact, which is implicitly included within the analysis through an iterative procedure. The resulting race forces are returned to the system level model and the equations of motion are solved at each time step. Comparisons are made between modelling the bearings as dry and lubricated. The dynamic results including acceleration, force magnitudes and stiffness variations have been obtained for realistic loading conditions of a 54~$kW$ electric hub motor up to speeds of 21~000~$rpm$.
 
 The elastohydrodynamic (EHL) film is shown to increase contact deflection, leading to increased contact forces and total bearing stiffness as rotational speeds increase. Results show that a 21~000~$rpm$, the input bearing EHL film reaches a thickness of 4.15~$\mu m$. The lubricant entrainment increases the roller–race contact deflection, causing the contact stiffness to increase non-linearly with speed. The contribution of the lubricant film leads to a 16.6\% greater bearing stiffness at 21~000~$rpm$ when compared to conventional dry bearing modelling methods used in current multi-body dynamic software.
 
@@ -349,7 +347,7 @@ A coupled simulation approach is employed to implement the lubricated components
 
 \paragraph{Connected Degrees of Freedom}
 
-Connections are created between bodies in the FMBD software using pins. Pins are assigned to specific nodes on the shaft and housing. The pins transmit a 6-element vector that describe the 6 DOFs (degrees of freedom) of the connection point. The first 3 elements represent translational degrees of freedom, whilst the latter represent rotational degrees of freedom. This are concatenated into a single communication vector that is then transferred to MATLAB.
+Connections are created between bodies in the FMBD software using pins. Pins are assigned to specific nodes on the shaft and housing. The pins transmit a 6-element vector that describe the 6 DOF of the connection point. The first 3 elements represent translational degrees of freedom, whilst the latter represent rotational degrees of freedom. This are concatenated into a single communication vector that is then transferred to MATLAB.
 
 \begin{figure}  
 	\includegraphics[width=125mm]{Communication_Vector_MATLAB.png}
@@ -357,7 +355,7 @@ Connections are created between bodies in the FMBD software using pins. Pins are
 	\label{Communication_Vector_MATLAB}
 \end{figure} 
 
-Two vectors are transferred from EXCITE to MATLAB\textregistered\: one containing displacement information in all 6 DOFs and the other containing velocity information. Force vectors of equal size are then computed within the component level model in MATLAB\textregistered\ and returned to EXCITE\textsuperscript{TM} Power Unit.
+Two vectors are transferred from EXCITE to MATLAB\textregistered\: one containing displacement information in all 6 DOF and the other containing velocity information. Force vectors of equal size are then computed within the component level model in MATLAB\textregistered\ and returned to EXCITE\textsuperscript{TM} Power Unit.
 
 The connection to MATLAB\textregistered\ is facilitated via an S-function. Therefore, a Simulink® model is required. A generic block developed by AVL, the EXCITE\textsuperscript{TM} Power Unit Simulink block, is used for this purpose:
 
@@ -396,7 +394,7 @@ To integrate the lubricated bearing model into the Simulink\textregistered\ mode
 	\label{Simulink_model_schematic}
 \end{figure} 
 
-The coupled simulation supported by \textsuperscript{TM} Power Unit is explicit in nature. This means that there is no iteration at each time step between the dynamic solver and the bearing model. A sufficiently fine time step is therefore required to prevent numerical divergence of results due to error accumulation. It was found that a time step of 1e-6~$s$ was fine enough to ensure numerical convergence, whilst also remaining computationally efficient.
+The coupled simulation supported by EXCITE\textsuperscript{TM} Power Unit is explicit in nature. This means that there is no iteration at each time step between the dynamic solver and the bearing model. A sufficiently fine time step is therefore required to prevent numerical divergence of results due to error accumulation. It was found that a time step of 1e-6~$s$ was fine enough to ensure numerical convergence, whilst also remaining computationally efficient.
 
 \section{Results and Discussion}
 
@@ -464,17 +462,18 @@ Analysing the conjunction level results from the lubricated model, the contact f
 
 \subsection{Conclusions}
 
-The new methodology presented has been developed to implement a lubricated bearing model within a flexible system level model. The model implicitly includes the lubricant film at the roller–race contact within the bearing; this is something that has not, to the authors’ knowledge, been reported previously in the open literature. Simulations have been performed up to 21~000~$\mathrm{rpm}$ with realistic excitation forces from a first stage reduction gear pair and electric motor. The conjunction level and system level results have been analysed to compare the lubricated and conventional dry-bearing modelling techniques in a flexible  multi-body dynamic (FMBD) environment.
+The new methodology presented has been developed to implement a lubricated bearing model within a flexible system level model. The following conclusions are drawn:
 
-Results show that the film thickness reaches 4.1521~${\mu m}$ at 21~000~$\mathrm{rpm}$. This leads to 9.6 times greater contact forces and hence 24.9\% greater contact stiffness between the dry and lubricated models due to the lubricant entrainment and non-linear Hertzian force–deflection relationship. The contribution of all the rolling elements leads to the lubricated model having a 16.6\% greater maximum total bearing stiffness at 21~000~$\mathrm{rpm}$ than the dry model. Moreover, this stiffness is shown to increase with speed due to the film thickness increasing with the entrainment velocity; this is something that dry models do not account for.
+\begin{enumerate} 
+	\item Simulations have been performed up to 21~000~$\mathrm{rpm}$ with realistic excitation forces from a first stage reduction gear pair and electric motor. The FMBD model implicitly includes the lubricant film at the roller–race contact within the bearing; The conjunction level and system level results have been analysed to compare the lubricated and conventional dry-bearing modelling techniques. This is something that has not, to the authors’ knowledge, been reported previously in the open literature.
+	\item Results show that the film thickness reaches 4.15~${\mu m}$ at 21~000~$\mathrm{rpm}$. This leads to 9.6 times greater contact forces and hence 24.9\% greater contact stiffness between the dry and lubricated models due to the lubricant entrainment and non-linear Hertzian force–deflection relationship. 
+	\item The contribution of all the rolling elements leads to the lubricated model having a 16.6\% greater maximum total bearing stiffness at 21~000~$\mathrm{rpm}$ than the dry model. Moreover, this stiffness is shown to increase with speed due to the film thickness increasing with the entrainment velocity; this is something that dry models do not account for.
+	\item This increase in the total bearing stiffness leads to a change in the stiffness of the total system. By modelling the shaft as a flexible body, the influence on the natural frequency of the system is seen. The resonant peak at 12~500~$\mathrm{rpm}$ shifts 250~$\mathrm{rpm}$ higher in the lubricated model, which coincides with the higher frequency excitation from the gear meshing.
+\end{enumerate}
 
-This increase in the total bearing stiffness leads to a change in the stiffness of the total system. By modelling the shaft as a flexible body, the influence on the natural frequency of the system is seen. The resonant peak at 12~500~$\mathrm{rpm}$ shifts 250~$\mathrm{rpm}$ higher in the lubricated model, which coincides with the higher frequency excitation from the gear meshing.
+Understanding the influence of the roller bearings on the transmission stiffness is of particular importance in automotive applications, and this change shows the effect of the lubricant film on the already complex contact phenomena. Neglecting the effect of the lubricant film can lead to an underestimation of the bearing stiffness, impacting the accuracy of dynamic analyses such as noise, vibration and harshness (NVH) prediction. 
 
-Understanding the influence of the roller bearings on the transmission stiffness is of particular importance in automotive applications, and this change shows the effect of the lubricant film on the already complex contact phenomena. Neglecting the effect of the lubricant film can lead to an underestimation of the bearing stiffness, impacting the accuracy of dynamic analyses such as noise, vibration and harshness (NVH) prediction. As transmissions operate at higher speeds with more complex interconnected structures and noise paths, it is important that these behaviours are modelled accurately. Furthermore, underestimation of the contact forces will also lead to a miscalculation of contact pressures, impacting future sub-surface stress and wear analyses for the life predictions of these crucial critical  machine elements.
-
-Further developments of this work aim to include more complex rheological phenomena, accounting for thermal and starvation effects at high speeds. Computational efficiency must also be maintained when embedding these models within FMBD environments, due to the iterative nature of the EHL solution.
-
-The presented work establishes the necessity of a multi-physics approach to model the tribology and dynamics of high-speed rolling element bearings. This is essential for future powertrain modelling to ensure accurate component and system level behaviour.
+As transmissions operate at higher speeds with more complex interconnected structures and noise paths, it is important that these behaviours are modelled accurately. Furthermore, underestimation of the contact forces will also lead to a miscalculation of contact pressures, impacting future sub-surface stress and wear analyses for the life predictions of these crucial critical  machine elements.
 
 
 

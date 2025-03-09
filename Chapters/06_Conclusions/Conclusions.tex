@@ -1,38 +1,44 @@
-\chapter{Conclusions and Future Work}
+\chapter{Conclusions and Future Works}
 \label{Conclusions}
 
 \section{Overall Conclusions}
 
-The following conclusions have been drawn from this body of work:
+This thesis presents a coupled tribological and dynamic modelling approach to investigate the influence of the EHL film on bearing dynamics under electrified vehicle operating conditions. The following conclusions have been drawn from the results and analyses contained in this research:
 
 \begin{enumerate}
-	\item Elastohydrodynamic film thickness shown to increase considerably at the higher entrainment velocities in modern electrified powertrains. System level modelling at 21~000~$rpm$, 
-	\item 
-	\item FMBD stiffness
-	\item ANN accuracy
-	\item ANN computational efficiency
-	\item ANN implict FMBD
+	\item This work highlights the significant impact of the lubricant film on bearing dynamics, particularly in high-speed conditions, where the film thickness increases substantially. The film influences contact load and stiffness predictions, which are underestimated when using the dry Hertzian assumption.
+	\item An FMBD model was developed to simulate lubricated bearings within a flexible system-level model, incorporating realistic excitation forces. Results show that the lubricant film increases bearing stiffness by up to 24.9~\% at 21~000~rpm, with higher stiffness contributing to a shift in the system’s natural frequency, emphasizing the need for accurate lubricant modelling in system-level analyses.
+	\item At high entrainment velocities, the analytical film thickness equations deviate significantly from the numerical solution when computing film thickness.
+	\item An ANN was trained to predict bearing film thickness based on numerical EHL data, with the training input data constrained using the Greenwood regimes of lubrication for enhanced accuracy.
+	\item The ANN approach demonstrated exceptional computational efficiency, being approximately 1~500 times faster than traditional numerical methods.
+	\item The ANN has been embedded within an FMBD system model to calculate EHL film thickness and consider it implicitly in the evaluation of the bearing dynamics. The film thickness evaluation achieves the accuracy of numerical models without the associated computational limitations.
 \end{enumerate}
 
+
+\section{Contributions to Knowledge} \label{Contribution to Knowledge}
+
+The main novelties and contributions to knowledge from this thesis are summarised below:
+
+\begin{enumerate}
+	\item A novel methodology to measure bearing orbital motion for tribological analysis at high-speed has been presented. This enabled component and conjunction level tribodynamic analysis of a roller bearing under previously unreported speeds and loading conditions.
+	\item A coupled co-simulation approach was established to integrate an implicit lubricated bearing model within a high-speed system-level FMBD model. The lubricated bearing model considers the EHL film in the evaluation of the bearing and system dynamics. This was the first time a multi-physics model of this nature has been reported in open literature.
+	\item An ANN was trained using input data from the numerical EHL solution. This was used to predict bearing film thickness across a wide range of tribological input variables. The methodology of constraining the training data using the Greenwood Regime has not been openly reported, and ensured high data quality and hence accurate predictions. This methodology will further contribute to the accuracy of tribological ANNs.
+	\item The ANN was embedded within an FMBD system model to calculate EHL film thickness and consider it implicitly in the evaluation of the bearing and system dynamics. The film thickness evaluation achieves the accuracy of numerical models without the associated computational limitations. This modelling method of combining component level ANN within a flexible system has been previously reported. This establishes a workflow that will further enhance the accuracy of FMBD modelling, not limited to rolling element bearings.
+\end{enumerate}
 
 \section{Addressing the Research Questions}
 
-\begin{enumerate}
-	\item 
-	\item 
-	\item 
-	\item 
-	\item 
-	\item	
-\end{enumerate}
+The objective of this thesis was to address the Research Questions presented in Section \ref{Research Questions}.
 
+The findings of this thesis are to be implemented into the commercial software AVL EXCITE\textsuperscript{TM} M to support future rolling element bearing development. The influence of the lubricant film in dynamic analysis is of particular interest. The workflow of coupling contact level artificial neural networks into system level FMBD models is also of interest. This approach has applications beyond rolling element bearings, as a generic contact approach could also improve non-conformal contact modelling for gears and cam joints
 
-\section{Future Work}
+\section{Future Works}
+
+The novel approaches presented in this thesis open up further opportunities to advance this field of research.
 
 \begin{itemize}
-	\item Develop first stage analysis for which regimes it is required to implictly include the film. Kinematic inputs
-	\item Extend the ANN training data to 
 	\item Full system level model with multiple lubricated bearings
-	\item Develop methodology for ANN in FMBD software
-	\item Physics informed Artificial Neural Networks
+	\item For wider adoption of the ANN solution, the ability to extrapolate beyond the bounds of the training data needs to be addressed. Large errors in film thickness estimation would affect the stability of an FMBD model.
+	\item Develop methodology for ANN in FMBD software. A suggested approach is to train the model using known input variables and kinematic conditions in a first stage static analysis. This trained model could then be called at each time step of the dynamic simulation. Alternatively, a library of trained models could be established using Greenwood regime constraints outlined in this work.
+	\item Physics informed Artificial Neural Networks to have a more data driven approach to tribological modelling.
 \end{itemize}

@@ -4,33 +4,23 @@ The automotive industry is transitioning into the next phase of powertrain techn
 
 To achieve high-efficiency and adhere to packaging constraints, modern electrified powertrains utilize ultra-high speed and low load motors \cite{Cai2021}. These motors introduce new challenges regarding NVH (Noise, Vibration and Harshness) and the tribology of interacting conjunctions. The compact, lightweight and efficient motors operate under significantly different working conditions and are subject to different underlying physics; such as regime of lubrication, dynamic response and magneto-mechanical interactions. This style of powertrain architecture therefore involves high-speed rolling element bearing operation in both the motor and transmission.
 
-Bearings are crucial structural components and their dynamic response significantly affects the behaviour of the interconnected structures. During a transmission meshing cycle, gear tooth forces can lead to complex orbital motion of the bearing races. The dynamic behaviour of the bearing prevails the force transmission from the excitation source to the housing and structure, hence NVH refinement is affected. This dynamic behaviour also influences the tribological contact conditions between rollers and raceways.
+These bearings are crucial structural components and their dynamic response significantly affects the behaviour of the interconnected structures. The dynamic behaviour of the bearing prevails the force transmission from the excitation source to the housing and structure. This dynamic behaviour also influences the tribological contact conditions between rollers and raceways.
 
-With a trend towards cost saving zero-prototype development, the use of simulation tools in modern powertrain development is also growing. Multi-system vehicle powertrain concepts are pushing complexity of simulation models and this requires accurate and robust component level understanding. Associated performance characteristics of the bearings such as friction and wear, thermal stability and generated vibration and noise must be accurately modelled at the development stage to ensure full system success \cite{Wensing1972a}.
+With a trend towards cost saving zero-prototype development, the use of simulation tools in modern powertrain development is growing. Multi-system vehicle powertrain concepts are pushing complexity of simulation models and this requires accurate and robust component level understanding. Performance characteristics of the bearings, such as NVH, friction, and wear must be accurately modelled at the development stage to ensure full system success.
 
 
 \section{Research Questions} \label{Research Questions}
 
-The primary objective of this work is to investigate the interaction between tribology and dynamics in rolling element bearings, with particular focus on the significance of this multi-physics interaction in high-speed automotive applications. Specifically, this work examines the influence of the elastohydrodynamic film, and assesses the necessity of its implicit inclusion in dynamic bearing modelling. Computational viability of this coupled approach is assessed, and the use of an artificial neural network is evaluated to address the accuracy of the EHL solution. This overarching aim is addressed through the following research questions:
+The primary objective of this work is to investigate the interaction between tribology and dynamics in rolling element bearings, with particular focus on the significance of this multi-physics interaction in high-speed automotive applications. Specifically, this work examines the influence of the elastohydrodynamic (EHL) film, and assesses the necessity of its implicit inclusion in dynamic bearing modelling. Computational viability of this coupled approach is assessed, and the use of an artificial neural network (ANN) is evaluated to address the accuracy of the EHL solution. This overarching aim is addressed through the following research questions:
 
 \begin{enumerate}
-	\item Must the elastohydrodynamic (EHL) film be considered at contact level in the modelling of high-speed rolling element bearings in automotive transmissions?
+	\item Must the EHL film be considered at contact level in the modelling of high-speed rolling element bearings in automotive transmissions?
 	\item What is the influence of the EHL film on the dynamic behaviour of electrified vehicle powertrains?
 	\item Can an artificial neural network be used to predict film thickness across a broad range of rolling element bearing input parameters?
-	\item Can computational efficiency be improved whilst maintaining the accuracy of the numerical EHL solution?
+	\item Can  computational efficiency be improved whilst maintaining the accuracy of the numerical EHL solution?
 
 \end{enumerate}
 
-\section{Contribution to Knowledge} \label{Contribution to Knowledge}
-
-The main novelties of this work are summarised below:
-
-\begin{enumerate}
-	\item A novel methodology comprising experiments and numerical modelling has been developed to enable component and conjunction level tribo-dynamic analysis of a roller bearing under previously unreported speeds and loading conditions.
-	\item A coupled co-simulation approach has been established to integrate an implicit lubricated bearing model within a high-speed system-level FMBD model. The lubricated bearing model considers the EHL film in the evaluation of the bearing dynamics.
-	\item An ANN has been trained using input data from the numerical EHL solution to predict bearing film thickness across a wide range of input variables.
-	\item The ANN has been embedded within an FMBD system model to calculate EHL film thickness and consider it implicitly in the evaluation of the bearing dynamics. The film thickness evaluation achieves the accuracy of numerical models without the associated computational limitations.
-\end{enumerate}
 
 \section{Structure of Thesis} \label{Structure of Thesis}
 
@@ -42,8 +32,8 @@ The research in this thesis is presented in the following structure:
 
 \paragraph{Chapter 3} presents a high-speed experimental test rig which was used to obtain kinematic boundary conditions for tribological models. The importance of including the lubricant film in high-speed dynamic bearing models is assessed here. The governing equations for the thesis are also introduced in this chapter.
 
-\paragraph{Chapter 4} integrates the tribological models used in Chapter 3 into a system-level flexible multi-body dynamic model. High-speed simulations are performed with operating conditions representative of those in an electrified transmission. The elastohydrodynamic film is modelled implicitly at the roller-race conjunction, and its affect on system dynamics is evaluated.
+\paragraph{Chapter 4} integrates the tribological models used in Chapter 3 into a system-level flexible multi-body dynamic (FMBD) model. High-speed simulations are performed with operating conditions representative of those in an electrified transmission. The EHL film is modelled implicitly at the roller-race conjunction, and its affect on system dynamics is evaluated.
 
-\paragraph{Chapter 5} introduces an artificial neural network (ANN) to address the shortcomings of the analytical approach when estimating EHL film thickness at high speeds. The ANN is trained using a wide design space of input variables. The accuracy of the model and computational efficiency is assessed. The ANN is embedded within the dynamic system level model from Chapter 4 as an alternative approach to the analytical solution for film thickness. 
+\paragraph{Chapter 5} introduces an ANN  to address the shortcomings of the analytical approach when estimating EHL film thickness at high speeds. The ANN is trained using a wide design space of input variables. The accuracy of the model and computational efficiency is assessed. The ANN is embedded within the dynamic system level model from Chapter 4 as an alternative approach to the analytical solution for film thickness. 
 
 \paragraph{Chapter 6} presents the general conclusions of the work, and outlines potential future work that could succeed this research.
