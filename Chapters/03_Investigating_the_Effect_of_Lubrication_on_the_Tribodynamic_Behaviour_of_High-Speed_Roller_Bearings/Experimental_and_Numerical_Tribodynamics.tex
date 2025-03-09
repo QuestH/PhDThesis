@@ -1,14 +1,15 @@
 \chapter{Investigating the Effect of Lubrication on the Tribodynamic Behaviour of High-Speed Roller Bearings}
 \label{Investigating the Effect of Lubrication on the Tribodynamic Behaviour of High-Speed Roller Bearings}
 
+\section{Introduction}
 
-Prior to the development of the 6 DOF dynamic model, a high-speed experimental test rig was instrumented to obtain boundary conditions for subsequent tribological models. This work was performed to ascertain what type of models need to be developed in the tribology domain without the need for a dynamic model. The requirement for lubricated rather than dry contact models, regimes of lubrication and workflows such as implicit or explicit modelling have been investigated.
+A review of the literature revealed that a comprehensive understanding of bearing performance in modern electrified powertrains requires a multi-physics approach comprising dynamics and tribology at high speeds. The working conditions for the tribological contacts between rollers and races are affected by the dynamic behaviour of the bearing. The dynamic behaviour itself is affected by the tribological phenomena at the lubricated conjunctions via introduced frictional dissipation and potential stiffness \cite{Hao2020} \cite{Akemi2020} and damping effects of the lubricant film. Therefore, a coupled tribodynamic methodology must be established for more accurately capturing the system’s behaviour.
 
-\section{Overall Workflow}
+Bearing orbital motion is conventionally obtained from a dynamic model by solving the equations of motion. However these are computationally intensive and often lack required physics such as system flexibility, flexibility of races and thermal effects \cite{Matsubara1988} \cite{Wang2015} \cite{Liu2017c}. To circumvent the requirement for a complex flexible dynamic model when conducting an initial feasibility review, displacement of the bearing centre and hence contact deflection is captured from experimental test results.
 
-To obtain the film thickness at the roller-race contact, the load on each roller must be calculated implicitly based on the contact deflection. This is obtained conventionally from a dynamic model by solving the equations of motion, but these are currently lacking the required in-depth physics such as system flexibility, flexibility of races and thermal effects \cite{Matsubara1988} \cite{Wang2015} \cite{Liu2017c}.
+This chapter presents a high-speed experimental test rig which has been instrumented to obtain boundary conditions for tribological models. This work was performed to ascertain which models must be developed in the tribology domain without the need for an extensive dynamic model. The contact load, film thickness, viscous and boundary friction as well as the EHL pressure and film thickness distributions are then obtained using an implicit tribological model and an explicit 1-dimensional numerical EHL model. The requirement for lubricated rather than dry contact models, regimes of lubrication and workflows such as implicit or explicit modelling are investigated.
 
-To circumvent the need for a complex flexible dynamic model and to capture real behaviour of a bearing under test, displacement of the bearing centre and hence contact deflection is captured from experimental test results.
+\section{Workflow}
 
 An experimental test rig is used to obtain the relative displacement between the inner and outer bearing races. Then, using the Hertzian load-deflection relationship and accounting for the lubricant film thickness, load on an individual roller is found at each instantaneous position around the bearing centre through a speed sweep of 0~–~15~000~$rpm$. An implicit analytical tribological model is used which calculates the film thickness at the contact. This loop is iterated to account for the tribodynamic coupling. After the experimentally informed implicit tribodynamic model is solved, load and speed values at specific rotational velocities are used within an explicit numerical EHL model to calculate film thickness and pressure distribution across the contact. The flow diagram in \ref{Experimental Tribodynamics Methodology Overview} illustrates the methodology used. Interactions between each stage will be explained in subsequent sections.
 
@@ -216,7 +217,7 @@ Frictional power is a crucial factor for characterising their performance. Under
 	f=f_v+f_b
 \end{equation}
 
-Boundary friction is a function of asperity contact pressure, calculated using the Greenwood and Tripp model in this paper \cite{Greenwood1970}:
+Boundary friction is a function of asperity contact pressure, and is calculated using the Greenwood and Tripp model \cite{Greenwood1970}:
 
 \begin{equation}\label{Boundary friction experimental}
 	f_b=\tau_0 A_a+\varsigma W_a
@@ -518,9 +519,7 @@ Pressure distribution is obtained from the variations in film thickness at the c
 	h=h_0+\frac{x^2}{2 R_{z x}}-\frac{2}{\pi E_r} \int_{x_{c, \text { in }}}^{x_{c, \text { out }}} p \ln \left(x-x^{\prime}\right)^2 d x^{\prime}
 \end{equation}
 
-where $h_0$ is the central film thickness, the second term represents an idealised film thickness parabola, with the final term representing the localised contact deflection. Central film thickness is first estimated using:
-
-TODO Check this!!!!!!!!!!! and get reference from FMBD modelling paper
+where $h_0$ is the central film thickness, the second term represents an idealised film thickness parabola, with the final term representing the localised contact deflection. Central film thickness is first estimated using \cite{Dowson1979}:
 
 \begin{equation}\label{eq3.35}
 	h_0=R_{z x} 3.06 G^{* 0.56} U^{* 0.69} W^{*-0.1}
@@ -860,12 +859,10 @@ In each of these plots, it is possible again to see the central film thickness d
 
 \section{Conclusions}
 
-A new methodology comprising experiments and numerical modelling has been developed to allow component and conjunction level tribo-dynamic analysis of a roller bearing under speeds and loading conditions previously not reported. The experimental data contain the physics of the dynamics and tribology within the bearing, negating the need for a simplified and computationally intensive dynamic bearing model. The tribological conditions at the contact between an individual roller and raceways are numerically analysed. All possible lubrication regimes, including mixed-EHL and hydrodynamic, are considered as the roller passes through loaded and unloaded regions.
-
-The presented research investigates a new range of working conditions under high speeds, representative of modern electrified powertrains. This study helps to understand the prevailing regimes of lubrication as well as range of tribological quantities. Additionally, the interaction of tribological behaviour with dynamics of the system is investigated. The deeper and comprehensive understanding of these matters will support objective development of electrified powertrains in the future towards higher efficiency, durability and NVH refinement. The acquired knowledge and understanding will also support future developments of predictive tools by understanding the interaction of tribology and dynamics and the significance of considering this multi-physics interaction. The following conclusions can be made based on presented results:
+A new methodology comprising experiments and numerical modelling has been developed to allow component and conjunction level tribodynamic analysis of a roller bearing under speeds and loading conditions previously not reported. The experimental data contain the physics of the dynamics and tribology within the bearing, negating the need for a simplified and computationally intensive dynamic bearing model. The tribological conditions at the contact between an individual roller and raceways are numerically analysed. All possible lubrication regimes, including mixed-EHL and hydrodynamic, are considered as the roller passes through loaded and unloaded regions. The following conclusions can be made based on presented results:
 
 \begin{enumerate}
-	\item The contact experiences an order of magnitude increase in film thickness across the speed sweep. This highlights the necessity of implicitly including the lubricant film in any predictive tribo-dynamic model; an approach that is not reported on in open literature for high-speed dynamic roller bearing analysis.
+	\item The contact experiences an order of magnitude increase in film thickness across the speed sweep. This highlights the necessity of implicitly including the lubricant film in any predictive tribodynamic model; an approach that is not reported on in open literature for high-speed dynamic roller bearing analysis.
 	\item A comparison between the dry and lubricated contact model further reinforces the need to include the lubricant film in high-speed roller bearing analysis, with percentage differences in load between both models up to 149\% at 15 000 rpm. Neglecting this film by using the common dry Hertzian approach would lead to an underestimation of the total load at the roller-race contact. 
 	\item At higher speeds, such as those present in modern electric powertrains, it is shown that the growth of the lubricant film must be included implicitly within the dynamic bearing analysis.
 	\item The load values obtained from the lubricated tribological model have been used explicitly within a 1-dimensional EHL model to calculate the pressure distribution and film thickness across the contact. The workflow of using an explicit EHL model based on the analytical tribological contact mechanics is valid, with good agreement between central film thickness values for both. 

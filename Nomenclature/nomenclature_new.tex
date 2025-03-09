@@ -7,99 +7,138 @@
 
 The nomenclature of all symbols used in the body of this work is given in the following sections. This work combines concepts from various research domains, including multi-body dynamics and elastohydrodynamic lubrication. Since each field has its own established notation, overlap for certain symbol invariably occurs. The nomenclature is therefore divided by chapter to maintain convention and reduce potential confusion.
 
+\paragraph{Chapter 3}
+
 \begin{align*}
-	&A &&\text{Jacobian matrix AND Cross-sectional area}\\
-	&A^{\dagger} &&\text{Pseudo-inverse Jacobian matrix}\\
-	&B &&\text{Susceptance}\\
-	&\mathbf{B} &&\text{Magnetic Flux}\\
-	&C &&\text{Capacitance}\\
-	&C_m &&\text{Measured capacitance}\\
-	&c &&\text{Specific capacitance}\\
-	&c^* &&\text{Complex permittivity}\\
-	&\mathbf{D} &&\text{Electric displacement}\\
-	&\mathbf{E} &&\text{Electric field}\\
-	&E_l &&\text{The area in contact with electrode } l \text{ on } \partial \Omega \\	
-	&\mathbf{H} &&\text{Magnetic field strength}\\
-	&f_{nj} &&\text{Weighting value for tissue at } j \text{th element at FEM node } n \\
-	&G &&\text{Conductance}\\
-	&G_m &&\text{Measured conductance}\\
-	&H^1 &&\text{A Hilbert space}\\	
-	&\mathbf{I} \text{\textcolor{white}{iii}} I &&\text{Current}\\	
-	&\mathbf{I}_l &&\text{Current at electrode } l \\
-	&i &&\text{The imaginary number AND Frequency index}\\	
-	&\mathbf{J} &&\text{Electric current density}\\	
-	&\mathbf{J}_c &&\text{Conduction current density}\\
-	&\mathbf{J}_s &&\text{Source current density}\\	
-	&j &&\text{Boundary current density AND Tissue index}\\
-	&K &&\text{Magnitude of the wavenumber vector}\\
+	&A_a && \text { Asperity apparent contact area }\left(\mathrm{m}^2\right) \\
+	&A && \text { Apparent contact area }\left(\mathrm{m}^2\right) \\
+	&a && \text { Acceleration }\left(\mathrm{m \cdot s}^{2}\right) \\
+	&b && \text { Half-length of the contact (mm) } \\
+	&C && \text { Radial clearance ( } \mu \mathrm{m} \text { ) } \\
+	&c^{\prime} && \text { Solid specific heat capacity ( } \left.\mathrm{J} \cdot \mathrm{kg}^{-1} \cdot \mathrm{~K}^{-1}\right) \\
+	&D_r && \text { Diameter of roller (mm) } \\
+	&D_p && \text { Pitch diameter (mm) } \\
+	&E_r && \text { Equivalent (reduced) elastic modulus (Pa) } \\
+	&F_x && \text { Radial load in x-direction (N) } \\
+	&F_y && \text { Radial load in y-direction (N) } \\
+	&f && \text { Total friction (N) } \\
+	&f_b && \text { Boundary friction (N) } \\
+	&f_v && \text { Viscous friction (N) } \\
+	&f_{b p i} && \text { Ball pass frequency of inner race (Hz) } \\
+	&f_{b p o} && \text { Ball pass frequency of outer race (Hz) } \\
+	&f_{s h a f t} && \text { Shaft rotational frequency (Hz) } \\
+	&G^* && \text { Dimensionless equivalent geometry (-) } \\
+	&h_c && \text { Central film thickness (m) } \\
+	&k && \text { Stiffness }\left(\mathrm{N \cdot m}^{-1}\right) \\
+	&K && \text { Lubricant thermal conductivity } \left(\mathrm{W} \cdot \mathrm{m}^{-1} \cdot \mathrm{K}^{-1}\right) \\
+	&L && \text { Roller length (mm) } \\
+	&n && \text { Exponent of localized deflection (-) } \\
+	&\mathrm{N} && \text { Number of rolling elements (-) } \\
+	&p && \text { Contact pressure (Pa) } \\
+	&\bar{p} && \text { Average pressure at the apparent contact (Pa) } \\
+	&r_{i n} && \text { Radius of inner race (mm) } \\
+	&R_{z x} && \text { Equivalent radius of contact (mm) } \\
+	&u && \text { Speed of entraining motion }\left(\mathrm{m} \cdot \mathrm{s}^{-1}\right) \\
+	&U^* && \text { Dimensionless speed parameter }(-) \\
+	&v && \text { Velocity }\left(\mathrm{m} \cdot \mathrm{s}^{-1}\right) \\
+	&W && \text { Contact load (N) } \\
 \end{align*}
 
 \pagebreak
+
 \begin{align*}
-	&L &&\text{Total number of electrodes AND Lead inductance}\\
-	&l &&\text{Electrode numeration AND Negative log-likelihood AND Length AND Electrode channel}\\
-	&N &&\text{Number of current sources AND Number of measurements}\\
-	&n &&\text{FEM node element index}\\
-	&\mathbf{n} &&\text{The unit vector of the normal to surface } \partial \Omega \\
-	&R &&\text{Resistance}\\
-	&r &&\text{Correlation coefficient}\\
-	&S &&\text{A surface}\\
-	&T &&\text{Total number of tissues}\\
-	&t &&\text{Time}\\
-	&t_j &&\text{Tissue number at } j\\
-	&V &&\text{Voltage}\\		
-	&V_l &&\text{Voltage at electrode } l \\	
-	&V_{f_i} &&\text{Voltage at frequency } i \\
-	&V_{f_{ref}} &&\text{Voltage at the reference frequency}\\
-	&v &&\text{A set of test functions}\\
-	&X &&\text{Reactance}\\
-	&\mathbf{Y} \text{\textcolor{white}{iii}} Y &&\text{Admittance}\\
-	&Z &&\text{Impedance}\\
-	&z &&\text{Impedivity}\\
-	&z_l &&\text{Contact impedance between electrode } l \text{ and the tissue on } E_l \\
-	&\beta &&\text{Susceptivity}\\
-	&\Gamma &&\text{Total boundary of } \partial \Omega \text{ that is in contact with an electrode}\\
-	&\Gamma ' &&\partial \Omega \text{ not in contact with an electrode}\\
-	&\gamma && \text{Admittivity}\\
-	&\gamma_l && \text{Boundary admittivity on } E_l \\
-	&\delta &&\text{Loss angle}\\
-	&\partial \Omega &&\text{The surface area of volume } \Omega \\
-	&\epsilon &&\text{Electrical permittivity}\\
-	&\epsilon_r &&\text{Relative permittivity}\\
+	&W^* && \text { Dimensionless load parameter }(-) \\
+	&W_a && \text { Asperity load (N) } \\
+	&x && \text { Displacement in x-direction }(\mathrm{m}) \\
+	&x_c && \text { Conjunction x-coordinate }(-) \\
+	&y && \text { Displacement in y-direction }(\mathrm{m}) \\
+	&y_c && \text { Conjunction y-coordinate }(-) \\
+\end{align*}
+	
+\paragraph{Greek Symbols}
+\begin{align*}
+	&\theta && \text { Angular position (rad) } \\
+	&\alpha && \text { Pressure viscosity coefficient }\left(\mathrm{m}^2 \cdot \mathrm{~N}^{-1}\right) \\
+	&\delta && \text { Contact deflection (m) } \\
+	&\kappa && \text { Average asperity tip radius of curvature (m) } \\
+	&\lambda && \text { Stribeck parameter (-) } \\
+	&\eta_0 && \text { Atmospheric lubricant dynamic viscosity }\left(\mathrm{Pa} \cdot \mathrm{s}\right) \\
+	&\eta && \text { Lubricant dynamic viscosity }\left(\mathrm{Pa} \cdot \mathrm{s}\right) \\
+	&\rho && \text { Lubricant density }\left(\mathrm{kg} \cdot \mathrm{m}^{-3} \right) \\
+	&\rho_0 && \text { Atmospheric lubricant density }\left(\mathrm{kg} \cdot \mathrm{m}^{-3} \right) \\
+	&\rho^{\prime} && \text { Solid density }\left(\mathrm{kg} \cdot \mathrm{m}^{-3} \right) \\
+	&\sigma && \text { Composite surface roughness (m) } \\
+	&\varsigma && \text { Boundary shear strength of asperities ( }- \text { ) } \\
+	&\tau_0 && \text { Eyring stress (Pa) } \\
+	&\omega_c && \text { Angular velocity of cage }\left(\mathrm{rad \cdot s}^{-1}\right) \\
+	&\omega_{r i} && \text { Angular velocity of inner race }\left(\mathrm{rad \cdot s}^{-1}\right) \\
+	&\omega_s && \text { Angular velocity of shaft }\left(\mathrm{rad \cdot s}^{-1}\right) \\
+	&\gamma && \text { Relaxation factor }(-) \\
+	&\zeta && \text { Asperity density }\left(\mathrm{m}^{-2}\right) \\
+\end{align*}
+
+\paragraph{Chapter 4}
+\begin{align*}
+	&C && \text { Radial clearance (m) } \\
+	&d && \text { Body material damping }\left(\mathrm{N} \cdot \mathrm{s} \mathrm{~m}^{-1}\right) \\
+	&E && \text { Elastic modulus (Pa) } \\
+	&E_r && \text { Equivalent (reduced) elastic modulus (Pa) } \\
+	&F_d && \text { Damping force (N) } \\
+	&f_{\text {damp }} && \text { Damping factor }(-) \\
+	&f_F && \text { Force vector (N) } \\
+	&f_M && \text { Moment vector }(\mathrm{N} \cdot \mathrm{~m}) \\
+	&f && \text { Force on partial mass (N) } \\
+	&f^a && \text { External loads (N) } \\
+	&f^* && \text { Non-linear excitation force }(\mathrm{N}) \\
+	&G^* && \text { Dimensionless equivalent geometry }(-) \\
+	&h_c && \text { Central film thickness }(\mathrm{m}) \\
+	&I_C && \text { Inertia tensor of partial mass }\left(\mathrm{kg} \cdot \mathrm{~m}^2\right) \\
+	&K && \text { Body stiffness matrix }\left(\mathrm{N} \cdot \mathrm{~m}^{-1}\right) \\
+	&k && \text { Body material stiffness }\left(\mathrm{N} \cdot \mathrm{~m}^{-1}\right) \\
+	&K_c && \text { Contact stiffness }\left(\mathrm{N} \cdot \mathrm{~m}^{-1}\right) \\
+	&K_b && \text { Total bearing stiffness }\left(\mathrm{N} \cdot \mathrm{~m}^{-1}\right) \\
+	&K_{E H L} && \text { EHL film stiffness }\left(\mathrm{N} \cdot \mathrm{~m}^{-1}\right) \\
+	&l_a && \text { Active length of roller }(\mathrm{m}) \\
+	&l && \text { Length of roller slice }(\mathrm{m}) \\
+	&m && \text { Mass of partial mass }(\mathrm{kg}) \\
+	&M && \text { Mass matrix of body }(\mathrm{kg}) \\
+	&N && \text { Partial mass number }(-) \\
+	&n && \text { Degree of freedom }(-) \\
+	&p^* && \text { Non-linear inertia terms }\left(\mathrm{kg} \cdot \mathrm{~m}^2\right) \\
+	&q && \text { Displacement }(\mathrm{m}) \\
+	&\ddot{q} && \text { Velocity }\left(\mathrm{m} \cdot \mathrm{~s}^{-1}\right) \\
+	&\ddot{q} && \text { Acceleration }\left(\mathrm{m} \cdot \mathrm{~s}^{-2}\right) \\
+	&R && \text { Bearing inner race radius }(\mathrm{m}) \\
+	&r && \text { Roller radius }(\mathrm{m}) \\
+	&R_r && \text { Equivalent radius of contact }(\mathrm{m}) \\
 \end{align*}
 
 \pagebreak
+
 \begin{align*}
-	&\epsilon_0 &&\text{Permittivity of free space}\\
-	&\epsilon' &&\text{Real permittivity}\\
-	&\epsilon'' &&\text{Imaginary permittivity}\\
-	&\epsilon_r'' &&\text{Out of phase loss factor}\\
-	&\boldsymbol{\Lambda} &&\text{Forward transformation map}\\
-	&\lambda &&\text{Characteristic spatial wavelength}\\
-	&\mu &&\text{Magnetic permittivity}\\
-	&\rho' &&\text{Real resistivity}\\
-	&\rho'' &&\text{Imaginary resistivity}\\
-	&\rho &&\text{Resistivity}\\
-	&\sigma \text{\textcolor{white}{iii}} \sigma &&\text{Electrical Conductivity}\\
-	&\sigma_{ij} &&\text{Conductivity of tissue } j \text{ at frequency } i \\
-	&\sigma_{n} &&\text{Conductivity of tissue at FEM node } n \\
-	&\sigma^{tj} &&\text{Conductivity of tissue at } j \text{th element}\\
-	&\tau &&\text{Regularisation parameter}\\
-	&\phi &&\text{Scalar electric potential}\\
-	&\boldsymbol{\Psi} &&\text{Regularising function}\\
-	&\Omega &&\text{A volume}\\
-	&\omega &&\text{Angular frequency}\\
-	&\omega_{i} &&\text{Angular frequency at } i \text{th element}\\
-	&\Delta T &&\text{Temperature difference}\\
-	&\Delta V &&\text{Voltage difference}\\
-	&\Delta V_{FD_i} &&\text{Frequency difference voltage at frequency } i \text{ with respect to}\\
-	&\text{\textcolor{white}{iii}} &&\text{the reference frequency}\\
-	&\Delta V_{FDA_i} &&\text{Frequency difference voltage at frequency } i \text{ with respect to}\\
-	&\text{\textcolor{white}{iii}} &&\text{frequency } i - 1 \\
-	&\Delta V_{WFDA_i} &&\text{Weighted frequency difference adjacent voltage at frequency } i \\
-	&\text{\textcolor{white}{iii}} &&\text{with respect to frequency } i - 1 \\
-	&\Delta \sigma &&\text{Conductivity difference}\\			
-	&\tan \delta &&\text{Dissipation factor}\\
+	&s && \text { Slice number }(-) \\
+	&T && \text { Total contact moment }(\mathrm{N} \cdot \mathrm{~m}) \\
+	&u_t && \text { Translational displacement of partial mass }(\mathrm{m}) \\
+	&U^* && \text { Dimensionless speed parameter }(-) \\
+	&W && \text { Total contact load (N) } \\
+	&w && \text { Force per unit length }\left(\mathrm{N} \cdot \mathrm{~m}^{-1}\right) \\
+	&x && \text { Displacement in x-direction }(\mathrm{m}) \\
+	&x_c && \text { Conjunction } \mathrm{x} \text {-coordinate }(-) \\
+	&y && \text { Displacement in y-direction }(\mathrm{m}) \\
+	&y_c && \text { Conjunction y-coordinate }(-) \\
+	&z && \text { Displacement in z-direction }(\mathrm{m})
+\end{align*}
+
+\paragraph{Greek Symbols}
+\begin{align*}
+	&\theta && \text { Roller angular displacement }(\mathrm{rad}) \\
+	&\emptyset && \text { Rotational displacement of partial mass (rad) } \\
+	&\alpha && \text { Pressure viscosity coefficient }\left(\mathrm{m}^2 \cdot \mathrm{~N}^{-1}\right) \\
+	&\delta && \text { Contact deformation }(\mathrm{m}) \\
+	&\delta_m && \text { Material deformation }(\mathrm{m}) \\
+	&\eta_0 && \text { Atmospheric lubricant dynamic viscosity (Pa } \cdot \mathrm{s}) \\
+	&\rho_0 && \text { Lubricant inlet density }\left(\mathrm{kg} \cdot \mathrm{~m}^{-3}\right) \\
+	&\omega && \text { Angular velocity of shaft (rad) }
 \end{align*}
 
 %\end{abstract}

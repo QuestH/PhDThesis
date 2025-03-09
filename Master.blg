@@ -33,7 +33,7 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'field_info' (item size: 4) to 11165 items.
+Reallocating 'field_info' (item size: 4) to 11255 items.
 Database file #1: Literature/library.bib
 -- IEEEtranN.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
@@ -42,54 +42,54 @@ Database file #1: Literature/library.bib
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
-Warning--empty journal in Dietl1997
+Warning--missing school in Dietl1997
 Warning--edition ordinal word "Book No. 3" may be too high (or improper) for conversion in Grubin1949
-Warning--empty journal in Rahnejat1984
-Warning--empty journal in Roelands1966
+Warning--missing school in Rahnejat1984
+Warning--missing school in Roelands1966
 Warning--empty journal in Houpert1984
-Warning--edition ordinal word "SI" may be too high (or improper) for conversion in Dowson1977
+Warning--missing institution in Johnson1990
 Warning--missing publisher in Han1995
 
 Done.
-You've used 137 entries,
+You've used 139 entries,
             4783 wiz_defined-function locations,
-            1881 strings with 35003 characters,
-and the built_in function-call counts, 118641 in all, are:
-= -- 10957
-> -- 3087
-< -- 959
-+ -- 1645
-- -- 644
-* -- 6193
-:= -- 18416
-add.period$ -- 274
-call.type$ -- 137
-change.case$ -- 269
-chr.to.int$ -- 2120
-cite$ -- 144
-duplicate$ -- 7986
-empty$ -- 8354
-format.name$ -- 971
-if$ -- 26784
+            1899 strings with 35819 characters,
+and the built_in function-call counts, 120076 in all, are:
+= -- 11128
+> -- 3139
+< -- 952
++ -- 1665
+- -- 660
+* -- 6283
+:= -- 18699
+add.period$ -- 278
+call.type$ -- 139
+change.case$ -- 273
+chr.to.int$ -- 2098
+cite$ -- 146
+duplicate$ -- 8079
+empty$ -- 8429
+format.name$ -- 991
+if$ -- 27086
 int.to.chr$ -- 4
-int.to.str$ -- 138
-missing$ -- 1088
-newline$ -- 525
-num.names$ -- 411
-pop$ -- 2689
+int.to.str$ -- 140
+missing$ -- 1111
+newline$ -- 539
+num.names$ -- 417
+pop$ -- 2728
 preamble$ -- 1
-purify$ -- 137
-quote$ -- 6
-skip$ -- 9101
+purify$ -- 139
+quote$ -- 4
+skip$ -- 9221
 stack$ -- 0
-substring$ -- 5035
-swap$ -- 6035
-text.length$ -- 206
+substring$ -- 5016
+swap$ -- 6116
+text.length$ -- 207
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 2028
+type$ -- 2053
 warning$ -- 7
-while$ -- 578
+while$ -- 580
 width$ -- 0
-write$ -- 1706
+write$ -- 1742
 (There were 7 warnings)
