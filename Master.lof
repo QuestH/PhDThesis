@@ -47,9 +47,4 @@
 \contentsline {figure}{\numberline {4.18}{\ignorespaces Film thickness vs contact force 21\nobreakspace {}000\nobreakspace {}$\mathrm {rpm}$.\relax }}{77}{figure.4.18}%
 \contentsline {figure}{\numberline {4.19}{\ignorespaces Film thickness vs contact force 12\nobreakspace {}500\nobreakspace {}$\mathrm {rpm}$.\relax }}{77}{figure.4.19}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Greenwood informed training data vs Marian et al.}}{88}{figure.5.1}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Individual rolling element input values to ANN : a) Contact load, b) Contact entrainment velocity, c) Contact reduced radius\relax }}{94}{figure.5.2}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces $10-[14-14-14]_3-1$ using Hyperbolic Tangent activation function : a) 600 points, b) 1000 points, c) 2000 points, d) 5000 points\relax }}{97}{figure.5.3}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces ANN, numerical and analytical central film thickness comparisons.\relax }}{98}{figure.5.4}%
-\addvspace {10\p@ }
 \addvspace {10\p@ }
