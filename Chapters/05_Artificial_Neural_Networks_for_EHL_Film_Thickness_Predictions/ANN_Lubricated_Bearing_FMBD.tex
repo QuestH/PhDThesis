@@ -1,7 +1,7 @@
 \chapter{Artificial Neural Networks for EHL Film Thickness Predictions}
 \label{ANN Lubricated Bearing FMBD}
 
-\section{Abstract}
+\section{Introduction}
 
 Tribodynamic modelling generally employs analytical equations for the prediction of film thickness in elastohydrodynamic contacts; chosen due to their timely solution. Whilst computationally efficient, these do not achieve the accuracy of the full numerical solution outside the bounds of the data used to generate the analytical equations. In the context of dynamic simulation, a full numerical solution at each time step of a system level model would, however, yield excessive computation time. This has led to the emerging use of data driven solutions, such as machine learning, in the field of tribology. These can achieve accuracy much closer to the numerical solution, whilst significantly improving computational time.
 
@@ -9,30 +9,22 @@ This chapter details the development of an ANN for prediction of central film th
 
 This workflow introduces the application of Artificial Neural Networks (ANNs) a form of Machine Learning (ML) algorithm, to predict the central film thickness at the roller-race conjunction. The performance of ANNs will be compared with analytical equations and numerical solutions, assessing the suitability of its implicit application within FMBD environments. The aim is to improve the accuracy of the central film thickness estimation, whilst maintaining a timely solution in the context of a full dynamic solution.
 
+\section{Numerical vs Analytical Film Thickness Estimations at High Entrainment Velocities}
 
+Two main approaches exist for determination of the complex non-linear problem of film thickness in lubricated contacts. The first approach involves employing numerical methods \cite{Dowson1959}, where systems of partial differential equations are formulated to describe the state of the contact and then solved iteratively \cite{Gohar2018}. While this method yields accurate results and is applicable to a wide range of operating conditions, it is computationally intensive due to its iterative nature. The second approach involves developing regressed analytical equations from experimental or numerical studies which can be used for specific lubrication regimes. These equations offer quick estimates of key parameters, such as central \cite{Dowson1979} and minimum film thickness \cite{Dowson1967}. However, whilst more computationally efficient than the full numerical solution, this approach has limitations. 
+The applicability of regressed equations is often limited to the range of data used for their development, resulting in reduced accuracy due to simplification. There is also a requirement for extensive effort in collecting experimental or numerical data to develop them. 
 
-\section{Introduction}
+Comparison graphs
 
+Timing for each points
 
-Two main approaches exist for determination of the complex non-linear problem of film thickness in lubricated contacts. The first approach involves employing numerical methods \cite{Dowson1959}, where systems of partial differential equations are formulated to describe the state of the contact and then solved iteratively \cite{Gohar2018}. While this method yields accurate results and is applicable to a wide range of operating conditions, it is computationally intensive due to its iterative nature. The second approach involves developing regressed analytical equations from experimental or numerical studies which can be used for specific lubrication regimes. These equations offer quick estimates of key parameters, such as central \cite{Dowson1979} and minimum film thickness \cite{Dowson1967}. However, whilst more computationally efficient than full numerical solutions, this approach has limitations. The applicability of regressed equations is often limited to the range of data used for their development, resulting in reduced accuracy due to simplification. There is also a requirement for extensive effort in collecting experimental or numerical data to develop them. The implementation of ANNs within tribology is one  Although ANNs lack the physical understanding provided by numerical solutions, they offer nearly real-time performance comparable to analytical solutions while benefiting from the accuracy of numerical methods \cite{EchavarriOtero2014}. To ensure the validity of the ANN, a methodology is suggested for training it within a range consistent with the numerical solver.
+Error between both
 
-The most common ML algorithm used in tribological applications are ANNs. The first utilization of these were in the 1990s \cite{Argatov2019}. Ezugwu et al. implemented and ANN for wear rate and hence life predictions of ceramic cutting tools \cite{Ezugwu1995}. Their model had an 80\% success rate in predicting the failure mechanism of the tools. Rutherford et al. \cite{Rutherford1996} and Jones et al. \cite{Jones1997} developed on this success, focussing on wear rate predictions for coating materials and mechanical systems respectively. Jones et al. were able to achieve 90\% wear rate predication accuracy by optimising their ANN architecture using $R^2$ coefficients as a performance indicator. Similar studies were then conducted in the domain of friction and wear rate of composite materials \cite{Genel2003} \cite{Hayajneh2009} \cite{Zhang2002}, as well as tools steels \cite{Cavaleri2019}. 
+Emphasis that this discrepancy must be overcome
 
-Whilst the friction in the aforementioned studies was modelled under dry conditions, friction in lubricated contacts has also been modelled using ANNs. Bhaumik et al. \cite{Bhaumik2019a} used ANNs to develop a new lubricant with multiple friction modifiers (FM), considering load, speed and FM concentration as input variables, with the target output being coefficient of friction. A similar methodology was employed to develop biodegradable oils \cite{Bhaumik2019a}, validating both sets of studies using pin-on-disc friction measurements. Traction coefficients under various thermal-elastohydrodynamic operating conditions have also been investigated \cite{EchavarriOtero2014}, with the authors noting fast predictions of results with excellent accuracy (lower than 3\% error in most cases). Further lubricated studies involving relative viscosity predictions \cite{Afrand2016} \cite{HemmatEsfe2018} have achieved deviation margins of 1.5\% and 0.07\% respectively, substantially lower than empirical correlations.
+The implementation of ANNs within tribology is one way to overcome the computational expense of the full numerical solution and the limited validity of the analytical approach.   To ensure the validity of the ANN, a methodology is suggested for training it within a range consistent with the numerical solver.
 
-Many further studies have been performed in the field of wear in manufacturing processes \cite{Ripa2004}. Previous studies had multiple input variables to the ANNs (speed, load, temperature, shear rate). For specific manufacturing processes with particular lubricant-surface combinations, the input data array can be drastically reduced to process-specific variables such as load, speed, and vibration. This approach was taken to investigate flank wear in drilling \cite{Panda2008} and surface roughness of machined parts \cite{Asilturk2011}. By reducing the number of input parameters, less training data was required to achieve good fits.
-
-The studies referenced (\cite{Ezugwu1995} - \cite{Asilturk2011}) all shared a common approach of utilizing experimental data to train the ANNs. Whilst experimental data benefits from the lack of assumptions in numerical models, there is the limitation of high costs and time required for generating large datasets. Consequently, the training datasets for the ANN were limited to approximately one hundred points \cite{Zhang2002} \cite{Hayajneh2009}, or fewer \cite{Ezugwu1995} \cite{Rutherford1996}, with the largest (216 points) utilised by Cavaleri et al. \cite{Cavaleri2019}. Since the training process optimizes the ability of the ANN to interpolate between data points for varying input conditions, a greater number of training points is advantageous. It was noted by Ezugwu et al. \cite{Ezugwu1995} and Zhang et al. \cite{Zhang2002} that a significant improvement in ANN fit was achieved with a larger training data set. This is an observation shared across several studies and scientific applications \cite{Barbedo2018}.
-
-An alternative method of achieving large data sets without the high financial and time cost of experimentation is to use numerical modelling. Wang et al. \cite{Wang2020} identified the need for larger training sets in the field of tribology. Their prediction for maximum Hertzian pressure in thermohydrodynamic contacts utilised a training data set that was generated using Reynolds equation. Whilst limited to the accuracy of the numerical model, the ANN benefits from much faster computation time. It crucially also allows for larger data sets to be generated that can cover a much larger range of input data; a requirement for implementation within dynamic models.
-
-The Reynolds boundary value problem has also been solved using Physics Informed Neural Networks (PINN) by Almqvist \cite{Almqvist2021}. The study was not to improve on the numerical accuracy or efficiency of standard finite-difference based methods, rather to present an application of PINN in the field of tribology. Error analysis showed good agreement with the analytical solution, however further work is needed to improve the solving efficiency. Since the ANN is to be implicitly embedded within a dynamic simulation, efficiency is critical. Data driven solutions are therefore preferable. Marian et al. \cite{Marian2022} demonstrated for the first time the generation of EHL film thickness data using a Finite Element Method (FEM) to train an ANN. The ANNs could predict locally-resolved film thickness across the contact domain 25-times faster than FE-based EHL simulations.
-
-
-It is now known that data-driven solutions, such as machine learning, can greatly enhance the computational efficiency of tribo-dynamic simulations without sacrificing accuracy. In this study, artificial neural networks (ANNs) were trained using numerical solutions constrained by lubrication regimes to ensure the quality of the training data set.
-
-
-\section{Artificial Neural Network Fundamentals}
+\section{Machine Learning Fundamentals}
 
 Artificial intelligence (AI) refers to machines that exhibit human cognitive skills. They are a set of algorithms which allow machines to learn and problem solve in a manner inspired by the neurons in the human brain. Machine learning (ML), a subset of AI, allow systems to perform tasks without explicit programming. These algorithms analyse data and autonomously adapt to enhance their task performance, resembling the human ability to learn from experience. 
 
@@ -42,17 +34,7 @@ ML algorithms can also be classified based on the type of output they produce. T
 
 Supervised ML algorithms have the advantage of approximating continuous output functions, making them suitable for complex nonlinear relationships between inputs and outputs. By comparing their outputs with target values during training, they act as universal function approximators. This characteristic proves particularly valuable for applications such as tribological simulation, where the interaction between contacting surfaces requires efficient solvers. Notably, supervised linear regression ML algorithms offer effective solutions in this domain.
 
-
-
-
-
-
-
-
-
-\subsection{Numerical EHL Methodology}
-
-\subsection{Artificial Neural Network Methodology}
+Literature review concluded this is best approach
 
 An Artifical Neural Network (ANN) is a computational model which is inspired by the neural networks present in the human brain. It is a subset of machine learning.
 
@@ -64,23 +46,17 @@ The generalized structure of an ANN comprises several layers which contain neuro
 	u_i^{j, k}=f_j\left(\sum_{\forall m} W_i^{j, k} \cdot x_m+b_i^{j, k}\right)
 \end{equation}
 
-\subsection{ANN Training Process}
+
+\section{Methodology}
+
+Overall workflow flowchart
+
+\subsection{ANN Structure}
 
 
+The learning process of an ANN involves training a set of input data which correspond to known output values. A common technique for this is backpropagation, where the connection weightings in the network are adjusted such that the error between the predicted and the actual output are minimized. The goal of this training is to minimize the error, and to improve the ability of the network to generalize and make accurate predictions for new, unseen data. By this method, complex, non-linear functions such as the EHL film thickness estimation can be performed.
 
-
-
-
-
-
-
-The learning proccess of an ANN involves training a set of input data which correspond to known output values. A common technique for this is back propagation, where the connection weightings in the network are adjusted such that the error between the predicted and the actual output are minimized. The goal of this training is to minimize the error, and to improve the ability of the network to generalize and make accurate predictions for new, unseen data.
-
-As the structural complexity of ANNs increases, the training time increases due to the greater number of neurons and layers. Implementations of ANN in the field of tribology, specifically film thickness predictions, are typically limited to between one and three hidden layers \cite{Marian2021}. 
-
-MATLAB 2022a was used for the development of the ANNs.
-
-The training data set for the ANN was obtained from numerical models. This decision was made due to the size of the database required for training, and the timely and relatively low resource-intensive nature to generate this. It is worth noting that training data could also be obtained from experimental work, which further enhances the applicability of this approach for future studies.
+As the structural complexity of ANNs increases, the training time increases due to the greater number of neurons and layers. Implementations of ANN in the field of tribology, specifically film thickness predictions, are typically limited to between one and three hidden layers \cite{Marian2021}.
 
 The structure of the ANN is described in the following format, as per \cite{Zhang2002}:
 
@@ -88,23 +64,132 @@ The structure of the ANN is described in the following format, as per \cite{Zhan
 	N_{i n}-\left[N_{h 1}-N_{h 2}-N_{h 3}\right]_t-N_{\text {out }}
 \end{equation}
 
-The number of neurons in each layer is denote4d by the symbol $N$, with the input and output layers indicated by the subscripts $in$ and $out$, respectively. Subscripts $h1$, $h2$, and $h3$ denote the hidden layers, with $t$ being the total number of hidden layers.
+The number of neurons in each layer is denoted by $N$, with the input and output layers indicated by the subscripts $in$ and $out$, respectively. Subscripts $h1$, $h2$, and $h3$ denote the hidden layers, with $t$ being the total number of hidden layers. A graphic representation of the structure used for the film thickness estimations is show in Figure \ref{ANN structure}.
 
-To evaluate the performance of different ANN structures, a sensitivity study was performed. For this study, the input range for each variation was the same, and the following was varied:
+\begin{figure}  
+	\includegraphics[width=150mm]{ANN_Structure.png}
+	\caption{ANN structure to predict EHL central film thickness ($9-[14-14-14]_3-1$)}
+	\label{ANN structure}
+\end{figure} 
+
+The structure of an ANN affects both its training time and prediction accuracy. To evaluate the performance of different ANN structures, and hence select an appropriate structure for this application, a sensitivity study was performed. In this study, the input data range remained constant across all structures, while the variables listed in Table \ref{Sensitivity study of ANN structure} were adjusted:
+
+Selection of the final structure for suitability analysis was based on total training time, coefficient of determination ($R^2$), and the potential for the ANN to overfit. Overfitting is the phenomenon whereby an ANN becomes too specialised at learning the training data, and as a result performs poorly with new, unseen data. This occurs when the network extensively adjusts its internal parameters to fit noise or outliers in the training set \cite{Ying2019}.
+
+\begin{table*}
+	%\captionsetup{justification=centering}
+	\caption{Sensitivity study of ANN structure}
+	\label{Sensitivity study of ANN structure}
+	\centering
+	\renewcommand{\arraystretch}{1.5}%
+	\begin{tabular}{|P{0.4\textwidth}|P{0.4\textwidth}|}
+		\hline
+		\textbf{Variable} & \textbf{Value} \\ [0.5ex]
+		\hline
+		Number of training data points & 600 - 1500 \\ [0.5ex]
+		\hline
+		Number of hidden layers, t & 1 - 4 \\ [0.5ex]
+		\hline
+		Number of neurons, N & 10 - 20 \\ [0.5ex]
+	    \hline
+		Activation function type & Hyperbolic tangent, Logistic sigmoid, Rectilinear \\ [0.5ex]
+		\hline
+	\end{tabular}
+\end{table*}
+
+\paragraph{Data Normalization}
+
+Normalization of the input and target parameters is first performed using min-max normalisation function:
+
+\begin{equation}
+	\tilde{x}=\frac{x-x_{\min }}{x_{\max }-x_{\min }}(u-l)+u
+\end{equation}
+
+where $u$, and $l$ represent the upper and lower normalized unit values of 1 , and -1 respectively. The dimensional target input value is denoted by $x$, and the final normalised input or output parameter of the ANN is denoted by $\tilde{x}$. In order to dimensionalise the output layer, $x_{\max }, x_{\min }$ must be stored as a variable.
+
+\paragraph{Training, Validation and Test Datasets}
+
+The dataset is divided into three sets: the training set, the validation set, and the test set, each containing 70~$\%$, 15~$\%$ and 15~$\%$ of the training data respectively:
+
+\begin{enumerate}
+	\item Training Set: The training set is the portion of the dataset used to train the ANN, containing the input data and the corresponding output data. As aforementioned, the ANN adjusts the internal parameters based on this data to learn the underlying patterns.
+	\item Validation Set: The validation set is used to tune the performance of the ANN during the training process. It is an independent dataset that the network has not seen before, allowing for the evaluation of its generalization capabilities. The network's performance on the validation set is monitored during training to make decisions on adjusting hyperparameters (number of hidden layers, neurons per hidden layer, activation functions etc.) or stopping the training process to prevent overfitting.
+	\item Test Set: The test set is a completely independent dataset that is not used during training or validation. It is used to assess the final performance and generalization ability of the trained ANN. By evaluating the network on unseen data, the test set provides an unbiased estimate of the model's performance in actual use.
+\end{enumerate}
+
+For this sensitivity study, the size of the training data set was varied (600, 1000, 2000 and 5000) to observe the its effect on the quality of the prediction. A limit of 1000 epochs was also implemented. This limits the ANN to 1000 full iterations through the entire training set during training. This was found to be sufficient to improve accuracy whilst preventing overfitting of the data.
+
+\paragraph{Evaluating the Network Performance}
+
+During backpropagation of the ANN, the Mean Squared Error (MSE) was used to evaluate the network's performance:
+
+\begin{equation}\label{MSE}
+	M S E=\frac{1}{N} \sum_{i=1}^N\left(t_i-y_i\right)^2
+\end{equation}
+
+where $t_i$ and $y_i$ are the target and predicted value respectively. The total number of training points being trained, validated or tested is denoted by $N$. 
+
+To assess the goodness of fit of the ANN, the statistical metric $R^2$ known as the coefficient of determination was used. This measures the proportion of variance in the dependant variable (output film thickness) that is predictable from the input variables (Table \ref{Range of ANN film thickness calculation parameters}) in the model. This value ranges from 0 to 1, with a higher value indicating the best fit of the model to the data. This was post-processed after training and is calculated as follows:
+
+\begin{equation}\label{R-squared}
+	R^2=1-\frac{\sum_{i=1}^N\left(t_i-y_i\right)^2}{\sum_{i=1}^N\left(y_i-\bar{y}\right)^2}
+\end{equation}
+
+ where $\overline{\mathrm{y}}$ is the mean of the target sample. The numerator of the fraction, \( \sum_{i=1}^N(t_i - y_i)^2 \), represents the sum of squared residuals, which quantifies the variation in the target variable that is not explained by the model. The denominator, \( \sum_{i=1}^N(y_i - \bar{y})^2 \), is the total sum of squares, which captures the total variation in the target variable \cite{Marian2022}.
+
+\paragraph{Activation Functions}
+
+Activation functions are mathematical functions that are applied to the output of each neuron in a layer of the neural network. These introduce non-linearity which allow the network to learn complex input-output relationships. Activation functions help determine the  output of a neuron based on the weighted sum of its inputs.
+
+As suggested in \cite{Marian2022}, suitable activation functions for the hidden layers are as follows:
 
 \begin{itemize}
-	\item Number of initial training data points: 600 to 5000.
-	\item Number of hidden layers: 1 to 4
-	\item Number of neurons: 10 to 20
-    \item Type of activation function: 
-    \begin{itemize}
-    	\item Hyperbolic tangent
-    	\item Logistic sigmoid
-    	\item Rectilinear
-    \end{itemize}
+	\item Sigmoid (logistic): This function transforms the input values into a range between 0 and 1. It has continuously differentiable smooth S-shaped curve and is given by the following formula \cite{Han1995}:
+	
+	\begin{equation}\label{Logistic sigmoid}
+		\log \operatorname{sig}(x)=\frac{1}{1+e^{-x}}
+	\end{equation} 
+	
+	Sigmoid functions are commonly used in the hidden layers of ANNs, however may suffer from the "vanishing gradient" problem where the partial derivative reaches zero \cite{Sharma2020}, leading to slower convergence during training.
+	
+	\item ReLU (Rectified Linear Unit): This function is the most commonly used activation function. It outputs the input value directly if it is positive, and zero otherwise. The mathematical definition is:
+	
+	\begin{equation}\label{ReLU}
+		\operatorname{ReLU}= \begin{cases}x, & x \geq 0 \\ 0, & x \leq 0\end{cases}
+	\end{equation}
+	
+	The gradient is 1 when the neuron is activated, and zero when it is deactivated. This function is computationally efficient and addresses the vanishing gradient problem to an extent \cite{Sharma2020}.
+	
+	\item Tanh (Hyperbolic Tangent): The hyperbolic tangent or tanh function is defined as:
+	
+	\begin{equation}\label{Hyperbolic tangent}
+		\tanh (x)=\frac{2}{1+e^{-2 x}}-1
+	\end{equation}
+	
+	The formulation and behaviour is very similar to sigmoid. It produces values which range from -1 to 1, having a centred mean around zero. Like sigmoid, this also experiences vanishing gradients.
+	
+	\item Linear: A simple linear activation was used on the output.
+	
 \end{itemize}
 
-Selection of the final structure for suitability analysis was based on total training time, coefficient of determination ($R^2$), and the potential for the ANN to be overtrained. Overtraining is the phenomenon whereby an ANN becomes too specialised at learning the training data, and as a result performs poorly with new, unseen data. This occurs when the network extensively adjusts its internal parameters to fit noise or outliers in the training set.
+Early stopping and regularisation was used to prevent statistical overfitting during training \cite{MatlabOverfit}. Early stopping halts the training process before the model reaches the maximum number of epochs. This is done by monitoring the performance (MSE (Equation \ref{MSE})) of the network against the validation set during training. Once the performance reaches a plateau, or begins to degrade, the training is stopped early. Regularisation adds additional constraints to the learning process. It modifies the performance criteria by accounting for the change in mean square of the network weights and biases (Mean Squared Weight (MSW)). This is calculated in Eq. \ref{MSW}: 
+
+\begin{equation}\label{MSW}
+	M S W=\frac{1}{N} \sum_{j=1}^N w_j^2
+\end{equation}
+
+where $w_j$ is the individual weight value associated with the $j$-th neuron or connection in the network.
+
+By applying an adjustment factor, denoted as $\gamma^{\prime}$, the weights and biases can be reduced during propagation (Eq. \ref{MSE adjusted}), thus mitigating the risk of overfitting and improving the network's generalization capability.
+
+\begin{equation}\label{MSE adjusted}
+	M S E_{r e g}=\gamma^{\prime} * M S W+\left(1-\gamma^{\prime}\right) * M S E
+\end{equation}
+
+
+\subsection{ANN Input Data Generation}
+
+Training an ANN requires an often comprehensive data set. For the purpose of this study, the training data was generated using the numerical EHL model presented in \ref{1D EHL Model}. This decision was made due to the size of the database required for training, and the timely and relatively low resource-intensive nature to generate this. It is worth noting that training data could also be obtained from experimental work, which further enhances the applicability of this approach for future studies.
 
 \subsubsection{Numeric Database Construction}
 
@@ -134,52 +219,6 @@ where $d$ represents all distances in the test field, and subscripts $i$ and $j$
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\section{Machine Learning Methodologies}
-
-Various ML regression methods exists, including Support Vector Machines (SVM), Gaussian Process Regression (GPR), and Artificial Neural Networks (ANNs). To select an appropriate method for EHL film thickness predictions, a literature study on the merits of each methodology was conducted. 
- 
-
-\begin{enumerate} %Machine Learning Methodologiers
-	\item SVM:
-	Used for both classification and regression tasks. The main aim SVM is to find a hyperplane that separates different classes, or approximates a regression function while maximising the margin between the data points and the decision boundary. SVM uses a kernel function to map the input data into a high-dimensional feature space. Support vector regression (SVR) is based on the principles of SVM. SVR aims to find a regression function that maximises the margin between the predicted out puts and a specified error threshold.
-	    \paragraph{Advantages}
-		\begin{itemize}
-			\item It is robust against overfitting due to the use of the margin-maximisation principle.
-			\item Different kernel functions can be used to obtain good results with both linearly separable and non-linearly separable data.
-			\item Handles datasets with high dimensionality
-		\end{itemize}
-
-		\paragraph{Disadvantages}
-		\begin{itemize}
-			\item Can be computationally expensive for large data sets
-			\item Careful tuning is required for the choice of kernel function and its parameters.
-			\item Interpretation of the SVM model is often challenging as underlying relationships between input variables and the output are not explicitly identified.
-	    \end{itemize}
- 
-	\item GPR
-	\item ANN
-	
-\end{enumerate}
-
 Marian et. al conducted a study for film thickness distribution
 %explain the study
 %explain the methods
@@ -187,23 +226,13 @@ Marian et. al conducted a study for film thickness distribution
 %also explain Ani study
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 SECTION ON LHS AND PARAMETER STUDY COMPARISON (ANI)
 
-The performance of ANNs is heavily reliant upon the quality of the data set provided for training. To construct a training database, Marian et al. \cite{Marian2022} utilised a Finite Element Method (FEM) solver. The database covered a very large range of lubricant and material properties for relatively low entrainment speed conditions (< 0.4~$m/s$ for the 2D line contact studies). The resulting contact conditions when some combinations of these parameters were used, exceeded realistic conditions within common machine elements, including bearings. Since the film thickness evaluation is required for the EHL contact of roller bearings, the input data set for this study requires constraining to improve validity. 
+
+
+\subsubsection{Constraining the Input Data Bounds}
+
+The performance of ANNs is heavily reliant upon the quality of the data set provided for training. To construct a training database, Marian et al. \cite{Marian2022} utilised a Finite Element Method (FEM) solver. The database covered a very large range of lubricant and material properties for relatively low entrainment speed conditions (< 0.4~$m/s$ for the 2D line contact studies). The resulting contact conditions when some combinations of these parameters were used, exceeded realistic conditions within common machine elements, including bearings. Since the film thickness evaluation is required for the EHL contact of roller bearings, the input data set for this study requires constraining to improve validity.
 
 A method to constrain the input parameter combination to realistic machine element operating points was devised. The Greenwood Regime chart \cite{Johnson1970} was used for this purpose. The regions of the chart, as shown in Fig.XXXX, are:
 
@@ -211,7 +240,7 @@ A method to constrain the input parameter combination to realistic machine eleme
 	\item Isoviscous Rigid (IR)
 	\item Isoviscous Elastic (IE)
 	\item Piezoviscous Rigid (PR)
-    \item Piezoviscous Elastic (PE)
+	\item Piezoviscous Elastic (PE)
 \end{itemize}
 
 The bounds indicate the transition between the lubrication regimes, which are classified based on material, rheological and geometric properties. To find which regime a contact is operating within, the dimensionless elasticity ($G_e$) and viscosity ($G_v$) parameters can be calculated:
@@ -235,7 +264,7 @@ The PE region signifies contact pressures high enough to elastically deform the 
 \begin{table*}
 	%\captionsetup{justification=centering}
 	\caption{Range of ANN film thickness calculation parameters}
-    \label{Range of ANN film thickness calculation parameters}
+	\label{Range of ANN film thickness calculation parameters}
 	\centering
 	\renewcommand{\arraystretch}{1.5}%
 	\begin{tabular}{|P{0.4\textwidth}|P{0.15\textwidth}|P{0.15\textwidth}|P{0.15\textwidth}|}
@@ -266,89 +295,15 @@ The PE region signifies contact pressures high enough to elastically deform the 
 
 \textbf{CHECK THIS}The numerical solution database can also benefit from explicit parallelisation ie. use of multiple computational cores of the CPU. When using MBD solvers implicitly it is not possible to use explicit parallelisation since a particular time step is dependent on the present timestep as well as on data of the same timestep. The ANN functionality in turn can be embedded with an implicit MBD computation environment to significantly improve the computation times without the need of explicit parallelisation despite benefitting from it indirectly. 
 
-\subsubsection{ANN Structure}
-Normalization of the input and target parameters is first performed using min-max normalisation function:
 
-\begin{equation}
-	\tilde{x}=\frac{x-x_{\min }}{x_{\max }-x_{\min }}(u-l)+u
-\end{equation}
 
-Where $u$, and $l$ represent the upper and lower normalized unit values of 1 , and -1 respectively. The dimensional target input value is denoted by $x$, and the final normalised input or output parameter of the ANN is denoted by $\tilde{x}$. In order to dimensionalise the output layer, $x_{\max }, x_{\min }$ must be stored as a variable.
 
-The dataset is divided into three sets: the training set, the validation set, and the test set, each containing 70~$\%$, 15~$\%$ and 15~$\%$ of the training data respectively:
 
-\begin{enumerate}
-	\item Training Set: The training set is the portion of the dataset used to train the ANN, containing the input data and the corresponding output data. As aforementioned, the ANN adjusts the internal parameters based on this data to learn the underlying patterns and relationships.
-	\item Validation Set: The validation set is used to tune the performance of the ANN during the training process. It is an independent dataset that the network has not seen before, allowing for the evaluation of its generalization capabilities. The network's performance on the validation set is monitored during training to make decisions on adjusting hyperparameters (number of hidden layers, neurons per hidden layer, activation functions etc.) or stopping the training process to prevent overfitting.
-	\item Test Set: The test set is a completely independent dataset that is not used during training or validation. It is used to assess the final performance and generalization ability of the trained ANN. By evaluating the network on unseen data, the test set provides an unbiased estimate of the model's performance in actual use.
-\end{enumerate}
 
-A limit of 1000 epochs was also implemented. This limits the ANN to 1000 full iterations through the entire training set during training. This was found to be sufficient to improve accuracy whilst preventing overfitting of the data.
 
-During back propagation of the ANN, the Mean Squared Error (MSE) was used to evaluate the network's performance:
 
-\begin{equation}\label{MSE}
-	M S E=\frac{1}{N} \sum_{i=1}^N\left(t_i-y_i\right)^2
-\end{equation}
+\subsection{Explicit Bearing Film Thickness Predictions}
 
-The total number of training points being trained, validated or tested is denoted by $N$. 
-
-To assess the goodness of fit of the ANN, the statistical metric $R^2$ known as the coefficient of determination was used. This measured the proportion of variance in the dependant variable (output film thickness) that is predictable from the input variables (Table \ref{Range of ANN film thickness calculation parameters}) in the model. This value ranges from 0 to 1, with a higher value indicating the best fit of the model to the data. This was post-processed after training and is calculated as follows \cite{Marian2022}:
-
-\begin{equation}\label{R-squared}
-	R^2=1-\frac{\sum_{i=1}^N\left(t_i-y_i\right)^2}{\sum_{i=1}^N\left(y_i-\bar{y}\right)^2}
-\end{equation}
-
-where $t_i$ and $y_i$ are the target and predicted value respectively. $\overline{\mathrm{y}}$ is the mean of the target sample. The numerator of the fraction is the sum of the squares of residuals, which represents that variation in target variable that is not explained by the model. The denominator is the total sum of squares and represents the total variation in the target variable. 
-
-Activation functions:
-
-Activation functions are mathematical functions that are applied to the output of each neuron in a layer of the neural network. These introduce non-linearity which allow the network to learn complex input-output relationships. Activation functions help determine the  output of a neuron based on the weighted sum of its inputs.
-
-As suggested per \cite{Marian2022}, suitable activation functions for the hidden layers are as follows:
-
-\begin{itemize}
-	\item Sigmoid (logistic): This function transforms the input values into a range between 0 and 1. It has continuously differentiable smooth S-shaped curve and is given by the following formula \cite{Han1995}:
-	
-	\begin{equation}\label{Logistic sigmoid}
-		\log \operatorname{sig}(x)=\frac{1}{1+e^{-x}}
-	\end{equation} 
-
-	Sigmoid functions are commonly used in the hidden layers of ANNs, however may suffer from the "vanishing gradient" problem where the partial derivative reaches zero \cite{Sharma2020}, leading to slower convergence during training.
-
-	\item ReLU (Rectified Linear Unit): This function is the most commonly used activation function. It outputs the input value directly if it is positive, and zero otherwise. The mathematical definition is:
-	
-	\begin{equation}\label{ReLU}
-		\operatorname{ReLU}= \begin{cases}x, & x \geq 0 \\ 0, & x \leq 0\end{cases}
-	\end{equation}
-
-	The gradient is 1 when the neuron is activated, and zero when it is deactivated. This function is computationally efficient and addresses the vanishing gradient problem to an extent \cite{Sharma2020}.
-	
-	\item Tanh (Hyperbolic Tangent): The hyperbolic tangent or tanh function is also commonly used. It is defined as:
-	
-	\begin{equation}\label{Hyperbolic tangent}
-		\tanh (x)=\frac{2}{1+e^{-2 x}}-1
-	\end{equation}
-
-	The formulation and behaviour is very similar to sigmoid. It produces values which range from -1 to 1, having a centred mean around zero. Like sigmoid, this also experiences vanishing gradients.
-	
-\end{itemize}
-
-A simple linear activation was used on the output.
-
-The training data size was varied (600, 1000, 2000 and 5000) to observe the its effect on the quality of the prediction.
-
-Early stopping and regularisation was used to prevent statistical overfitting during training. Early stopping halts the training process before the model reaches the maximum number of epochs. This is done by monitoring the performance (MSE (Equation \ref{MSE})) of the network against the validation set during training. One the performance reaches a plateau, or begins to degrade, the training is stopped early. Regularisation adds additional constraints to the learning process. It modifies the performance criteria by accounting for the change in mean square of the network weights and biases (MSW (Eq. \ref{MSW})). By applying an adjustment factor, denoted as $\gamma^{\prime}$, the weights and biases can be reduced during propagation (Eq. \ref{MSE adjusted}) , thus mitigating the risk of overfitting and improving the network's generalization capability.
-
-\begin{equation}\label{MSW}
-	M S W=\frac{1}{N} \sum_{j=1}^N w_j^2
-\end{equation}
-
-\begin{equation}\label{MSE adjusted}
-	M S E_{r e g}=\gamma^{\prime} * M S W+\left(1-\gamma^{\prime}\right) * M S E
-\end{equation}
-
-\subsubsection{Explicit Roller Bearing Implementation}
 The same FMBD model used in Chapter \ref{Lubricated FMBD} was used for this study. The shaft was modelled as a rigid body, and loading was purely static in one radial direction to remove the influence of dynamic effects. The shaft is constrained to one rotational and two lateral degrees of freedom. Bearing properties and operating conditions are shown in Table \ref{Roller bearing parameters} and Table \ref{Operating Conditions} respectively.
 
 \begin{table*}
@@ -426,9 +381,7 @@ The loading pattern is cyclic in nature as the roller enters and exits the most 
 \end{figure}
 
 
-
-
-
+\subsection{Implicit Bearing Film Thickness Predictions}
 
 
 
@@ -439,7 +392,7 @@ Intel® Core™ i7-9750H CPU 6 cores @ 2.60GHz, 32GB RAM; GPU: NVDIA GeForce GTX
 
 The same hardware was used for both the full numerical and the ANN solutions to provide performance comparisons and assess the suitability of ANNs for film thickness calculations in FMBD solvers.
 
-\subsubsection{ANN Structure and Performance}
+\subsection{ANN Structure and Performance}
 
 The 1D EHL model presented in Section \ref{1D EHL Model} was used to generate the numerical database for training the ANN. Each numerical solution and hence training point took an average of 5.88~$s$. The construction of the entire database on a single core therefore has a wall time of between 58.8~$min$ and 489~$min$ for 600 and 5000 points respectively. This wall time is purely for baseline comparisons, and can be significantly improved using parallelisation across multiple cores.
 
@@ -528,7 +481,7 @@ Tables \ref{LogSig_table}-\ref{ANN_Explicit_LogSig_5000_table} present the $R^2$
 
 
 
-\subsubsection{Bearing Film Thickness Predictions}
+\subsection{Explicit Bearing Film Thickness Predictions}
 
 After identifying suitable data set size and ANN structure, the ANN could then be compared to the analytical (Eq. \ref{DowsonToyodaCentralFilm}) and numerical (Section \ref{1D EHL Model}) methods of obtaining central film thickness at the roller-race contact. The operating conditions of the bearing were within the range of validity of the training data set. This is demonstrated in Figure \ref whereby the Greenwood parameters for the bearing operating points are overlayed on the training cloud.
 
@@ -553,13 +506,15 @@ Three different methods of obtaining the EHL film thickness were tested
 	\hline
 \end{tabular}
 
+\subsubsection{Timing}
+\subsubsection{Error}
 
+\subsection{Implicit Bearing Film Thickness Predictions}
 
+\subsubsection{Timing}
+Each computational point, including 
 
-\section{Conclusions}
-
-
-
+\subsubsection{Error}
 
 
 \section{Conclusions}
@@ -567,5 +522,5 @@ Roller bearings are only one application of these ANNs. The use cases extend far
 
 Full numerical solution can account for film thickness profile and pressure distribution across the contact. Futhermore, 
 
-Echávarri et al. \cite{EchavarriOtero2014} comment on the "black box" nature of ANNs. Results from intermediate calculations are lost, which is often of interest for more in-depth analysis of contact condition; film thickness and pressure distributions and temperature for example. 
+Echávarri et al. \cite{EchavarriOtero2014} comment on the "black box" nature of ANNs. Results from intermediate calculations are lost, which is often of interest for more in-depth analysis of contact condition; film thickness and pressure distributions and temperature for example.  
 
