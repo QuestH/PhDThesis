@@ -13,16 +13,18 @@ The elastohydrodynamic (EHL) film is shown to increase contact deflection, leadi
 A co-simulation methodology combines a system level model of a flexible shaft and rigid housing, developed in AVL EXCITE\textsuperscript{TM}, with component level models of the lubricated bearings, developed in MATLAB and Simulink. Operating conditions such as rotational speed and external forces are defined in the system level model. Time step, iteration accuracy and simulation length are also defined. Material, geometric and rheological properties of the bearings are defined in the component level model. The kinematic conditions from the system level model (i.e., displacements and velocities in all active degrees of freedom) are passed to the component level model at each time step. For each individual rolling element, the non-linear force–deflection relationship is employed in conjunction with the EHL film calculations to compute the contact reaction force between the roller and race. The resultant force on the inner bearing race due to the contact forces and orbital positions of all elements is then returned to the system level model. The equations of motion are then solved, and the time step is advanced once numerical convergence is achieved. A flowchart of these models representing each time step of the simulation is shown in Figure \ref{Flowchart of models}.
 
 \begin{figure}
+	\centering
 	\includegraphics[width=150mm]{FlexiTribo Figure 1. Flowchart of Models.png}
 	\caption{Flowchart of models.}
 	\label{Flowchart of models}
 \end{figure} 
 
-\section{System Level Flexible Model}
+\section{System Level Flexible Model} \label{System level flexible model}
 
 The system level model consists of a flexible shaft, supported by two cylindrical roller bearings in a rigid housing (see Figure \ref{System level model schematic}). The shaft is 472.5~$mm$ between bearing centres, with a 50~$mm$ main diameter and 25~$mm$ diameter bearing seats. The cylindrical roller bearings act as interference elements between the shaft and housing. The shaft can exhibit lateral motion in both vertical ($z$) and horizontal ($y$) directions and rotation about the $x$-axis (see Figure \ref{System level model schematic}). External load is applied at the shaft centre as a time-varying input force, to simulate the gear mesh excitation, or as a static load. The rotational speed is input as a boundary condition.
 
-\begin{figure}  
+\begin{figure}
+	\centering  
 	\includegraphics[width=150mm]{FlexiTribo Figure 2. System Level Model Schematic.png}
 	\caption{System level model schematic.}
 	\label{System level model schematic}
@@ -94,7 +96,8 @@ Partial mass displacements $\left(q_i\right)$ and velocities $\left(\dot{q}_i\ri
 \subsection{Lubricated Component Level Model} \label{Contact mechanics FMBD}
 The displacement and velocity vectors from each node connecting the shaft to the bearings $\left(q_i\right.$ and $\dot{q}_i$ respectively) comprise six-DOF. For this lateral DOF model, translations in $z$ and $y$ are considered, as well as angular displacement around the rotational axis, $x$. A schematic of the bearing is shown in Figure \ref{Bearing schematic}.
 
-\begin{figure}  
+\begin{figure}
+	\centering  
 	\includegraphics[width=150mm]{FlexiTribo Figure 3. Bearing Schematic.png}
 	\caption{Bearing schematic.}
 	\label{Bearing schematic}
@@ -116,7 +119,8 @@ The contact deformation $(\delta)$ is therefore a function of the displacement o
 
 Figure \ref{Dry vs lubricated roller-race contact} demonstrates this more clearly. The total contact deformation is the summation of the central film thickness $\left(h_c\right)$ and the material deformation $\left(\delta_m\right)$ predicted from the dry-Hertzian contact assumption. Conventional dry analysis only accounts for the dry material deformation at the contact.
 
-\begin{figure}  
+\begin{figure}
+	\centering  
 	\includegraphics[width=150mm]{FlexiTribo Figure 4. Dry vs Lubricated Roller-Race Contact.png}
 	\caption{Dry vs lubricated roller-race contact.}
 	\label{Dry vs lubricated roller-race contact}
@@ -170,7 +174,8 @@ where $s$ represents the slice number, and $l$ represents the slice length.
 
 The application of the slicing technique was validated against open literature. de Mul et al. \cite{DeMul1989_2} compared results obtained from an experimental rig with numerical results calculated using both the approximate slicing technique and the sophisticated non-Hertzian technique \cite{DeMul1986}. By replicating the geometry of the test bearing used in their analysis, the application of Andreason’s slicing technique used for this analysis was validated with good agreement (see Figure \ref{Contact level validation}). This method is a much faster way of calculating contact load and moment than more sophisticated methods by de Mul, yet still maintains high accuracy.
 
-\begin{figure}  
+\begin{figure}
+	\centering  
 	\includegraphics[width=150mm]{FlexiTribo Figure 5. Contact Level Validation.png}
 	\caption{Contact level validation.}
 	\label{Contact level validation}
@@ -272,7 +277,8 @@ The bearing geometry is detailed in Table \ref{Cylindrical Roller Bearing Specif
 
 The system level model is decomposed, with excitation forces calculated externally before application within the model. A separate electrified transmission model is used to generate realistic excitation forces and torques from a spur gear pair and a permanent magnetic synchronous motor (PMSM). This system represents the first stage of an electric hub motor used in automotive applications.
 
-\begin{figure}  
+\begin{figure}
+	\centering  
 	\includegraphics[width=150mm]{FlexiTribo Figure 6. PMSM Torque Profile and Maximum and Minimum Torque Fluctuation.png}
 	\caption{PMSM torque profile and maximum and minimum torque fluctuation.}
 	\label{PMSM torque profile}
@@ -282,7 +288,8 @@ Radial and tangential gear pair forces at the pinion centre, as well as torque f
 
 The motor has a peak torque of 68~$\mathrm{Nm}$, and a maximum operating speed of 21~000~$\mathrm{rpm}$. The torque transfer through the gear pair reduces as the speed increases due to the torque profile of the PMSM, as shown in Figure \ref{PMSM torque profile}. Stator tooth forces from the PMSM are neglected in the model due to their minimal contribution to lateral forces once resolved. For input to the model, the radial and normal forces are simplified by adopting sinusoidal inputs of the same magnitude and frequency of the gear pair at different speeds. The torque ripple from the motor is simplified using the same method.
 
-\begin{figure}  
+\begin{figure}
+	\centering  
 	\includegraphics[width=125mm]{Hub_motor_excitation_model_annotated.png}
 	\caption{Hub motor excitation model.}
 	\label{Hub_motor_excitation_model}
@@ -349,7 +356,8 @@ A coupled simulation approach is employed to implement the lubricated components
 
 Connections are created between bodies in the FMBD software using pins. Pins are assigned to specific nodes on the shaft and housing. The pins transmit a 6-element vector that describe the 6 DOF of the connection point. The first 3 elements represent translational degrees of freedom, whilst the latter represent rotational degrees of freedom. This are concatenated into a single communication vector that is then transferred to MATLAB.
 
-\begin{figure}  
+\begin{figure}
+	\centering  
 	\includegraphics[width=125mm]{Communication_Vector_MATLAB.png}
 	\caption{Communication vector and degrees of freedom.}
 	\label{Communication_Vector_MATLAB}
@@ -368,7 +376,8 @@ Output data from the FMBD model is organised in vector format, of size 6$n$ wher
 	\item The second level of Demux blocks splits the 6-element vector for each pin into the 6 scalar values that represent the data for each degree of freedom. These can then be used as inputs to the MATLAB\textregistered\ function block within the Simulink\textregistered\ model.	
 \end{enumerate}
 
-\begin{figure}  
+\begin{figure}
+	\centering  
 	\includegraphics[width=125mm]{Output Port.png}
 	\caption{Output port Demux blocks and degrees of freedom.}
 	\label{Output Port Simulink}
@@ -378,7 +387,8 @@ Output data from the FMBD model is organised in vector format, of size 6$n$ wher
 
 At the input port to the EXCITE\textsuperscript{TM} Power Unit Simulink block, a vector of 6$n$ elements must be passed. This requires two Mux blocks: the first to combine the degrees of freedom of each pin, and the second to combine all of these connection vectors into a single vector that is passed to EXCITE\textsuperscript{TM} Power Unit.
 
-\begin{figure}  
+\begin{figure}
+	\centering  
 	\includegraphics[width=125mm]{Input Port.png}
 	\caption{Input port Mux blocks and degrees of freedom.}
 	\label{Input Port Simulink}
@@ -388,7 +398,8 @@ At the input port to the EXCITE\textsuperscript{TM} Power Unit Simulink block, a
 
 To integrate the lubricated bearing model into the Simulink\textregistered\ model, the MATLAB\textregistered\ Function block is used. The input variable sizes are defined at the beginning of the function, and the appropriate degrees of freedom are connected to the block in the order of which they appear in the function. The function blocks and hence lubricated bearing models are highlighted in \ref{Simulink_model_schematic}, as well as the ports and the demux blocks that split the degrees of freedom.
 
-\begin{figure}  
+\begin{figure}
+	\centering  
 	\includegraphics[width=150mm]{Simulink_schematic_annotated.png}
 	\caption{Simulink\textregistered\ model schematic.}
 	\label{Simulink_model_schematic}
@@ -402,7 +413,8 @@ A quasi-dynamic speed sweep has been performed from 1000 to 21~000~$rpm$. The si
 
 The contact level results (Figure \ref{Rolling element contact stiffness - Dry vs lubricated maximum values}) show a difference in the contact stiffness between the dry and lubricated models. The dry model follows the torque profile of the motor, with stiffness decreasing as the contact forces reduce. The period of resonance leads to the larger amplitude excitation of the shaft, resulting in an increase in the contact stiffness due to the force–deflection non-linearity. The lubricated model, however, shows an increase in the contact stiffness throughout the speed sweep. This is due to the higher levels of deformation at the contact as the lubricant is entrained, which increases with the shaft rotational velocity. This behaviour was experimentally observed by Dietl, concluding that the oil-wedge between the rolling elements and raceways reduces the internal clearance of the bearing and increases its stiffness \cite{Dietl1997}. The contact stiffness in the lubricated bearing model under the same operating conditions is therefore 24.9\% greater at 21~000~$rpm$.
 
-\begin{figure}  
+\begin{figure}
+	\centering  
 	\includegraphics[width=150mm]{FlexiTribo Figure 7. Rolling Element Contact Stiffness - Dry vs Lubricated Maximum Values.png}
 	\caption{Rolling element contact stiffness - Dry vs lubricated maximum values.}
 	\label{Rolling element contact stiffness - Dry vs lubricated maximum values}
@@ -410,7 +422,8 @@ The contact level results (Figure \ref{Rolling element contact stiffness - Dry v
 
 The peak contact force has been compared between both models. The percentage increase between the dry and lubricated models is shown in Figure 	\ref{Rolling element contact force - Dry vs lubricated percentage increase}. This more clearly shows the disparity between both models at the contact, with the largest difference being 9.6 times at maximum speed. During resonance, the inner race force reaches a peak of 1514~$\mathrm{N}$, resulting in surface deformation magnitudes of 0.92~$\mu \mathrm{m}$ and 3.81~$\mu \mathrm{m}$ at the dry and lubricated conjunctions, respectively. As noted in previous works [15], higher loads lead to a greater surface deformation to the film thickness ratio, causing the percentage difference between the dry and lubricated models to reduce. Once the loads reduce as the speed increases, the percentage increase continues to rise.
 
-\begin{figure}  
+\begin{figure}
+	\centering  
 	\includegraphics[width=150mm]{FlexiTribo Figure 8. Rolling Element Contact Force - Dry vs Lubricated Percentage Increase.png}
 	\caption{Rolling element contact force - Dry vs lubricated percentage increase.}
 	\label{Rolling element contact force - Dry vs lubricated percentage increase}
@@ -418,15 +431,17 @@ The peak contact force has been compared between both models. The percentage inc
 
 The total bearing stiffness is a combination of all contact stiffnesses between the elements and raceways. These contact stiffnesses vary non-linearly with force, resulting in the total bearing stiffness varying accordingly. For the dry model, this is clearly demonstrated, with the greater total bearing stiffness at the peak of the resonance due to the greater bearing forces (see Figure \ref{Inner race stiffness - Dry vs lubricated operating envelope}). This does not, however, capture the change of the total bearing stiffness with speed; the average bearing stiffness does not change. The lubricated bearing is not only stiffer than the dry bearing, but this stiffness also increases with speed. This is shown in Figure \ref{Inner race stiffness - Dry vs lubricated operating envelope} by the non-linear increase in the average lubricated bearing stiffness values compared to the constant values for the dry model. The combination of these two factors leads to the lubricated model having a $16.6 \%$ greater maximum total bearing stiffness at 21~000~$\mathrm{rpm}$ than the dry model.
 
-\begin{figure}  
+\begin{figure}
+	\centering  
 	\includegraphics[width=150mm]{FlexiTribo Figure 9. Inner Race Stiffness - Dry vs Lubricated Operating Envelope.png}
 	\caption{Inner race stiffness - Dry vs lubricated operating envelope.}
 	\label{Inner race stiffness - Dry vs lubricated operating envelope}
 \end{figure} 
 
-Due to the greater total stiffness of the bearing, the shaft displacement of the lubricated model is lower both on average and peak to peak for the same applied force in comparison to the dry model (see Figure \ref{Inner race displacement - Dry vs lubricated operating envelope}). Through the period of resonance, the large inner race forces result in the roller–race separation of the unloaded rollers within the dry model. This leads to greater shaft displacement as the inner race moves into this region of zero stiffness until roller–race contact is mademade, and a reaction force is established.
+Due to the greater total stiffness of the bearing, the shaft displacement of the lubricated model is lower both on average and peak to peak for the same applied force in comparison to the dry model (see Figure \ref{Inner race displacement - Dry vs lubricated operating envelope}). Through the period of resonance, the large inner race forces result in the roller–race separation of the unloaded rollers within the dry model. This leads to greater shaft displacement as the inner race moves into this region of zero stiffness until roller–race contact is made, and a reaction force is established.
 
-\begin{figure}  
+\begin{figure}
+	\centering  
 	\includegraphics[width=150mm]{FlexiTribo Figure 10. Inner Race Displacement - Dry vs Lubricated Operating Envelope.png}
 	\caption{Inner race displacement - Dry vs lubricated operating envelope.}
 	\label{Inner race displacement - Dry vs lubricated operating envelope}
@@ -434,13 +449,15 @@ Due to the greater total stiffness of the bearing, the shaft displacement of the
 
 Figure \ref{Inner race acceleration - Dry vs lubricated operating envelope} shows that the acceleration peak of the system resonance occurs at 12~500~$\mathrm{rpm}$ (3542~0$\mathrm{Hz}$) for the lubricated model as opposed to 12~250~$\mathrm{rpm}$ (3470~$\mathrm{Hz}$) for the dry model. This shift in natural frequency indicates a stiffer overall system. The magnitude difference between the dry and lubricated models can also be attributed to the unloaded regions of the dry bearing. The contact deformation arising from the loading of the inner race is sufficient to cause the rollers geometrically opposite to become separated from their contacts. Contact is lost between the roller and raceway, leading to zero contact stiffness. The inner race moves into this region until it is reacted by a contact force once again. These regions of zero stiffness are shown in Figure \ref{Rolling element contact stiffness - Dry vs lubricated minimum values}, where the minimum stiffness of an individual rolling element and raceway contact in the dry model drops to zero due to separation. For the lubricated model, contact is maintained throughout.
 
-\begin{figure}  
+\begin{figure}
+	\centering  
 	\includegraphics[width=150mm]{FlexiTribo Figure 11. Inner Race Acceleration - Dry vs Lubricated Operating Envelope.png}
 	\caption{Inner race acceleration - Dry vs lubricated operating envelope.}
 	\label{Inner race acceleration - Dry vs lubricated operating envelope}
 \end{figure}
 
-\begin{figure}  
+\begin{figure}
+	\centering  
 	\includegraphics[width=150mm]{FlexiTribo Figure 12. Rolling Element Contact Stiffness - Dry vs Lubricated Minimum Values.png}
 	\caption{Rolling element contact stiffness - Dry vs lubricated minimum values.}
 	\label{Rolling element contact stiffness - Dry vs lubricated minimum values}
@@ -448,13 +465,15 @@ Figure \ref{Inner race acceleration - Dry vs lubricated operating envelope} show
 
 Analysing the conjunction level results from the lubricated model, the contact force due to the gear mesh frequency is shown superimposed on the ball pass frequency as an individual element passes through the loaded region of the bearings (Figures \ref{Film thickness vs contact force 21 000 rpm} and \ref{Film thickness vs contact force 12 500 rpm}). The higher contact forces result in a reduction in the central film thickness, also shown when observing the variation in film thickness for both plots. At 12~500~$\mathrm{rpm}$, the force and film thickness fluctuations are much larger due to the high excitation levels of the shaft during resonance. At 21~000~$\mathrm{rpm}$, even with a much lower torque transfer through the gear pair, the contact forces are greater than at 12~500~$\mathrm{rpm}$. This is due to the contribution of the film enhancing the total contact deflection and hence increasing the contact force.
 
-\begin{figure}  
+\begin{figure}
+	\centering  
 	\includegraphics[width=150mm]{FlexiTribo Figure 13. Film Thickness vs Contact Force 21 000 rpm.png}
 	\caption{Film thickness vs contact force 21~000~$\mathrm{rpm}$.}
 	\label{Film thickness vs contact force 21 000 rpm}
 \end{figure}
 
-\begin{figure}  
+\begin{figure}
+	\centering  
 	\includegraphics[width=150mm]{FlexiTribo Figure 14. Film Thickness vs Contact Force 12 500 rpm.png}
 	\caption{Film thickness vs contact force 12~500~$\mathrm{rpm}$.}
 	\label{Film thickness vs contact force 12 500 rpm}

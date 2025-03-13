@@ -1,14 +1,14 @@
 \thispagestyle {empty}
 \contentsline {paragraph}{Keywords}{v}{section*.3}%
 \contentsline {chapter}{List of figures}{xi}{chapter*.5}%
-\contentsline {chapter}{List of tables}{xiii}{chapter*.6}%
-\contentsline {chapter}{Nomenclature}{xiv}{chapter*.6}%
-\contentsline {paragraph}{Chapter 3}{xvi}{section*.8}%
-\contentsline {paragraph}{Greek Symbols}{xvii}{section*.9}%
-\contentsline {paragraph}{Chapter 4}{xviii}{section*.10}%
-\contentsline {paragraph}{Greek Symbols}{xix}{section*.11}%
-\contentsline {chapter}{List of Abbreviations}{xx}{section*.11}%
-\contentsline {chapter}{Publications}{xxii}{chapter*.12}%
+\contentsline {chapter}{List of tables}{xv}{chapter*.6}%
+\contentsline {chapter}{Nomenclature}{xvi}{chapter*.6}%
+\contentsline {paragraph}{Chapter 3}{xviii}{section*.8}%
+\contentsline {paragraph}{Greek Symbols}{xix}{section*.9}%
+\contentsline {paragraph}{Chapter 4}{xx}{section*.10}%
+\contentsline {paragraph}{Greek Symbols}{xxi}{section*.11}%
+\contentsline {chapter}{List of Abbreviations}{xxii}{section*.11}%
+\contentsline {chapter}{Publications}{xxiv}{chapter*.12}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Research Questions}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Structure of Thesis}{2}{section.1.2}%
@@ -79,31 +79,31 @@
 \contentsline {chapter}{\numberline {5}Artificial Neural Networks for EHL Film Thickness Predictions}{81}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Introduction}{81}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Numerical vs Analytical Film Thickness Estimations at High Entrainment Velocities}{82}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Machine Learning Fundamentals}{82}{section.5.3}%
+\contentsline {section}{\numberline {5.3}Machine Learning Fundamentals}{83}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Methodology}{84}{section.5.4}%
 \contentsline {subsection}{\numberline {5.4.1}ANN Structure}{84}{subsection.5.4.1}%
 \contentsline {paragraph}{Data Normalization}{86}{section*.35}%
-\contentsline {paragraph}{Training, Validation and Test Datasets}{86}{section*.36}%
-\contentsline {paragraph}{Evaluating the Network Performance}{87}{section*.37}%
+\contentsline {paragraph}{Training, Validation and Test Datasets}{87}{section*.36}%
+\contentsline {paragraph}{Evaluating the Network Performance}{88}{section*.37}%
 \contentsline {paragraph}{Activation Functions}{88}{section*.38}%
-\contentsline {subsection}{\numberline {5.4.2}ANN Input Data Generation}{89}{subsection.5.4.2}%
-\contentsline {subsubsection}{Numeric Database Construction}{89}{section*.39}%
+\contentsline {subsection}{\numberline {5.4.2}ANN Input Data Generation}{90}{subsection.5.4.2}%
+\contentsline {subsubsection}{Numeric Database Construction}{90}{section*.39}%
 \contentsline {subsubsection}{Constraining the Input Data Bounds}{91}{section*.40}%
 \contentsline {subsection}{\numberline {5.4.3}Explicit Bearing Film Thickness Predictions}{92}{subsection.5.4.3}%
-\contentsline {subsection}{\numberline {5.4.4}Implicit Bearing Film Thickness Predictions}{95}{subsection.5.4.4}%
-\contentsline {section}{\numberline {5.5}Results and Discussion}{95}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}ANN Structure and Performance}{95}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}Explicit Bearing Film Thickness Predictions}{96}{subsection.5.5.2}%
-\contentsline {subsubsection}{Timing}{99}{section*.51}%
-\contentsline {subsubsection}{Error}{99}{section*.52}%
-\contentsline {subsection}{\numberline {5.5.3}Implicit Bearing Film Thickness Predictions}{99}{subsection.5.5.3}%
-\contentsline {subsubsection}{Timing}{99}{section*.53}%
-\contentsline {subsubsection}{Error}{100}{section*.54}%
-\contentsline {section}{\numberline {5.6}Conclusions}{100}{section.5.6}%
-\contentsline {chapter}{\numberline {6}Conclusions and Future Works}{101}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Overall Conclusions}{101}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Contributions to Knowledge}{102}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Addressing the Research Questions}{103}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Future Works}{103}{section.6.4}%
-\contentsline {chapter}{References}{105}{chapter*.55}%
-\contentsline {chapter}{Appendix \numberline {A}Appendix}{119}{appendix.a.A}%
+\contentsline {subsection}{\numberline {5.4.4}Implicit Bearing Film Thickness Predictions}{96}{subsection.5.4.4}%
+\contentsline {section}{\numberline {5.5}Results and Discussion}{99}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}ANN Structure and Performance}{99}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Explicit Bearing Film Thickness Predictions}{99}{subsection.5.5.2}%
+\contentsline {subsubsection}{Timing}{102}{section*.51}%
+\contentsline {subsubsection}{Error}{102}{section*.52}%
+\contentsline {subsection}{\numberline {5.5.3}Implicit Bearing Film Thickness Predictions}{102}{subsection.5.5.3}%
+\contentsline {subsubsection}{Timing}{102}{section*.53}%
+\contentsline {subsubsection}{Error}{103}{section*.54}%
+\contentsline {section}{\numberline {5.6}Conclusions}{103}{section.5.6}%
+\contentsline {chapter}{\numberline {6}Conclusions and Future Works}{105}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Overall Conclusions}{105}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Contributions to Knowledge}{106}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Addressing the Research Questions}{107}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Future Works}{107}{section.6.4}%
+\contentsline {chapter}{References}{109}{chapter*.55}%
+\contentsline {chapter}{Appendix \numberline {A}Appendix}{123}{appendix.a.A}%

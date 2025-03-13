@@ -881,10 +881,14 @@ T.~M. Inc., ``Improve shallow neural network generalization and avoid
   \url{https://uk.mathworks.com/help/deeplearning/ug/improve-neural-network-generalization-and-avoid-overfitting.html}
 \BIBentrySTDinterwordspacing
 
-\bibitem[Siebertz et~al.(2010)Siebertz, Hochkirchen, and van
-  Bebber]{Siebertz2010}
-K.~Siebertz, T.~Hochkirchen, and D.~van Bebber, \emph{Statistische
-  versuchsplanung}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2010.
+\bibitem[Siebertz et~al.(2017)Siebertz, van Bebber, and
+  Hochkirchen]{Siebertz2010}
+\BIBentryALTinterwordspacing
+K.~Siebertz, D.~van Bebber, and T.~Hochkirchen, \emph{Statistische
+  Versuchsplanung}.\hskip 1em plus 0.5em minus 0.4em\relax Springer Berlin
+  Heidelberg, 6 2017. [Online]. Available:
+  \url{http://link.springer.com/10.1007/978-3-662-55743-3}
+\BIBentrySTDinterwordspacing
 
 \bibitem[Johnson et~al.(1990)Johnson, Moore, and Ylvisaker]{Johnson1990}
 M.~E. Johnson, L.~M. Moore, and D.~Ylvisaker, ``Minimax and maximin distance

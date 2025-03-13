@@ -14,6 +14,13 @@ This workflow introduces the application of Artificial Neural Networks (ANNs) a 
 Two main approaches exist for determination of the complex non-linear problem of film thickness in lubricated contacts. The first approach involves employing numerical methods \cite{Dowson1959}, where systems of partial differential equations are formulated to describe the state of the contact and then solved iteratively \cite{Gohar2018}. While this method yields accurate results and is applicable to a wide range of operating conditions, it is computationally intensive due to its iterative nature. The second approach involves developing regressed analytical equations from experimental or numerical studies which can be used for specific lubrication regimes. These equations offer quick estimates of key parameters, such as central \cite{Dowson1979} and minimum film thickness \cite{Dowson1967}. However, whilst more computationally efficient than the full numerical solution, this approach has limitations. 
 The applicability of regressed equations is often limited to the range of data used for their development, resulting in reduced accuracy due to simplification. There is also a requirement for extensive effort in collecting experimental or numerical data to develop them. 
 
+\begin{figure}
+	\centering
+	\includegraphics[width=140mm]{EHL_NumericalvsAnalytical_25000.png}
+	\caption{Central film thickness - EHL vs analytical.}
+	\label{EHL_NumericalvsAnalytical_25000}
+\end{figure} 
+
 Comparison graphs
 
 Timing for each points
@@ -49,7 +56,7 @@ The generalized structure of an ANN comprises several layers which contain neuro
 
 \section{Methodology}
 
-Overall workflow flowchart
+A workflow of the 
 
 \begin{figure}  
 	\centering
@@ -75,7 +82,8 @@ The structure of the ANN is described in the following format, as per \cite{Zhan
 
 The number of neurons in each layer is denoted by $N$, with the input and output layers indicated by the subscripts $in$ and $out$, respectively. Subscripts $h1$, $h2$, and $h3$ denote the hidden layers, with $t$ being the total number of hidden layers. A graphic representation of the structure used for the film thickness estimations is show in Figure \ref{ANN structure}.
 
-\begin{figure}  
+\begin{figure}
+	\centering  
 	\includegraphics[width=150mm]{ANN_Structure.png}
 	\caption{ANN structure to predict EHL central film thickness ($9-[14-14-14]_3-1$)}
 	\label{ANN structure}
@@ -198,13 +206,13 @@ By applying an adjustment factor, denoted as $\gamma^{\prime}$, the weights and 
 
 \subsection{ANN Input Data Generation}
 
-Training an ANN requires an often comprehensive data set. For the purpose of this study, the training data was generated using the numerical EHL model presented in \ref{1D EHL Model}. This decision was made due to the size of the database required for training, and the timely and relatively low resource-intensive nature to generate this. It is worth noting that training data could also be obtained from experimental work, which further enhances the applicability of this approach for future studies.
+Training an ANN requires an often comprehensive data set. For the purpose of this study, the training data was generated using the numerical EHL model presented in \ref{1D EHL Model}. This decision was made due to the size of the database required for training, and the relatively low resource-intensive nature to generate this. It is worth noting that training data could also be obtained from experimental work, which further enhances the applicability of this approach for future studies.
 
 \subsubsection{Numeric Database Construction}
 
 Due to the large design space covered by the high number and range of input parameters, a robust sampling technique needs to chosen to create the training data set. In traditional random sampling, each of the parameters is randomly sampled within its defined range. This may lead to insufficient coverage of the parameter space and simple bias, as this method has no "memory" of points already selected.
 
-The Latin Hypercube Sampling (LHS) method was utilised by Marian et al. \cite{Marian2022}, and was chosen for this study. LHS is a statistical method commonly used in experimental design and statistical analysis to efficiently sample a high-dimensional parameter space. It generates a near-random sample of parameter values from multi-dimensional distributions. The sample points are distributed such that the design space is filled as evenly as possible, with information from nearly all regions being covered. This ensures lower computational effort required for ANN training, despite the high number of input variables and value ranges. 
+The Latin Hypercube Sampling (LHS) method was utilised by Marian et al. \cite{Marian2022}, and was chosen for this study. LHS is a statistical method commonly used in experimental design and statistical analysis. It is used to efficiently sample a high-dimensional parameter space, such as that required for the central film thickness calculation. It generates a near-random sample of parameter values from multi-dimensional distributions. The sample points are distributed such that the design space is filled as evenly as possible, with information from nearly all regions being covered. This ensures lower computational effort required for ANN training, despite the high number of input variables and value ranges. 
 
 LHS is based on the concept of Latin hypercube design (LHD). In LHD, the parameter space is divided into equal intervals along each dimension. Each interval is then randomly assigned to a unique position within its corresponding dimension. The process results in a matrix, where each row represents a combination of parameter values. Contrary to the random sampling method, LHD guarantees that only one sample is taken from each row, ensuring a diverse and representative set of samples.
 
@@ -229,21 +237,19 @@ where $d$ represents all distances in the test field, and subscripts $i$ and $j$
 
 
 Marian et. al conducted a study for film thickness distribution
-%explain the study
-%explain the methods
-%explain the outcome and why I decided to us ANN
-%also explain Ani study
 
 
-SECTION ON LHS AND PARAMETER STUDY COMPARISON (ANI)
+
+
+
 
 
 
 \subsubsection{Constraining the Input Data Bounds}
 
-The performance of ANNs is heavily reliant upon the quality of the data set provided for training. To construct a training database, Marian et al. \cite{Marian2022} utilised a Finite Element Method (FEM) solver. The database covered a very large range of lubricant and material properties for relatively low entrainment speed conditions (< 0.4~$m/s$ for the 2D line contact studies). The resulting contact conditions when some combinations of these parameters were used, exceeded realistic conditions within common machine elements, including bearings. Since the film thickness evaluation is required for the EHL contact of roller bearings, the input data set for this study requires constraining to improve validity.
+The performance of ANNs is heavily reliant upon the quality of the data set provided for training. To construct a training database, Marian et al. \cite{Marian2022} utilised a Finite Element Method (FEM) solver for film thickness calculations. The database covered a very large range of lubricant and material properties for relatively low entrainment speed conditions (< 0.4~$m/s$ for the 2D line contact studies). Contact conditions for some combinations fo these input parameters exceed realistic conditions within common machine element, including bearings. To further improve upon this methodology, the input data range required constraining.
 
-A method to constrain the input parameter combination to realistic machine element operating points was devised. The Greenwood Regime chart \cite{Johnson1970} was used for this purpose. The regions of the chart, as shown in Fig.XXXX, are:
+The Greenwood Regime chart \cite{Johnson1970} was used for this purpose. The regions of the chart, as shown in Figure \ref{Greenwood informed training data vs Marian et al.}, are:
 
 \begin{itemize}
 	\item Isoviscous Rigid (IR)
@@ -262,9 +268,17 @@ The bounds indicate the transition between the lubrication regimes, which are cl
 	G_v=\left(\frac{W_i^2}{\eta_0 u E_r R_r}\right)^{\frac{1}{2}}
 \end{equation}
 
-The PE region signifies contact pressures high enough to elastically deform the material and increase the viscosity of the lubricant; hence an EHL contact. The IR region relates to the hydrodynamic regime of lubrication, where the contact is lightly loaded and the surfaces do not deform and viscosity does not increase. Since these investigations are focussed on improving the EHL film thickness solution, the training data set was required to fall within the PE region of the Greenwood plot. The initial range of each parameter is shown in Table \ref{Range of ANN film thickness calculation parameters}. The training data set was then generated using these limits. The input data was then constrained further to ensure Hertzian pressures fell between 300~$MPa$ and below 3.5~$GPa$, as well as redistributing any points that fell outside of the PE and PR regions. HOW IS THIS DONE. SHOW BEFORE AND AFTER PLOTS AND INFLUENCE ON TRAINING QUALITY?
+The PE region signifies and EHL contact, where pressure are high enough to elastically deform the material and increase the viscosity of the lubricant. The IR region relates to the hydrodynamic regime of lubrication, where the contact load does not deform the surface and viscosity remains constant. Since these investigations are focussed on improving the EHL film thickness solution, the training data set was required to fall within the PE region of the Greenwood plot. The initial range of each parameter is shown in Table \ref{Range of ANN film thickness calculation parameters}. The training data set was then generated using these limits. The input data was then constrained further to ensure Hertzian pressures, $P$, were between 300~$MPa$ and 3.5~$GPa$, as well as redistributing any points that fell outside of the PE and PR regions. A flowchart to explain the process of contraining the input variables is shown in Figure \ref{EHL_Greenwood_Constraints_Flowchart}.
 
-\begin{figure}  
+\begin{figure}
+	\centering  
+	\includegraphics[width=130mm]{EHL_Greenwood_Constraints_Flowchart.png}
+	\caption{Workflow to constrain training input data using Greenwood regimes}
+	\label{EHL_Greenwood_Constraints_Flowchart}
+\end{figure} 
+
+\begin{figure}
+	\centering  
 	\includegraphics[width=150mm]{ANN_Explicit_MarianvsGreenwood.png}
 	\caption[Greenwood informed training data vs Marian et al.]{Greenwood informed training data vs Marian et al. \cite{Marian2022}.}
 	\label{Greenwood informed training data vs Marian et al.}
@@ -302,7 +316,15 @@ The PE region signifies contact pressures high enough to elastically deform the 
 	\end{tabular}
 \end{table*}
 
-\textbf{CHECK THIS}The numerical solution database can also benefit from explicit parallelisation ie. use of multiple computational cores of the CPU. When using MBD solvers implicitly it is not possible to use explicit parallelisation since a particular time step is dependent on the present timestep as well as on data of the same timestep. The ANN functionality in turn can be embedded with an implicit MBD computation environment to significantly improve the computation times without the need of explicit parallelisation despite benefitting from it indirectly. 
+A comparison of an the unconstrained and constrained input variables used for the training data is shown in Figure \ref{Training_Unconstrained_GreenwoodRegime}.
+
+\begin{figure}
+	\centering  
+	\includegraphics[width=150mm]{Training_Unconstrained_GreenwoodRegime.png}
+	\caption{Greenwood informed training data vs unconstrained data.}
+	\label{Training_Unconstrained_GreenwoodRegime}
+\end{figure} 
+
 
 
 
@@ -337,7 +359,7 @@ The same FMBD model used in Chapter \ref{Lubricated FMBD} was used for this stud
 		\hline
 		Young's modulus & 218 $GPa$ \\ [0.5ex]
 		\hline
-		Poisson's ratio & 5 $0.3$ \\ [0.5ex]
+		Poisson's ratio & 0.33 \\ [0.5ex]
 		\hline
 	\end{tabular}
 \end{table*}
@@ -358,6 +380,14 @@ The same FMBD model used in Chapter \ref{Lubricated FMBD} was used for this stud
 		\hline
 	\end{tabular}
 \end{table*}
+
+\begin{figure}
+	\centering  
+	\includegraphics[width=150mm]{Greenwood_Bearing.png}
+	\caption{Bearing operating conditions vs Greenwood informed training data.}
+	\label{Greenwood_Bearing}
+\end{figure} 
+
 
 The dynamic model was run explictly as a dry model, without the influence of the EHL film at the roller-race contacts. The kinematic and dynamic results required for input to the ANN are then extracted at each time step. Results were generated for an individual element completing one complete orbit around the bearing. Extracted results include roller load per unit length, reduced radius of the contact between the roller and inner-race, and the contact entrainment velocity.
 
@@ -391,6 +421,8 @@ The loading pattern is cyclic in nature as the roller enters and exits the most 
 
 
 \subsection{Implicit Bearing Film Thickness Predictions}
+
+Same model as in Section \ref{System level flexible model}
 
 
 
@@ -497,6 +529,7 @@ After identifying suitable data set size and ANN structure, the ANN could then b
 
 
 \begin{figure}
+	\centering
 	\includegraphics[width=150mm]{ANN_Explicit Film Thickness Comparisons.png}
 	\caption{ANN, numerical and analytical central film thickness comparisons.}
 	\label{ANN Film Thickness Comparisons}
@@ -532,4 +565,6 @@ Roller bearings are only one application of these ANNs. The use cases extend far
 Full numerical solution can account for film thickness profile and pressure distribution across the contact. Futhermore, 
 
 Echávarri et al. \cite{EchavarriOtero2014} comment on the "black box" nature of ANNs. Results from intermediate calculations are lost, which is often of interest for more in-depth analysis of contact condition; film thickness and pressure distributions and temperature for example.  
+
+The numerical solution database can also benefit from explicit parallelisation ie. use of multiple computational cores of the CPU. When using MBD solvers implicitly it is not possible to use explicit parallelisation since a particular time step is dependent on the present timestep as well as on data of the same timestep. The ANN functionality in turn can be embedded with an implicit MBD computation environment to significantly improve the computation times without the need of explicit parallelisation despite benefitting from it indirectly. 
 

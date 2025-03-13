@@ -47,11 +47,15 @@
 \contentsline {figure}{\numberline {4.18}{\ignorespaces Film thickness vs contact force 21\nobreakspace {}000\nobreakspace {}$\mathrm {rpm}$.\relax }}{79}{figure.4.18}%
 \contentsline {figure}{\numberline {4.19}{\ignorespaces Film thickness vs contact force 12\nobreakspace {}500\nobreakspace {}$\mathrm {rpm}$.\relax }}{79}{figure.4.19}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces ANN data flow, models and training flowchart\relax }}{84}{figure.5.1}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces ANN structure to predict EHL central film thickness ($9-[14-14-14]_3-1$)\relax }}{85}{figure.5.2}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Greenwood informed training data vs Marian et al.}}{92}{figure.5.3}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Individual rolling element input values to ANN : a) Contact load, b) Contact entrainment velocity, c) Contact reduced radius\relax }}{94}{figure.5.4}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces $10-[14-14-14]_3-1$ using Hyperbolic Tangent activation function : a) 600 points, b) 1000 points, c) 2000 points, d) 5000 points\relax }}{98}{figure.5.5}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces ANN, numerical and analytical central film thickness comparisons.\relax }}{99}{figure.5.6}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Central film thickness - EHL vs analytical.\relax }}{82}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces ANN data flow, models and training flowchart\relax }}{85}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces ANN structure to predict EHL central film thickness ($9-[14-14-14]_3-1$)\relax }}{86}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Workflow to constrain training input data using Greenwood regimes\relax }}{93}{figure.5.4}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Greenwood informed training data vs Marian et al.}}{94}{figure.5.5}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Greenwood informed training data vs unconstrained data.\relax }}{95}{figure.5.6}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Bearing operating conditions vs Greenwood informed training data.\relax }}{97}{figure.5.7}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Individual rolling element input values to ANN : a) Contact load, b) Contact entrainment velocity, c) Contact reduced radius\relax }}{98}{figure.5.8}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces $10-[14-14-14]_3-1$ using Hyperbolic Tangent activation function : a) 600 points, b) 1000 points, c) 2000 points, d) 5000 points\relax }}{101}{figure.5.9}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces ANN, numerical and analytical central film thickness comparisons.\relax }}{103}{figure.5.10}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
