@@ -11,8 +11,11 @@ This workflow introduces the application of Artificial Neural Networks (ANNs) a 
 
 \section{Numerical vs Analytical Film Thickness Estimations at High Entrainment Velocities}
 
-Two main approaches exist for determination of the complex non-linear problem of film thickness in lubricated contacts. The first approach involves employing numerical methods \cite{Dowson1959}, where systems of partial differential equations are formulated to describe the state of the contact and then solved iteratively \cite{Gohar2018}. While this method yields accurate results and is applicable to a wide range of operating conditions, it is computationally intensive due to its iterative nature. The second approach involves developing regressed analytical equations from experimental or numerical studies which can be used for specific lubrication regimes. These equations offer quick estimates of key parameters, such as central \cite{Dowson1979} and minimum film thickness \cite{Dowson1967}. However, whilst more computationally efficient than the full numerical solution, this approach has limitations. 
-The applicability of regressed equations is often limited to the range of data used for their development, resulting in reduced accuracy due to simplification. There is also a requirement for extensive effort in collecting experimental or numerical data to develop them. 
+Two main approaches exist for determination of the complex non-linear problem of film thickness in lubricated contacts. The first approach involves employing numerical methods \cite{Dowson1959}, where systems of partial differential equations are formulated to describe the state of the contact and then solved iteratively \cite{Gohar2018}. While this method yields accurate results and is applicable to a wide range of operating conditions, it is computationally intensive due to its iterative nature. The second approach involves developing regressed analytical equations from experimental or numerical studies which can be used for specific lubrication regimes. These equations offer quick estimates of key parameters, such as central \cite{Dowson1979} and minimum film thickness \cite{Dowson1967}. However, whilst more computationally efficient than the full numerical solution, this approach has limitations.
+ 
+The applicability of regressed equations is often limited to the range of data used for their development. There is also a requirement for extensive effort in collecting experimental or numerical data to develop them. The entrainment velocities considered in this work (up to ~32~$m/s$) exceed the typical range over which the regressed equations are experimentally derived. Whilst it is possible to exceed the range of input data, it must be done with caution \cite{Gohar1988}.
+
+Figure \ref{EHL_NumericalvsAnalytical_25000} shows a comparison between the central film thickness calculated using the numerical method (see Section \ref{1D EHL Model}), and the analytical equation (Equation \ref{dimensionless central film thickness}) across a speed range of 0~-~25~000~$rpm$. The bearing used for this comparison is the same as in Section \ref{System level flexible model}. Geometry is detailed in Table \ref{Cylindrical Roller Bearing Specification}, with rheological and material properties detailed in Table \ref{Bearing Rheological Properties}.
 
 \begin{figure}
 	\centering
@@ -21,12 +24,9 @@ The applicability of regressed equations is often limited to the range of data u
 	\label{EHL_NumericalvsAnalytical_25000}
 \end{figure} 
 
-Comparison graphs
+It is shown that as rotational speed and hence entrainment velocity increase, the difference between the numerical and analytical film thickness calculations diverge. At 0~-~25~000~$rpm$, entrainment velocities of ~32~$m/s$ leads to a 24.5\% difference between the methods, with the analytical equation overestimating the film thickness.
 
-Timing for each points
-
-Error between both
-
+Since the numerical solution is regarded as the 
 Emphasis that this discrepancy must be overcome
 
 The implementation of ANNs within tribology is one way to overcome the computational expense of the full numerical solution and the limited validity of the analytical approach.   To ensure the validity of the ANN, a methodology is suggested for training it within a range consistent with the numerical solver.

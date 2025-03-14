@@ -82,22 +82,22 @@
 \contentsline {section}{\numberline {5.3}Machine Learning Fundamentals}{83}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Methodology}{84}{section.5.4}%
 \contentsline {subsection}{\numberline {5.4.1}ANN Structure}{84}{subsection.5.4.1}%
-\contentsline {paragraph}{Data Normalization}{86}{section*.35}%
+\contentsline {paragraph}{Data Normalization}{87}{section*.35}%
 \contentsline {paragraph}{Training, Validation and Test Datasets}{87}{section*.36}%
 \contentsline {paragraph}{Evaluating the Network Performance}{88}{section*.37}%
 \contentsline {paragraph}{Activation Functions}{88}{section*.38}%
 \contentsline {subsection}{\numberline {5.4.2}ANN Input Data Generation}{90}{subsection.5.4.2}%
 \contentsline {subsubsection}{Numeric Database Construction}{90}{section*.39}%
-\contentsline {subsubsection}{Constraining the Input Data Bounds}{91}{section*.40}%
-\contentsline {subsection}{\numberline {5.4.3}Explicit Bearing Film Thickness Predictions}{92}{subsection.5.4.3}%
-\contentsline {subsection}{\numberline {5.4.4}Implicit Bearing Film Thickness Predictions}{96}{subsection.5.4.4}%
-\contentsline {section}{\numberline {5.5}Results and Discussion}{99}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}ANN Structure and Performance}{99}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}Explicit Bearing Film Thickness Predictions}{99}{subsection.5.5.2}%
-\contentsline {subsubsection}{Timing}{102}{section*.51}%
-\contentsline {subsubsection}{Error}{102}{section*.52}%
-\contentsline {subsection}{\numberline {5.5.3}Implicit Bearing Film Thickness Predictions}{102}{subsection.5.5.3}%
-\contentsline {subsubsection}{Timing}{102}{section*.53}%
+\contentsline {subsubsection}{Constraining the Input Data Bounds}{92}{section*.40}%
+\contentsline {subsection}{\numberline {5.4.3}Explicit Bearing Film Thickness Predictions}{93}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Implicit Bearing Film Thickness Predictions}{98}{subsection.5.4.4}%
+\contentsline {section}{\numberline {5.5}Results and Discussion}{98}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}ANN Structure and Performance}{98}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Explicit Bearing Film Thickness Predictions}{100}{subsection.5.5.2}%
+\contentsline {subsubsection}{Timing}{103}{section*.51}%
+\contentsline {subsubsection}{Error}{103}{section*.52}%
+\contentsline {subsection}{\numberline {5.5.3}Implicit Bearing Film Thickness Predictions}{103}{subsection.5.5.3}%
+\contentsline {subsubsection}{Timing}{103}{section*.53}%
 \contentsline {subsubsection}{Error}{103}{section*.54}%
 \contentsline {section}{\numberline {5.6}Conclusions}{103}{section.5.6}%
 \contentsline {chapter}{\numberline {6}Conclusions and Future Works}{105}{chapter.6}%
