@@ -79,7 +79,10 @@ The learning process of an ANN is achieved by adjusting the weights in the netwo
 	\item \textbf{Backpropogation}: This error is backpropogated through the system to determine the contribution of each weight to that error.
 	\item \textbf{Optimization}: Optimization algorithms, such as Levenberg-Marquardt \cite{Levenberg1944} \cite{Marquardt1963} \cite{Wilamowski2010}, are used to update the weights and biases to reduce the loss.
 	\item \textbf{Epochs}: The above process repeats over multiple cycles, known as epochs. This is performed until the desired MSE is achieved.
+	\item \textbf{Overfitting}:  This is the phenomenon whereby an ANN becomes too specialised at learning the training data, and as a result performs poorly with new, unseen data. This occurs when the network extensively adjusts its internal parameters to fit noise or outliers in the training set \cite{Ying2019}. It is therefore necessary to limit the number of epochs once sufficient performance is achieved.
 \end{enumerate}
+
+
 
 For a comprehensive overview of machine learning fundamentals, the reader is referred to CITE. Their application to tribological work is also comprehensively covered by Marian \cite{Marian2021}.
 
@@ -218,7 +221,7 @@ A comparison of an the unconstrained and constrained input variables used for th
 
 The 1D EHL model presented in Section \ref{1D EHL Model} was used to generate the numerical database for training the ANN. The variables corresponding to each constrained data point in Figure \ref{Training_Unconstrained_GreenwoodRegime} were used as inputs to the calculation. The target output of central film thickness was calculated.
 
-\subsection{ANN Structure Evaluation}
+\subsection{ANN Structure Evaluation} \label(ANN Structure Evaluation)
 
 The general structure of the ANN is described in the following format, as per \cite{Zhang2002}:
 
@@ -237,9 +240,9 @@ The number of neurons in each layer is denoted by $N$, with the input and output
 
 The structure of an ANN affects both its training time and prediction accuracy. To evaluate the performance of different ANN structures, and hence select an appropriate structure for this application, a sensitivity study was performed.
 
-The study comprised of over 500 different ANN structures. The input data range remained constant across all structures, while the variables listed in Table \ref{Sensitivity study of ANN structure} were adjusted. The number of hidden layers was varied between one and four, and the number of neurons between 10 and 20. Three activation functions: Hyperbolic tangent, Logistic sigmoid and Rectilinear were evaluated.
+The study comprised of over 500 different ANN structures. The input data range remained constant across all structures, while the variables listed in Table \ref{Sensitivity study of ANN structure} were adjusted. The number of hidden layers was varied between one and four, and the number of neurons between 10 and 20. Three activation functions: Hyperbolic tangent, Logistic sigmoid and Rectilinear were evaluated. The wall time for each calculation was recorded, as well as the total training time of each ANN structure.
 
-Selection of the final structure for suitability analysis was based on total training time, coefficient of determination ($R^2$), and the potential for the ANN to overfit. Overfitting is the phenomenon whereby an ANN becomes too specialised at learning the training data, and as a result performs poorly with new, unseen data. This occurs when the network extensively adjusts its internal parameters to fit noise or outliers in the training set \cite{Ying2019}.
+Selection of the final structure to be used for film thickness estimation in bearing models was based on total training time, coefficient of determination ($R^2$), and the potential for the ANN to overfit. $R^2$ is evaluated for the test data sets, since this gives an accurate indication of the networks ability to predict film thickness with unseen input variables.
 
 \begin{table*}
 	%\captionsetup{justification=centering}
@@ -257,7 +260,7 @@ Selection of the final structure for suitability analysis was based on total tra
 		\hline
 		Number of neurons, N & 10 - 20 \\ [0.5ex]
 	    \hline
-		Activation function type & Hyperbolic tangent, Logistic sigmoid, Rectilinear \\ [0.5ex]
+		Activation function type & Hyperbolic tangent (Tanh), Logistic sigmoid (LogSig), Rectilinear (ReLU) \\ [0.5ex]
 		\hline
 	\end{tabular}
 \end{table*}
@@ -353,13 +356,8 @@ By applying an adjustment factor, denoted as $\gamma^{\prime}$, the weights and 
 
 A parameter study was conducted to determine the optimal structure for the ANN. Over 500 different structures were tested using the same input data. This involved varying the hyperparameters: the number of hidden layers varied from one to four, and the number of neurons from ten to twenty. The three aforementioned activation functions were explored in different hidden layer configurations. This included a combination of hyperbolic tangent in the hidden layers, with the final layer utilizing a logistic tangent function. For each configuration, the values of $R^2$ (coefficient of determination) and the training completion time were documented.
 
-\subsubsection{Structure Sensitivity Study}
-
-
-The training and numerical calculations were performed using a single core on consumer grade hardware, with the following specifications: Intel\textregistered\ Core\textsuperscript{TM} i7-9750H CPU 6 cores @ 2.60GHz, 32GB RAM; GPU: NVDIA GeForce GTX 1650. The wall time for each calculation was recorded, as well as the total training time of each ANN structure.
-
-
 \subsection{Explicit Bearing Film Thickness Predictions}
+After identifying suitable data set size and ANN structure, the ANN could then be trained to estimate the EHL central film thickness. These results could then be compared to the analytical (Equation \ref{DowsonToyodaCentralFilm}) and numerical (Section \ref{1D EHL Model}) methods for calculating the film thickness under realistic bearing operating conditions.
 
 The FMBD model used in Chapter \ref{Lubricated FMBD} was used for this study. The shaft was modelled as a rigid body, and loading was purely static in one radial direction to remove the influence of dynamic effects. The shaft was constrained to one rotational and two lateral degrees of freedom. Bearing properties and operating conditions are shown in Table \ref{Roller bearing parameters} and Table \ref{Operating Conditions} respectively.
 
@@ -373,17 +371,17 @@ The FMBD model used in Chapter \ref{Lubricated FMBD} was used for this study. Th
 		\hline
 		\ \textbf{Parameter} & \textbf{Value} \\ [0.5ex]
 		\hline
-		Inner race diameter & 31.5 $mm$ \\ [0.5ex]
+		Inner race diameter & 31.5~$mm$ \\ [0.5ex]
 		\hline
-		Roller diameter & 7.5 $mm$ \\ [0.5ex]
+		Roller diameter & 7.5~$mm$ \\ [0.5ex]
 		\hline
-		Roller length & 15 $mm$ \\ [0.5ex]
+		Roller length & 15~$mm$ \\ [0.5ex]
 		\hline
 		Number of rollers & 12 \\ [0.5ex]
 		\hline
-		Radial interference & 5 $\mu \mathrm{m}$ \\ [0.5ex]
+		Radial interference & 5~$\mu \mathrm{m}$ \\ [0.5ex]
 		\hline
-		Young's modulus & 218 $GPa$ \\ [0.5ex]
+		Young's modulus & 218~$GPa$ \\ [0.5ex]
 		\hline
 		Poisson's ratio & 0.33 \\ [0.5ex]
 		\hline
@@ -400,9 +398,9 @@ The FMBD model used in Chapter \ref{Lubricated FMBD} was used for this study. Th
 		\hline
 		\ \textbf{Parameter} & \textbf{Value} \\ [0.5ex]
 		\hline
-		Radial force & 2500 $N$ \\ [0.5ex]
+		Radial force & 2500~$N$ \\ [0.5ex]
 		\hline
-		Rotational velocity & 10~000$rpm$ \\ [0.5ex]
+		Rotational velocity & 10~000~$rpm$ \\ [0.5ex]
 		\hline
 	\end{tabular}
 \end{table*}
@@ -414,10 +412,11 @@ The FMBD model used in Chapter \ref{Lubricated FMBD} was used for this study. Th
 	\label{Greenwood_Bearing}
 \end{figure} 
 
+The dynamic model was run using the dry bearing model, without the influence of the EHL film at the roller-race contacts. The kinematic and dynamic results necessary for the film thickness estimation were extracted from an individual roller at each time step of the simulation. These results include roller load, reduced radius of the contact between the roller and inner-race, and the contact entrainment velocity.
 
-The dynamic model was run explictly as a dry model, without the influence of the EHL film at the roller-race contacts. The kinematic and dynamic results required for input to the ANN are then extracted at each time step. Results were generated for an individual element completing one complete orbit around the bearing. Extracted results include roller load per unit length, reduced radius of the contact between the roller and inner-race, and the contact entrainment velocity.
+The loading pattern is cyclic in nature as the roller enters and exits the most highly loaded region of the bearing, corresponding to the force vector applied to the inner race. Sufficient preload ensures constant contact between elements and raceways so that the regime does not deviate from EHL. The contact reduced radius and entrainment speed do not change throughout the orbit as they are a function of bearing geometry and constant operating speed. These input parameters are shown in Figure \ref{Contact Normal Load ANN}.
 
-The loading pattern is cyclic in nature as the roller enters and exits the most highly loaded region of the bearing, corresponding to the force vector applied to the inner race. Sufficient preload ensures constant contact between elements and raceways so that the regime does not deviate from EHL. The contact reduced radius and entrainment speed do not change throughout the orbit as they are a function of bearing geometry and constant operating speed.
+The operating conditions of the bearing were within the range of validity of the training data set. This is demonstrated in Figure \ref{Greenwood_Bearing} whereby the Greenwood parameters for the bearing operating points are calculated and overlayed on the training data cloud.
 
 \begin{figure}
 	\centering
@@ -445,7 +444,7 @@ The loading pattern is cyclic in nature as the roller enters and exits the most 
 	\label{Individual rolling element input values to ANN}
 \end{figure}
 
-The chosen structure and trained ANN would be used to predict film thickness across...
+The structure chosen for this study was based on the conclusions drawn in Section \ref{ANN Structure Evaluation Results}. A structure of 3 hidden layers with 14 neurons per layer was selected ($9-[14-14-14]_3-1$). Logistic sigmoid was selected as the activation function for the hidden layers. This is represented graphically in Figure \ref{ANN structure}.
 
 
 \subsection{Implicit Bearing Film Thickness Predictions}
@@ -461,12 +460,15 @@ Intel® Core™ i7-9750H CPU 6 cores @ 2.60GHz, 32GB RAM; GPU: NVDIA GeForce GTX
 
 The same hardware was used for both the full numerical and the ANN solutions to provide performance comparisons and assess the suitability of ANNs for film thickness calculations in FMBD solvers.
 
-\subsection{ANN Structure Evaluation}
+\subsection{ANN Structure Evaluation} \label{ANN Structure Evaluation Results}
 
 The 1D EHL model presented in Section \ref{1D EHL Model} was used to generate the numerical database for training the ANN. Each numerical solution and hence training point took an average of 5.88~$s$. The construction of the entire database on a single core therefore has a wall time of between 58.8~$min$ and 489~$min$ for 600 and 5000 points respectively. This wall time is purely for baseline comparisons, and can be significantly improved using parallelisation across multiple cores.
 
-Tables \ref{LogSig_table}-\ref{ANN_Explicit_LogSig_5000_table} present the $R^2$ values obtained from 600 data points, considering different activation functions, number of layers, and neurons. Among the activation functions tested, the ReLU function consistently underperformed when compared to the logistic sigmoid and hyperbolic tangent functions across all network structures. It is important to acknowledge that there is a slight variability in the performance of the network with each new training session. However, it is worth noting that the optimum number of layers, similar to tribological applications of ANNs \cite{Marian2021}, was found to be between two and three.
+Tables \ref{LogSig_table} - \ref{ReLU_table} present the $R^2$ values obtained from 600 training data points, considering different activation functions, number of layers, and neurons. Among the activation functions tested, the rectilinear (ReLU) function consistently underperformed when compared to the logistic sigmoid (LogSig) and hyperbolic tangent (Tanh) functions across all network structures.  Similar to the work of Marian et al. \cite{Marian2021}, the optimum layers was found to be between two and three, however the activation function was shown to be the dominating determinate of $R^2$ performance.
 
+The LogSig activation function was chosen for the hidden layers to determine the necessary number of training data points required to achieve suitable $R^2$ values. Tables \ref{ANN_Explicit_LogSig_600_table} - \ref{ANN_Explicit_LogSig_5000_table} present the training times for networks with varying numbers of training points and structural configurations. The results indicate that training time increases with the number of layers and neurons in the network. However, training time exhibits a much stronger positive correlation with the number of data points rather than with the complexity of the network structure.
+
+Figure \ref{$R^2$ performance of ANN structure} illustrates the influence of the number of training points on the $R^2$ value when using the LogSig activation function. The results indicate that 600 data points are sufficient to train an ANN with high accuracy for central film thickness prediction ($R^2$ = 0.99791). Increasing the dataset to 5~000 data points resulted in an $R^2$ value of 1, however this came with significant time cost for structures with higher complexity; reaching 600~$s$ for 4 layers of 20 neurons and a total of 1000 epochs. Combined with a data generation time of 489~$min$, this represents a computationally inefficient trade-off between accuracy and training cost. It is therefore concluded that 1000~-~2000 training data points are sufficient to achieve accurately trained neural networks for predicting the central film thickness while maintaining computational efficiency.
 
 \begin{table}
 	\caption{$R^2$ performance of ANN structures using 600 data points and a LogSig activation function}
@@ -539,19 +541,12 @@ Tables \ref{LogSig_table}-\ref{ANN_Explicit_LogSig_5000_table} present the $R^2$
 		\caption{}
 		\label{5000_Rval}
 	\end{subfigure}
-	\caption{$10-[14-14-14]_3-1$ using a Logistic Sigmoid activation function : a) 600 points, b) 1000 points, c) 2000 points, d) 5000 points}
+	\caption{$R^2$ performance of ANN structure ($N$=14, $t$=3) using a Logistic Sigmoid activation function at each hidden layer: a) 600 points, b) 1000 points, c) 2000 points, d) 5000 points}
 	\label{$R^2$ performance of ANN structure}
 \end{figure}
 
 
-
-
-
-
-
 \subsection{Explicit Bearing Film Thickness Predictions}
-
-After identifying suitable data set size and ANN structure, the ANN could then be compared to the analytical (Eq. \ref{DowsonToyodaCentralFilm}) and numerical (Section \ref{1D EHL Model}) methods of obtaining central film thickness at the roller-race contact. The operating conditions of the bearing were within the range of validity of the training data set. This is demonstrated in Figure \ref whereby the Greenwood parameters for the bearing operating points are overlayed on the training cloud.
 
 
 
@@ -570,8 +565,7 @@ Three different methods of obtaining the EHL film thickness were tested
 	\label{Explicit time and MSE}
 	\centering
 	\renewcommand{\arraystretch}{1.5}%
-	\begin{tabular}{|c|c|c|}
-	
+	\begin{tabular}{|c|c|c|}	
 		\hline \multirow{2}{*}{Method} & Time per point & MSE \\
 		\cline{2-3} & [$\mathrm{s}$] & [$\mu \mathrm{m}$] \\
 		\hline Numerical & $4.87 \mathrm{E}+00$ & - \\
