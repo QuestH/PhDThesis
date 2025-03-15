@@ -33,7 +33,7 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'field_info' (item size: 4) to 11570 items.
+Reallocating 'field_info' (item size: 4) to 11615 items.
 Database file #1: Literature/library.bib
 -- IEEEtranN.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
@@ -51,45 +51,45 @@ Warning--missing publisher in Han1995
 Warning--missing institution in Johnson1990
 
 Done.
-You've used 146 entries,
+You've used 147 entries,
             4783 wiz_defined-function locations,
-            1945 strings with 37176 characters,
-and the built_in function-call counts, 125327 in all, are:
-= -- 11610
-> -- 3241
-< -- 993
-+ -- 1724
-- -- 680
-* -- 6537
-:= -- 19530
-add.period$ -- 292
-call.type$ -- 146
-change.case$ -- 286
-chr.to.int$ -- 2189
-cite$ -- 153
-duplicate$ -- 8441
-empty$ -- 8843
-format.name$ -- 1022
-if$ -- 28273
+            1953 strings with 37478 characters,
+and the built_in function-call counts, 126431 in all, are:
+= -- 11715
+> -- 3266
+< -- 1005
++ -- 1739
+- -- 684
+* -- 6596
+:= -- 19695
+add.period$ -- 294
+call.type$ -- 147
+change.case$ -- 288
+chr.to.int$ -- 2217
+cite$ -- 154
+duplicate$ -- 8510
+empty$ -- 8914
+format.name$ -- 1030
+if$ -- 28525
 int.to.chr$ -- 4
-int.to.str$ -- 147
-missing$ -- 1161
-newline$ -- 568
-num.names$ -- 438
-pop$ -- 2871
+int.to.str$ -- 148
+missing$ -- 1169
+newline$ -- 573
+num.names$ -- 441
+pop$ -- 2887
 preamble$ -- 1
-purify$ -- 146
+purify$ -- 147
 quote$ -- 4
-skip$ -- 9630
+skip$ -- 9715
 stack$ -- 0
-substring$ -- 5226
-swap$ -- 6371
-text.length$ -- 214
+substring$ -- 5292
+swap$ -- 6433
+text.length$ -- 216
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 2140
+type$ -- 2156
 warning$ -- 7
-while$ -- 606
+while$ -- 611
 width$ -- 0
-write$ -- 1827
+write$ -- 1842
 (There were 7 warnings)
