@@ -43,7 +43,7 @@ ANNs consist of a set of interconnected processing elements known as neurons. Th
 
 The following section provides descriptions of the common terms that will be referenced throughout this chapter.
 
-\subsection{ANN Structure Elements}
+\subsection{Network Architecture}
 \begin{itemize}
 	\item \textbf{Input layer}: Input data is assigned to input nodes in the first layer of the network. In the case of the film thickness estimation, nine input variables and hence nine nodes are required.
 	\item \textbf{Hidden layer(s)}: These layers are located between the input and output layer. There can be multiple hidden layers, each consisting of multiple nodes. Single layer networks are able to solve linear problems, whereas multi-layer networks enable the resolution of non-linear problems \cite{Bell2014}.
@@ -94,9 +94,9 @@ This section details the ANN structure, the training, and the evaluation methods
 	\label{ANN flowchart}
 \end{figure} 
 
-\subsection{ANN Structure}
+\subsection{ANN Structure Evaluation}
 
-The structure of the ANN is described in the following format, as per \cite{Zhang2002}:
+The general structure of the ANN is described in the following format, as per \cite{Zhang2002}:
 
 \begin{equation}
 	N_{i n}-\left[N_{h 1}-N_{h 2}-N_{h 3}\right]_t-N_{\text {out }}
@@ -136,29 +136,29 @@ Selection of the final structure for suitability analysis was based on total tra
 	\end{tabular}
 \end{table*}
 
-\paragraph{Data Normalization}
+\subsubsection{Data Normalization}
 
-Normalization of the input and target parameters is first performed using min-max normalisation function:
+Normalization of the input and target parameters is first performed using the min-max normalisation function:
 
 \begin{equation}
 	\tilde{x}=\frac{x-x_{\min }}{x_{\max }-x_{\min }}(u-l)+u
 \end{equation}
 
-where $u$, and $l$ represent the upper and lower normalized unit values of 1 , and -1 respectively. The dimensional target input value is denoted by $x$, and the final normalised input or output parameter of the ANN is denoted by $\tilde{x}$. In order to dimensionalise the output layer, $x_{\max }, x_{\min }$ must be stored as a variable.
+where $u$, and $l$ represent the upper and lower normalized unit values of 1 and -1 respectively. The dimensional target input value is denoted by $x$, and the final normalised input or output parameter of the ANN is denoted by $\tilde{x}$. In order to dimensionalise the output layer, $x_{\max }, x_{\min }$ must be stored as a variable.
 
-\paragraph{Training, Validation and Test Datasets}
+\subsubsection{Training, Validation and Test Datasets}
 
 The dataset is divided into three sets: the training set, the validation set, and the test set, each containing 70~$\%$, 15~$\%$ and 15~$\%$ of the training data respectively:
 
 \begin{enumerate}
-	\item Training Set: The training set is the portion of the dataset used to train the ANN, containing the input data and the corresponding output data. As aforementioned, the ANN adjusts the internal parameters based on this data to learn the underlying patterns.
-	\item Validation Set: The validation set is used to tune the performance of the ANN during the training process. It is an independent dataset that the network has not seen before, allowing for the evaluation of its generalization capabilities. The network's performance on the validation set is monitored during training to make decisions on adjusting hyperparameters (number of hidden layers, neurons per hidden layer, activation functions etc.) or stopping the training process to prevent overfitting.
-	\item Test Set: The test set is a completely independent dataset that is not used during training or validation. It is used to assess the final performance and generalization ability of the trained ANN. By evaluating the network on unseen data, the test set provides an unbiased estimate of the model's performance in actual use.
+	\item \textbf{Training Set}: The training set is the portion of the dataset used to train the ANN, containing the input data and the corresponding output data. As aforementioned, the ANN adjusts the internal parameters based on this data to learn the underlying patterns.
+	\item \textbf{Validation Set}: The validation set is used to tune the performance of the ANN during the training process. It is an independent dataset that the network has not seen before, allowing for the evaluation of its generalization capabilities. The network's performance on the validation set is monitored during training to make decisions on adjusting hyperparameters (number of hidden layers, neurons per hidden layer, activation functions etc.), or stopping the training process to prevent overfitting.
+	\item \textbf{Test Set}: The test set is a completely independent dataset that is not used during training or validation. It is used to assess the final performance and generalization ability of the trained ANN. By evaluating the network on unseen data, the test set provides an unbiased estimate of the model's performance in actual use.
 \end{enumerate}
 
-For this sensitivity study, the size of the training data set was varied (600, 1000, 2000 and 5000) to observe the its effect on the quality of the prediction. A limit of 1000 epochs was also implemented. This limits the ANN to 1000 full iterations through the entire training set during training. This was found to be sufficient to improve accuracy whilst preventing overfitting of the data.
+For this sensitivity study, the size of the training data set was varied (600, 1000, 2000 and 5000) to observe the its effect on the quality of the predictions. A limit of 1000 epochs was also implemented, restricting the ANN to 1000 full iterations through the entire training set. This was found to be sufficient to improve accuracy while preventing overfitting.
 
-\paragraph{Evaluating the Network Performance}
+\subsubsection{Evaluating the Network Performance}
 
 During backpropagation of the ANN, the Mean Squared Error (MSE) was used to evaluate the network's performance:
 
@@ -168,7 +168,7 @@ During backpropagation of the ANN, the Mean Squared Error (MSE) was used to eval
 
 where $t_i$ and $y_i$ are the target and predicted value respectively. The total number of training points being trained, validated or tested is denoted by $N$. 
 
-To assess the goodness of fit of the ANN, the statistical metric $R^2$ known as the coefficient of determination was used. This measures the proportion of variance in the dependant variable (output film thickness) that is predictable from the input variables (Table \ref{Range of ANN film thickness calculation parameters}) in the model. This value ranges from 0 to 1, with a higher value indicating the best fit of the model to the data. This was post-processed after training and is calculated as follows:
+To assess the goodness of fit of the ANN, the statistical metric $R^2$, known as the coefficient of determination, was used. This measures the proportion of variance in the dependant variable (film thickness) that is predictable from the input variables (Table \ref{Range of ANN film thickness calculation parameters}) in the model. This value ranges from 0 to 1, with a higher value indicating the best fit of the model to the data. This was post-processed after training and is calculated as follows:
 
 \begin{equation}\label{R-squared}
 	R^2=1-\frac{\sum_{i=1}^N\left(t_i-y_i\right)^2}{\sum_{i=1}^N\left(y_i-\bar{y}\right)^2}
@@ -176,14 +176,14 @@ To assess the goodness of fit of the ANN, the statistical metric $R^2$ known as 
 
  where $\overline{\mathrm{y}}$ is the mean of the target sample. The numerator of the fraction, \( \sum_{i=1}^N(t_i - y_i)^2 \), represents the sum of squared residuals, which quantifies the variation in the target variable that is not explained by the model. The denominator, \( \sum_{i=1}^N(y_i - \bar{y})^2 \), is the total sum of squares, which captures the total variation in the target variable \cite{Marian2022}.
 
-\paragraph{Activation Functions}
+\subsubsection{Activation Functions}
 
-Activation functions are mathematical functions that are applied to the output of each neuron in a layer of the neural network. These introduce non-linearity which allow the network to learn complex input-output relationships. Activation functions help determine the  output of a neuron based on the weighted sum of its inputs.
+Activation functions are mathematical functions that are applied to the output of each neuron in a layer of the neural network. These introduce non-linearity which allow the network to learn complex input-output relationships. Activation functions help determine the output of a neuron based on the weighted sum of its inputs.
 
 As suggested in \cite{Marian2022}, suitable activation functions for the hidden layers are as follows:
 
 \begin{itemize}
-	\item Sigmoid (logistic): This function transforms the input values into a range between 0 and 1. It has continuously differentiable smooth S-shaped curve and is given by the following formula \cite{Han1995}:
+	\item \textbf{Sigmoid (logistic)}: This function transforms the input values into a range between 0 and 1. It has continuously differentiable smooth S-shaped curve and is given by the following formula \cite{Han1995}:
 	
 	\begin{equation}\label{Logistic sigmoid}
 		\log \operatorname{sig}(x)=\frac{1}{1+e^{-x}}
@@ -191,7 +191,7 @@ As suggested in \cite{Marian2022}, suitable activation functions for the hidden 
 	
 	Sigmoid functions are commonly used in the hidden layers of ANNs, however may suffer from the "vanishing gradient" problem where the partial derivative reaches zero \cite{Sharma2020}, leading to slower convergence during training.
 	
-	\item ReLU (Rectified Linear Unit): This function is the most commonly used activation function. It outputs the input value directly if it is positive, and zero otherwise. The mathematical definition is:
+	\item \textbf{ReLU (Rectified Linear Unit)}: This function is the most commonly used activation function. It outputs the input value directly if it is positive, and zero otherwise. The mathematical definition is:
 	
 	\begin{equation}\label{ReLU}
 		\operatorname{ReLU}= \begin{cases}x, & x \geq 0 \\ 0, & x \leq 0\end{cases}
@@ -199,7 +199,7 @@ As suggested in \cite{Marian2022}, suitable activation functions for the hidden 
 	
 	The gradient is 1 when the neuron is activated, and zero when it is deactivated. This function is computationally efficient and addresses the vanishing gradient problem to an extent \cite{Sharma2020}.
 	
-	\item Tanh (Hyperbolic Tangent): The hyperbolic tangent or tanh function is defined as:
+	\item \textbf{Tanh (Hyperbolic Tangent)}: The hyperbolic tangent or tanh function is defined as:
 	
 	\begin{equation}\label{Hyperbolic tangent}
 		\tanh (x)=\frac{2}{1+e^{-2 x}}-1
@@ -207,7 +207,7 @@ As suggested in \cite{Marian2022}, suitable activation functions for the hidden 
 	
 	The formulation and behaviour is very similar to sigmoid. It produces values which range from -1 to 1, having a centred mean around zero. Like sigmoid, this also experiences vanishing gradients.
 	
-	\item Linear: A simple linear activation was used on the output.
+	\item \textbf{Linear}: A simple linear activation was used on the output.
 	
 \end{itemize}
 
@@ -225,34 +225,26 @@ By applying an adjustment factor, denoted as $\gamma^{\prime}$, the weights and 
 	M S E_{r e g}=\gamma^{\prime} * M S W+\left(1-\gamma^{\prime}\right) * M S E
 \end{equation}
 
-Multi-hidden layer
-feedforward
-backpropagation
-ANNs were trained by the MATLAB’s app “nnstart”
-utilizing the Levenberg-Marquart algorithm [89–91].
-Thereby, the neuron weights were adjusted layer-by-
-layer, starting backwards with the connection to the
-output layer [92].
+A parameter study was conducted to determine the optimal structure for the ANN. Over 500 different structures were tested using the same input data. This involved varying the hyperparameters: the number of hidden layers varied from one to four, and the number of neurons from ten to twenty. The three aforementioned activation functions were explored in different hidden layer configurations. This included a combination of hyperbolic tangent in the hidden layers, with the final layer utilizing a logistic tangent function. For each configuration, the values of $R^2$ (coefficient of determination) and the training completion time were documented.
 
+\subsection{EHL Input Data Generation}
 
-\subsection{ANN Input Data Generation}
+Training an ANN requires an often comprehensive data set. For this study, the training data was generated using the numerical EHL model presented in \ref{1D EHL Model}. This approach was selected due to the large size of the dataset required for training, and the relatively low resource-intensive nature to generate this. It is important to note that the training data could also be obtained from experimental work, which would further enhance the applicability of this approach for future studies.
 
-Training an ANN requires an often comprehensive data set. For the purpose of this study, the training data was generated using the numerical EHL model presented in \ref{1D EHL Model}. This decision was made due to the size of the database required for training, and the relatively low resource-intensive nature to generate this. It is worth noting that training data could also be obtained from experimental work, which further enhances the applicability of this approach for future studies.
+\subsubsection{Sampling Input Variables}
 
-\subsubsection{Numeric Database Construction}
+Due to the large design space covered by the high number and range of input parameters, a robust sampling technique must be chosen to create the training data set. In traditional random sampling, each of the parameters is randomly sampled within its defined range. This may lead to insufficient coverage of the parameter space and simple bias, as this method has no "memory" of points already selected.
 
-Due to the large design space covered by the high number and range of input parameters, a robust sampling technique needs to chosen to create the training data set. In traditional random sampling, each of the parameters is randomly sampled within its defined range. This may lead to insufficient coverage of the parameter space and simple bias, as this method has no "memory" of points already selected.
-
-The Latin Hypercube Sampling (LHS) method was utilised by Marian et al. \cite{Marian2022}, and was chosen for this study. LHS is a statistical method commonly used in experimental design and statistical analysis. It is used to efficiently sample a high-dimensional parameter space, such as that required for the central film thickness calculation. It generates a near-random sample of parameter values from multi-dimensional distributions. The sample points are distributed such that the design space is filled as evenly as possible, with information from nearly all regions being covered. This ensures lower computational effort required for ANN training, despite the high number of input variables and value ranges. 
+The Latin Hypercube Sampling (LHS) method was utilised by Marian et al. \cite{Marian2022}, and was chosen for this study. It is a statistical method used to efficiently sample a high-dimensional parameter space, such as that required for the central film thickness calculation. It generates a near-random sample of parameter values. The sample points are distributed such that the design space is filled as evenly as possible, with information from nearly all regions being covered. This ensures lower computational effort required for ANN training, despite the high number of input variables and value ranges.
 
 LHS is based on the concept of Latin hypercube design (LHD). In LHD, the parameter space is divided into equal intervals along each dimension. Each interval is then randomly assigned to a unique position within its corresponding dimension. The process results in a matrix, where each row represents a combination of parameter values. Contrary to the random sampling method, LHD guarantees that only one sample is taken from each row, ensuring a diverse and representative set of samples.
 
 The LHD is a $n_{\mathrm{s}} \times n_{\mathrm{f}}$ matrix, where $n_s$ and $n_f$ represent the number of simulations the number of factors respectively. LHS enhances LHD by introducing a randomization component. The randomly selected samples within each interval are shuffled, ensuring that samples are not biased by the order of selection.
 
-LHS elements are generated by subtracting a random number between zero and one $Z_{\mathrm{r}}[0,1)$ from each LHD element $x_{i j, \mathrm{LHD}}$. This is then divided by the number of test points \cite{Siebertz2010}:
+LHS elements are generated by subtracting a random number between zero and one $Z_{\mathrm{r}}\in[0,1]$ from each LHD element $x_{i j, \mathrm{LHD}}$. This is then divided by the number of test points \cite{Siebertz2010}:
 
 \begin{equation}\label{LHS}
-	x_{i j, \mathrm{LHS}}=\frac{x_{i j, \mathrm{LHD}}-Z_{\mathrm{r}}[0,1)}{n_{\mathrm{s}}}
+	x_{i j, \mathrm{LHS}}=\frac{x_{i j, \mathrm{LHD}}-Z_{\mathrm{r}}}{n_{\mathrm{s}}}
 \end{equation}
 
 This equation rescales the LHD values to a range between 0 and 1. By subtracting a random number between 0 and 1 and dividing by the total number of sample points, the resulting Latin hypercube samples are spread evenly across the interval (0,1) for each parameter. This is important, because it allows the Latin hypercube samples to be easily transformed to any desired range or distribution.
@@ -264,17 +256,6 @@ The quality of the test field (freedom of correlation and uniform distribution) 
 \end{equation}
 
 where $d$ represents all distances in the test field, and subscripts $i$ and $j$ are indexes for the parameter and sample point respectively. $\xi$ represents the application dependant factor which determines the degree of importance assigned to the distances \cite{Siebertz2010}.
-
-
-
-Marian et. al conducted a study for film thickness distribution
-
-
-
-
-
-
-
 
 \subsubsection{Constraining the Input Data Bounds}
 
@@ -356,8 +337,9 @@ A comparison of an the unconstrained and constrained input variables used for th
 	\label{Training_Unconstrained_GreenwoodRegime}
 \end{figure} 
 
+\subsubsection{Constructing the Numerical Database}
 
-
+Numerical EHL of input variables. Timing. Generated film thickness for input variables. range of input points
 
 
 
@@ -468,9 +450,10 @@ The same hardware was used for both the full numerical and the ANN solutions to 
 
 The 1D EHL model presented in Section \ref{1D EHL Model} was used to generate the numerical database for training the ANN. Each numerical solution and hence training point took an average of 5.88~$s$. The construction of the entire database on a single core therefore has a wall time of between 58.8~$min$ and 489~$min$ for 600 and 5000 points respectively. This wall time is purely for baseline comparisons, and can be significantly improved using parallelisation across multiple cores.
 
-A parameter study was conducted to determine the optimal structure for the ANN. Over 500 different structures were tested using the same input data. This involved varying the hyperparameters: the number of hidden layers varied from one to four, and the number of neurons from ten to twenty. The three aforementioned activation functions were explored in different hidden layer configurations. This included a combination of hyperbolic tangent in the hidden layers, with the final layer utilizing a logistic tangent function. For each configuration, the values of $R^2$ (coefficient of determination) and the training completion time were carefully documented.
+
 
 Tables \ref{LogSig_table}-\ref{ANN_Explicit_LogSig_5000_table} present the $R^2$ values obtained from 600 data points, considering different activation functions, number of layers, and neurons. Among the activation functions tested, the ReLU function consistently underperformed when compared to the logistic sigmoid and hyperbolic tangent functions across all network structures. It is important to acknowledge that there is a slight variability in the performance of the network with each new training session. However, it is worth noting that the optimum number of layers, similar to tribological applications of ANNs \cite{Marian2021}, was found to be between two and three.
+
 
 \begin{table}
 	\caption{$R^2$ performance of ANN structures using 600 data points and a LogSig activation function}

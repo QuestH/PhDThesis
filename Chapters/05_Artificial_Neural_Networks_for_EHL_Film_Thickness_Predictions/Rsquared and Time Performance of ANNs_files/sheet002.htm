@@ -1,0 +1,692 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 15">
+<link id=Main-File rel=Main-File
+href="../Rsquared%20and%20Time%20Performance%20of%20ANNs.htm">
+<link rel=File-List href=filelist.xml>
+<link rel=Stylesheet href=stylesheet.css>
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:.75in .7in .75in .7in;
+	mso-header-margin:.3in;
+	mso-footer-margin:.3in;}
+-->
+</style>
+<![if !supportTabStrip]><script language="JavaScript">
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=4) {
+   if (parent.document.readyState=="complete"
+    && parent.frames['frTabs'].document.readyState=="complete")
+   parent.fnSetActiveSheet(1);
+  else
+   window.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!="frSheet")
+ window.location.replace("../Rsquared%20and%20Time%20Performance%20of%20ANNs.htm");
+else
+ fnUpdateTabs();
+//-->
+</script>
+<![endif]>
+</head>
+
+<body link="#0563C1" vlink="#954F72">
+
+<table border=0 cellpadding=0 cellspacing=0 width=1126 style='border-collapse:
+ collapse;table-layout:fixed;width:844pt'>
+ <col width=64 style='width:48pt'>
+ <col width=75 style='mso-width-source:userset;mso-width-alt:2742;width:56pt'>
+ <col width=64 span=12 style='width:48pt'>
+ <col width=27 style='mso-width-source:userset;mso-width-alt:987;width:20pt'>
+ <col width=64 span=3 style='width:48pt'>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl96 width=64 style='height:15.75pt;width:48pt'></td>
+  <td class=xl96 width=75 style='width:56pt'></td>
+  <td class=xl96 width=64 style='width:48pt'></td>
+  <td class=xl96 width=64 style='width:48pt'></td>
+  <td class=xl96 width=64 style='width:48pt'></td>
+  <td class=xl96 width=64 style='width:48pt'></td>
+  <td class=xl96 width=64 style='width:48pt'></td>
+  <td class=xl96 width=64 style='width:48pt'></td>
+  <td class=xl96 width=64 style='width:48pt'></td>
+  <td class=xl96 width=64 style='width:48pt'></td>
+  <td class=xl96 width=64 style='width:48pt'></td>
+  <td class=xl96 width=64 style='width:48pt'></td>
+  <td class=xl96 width=64 style='width:48pt'></td>
+  <td class=xl96 width=64 style='width:48pt'></td>
+  <td class=xl96 width=27 style='width:20pt'></td>
+  <td class=xl96 width=64 style='width:48pt'></td>
+  <td class=xl96 width=64 style='width:48pt'></td>
+  <td class=xl96 width=64 style='width:48pt'></td>
+ </tr>
+ <tr height=37 style='mso-height-source:userset;height:27.95pt'>
+  <td height=37 class=xl96 style='height:27.95pt'></td>
+  <td colspan=13 class=xl235 style='border-right:1.0pt solid black'>600 Data
+  Points, Activation Function: LogSig</td>
+  <td class=xl65 width=27 style='width:20pt'>&nbsp;</td>
+  <td rowspan=3 class=xl225 width=64 style='border-bottom:1.0pt solid black;
+  width:48pt'><font class="font11">Key</font><font class="font7"><br>
+    <br>
+    Time [s]</font></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl96 style='height:15.75pt'></td>
+  <td colspan=2 rowspan=2 class=xl238 style='border-right:1.0pt solid black;
+  border-bottom:1.0pt solid black'>Training Time [s]</td>
+  <td colspan=11 class=xl242 style='border-right:1.0pt solid black;border-left:
+  none'>Number of Neurons</td>
+  <td class=xl65 width=27 style='width:20pt'>&nbsp;</td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl96 style='height:15.75pt'></td>
+  <td class=xl182>10</td>
+  <td class=xl181 style='border-left:none'>11</td>
+  <td class=xl181 style='border-left:none'>12</td>
+  <td class=xl181 style='border-left:none'>13</td>
+  <td class=xl181 style='border-left:none'>14</td>
+  <td class=xl181 style='border-left:none'>15</td>
+  <td class=xl181 style='border-left:none'>16</td>
+  <td class=xl181 style='border-left:none'>17</td>
+  <td class=xl181 style='border-left:none'>18</td>
+  <td class=xl181 style='border-left:none'>19</td>
+  <td class=xl184 style='border-left:none'>20</td>
+  <td class=xl65 width=27 style='width:20pt'>&nbsp;</td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+  <td height=20 class=xl96 style='height:15.0pt'></td>
+  <td rowspan=4 class=xl245 width=75 style='border-bottom:1.0pt solid black;
+  border-top:none;width:56pt'>Number of Layers</td>
+  <td class=xl182>1</td>
+  <td class=xl97 style='border-top:none;border-left:none'>0.76</td>
+  <td class=xl98 style='border-top:none;border-left:none'>0.96</td>
+  <td class=xl99 style='border-top:none;border-left:none'>1.16</td>
+  <td class=xl98 style='border-top:none;border-left:none'>1.01</td>
+  <td class=xl100 style='border-top:none;border-left:none'>1.49</td>
+  <td class=xl101 style='border-top:none;border-left:none'>1.30</td>
+  <td class=xl102 style='border-top:none;border-left:none'>1.41</td>
+  <td class=xl103 style='border-top:none;border-left:none'>1.72</td>
+  <td class=xl104 style='border-top:none;border-left:none'>1.12</td>
+  <td class=xl105 style='border-top:none;border-left:none'>0.90</td>
+  <td class=xl207 style='border-top:none;border-left:none'>1.13</td>
+  <td class=xl313 width=27 style='width:20pt'>&nbsp;</td>
+  <td class=xl189 width=64 style='width:48pt'>0.00</td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl96 style='height:15.0pt'></td>
+  <td class=xl180 style='border-top:none'>2</td>
+  <td class=xl98 style='border-top:none;border-left:none'>1.01</td>
+  <td class=xl107 style='border-top:none;border-left:none'>2.93</td>
+  <td class=xl108 style='border-top:none;border-left:none'>1.94</td>
+  <td class=xl109 style='border-top:none;border-left:none'>1.43</td>
+  <td class=xl110 style='border-top:none;border-left:none'>1.88</td>
+  <td class=xl111 style='border-top:none;border-left:none'>1.80</td>
+  <td class=xl112 style='border-top:none;border-left:none'>1.56</td>
+  <td class=xl111 style='border-top:none;border-left:none'>1.80</td>
+  <td class=xl101 style='border-top:none;border-left:none'>1.33</td>
+  <td class=xl113 style='border-top:none;border-left:none'>2.51</td>
+  <td class=xl208 style='border-top:none;border-left:none'>1.77</td>
+  <td class=xl313 width=27 style='width:20pt'>&nbsp;</td>
+  <td class=xl190 width=64 style='border-top:none;width:48pt'>10.00</td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl96 style='height:15.0pt'></td>
+  <td class=xl180 style='border-top:none'>3</td>
+  <td class=xl115 style='border-top:none;border-left:none'>2.81</td>
+  <td class=xl101 style='border-top:none;border-left:none'>1.29</td>
+  <td class=xl116 style='border-top:none;border-left:none'>2.58</td>
+  <td class=xl117 style='border-top:none;border-left:none'>2.22</td>
+  <td class=xl118 style='border-top:none;border-left:none'>2.27</td>
+  <td class=xl100 style='border-top:none;border-left:none'>1.52</td>
+  <td class=xl103 style='border-top:none;border-left:none'>1.67</td>
+  <td class=xl118 style='border-top:none;border-left:none'>2.26</td>
+  <td class=xl119 style='border-top:none;border-left:none'>2.06</td>
+  <td class=xl108 style='border-top:none;border-left:none'>1.94</td>
+  <td class=xl209 style='border-top:none;border-left:none'>3.57</td>
+  <td class=xl313 width=27 style='width:20pt'>&nbsp;</td>
+  <td class=xl191 width=64 style='border-top:none;width:48pt'>100.00</td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl96 style='height:15.75pt'></td>
+  <td class=xl183 style='border-top:none'>4</td>
+  <td class=xl210 style='border-top:none;border-left:none'>1.64</td>
+  <td class=xl211 style='border-top:none;border-left:none'>5.97</td>
+  <td class=xl212 style='border-top:none;border-left:none'>2.21</td>
+  <td class=xl213 style='border-top:none;border-left:none'>2.79</td>
+  <td class=xl196 style='border-top:none;border-left:none'>6.70</td>
+  <td class=xl214 style='border-top:none;border-left:none'>2.66</td>
+  <td class=xl215 style='border-top:none;border-left:none'>4.36</td>
+  <td class=xl216 style='border-top:none;border-left:none'>2.51</td>
+  <td class=xl213 style='border-top:none;border-left:none'>2.76</td>
+  <td class=xl217 style='border-top:none;border-left:none'>2.61</td>
+  <td class=xl218 style='border-top:none;border-left:none'>2.90</td>
+  <td class=xl313 width=27 style='width:20pt'>&nbsp;</td>
+  <td class=xl192 width=64 style='border-top:none;width:48pt'>600.00</td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl96 style='height:15.0pt'></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl96 style='height:15.75pt'></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=37 style='mso-height-source:userset;height:27.95pt'>
+  <td height=37 class=xl96 style='height:27.95pt'></td>
+  <td colspan=13 class=xl235 style='border-right:1.0pt solid black'>1000 Data
+  Points, Activation Function: LogSig</td>
+  <td class=xl65 width=27 style='width:20pt'>&nbsp;</td>
+  <td rowspan=3 class=xl225 width=64 style='border-bottom:1.0pt solid black;
+  width:48pt'><font class="font11">Key<br>
+    </font><font class="font7"><br>
+    Time [s]</font></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl96 style='height:15.75pt'></td>
+  <td colspan=2 rowspan=2 class=xl238 style='border-right:1.0pt solid black;
+  border-bottom:1.0pt solid black'>Training Time [s]</td>
+  <td colspan=11 class=xl242 style='border-right:1.0pt solid black;border-left:
+  none'>Number of Neurons</td>
+  <td class=xl65 width=27 style='width:20pt'>&nbsp;</td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl96 style='height:15.75pt'></td>
+  <td class=xl182>10</td>
+  <td class=xl181 style='border-left:none'>11</td>
+  <td class=xl181 style='border-left:none'>12</td>
+  <td class=xl181 style='border-left:none'>13</td>
+  <td class=xl181 style='border-left:none'>14</td>
+  <td class=xl181 style='border-left:none'>15</td>
+  <td class=xl181 style='border-left:none'>16</td>
+  <td class=xl181 style='border-left:none'>17</td>
+  <td class=xl181 style='border-left:none'>18</td>
+  <td class=xl181 style='border-left:none'>19</td>
+  <td class=xl184 style='border-left:none'>20</td>
+  <td class=xl65 width=27 style='width:20pt'>&nbsp;</td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl96 style='height:15.0pt'></td>
+  <td rowspan=4 class=xl245 width=75 style='border-bottom:1.0pt solid black;
+  border-top:none;width:56pt'>Number of Layers</td>
+  <td class=xl182>1</td>
+  <td class=xl156 style='border-top:none;border-left:none'>1.00</td>
+  <td class=xl157 style='border-top:none;border-left:none'>1.10</td>
+  <td class=xl121 style='border-top:none;border-left:none'>1.36</td>
+  <td class=xl157 style='border-top:none;border-left:none'>1.11</td>
+  <td class=xl120 style='border-top:none;border-left:none'>1.89</td>
+  <td class=xl158 style='border-top:none;border-left:none'>2.20</td>
+  <td class=xl159 style='border-top:none;border-left:none'>2.09</td>
+  <td class=xl143 style='border-top:none;border-left:none'>1.01</td>
+  <td class=xl160 style='border-top:none;border-left:none'>1.58</td>
+  <td class=xl161 style='border-top:none;border-left:none'>2.83</td>
+  <td class=xl203 style='border-top:none;border-left:none'>1.10</td>
+  <td class=xl106 width=27 style='width:20pt'>&nbsp;</td>
+  <td class=xl189 width=64 style='width:48pt'>0.00</td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl96 style='height:15.0pt'></td>
+  <td class=xl180 style='border-top:none'>2</td>
+  <td class=xl128 style='border-top:none;border-left:none'>3.25</td>
+  <td class=xl162 style='border-top:none;border-left:none'>1.66</td>
+  <td class=xl163 style='border-top:none;border-left:none'>2.33</td>
+  <td class=xl164 style='border-top:none;border-left:none'>2.72</td>
+  <td class=xl128 style='border-top:none;border-left:none'>4.00</td>
+  <td class=xl165 style='border-top:none;border-left:none'>3.07</td>
+  <td class=xl166 style='border-top:none;border-left:none'>2.35</td>
+  <td class=xl167 style='border-top:none;border-left:none'>2.81</td>
+  <td class=xl128 style='border-top:none;border-left:none'>5.35</td>
+  <td class=xl168 style='border-top:none;border-left:none'>1.97</td>
+  <td class=xl185 style='border-top:none;border-left:none'>3.77</td>
+  <td class=xl106 width=27 style='width:20pt'>&nbsp;</td>
+  <td class=xl190 width=64 style='border-top:none;width:48pt'>10.00</td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl96 style='height:15.0pt'></td>
+  <td class=xl180 style='border-top:none'>3</td>
+  <td class=xl169 style='border-top:none;border-left:none'>2.74</td>
+  <td class=xl128 style='border-top:none;border-left:none'>6.35</td>
+  <td class=xl128 style='border-top:none;border-left:none'>4.76</td>
+  <td class=xl128 style='border-top:none;border-left:none'>5.58</td>
+  <td class=xl128 style='border-top:none;border-left:none'>4.17</td>
+  <td class=xl166 style='border-top:none;border-left:none'>2.36</td>
+  <td class=xl128 style='border-top:none;border-left:none'>4.88</td>
+  <td class=xl128 style='border-top:none;border-left:none'>7.56</td>
+  <td class=xl128 style='border-top:none;border-left:none'>7.18</td>
+  <td class=xl128 style='border-top:none;border-left:none'>6.55</td>
+  <td class=xl185 style='border-top:none;border-left:none'>5.18</td>
+  <td class=xl106 width=27 style='width:20pt'>&nbsp;</td>
+  <td class=xl191 width=64 style='border-top:none;width:48pt'>100.00</td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl96 style='height:15.75pt'></td>
+  <td class=xl183 style='border-top:none'>4</td>
+  <td class=xl204 style='border-top:none;border-left:none'>2.59</td>
+  <td class=xl205 style='border-top:none;border-left:none'>2.29</td>
+  <td class=xl195 style='border-top:none;border-left:none'>8.12</td>
+  <td class=xl174 style='border-top:none;border-left:none'>6.47</td>
+  <td class=xl174 style='border-top:none;border-left:none'>7.17</td>
+  <td class=xl174 style='border-top:none;border-left:none'>3.81</td>
+  <td class=xl174 style='border-top:none;border-left:none'>7.70</td>
+  <td class=xl195 style='border-top:none;border-left:none'>11.46</td>
+  <td class=xl199 style='border-top:none;border-left:none'>19.01</td>
+  <td class=xl195 style='border-top:none;border-left:none'>12.14</td>
+  <td class=xl206 style='border-top:none;border-left:none'>8.92</td>
+  <td class=xl106 width=27 style='width:20pt'>&nbsp;</td>
+  <td class=xl192 width=64 style='border-top:none;width:48pt'>600.00</td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl96 style='height:15.0pt'></td>
+  <td colspan=15 style='mso-ignore:colspan'></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl96 style='height:15.75pt'></td>
+  <td colspan=15 style='mso-ignore:colspan'></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=37 style='mso-height-source:userset;height:27.95pt'>
+  <td height=37 class=xl96 style='height:27.95pt'></td>
+  <td colspan=13 class=xl249 style='border-right:1.0pt solid black'>2000 Data
+  Points, Activation Function: LogSig</td>
+  <td class=xl65 width=27 style='width:20pt'>&nbsp;</td>
+  <td rowspan=3 class=xl225 width=64 style='border-bottom:1.0pt solid black;
+  width:48pt'><font class="font11">Key<br>
+    </font><font class="font7"><br>
+    Time [s]</font></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl96 style='height:15.75pt'></td>
+  <td colspan=2 rowspan=2 class=xl252 style='border-right:1.0pt solid black;
+  border-bottom:1.0pt solid black'>Training Time [s]</td>
+  <td colspan=11 class=xl232 style='border-right:1.0pt solid black;border-left:
+  none'>Number of Neurons</td>
+  <td class=xl65 width=27 style='width:20pt'>&nbsp;</td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl96 style='height:15.75pt'></td>
+  <td class=xl182>10</td>
+  <td class=xl181 style='border-left:none'>11</td>
+  <td class=xl181 style='border-left:none'>12</td>
+  <td class=xl181 style='border-left:none'>13</td>
+  <td class=xl181 style='border-left:none'>14</td>
+  <td class=xl181 style='border-left:none'>15</td>
+  <td class=xl181 style='border-left:none'>16</td>
+  <td class=xl181 style='border-left:none'>17</td>
+  <td class=xl181 style='border-left:none'>18</td>
+  <td class=xl181 style='border-left:none'>19</td>
+  <td class=xl184 style='border-left:none'>20</td>
+  <td class=xl65 width=27 style='width:20pt'>&nbsp;</td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+  <td height=20 class=xl96 style='height:15.0pt'></td>
+  <td rowspan=4 class=xl219 width=75 style='border-bottom:1.0pt solid black;
+  border-top:none;width:56pt'>Number of Layers</td>
+  <td class=xl182>1</td>
+  <td class=xl122 style='border-top:none;border-left:none'>0.90</td>
+  <td class=xl123 style='border-top:none;border-left:none'>2.47</td>
+  <td class=xl103 style='border-top:none;border-left:none'>1.70</td>
+  <td class=xl114 style='border-top:none;border-left:none'>1.74</td>
+  <td class=xl124 style='border-top:none;border-left:none'>4.38</td>
+  <td class=xl116 style='border-top:none;border-left:none'>2.61</td>
+  <td class=xl123 style='border-top:none;border-left:none'>2.49</td>
+  <td class=xl111 style='border-top:none;border-left:none'>1.81</td>
+  <td class=xl125 style='border-top:none;border-left:none'>4.54</td>
+  <td class=xl116 style='border-top:none;border-left:none'>2.58</td>
+  <td class=xl193 style='border-top:none;border-left:none'>2.67</td>
+  <td class=xl106 width=27 style='width:20pt'>&nbsp;</td>
+  <td class=xl189 width=64 style='width:48pt'>0.00</td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl96 style='height:15.0pt'></td>
+  <td class=xl180 style='border-top:none'>2</td>
+  <td class=xl126 style='border-top:none;border-left:none'>6.06</td>
+  <td class=xl127 style='border-top:none;border-left:none'>7.19</td>
+  <td class=xl128 style='border-top:none;border-left:none'>10.66</td>
+  <td class=xl128 style='border-top:none;border-left:none'>13.38</td>
+  <td class=xl129 style='border-top:none;border-left:none'>6.20</td>
+  <td class=xl130 style='border-top:none;border-left:none'>6.54</td>
+  <td class=xl131 style='border-top:none;border-left:none'>6.76</td>
+  <td class=xl132 style='border-top:none;border-left:none'>14.61</td>
+  <td class=xl132 style='border-top:none;border-left:none'>16.32</td>
+  <td class=xl133 style='border-top:none;border-left:none'>7.86</td>
+  <td class=xl194 style='border-top:none;border-left:none'>20.32</td>
+  <td class=xl106 width=27 style='width:20pt'>&nbsp;</td>
+  <td class=xl190 width=64 style='border-top:none;width:48pt'>10.00</td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl96 style='height:15.0pt'></td>
+  <td class=xl180 style='border-top:none'>3</td>
+  <td class=xl132 style='border-top:none;border-left:none'>18.72</td>
+  <td class=xl128 style='border-top:none;border-left:none'>13.45</td>
+  <td class=xl125 style='border-top:none;border-left:none'>4.55</td>
+  <td class=xl135 style='border-top:none;border-left:none'>5.19</td>
+  <td class=xl134 style='border-top:none;border-left:none'>21.54</td>
+  <td class=xl136 style='border-top:none;border-left:none'>23.88</td>
+  <td class=xl136 style='border-top:none;border-left:none'>26.00</td>
+  <td class=xl136 style='border-top:none;border-left:none'>25.44</td>
+  <td class=xl136 style='border-top:none;border-left:none'>27.50</td>
+  <td class=xl128 style='border-top:none;border-left:none'>11.66</td>
+  <td class=xl194 style='border-top:none;border-left:none'>19.71</td>
+  <td class=xl106 width=27 style='width:20pt'>&nbsp;</td>
+  <td class=xl191 width=64 style='border-top:none;width:48pt'>100.00</td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl96 style='height:15.75pt'></td>
+  <td class=xl183 style='border-top:none'>4</td>
+  <td class=xl174 style='border-top:none;border-left:none'>11.49</td>
+  <td class=xl195 style='border-top:none;border-left:none'>18.79</td>
+  <td class=xl195 style='border-top:none;border-left:none'>16.06</td>
+  <td class=xl196 style='border-top:none;border-left:none'>6.69</td>
+  <td class=xl197 style='border-top:none;border-left:none'>41.55</td>
+  <td class=xl198 style='border-top:none;border-left:none'>30.72</td>
+  <td class=xl199 style='border-top:none;border-left:none'>28.04</td>
+  <td class=xl200 style='border-top:none;border-left:none'>67.86</td>
+  <td class=xl195 style='border-top:none;border-left:none'>14.78</td>
+  <td class=xl201 style='border-top:none;border-left:none'>62.17</td>
+  <td class=xl202 style='border-top:none;border-left:none'>57.13</td>
+  <td class=xl106 width=27 style='width:20pt'>&nbsp;</td>
+  <td class=xl192 width=64 style='border-top:none;width:48pt'>600.00</td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 style='height:15.75pt'></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td></td>
+ </tr>
+ <tr height=37 style='mso-height-source:userset;height:27.95pt'>
+  <td height=37 style='height:27.95pt'></td>
+  <td colspan=13 class=xl235 style='border-right:1.0pt solid black'>5000 Data
+  Points, Activation Function: LogSig</td>
+  <td class=xl65 width=27 style='width:20pt'>&nbsp;</td>
+  <td rowspan=3 class=xl225 width=64 style='border-bottom:1.0pt solid black;
+  width:48pt'><font class="font11">Key</font><font class="font7"><br>
+    <br>
+    Time [s]</font></td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 style='height:15.75pt'></td>
+  <td colspan=2 rowspan=2 class=xl238 style='border-right:1.0pt solid black;
+  border-bottom:1.0pt solid black'>Training Time [s]</td>
+  <td colspan=11 class=xl248 style='border-right:1.0pt solid black'>Number of
+  Neurons</td>
+  <td class=xl65 width=27 style='width:20pt'>&nbsp;</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 style='height:15.75pt'></td>
+  <td class=xl182>10</td>
+  <td class=xl181 style='border-left:none'>11</td>
+  <td class=xl181 style='border-left:none'>12</td>
+  <td class=xl181 style='border-left:none'>13</td>
+  <td class=xl181 style='border-left:none'>14</td>
+  <td class=xl181 style='border-left:none'>15</td>
+  <td class=xl181 style='border-left:none'>16</td>
+  <td class=xl181 style='border-left:none'>17</td>
+  <td class=xl181 style='border-left:none'>18</td>
+  <td class=xl181 style='border-left:none'>19</td>
+  <td class=xl184 style='border-left:none'>20</td>
+  <td class=xl65 width=27 style='width:20pt'>&nbsp;</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td rowspan=4 class=xl245 width=75 style='border-bottom:1.0pt solid black;
+  border-top:none;width:56pt'>Number of Layers</td>
+  <td class=xl182>1</td>
+  <td class=xl114 style='border-top:none;border-left:none'>1.74</td>
+  <td class=xl141 style='border-top:none;border-left:none'>4.06</td>
+  <td class=xl142 style='border-top:none;border-left:none'>3.12</td>
+  <td class=xl143 style='border-top:none;border-left:none'>3.24</td>
+  <td class=xl144 style='border-top:none;border-left:none'>3.82</td>
+  <td class=xl145 style='border-top:none;border-left:none'>3.78</td>
+  <td class=xl119 style='border-top:none;border-left:none'>2.11</td>
+  <td class=xl128 style='border-top:none;border-left:none'>11.73</td>
+  <td class=xl146 style='border-top:none;border-left:none'>3.45</td>
+  <td class=xl128 style='border-top:none;border-left:none'>14.25</td>
+  <td class=xl185 style='border-top:none;border-left:none'>12.07</td>
+  <td class=xl106 width=27 style='width:20pt'>&nbsp;</td>
+  <td class=xl189 width=64 style='width:48pt'>0.00</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl180 style='border-top:none'>2</td>
+  <td class=xl128 style='border-top:none;border-left:none'>10.86</td>
+  <td class=xl134 style='border-top:none;border-left:none'>22.86</td>
+  <td class=xl137 style='border-top:none;border-left:none'>37.50</td>
+  <td class=xl138 style='border-top:none;border-left:none'>30.99</td>
+  <td class=xl134 style='border-top:none;border-left:none'>20.02</td>
+  <td class=xl134 style='border-top:none;border-left:none'>19.95</td>
+  <td class=xl137 style='border-top:none;border-left:none'>38.09</td>
+  <td class=xl128 style='border-top:none;border-left:none'>11.02</td>
+  <td class=xl147 style='border-top:none;border-left:none'>48.89</td>
+  <td class=xl148 style='border-top:none;border-left:none'>134.95</td>
+  <td class=xl186 style='border-top:none;border-left:none'>37.88</td>
+  <td class=xl106 width=27 style='width:20pt'>&nbsp;</td>
+  <td class=xl190 width=64 style='border-top:none;width:48pt'>10.00</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl180 style='border-top:none'>3</td>
+  <td class=xl128 style='border-top:none;border-left:none'>14.53</td>
+  <td class=xl149 style='border-top:none;border-left:none'>33.38</td>
+  <td class=xl150 style='border-top:none;border-left:none'>34.62</td>
+  <td class=xl151 style='border-top:none;border-left:none'>116.81</td>
+  <td class=xl139 style='border-top:none;border-left:none'>61.86</td>
+  <td class=xl140 style='border-top:none;border-left:none'>57.12</td>
+  <td class=xl152 style='border-top:none;border-left:none'>140.49</td>
+  <td class=xl153 style='border-top:none;border-left:none'>124.75</td>
+  <td class=xl154 style='border-top:none;border-left:none'>228.28</td>
+  <td class=xl155 style='border-top:none;border-left:none'>71.22</td>
+  <td class=xl187 style='border-top:none;border-left:none'>85.55</td>
+  <td class=xl106 width=27 style='width:20pt'>&nbsp;</td>
+  <td class=xl191 width=64 style='border-top:none;width:48pt'>100.00</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 style='height:15.75pt'></td>
+  <td class=xl183 style='border-top:none'>4</td>
+  <td class=xl170 style='border-top:none;border-left:none'>94.66</td>
+  <td class=xl171 style='border-top:none;border-left:none'>36.71</td>
+  <td class=xl172 style='border-top:none;border-left:none'>139.61</td>
+  <td class=xl173 style='border-top:none;border-left:none'>70.20</td>
+  <td class=xl174 style='border-top:none;border-left:none'>13.33</td>
+  <td class=xl175 style='border-top:none;border-left:none'>229.45</td>
+  <td class=xl176 style='border-top:none;border-left:none'>88.24</td>
+  <td class=xl177 style='border-top:none;border-left:none'>155.37</td>
+  <td class=xl178 style='border-top:none;border-left:none'>217.48</td>
+  <td class=xl179 style='border-top:none;border-left:none'>500.54</td>
+  <td class=xl188 style='border-top:none;border-left:none'>600.01</td>
+  <td class=xl106 width=27 style='width:20pt'>&nbsp;</td>
+  <td class=xl192 width=64 style='border-top:none;width:48pt'>600.00</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=64 style='width:48pt'></td>
+  <td width=75 style='width:56pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=27 style='width:20pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>
