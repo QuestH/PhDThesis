@@ -20,6 +20,8 @@ Er1 =   repmat(2.3187e11,size(omegaINNERrad));
 alpha1 =   repmat(2.1e-8,size(omegaINNERrad));
 neta1 =   repmat(0.08,size(omegaINNERrad));
 length1 =   repmat(15e-3,size(omegaINNERrad)); % [m] roller length
+pois1 = repmat(0.3,size(omegaINNERrad));
+density1 = repmat(7850,size(omegaINNERrad));
 
 % Dimensionless Parameters
 Ue_in = (neta1.*u1)./(Er1.*Rr1);
@@ -59,8 +61,37 @@ parfor i = 1 :data_points
     output_film(i,:) = hc1;
     filmNEW(i) = Rr0*3.06*(Ue^0.69)*(Ge1^0.56)*(We^-0.1);
     
-    percentage_error(i) = abs((filmNEW(i) - output_film(i,:)) / output_film(i,:)) * 100;
+    percentage_error_analytical(i) = abs((filmNEW(i) - output_film(i,:)) / output_film(i,:)) * 100;
     
+end
+
+load PS1PS2.mat
+
+% compute 1-D EHL distribution points using ANN
+for i = 1:data_points
+    w0 = w1(i); 
+    u0 = u1(i);
+    Rr0 = Rr1(i);
+    Er0 = Er1(i);
+    alpha0 = alpha1(i);
+    neta0 = neta1(i);
+    length0 = length1(i);
+    pois0 = pois1(i);
+    density0 = density1(i);
+    
+    in_vars = [w0 u0 Rr0 Er0 alpha0 neta0 pois0 density0 length0];
+    [in_vars_norm] = mapminmax('apply',in_vars',PS1) ; %normalise input data by mapping between -1 and 1
+        
+    % compute 1-D EHL distribution points using ANN
+    [h_c] = JOURNALNetworkFunction(in_vars_norm);
+    h_ann = h_c;
+    
+    % dimensionalise 1-D EHL distribution points computed by ANN
+    [h_ann_dim] = mapminmax('reverse',h_ann,PS2);
+    
+    hc_ann(i) = h_ann_dim;
+    
+    percentage_error_ann(i) = abs((hc_ann(i) - output_film(i,:)) / output_film(i,:)) * 100;
 end
 toc
 %% save workspace
@@ -72,6 +103,8 @@ yyaxis left % Left y-axis for film thickness
 plot(omegaINNERrpm, filmNEW * 1e6, '--k', 'LineWidth', 1); % Analytical (dashed black)
 hold on;
 plot(omegaINNERrpm, output_film * 1e6, '-k', 'LineWidth', 1); % Numerical (solid black)
+hold on;
+plot(omegaINNERrpm, hc_ann * 1e6, '-b', 'LineWidth', 1); % Numerical (solid black)
 ylabel('Film Thickness / \mum', 'Color', 'k'); % Black y-axis label
 ylim([0 5]); % Adjust as needed
 set(gca, 'YColor', 'k'); % Set left y-axis color to black
@@ -83,7 +116,9 @@ title('EHL Film Thickness Analytical vs Numerical');
 
 % Right y-axis for percentage error
 yyaxis right
-plot(omegaINNERrpm, percentage_error, 'Color', '#D95319', 'LineWidth', 1.5); % Percentage error in blue
+plot(omegaINNERrpm, percentage_error_analytical, 'Color', '#D95319', 'LineWidth', 1.5); % Percentage error
+hold on
+plot(omegaINNERrpm, percentage_error_ann, 'Color', '#D95319', 'LineWidth', 1.5); % Percentage error in blue
 ylabel('Percentage Difference / %', 'Color', '#D95319'); % Blue y-axis label
 ylim([0 25]); % Adjust as needed
 set(gca, 'YColor', '#D95319'); % Set right y-axis color to blue

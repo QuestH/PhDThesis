@@ -37,7 +37,7 @@
 \contentsline {subsection}{\numberline {2.4.5}Elastohydrodynamic Pressure and Film Characteristics}{19}{subsection.2.4.5}%
 \contentsline {subsection}{\numberline {2.4.6}Lubrication Regimes}{20}{subsection.2.4.6}%
 \contentsline {section}{\numberline {2.5}Artifical Neural Networks}{22}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Closure}{23}{section.2.6}%
+\contentsline {section}{\numberline {2.6}Closure}{24}{section.2.6}%
 \contentsline {chapter}{\numberline {3}Investigating the Effect of Lubrication on the Tribodynamic Behaviour of High-Speed Roller Bearings}{25}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Introduction}{25}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Workflow}{26}{section.3.2}%
@@ -96,18 +96,16 @@
 \contentsline {subsection}{\numberline {5.4.3}Explicit Bearing Film Thickness Predictions}{98}{subsection.5.4.3}%
 \contentsline {subsection}{\numberline {5.4.4}Implicit Bearing Film Thickness Predictions}{101}{subsection.5.4.4}%
 \contentsline {section}{\numberline {5.5}Results and Discussion}{101}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}ANN Structure Evaluation}{101}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}Explicit Bearing Film Thickness Predictions}{103}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.1}ANN Structure Evaluation}{102}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Explicit Bearing Film Thickness Predictions}{102}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Implicit Bearing Film Thickness Predictions}{106}{subsection.5.5.3}%
 \contentsline {subsubsection}{Timing}{106}{section*.53}%
 \contentsline {subsubsection}{Error}{106}{section*.54}%
-\contentsline {subsection}{\numberline {5.5.3}Implicit Bearing Film Thickness Predictions}{106}{subsection.5.5.3}%
-\contentsline {subsubsection}{Timing}{106}{section*.55}%
-\contentsline {subsubsection}{Error}{106}{section*.56}%
 \contentsline {section}{\numberline {5.6}Conclusions}{106}{section.5.6}%
 \contentsline {chapter}{\numberline {6}Conclusions and Future Works}{109}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Overall Conclusions}{109}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Contributions to Knowledge}{110}{section.6.2}%
 \contentsline {section}{\numberline {6.3}Addressing the Research Questions}{111}{section.6.3}%
 \contentsline {section}{\numberline {6.4}Future Works}{111}{section.6.4}%
-\contentsline {chapter}{References}{113}{chapter*.57}%
+\contentsline {chapter}{References}{113}{chapter*.55}%
 \contentsline {chapter}{Appendix \numberline {A}Appendix}{129}{appendix.a.A}%

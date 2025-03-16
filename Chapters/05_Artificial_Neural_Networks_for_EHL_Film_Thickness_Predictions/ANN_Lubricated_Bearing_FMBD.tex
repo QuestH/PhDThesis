@@ -9,7 +9,8 @@ This chapter details the development of an Artificial Neural Network (ANN) for p
 
 The aim of this chapter is to improve the accuracy of the central film thickness estimation, whilst maintaining a timely solution in the context of a full dynamic solution. This workflow employed is not only relevant to roller bearings; it can be applied to a wide range of contacts and different sources of training data depending on the modelling requirements.
 
-\section{Numerical vs Analytical Film Thickness Estimations at High Entrainment Velocities}
+\section{Numerical vs Analytical Film Thickness Estimations at High Entrainment Velocities} 
+\label{Numerical vs Analytical Film Thickness Estimations at High Entrainment Velocities}
 
 Two main approaches exist for determination of the complex non-linear problem of film thickness in lubricated contacts. The first approach involves employing numerical methods \cite{Dowson1959}, where systems of partial differential equations are formulated to describe the state of the contact and then solved iteratively \cite{Gohar2018}. While this method yields accurate results and is applicable to a wide range of operating conditions, it is computationally intensive due to its iterative nature. The second approach involves developing regressed analytical equations from experimental or numerical studies which can be used for specific lubrication regimes. These equations offer quick estimates of key parameters, such as central \cite{Dowson1979} and minimum film thickness \cite{Dowson1967}. However, whilst more computationally efficient than the full numerical solution, this approach has limitations.
  
@@ -356,7 +357,7 @@ By applying an adjustment factor, denoted as $\gamma^{\prime}$, the weights and 
 
 A parameter study was conducted to determine the optimal structure for the ANN. Over 500 different structures were tested using the same input data. This involved varying the hyperparameters: the number of hidden layers varied from one to four, and the number of neurons from ten to twenty. The three aforementioned activation functions were explored in different hidden layer configurations. This included a combination of hyperbolic tangent in the hidden layers, with the final layer utilizing a logistic tangent function. For each configuration, the values of $R^2$ (coefficient of determination) and the training completion time were documented.
 
-\subsection{Explicit Bearing Film Thickness Predictions}
+\subsection{Explicit Bearing Film Thickness Predictions} \label{Explicit Bearing Film Thickness Predictions}
 After identifying suitable data set size and ANN structure, the ANN could then be trained to estimate the EHL central film thickness. These results could then be compared to the analytical (Equation \ref{DowsonToyodaCentralFilm}) and numerical (Section \ref{1D EHL Model}) methods for calculating the film thickness under realistic bearing operating conditions.
 
 The FMBD model used in Chapter \ref{Lubricated FMBD} was used for this study. The shaft was modelled as a rigid body, and loading was purely static in one radial direction to remove the influence of dynamic effects. The shaft was constrained to one rotational and two lateral degrees of freedom. Bearing properties and operating conditions are shown in Table \ref{Roller bearing parameters} and Table \ref{Operating Conditions} respectively.
@@ -414,37 +415,18 @@ The FMBD model used in Chapter \ref{Lubricated FMBD} was used for this study. Th
 
 The dynamic model was run using the dry bearing model, without the influence of the EHL film at the roller-race contacts. The kinematic and dynamic results necessary for the film thickness estimation were extracted from an individual roller at each time step of the simulation. These results include roller load, reduced radius of the contact between the roller and inner-race, and the contact entrainment velocity.
 
-The loading pattern is cyclic in nature as the roller enters and exits the most highly loaded region of the bearing, corresponding to the force vector applied to the inner race. Sufficient preload ensures constant contact between elements and raceways so that the regime does not deviate from EHL. The contact reduced radius and entrainment speed do not change throughout the orbit as they are a function of bearing geometry and constant operating speed. These input parameters are shown in Figure \ref{Contact Normal Load ANN}.
+The loading pattern is cyclic in nature as the roller enters and exits the most highly loaded region of the bearing, corresponding to the radial force vector applied to the inner race. Sufficient preload ensures constant contact between elements and raceways so that the regime does not deviate from EHL. The contact reduced radius (3.03~$mm$) and entrainment speed (9.83~$m/s$) do not change throughout the orbit as they are a function of bearing geometry and constant operating speed. The normal contact load fluctuation is shown in Figure \ref{Contact Normal Load ANN}.
 
 The operating conditions of the bearing were within the range of validity of the training data set. This is demonstrated in Figure \ref{Greenwood_Bearing} whereby the Greenwood parameters for the bearing operating points are calculated and overlayed on the training data cloud.
 
 \begin{figure}
 	\centering
-	\begin{subfigure}[b]{0.9\textwidth}
-		\centering
-		\includegraphics[width=\textwidth]{ANN_Explicit_Bearing Normal Load.png}
-		\caption{}
-		\label{Contact Normal Load ANN}
-	\end{subfigure}
-	\hfill
-	\begin{subfigure}[b]{0.9\textwidth}
-		\centering
-		\includegraphics[width=\textwidth]{ANN_Explicit_Bearing Entrainment Velocity.png}
-		\caption{}
-		\label{Contact Entrainment ANN}
-	\end{subfigure}
-	\hfill
-	\begin{subfigure}[b]{0.9\textwidth}
-		\centering
-		\includegraphics[width=\textwidth]{ANN_Explicit_Bearing Reduced Radius.png}
-		\caption{}
-		\label{Contact Reduced Radius ANN}
-	\end{subfigure}
-	\caption{Individual rolling element input values to ANN : a) Contact load, b) Contact entrainment velocity, c) Contact reduced radius}
-	\label{Individual rolling element input values to ANN}
+	\includegraphics[width=\textwidth]{ANN_Explicit_Bearing_Normal_Load.png}
+	\caption{Normal contact load vs cage angular displacement}
+	\label{Contact Normal Load ANN}
 \end{figure}
 
-The structure chosen for this study was based on the conclusions drawn in Section \ref{ANN Structure Evaluation Results}. A structure of 3 hidden layers with 14 neurons per layer was selected ($9-[14-14-14]_3-1$). Logistic sigmoid was selected as the activation function for the hidden layers. This is represented graphically in Figure \ref{ANN structure}.
+The structure chosen for this study was based on the conclusions drawn in Section \ref{ANN Structure Evaluation Results}. A structure of 3 hidden layers with 14 neurons per layer was selected ($9-[14-14-14]_3-1$). Logistic sigmoid was selected as the activation function for the hidden layers. This structure is represented graphically in Figure \ref{ANN structure}.
 
 
 \subsection{Implicit Bearing Film Thickness Predictions}
@@ -548,7 +530,9 @@ Figure \ref{$R^2$ performance of ANN structure} illustrates the influence of the
 
 \subsection{Explicit Bearing Film Thickness Predictions}
 
+The performance of the ANN was compared the to the computed numerical and analytical results during several operating cycles of the bearing model presented in Section \ref{Explicit Bearing Film Thickness Predictions}.
 
+Figure \ref{ANN Film Thickness Comparisons} demonstrates that the ANN prediction of film thickness (orange) matches very closely with the numerical calculation (blue). The fluctuations arise due to the varying contact load, with a peak of 0.2109~$\mu \mathrm{m}$ and 0.2107~$\mu \mathrm{m}$ for the ANN and numerical model respectively. By comparison, the analytical equation calculates a peak film thickness of 0.2476~$\mu \mathrm{m}$, an overestimation as demonstrated in Figure \ref{EHL_NumericalvsAnalytical_25000}.
 
 \begin{figure}
 	\centering
@@ -556,9 +540,8 @@ Figure \ref{$R^2$ performance of ANN structure} illustrates the influence of the
 	\caption{ANN, numerical and analytical central film thickness comparisons.}
 	\label{ANN Film Thickness Comparisons}
 \end{figure}
-Figure 
 
-Three different methods of obtaining the EHL film thickness were tested
+Table \ref{Explicit time and MSE} demonstrates the relative performance of the ANN for both computation time and MSE. The ANN demonstrates a $\sim$1~500 factor computation time reduction in comparison with the ANN, whilst maintaining excellent accuracy as shown by the MSE. The analytical solution is a factor of $\sim$75 faster than the ANN, but is significantly less accurate. As discussed in Section \ref{Numerical vs Analytical Film Thickness Estimations at High Entrainment Velocities}, this will increase with entrainment velocity and complexity of modelling requirements.
 
 \begin{table*}
 	\caption{Film thickness computation methodology performance relative to the numerical solution}
@@ -575,9 +558,6 @@ Three different methods of obtaining the EHL film thickness were tested
 	\end{tabular}
 \end{table*}
 
-\subsubsection{Timing}
-\subsubsection{Error}
-
 \subsection{Implicit Bearing Film Thickness Predictions}
 
 \subsubsection{Timing}
@@ -587,11 +567,24 @@ Each computational point, including
 
 
 \section{Conclusions}
+
+A tribological ANN has been trained and employed to calculate the central EHL film thickness at a roller-race conjunction. Different ANN structures were evaluated to find the optimum structure for the film thickness estimation. Numerically generated training data was sampled using Latin Hypercube Sampling (LHS), and constrained to realistic contact conditions using the Greenwood regime. This ensured a high quality dataset; essential for high prediction accuracy. The trained ANN was then used to calculate film thickness in a roller bearing using a simple dynamic bearing model under constant load. The ANN was then employed in a FMBD model, where the film thickness was estimated implicitly at each time step of a dynamic simulation and considered in the prevailing contact mechanics.
+
+\begin{enumerate}
+	\item Each numerical solution to generate a training data point took 5.88~$s$. The single core wall time for 600 and 5~000 training points was 58.8~$min$ and 489~$min$ respectively.
+	\item 600 training points achieved sufficient coefficient of determination performance ($R^2$ = 0.99791) to accurately calculate film thickness. Whilst 5000 points resulted in an $R^2$ value of 1, training of the network and effort to generate this quantity of training data rendered it computationally inefficient.
+	\item A structure comprising 3 hidden layers with 14 neurons per hidden layer, trained on 1~000 data points, achieved marginal error when compared to the numerical solution, while achieving data generation and training efficiency.
+	\item The analytical equations increasingly deviate from the numerical calculation at high entrainment velocities; up to 24.5\% at 25~000~rpm for the bearing examined in this study.
+	\item The ANN was shown to be $\sim$1~500 times faster than the numerical solution with a very small margin of error.
+	\item For the case study presented, the mean squared error (MSE) of the ANN was 1.46~$\times 10^{-8}~\mu \mathrm{m}$ when benchmarked against the numerical solution.
+	\item The ANN is a factor of $\sim$75 times slower than the analytical equation, but a factor of 9~$\times 10^{4}$ more accurate when comparing MSE performance against the numerical method.
+\end{enumerate}
+
+This study has proven ANNs to be an accurate and computationally efficient method of calculating EHL film thickness. Despite them having no physical understanding of the system, this data-driven solution has proved accurate and computationally efficient for the film thickness estimation.
+
 Roller bearings are only one application of these ANNs. The use cases extend far beyond roller bearings, to key components in automotive, machining and other industrial applications where interactions between contiguous surfaces exist. Film thickness is a critical parameter in the determination of NVH, friction and wear.
 
-Full numerical solution can account for film thickness profile and pressure distribution across the contact. Futhermore, 
-
-Echávarri et al. \cite{EchavarriOtero2014} comment on the "black box" nature of ANNs. Results from intermediate calculations are lost, which is often of interest for more in-depth analysis of contact condition; film thickness and pressure distributions and temperature for example.  
+Application in FMBD solvers.
 
 The numerical solution database can also benefit from explicit parallelisation ie. use of multiple computational cores of the CPU. When using MBD solvers implicitly it is not possible to use explicit parallelisation since a particular time step is dependent on the present timestep as well as on data of the same timestep. The ANN functionality in turn can be embedded with an implicit MBD computation environment to significantly improve the computation times without the need of explicit parallelisation despite benefitting from it indirectly. 
 
