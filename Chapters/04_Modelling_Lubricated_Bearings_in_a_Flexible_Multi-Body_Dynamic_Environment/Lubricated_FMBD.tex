@@ -6,7 +6,7 @@ The previous chapter highlights the necessity of implicitly modelling the EHL fi
 
 This chapter presents a new flexible dynamic model for drive systems comprising lubricated bearings operating under conditions representative of electrified vehicle powertrains. This is achieved by embedding a non-linear lubricated bearing model within an FMBD model; something which has not, to the authors’ knowledge, been reported on hitherto. The time-varying system operating conditions reflect that of an electrified powertrain. The kinematic behaviour of a flexible shaft at each time step of a dynamic simulation is passed to the bearing model. A contact slicing method \cite{Andreason1973} is employed to calculate the reaction forces of the individual rolling elements based on the roller–race contact deflection \cite{Lundberg1949}. The total deflection is influenced by the thickness of the EHL film within the contact, which is implicitly included within the analysis through an iterative procedure. The resulting race forces are returned to the system level model and the equations of motion are solved at each time step. Comparisons are made between modelling the bearings as dry and lubricated. The dynamic results including acceleration, force magnitudes and stiffness variations have been obtained for realistic loading conditions of a 54~$kW$ electric hub motor up to speeds of 21~000~$rpm$.
 
-The elastohydrodynamic (EHL) film is shown to increase contact deflection, leading to increased contact forces and total bearing stiffness as rotational speeds increase. Results show that a 21~000~$rpm$, the input bearing EHL film reaches a thickness of 4.15~$\mu m$. The lubricant entrainment increases the roller–race contact deflection, causing the contact stiffness to increase non-linearly with speed. The contribution of the lubricant film leads to a 16.6\% greater bearing stiffness at 21~000~$rpm$ when compared to conventional dry bearing modelling methods used in current multi-body dynamic software.
+The elastohydrodynamic (EHL) film is shown to increase contact deflection, leading to increased contact forces and total bearing stiffness as rotational speeds increase. Results show that at 21~000~$rpm$, the input bearing EHL film reaches a thickness of 4.15~$\mu m$. The lubricant entrainment increases the roller–race contact deflection, causing the contact stiffness to increase non-linearly with speed. The contribution of the lubricant film leads to a 16.6\% greater bearing stiffness at 21~000~$rpm$ when compared to conventional dry bearing modelling methods used in current multi-body dynamic software.
 
 \section{Methodology}
 
@@ -82,7 +82,7 @@ where $d$ and $\mathrm{k}$ represent the material damping and stiffness coeffici
 Grouping the damping and stiffness coefficients into one matrix gives the equation of motion after rearrangement. This equation represents the behaviour of the total system of rigid partial masses that make up the shaft, and considers both general global motion and small body motion (vibrations) \cite{Offner2011}:
 
 \begin{equation}\label{Equation of motion}
-	M . \ddot{q}+D \cdot \dot{q}+K \cdot q=f^{e x t}+p^*
+	M \cdot \ddot{q}+D \cdot \dot{q}+K \cdot q=f^{e x t}+p^*
 \end{equation}
 
 The vector of external forces and moments, $f^{e x t}$, is the sum of excitation forces, $f^*$, and external loads, $f^a$. External loads and moments applied to the shaft, $f^a$, are determined functions given in time and are input as both time-varying and static loads on the system. The non-linear excitation force term, $f^*$, represents the reaction forces from the lubricated component level bearing model.
@@ -111,13 +111,13 @@ Between the roller and raceways, under sufficient load, the pressures in the non
 
 The lowest average film stiffness was $5.1 \times 10^9 \mathrm{~N} / \mathrm{m}$, which is over one order greater than the contacting material stiffness. The material therefore dominates the stiffness of the contact, and the stiffness of the EHL film can be neglected. The film is modelled as a rigid element that is present between the roller and race \cite{Walford1983} \cite{Dareing1975} \cite{Mehdigoli1990}.
 
-The contact deformation $(\delta)$ is therefore a function of the displacement of the inner bearing race, angular displacement of the roller about the rotationall axis $(\theta)$ thickness of the EHL film $\left(h_c\right)$ and any clearance or radial preload $( \pm C)$ within the bearing \cite{Rahnejat1985} \cite{Mohammadpour2015c}:
+The contact deformation $(\delta)$ is therefore a function of the displacement of the inner bearing race, angular displacement of the roller about the rotational axis $(\theta)$, central EHL film thickness $\left(h_c\right)$ and any clearance or radial preload $( \pm C)$ within the bearing \cite{Rahnejat1985} \cite{Mohammadpour2015c}:
 
 \begin{equation}\label{Contact deformation flextribo}
 	2 \delta=2\left(h_c-C\right)+z \cos (\theta)+y \sin (\theta)
 \end{equation}
 
-Figure \ref{Dry vs lubricated roller-race contact} demonstrates this more clearly. The total contact deformation is the summation of the central film thickness $\left(h_c\right)$ and the material deformation $\left(\delta_m\right)$ predicted from the dry-Hertzian contact assumption. Conventional dry analysis only accounts for the dry material deformation at the contact.
+Figure \ref{Dry vs lubricated roller-race contact} demonstrates this more clearly. The total contact deformation is the summation of $\left(h_c\right)$ and the material deformation, $\left(\delta_m\right)$ predicted from the dry-Hertzian contact assumption. Conventional dry analysis only accounts for the dry material deformation at the contact.
 
 \begin{figure}
 	\centering  
@@ -172,7 +172,7 @@ From Equation \ref{Lundberg deflection}, contact forces per unit length of an in
 
 where $s$ represents the slice number, and $l$ represents the slice length.
 
-The application of the slicing technique was validated against open literature. de Mul et al. \cite{DeMul1989_2} compared results obtained from an experimental rig with numerical results calculated using both the approximate slicing technique and the sophisticated non-Hertzian technique \cite{DeMul1986}. By replicating the geometry of the test bearing used in their analysis, the application of Andreason’s slicing technique used for this analysis was validated with good agreement (see Figure \ref{Contact level validation}). This method is a much faster way of calculating contact load and moment than more sophisticated methods by de Mul, yet still maintains high accuracy.
+The application of the slicing technique was validated against open literature \cite{DeMul1989_2}. The study compared results obtained from an experimental rig with numerical results calculated using both the approximate slicing technique and the sophisticated non-Hertzian technique \cite{DeMul1986}. By replicating the geometry of the test bearing used in their analysis, the application of Andreason’s slicing technique used for this analysis was validated with good agreement (see Figure \ref{Contact level validation}). This method is a much faster way of calculating contact load and moment than more sophisticated methods by \cite{DeMul1989_2}, yet still maintains high accuracy.
 
 \begin{figure}
 	\centering  
@@ -260,7 +260,7 @@ The bearing geometry is detailed in Table \ref{Cylindrical Roller Bearing Specif
 		\hline
 		\ \textbf{Parameter} & \textbf{Value} \\ [0.5ex]
 		\hline
-		Pressure Viscosity Coefficient ($\alpha$) & 2.1 $\times 10^{-8}\mathrm{~Pa}^{-1}$ \\ [0.5ex]
+		Pressure viscosity coefficient ($\alpha$) & 2.1 $\times 10^{-8}\mathrm{~Pa}^{-1}$ \\ [0.5ex]
 		\hline
 		Atmospheric lubricant dynamic viscosity & 0.08 Pa.s \\ [0.5ex]
 		\hline
@@ -350,11 +350,11 @@ The motor has a peak torque of 68~$\mathrm{Nm}$, and a maximum operating speed o
 \end{table*}
 
 \subsection{Co-Simulation of Coupled Models}
-A coupled simulation approach is employed to implement the lubricated components level bearing model within the flexible multi-body dynamic (FMBD) environment. AVL EXCITE\textsuperscript{TM} Power Unit R2020.1 contains integrated “Link to MATLAB” functionality, whereby joints within the model can be replaced with a user function created in MATLAB Simulink\textregistered\ R2019b.
+A coupled simulation approach is employed to implement the lubricated components level bearing model within the flexible multi-body dynamic (FMBD) environment. AVL EXCITE\textsuperscript{TM} Power Unit R2022.1 contains integrated “Link to MATLAB” functionality, whereby joints within the model can be replaced with a user function created in MATLAB Simulink\textregistered\ R2022b.
 
 \paragraph{Connected Degrees of Freedom}
 
-Connections are created between bodies in the FMBD software using pins. Pins are assigned to specific nodes on the shaft and housing. The pins transmit a 6-element vector that describe the 6 DOF of the connection point. The first 3 elements represent translational degrees of freedom, whilst the latter represent rotational degrees of freedom. This are concatenated into a single communication vector that is then transferred to MATLAB.
+Connections are created between bodies in the FMBD software using pins. Pins are assigned to specific nodes on the shaft and housing. The pins transmit a 6-element vector that describe the 6 DOF of the connection point. The first 3 elements represent translational DOFs, whilst the latter represent rotational DOFs. This are concatenated into a single communication vector that is then transferred to MATLAB\textregistered\.
 
 \begin{figure}
 	\centering  
@@ -365,15 +365,15 @@ Connections are created between bodies in the FMBD software using pins. Pins are
 
 Two vectors are transferred from EXCITE to MATLAB\textregistered\: one containing displacement information in all 6 DOF and the other containing velocity information. Force vectors of equal size are then computed within the component level model in MATLAB\textregistered\ and returned to EXCITE\textsuperscript{TM} Power Unit.
 
-The connection to MATLAB\textregistered\ is facilitated via an S-function. Therefore, a Simulink® model is required. A generic block developed by AVL, the EXCITE\textsuperscript{TM} Power Unit Simulink block, is used for this purpose:
+The connection to MATLAB\textregistered\ is facilitated via an S-function. Therefore, a Simulink\textregistered\ model is required. A generic block developed by AVL, the EXCITE\textsuperscript{TM} Power Unit Simulink\textregistered\ block, is used for this purpose:
 
 \paragraph{Output Port}
 
-Output data from the FMBD model is organised in vector format, of size 6$n$ where $n$ is the total number of connections being passed from MATLAB\textregistered to EXCITE\textsuperscript{TM} Power Unit. To access data for each connection, and then split this into specific degrees of freedom, two levels of Demux elements are needed.
+Output data from the FMBD model is organised in vector format, of size 6$n$ where $n$ is the total number of connections being passed from MATLAB\textregistered\ to EXCITE\textsuperscript{TM} Power Unit. To access data for each connection, and then split this into specific DOFs, two levels of Demux elements are needed.
 
 \begin{enumerate}
-	\item The first level of Demux splits the output vector into $n$ pins, of size 6 to represent the degrees of freedom at each pin. 
-	\item The second level of Demux blocks splits the 6-element vector for each pin into the 6 scalar values that represent the data for each degree of freedom. These can then be used as inputs to the MATLAB\textregistered\ function block within the Simulink\textregistered\ model.	
+	\item The first level of Demux splits the output vector into $n$ pins, of size 6 to represent the DOFs at each pin. 
+	\item The second level of Demux blocks splits the 6-element vector for each pin into the 6 scalar values that represent the data for each DOF. These can then be used as inputs to the MATLAB\textregistered\ function block within the Simulink\textregistered\ model.	
 \end{enumerate}
 
 \begin{figure}
@@ -385,7 +385,7 @@ Output data from the FMBD model is organised in vector format, of size 6$n$ wher
 
 \paragraph{Input Port}
 
-At the input port to the EXCITE\textsuperscript{TM} Power Unit Simulink block, a vector of 6$n$ elements must be passed. This requires two Mux blocks: the first to combine the degrees of freedom of each pin, and the second to combine all of these connection vectors into a single vector that is passed to EXCITE\textsuperscript{TM} Power Unit.
+At the input port to the EXCITE\textsuperscript{TM} Power Unit Simulink block, a vector of 6$n$ elements must be passed. This requires two Mux blocks: the first to combine the DOFs of each pin, and the second to combine all of these connection vectors into a single vector that is passed to EXCITE\textsuperscript{TM} Power Unit.
 
 \begin{figure}
 	\centering  
@@ -396,7 +396,7 @@ At the input port to the EXCITE\textsuperscript{TM} Power Unit Simulink block, a
 
 \paragraph{Simulink Model}
 
-To integrate the lubricated bearing model into the Simulink\textregistered\ model, the MATLAB\textregistered\ Function block is used. The input variable sizes are defined at the beginning of the function, and the appropriate degrees of freedom are connected to the block in the order of which they appear in the function. The function blocks and hence lubricated bearing models are highlighted in \ref{Simulink_model_schematic}, as well as the ports and the demux blocks that split the degrees of freedom.
+To integrate the lubricated bearing model into the Simulink\textregistered\ model, the MATLAB\textregistered\ Function block is used. The input variable sizes are defined at the beginning of the function, and the appropriate DOFs are connected to the block in the order of which they appear in the function. The function blocks and hence lubricated bearing models are highlighted in \ref{Simulink_model_schematic}, as well as the ports and the demux blocks that split the DOFs.
 
 \begin{figure}
 	\centering  
@@ -409,7 +409,7 @@ The coupled simulation supported by EXCITE\textsuperscript{TM} Power Unit is exp
 
 \section{Results and Discussion}
 
-A quasi-dynamic speed sweep has been performed from 1000 to 21~000~$rpm$. The simulations are performed every 1000~$rpm$, refined to 250~$rpm$ intervals throughout a period of system resonance between 12~000~$rpm$ and 14~000~$rpm$. The operating envelopes are generated by plotting the maximum and minimum values from the steady-state signals at each speed interval. The conjunction level results are obtained from an individual roller and its contact with the inner raceway. The component and system level results are taken from the geometric centre of the inner bearing race, corresponding to the bearing seat on the shaft. The following figures represent results in the $y$-direction, the largest component of excitation due to the tangential force from the gear meshing.
+A quasi-dynamic speed sweep has been performed from 1~000 to 21~000~$rpm$. The simulations are performed every 1000~$rpm$, refined to 250~$rpm$ intervals throughout a period of system resonance between 12~000~$rpm$ and 14~000~$rpm$. The operating envelopes are generated by plotting the maximum and minimum values from the steady-state signals at each speed interval. The conjunction level results are obtained from an individual roller and its contact with the inner raceway. The component and system level results are taken from the geometric centre of the inner bearing race, corresponding to the bearing seat on the shaft. The following figures represent results in the $y$-direction, the largest component of excitation due to the tangential force from the gear meshing.
 
 The contact level results (Figure \ref{Rolling element contact stiffness - Dry vs lubricated maximum values}) show a difference in the contact stiffness between the dry and lubricated models. The dry model follows the torque profile of the motor, with stiffness decreasing as the contact forces reduce. The period of resonance leads to the larger amplitude excitation of the shaft, resulting in an increase in the contact stiffness due to the force–deflection non-linearity. The lubricated model, however, shows an increase in the contact stiffness throughout the speed sweep. This is due to the higher levels of deformation at the contact as the lubricant is entrained, which increases with the shaft rotational velocity. This behaviour was experimentally observed by Dietl, concluding that the oil-wedge between the rolling elements and raceways reduces the internal clearance of the bearing and increases its stiffness \cite{Dietl1997}. The contact stiffness in the lubricated bearing model under the same operating conditions is therefore 24.9\% greater at 21~000~$rpm$.
 
@@ -420,7 +420,7 @@ The contact level results (Figure \ref{Rolling element contact stiffness - Dry v
 	\label{Rolling element contact stiffness - Dry vs lubricated maximum values}
 \end{figure} 
 
-The peak contact force has been compared between both models. The percentage increase between the dry and lubricated models is shown in Figure 	\ref{Rolling element contact force - Dry vs lubricated percentage increase}. This more clearly shows the disparity between both models at the contact, with the largest difference being 9.6 times at maximum speed. During resonance, the inner race force reaches a peak of 1514~$\mathrm{N}$, resulting in surface deformation magnitudes of 0.92~$\mu \mathrm{m}$ and 3.81~$\mu \mathrm{m}$ at the dry and lubricated conjunctions, respectively. As noted in previous works [15], higher loads lead to a greater surface deformation to the film thickness ratio, causing the percentage difference between the dry and lubricated models to reduce. Once the loads reduce as the speed increases, the percentage increase continues to rise.
+The peak contact force has been compared between both models. The percentage increase between the dry and lubricated models is shown in Figure \ref{Rolling element contact force - Dry vs lubricated percentage increase}. This more clearly shows the disparity between both models at the contact, with the largest difference being 9.6 times at maximum speed. During resonance, the inner race force reaches a peak of 1~514~$\mathrm{N}$, resulting in surface deformation magnitudes of 0.92~$\mu \mathrm{m}$ and 3.81~$\mu \mathrm{m}$ at the dry and lubricated conjunctions, respectively. As noted in previous works [15], higher loads lead to a greater surface deformation to the film thickness ratio, causing the percentage difference between the dry and lubricated models to reduce. Once the loads reduce as the speed increases, the percentage increase continues to rise.
 
 \begin{figure}
 	\centering  
@@ -447,7 +447,7 @@ Due to the greater total stiffness of the bearing, the shaft displacement of the
 	\label{Inner race displacement - Dry vs lubricated operating envelope}
 \end{figure} 
 
-Figure \ref{Inner race acceleration - Dry vs lubricated operating envelope} shows that the acceleration peak of the system resonance occurs at 12~500~$\mathrm{rpm}$ (3542~0$\mathrm{Hz}$) for the lubricated model as opposed to 12~250~$\mathrm{rpm}$ (3470~$\mathrm{Hz}$) for the dry model. This shift in natural frequency indicates a stiffer overall system. The magnitude difference between the dry and lubricated models can also be attributed to the unloaded regions of the dry bearing. The contact deformation arising from the loading of the inner race is sufficient to cause the rollers geometrically opposite to become separated from their contacts. Contact is lost between the roller and raceway, leading to zero contact stiffness. The inner race moves into this region until it is reacted by a contact force once again. These regions of zero stiffness are shown in Figure \ref{Rolling element contact stiffness - Dry vs lubricated minimum values}, where the minimum stiffness of an individual rolling element and raceway contact in the dry model drops to zero due to separation. For the lubricated model, contact is maintained throughout.
+Figure \ref{Inner race acceleration - Dry vs lubricated operating envelope} shows that the acceleration peak of the system resonance occurs at 12~500~$\mathrm{rpm}$ (3~5420$\mathrm{Hz}$) for the lubricated model as opposed to 12~250~$\mathrm{rpm}$ (3~470~$\mathrm{Hz}$) for the dry model. This shift in natural frequency indicates a stiffer overall system. The magnitude difference between the dry and lubricated models can also be attributed to the unloaded regions of the dry bearing. The contact deformation arising from the loading of the inner race is sufficient to cause the rollers geometrically opposite to become separated from their contacts. Contact is lost between the roller and raceway, leading to zero contact stiffness. The inner race moves into this region until it is reacted by a contact force once again. These regions of zero stiffness are shown in Figure \ref{Rolling element contact stiffness - Dry vs lubricated minimum values}, where the minimum stiffness of an individual rolling element and raceway contact in the dry model drops to zero due to separation. For the lubricated model, contact is maintained throughout.
 
 \begin{figure}
 	\centering  

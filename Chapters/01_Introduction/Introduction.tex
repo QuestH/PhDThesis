@@ -1,6 +1,6 @@
 \chapter{Introduction} \label{Introduction}
 
-The automotive industry is transitioning into the next phase of powertrain technology. As automotive manufacturers are forced to meet tightening fleet-wide emissions regulations, the electrified vehicle market share is increasing. The European Union (EU) has established ambitious policy \cite{EUL110/5}, mandating that all new cars and vans sold in Europe be zero-emission by 2035 as part of a broader strategy to achieve climate neutrality by 2050. The EU aims to have electrified vehicles - both Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) - make up 80 \% of its automotive market share by 2030. In China, government subsidies and investment in battery technology is also yielding a rapid advancement in electrified vehicle adoption - primarily in the passenger car segment. Whilst the direction of the industry remains susceptible to geopolitical and market influences, it is clear that future powertrains will rely on electrification.
+The automotive industry is transitioning into the next phase of powertrain technology. As automotive manufacturers are forced to meet tightening fleet-wide emissions regulations, the electrified vehicle market share is increasing. The European Union (EU) has established ambitious policy \cite{EUL110/5}, mandating that all new cars and vans sold in Europe be zero-emission by 2035 as part of a broader strategy to achieve climate neutrality by 2050. The EU aims to have electrified vehicles - both Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) - make up 80~\% of its automotive market share by 2030. In China, government subsidies and investment in battery technology is also yielding a rapid advancement in electrified vehicle adoption - primarily in the passenger car segment. Whilst the direction of the industry remains susceptible to geopolitical and market influences, it is clear that future powertrains will rely on electrification.
 
 To achieve high-efficiency and adhere to packaging constraints, modern electrified powertrains utilize ultra-high speed and low load motors \cite{Cai2021}. These motors introduce new challenges regarding NVH (Noise, Vibration and Harshness) and the tribology of interacting conjunctions. The compact, lightweight and efficient motors operate under significantly different working conditions and are subject to different underlying physics; such as regime of lubrication, dynamic response and magneto-mechanical interactions. This style of powertrain architecture therefore involves high-speed rolling element bearing operation in both the motor and transmission.
 
@@ -9,17 +9,41 @@ These bearings are crucial structural components and their dynamic response sign
 With a trend towards cost saving zero-prototype development, the use of simulation tools in modern powertrain development is growing. Multi-system vehicle powertrain concepts are pushing complexity of simulation models and this requires accurate and robust component level understanding. Performance characteristics of the bearings, such as NVH, friction, and wear must be accurately modelled at the development stage to ensure full system success.
 
 
-\section{Research Questions} \label{Research Questions}
+\section{Research Aims and Objectives} \label{Research Questions}
 
-The primary objective of this work is to investigate the interaction between tribology and dynamics in rolling element bearings, with particular focus on the significance of this multi-physics interaction in high-speed automotive applications. Specifically, this work examines the influence of the elastohydrodynamic (EHL) film, and assesses the necessity of its implicit inclusion in dynamic bearing modelling. Computational viability of this coupled approach is assessed, and the use of an artificial neural network (ANN) is evaluated to address the accuracy requirements of the numerical EHL solution. This overarching aim is addressed through the following research questions:
+The primary aim of this work is to investigate the interaction between tribology and dynamics in rolling element bearings, with particular focus on the significance of this multi-physics interaction in high-speed automotive powertrain applications. With rotational speeds up to 25~000~$rpm$, the entrainment velocity of lubricant into the roller-race contact is significant, and conventional dry analyses may no longer be valid. Specifically, this work examines the influence of the elastohydrodynamic (EHL) film, and assesses the necessity of its implicit inclusion in dynamic bearing modelling within flexible multi body environments. The research also aims to investigate the contribution of artificial neural networks (ANNs) to tribological modelling, and if EHL film thickness prediction accuracy at high-speeds can be achieved. These research points are addressed through the following aims and objectives:
 
+\paragraph{Aims}
 \begin{enumerate}
-	\item How does the EHL film affect the contact stiffness of rolling element bearings in electrified vehicle powertrains?
-	\item How considerable is implicit consideration of the EHL film on the dynamic behaviour of bearings in these powertrains?
-	\item Can an artificial neural network be used to predict film thickness across a broad range of rolling element bearing input parameters?
-	\item Can the ANN be employed implicitly within an flexible multi-body dynamic to compute film thickness to the acuracy of the numerical solution without the computational efficiency limitations? 
+	\item Investigate how the EHL film affects the contact load and stiffness of rolling element bearings at the high speed, low torque operating conditions representative of electrified vehicle powertrains. 
+	\item Assess how implicit modelling of this film affects system dynamics at these operating conditions in a flexible, system-level model.
+	\item Investigate methods of calculating the central EHL film thickness, and assess if an ANN can be used to predict film thickness across a broad range of rolling element bearing input parameters.
+	\item Explore the possibility of employing an ANN to model tribological phenomena implicitly at the roller-race contact in an FMBD model. 
 \end{enumerate}
 
+\paragraph{Objectives}
+\begin{enumerate}
+	\item Develop a high-speed experimental test rig to measure bearing orbital motion as a kinematic input to tribological models. Use this to identify the required workflows and necessary models for tribodynamic analysis, as well as analyse the influence of the EHL film on contact and component behaviour.
+	\item Develop a lubricated component bearing model, considering the EHL film implicitly at the contact between rolling elements and raceways.
+	\item Embed the lubricated bearing model within a flexible multi-body dynamic model to assess the influence of the EHL film on the dynamic response of the system. 
+	\item Develop an artificial neural network, capable of computing central EHL film thickness for a wide range of the required input parameters. Assess the computational viability of integrating this implicitly within the FMBD model.
+\end{enumerate}
+
+This work was performed in collaboration with AVL List GmbH in order to disseminate the outcomes of this research in the development of commercial codes: AVL EXCITE\textsuperscript{TM} M and AVL EXCITE\textsuperscript{TM} Power Unit.
+
+\section{Contributions to Knowledge} \label{Contribution to Knowledge Intro}
+
+The main novelties and contributions to knowledge from this thesis are summarised below:
+
+\begin{enumerate}
+	\item A novel experimental test rig was constructed to measure the kinematic motion of a bearing at rotational speeds and loads up to 750~$N$ and 15~000~$rpm$ respectively. The bearing orbital motion was measured and used for conjunction and component level tribological analysis. The methodology of coupling experimental test with numerical tribological models has not been previously reported in this manner at these speeds. The outcome of this demonstrated the requirement of implicitly modelling the EHL film in future high-speed applications, since it contributed to a 149\% contact load increase at 15~000~$rpm$ when compared to conventional dry analyses.
+	
+	\item A coupled co-simulation approach was established to implicitly consider the EHL film in roller bearings within a high-speed system-level FMBD model. The model replicates the operating conditions of a 54~$kW$ permanent magnet synchronous motor (PMSM) coupled to a first stage gear pair, operating at speeds up to 21~000~$rpm$. This was the first time in open literature that an implicitly lubricated multi-physics bearing model has been considered in the context of electrified powertrain dynamics. The outcome of this demonstrated that the increased contact deflection, due to the lubricant film inclusion, increases total bearing stiffness by 24.9~\% at 21~000~rpm. This effectively behaves as a non-linear, speed dependant radial preload on the bearing. The contribution of this stiffness increased the natural frequency of the system, and hence affected NVH response. This proves the requirement to consider the EHL film implicitly for rolling element bearing modelling under the high speeds, low load operating conditions of electrified powertrains.
+	
+	\item An ANN was trained using input data calculated using a 1D numerical EHL model. A wide value range of input variables necessary for the EHL central film thickness calculation were used to train the model. The value range was consistent with common machine element contacts, with its applicability also extending to gear pairs and cam contacts. The novel methodology of constraining the training data using the Greenwood regime ensured high data quality whilst only requiring 600 training data points. The ANN achieved an MSE of 3.89~$\times 10^{-6}~\mu \mathrm{m}^2$ when benchmarked against the numerical solution, whilst reducing calculation time by a factor of 1~500. This methodology will further contribute to the computational efficiency and accuracy of tribological ANNs.
+	
+	\item The ANN was embedded within an FMBD system-level model to calculate EHL film thickness and consider it implicitly in the evaluation of the bearing and system dynamics. The film thickness evaluation achieves the accuracy of numerical models without the associated computational limitations. This modelling method of combining component level ANN within a flexible system has not been previously reported.
+\end{enumerate}
 
 \section{Structure of Thesis} \label{Structure of Thesis}
 
@@ -35,4 +59,4 @@ The research in this thesis is presented in the following structure:
 
 \paragraph{Chapter 5} introduces an ANN  to address the shortcomings of the analytical approach when estimating EHL film thickness at high speeds. The ANN is trained using a wide design space of input variables. The accuracy of the model and computational efficiency is assessed. The ANN is embedded within the dynamic system level model from Chapter 4 as an alternative approach to the analytical solution for film thickness. 
 
-\paragraph{Chapter 6} presents the general conclusions of the work, and outlines potential future work that could succeed this research.
+\paragraph{Chapter 6} presents the general conclusions of the work, and outlines potential future work that could follow this research.

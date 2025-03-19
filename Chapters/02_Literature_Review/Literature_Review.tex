@@ -5,11 +5,21 @@ This chapter reviews the literature pertinent to this research topic. It covers 
 
 \section{Rolling Element Bearing Introduction}
 
-The term rolling element bearing encompasses both ball and roller type bearings. These common machine elements permit motion of, or about, shafts in a wide range of devices; from wheel bearings in bicycles and cars to electric motors and aircraft gas turbines. In automotive transmissions, these bearings support the rotation of the shaft and the radial and axial forces applied during gear meshing. Single or two stage gearing in electric transmissions mean that bearings in both the electric motors and input shaft to the gearboxes operate under high speeds, in excess of 32~000~$rpm$.
+The term rolling element bearing encompasses both ball and roller type bearings. These common machine elements permit motion of, or about, shafts in a wide range of devices; from wheel bearings in bicycles and cars to electric motors and aircraft gas turbines. The general use of rolling element bearings occurred from the start of the Industrial Revolution, however the origin of what constitutes modern bearing design dates back as far as $ca.$1500. Leonardo Da Vinci, in his Codex Madrid, conceived a thrust ball bearing design consisting of spherical balls with conical separation elements \cite{Harris2007}. Prior to the scientific advancements of the atomic age, the design of rolling element bearings was regarded as more an art than a science. Alas, this thesis is not a work of art (hyberbole notwithstanding), but rather an advancement of the scientific knowledge that precedes it.
 
-The general use of rolling element bearings occurred from the start of the Industrial Revolution, however the origin of what constitutes modern bearing design dates back as far as $ca.$1500. Leonardo Da Vinci, in his Codex Madrid, conceived a thrust ball bearing design consisting of spherical balls with conical separation elements \cite{Harris2007}.
+In automotive transmissions, these bearings support the rotation of the shaft and the radial and axial forces applied during gear meshing. Figure \ref{eMotorAnnotated} presents a 2-speed e-Axle. The motor, bearings and gear stages are labelled.  Single or two stage gearing in electric transmissions mean that bearings in both the electric motors and input shaft to the gearboxes operate under high speeds, up to 25~000~$rpm$. A typical torque/speed operating range of a 54~$kW$ PMSM used within these electrified drive systems is shown in Figure \ref{PMSM torque speed}. With such high speeds, these powertrains are able to produce high output power with relatively low torque requirements from the motor.
 
-Prior to the scientific advancements of the atomic age, the design of rolling element bearings was regarded as more an art than a science. Alas, this thesis is not a work of art (hyberbole notwithstanding), but rather an advancement of the scientific knowledge that precedes it.
+\begin{figure}
+	\centerline{\includegraphics[width=125 mm]{eMotorAnnotated.png}}
+	\caption{Electrified powertrain.}
+	\label{eMotorAnnotated}
+\end{figure}
+
+\begin{figure}
+	\centerline{\includegraphics[width=125 mm]{torque_speed_curve.png}}
+	\caption{Torque-speed characteristics of permanent magnet synchronous motor (PMSM).}
+	\label{PMSM torque speed}
+\end{figure}
 
 \section{Rolling Element Bearing Modelling}
 
@@ -65,13 +75,13 @@ A fundamental characteristic of these contacts is that the approach of the bodie
 
 \begin{figure}
 	\centerline{\includegraphics[width=110 mm]{LineContact.png}}
-	\caption[Roller-race model for line contact]{Roller-race model for line contact \cite{Zaretsky2016}.}
+	\caption[Roller-race model for line contact.]{Roller-race model for line contact. \cite{Zaretsky2016}}
 	\label{LineContact}
 \end{figure}
 
 \begin{figure}
 	\centerline{\includegraphics[width=110 mm]{PointContact.png}}
-	\caption[Ball-race model for point contact]{Ball-race model for point contact \cite{Zaretsky2016}.}
+	\caption[Ball-race model for point contact.]{Ball-race model for point contact. \cite{Zaretsky2016}}
 	\label{PointContact}
 \end{figure}
 
@@ -113,7 +123,7 @@ where $w$ is load per unit length.
 
 The contact between rolling elements and raceways and the subsequent load and deformation generated at this contact is regarded as one of the most important issues in rolling-element bearing modelling. For a ball bearing, classical Hertzian theory is used to calculate the load-deformation relationship. However, the line contact is more complex.
 
-There exist three methods to determine this relationship for the line contact in roller bearings: the slicing technique, 3D contact method and the alternative slicing technique. The slicing technique \cite{Andreason1973} divides the roller-race contact region into a finite number of slices, with the total contact forces calculated from the summation of forces of each individual slice. Various formulae have been developed to perform this calculation, all yielding very similar results. A drawback of this method is that the load on each slice does not influence the surrounding slices as they are treated independently. This means that pressure concentrations such as edge stresses on the contact are not captured. The 3D contact method uses the Boussinesq half-space force-displacement relationships and flexibility method of structural analysis. The contact pressure distribution and normal approach between the bodies is found using an iterative scheme, making this a time-consuming method. Kabus et al. \cite{Kabus2012} addressed this in their 6-dof quasi-static time-domain bearing model  by pre-processing a series of contacts at different centreline approaches  and roller tilt angles, then interpolating these results in the actual simulations. This negated the need to solve the iterative scheme at each time step. This allowed for bearing misalignment, roller centrifugal forces, flange contact and roller tilt moments to be analysed. 
+There exist three methods to determine this relationship for the line contact in roller bearings: the slicing technique, 3D contact method and the alternative slicing technique. The slicing technique \cite{Andreason1973} divides the roller-race contact region into a finite number of slices, with the total contact forces calculated from the summation of forces of each individual slice. Various formulae have been developed to perform this calculation, all yielding very similar results. A drawback of this method is that the load on each slice does not influence the surrounding slices as they are treated independently. This means that pressure concentrations such as edge stresses on the contact are not captured. The 3D contact method uses the Boussinesq half-space force-displacement relationships and flexibility method of structural analysis. The contact pressure distribution and normal approach between the bodies is found using an iterative scheme, making this a time-consuming method. Kabus et al. \cite{Kabus2012} addressed this in their 6-DOF quasi-static time-domain bearing model  by pre-processing a series of contacts at different centreline approaches  and roller tilt angles, then interpolating these results in the actual simulations. This negated the need to solve the iterative scheme at each time step. This allowed for bearing misalignment, roller centrifugal forces, flange contact and roller tilt moments to be analysed. 
 
 Teutsch and Sauer \cite{Teutsch2004} improved on the slicing technique with their alternative slicing method. Using a matrix of weighted influence coefficients, the effects of force on the deflection of neighbouring slices was captured. It is not too dissimilar in concept to the 3D contact method but with improved computation times. de Mul et al. \cite{DeMul1989_2} compared the slicing technique with their more complex non-Hertzian model and concluded that the simplicity and accuracy of the slicing method yielded accurate and faster results. Harris and Kotzalas \cite{Harris2007} also concluded that the slicing technique, whilst unable to reflect edge stress concentrations, provides a suitably accurate load-displacement result as stresses are only distributed over a small area. For the purpose of load equilibrium, these stresses can be neglected. Misalignment or loading on roller ends is not captured using this technique, therefore for fatigue life estimates this may produce non-conservative results; for this, the approach by Kabus et al. should be used. In general, the slicing technique is the most widely used, owing to its simplicity, speed, and sufficient accuracy.
 
@@ -151,7 +161,7 @@ Two different direct methods have been used to solve the discretized Reynolds eq
 
 The second solution method is the Newton-Raphson method. This was first applied by Okumara \cite{Okumara1982} and later by Houpert and Hamrock \cite{Houpert1985}, where pressures as high as 4.8 $GPa$ were obtained with low CPU times. These low CPU times are a significant advantage of the Newton-Raphson methodology, with a smaller number of iterations resulting in much faster convergence than Gauss-Seidel.
 
-Further numerical development came in the form of the multi-level method, first used by Lubrecht et al. in 1986 \cite{Lubrecht1986}. Venner et al. \cite{Venner1990} used a multilevel multi-integration for point and line contacts in 1990 to reduce the computational cost of solving the film thickness integral. This allowed more nodes in the computational domain to be used for more complex problems with again much faster solution times. Finer grids could therefore be used, yielding faster results than Newton-Raphson for more complex cases. The solution time was proportional to $n log(n)$, with $n $being the total number of nodes in the computational domain. This work was mainly focussed on reducing computational time for the point contact problem, with the authors acknowledging the applicability of the Newton-Raphson numerical scheme for the line contact problem.
+Further numerical development came in the form of the multi-level method, first used by Lubrecht et al. in 1986 \cite{Lubrecht1986}. Venner et al. \cite{Venner1990} used a multilevel multi-integration for point and line contacts in 1990 to reduce the computational cost of solving the film thickness integral. This allowed more nodes in the computational domain to be used for more complex problems with again much faster solution times. Finer grids could therefore be used, yielding faster results than Newton-Raphson for more complex cases. The solution time was proportional to $n log(n)$, with $n$ being the total number of nodes in the computational domain. This work was mainly focussed on reducing computational time for the point contact problem, with the authors acknowledging the applicability of the Newton-Raphson numerical scheme for the line contact problem.
 
 \subsection{Starvation}
 
@@ -161,7 +171,7 @@ Analytical work on this topic began for the line contact problem by Wolveridge e
 
 \begin{figure}
 	\centerline{\includegraphics[width=90 mm]{Starvation_Hamrock_Dowson.png}}
-	\caption [Effect of dimensionless inlet distance on film thickness for starvation modelling]{Effect of dimensionless inlet distance on film thickness for starvation modelling \cite{Hamrock1976}.}
+	\caption [Effect of dimensionless inlet distance on film thickness for starvation modelling.]{Effect of dimensionless inlet distance on film thickness for starvation modelling. \cite{Hamrock1976}}
 	\label{Starvation_Hamrock_Dowson}
 \end{figure}
 
@@ -187,7 +197,7 @@ Figure \ref{EHL_Film_Pressure_Schematic} shows the deviation of the film pressur
 
 \begin{figure}
 	\centerline{\includegraphics[width=125 mm]{EHL_Film_Pressure_Schematic.png}}
-	\caption[EHL film and pressure distribution]{EHL film and pressure distribution \cite{Larsson2013}.}
+	\caption[EHL film and pressure distribution.]{EHL film and pressure distribution. \cite{Larsson2013}}
 	\label{EHL_Film_Pressure_Schematic}
 \end{figure}
 
@@ -199,10 +209,10 @@ Lubricated contacts fall into four main regimes, these are:
 	\item \textbf{Hydrodynamic}: Contacting surfaces are completely separated by the lubricant film. Load is light, typically several Newtons. The contact surfaces do not experience deformation and resultant pressures are in the region of MPa.
 	\item \textbf{Elastohydrodynamic}: Contacting surfaces are completely separated by lubricant film; however, load is medium to heavy. Contact deformation occurs and resultant contact pressures are in the region of GPa.
 	\item \textbf{Mixed}: An interrupted oil film separates the two surfaces, ie. some asperity interaction occurs. Mixed lubrication can occur under any load and is dependent on the film thickness and asperity height.
-	\item \textbf{Boundary}: The lubricant film is negligible, and surfaces directly interact. This a dry contact. At medium and high loads, Hertzian contact conditions can be assumed.
+	\item \textbf{Boundary}: The lubricant film is negligible, and surfaces directly interact. This is regarded as a dry contact. At medium and high loads, Hertzian contact conditions can be assumed.
 \end{itemize}
 
-The loaded contact region of bearings are typically in the elastohydrodynamic regime of lubrication. The film thickness to asperity roughness height (lambda ratio) is large enough that the surface features do not typically influence the lubricant thickness and often a smooth surface is assumed. Under operation, emerging clearances result in unloaded regions of the bearing which can cause the roller-to-race contact to deviate from the elastohydrodynamic lubrication regime towards hydrodynamic regime, resulting in sliding and roller-cage collisions \cite{Mohammadpour2015c}. Hence, the contact may go through different regimes of lubrication throughout its rotation.
+The loaded contact region of bearings are typically in the elastohydrodynamic regime of lubrication. The film thickness to asperity roughness height (lambda ratio, $\lambda_s$) is large enough that the surface features do not typically influence the lubricant thickness and often a smooth surface is assumed. Under operation, emerging clearances result in unloaded regions of the bearing which can cause the roller-to-race contact to deviate from the elastohydrodynamic lubrication regime towards hydrodynamic regime, resulting in sliding and roller-cage collisions \cite{Mohammadpour2015c}. Hence, the contact may go through different regimes of lubrication throughout its rotation.
 
 Film thickness and surface roughness are related by Stribeck \cite{Stribeck1907} using the specific film thickness:
 
@@ -214,7 +224,7 @@ Film thickness and surface roughness are related by Stribeck \cite{Stribeck1907}
 
 \begin{figure}
 	\centerline{\includegraphics[width=100 mm]{Stribeck_Curve.png}}
-	\caption[Stribeck curve and specific film thickness]{Stribeck curve and specific film thickness ($\lambda$) \cite{Ali2015}.}
+	\caption[Stribeck curve and specific film thickness values.]{Stribeck curve and specific film thickness ($\lambda$). \cite{Ali2015}}
 	\label{Stribeck_Curve}
 \end{figure}
 
