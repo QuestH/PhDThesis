@@ -1,5 +1,5 @@
 %% LHS sampling - function to produce a sample of EHL input parameters
-load Bearing_Test_Data_FMBD.mat
+load Bearing_Test_Data_FMBD_20m_s.mat
 %load spur_gear_test_data.mat
 % assign individual parameters from test data
 w_i = test_data(:,1);

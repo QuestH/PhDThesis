@@ -100,10 +100,10 @@
 \contentsline {subsubsection}{Evaluating the Network Performance}{100}{section*.43}%
 \contentsline {subsubsection}{Preventing Overfitting}{101}{section*.44}%
 \contentsline {subsection}{\numberline {5.4.3}Explicit Bearing Film Thickness Predictions}{102}{subsection.5.4.3}%
-\contentsline {subsection}{\numberline {5.4.4}Implicit Bearing Film Thickness Predictions}{104}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {5.4.4}Implicit Bearing Film Thickness Predictions}{102}{subsection.5.4.4}%
 \contentsline {section}{\numberline {5.5}Results and Discussion}{104}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}ANN Structure Evaluation}{105}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}Explicit Bearing Film Thickness Predictions}{106}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.1}ANN Structure Evaluation}{104}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Explicit Bearing Film Thickness Predictions}{108}{subsection.5.5.2}%
 \contentsline {subsection}{\numberline {5.5.3}Implicit Bearing Film Thickness Predictions}{112}{subsection.5.5.3}%
 \contentsline {section}{\numberline {5.6}Conclusions}{112}{section.5.6}%
 \contentsline {chapter}{\numberline {6}Conclusions and Future Work}{115}{chapter.6}%
@@ -111,4 +111,4 @@
 \contentsline {section}{\numberline {6.2}Contributions to Knowledge}{117}{section.6.2}%
 \contentsline {section}{\numberline {6.3}Addressing the Research Questions}{118}{section.6.3}%
 \contentsline {section}{\numberline {6.4}Future Work}{119}{section.6.4}%
-\contentsline {chapter}{References}{121}{chapter*.56}%
+\contentsline {chapter}{References}{121}{chapter*.55}%

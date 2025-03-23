@@ -25,7 +25,7 @@ Figure \ref{EHL_NumericalvsAnalytical_25000} shows a comparison between the cent
 	\label{EHL_NumericalvsAnalytical_25000}
 \end{figure} 
 
-It is shown that as rotational speed and hence entrainment velocity increase, the film thickness prediction of the numerical and analytical calculations diverge. At 21~000~$rpm$, entrainment velocities of 30.7~$m \cdot \mathrm{s}^{-1}$ leads to a 22.6\% difference between the methods, with the analytical equation overestimating the film thickness.
+It is shown that as rotational speed and hence entrainment velocity increase, the film thickness prediction of the numerical and analytical calculations diverge. At 21~000~$rpm$, entrainment velocities of 30.7~$m \cdot \mathrm{s}^{-1}$ leads to a 20.3\% difference between the methods, with the analytical equation overestimating the film thickness.
 
 The implementation of ANNs within tribology is one way to overcome the computational expense of the full numerical solution and this limited validity of the analytical approach. Overcoming the above stated discrepancy is not the only advantage of a numerical EHL informed ANN. Since an ANN can be trained using a wide range of input data, the effects of other tribological phenomena such as starvation and thermal effects can also be considered. Furthermore, the training of such ANNs is not bound to only numerical inputs; the results of experimental testing could be used to generate an experimentally validated ANN.
 
@@ -356,51 +356,20 @@ By applying an adjustment factor, denoted as $\gamma^{\prime}$, the weights and 
 \subsection{Explicit Bearing Film Thickness Predictions} \label{Explicit Bearing Film Thickness Predictions}
 After identifying a suitable training data size and structure, an ANN was trained to estimate the EHL central film thickness. These results could then be compared to the analytical (Equation \ref{DowsonToyodaCentralFilm}) and numerical (Section \ref{1D EHL Model}) methods for calculating the film thickness under realistic bearing operating conditions.
 
-The FMBD model used in Chapter \ref{Lubricated FMBD} was used for this study. The shaft was modelled as a rigid body, and loading in the radial direction was purely static to remove the influence of additional dynamic effects. The shaft was constrained to one rotational and two lateral degrees of freedom. Bearing properties and operating conditions are shown in Table \ref{Roller bearing parameters} and Table \ref{Operating Conditions} respectively.
+The FMBD model used in Chapter \ref{Lubricated FMBD} was used for this study. The shaft was modelled as a rigid body, and loading in the radial direction was purely static to remove the influence of additional dynamic effects. The shaft was constrained to one rotational and two lateral degrees of freedom. Bearing specification, material and rheological properties are shown in Tables \ref{Cylindrical Roller Bearing Specification} and \ref{Bearing Rheological Properties}.
 
-\begin{table*}
-	%\captionsetup{justification=centering}
-	\caption{Roller Bearing Parameters}
-	\label{Roller bearing parameters}
-	\centering
-	\renewcommand{\arraystretch}{1.5}%
-	\begin{tabular}{|c|c|}
-		\hline
-		\ \textbf{Parameter} & \textbf{Value} \\ [0.5ex]
-		\hline
-		Inner race diameter & 31.5~$mm$ \\ [0.5ex]
-		\hline
-		Roller diameter & 7.5~$mm$ \\ [0.5ex]
-		\hline
-		Roller length & 15~$mm$ \\ [0.5ex]
-		\hline
-		Number of rollers & 12 \\ [0.5ex]
-		\hline
-		Radial interference & 5~$\mu \mathrm{m}$ \\ [0.5ex]
-		\hline
-		Young's modulus & 218~$GPa$ \\ [0.5ex]
-		\hline
-		Poisson's ratio & 0.33 \\ [0.5ex]
-		\hline
-	\end{tabular}
-\end{table*}
+The bearing was modelled as dry, without the influence of the EHL film at the roller-race contacts. The kinematic and dynamic results necessary for the film thickness estimation were extracted from an individual roller at each time step of the simulation. These results include roller load, contact entrainment velocity, and reduced radius of the contact between the roller and inner-race.
 
-\begin{table*}
-	%\captionsetup{justification=centering}
-	\caption{Operating Conditions}
-	\label{Operating Conditions}
+The loading pattern is cyclic in nature as the roller enters and exits the most highly loaded region of the bearing, corresponding to the radial force vector applied to the inner race. Sufficient preload ensures constant contact between elements and raceways so that the regime does not deviate from EHL. The contact reduced radius (3.03~$mm$) and entrainment speed (20~$m \cdot \mathrm{s}^{-1}$) do not change throughout the orbit as they are a function of bearing geometry and constant operating speed. The normal contact load fluctuation is shown in Figure \ref{Contact Normal Load ANN}.
+
+\begin{figure}
 	\centering
-	\renewcommand{\arraystretch}{1.5}%
-	\begin{tabular}{|c|c|}
-		\hline
-		\ \textbf{Parameter} & \textbf{Value} \\ [0.5ex]
-		\hline
-		Radial force & 6000~$N$ \\ [0.5ex]
-		\hline
-		Rotational velocity & 10~000~$rpm$ \\ [0.5ex]
-		\hline
-	\end{tabular}
-\end{table*}
+	\includegraphics[width=\textwidth]{Bearing_Input_Force_FMBD_20_1.15kN_contact_force_data.png}
+	\caption{Normal contact load vs cage angular displacement}
+	\label{Contact Normal Load ANN}
+\end{figure}
+
+The operating conditions of the bearing were within the range of validity of the training data set. This is demonstrated in Figure \ref{Greenwood_Bearing} whereby the Greenwood parameters for the bearing operating points are calculated and overlayed on the training data cloud.
 
 \begin{figure}
 	\centering  
@@ -409,34 +378,18 @@ The FMBD model used in Chapter \ref{Lubricated FMBD} was used for this study. Th
 	\label{Greenwood_Bearing}
 \end{figure} 
 
-The bearing was modelled as dry, without the influence of the EHL film at the roller-race contacts. The kinematic and dynamic results necessary for the film thickness estimation were extracted from an individual roller at each time step of the simulation. These results include roller load, contact entrainment velocity, and reduced radius of the contact between the roller and inner-race.
-
-The loading pattern is cyclic in nature as the roller enters and exits the most highly loaded region of the bearing, corresponding to the radial force vector applied to the inner race. Sufficient preload ensures constant contact between elements and raceways so that the regime does not deviate from EHL. The contact reduced radius (3.03~$mm$) and entrainment speed (15.7~$m \cdot \mathrm{s}^{-1}$) do not change throughout the orbit as they are a function of bearing geometry and constant operating speed. The normal contact load fluctuation is shown in Figure \ref{Contact Normal Load ANN}.
-
-The operating conditions of the bearing were within the range of validity of the training data set. This is demonstrated in Figure \ref{Greenwood_Bearing} whereby the Greenwood parameters for the bearing operating points are calculated and overlayed on the training data cloud.
-
-\begin{figure}
-	\centering
-	\includegraphics[width=\textwidth]{Bearing_Input_Force_FMBD_15.7_3.32kN.png}
-	\caption{Normal contact load vs cage angular displacement}
-	\label{Contact Normal Load ANN}
-\end{figure}
-
 The structure chosen for this study was based on the conclusions drawn in Section \ref{ANN Structure Evaluation Results}. A structure of 3 hidden layers with 14 neurons per layer was selected ($9-[14-14-14]_3-1$). Logistic sigmoid was selected as the activation function for the hidden layers. This structure is represented graphically in Figure \ref{ANN structure}.
 
 
 \subsection{Implicit Bearing Film Thickness Predictions}
 
-To assess the viability of using ANNs as an alternative for regressed equations in FMBD modelling, the trained ANN was embedded with the lubricated system level model introduced in Section \ref{System level flexible model}. The operating points investigated were at speeds of 5~000~-~20~000$rpm$ in increments of 5~000~$rpm$. The models were run for a total input shaft angular displacement of 50~$rad$.
+To assess the viability of using ANNs as an alternative to the regressed film thickness equations in FMBD modelling, the trained ANN was embedded with the lubricated system level model introduced in Section \ref{System level flexible model}. The extrapolated film equation (\ref{DowsonToyodaCentralFilm}) used within the lubricated bearing model in Section \ref{Contact mechanics FMBD} was replaced with the trained neural network function.
 
-The first 10~$rad$ of shaft rotation cover the period of system convergence. During this period, and for a further period of 20~$rad$, the analytical formula for the central film thickness calculation were used. Once the system reached steady state operation, and suitable computational the film thickness estimation was then performed using the trained ANN. 
+The operating points investigated were at speeds of 5~000~-~20~000$rpm$ in increments of 5~000~$rpm$. The models were run for a total input shaft angular displacement of 50~$rad$. The first 10~$rad$ of shaft rotation cover the period of system convergence. During this period, and for a further period of 20~$rad$, the analytical formula for the central film thickness calculation were used. Once the system reached steady state operation, and suitable computational the film thickness estimation was then performed using the trained ANN. 
 
-Simulations were performed at a fixed time step of 
+Simulations were performed at a fixed time step of 1$\times 10^{-6}$~$s$ to ensure convergence of the explicitly coupled models.
 
-This methodology gave a timely 
-Due to the computational speed differences of the two methods, it was more efficient to perform system initiation using the analytical formulae.
-
-Computational timings per point were noted to assess the viability of this solution.
+Computational timings per point were recorded to assess the viability of this solution.
 
 
 \section{Results and Discussion}
@@ -536,16 +489,16 @@ The results of this study guided the decision for the network structure to be us
 
 The performance of the selected ANN was compared the to the computed numerical and analytical results during several operating cycles of the bearing model presented in Section \ref{Explicit Bearing Film Thickness Predictions}.
 
-Figure \ref{ANN Film Thickness Comparisons} demonstrates that the ANN prediction of film thickness (orange) matches very closely with the numerical calculation (blue). The fluctuations arise due to the varying contact load, with a peak of 2.076~$\mu \mathrm{m}$ and 2.074~$\mu \mathrm{m}$ for the ANN and numerical model respectively. By comparison, the analytical equation overestimates the peak film thickness to be 2.481~$\mu \mathrm{m}$.
+Figure \ref{ANN Film Thickness Comparisons} demonstrates that the ANN prediction of film thickness matches very closely with the numerical calculation. The fluctuations arise due to the varying contact load, with a peak of 2.410~$\mu \mathrm{m}$ and 2.396~$\mu \mathrm{m}$ for the ANN and numerical model respectively. By comparison, the analytical equation overestimates the peak film thickness to be 3.321~$\mu \mathrm{m}$.
 
 \begin{figure}
 	\centering
-	\includegraphics[width=150mm]{Bearing_Test_Data_FMBD_15.7_3.32kN.png}
+	\includegraphics[width=150mm]{Bearing_Test_Data_FMBD_20_1.15kN.png}
 	\caption{ANN, numerical and analytical central film thickness comparisons.}
 	\label{ANN Film Thickness Comparisons}
 \end{figure}
 
-Table \ref{Explicit time and MSE} demonstrates the relative performance of the ANN for both computation time and MSE fr the analysis in Figure \ref{ANN Film Thickness Comparisons}. The ANN demonstrates a $\sim$1~500 factor computation time reduction in comparison with the ANN, whilst maintaining excellent accuracy as shown by the MSE. The analytical solution is a factor of $\sim$75 faster than the ANN, but is significantly less accurate. As discussed in Section \ref{Numerical vs Analytical Film Thickness Estimations at High Entrainment Velocities}, this will increase with entrainment velocity and complexity of modelling requirements.
+Table \ref{Explicit time and MSE} demonstrates the relative performance of the ANN for both computation time and MSE for the analysis in Figure \ref{ANN Film Thickness Comparisons}. The ANN demonstrates a $\sim$1~570 factor computation time reduction in comparison with the ANN, whilst maintaining excellent accuracy as shown by the MSE. The analytical solution is a factor of $\sim$70 faster than the ANN, but is significantly less accurate. As discussed in Section \ref{Numerical vs Analytical Film Thickness Estimations at High Entrainment Velocities}, this will increase with entrainment velocity and complexity of modelling requirements.
 
 \begin{table*}
 	\caption{Film thickness computation methodology performance relative to the numerical solution}
@@ -556,8 +509,8 @@ Table \ref{Explicit time and MSE} demonstrates the relative performance of the A
 		\hline \multirow{2}{*}{\textbf{Method}} & \textbf{Time per point} & \textbf{MSE} \\
 		\cline{2-3} & [$\mathrm{s}$] & [$\mu \mathrm{m}^2$] \\
 		\hline Numerical & 4.87 & - \\
-		\hline Analytical & 4.43 $\times 10^{-5}$ & 1.24 $\times 10^{-1}$ \\
-		\hline ANN & 3.10 $\times 10^{-3}$ & 3.89 $\times 10^{-6}$ \\
+		\hline Analytical & 4.43 $\times 10^{-5}$ & 8.47 $\times 10^{-1}$ \\
+		\hline ANN & 3.10 $\times 10^{-3}$ & 7.65 $\times 10^{-5}$ \\
 		\hline
 	\end{tabular}
 \end{table*}
@@ -596,6 +549,38 @@ The ANN film thickness prediction also shows excellent agreement across the spee
 	\end{tabular}
 \end{table*}
 
+\begin{table*}
+	\caption{CPU time implicit}
+	\label{CPU time implicit2}
+	\centering
+	\renewcommand{\arraystretch}{1.5}%
+	\begin{tabular}{|c|c|c|p{2.2cm}<{\centering}|p{2.2cm}<{\centering}|p{2.2cm}<{\centering}|}
+		\hline 
+		\multirow{2}{*}{Speed [rpm]} & \multicolumn{2}{|c|}{CPU time per time step [s]} & 
+		\multirow{2}{=}{\centering Relative \\ time difference} & 
+		\multirow{2}{=}{\centering Factor \\ difference} & 
+		\multirow{2}{=}{\centering Iterations \\ per time step} \\
+		\cline { 2 - 3 } 
+		& ANN & Analytical & & & \\
+		\hline 
+		5 000 & 0.38 & 6.28 $\times 10^{-3}$ & 1.64 $\times 10^{-2}$ & 61.1 & 2.72 \\
+		\hline 
+		10 000 & 0.40 & 6.24 $\times 10^{-3}$ & 1.56 $\times 10^{-2}$ & 64.0 & 2.97 \\
+		\hline 
+		15 000 & 0.37 & 7.60 $\times 10^{-3}$ & 2.06 $\times 10^{-2}$ & 48.5 & 3.56 \\
+		\hline 
+		20 000 & 0.36 & 7.40 $\times 10^{-3}$ & 2.06 $\times 10^{-2}$ & 48.6 & 3.08 \\
+		\hline
+	\end{tabular}
+\end{table*}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=125mm]{film_thickness_vs_shaft_sweep_ann_vs_analytical.png}
+	\caption{ANN vs analytical film thickness at speed intervals from 5~000~-~20~000~$rpm$}
+	\label{film_thickness_vs_shaft_sweep_ann_vs_analytical.png}
+\end{figure}
+
 \section{Conclusions}
 
 A tribological ANN has been trained and employed to calculate the central EHL film thickness at a roller-race conjunction. Different ANN structures were evaluated to find the optimum structure for the film thickness estimation. Numerically generated training data was sampled using Latin Hypercube Sampling (LHS), and constrained to realistic contact conditions using the Greenwood regime. This ensured a high quality dataset; essential for high prediction accuracy. The trained ANN was then used to calculate film thickness in a roller bearing using a simple dynamic bearing model under constant load. The ANN was then employed in an FMBD model, where the film thickness was estimated implicitly at each time step of a dynamic simulation and considered in the prevailing contact mechanics. The following conclusions are drawn from this work:
@@ -604,9 +589,9 @@ A tribological ANN has been trained and employed to calculate the central EHL fi
 	\item Each numerical solution to generate a training data point took 5.88~$s$. The single core wall time for 600 and 5~000 training points was 58.8~$min$ and 489~$min$ respectively. The numerical solution database could benefit from explicit parallelisation ie. use of multiple computational cores of the CPU. 
 	\item 600 training points achieved sufficient coefficient of determination performance ($R^2$ = 0.99791) to accurately predict central film thickness. Whilst 5000 points resulted in an $R^2$ value of 1, training of the network and effort to generate this quantity of training data rendered it computationally inefficient.
 	\item An ANN structure with three hidden layers, each containing 14 neurons and using a logistic sigmoid activation function, was found to be optimal for the operating bounds investigated in this study when trained on 2,000 data points.
-	\item The analytical equations increasingly deviate from the numerical calculation at high entrainment velocities; up to 22.6~\% at 21~000~rpm for the bearing examined in this study. At the same speed, the ANN had an error of 1.58~\%. Across a speed range from 0~-~21~000~$rpm$, the MSE of the ANN was 3.18~$\times 10^{-4}~\mu \mathrm{m}^2$.
-	\item For the bearing case study presented, the mean squared error (MSE) of the ANN film thickness prediction was 3.89~$\times 10^{-6}~\mu \mathrm{m}^2$ when benchmarked against the numerical solution for a fluctuating contact load. This is a significant improvement over the MSE of the analytical model which was 1.24~$\times 10^{-1}~\mu\mathrm{m}^2$.
-	\item The ANN was shown to be $\sim$1~500 times faster than the numerical solution with a very small margin of error. The ANN is a factor of $\sim$75 times slower than the analytical equation, but a factor of 3~$\times 10^{4}$ more accurate when comparing MSE performance against the numerical method.
+	\item The analytical equations increasingly deviate from the numerical calculation at high entrainment velocities; up to 20.3~\% at 21~000~rpm for the bearing examined in this study. At the same speed, the ANN had an error of 1.58~\%. Across a speed range from 0~-~21~000~$rpm$, the MSE of the ANN was 3.18~$\times 10^{-4}~\mu \mathrm{m}^2$.
+	\item For the bearing case study presented, the mean squared error (MSE) of the ANN film thickness prediction was 7.65~$\times 10^{-5}~\mu \mathrm{m}^2$ when benchmarked against the numerical solution for a fluctuating contact load. This is a significant improvement over the MSE of the analytical model which was 8.47~$\times 10^{-1}~\mu\mathrm{m}^2$.
+	\item The ANN was shown to be $\sim$1~570 times faster than the numerical solution with a very small margin of error. The ANN is a factor of $\sim$75 times slower than the analytical equation, but a factor of 11~$\times 10^{4}$ more accurate when comparing MSE performance against the numerical method.
 \end{enumerate}
 
 This investigation has proven ANNs to be an accurate and computationally efficient method of calculating EHL film thickness. Despite having no physical understanding of the system, this data-driven solution has proved to be accurate and computationally efficient for the film thickness estimation. This computational efficiency and accuracy lends itself very well to tribological models in FMBD solvers. It must be noted that the ability of the ANN to extrapolate beyond the bounds of the training data set must be addressed. Excessive extrapolation may lead to instability in the dynamic solution. However, by selecting a sufficient design space and robust sampling method such as LHS, this risk can be mitigated.

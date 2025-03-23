@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.17)  23 MAR 2025 01:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.17)  23 MAR 2025 16:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1085,7 +1085,13 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
  (C:\Users\wshq\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-[10])
+[10]
+Overfull \hbox (0.3269pt too wide) in paragraph at lines 65--65
+ [][] []\T1/ptm/m/n/12 (-20) ANN vs an-a-lyt-i-cal film thick-ness at speed in-
+ter-vals from 5 000 - 20 000 $\OML/ztmcm/m/it/12 rpm$ [][]  
+ []
+
+)
 \tf@lof=\write7
 \openout7 = `Master.lof'.
 
@@ -1098,8 +1104,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
  [14]
 \openout2 = `Nomenclature/nomenclature_new.aux'.
 
- (Nomenclature/nomenclature_new.tex
-[15
+ (Nomenclature/nomenclature_new.tex [15
 
 
 ]
@@ -1972,14 +1977,14 @@ Chapter 5.
 
 
 ]
-<Graphics//AnalyticalvsNumerical_PercentageDiff.png, id=1736, 857.1222pt x 627.
+<Graphics//AnalyticalvsNumerical_PercentageDiff.png, id=1736, 855.6768pt x 627.
 3036pt>
 File: Graphics//AnalyticalvsNumerical_PercentageDiff.png Graphic file (type png
 )
 <use Graphics//AnalyticalvsNumerical_PercentageDiff.png>
 Package pdftex.def Info: Graphics//AnalyticalvsNumerical_PercentageDiff.png  us
 ed on input line 23.
-(pdftex.def)             Requested size: 398.33858pt x 291.54001pt.
+(pdftex.def)             Requested size: 398.33858pt x 292.02817pt.
  [86] [87 <./Graphics//AnalyticalvsNumerical_PercentageDiff.png (PNG copy)>]
 <Graphics//ANN_schematic.png, id=1749, 862.72313pt x 575.14874pt>
 File: Graphics//ANN_schematic.png Graphic file (type png)
@@ -2037,137 +2042,150 @@ Overfull \hbox (11.38109pt too wide) in paragraph at lines 235--236
 
 [97 <./Graphics//Training_Unconstrained_GreenwoodRegime.png (PNG copy)>]
 [98 <./Graphics//ANN_Structure.png>] [99] [100] [101]
-<Graphics//Greenwood_Bearing.png, id=1916, 817.6146pt x 610.4406pt>
+<Graphics//Bearing_Input_Force_FMBD_20_1.15kN_contact_force_data.png, id=1917, 
+1228.59pt x 627.3036pt>
+File: Graphics//Bearing_Input_Force_FMBD_20_1.15kN_contact_force_data.png Graph
+ic file (type png)
+<use Graphics//Bearing_Input_Force_FMBD_20_1.15kN_contact_force_data.png>
+Package pdftex.def Info: Graphics//Bearing_Input_Force_FMBD_20_1.15kN_contact_f
+orce_data.png  used on input line 367.
+(pdftex.def)             Requested size: 415.41025pt x 212.10306pt.
+<Graphics//Greenwood_Bearing.png, id=1919, 817.6146pt x 610.4406pt>
 File: Graphics//Greenwood_Bearing.png Graphic file (type png)
 <use Graphics//Greenwood_Bearing.png>
-Package pdftex.def Info: Graphics//Greenwood_Bearing.png  used on input line 40
-7.
+Package pdftex.def Info: Graphics//Greenwood_Bearing.png  used on input line 37
+6.
 (pdftex.def)             Requested size: 398.33858pt x 297.40463pt.
- [102]
-<Graphics//Bearing_Input_Force_FMBD_15.7_3.32kN.png, id=1923, 1228.59pt x 635.0
-124pt>
-File: Graphics//Bearing_Input_Force_FMBD_15.7_3.32kN.png Graphic file (type png
-)
-<use Graphics//Bearing_Input_Force_FMBD_15.7_3.32kN.png>
-Package pdftex.def Info: Graphics//Bearing_Input_Force_FMBD_15.7_3.32kN.png  us
-ed on input line 420.
-(pdftex.def)             Requested size: 415.41025pt x 214.70955pt.
- [103 <./Graphics//Greenwood_Bearing.png (PNG copy)>] [104 <./Graphics//Bearing
-_Input_Force_FMBD_15.7_3.32kN.png (PNG copy)>] [105]
-<Graphics//ANN_Explicit_ActFun_LogSig.jpg, id=1948, 756.9078pt x 117.8001pt>
+ [102] [103 <./Graphics//Bearing_Input_Force_FMBD_20_1.15kN_contact_force_data.
+png (PNG copy)> <./Graphics//Greenwood_Bearing.png (PNG copy)>] [104]
+<Graphics//ANN_Explicit_ActFun_LogSig.jpg, id=1946, 756.9078pt x 117.8001pt>
 File: Graphics//ANN_Explicit_ActFun_LogSig.jpg Graphic file (type jpg)
 <use Graphics//ANN_Explicit_ActFun_LogSig.jpg>
 Package pdftex.def Info: Graphics//ANN_Explicit_ActFun_LogSig.jpg  used on inpu
-t line 462.
+t line 415.
 (pdftex.def)             Requested size: 415.41025pt x 64.65363pt.
-<Graphics//ANN_Explicit_ActFun_Tanh.jpg, id=1949, 756.9078pt x 117.8001pt>
+<Graphics//ANN_Explicit_ActFun_Tanh.jpg, id=1947, 756.9078pt x 117.8001pt>
 File: Graphics//ANN_Explicit_ActFun_Tanh.jpg Graphic file (type jpg)
 <use Graphics//ANN_Explicit_ActFun_Tanh.jpg>
 Package pdftex.def Info: Graphics//ANN_Explicit_ActFun_Tanh.jpg  used on input 
-line 468.
+line 421.
 (pdftex.def)             Requested size: 415.41025pt x 64.65363pt.
-<Graphics//ANN_Explicit_ActFun_ReLU.jpg, id=1950, 756.9078pt x 117.8001pt>
+<Graphics//ANN_Explicit_ActFun_ReLU.jpg, id=1948, 756.9078pt x 117.8001pt>
 File: Graphics//ANN_Explicit_ActFun_ReLU.jpg Graphic file (type jpg)
 <use Graphics//ANN_Explicit_ActFun_ReLU.jpg>
 Package pdftex.def Info: Graphics//ANN_Explicit_ActFun_ReLU.jpg  used on input 
-line 474.
+line 427.
 (pdftex.def)             Requested size: 415.41025pt x 64.65363pt.
-<Graphics//ANN_Explicit_LogSig_600.jpg, id=1951, 756.9078pt x 117.8001pt>
+<Graphics//ANN_Explicit_LogSig_600.jpg, id=1949, 756.9078pt x 117.8001pt>
 File: Graphics//ANN_Explicit_LogSig_600.jpg Graphic file (type jpg)
 <use Graphics//ANN_Explicit_LogSig_600.jpg>
 Package pdftex.def Info: Graphics//ANN_Explicit_LogSig_600.jpg  used on input l
-ine 480.
+ine 433.
 (pdftex.def)             Requested size: 415.41025pt x 64.65363pt.
-<Graphics//ANN_Explicit_LogSig_1000.jpg, id=1952, 756.9078pt x 117.8001pt>
+<Graphics//ANN_Explicit_LogSig_1000.jpg, id=1950, 756.9078pt x 117.8001pt>
 File: Graphics//ANN_Explicit_LogSig_1000.jpg Graphic file (type jpg)
 <use Graphics//ANN_Explicit_LogSig_1000.jpg>
 Package pdftex.def Info: Graphics//ANN_Explicit_LogSig_1000.jpg  used on input 
-line 486.
+line 439.
 (pdftex.def)             Requested size: 415.41025pt x 64.65363pt.
-<Graphics//ANN_Explicit_LogSig_2000.jpg, id=1953, 756.9078pt x 117.8001pt>
+<Graphics//ANN_Explicit_LogSig_2000.jpg, id=1951, 756.9078pt x 117.8001pt>
 File: Graphics//ANN_Explicit_LogSig_2000.jpg Graphic file (type jpg)
 <use Graphics//ANN_Explicit_LogSig_2000.jpg>
 Package pdftex.def Info: Graphics//ANN_Explicit_LogSig_2000.jpg  used on input 
-line 492.
+line 445.
 (pdftex.def)             Requested size: 415.41025pt x 64.65363pt.
-<Graphics//ANN_Explicit_LogSig_5000.jpg, id=1954, 756.9078pt x 117.8001pt>
+<Graphics//ANN_Explicit_LogSig_5000.jpg, id=1952, 756.9078pt x 117.8001pt>
 File: Graphics//ANN_Explicit_LogSig_5000.jpg Graphic file (type jpg)
 <use Graphics//ANN_Explicit_LogSig_5000.jpg>
 Package pdftex.def Info: Graphics//ANN_Explicit_LogSig_5000.jpg  used on input 
-line 498.
+line 451.
 (pdftex.def)             Requested size: 415.41025pt x 64.65363pt.
-<Graphics//ANN_Explicit_600_Rval.png, id=1955, 528.0528pt x 520.8258pt>
+<Graphics//ANN_Explicit_600_Rval.png, id=1953, 528.0528pt x 520.8258pt>
 File: Graphics//ANN_Explicit_600_Rval.png Graphic file (type png)
 <use Graphics//ANN_Explicit_600_Rval.png>
 Package pdftex.def Info: Graphics//ANN_Explicit_600_Rval.png  used on input lin
-e 505.
+e 458.
 (pdftex.def)             Requested size: 203.5533pt x 200.76888pt.
-<Graphics//ANN_Explicit_1000_Rval.png, id=1956, 529.0164pt x 520.8258pt>
+<Graphics//ANN_Explicit_1000_Rval.png, id=1954, 529.0164pt x 520.8258pt>
 File: Graphics//ANN_Explicit_1000_Rval.png Graphic file (type png)
 <use Graphics//ANN_Explicit_1000_Rval.png>
 Package pdftex.def Info: Graphics//ANN_Explicit_1000_Rval.png  used on input li
-ne 512.
+ne 465.
 (pdftex.def)             Requested size: 203.5533pt x 200.40332pt.
-<Graphics//ANN_Explicit_2000_Rval.png, id=1957, 528.0528pt x 520.8258pt>
+<Graphics//ANN_Explicit_2000_Rval.png, id=1955, 528.0528pt x 520.8258pt>
 File: Graphics//ANN_Explicit_2000_Rval.png Graphic file (type png)
 <use Graphics//ANN_Explicit_2000_Rval.png>
 Package pdftex.def Info: Graphics//ANN_Explicit_2000_Rval.png  used on input li
-ne 519.
+ne 472.
 (pdftex.def)             Requested size: 203.5533pt x 200.76888pt.
-<Graphics//ANN_Explicit_5000_Rval.png, id=1958, 528.0528pt x 520.8258pt>
+<Graphics//ANN_Explicit_5000_Rval.png, id=1956, 528.0528pt x 520.8258pt>
 File: Graphics//ANN_Explicit_5000_Rval.png Graphic file (type png)
 <use Graphics//ANN_Explicit_5000_Rval.png>
 Package pdftex.def Info: Graphics//ANN_Explicit_5000_Rval.png  used on input li
-ne 526.
+ne 479.
 (pdftex.def)             Requested size: 203.5533pt x 200.76888pt.
-<Graphics//Bearing_Test_Data_FMBD_15.7_3.32kN.png, id=1961, 1210.7634pt x 627.3
-036pt>
-File: Graphics//Bearing_Test_Data_FMBD_15.7_3.32kN.png Graphic file (type png)
-<use Graphics//Bearing_Test_Data_FMBD_15.7_3.32kN.png>
-Package pdftex.def Info: Graphics//Bearing_Test_Data_FMBD_15.7_3.32kN.png  used
- on input line 543.
-(pdftex.def)             Requested size: 426.79134pt x 221.11975pt.
+ [105 <./Graphics//ANN_Explicit_ActFun_LogSig.jpg> <./Graphics//ANN_Explicit_Ac
+tFun_Tanh.jpg>] [106 <./Graphics//ANN_Explicit_ActFun_ReLU.jpg> <./Graphics//AN
+N_Explicit_LogSig_600.jpg> <./Graphics//ANN_Explicit_LogSig_1000.jpg> <./Graphi
+cs//ANN_Explicit_LogSig_2000.jpg> <./Graphics//ANN_Explicit_LogSig_5000.jpg>] [
+107 <./Graphics//ANN_Explicit_600_Rval.png (PNG copy)> <./Graphics//ANN_Explici
+t_1000_Rval.png (PNG copy)> <./Graphics//ANN_Explicit_2000_Rval.png (PNG copy)>
+ <./Graphics//ANN_Explicit_5000_Rval.png (PNG copy)>]
+<Graphics//Bearing_Test_Data_FMBD_20_1.15kN.png, id=1975, 1217.0268pt x 628.267
+2pt>
+File: Graphics//Bearing_Test_Data_FMBD_20_1.15kN.png Graphic file (type png)
+<use Graphics//Bearing_Test_Data_FMBD_20_1.15kN.png>
+Package pdftex.def Info: Graphics//Bearing_Test_Data_FMBD_20_1.15kN.png  used o
+n input line 496.
+(pdftex.def)             Requested size: 426.79134pt x 220.31862pt.
 
-Overfull \hbox (11.38109pt too wide) in paragraph at lines 543--544
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 496--497
  [][] 
  []
 
-[106 <./Graphics//ANN_Explicit_ActFun_LogSig.jpg> <./Graphics//ANN_Explicit_Act
-Fun_Tanh.jpg> <./Graphics//ANN_Explicit_ActFun_ReLU.jpg>] [107 <./Graphics//ANN
-_Explicit_LogSig_600.jpg> <./Graphics//ANN_Explicit_LogSig_1000.jpg> <./Graphic
-s//ANN_Explicit_LogSig_2000.jpg> <./Graphics//ANN_Explicit_LogSig_5000.jpg>]
-[108 <./Graphics//ANN_Explicit_600_Rval.png (PNG copy)> <./Graphics//ANN_Explic
-it_1000_Rval.png (PNG copy)> <./Graphics//ANN_Explicit_2000_Rval.png (PNG copy)
-> <./Graphics//ANN_Explicit_5000_Rval.png (PNG copy)>]
-<Graphics//ANNvsAnalyticalvsNumerical_Speedsweep.png, id=1982, 820.5054pt x 627
+<Graphics//ANNvsAnalyticalvsNumerical_Speedsweep.png, id=1980, 820.5054pt x 627
 .3036pt>
 File: Graphics//ANNvsAnalyticalvsNumerical_Speedsweep.png Graphic file (type pn
 g)
 <use Graphics//ANNvsAnalyticalvsNumerical_Speedsweep.png>
 Package pdftex.def Info: Graphics//ANNvsAnalyticalvsNumerical_Speedsweep.png  u
-sed on input line 569.
+sed on input line 522.
 (pdftex.def)             Requested size: 426.79134pt x 326.29547pt.
 
-Overfull \hbox (11.38109pt too wide) in paragraph at lines 569--570
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 522--523
  [][] 
  []
 
-<Graphics//CPU_time_vs_shaft_angular_ANN_implicit.png, id=1983, 561.7788pt x 64
-1.2758pt>
+<Graphics//CPU_time_vs_shaft_angular_ANN_implicit.png, id=1981, 581.5326pt x 62
+7.3036pt>
 File: Graphics//CPU_time_vs_shaft_angular_ANN_implicit.png Graphic file (type p
 ng)
 <use Graphics//CPU_time_vs_shaft_angular_ANN_implicit.png>
 Package pdftex.def Info: Graphics//CPU_time_vs_shaft_angular_ANN_implicit.png  
-used on input line 578.
-(pdftex.def)             Requested size: 355.65944pt x 406.00204pt.
+used on input line 531.
+(pdftex.def)             Requested size: 355.65944pt x 383.66925pt.
 
-Overfull \hbox (166.68344pt too wide) in paragraph at lines 588--597
+Overfull \hbox (166.68344pt too wide) in paragraph at lines 541--550
  [][] 
  []
 
-[109 <./Graphics//Bearing_Test_Data_FMBD_15.7_3.32kN.png (PNG copy)>] [110 <./G
-raphics//ANNvsAnalyticalvsNumerical_Speedsweep.png (PNG copy)>] [111 <./Graphic
-s//CPU_time_vs_shaft_angular_ANN_implicit.png (PNG copy)>] [112]) [113]
+
+Overfull \hbox (23.15536pt too wide) in paragraph at lines 557--575
+ [][] 
+ []
+
+<Graphics//film_thickness_vs_shaft_sweep_ann_vs_analytical.png, id=1982, 550.69
+74pt x 627.3036pt>
+File: Graphics//film_thickness_vs_shaft_sweep_ann_vs_analytical.png Graphic fil
+e (type png)
+<use Graphics//film_thickness_vs_shaft_sweep_ann_vs_analytical.png>
+Package pdftex.def Info: Graphics//film_thickness_vs_shaft_sweep_ann_vs_analyti
+cal.png  used on input line 579.
+(pdftex.def)             Requested size: 355.65944pt x 405.13896pt.
+[108 <./Graphics//Bearing_Test_Data_FMBD_20_1.15kN.png (PNG copy)>] [109 <./Gra
+phics//ANNvsAnalyticalvsNumerical_Speedsweep.png (PNG copy)>] [110 <./Graphics/
+/CPU_time_vs_shaft_angular_ANN_implicit.png (PNG copy)>] [111 <./Graphics//film
+_thickness_vs_shaft_sweep_ann_vs_analytical.png (PNG copy)>] [112]) [113]
 \openout2 = `Chapters/06_Conclusions/Conclusions.aux'.
 
 
@@ -2219,13 +2237,13 @@ ironment/Lubricated_FMBD.aux)
 (Chapters/05_Artificial_Neural_Networks_for_EHL_Film_Thickness_Predictions/ANN_
 Lubricated_Bearing_FMBD.aux) (Chapters/06_Conclusions/Conclusions.aux))
 Package rerunfilecheck Info: File `Master.out' has not changed.
-(rerunfilecheck)             Checksum: 77881E35E6F9CB9C6FA2E5A457814574;18666.
+(rerunfilecheck)             Checksum: 0984041A59B0E3F111B341CB9227C557;18666.
  ) 
 Here is how much of TeX's memory you used:
- 25914 strings out of 478614
- 526861 string characters out of 2843594
- 864033 words of memory out of 3000000
- 42391 multiletter control sequences out of 15000+600000
+ 25922 strings out of 478614
+ 527511 string characters out of 2843594
+ 865090 words of memory out of 3000000
+ 42398 multiletter control sequences out of 15000+600000
  539482 words of font info for 349 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,13n,120p,1798b,1203s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -2240,9 +2258,9 @@ e1/urw/symbol/usyr.pfb><C:/Users/wshq/AppData/Local/Programs/MiKTeX/fonts/type1
 /urw/times/utmb8a.pfb><C:/Users/wshq/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/times/utmr8a.pfb><C:/Users/wshq/AppData/Local/Programs/MiKTeX/fonts/type1/u
 rw/times/utmri8a.pfb>
-Output written on Master.pdf (159 pages, 16877904 bytes).
+Output written on Master.pdf (159 pages, 16958980 bytes).
 PDF statistics:
- 2388 PDF objects out of 2487 (max. 8388607)
+ 2391 PDF objects out of 2487 (max. 8388607)
  705 named destinations out of 1000 (max. 500000)
- 64053 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 64058 words of extra memory for PDF output out of 74296 (max. 10000000)
 

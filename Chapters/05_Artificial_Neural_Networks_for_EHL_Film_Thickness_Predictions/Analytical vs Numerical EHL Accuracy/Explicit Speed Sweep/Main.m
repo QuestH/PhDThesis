@@ -61,7 +61,7 @@ parfor i = 1 :data_points
     output_film(i,:) = hc1;
     filmNEW(i) = Rr0*3.06*(Ue^0.69)*(Ge1^0.56)*(We^-0.1);
     
-    percentage_error_analytical(i) = abs((filmNEW(i) - output_film(i,:)) / output_film(i,:)) * 100;
+    percentage_error_analytical(i) = 100 * abs((filmNEW(i) - output_film(i,:))) / (0.5 * (filmNEW(i) + output_film(i,:)));
     
 end
 
@@ -91,7 +91,7 @@ for i = 1:data_points
     
     hc_ann(i) = h_ann_dim;
     
-    percentage_error_ann(i) = abs((hc_ann(i) - output_film(i,:)) / output_film(i,:)) * 100;
+    percentage_error_ann(i) = 100 * abs((hc_ann(i) - output_film(i,:))) / (0.5 * (hc_ann(i) + output_film(i,:)));
 end
 toc
 %% save workspace
@@ -121,8 +121,8 @@ plot(omegaINNERrpm, filmNEW * 1e6, ':k', 'LineWidth', 4); % Analytical (dashed b
 hold on;
 plot(omegaINNERrpm, output_film * 1e6, 'Color', '#D95319', 'LineWidth', 4); % Numerical (solid black)
 ylabel('Film Thickness / \mum', 'Color', 'k'); % Black y-axis label
-hold on;
-plot(omegaINNERrpm, hc_ann * 1e6, '--', 'Color', '#D95319', 'LineWidth', 2); % Numerical (solid black)
+%hold on;
+%plot(omegaINNERrpm, hc_ann * 1e6, '--', 'Color', '#D95319', 'LineWidth', 2); % Numerical (solid black)
 ylim([0 5]); % Adjust as needed
 set(gca, 'YColor', 'k'); % Set left y-axis color to black
 
@@ -133,7 +133,7 @@ title('EHL Film Thickness Analytical vs Numerical');
 
 % Right y-axis for percentage error
 yyaxis right
-plot(omegaINNERrpm, percentage_error_ann, 'Color', '#EDB120', 'LineWidth', 4); % Percentage error
+plot(omegaINNERrpm, percentage_error_analytical, 'Color', '#EDB120', 'LineWidth', 4); % Percentage error
 ylabel('Percentage Difference / %', 'Color', '#EDB120'); % Blue y-axis label
 ylim([0 25]); % Adjust as needed
 set(gca, 'YColor', '#EDB120'); % Set right y-axis color to blue

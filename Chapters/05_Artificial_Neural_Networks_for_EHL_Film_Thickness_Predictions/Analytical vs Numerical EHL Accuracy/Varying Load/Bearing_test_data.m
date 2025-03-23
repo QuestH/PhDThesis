@@ -13,7 +13,7 @@ disp(disp_update);
 
 % load test data
 %load test_data.mat
-load Bearing_Test_Data_FMBD_15.7_3.32kN.mat
+load Bearing_Test_Data_FMBD_20m_s.mat
 load PS1PS2.mat
 % create dimensional data
 deg = test_data(:,10);
@@ -120,11 +120,11 @@ end
     
     % %% Generate plots for EHL Film Thickness ANN vs Analytical vs Numerical
 figure;
-plot(ang, Hc_ext_dim*1e6, ':k', 'LineWidth', 4); % Analytical (dashed black)
+plot(deg, Hc_ext_dim*1e6, ':k', 'LineWidth', 4); % Analytical (dashed black)
 hold on;
-plot(ang, hc_num*1e6, 'Color', '#0072BD', 'LineWidth', 4); % Numerical (solid black)
+plot(deg, hc_num*1e6, 'Color', '#0072BD', 'LineWidth', 4); % Numerical (solid black)
 hold on;
-plot(ang, hc_ann*1e6, '--', 'Color', '#D95319', 'LineWidth', 4); % Numerical (solid black)
+plot(deg, hc_ann*1e6, '--', 'Color', '#D95319', 'LineWidth', 4); % Numerical (solid black)
 ylabel('Film Thickness / \mum', 'Color', 'k'); % Black y-axis label
 ylim([2 2.5]); % Adjust as needed
 
