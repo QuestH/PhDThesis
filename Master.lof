@@ -60,7 +60,7 @@
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Bearing operating conditions vs Greenwood informed training data.\relax }}{103}{figure.5.9}%
 \contentsline {figure}{\numberline {5.10}{\ignorespaces $R^2$ performance of ANN structure ($N$=14, $t$=3) using a Logistic Sigmoid activation function at each hidden layer: a) 600 points, b) 1000 points, c) 2000 points, d) 5000 points\relax }}{107}{figure.5.10}%
 \contentsline {figure}{\numberline {5.11}{\ignorespaces ANN, numerical and analytical central film thickness comparisons.\relax }}{108}{figure.5.11}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Central film thickness - EHL vs ANN vs analytical at increasing shaft rotational speed.\relax }}{109}{figure.5.12}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces ANN vs analytical CPU time per simulation\relax }}{110}{figure.5.13}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces ANN vs analytical film thickness at speed intervals from 5\nobreakspace {}000\nobreakspace {}-\nobreakspace {}20\nobreakspace {}000\nobreakspace {}$rpm$\relax }}{111}{figure.5.14}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Central film thickness - EHL vs ANN vs analytical at increasing shaft rotational speed.\relax }}{110}{figure.5.12}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces ANN vs analytical CPU time per simulation\relax }}{111}{figure.5.13}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces ANN vs analytical film thickness at speed intervals from 5\nobreakspace {}000\nobreakspace {}-\nobreakspace {}20\nobreakspace {}000\nobreakspace {}$rpm$\relax }}{112}{figure.5.14}%
 \addvspace {10\p@ }
