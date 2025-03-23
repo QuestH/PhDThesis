@@ -405,7 +405,7 @@ To integrate the lubricated bearing model into the Simulink\textregistered\ mode
 	\label{Simulink_model_schematic}
 \end{figure} 
 
-The coupled simulation supported by EXCITE\textsuperscript{TM} Power Unit is explicit in nature. This means that there is no iteration at each time step between the dynamic solver and the bearing model. A sufficiently fine time step is therefore required to prevent numerical divergence of results due to error accumulation. It was found that a time step of 1e-6~$s$ was fine enough to ensure numerical convergence, whilst also remaining computationally efficient.
+The coupled simulation supported by EXCITE\textsuperscript{TM} Power Unit is explicit in nature. There is no iteration at each time step between the dynamic solver and the bearing model. Error accumulation can therefore lead to numerical divergence. Investigations were performed from 0.1~-~1$\times 10^{-5}$~$s$ in steps of 0.1~$\times 10^{-5}$~$s$. It was found that a simulation time step of 1$\times 10^{-6}$~$s$ was fine enough to ensure numerical convergence at all operating conditions, while also remaining computationally efficient.
 
 \section{Results and Discussion}
 

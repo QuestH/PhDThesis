@@ -17,7 +17,7 @@
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Accelerometer locations on test bracket.\relax }}{35}{figure.3.6}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Laser vibrometer locations on shaft.\relax }}{35}{figure.3.7}%
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Validation of dimensionless pressure distribution, present model (solid), Masjedi and Khonsari (dashed).\relax }}{49}{figure.3.8}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Validation of dimensionless film thickness distribution, present model (solid), Masjedi and Khonsari (dashed).\relax }}{49}{figure.3.9}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Validation of dimensionless film thickness distribution, present model (solid), Masjedi and Khonsari (dashed).\relax }}{50}{figure.3.9}%
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Bearing bore displacement frequency spectra.\relax }}{52}{figure.3.10}%
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Shaft displacement frequency spectra.\relax }}{52}{figure.3.11}%
 \contentsline {figure}{\numberline {3.12}{\ignorespaces Contact load and film thickness - Outer race.\relax }}{53}{figure.3.12}%
@@ -27,7 +27,7 @@
 \contentsline {figure}{\numberline {3.16}{\ignorespaces Contact load difference between dry and lubricated model.\relax }}{57}{figure.3.16}%
 \contentsline {figure}{\numberline {3.17}{\ignorespaces Dry and lubricated model load difference: a) 3\nobreakspace {}050\nobreakspace {}$rpm$, b) 14\nobreakspace {}135\nobreakspace {}$rpm$, c) 14\nobreakspace {}855\nobreakspace {}$rpm$.\relax }}{58}{figure.3.17}%
 \contentsline {figure}{\numberline {3.18}{\ignorespaces Selected points for the numerical EHL model.\relax }}{59}{figure.3.18}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces EHL pressure and film thickness distributions: a) Node 1, b) Node 2, c) Node 3, d) Node 4, e) Node 5, f) Node 6.\relax }}{59}{figure.3.19}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces EHL pressure and film thickness distributions: a) Node 1, b) Node 2, c) Node 3, d) Node 4, e) Node 5, f) Node 6.\relax }}{60}{figure.3.19}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Flowchart of models.\relax }}{65}{figure.4.1}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces System level model schematic.\relax }}{66}{figure.4.2}%
@@ -58,7 +58,7 @@
 \contentsline {figure}{\numberline {5.7}{\ignorespaces ANN structure to predict EHL central film thickness ($9-[14-14-14]_3-1$)\relax }}{98}{figure.5.7}%
 \contentsline {figure}{\numberline {5.8}{\ignorespaces Bearing operating conditions vs Greenwood informed training data.\relax }}{103}{figure.5.8}%
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Normal contact load vs cage angular displacement\relax }}{104}{figure.5.9}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces $R^2$ performance of ANN structure ($N$=14, $t$=3) using a Logistic Sigmoid activation function at each hidden layer: a) 600 points, b) 1000 points, c) 2000 points, d) 5000 points\relax }}{107}{figure.5.10}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces $R^2$ performance of ANN structure ($N$=14, $t$=3) using a Logistic Sigmoid activation function at each hidden layer: a) 600 points, b) 1000 points, c) 2000 points, d) 5000 points\relax }}{108}{figure.5.10}%
 \contentsline {figure}{\numberline {5.11}{\ignorespaces ANN, numerical and analytical central film thickness comparisons.\relax }}{109}{figure.5.11}%
 \contentsline {figure}{\numberline {5.12}{\ignorespaces Central film thickness - EHL vs ANN vs analytical at increasing shaft rotational speed.\relax }}{110}{figure.5.12}%
 \contentsline {figure}{\numberline {5.13}{\ignorespaces ANN vs analytical CPU time per simulation\relax }}{111}{figure.5.13}%
