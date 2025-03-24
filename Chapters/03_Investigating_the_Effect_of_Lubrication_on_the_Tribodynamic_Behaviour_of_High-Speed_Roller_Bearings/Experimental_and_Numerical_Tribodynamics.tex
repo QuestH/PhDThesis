@@ -5,24 +5,26 @@
 
 A review of the literature revealed that a comprehensive understanding of bearing performance in modern electrified powertrains requires a multi-physics approach comprising dynamics and tribology at high speeds. The working conditions for the tribological contacts between rollers and races are affected by the dynamic behaviour of the bearing. The dynamic behaviour itself is affected by the tribological phenomena at the lubricated conjunctions via its influence on the contact stiffness \cite{Nonato2014} \cite{Bizarre2018}. Therefore, a coupled tribodynamic methodology must be established for more accurately capturing the system’s behaviour.
 
-Bearing orbital motion is conventionally obtained from dynamic models by solving the equations of motion. However, these can be computationally intensive and often lack required physics such as system flexibility. To circumvent the requirement for a complex flexible dynamic model when conducting an initial feasibility review, displacement of the bearing centre and hence contact deflection is captured from experimental test results.
+To determine the contact conditions within bearings, the relative motion between the bearing races must first be established. Traditionally, this motion is derived from dynamic models by solving the equations of motion. However, these can be computationally intensive and often lack required physics such as system flexibility. 
 
-This chapter presents a high-speed experimental test rig which has been instrumented to obtain kinematic boundary conditions for tribological models. This work was performed to ascertain which models must be developed in the tribology domain without the need for an extensive dynamic model. Roller-race contact load and film thickness are obtained using tribological models, whereby the EHL film is considered implicitly at the roller-race conjunction. EHL pressure and film thickness distributions are then obtained using an explicit 1D numerical EHL model. This chapter establishes the necessity of implicit inclusion of the EHL film when considering roller bearing dynamics at high-speed, and the shortcoming of conventional dry analyses at these speeds.
+This chapter presents a high-speed experimental test rig which has been instrumented to experimentally measure the kinematic motion of a bearing at rotational speeds and loads up to 15~000~$rpm$ and 750~$N$ respectively. This motion was used as the boundary conditions for tribological modelling. Roller-race contact load and film thickness are obtained using a lubricated contact model, whereby the EHL film is considered implicitly at the roller-race conjunction. EHL pressure and film thickness distributions are then obtained using an explicit 1D numerical EHL model. Fundamental equations used in the subsequent chapters are also introduced.
+
+This initial work was performed to ascertain which models must be developed in the tribology domain without the requirement for a complex flexible dynamic model. The necessity of implicit inclusion of the EHL film when considering roller bearing dynamics at high-speed, and the shortcoming of conventional dry analyses at these speeds and loading conditions is established.
 
 \section{Workflow}
 
-An experimental test rig is used to measure the relative displacement between the inner and outer races of a cylindrical roller bearing (CRB). At each instantaneous The Hertzian load-deflection relationship, implicitly accounting for the EHL film, is used to determine the load on individual rollers at their instantaneous position of its orbit over a speed range from 0~–~15~000~$rpm$. To consider the EHL film, an implicit analytical tribological model is iterated to account for tribodynamic coupling between film thickness, contact deflection and load. After the experimentally informed tribological model is solved, load and speed values at specific rotational velocities are used within an explicit numerical EHL model to calculate film thickness and pressure distribution across the contact. The flow diagram in Figure \ref{Experimental Tribodynamics Methodology Overview} illustrates the methodology used. Interactions between each stage will be explained in subsequent sections.
+An experimental test rig is used to measure the relative displacement between the inner and outer races of a cylindrical roller bearing (CRB). At each instantaneous position of a roller's orbit, the Hertzian load-deflection relationship in conjunction with the EHL central film thickness is used to determine the roller-race contact load. Experiments are performed across a speed range from 0~–~15~000~$rpm$. To implicitly consider the EHL film, an analytical tribological model is iterated to account for tribodynamic coupling between film thickness, contact deflection and load. After the experimentally informed tribological model is solved, load and speed values at specific rotational velocities are used within an explicit numerical EHL model to calculate film thickness and pressure distribution across the contact. The flow diagram in Figure \ref{Experimental Tribodynamics Methodology Overview} illustrates the methodology used. Interactions between each stage are explained in subsequent sections.
 
 \begin{figure}
 	\centering
     \includegraphics[width=100 mm]{ExpTribo Figure 1 - Methodology Overview.png}
-	\caption{Methodology overview.}
+	\caption{Experimental tribodynamics methodology overview.}
 	\label{Experimental Tribodynamics Methodology Overview}
 \end{figure}
 
 \subsection{Operating Principles}
 
-The rollers within a bearing carry an instantaneous share of the overall applied load \cite{Guo2020}. Deviation of the supported shaft from its nominal geometric centre results in a loaded region of the bearing. Due to the non-conformal nature of the contact between the bearing roller and race, these loads generate high pressures, leading to local surface deformation and increased lubricant viscosity. This results in EHL film formation \cite{Gohar1988} \cite{Grubin1949}. In the unloaded region of the bearing, emerging clearances result in a shift to the hydrodynamic regime of lubrication, which can result in sliding and roller-cage collisions \cite{Mohammadpour2015c}. Hence, the contact may go through different regimes of lubrication throughout operation\cite{Denni2019}.
+The rollers within a bearing carry an instantaneous share of the overall applied load \cite{Guo2020}. Deviation of the supported shaft from its nominal geometric centre results in a loaded region of the bearing. Due to the non-conformal nature of the contact between the bearing roller and race, these loads generate high pressures, leading to local surface deformation and increased lubricant viscosity. In conjunction with relative motion at the contact, this results in EHL film formation \cite{Gohar1988} \cite{Grubin1949}. In the unloaded region of the bearing, emerging clearances result in a shift to the hydrodynamic regime of lubrication, which can result in sliding and roller-cage collisions \cite{Mohammadpour2015c}. Hence, the contact may go through different regimes of lubrication throughout operation\cite{Denni2019}.
 
 \begin{figure}
 	\centering
@@ -31,7 +33,7 @@ The rollers within a bearing carry an instantaneous share of the overall applied
 	\label{CRB in equilibrium position}
 \end{figure}
 
-Figure \ref{CRB in equilibrium position} shows a cylindrical roller bearing (CRB) in equilibrium position with zero preload or design clearance. In the absence of an applied radial load, $F_0$, the initial deformation, $\delta_o$, and radial clearance, $C_0$, between rollers and races are both zero. When an external force is applied, the resulting instantaneous radial load, $F_i$, will displace the inner bearing race from its equilibrium state ($\Delta x$ and $\Delta y$). By analysing an individual roller at its instantaneous angular position, $\theta_i$, the resultant displacement of the bearing centre can be used to determine the deflection at the roller-race contact, $\delta_i$. These contact deformations will result in contact forces, $W_i$, which maintain the roller and races in dynamic equilibrium. The above interpretation is valid considering rigid inner and outer races.
+Figure \ref{CRB in equilibrium position} shows a cylindrical roller bearing (CRB) in equilibrium position with zero preload or design clearance. In the absence of an applied radial load, $F_0$, the initial deformation, $\delta_o$, and radial clearance, $C_0$, between rollers and races are both zero. On application of external force, the resulting instantaneous radial load, $F_i$, will displace the inner bearing race from its equilibrium state ($\Delta x$ and $\Delta y$). By analysing an individual roller at its instantaneous angular position, $\theta_i$, the resultant displacement of the bearing centre can be used to determine the deflection at the roller-race contact, $\delta_i$. These contact deformations will result in contact forces, $W_i$, which maintain the roller and races in dynamic equilibrium. The above interpretation is valid considering rigid inner and outer races.
 
 \begin{figure}
 	\centering
@@ -40,13 +42,15 @@ Figure \ref{CRB in equilibrium position} shows a cylindrical roller bearing (CRB
 	\label{Mutual separation and convergence of inner and outer races}
 \end{figure}
 
-Figure \ref{Mutual separation and convergence of inner and outer races} presents the case whereby an instantaneous load is applied to the inner race. This causes deflection of the rollers in the loaded region and generates clearance around the rollers in the unloaded region. The deflections at the inner and outer race correspond to the normal component of the bearing centre's displacement at the instantaneous position of that roller. In the current study, this displacement was experimentally measured from the test rig and used quasi-statically as the boundary condition for the tribological model. It should be noted that this study considers in-plane, 2-DOF motion. This is a valid assumption under dominant vertical radial loading with secondary horizontal motion from the full system dynamics. Misalignment along the length of the rollers is not considered due to the high stiffness of the shaft and bracket, hence a 1D EHL analysis is sufficient \cite{Gupta1979}.
+Figure \ref{Mutual separation and convergence of inner and outer races} presents the case whereby an instantaneous load is applied to the inner race. This causes deflection of the rollers in the loaded region and generates clearance around the rollers in the unloaded region. The deflections at the inner and outer race correspond to the normal component of the bearing centre's displacement at the instantaneous position of that roller. In the current study, this displacement was experimentally measured from the test rig and used quasi-statically as the boundary condition for the tribological model. It should be noted that this study considers in-plane, 2-DOF motion. This is a valid assumption under dominant vertical radial loading with secondary horizontal motion from the full system dynamics.
 
-\subsection{Modelling Methods}
+\subsection{Lubricated Contact Mechanics}
 
-In the loaded region, the Hertzian load-deflection relationship is used to obtain the resulting instantaneous load on the roller. This value is then used implicitly within an analytical tribological model to calculate contact film thickness for an individual roller as it passes through different angular positions during a speed sweep. An extrapolated film thickness formula is used for this purpose. The calculated film thickness imposes additional deformation at the contact points which itself changes the calculated load. Hence, an iterative approach is required between the force calculation and implicit tribological model. In this part of the workflow, the stiffness and damping of the EHL film is neglected due to its rigid-like stiffness, which is several orders of magnitude higher than the Hertzian contact \cite{Walford1983} \cite{Dareing1975} \cite{Mehdigoli1990}.
+To calculate contact force based on deflection between the roller and race, the Hertzian load-deflection relationship is used. For low-speed, highly loaded analysis, the EHL film is typically neglected and the contact is considered dry. However, at high entrainment velocities, the literature study revealed that the EHL film also influences this contact force. The lubricant imposes additional deformation at the contact points which, changes the calculated force. Figure \ref{Dry vs lubricated roller-race contact} in Chapter \ref{Lubricated FMBD} demonstrates this graphically. 
 
-For in-depth tribological investigations, the numerical solution of the fluid film is essential. This provides the pressure, film thickness and shear distributions in the contact to study the durability and frictional efficiency of the system. In the current study, the load on the roller and contact kinematics obtained from the implicit bearing model is used explicitly in a 1D elastohydrodynamic model to obtain film thickness and pressure distribution at the contact for specific loading periods through the speed sweep, as is shown in Figure \ref{EHL film thickness and pressure distribution at contact}. This explicit approach significantly improves the computational efficiency of the model and in principle, maintains the accuracy since only the central value of the film is required in the load calculation.
+In this study, the central film thickness at the roller-race conjunction is calculated using an extrapolated central film thickness formula. The impact of the film on deflection, and consequently contact force, is evaluated using an iterative approach due to the interdependence between contact load and film thickness. In this part of the workflow, the stiffness and damping of the EHL film is neglected due to its rigid-like stiffness, which is several orders of magnitude higher than the Hertzian contact \cite{Walford1983} \cite{Dareing1975} \cite{Mehdigoli1990}.
+
+For detailed tribological investigations, the numerical solution of the fluid film is essential. This provides the pressure, film thickness and shear distributions at the contact. This allows for further evaluation of the durability and frictional efficiency of the system. In the current study, the load on the roller and contact kinematics obtained from the implicit bearing model is used explicitly in a 1D elastohydrodynamic model to obtain film thickness and pressure distribution for specific loading periods through the speed sweep, as is shown in Figure \ref{EHL film thickness and pressure distribution at contact}. Since misalignment along the length of the rollers is not considered due to the high stiffness of the shaft and bracket, the 1D EHL analysis is sufficient \cite{Gupta1979}. This explicit approach significantly improves the computational efficiency of the model by negating the requirement for an implicit numerical EHL calculation at each sampling point.
 
 \begin{figure}
 	\centering
@@ -57,7 +61,7 @@ For in-depth tribological investigations, the numerical solution of the fluid fi
 
 \subsection{Experimental Test Rig}
 
-The displacement of the bearing centre governs the conditions at the contact and was found experimentally using a high-speed bearing test rig, originally reported by Walker et al. \cite{Walker2018a}. A 5~kW AC synchronous motor, capable of speeds up to 32~000~rpm was coupled to a steel shaft that is supported by two bearing brackets. Radial force was transferred to inner bearing race via the shaft using a hinge/arm mechanism and a load application device on the shaft. Displacement data were obtained from an instrumented bearing bracket. Figure \ref{Experimental rig schematic} shows a schematic of the rig.
+The displacement of the bearing centre governs the conditions at the contact and was found experimentally using a high-speed bearing test rig. A 5~kW AC synchronous motor, capable of speeds up to 32~000~rpm was coupled to a steel shaft that is supported by two bearing brackets. Radial force was transferred to the inner bearing race via the shaft using a hinge/arm mechanism and a point load application device on the shaft. Displacement data were obtained from an instrumented bearing bracket. Figure \ref{Experimental rig schematic} shows a schematic of the rig.
 
 \begin{figure}
 	\centering
@@ -66,7 +70,7 @@ The displacement of the bearing centre governs the conditions at the contact and
 	\label{Experimental rig schematic}
 \end{figure}
 
-The motor control unit was connected to a voltage input, transmitted via an NI cDAQ-9178 USB chassis for optimum resolution of the input voltage. A MATLAB script controlled the voltage ramp over a specified time-period and thus the spindle acceleration. In this study, a transient speed sweep was performed from 0~–~15~000~rpm in a 4~s period, with 750~N of static radial load applied to the shaft. The bearing under test was a single row cylindrical roller bearing, NU~205~ECP, located in an aluminium test bracket that had an extruded bore for instrumentation.
+The motor control unit was connected to a voltage input, transmitted via an NI cDAQ-9178 USB chassis for optimum resolution of the input voltage. A MATLAB script controlled the voltage ramp over a specified time-period and thus the spindle acceleration. In this study, a transient speed sweep was performed from 0~–~15~000~rpm over a 4~s period, with 750~N of static radial load applied to the shaft. The bearing under test was a single row cylindrical roller bearing, NU~205~ECP, located in an aluminium test bracket that has an extruded bore for instrumentation.
 
 \subsection{Instrumentation}
 The outer surface of the bearing bore was instrumented with two Type~4383 single-axis piezo-electric charge accelerometers, with a frequency range of 0.1~–~8.5~kHz and sensitivity of 3.16~pC/ms2.  These measured acceleration of the bracket’s bore, corresponding to the outer race of the bearing (Figure \ref{Accelerometer locations on test bracket}). Two single beam laser vibrometers measured the displacement of the shaft at the edge of the bearing which corresponds to the displacement of the inner race of the bearing (Figure \ref{Laser vibrometer locations on shaft}). A dual-beam vibrometer was used to measure the rotational speed of the shaft. All laser vibrometers had a frequency range of 0~–~10~kHz and maximum speed of 20~000~rpm.
@@ -115,7 +119,7 @@ where $\Delta x_{in}$ and $\Delta x_{out}$ correspond to the displacements of th
 
 \subsection{Contact Mechanics at the Roller Race Conjunction} \label{Contact mechanics experimental tribodynamics}
 
-The contact between roller and race is modelled as an elastic deformation between an equivalent finite length elastic cylinder and rigid plate. This assumption is realistic under the conditions of an EHL contact. The contact force on an individual roller at each instantaneous position, $W_i$, is obtained from the Hertzian load-deflection relationship:
+The contact between roller and race is modelled as an elastic deformation between an equivalent finite length elastic cylinder and rigid plate. This assumption is realistic under the conditions of an EHL line contact. The contact force on an individual roller at each instantaneous position, $W_i$, is obtained from the Hertzian load-deflection relationship:
 
 \begin{equation}\label{Hertz load deflection}
 	W_i=k \delta_i^n
@@ -167,7 +171,7 @@ where $K_{i,in}$ and $K_{i,out}$ are the stiffnesses of the inner and outer race
 
 \subsection{Implicit Tribological Model}
 
-A stepwise solution was performed on an individual roller at each orbital position. The roller bearing and bracket tolerances are such that the internal clearance is $0~\mu m$ between roller and race. In an unloaded state, there is no deflection of elements or raceway. Displacement in positive x-y corresponds to the same total magnitude of deflection of roller and race contact. For each time step, the bearing is first assumed to be in equilibrium position and film thickness is assumed to be $0 \mu m$. The deflection of the bearing is calculated under these conditions and is therefore a function of the relative displacement between inner and outer bearing races. With deflection at the time step calculated, the resultant lubricant regime and subsequent analytical solutions can be performed based on the following three conditions:
+A stepwise solution was performed on an individual roller at each orbital position. The roller bearing and bracket tolerances are such that the internal clearance is $0~\mu m$ between roller and race. In an unloaded state, there is no deflection of elements or raceway. Displacement in positive $x-y$ corresponds to the same total magnitude of deflection of roller and race contacts. For each time step, the bearing is first assumed to be in equilibrium position and film thickness is assumed to be 0~$\mu m$. The deflection of the bearing is calculated under these conditions and is therefore a function of the relative displacement between inner and outer bearing races. With deflection at the time step calculated, the resultant lubricant regime and subsequent analytical solutions can be performed based on the following three conditions:
 
 \begin{enumerate}
 	\item $\delta=0$ indicates a film of 0 $\mu m$ and no load.
@@ -185,7 +189,7 @@ A stepwise solution was performed on an individual roller at each orbital positi
 
 	where $b$ is the half length of the contact, $u_i$ is the speed of lubricant entrainment into the contact, $\eta_0$ is the lubricant viscosity, $R_{zx}$ is the reduced radius of the roller and race and $h$ is lubricant film thickness. 
 	
-	\item $\delta>0$ indicates deflection at the roller-race contact. This means that contact pressure is sufficiently high for the lubrication regime to be elastohydrodynamic. For the elastohydrodynamic regime, an iterative process is performed to solve film thickness. This is due to the contribution of EHL film towards deformation and consequently the load in the contact.
+	\item $\delta>0$ indicates deflection at the roller-race contact. This means that contact pressure is sufficiently high for the lubrication regime to be elastohydrodynamic. For the elastohydrodynamic regime, an iterative process is performed to solve the film thickness. This is due to the contribution of EHL film towards deformation and consequently the load in the contact.
 	
 	The cylindrical roller and race contacts are modelled by an equivalent rigid roller against a semi-infinite elastic half space of equivalent elastic modulus, $E_r$. The extrapolated central film thickness for a line contact is therefore obtained \cite{Dowson1979} from:  
 	
@@ -223,11 +227,11 @@ A stepwise solution was performed on an individual roller at each orbital positi
 
 \subsection{Surface Topography Measurements} \label{Surface Topography}
 
-To assess the likelihood of asperity interaction, the roughness height of asperities, ${\sigma}$, must be measured for the roller and race. Surface topography measurements were performed using an Alicona InfiniteFocus Variation Microscope with a $\times 10$ objective. This had a vertical resolution of 30 $nm$ and sampling point separation of 176.9 $nm$ in the $y-z$ plane of the roller and 1 $nm$ in $x$. An area of 530 by 588 $\mu m$ was captured. Data was processed using Vision65 Map Premium software, where the profile of the radius of the roller was removed. The measured parameters for a roller are presented in Table \ref{Surface Topography Data}. This resulting composite surface roughness of roller and race is 0.207 $\mu m$.
+To assess the likelihood of asperity interaction, the roughness height of asperities, ${\sigma}$, must be measured for the roller and race. Surface topography measurements were performed using an Alicona InfiniteFocus Variation Microscope with a $\times 10$ objective. This had a vertical resolution of 30 $nm$ and sampling point separation of 176.9 $nm$ in the $y-z$ plane of the roller and 1 $nm$ in $x$. An area of 530 by 588 $\mu m$ was captured. Data was processed using Vision65 Map Premium software, where the profile radius of the roller and race was removed. The measured parameters for a roller and race are presented in Table \ref{Surface Topography Data}. The resulting composite surface roughness of a roller-race contact is 0.207 $\mu m$.
 
 
 \begin{table*}
-	\caption{Surface Topography Data}
+	\caption{Surface topography data}
 	\label{Surface Topography Data}
 	\centering
 	\renewcommand{\arraystretch}{1.5}%
@@ -256,8 +260,8 @@ Whilst the analytical solution used in the implicit tribological model provides 
 Reynold’s equation \cite{Reynolds1886} is the governing equation of fluid film lubrication theory. For Newtonian fluids it can be derived from the full Navier-Stokes equations making the following assumptions, primarily the neglection of inertial forces and only retaining viscous forces on the lubricant \cite{Gohar1988}:
 \begin{enumerate} % REQUIRES DIRECTIONS ADDING
 	\item Body forces are negligible (mass of film is negligible)
-	\item Pressure is constant through the lubricant film (z-direction) due to thin film (dimensions of the region of pressure are typically 100 times the central film thickness).
-	\item No slip at boundaries
+	\item Pressure is constant through the lubricant film (z-direction) due to the thin film (dimensions of the region of pressure are typically 100 times the central film thickness).
+	\item No slip at the boundaries
 	\item Lubricant flow is laminar (low Reynolds number)
 	\item Inertia and surface tension forces are negligible compared with viscous forces (working fluid has low mass and low acceleration)
 	\item Shear stress and velocity gradients are only significant across the lubricant film
@@ -355,7 +359,7 @@ The final form of the equation is therefore:
 
 \subsection{Finite Difference Formulation} \label{Finite Difference Formulation}
 
-For finite difference formulation, the central difference formula based on Taylor series expansion \cite{Hoffmann2000} is used. The second derivative of pressure using second order central discretization for the spatial domain is therefore:
+To solve Reynolds equation computationally, a finite difference formulation required. The central difference formula based on Taylor series expansion \cite{Hoffmann2000} is used. The second derivative of pressure using second order central discretization for the spatial domain is therefore:
 
 \begin{equation}\label{eq3.15}
 	\frac{\partial^2 P}{\partial X^2}=\frac{P_{i-1}-2 P_i+P_{i+1}}{\Delta X^2}
@@ -405,13 +409,13 @@ where
 
 \subsection{Effect of Pressure on Lubricant Viscosity}
 
-EHL temperatures are typically in the region of 0.5-4 GPa. The resultant behaviour of the viscosity at these pressures is instrumental in forming the EHL film and must be accounted for. The Barus law \cite{Barus1893} determines viscosity increase with pressure assuming constant ambient temperature: 
+EHL temperatures are typically in the region of 0.5~-~4~$GPa$. The resultant behaviour of the viscosity at these pressures is instrumental in forming the EHL film and must be accounted for. The Barus law \cite{Barus1893} determines viscosity increase with pressure assuming constant ambient temperature: 
 
 \begin{equation}\label{eq3.24}
 	\eta=\eta_0 \exp (\alpha p)
 \end{equation}
 
-where $\eta$ is the lubricant viscosity at gauge pressure, p, $\eta_0$ is the viscosity at $p$~=~0, and $\alpha$ is the pressure-viscosity coefficient $({m}^2 /{N})$ and is specific to the lubricant. This relationship does not account for the change in $\alpha$ with temperature and pressure \cite{Gohar2019}, becoming inaccurate above 0.5~GPa.
+where $\eta$ is the lubricant viscosity at gauge pressure, $p$, $\eta_0$ is the viscosity at $p$~=~0, and $\alpha$ is the pressure-viscosity coefficient $({m}^2 /{N})$ and is specific to the lubricant. This relationship does not account for the change in $\alpha$ with temperature and pressure \cite{Gohar2019}, becoming inaccurate above 0.5~GPa.
 
 A more comprehensive relationship which simultaneously includes the effects of temperature and pressure was one proposed by Roelands \cite{Roelands1966} and developed by Houpert \cite{Houpert1984}.  Roelands law is therefore accurate at higher contact pressures:
 
@@ -447,14 +451,14 @@ For accurate film EHL film shape calculations, the effect that pressure has on t
 	\rho=\rho_0\left(1+\frac{0.6 \times 10^{-9} p}{1+1.7 \times 10^{-9} p}\right)
 \end{equation}
 
-where $\rho_0$ is the lubricant atmospheric pressure. Further modifications can b made to account for the effects of temperature:
+where $\rho_0$ is the lubricant atmospheric pressure. Further modifications can be made to account for the effects of temperature:
 
 \begin{equation}\label{eq3.30}
 	\rho=\rho_0\left(1+\frac{0.6 \times 10^{-9} p}{1+1.7 \times 10^{-9} p}\right)\left[1-0.65 \times 10^{-3}\left(\theta-\theta_0\right]\right.
 \end{equation}
 
 
-\subsection{Effect of Temperature on Viscosity}
+\subsection{Effect of Temperature on Lubricant Viscosity}
 
 Most EHL work assumes constant temperature of the contact and that viscosity and density are dependent on pressure only. Standard experiments have been performed to assess effect of temperature on viscosity. Results have previously been curve fit by Crouch and Cameron \cite{Crouch1961}, with the most simple fit due to Reynolds:
 
@@ -559,11 +563,11 @@ Conjunction level validation of the numerical method for solving the EHL film th
 \end{figure}
 
 \subsection{Experimental Result Verification}
-The experimental results obtained from the presented rig were verified against analytically calculated frequency contents. This was to ensure the correct post processing of data for the input to numerical models. The bearing and lubricant data properties are given in Table \ref{Bearing Specification} and Table \ref{Lubricant and Material Properties} respectively which were also used in simulations.
+The experimental results obtained from the presented rig were verified against analytically calculated frequency contents. This was to ensure the correct post processing of data for the input to tribological models. The bearing and lubricant data properties are given in Table \ref{Bearing Specification} and Table \ref{Lubricant and Material Properties} respectively.
 
 \begin{table*}
 	%\captionsetup{justification=centering}
-	\caption{Bearing Specification}
+	\caption{Bearing specification}
 	\label{Bearing Specification}
 	\centering
 	\renewcommand{\arraystretch}{1.5}%
@@ -592,7 +596,7 @@ The experimental results obtained from the presented rig were verified against a
 
 \begin{table*}
 	%\captionsetup{justification=centering}
-	\caption{Lubricant and Material Properties}
+	\caption{Lubricant and material properties}
 	\label{Lubricant and Material Properties}
 	\centering
 	\renewcommand{\arraystretch}{1.5}%
@@ -625,7 +629,7 @@ The experimental results obtained from the presented rig were verified against a
 	\end{tabular}
 \end{table*}
 
-Primary frequencies in the system due to the interaction of the rolling elements, races and the shaft could then be verified. These frequencies were calculated analytically, with $f_{bpi}$ and $f_{bpo}$ representing the ball pass frequencies of the inner and outer race respectively and $f_{shaft}$ being the rotational frequency of the shaft:
+Primary frequencies in the system due to the interaction of the rolling elements, races and the shaft could be verified. These frequencies were calculated analytically, with $f_{bpi}$ and $f_{bpo}$ representing the ball pass frequencies of the inner and outer race respectively and $f_{shaft}$ being the rotational frequency of the shaft:
 
 \begin{equation}\label{ball pass frequency inner}
 	f_{b p i}=\frac{\omega_s}{2 \pi} \frac{N}{2}\left(1-\frac{D_r}{D_p}\right)
@@ -659,7 +663,7 @@ At 14~000~$rpm$, the theoretical inner and outer race frequencies are calculated
 This section presents the results of the numerical tribological models. The kinematic data from the experimental test rig are used as the boundary conditions to the implicit and explicit models.
 
 \subsection{Film Thickness and Load Across Speed Sweep} 
-The variation in EHL film thickness and roller contact load across the speed sweep from 0~-~15~000~$rpm$ at the outer race contact are shown in Figure \ref{Contact load and film thickness - Outer race}. Only the EHL regions are shown, where loads are significant enough to cause contact deformation. The upper limit of the film is where the roller and races diverge and approach the hydrodynamic regime where the film is hence governed by the entraining motion of lubricant into the contact. The lubricant film, as seen from the film thickness equation, is more affected by the speed of entraining motion rather than the load. This explains the increasing film thickness values in Figure \ref{Contact load and film thickness - Outer race} despite increasing load. The film thickness is increased from 0.1 to 1.9~$\mu m$ across the speed sweep, revealing a significant increase that can affect the tribodynamic behaviour of the bearing, as explained in following sections. From the tribological model, it is possible to observe the transition between mixed-EHL to the purely hydrodynamic regime as the roller passes in and out of the loaded region of the bearing. Full system and rotor dynamics also contribute to the total load on the roller, with periods of resonance at 3~000~$rpm$ and 14~000~$rpm$, marked as $A$ and $B$ respectively in Figure \ref{Contact load and film thickness - Outer race}.
+The variation in EHL film thickness and roller contact load across the speed sweep from 0~-~15~000~$rpm$ at the outer race contact are shown in Figure \ref{Contact load and film thickness - Outer race}. Only the EHL regions are shown, where loads are significant enough to cause contact deformation. The upper limit of the film is where the roller and races diverge and approach the hydrodynamic regime where the film is hence governed by the entraining motion of lubricant into the contact. The lubricant film, as seen from the film thickness equation, is more affected by the speed of entraining motion rather than the load. This explains the increasing film thickness values in Figure \ref{Contact load and film thickness - Outer race}, despite increasing load. The film thickness is increased from 0.1 to 1.9~$\mu m$ across the speed sweep, revealing a significant increase that can affect the tribodynamic behaviour of the bearing, as explained in following sections. Full system and rotor dynamics also contribute to the total load on the roller, with periods of resonance at 3~000~$rpm$ and 14~000~$rpm$, marked as $A$ and $B$ respectively in Figure \ref{Contact load and film thickness - Outer race}.
 
 \begin{figure}
 	\centering
@@ -689,7 +693,7 @@ As has been demonstrated in the results analysis, the contact conditions deviate
 	G_v=\frac{W^{* 3 / 2} G^*}{U^{* 1 / 2}}
 \end{equation}
 
-Four regions exist and the boundaries of these regions are defined by the geometry of contacting bodies, material, and lubricant properties. As is shown in Figure \ref{EHL and hydrodynamic conditions during roller operation}, the outer roller-race contact conditions move between the viscous elastic and iso-viscous rigid regimes, representing EHL and hydrodynamic respectively. The viscous elastic regime signifies the EHL regime of lubrication where contact pressures are such that elastic deformation of the surfaces and viscosity rise due to pressure increase is significant. The iso-viscous rigid regime occurs when the magnitude of elastic deformation is insignificant, and the contact pressures are low enough that viscosity rise is negligible, i.e. hydrodynamic lubrication \cite{Hamrock1980}. The boundary between the two also corresponds well with the distinction being made between hydrodynamic and EHL in this methodology, presented by the black and blue regions of the plot.
+Four regions exist and the boundaries of these regions are defined by the geometry of contacting bodies, material, and lubricant properties. As is shown in Figure \ref{EHL and hydrodynamic conditions during roller operation}, the outer roller-race contact conditions move between the viscous elastic (VE) and iso-viscous rigid (IR) regimes. The VE regime signifies the EHL regime of lubrication where contact pressures are such that the elastic deformation of the surfaces and viscosity rise due to pressure increase is significant. The IR regime occurs when the magnitude of elastic deformation is insignificant, and the contact pressures are low enough that viscosity rise is negligible, i.e. hydrodynamic lubrication \cite{Hamrock1980}. The boundary between the two also corresponds well with the distinction being made between hydrodynamic and EHL in this methodology, presented by the black and blue regions of the plot.
 
 \begin{figure}
 	\centering
@@ -709,7 +713,7 @@ Previously presented results confirmed the significance of considering tribodyna
 	\label{Contact load difference between dry and lubricated model}
 \end{figure} 
 
-There is an increasing contact load difference across the speed sweep, with fluctuations arising from the dynamics of the system. It is clear that neglecting lubricant film thickness leads to significant underestimation of the contact load, hence inaccurate dynamics as well as tribological calculations. This effect gains more significance at higher speeds which highlights the necessity of considering tribodynamic coupling for high-speed conditions in electrified powertrains. To fully understand the requirement for a lubricated bearing model, the percentage difference between both cases is presented at three different rotational speed snapshots of 3~050~$rpm$, 14~135~$rpm$, and 14~855~$rpm$ in Figure \ref{Dry and lubricated model load difference}. At low speeds and relatively low dynamic load, the addition of the film contributes to a 14.8\% greater load prediction than a dry model, showing that the film inclusion has a significant contribution even at low rotational speeds. At shaft speeds of 14~135~$rpm$, the first order resonance in the system, as shown in the frequency plots, creates high dynamic loading. At peak load, the growth of the film is still present, however, the high contact deformation is close to the magnitude of the film growth, hence the difference between dry and lubricated model reaches 25.1\%. As the system passes through this resonant region and the overall dynamic load is reduced, the percentage load difference reaches values as high as 149\% as the effect of the film growth at high speeds exceeds that of the surface deformation.
+There is an increasing contact load difference across the speed sweep, with fluctuations arising from the dynamics of the system. To fully understand the requirement for a lubricated bearing model, the percentage difference between both cases is presented at three different rotational speed snapshots of 3~050~$rpm$, 14~135~$rpm$, and 14~855~$rpm$ in Figure \ref{Dry and lubricated model load difference}. At low speeds and relatively low dynamic load, the addition of the film contributes to a 14.8\% greater load prediction than a dry model, showing that the film inclusion has a significant contribution even at low rotational speeds. At shaft speeds of 14~135~$rpm$, the first order resonance in the system, as shown in the frequency plots, creates high dynamic loading. At peak load, the growth of the film is still present, however, the high contact deformation is close to the magnitude of the film growth, hence the difference between dry and lubricated model reaches 25.1\%. As the system passes through this resonant region and the overall dynamic load is reduced, the percentage load difference reaches values as high as 149\% as the effect of the film growth at high speeds exceeds that of the surface deformation.
 
 \begin{figure}
 	\centering
@@ -741,7 +745,7 @@ At high speeds in periods of resonance, the magnitude of the bearing load domina
 
 \subsection{Numerical EHL Results}
 
-Full numerical simulation is required to obtain detailed pressure and film thickness distributions. These distributions reveal the realistic pressure and film values at the contact for in depth durability, efficiency and thermal analysis. At 8~350~rpm, focussing on one roller orbit, the selected points for EHL numerical analysis are shown in Figure \ref{Selected points for the numerical EHL model}. These load values are found from the implicit tribological model when the roller enters the loaded region of the bearing. The corresponding points on the bearing circumference are also shown. 
+Full numerical simulation is required to obtain detailed pressure and film thickness distributions. These distributions reveal the realistic pressure and film values at the contact for in-depth durability, efficiency and thermal analysis. At 8~350~rpm, focussing on one roller orbit, the selected points for EHL numerical analysis are shown in Figure \ref{Selected points for the numerical EHL model}. These load values are found from the implicit tribological model when the roller enters the loaded region of the bearing. The corresponding points on the bearing circumference are also shown. 
 
 \begin{figure}
 	\centering
@@ -803,11 +807,11 @@ In each of these plots, it is possible again to see the central film thickness d
 
 \begin{table*}
 	%\captionsetup{justification=centering}
-	\caption{Extrapolated Film Formulae and Numerical Model Central Film Thickness Comparison}
+	\caption{Extrapolated film formulae and numerical model central film thickness comparison}
 	\label{Extrapolated film formulae and numerical model central film thickness comparison}
 	\centering
 	\renewcommand{\arraystretch}{1.5}%
-	\begin{tabular}{|P{0.1\textwidth}|P{0.3\textwidth}|P{0.3\textwidth}|P{0.18\textwidth}|}
+	\begin{tabular}{|P{0.1\textwidth}|P{0.34\textwidth}|P{0.34\textwidth}|P{0.18\textwidth}|}
 		\hline
 		\textbf{Node} & \textbf{Extrapolated Formulae Central Film Thickness ($\mu m$)} & \textbf{Numerical Model Central Film Thickness  ($\mu m$)} & \textbf{Percentage Difference (\%)} \\ [0.5ex]
 		\hline
@@ -828,12 +832,11 @@ In each of these plots, it is possible again to see the central film thickness d
 
 \section{Conclusions}
 
-A new methodology comprising experiments and numerical modelling has been developed to allow component and conjunction level tribodynamic analysis of a roller bearing under speeds and loading conditions previously not reported. The experimental data contain the physics of the dynamics and tribology within the bearing, negating the need for a simplified and computationally intensive dynamic bearing model. The tribological conditions at the contact between an individual roller and raceways are numerically analysed. All possible lubrication regimes, including mixed-EHL and hydrodynamic, are considered as the roller passes through loaded and unloaded regions. The following conclusions can be made based on presented results:
+A novel methodology comprising experiments and numerical modelling was developed to allow component and conjunction level tribodynamic analysis of a roller bearing under speeds and loading conditions previously not reported. The experimental data contain the physics of the dynamics and tribology within the bearing, negating the need for a simplified and computationally intensive dynamic bearing model. The tribological conditions at the contact between an individual roller and raceways are numerically analysed. All possible lubrication regimes, including mixed-EHL and hydrodynamic, are considered as the roller passes through loaded and unloaded regions. The following conclusions can be made based on presented results:
 
 \begin{enumerate}
-	\item The contact experiences an order of magnitude increase in film thickness across the speed sweep. This highlights the necessity of implicitly including the lubricant film in any predictive tribodynamic model; an approach that is not reported on in open literature for high-speed dynamic roller bearing analysis.
-	\item A comparison between the dry and lubricated contact model further reinforces the need to include the lubricant film in high-speed roller bearing analysis, with percentage differences in load between both models up to 149\% at 15 000 rpm. Neglecting this film by using the common dry Hertzian approach would lead to an underestimation of the total load at the roller-race contact. 
-	\item At higher speeds, such as those present in modern electric powertrains, it is shown that the growth of the lubricant film must be included implicitly within the dynamic bearing analysis.
-	\item The load values obtained from the lubricated tribological model have been used explicitly within a 1D EHL model to calculate the pressure distribution and film thickness across the contact. The workflow of using an explicit EHL model based on the analytical tribological contact mechanics is valid, with good agreement between central film thickness values for both. 
-	\item The explicit EHL approach significantly improves the computational efficiency of the model whilst maintaining accuracy, since only the central value of the film is required in the load calculation. This can be implicitly coupled to broaden the scope of the analysis that is being performed.
+	\item The contact experiences an order of magnitude increase in film thickness (0.1-~-1.9~$\mu m$) across the speed sweep. This highlights the necessity of implicitly including the lubricant film in any predictive tribodynamic model; an approach that is not reported on in open literature for high-speed dynamic roller bearing analysis.
+	\item A comparison between the dry and lubricated contact model further reinforces the need to include the lubricant film in high-speed roller bearing analysis, with percentage differences in load between both models up to 149\% at 14~855~$rpm$ with . At low speeds, and moderate loads,  Neglecting this film by using the common dry Hertzian approach would lead to an underestimation of the total load at the roller-race contact. 
+	\item The load values obtained from the lubricated tribological model have been used explicitly within a 1D EHL model to calculate the pressure distribution and film thickness across the contact. At 8~350~$rpm$, the extrapolated formulae over-predict the central film thickness by an average of 7.7\%.
+	\item The explicit EHL approach significantly improves the computational efficiency of the model whilst maintaining accuracy, since only the central value of the film is required in the load calculation. This could be implicitly coupled to broaden the scope of the analysis that was performed, however would incur significant computational expense.
 \end{enumerate}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.17)  24 MAR 2025 07:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.17)  24 MAR 2025 23:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1086,9 +1086,10 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 [10]
-Overfull \hbox (0.3269pt too wide) in paragraph at lines 64--64
+Overfull \hbox (3.2669pt too wide) in paragraph at lines 64--64
  [][] []\T1/ptm/m/n/12 (-20) ANN vs an-a-lyt-i-cal film thick-ness at speed in-
-ter-vals from 5 000 - 20 000 $\OML/ztmcm/m/it/12 rpm$ [][]  
+ter-vals from 5 000 - 20 000 $\OML/ztmcm/m/it/12 rpm$\T1/ptm/m/n/12 (-20) . [][
+]  
  []
 
 )
@@ -1120,22 +1121,25 @@ Overfull \vbox (53.4678pt too high) has occurred while \output is active []
 
 
 
-]) [23]
+] [23]
+Overfull \vbox (33.7365pt too high) has occurred while \output is active []
+
+
+[24])
 \openout2 = `Publications/Publications.aux'.
 
-
-(Publications/Publications.tex [24
-
-
-
-
-])
+ (Publications/Publications.tex)
 Overfull \hbox (0.10199pt too wide) in paragraph at lines 29--61
 \T1/ptm/m/n/12 (-15) https://digitaleditions.walsworth.com/publication/?i=77979
 3&p=88&view=issueViewer 
  []
 
-[25] [26
+[25
+
+
+
+
+] [26
 
 
 
@@ -1164,59 +1168,59 @@ s-ing. Sim-u-la-tions up to 21 000 $\OML/ztmcm/m/it/12 rpm$
 ]
 Chapter 2.
 [7]
-<Graphics//eMotorAnnotated.png, id=773, 1169.11781pt x 717.43031pt>
+<Graphics//eMotorAnnotated.png, id=774, 1169.11781pt x 717.43031pt>
 File: Graphics//eMotorAnnotated.png Graphic file (type png)
 <use Graphics//eMotorAnnotated.png>
-Package pdftex.def Info: Graphics//eMotorAnnotated.png  used on input line 13.
+Package pdftex.def Info: Graphics//eMotorAnnotated.png  used on input line 15.
 (pdftex.def)             Requested size: 312.9803pt x 192.05576pt.
-<Graphics//torque_speed_curve.png, id=775, 1217.0268pt x 641.7576pt>
+<Graphics//torque_speed_curve.png, id=776, 1217.0268pt x 641.7576pt>
 File: Graphics//torque_speed_curve.png Graphic file (type png)
 <use Graphics//torque_speed_curve.png>
-Package pdftex.def Info: Graphics//torque_speed_curve.png  used on input line 1
-9.
+Package pdftex.def Info: Graphics//torque_speed_curve.png  used on input line 2
+1.
 (pdftex.def)             Requested size: 355.65944pt x 187.54442pt.
  [8 <./Graphics//eMotorAnnotated.png> <./Graphics//torque_speed_curve.png (PNG 
 copy)>] [9] [10] [11] [12]
-<Graphics//LineContact.png, id=878, 616.704pt x 510.708pt>
+<Graphics//LineContact.png, id=877, 616.704pt x 510.708pt>
 File: Graphics//LineContact.png Graphic file (type png)
 <use Graphics//LineContact.png>
-Package pdftex.def Info: Graphics//LineContact.png  used on input line 73.
+Package pdftex.def Info: Graphics//LineContact.png  used on input line 75.
 (pdftex.def)             Requested size: 312.9803pt x 259.18741pt.
-<Graphics//PointContact.png, id=881, 616.704pt x 470.9595pt>
+<Graphics//PointContact.png, id=880, 616.704pt x 470.9595pt>
 File: Graphics//PointContact.png Graphic file (type png)
 <use Graphics//PointContact.png>
-Package pdftex.def Info: Graphics//PointContact.png  used on input line 79.
+Package pdftex.def Info: Graphics//PointContact.png  used on input line 81.
 (pdftex.def)             Requested size: 312.9803pt x 239.0148pt.
  [13] [14 <./Graphics//LineContact.png> <./Graphics//PointContact.png>]
-<Graphics//Hertzian_Contact_Deflection.png, id=899, 824.32968pt x 554.82281pt>
+<Graphics//Hertzian_Contact_Deflection.png, id=898, 824.32968pt x 554.82281pt>
 File: Graphics//Hertzian_Contact_Deflection.png Graphic file (type png)
 <use Graphics//Hertzian_Contact_Deflection.png>
 Package pdftex.def Info: Graphics//Hertzian_Contact_Deflection.png  used on inp
-ut line 99.
+ut line 101.
 (pdftex.def)             Requested size: 284.52756pt x 191.5072pt.
  [15 <./Graphics//Hertzian_Contact_Deflection.png>]
 [16] [17] [18] [19]
-<Graphics//Starvation_Hamrock_Dowson.png, id=983, 526.21594pt x 604.50844pt>
+<Graphics//Starvation_Hamrock_Dowson.png, id=980, 526.21594pt x 604.50844pt>
 File: Graphics//Starvation_Hamrock_Dowson.png Graphic file (type png)
 <use Graphics//Starvation_Hamrock_Dowson.png>
 Package pdftex.def Info: Graphics//Starvation_Hamrock_Dowson.png  used on input
- line 167.
+ line 169.
 (pdftex.def)             Requested size: 256.0748pt x 294.18243pt.
  [20] [21 <./Graphics//Starvation_Hamrock_Dowson.png>]
-<Graphics//EHL_Film_Pressure_Schematic.png, id=1015, 289.08pt x 190.61212pt>
+[22]
+<Graphics//EHL_Film_Pressure_Schematic.png, id=1019, 289.08pt x 190.61212pt>
 File: Graphics//EHL_Film_Pressure_Schematic.png Graphic file (type png)
 <use Graphics//EHL_Film_Pressure_Schematic.png>
 Package pdftex.def Info: Graphics//EHL_Film_Pressure_Schematic.png  used on inp
-ut line 193.
+ut line 195.
 (pdftex.def)             Requested size: 355.65944pt x 234.52422pt.
-
-[22] [23 <./Graphics//EHL_Film_Pressure_Schematic.png>]
-<Graphics//Stribeck_Curve.png, id=1033, 790.45313pt x 395.22656pt>
+ [23 <./Graphics//EHL_Film_Pressure_Schematic.png>]
+<Graphics//Stribeck_Curve.png, id=1032, 790.45313pt x 395.22656pt>
 File: Graphics//Stribeck_Curve.png Graphic file (type png)
 <use Graphics//Stribeck_Curve.png>
-Package pdftex.def Info: Graphics//Stribeck_Curve.png  used on input line 220.
+Package pdftex.def Info: Graphics//Stribeck_Curve.png  used on input line 222.
 (pdftex.def)             Requested size: 284.52756pt x 142.26335pt.
- [24 <./Graphics//Stribeck_Curve.png>] [25]) [26] [27]
+ [24 <./Graphics//Stribeck_Curve.png>] [25] [26]) [27]
 \openout2 = `Chapters/03_Investigating_the_Effect_of_Lubrication_on_the_Tribody
 namic_Behaviour_of_High-Speed_Roller_Bearings/Experimental_and_Numerical_Tribod
 ynamics.aux'.
@@ -1232,13 +1236,13 @@ our_of_High-Speed_Roller_Bearings/Experimental_and_Numerical_Tribodynamics.tex
 ]
 Chapter 3.
 [29]
-<Graphics//ExpTribo Figure 1 - Methodology Overview.png, id=1116, 867.24pt x 68
+<Graphics//ExpTribo Figure 1 - Methodology Overview.png, id=1115, 867.24pt x 68
 0.5425pt>
 File: Graphics//ExpTribo Figure 1 - Methodology Overview.png Graphic file (type
  png)
 <use Graphics//ExpTribo Figure 1 - Methodology Overview.png>
 Package pdftex.def Info: Graphics//ExpTribo Figure 1 - Methodology Overview.png
-  used on input line 18.
+  used on input line 20.
 (pdftex.def)             Requested size: 284.52756pt x 223.2713pt.
 
 
@@ -1250,25 +1254,25 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
 
 [30 <./Graphics//ExpTribo Figure 1 - Methodology Overview.png>]
-<Graphics//ExpTribo Figure 2 - CRB in equilibrium position.png, id=1127, 637.63
+<Graphics//ExpTribo Figure 2 - CRB in equilibrium position.png, id=1126, 637.63
 219pt x 531.48563pt>
 File: Graphics//ExpTribo Figure 2 - CRB in equilibrium position.png Graphic fil
 e (type png)
 <use Graphics//ExpTribo Figure 2 - CRB in equilibrium position.png>
 Package pdftex.def Info: Graphics//ExpTribo Figure 2 - CRB in equilibrium posit
-ion.png  used on input line 29.
+ion.png  used on input line 31.
 (pdftex.def)             Requested size: 284.52756pt x 237.1632pt.
 <Graphics//ExpTribo Figure 3 – Mutual separation and convergence of inner and
- outer races 2.png, id=1129, 961.34157pt x 466.74374pt>
+ outer races 2.png, id=1128, 961.34157pt x 466.74374pt>
 File: Graphics//ExpTribo Figure 3 – Mutual separation and convergence of inne
 r and outer races 2.png Graphic file (type png)
 <use Graphics//ExpTribo Figure 3 – Mutual separation and convergence of inner
  and outer races 2.png>
 Package pdftex.def Info: Graphics//ExpTribo Figure 3 – Mutual separation and 
-convergence of inner and outer races 2.png  used on input line 38.
+convergence of inner and outer races 2.png  used on input line 40.
 (pdftex.def)             Requested size: 426.79134pt x 207.21245pt.
 
-Overfull \hbox (11.38109pt too wide) in paragraph at lines 38--39
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 40--41
  [][] 
  []
 
@@ -1284,13 +1288,13 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 [32 <./Graphics//ExpTribo Figure 3 – Mutual separation and convergence of inn
 er and outer races 2.png>]
 <Graphics//ExpTribo Figure 4 - EHL film thickness and pressure distribution at 
-contact.png, id=1150, 611.28375pt x 502.12593pt>
+contact.png, id=1151, 611.28375pt x 502.12593pt>
 File: Graphics//ExpTribo Figure 4 - EHL film thickness and pressure distributio
 n at contact.png Graphic file (type png)
 <use Graphics//ExpTribo Figure 4 - EHL film thickness and pressure distribution
  at contact.png>
 Package pdftex.def Info: Graphics//ExpTribo Figure 4 - EHL film thickness and p
-ressure distribution at contact.png  used on input line 53.
+ressure distribution at contact.png  used on input line 57.
 (pdftex.def)             Requested size: 284.52756pt x 233.716pt.
 <Graphics//ExpTribo Figure 5 – Experimental rig schematic.png, id=1153, 746.0
 3719pt x 462.97969pt>
@@ -1298,31 +1302,31 @@ File: Graphics//ExpTribo Figure 5 – Experimental rig schematic.png Graphic fi
 le (type png)
 <use Graphics//ExpTribo Figure 5 – Experimental rig schematic.png>
 Package pdftex.def Info: Graphics//ExpTribo Figure 5 – Experimental rig schem
-atic.png  used on input line 64.
+atic.png  used on input line 68.
 (pdftex.def)             Requested size: 341.43306pt x 211.8853pt.
  [33 <./Graphics//ExpTribo Figure 4 - EHL film thickness and pressure distribut
 ion at contact.png>]
 <Graphics//ExpTribo Figure 6(a) - Accelerometer Locations on Test Bracket.png, 
-id=1165, 778.40813pt x 435.12563pt>
+id=1164, 778.40813pt x 435.12563pt>
 File: Graphics//ExpTribo Figure 6(a) - Accelerometer Locations on Test Bracket.
 png Graphic file (type png)
 <use Graphics//ExpTribo Figure 6(a) - Accelerometer Locations on Test Bracket.p
 ng>
 Package pdftex.def Info: Graphics//ExpTribo Figure 6(a) - Accelerometer Locatio
-ns on Test Bracket.png  used on input line 76.
+ns on Test Bracket.png  used on input line 80.
 (pdftex.def)             Requested size: 426.79134pt x 238.58284pt.
 
-Overfull \hbox (11.38109pt too wide) in paragraph at lines 76--77
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 80--81
  [][] 
  []
 
 <Graphics//ExpTribo Figure 6(b) Laser Vibrometer Locations on Shaft 2.png, id=1
-166, 597.73312pt x 452.4403pt>
+165, 597.73312pt x 452.4403pt>
 File: Graphics//ExpTribo Figure 6(b) Laser Vibrometer Locations on Shaft 2.png 
 Graphic file (type png)
 <use Graphics//ExpTribo Figure 6(b) Laser Vibrometer Locations on Shaft 2.png>
 Package pdftex.def Info: Graphics//ExpTribo Figure 6(b) Laser Vibrometer Locati
-ons on Shaft 2.png  used on input line 83.
+ons on Shaft 2.png  used on input line 87.
 (pdftex.def)             Requested size: 341.43306pt x 258.43904pt.
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
@@ -1372,18 +1376,17 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
 
 [42]
-Overfull \hbox (22.2627pt too wide) detected at line 374
+Overfull \hbox (22.2627pt too wide) detected at line 378
 [][][] \OT1/ztmcm/m/n/12 + [] [] \OMS/ztmcm/m/n/12 ^^@ [] [] \OT1/ztmcm/m/n/12 
 	\OML/ztmcm/m/it/12 U \OT1/ztmcm/m/n/12 = 0
  []
 
-
-Overfull \hbox (11.97554pt too wide) detected at line 378
+[43]
+Overfull \hbox (11.97554pt too wide) detected at line 382
 [][][] \OT1/ztmcm/m/n/12 + [] [] \OMS/ztmcm/m/n/12 ^^@ [] [] \OT1/ztmcm/m/n/12 
 	\OML/ztmcm/m/it/12 U \OT1/ztmcm/m/n/12 = []
  []
 
-[43]
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
 (fancyhdr)                Make it at least 26.98592pt, for example:
@@ -1403,7 +1406,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 
 [46] [47]
 <Graphics//ExpTribo Figure 9 - Validation of dimensionless pressure distributio
-n, present model (solid), Masjedi and Khonsari (dashed).png, id=1352, 1557.5690
+n, present model (solid), Masjedi and Khonsari (dashed).png, id=1350, 1557.5690
 6pt x 752.0597pt>
 File: Graphics//ExpTribo Figure 9 - Validation of dimensionless pressure distri
 bution, present model (solid), Masjedi and Khonsari (dashed).png Graphic file (
@@ -1412,10 +1415,10 @@ type png)
 ution, present model (solid), Masjedi and Khonsari (dashed).png>
 Package pdftex.def Info: Graphics//ExpTribo Figure 9 - Validation of dimensionl
 ess pressure distribution, present model (solid), Masjedi and Khonsari (dashed)
-.png  used on input line 549.
+.png  used on input line 553.
 (pdftex.def)             Requested size: 341.43306pt x 164.85692pt.
 <Graphics//ExpTribo Figure 10 - Validation of dimensionless film thickness dist
-ribution, present model (solid), Masjedi and Khonsari (dashed).png, id=1353, 15
+ribution, present model (solid), Masjedi and Khonsari (dashed).png, id=1351, 15
 31.97343pt x 786.68906pt>
 File: Graphics//ExpTribo Figure 10 - Validation of dimensionless film thickness
  distribution, present model (solid), Masjedi and Khonsari (dashed).png Graphic
@@ -1424,7 +1427,7 @@ File: Graphics//ExpTribo Figure 10 - Validation of dimensionless film thickness
 distribution, present model (solid), Masjedi and Khonsari (dashed).png>
 Package pdftex.def Info: Graphics//ExpTribo Figure 10 - Validation of dimension
 less film thickness distribution, present model (solid), Masjedi and Khonsari (
-dashed).png  used on input line 556.
+dashed).png  used on input line 560.
 (pdftex.def)             Requested size: 341.43306pt x 175.32886pt.
 
 
@@ -1436,23 +1439,23 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
 
 [48 <./Graphics//ExpTribo Figure 9 - Validation of dimensionless pressure distr
-ibution, present model (solid), Masjedi and Khonsari (dashed).png>] [49 <./Grap
-hics//ExpTribo Figure 10 - Validation of dimensionless film thickness distribut
-ion, present model (solid), Masjedi and Khonsari (dashed).png>]
+ibution, present model (solid), Masjedi and Khonsari (dashed).png>]
 <Graphics//ExpTribo Figure 7 - Bearing Bore Displacement Frequency Spectra.png,
- id=1369, 1988.93062pt x 866.48718pt>
+ id=1363, 1988.93062pt x 866.48718pt>
 File: Graphics//ExpTribo Figure 7 - Bearing Bore Displacement Frequency Spectra
 .png Graphic file (type png)
 <use Graphics//ExpTribo Figure 7 - Bearing Bore Displacement Frequency Spectra.
 png>
 Package pdftex.def Info: Graphics//ExpTribo Figure 7 - Bearing Bore Displacemen
-t Frequency Spectra.png  used on input line 646.
+t Frequency Spectra.png  used on input line 650.
 (pdftex.def)             Requested size: 426.79134pt x 185.93413pt.
 
-Overfull \hbox (11.38109pt too wide) in paragraph at lines 646--647
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 650--651
  [][] 
  []
 
+[49 <./Graphics//ExpTribo Figure 10 - Validation of dimensionless film thicknes
+s distribution, present model (solid), Masjedi and Khonsari (dashed).png>]
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
 (fancyhdr)                Make it at least 26.98592pt, for example:
@@ -1463,15 +1466,15 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 
 [50]
 <Graphics//ExpTribo Figure 8 - Shaft Displacement Frequency Spectra.png, id=137
-7, 1986.67218pt x 959.83594pt>
+6, 1986.67218pt x 959.83594pt>
 File: Graphics//ExpTribo Figure 8 - Shaft Displacement Frequency Spectra.png Gr
 aphic file (type png)
 <use Graphics//ExpTribo Figure 8 - Shaft Displacement Frequency Spectra.png>
 Package pdftex.def Info: Graphics//ExpTribo Figure 8 - Shaft Displacement Frequ
-ency Spectra.png  used on input line 653.
+ency Spectra.png  used on input line 657.
 (pdftex.def)             Requested size: 426.79134pt x 206.1996pt.
 
-Overfull \hbox (11.38109pt too wide) in paragraph at lines 653--654
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 657--658
  [][] 
  []
 
@@ -1479,30 +1482,30 @@ Overfull \hbox (11.38109pt too wide) in paragraph at lines 653--654
 a.png> <./Graphics//ExpTribo Figure 8 - Shaft Displacement Frequency Spectra.pn
 g>]
 <Graphics//ExpTribo Figure 11 - Contact Load and Film Thickness - Outer Race.pn
-g, id=1388, 1674.255pt x 762.59906pt>
+g, id=1387, 1674.255pt x 762.59906pt>
 File: Graphics//ExpTribo Figure 11 - Contact Load and Film Thickness - Outer Ra
 ce.png Graphic file (type png)
 <use Graphics//ExpTribo Figure 11 - Contact Load and Film Thickness - Outer Rac
 e.png>
 Package pdftex.def Info: Graphics//ExpTribo Figure 11 - Contact Load and Film T
-hickness - Outer Race.png  used on input line 666.
+hickness - Outer Race.png  used on input line 670.
 (pdftex.def)             Requested size: 426.79134pt x 194.39618pt.
 
-Overfull \hbox (11.38109pt too wide) in paragraph at lines 666--667
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 670--671
  [][] 
  []
 
 <Graphics//ExpTribo Figure 12 - Film and Load - EHL to Hydrodynamic Regime.png,
- id=1391, 1043.5788pt x 481.3182pt>
+ id=1390, 1043.5788pt x 481.3182pt>
 File: Graphics//ExpTribo Figure 12 - Film and Load - EHL to Hydrodynamic Regime
 .png Graphic file (type png)
 <use Graphics//ExpTribo Figure 12 - Film and Load - EHL to Hydrodynamic Regime.
 png>
 Package pdftex.def Info: Graphics//ExpTribo Figure 12 - Film and Load - EHL to 
-Hydrodynamic Regime.png  used on input line 675.
+Hydrodynamic Regime.png  used on input line 679.
 (pdftex.def)             Requested size: 426.79134pt x 196.84233pt.
 
-Overfull \hbox (11.38109pt too wide) in paragraph at lines 675--676
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 679--680
  [][] 
  []
 
@@ -1517,32 +1520,32 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 [52 <./Graphics//ExpTribo Figure 11 - Contact Load and Film Thickness - Outer R
 ace.png>]
 <Graphics//ExpTribo Figure 14 – EHL and hydrodynamic conditions during roller
- operation.png, id=1400, 1321.18594pt x 740.7675pt>
+ operation.png, id=1399, 1321.18594pt x 740.7675pt>
 File: Graphics//ExpTribo Figure 14 – EHL and hydrodynamic conditions during r
 oller operation.png Graphic file (type png)
 <use Graphics//ExpTribo Figure 14 – EHL and hydrodynamic conditions during ro
 ller operation.png>
 Package pdftex.def Info: Graphics//ExpTribo Figure 14 – EHL and hydrodynamic 
-conditions during roller operation.png  used on input line 696.
+conditions during roller operation.png  used on input line 700.
 (pdftex.def)             Requested size: 426.79134pt x 239.28847pt.
 
-Overfull \hbox (11.38109pt too wide) in paragraph at lines 696--697
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 700--701
  [][] 
  []
 
 [53 <./Graphics//ExpTribo Figure 12 - Film and Load - EHL to Hydrodynamic Regim
 e.png (PNG copy)>]
 <Graphics//ExpTribo Figure 15 - Contact Load Difference Between Dry and Lubrica
-ted Model.png, id=1412, 1603.49063pt x 832.61063pt>
+ted Model.png, id=1411, 1603.49063pt x 832.61063pt>
 File: Graphics//ExpTribo Figure 15 - Contact Load Difference Between Dry and Lu
 bricated Model.png Graphic file (type png)
 <use Graphics//ExpTribo Figure 15 - Contact Load Difference Between Dry and Lub
 ricated Model.png>
 Package pdftex.def Info: Graphics//ExpTribo Figure 15 - Contact Load Difference
- Between Dry and Lubricated Model.png  used on input line 707.
+ Between Dry and Lubricated Model.png  used on input line 711.
 (pdftex.def)             Requested size: 426.79134pt x 221.60631pt.
 
-Overfull \hbox (11.38109pt too wide) in paragraph at lines 707--708
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 711--712
  [][] 
  []
 
@@ -1556,23 +1559,23 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 
 [54 <./Graphics//ExpTribo Figure 14 – EHL and hydrodynamic conditions during 
 roller operation.png>]
-<Graphics//ExpTribo Figure 16a.png, id=1419, 1583.16469pt x 745.28438pt>
+<Graphics//ExpTribo Figure 16a.png, id=1418, 1583.16469pt x 745.28438pt>
 File: Graphics//ExpTribo Figure 16a.png Graphic file (type png)
 <use Graphics//ExpTribo Figure 16a.png>
 Package pdftex.def Info: Graphics//ExpTribo Figure 16a.png  used on input line 
-718.
+722.
 (pdftex.def)             Requested size: 311.55768pt x 146.66609pt.
-<Graphics//ExpTribo Figure 16b.png, id=1420, 1593.70406pt x 746.79pt>
+<Graphics//ExpTribo Figure 16b.png, id=1419, 1593.70406pt x 746.79pt>
 File: Graphics//ExpTribo Figure 16b.png Graphic file (type png)
 <use Graphics//ExpTribo Figure 16b.png>
 Package pdftex.def Info: Graphics//ExpTribo Figure 16b.png  used on input line 
-725.
+729.
 (pdftex.def)             Requested size: 311.55768pt x 145.9824pt.
-<Graphics//ExpTribo Figure 16c.png, id=1421, 1593.70406pt x 752.0597pt>
+<Graphics//ExpTribo Figure 16c.png, id=1420, 1593.70406pt x 752.0597pt>
 File: Graphics//ExpTribo Figure 16c.png Graphic file (type png)
 <use Graphics//ExpTribo Figure 16c.png>
 Package pdftex.def Info: Graphics//ExpTribo Figure 16c.png  used on input line 
-732.
+736.
 (pdftex.def)             Requested size: 311.55768pt x 147.01253pt.
  [55 <./Graphics//ExpTribo Figure 15 - Contact Load Difference Between Dry and 
 Lubricated Model.png>]
@@ -1587,55 +1590,60 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 [56 <./Graphics//ExpTribo Figure 16a.png> <./Graphics//ExpTribo Figure 16b.png>
  <./Graphics//ExpTribo Figure 16c.png>]
 <Graphics//ExpTribo Figure 17 – Selected Points for Numerical EHL Model.png, 
-id=1438, 963.6pt x 464.937pt>
+id=1437, 963.6pt x 464.937pt>
 File: Graphics//ExpTribo Figure 17 – Selected Points for Numerical EHL Model.
 png Graphic file (type png)
 <use Graphics//ExpTribo Figure 17 – Selected Points for Numerical EHL Model.p
 ng>
 Package pdftex.def Info: Graphics//ExpTribo Figure 17 – Selected Points for N
-umerical EHL Model.png  used on input line 748.
+umerical EHL Model.png  used on input line 752.
 (pdftex.def)             Requested size: 426.79134pt x 205.92084pt.
 
-Overfull \hbox (11.38109pt too wide) in paragraph at lines 748--749
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 752--753
  [][] 
  []
 
-<Graphics//ExpTribo Figure 18a.png, id=1439, 1594.45688pt x 757.32938pt>
+<Graphics//ExpTribo Figure 18a.png, id=1438, 1594.45688pt x 757.32938pt>
 File: Graphics//ExpTribo Figure 18a.png Graphic file (type png)
 <use Graphics//ExpTribo Figure 18a.png>
 Package pdftex.def Info: Graphics//ExpTribo Figure 18a.png  used on input line 
-759.
+763.
 (pdftex.def)             Requested size: 203.5533pt x 96.67667pt.
-<Graphics//ExpTribo Figure 18b.png, id=1440, 1594.45688pt x 757.32938pt>
+<Graphics//ExpTribo Figure 18b.png, id=1439, 1594.45688pt x 757.32938pt>
 File: Graphics//ExpTribo Figure 18b.png Graphic file (type png)
 <use Graphics//ExpTribo Figure 18b.png>
 Package pdftex.def Info: Graphics//ExpTribo Figure 18b.png  used on input line 
-766.
+770.
 (pdftex.def)             Requested size: 203.5533pt x 96.67667pt.
-<Graphics//ExpTribo Figure 18c.png, id=1441, 1594.45688pt x 756.57657pt>
+<Graphics//ExpTribo Figure 18c.png, id=1440, 1594.45688pt x 756.57657pt>
 File: Graphics//ExpTribo Figure 18c.png Graphic file (type png)
 <use Graphics//ExpTribo Figure 18c.png>
 Package pdftex.def Info: Graphics//ExpTribo Figure 18c.png  used on input line 
-773.
+777.
 (pdftex.def)             Requested size: 203.5533pt x 96.58057pt.
-<Graphics//ExpTribo Figure 18d.png, id=1442, 1594.45688pt x 757.32938pt>
+<Graphics//ExpTribo Figure 18d.png, id=1441, 1594.45688pt x 757.32938pt>
 File: Graphics//ExpTribo Figure 18d.png Graphic file (type png)
 <use Graphics//ExpTribo Figure 18d.png>
 Package pdftex.def Info: Graphics//ExpTribo Figure 18d.png  used on input line 
-780.
+784.
 (pdftex.def)             Requested size: 203.5533pt x 96.67667pt.
-<Graphics//ExpTribo Figure 18e.png, id=1443, 1594.45688pt x 753.5653pt>
+<Graphics//ExpTribo Figure 18e.png, id=1442, 1594.45688pt x 753.5653pt>
 File: Graphics//ExpTribo Figure 18e.png Graphic file (type png)
 <use Graphics//ExpTribo Figure 18e.png>
 Package pdftex.def Info: Graphics//ExpTribo Figure 18e.png  used on input line 
-787.
+791.
 (pdftex.def)             Requested size: 203.5533pt x 96.19615pt.
-<Graphics//ExpTribo Figure 18f.png, id=1444, 1594.45688pt x 754.31813pt>
+<Graphics//ExpTribo Figure 18f.png, id=1443, 1594.45688pt x 754.31813pt>
 File: Graphics//ExpTribo Figure 18f.png Graphic file (type png)
 <use Graphics//ExpTribo Figure 18f.png>
 Package pdftex.def Info: Graphics//ExpTribo Figure 18f.png  used on input line 
-794.
+798.
 (pdftex.def)             Requested size: 203.5533pt x 96.29227pt.
+
+Overfull \hbox (33.37999pt too wide) in paragraph at lines 814--831
+ [][] 
+ []
+
 [57 <./Graphics//ExpTribo Figure 17 – Selected Points for Numerical EHL Model
 .png>]
 
@@ -1648,31 +1656,22 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 
 [58 <./Graphics//ExpTribo Figure 18a.png> <./Graphics//ExpTribo Figure 18b.png>
  <./Graphics//ExpTribo Figure 18c.png> <./Graphics//ExpTribo Figure 18d.png> <.
-/Graphics//ExpTribo Figure 18e.png> <./Graphics//ExpTribo Figure 18f.png>]
-[59])
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 26.98592pt, for example:
-(fancyhdr)                \setlength{\headheight}{26.98592pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
-
-[60]
+/Graphics//ExpTribo Figure 18e.png> <./Graphics//ExpTribo Figure 18f.png>])
+[59]
 \openout2 = `Chapters/04_Modelling_Lubricated_Bearings_in_a_Flexible_Multi-Body
 _Dynamic_Environment/Lubricated_FMBD.aux'.
 
 
 (Chapters/04_Modelling_Lubricated_Bearings_in_a_Flexible_Multi-Body_Dynamic_Env
-ironment/Lubricated_FMBD.tex
-Chapter 4.
-[61
+ironment/Lubricated_FMBD.tex [60
 
 
 
 
 ]
-<Graphics//FlexiTribo Figure 1. Flowchart of Models.png, id=1489, 1242.14063pt 
+Chapter 4.
+[61]
+<Graphics//FlexiTribo Figure 1. Flowchart of Models.png, id=1487, 1242.14063pt 
 x 618.81187pt>
 File: Graphics//FlexiTribo Figure 1. Flowchart of Models.png Graphic file (type
  png)
@@ -1685,7 +1684,7 @@ Overfull \hbox (11.38109pt too wide) in paragraph at lines 17--18
  [][] 
  []
 
-<Graphics//FlexiTribo Figure 2. System Level Model Schematic.png, id=1492, 963.
+<Graphics//FlexiTribo Figure 2. System Level Model Schematic.png, id=1490, 963.
 6pt x 542.025pt>
 File: Graphics//FlexiTribo Figure 2. System Level Model Schematic.png Graphic f
 ile (type png)
@@ -1700,7 +1699,7 @@ Overfull \hbox (11.38109pt too wide) in paragraph at lines 28--29
 
 [62] [63 <./Graphics//FlexiTribo Figure 1. Flowchart of Models.png>] [64 <./Gra
 phics//FlexiTribo Figure 2. System Level Model Schematic.png>] [65]
-<Graphics//FlexiTribo Figure 3. Bearing Schematic.png, id=1527, 963.6pt x 542.0
+<Graphics//FlexiTribo Figure 3. Bearing Schematic.png, id=1525, 963.6pt x 542.0
 25pt>
 File: Graphics//FlexiTribo Figure 3. Bearing Schematic.png Graphic file (type p
 ng)
@@ -1715,7 +1714,7 @@ Overfull \hbox (11.38109pt too wide) in paragraph at lines 101--102
 
 [66 <./Graphics//FlexiTribo Figure 3. Bearing Schematic.png>]
 <Graphics//FlexiTribo Figure 4. Dry vs Lubricated Roller-Race Contact.png, id=1
-540, 963.6pt x 542.025pt>
+538, 963.6pt x 542.025pt>
 File: Graphics//FlexiTribo Figure 4. Dry vs Lubricated Roller-Race Contact.png 
 Graphic file (type png)
 <use Graphics//FlexiTribo Figure 4. Dry vs Lubricated Roller-Race Contact.png>
@@ -1729,7 +1728,7 @@ Overfull \hbox (11.38109pt too wide) in paragraph at lines 124--125
 
 [67 <./Graphics//FlexiTribo Figure 4. Dry vs Lubricated Roller-Race Contact.png
 >] [68]
-<Graphics//FlexiTribo Figure 5. Contact Level Validation.png, id=1578, 1445.4pt
+<Graphics//FlexiTribo Figure 5. Contact Level Validation.png, id=1576, 1445.4pt
  x 673.01437pt>
 File: Graphics//FlexiTribo Figure 5. Contact Level Validation.png Graphic file 
 (type png)
@@ -1745,7 +1744,7 @@ Overfull \hbox (11.38109pt too wide) in paragraph at lines 179--180
 [69 <./Graphics//FlexiTribo Figure 5. Contact Level Validation.png (PNG copy)>]
 [70] [71]
 <Graphics//FlexiTribo Figure 6. PMSM Torque Profile and Maximum and Minimum Tor
-que Fluctuation.png, id=1613, 1445.4pt x 673.01437pt>
+que Fluctuation.png, id=1611, 1445.4pt x 673.01437pt>
 File: Graphics//FlexiTribo Figure 6. PMSM Torque Profile and Maximum and Minimu
 m Torque Fluctuation.png Graphic file (type png)
 <use Graphics//FlexiTribo Figure 6. PMSM Torque Profile and Maximum and Minimum
@@ -1758,7 +1757,7 @@ Overfull \hbox (11.38109pt too wide) in paragraph at lines 282--283
  [][] 
  []
 
-<Graphics//Hub_motor_excitation_model_annotated.png, id=1616, 694.23pt x 478.95
+<Graphics//Hub_motor_excitation_model_annotated.png, id=1614, 694.23pt x 478.95
 3pt>
 File: Graphics//Hub_motor_excitation_model_annotated.png Graphic file (type png
 )
@@ -1779,7 +1778,7 @@ My plan is to forget the whole thing and hope for the best.
 [72 <./Graphics//FlexiTribo Figure 6. PMSM Torque Profile and Maximum and Minim
 um Torque Fluctuation.png (PNG copy)>] [73 <./Graphics//Hub_motor_excitation_mo
 del_annotated.png>]
-<Graphics//Communication_Vector_MATLAB.png, id=1626, 1166.85938pt x 70.76437pt>
+<Graphics//Communication_Vector_MATLAB.png, id=1624, 1166.85938pt x 70.76437pt>
 
 File: Graphics//Communication_Vector_MATLAB.png Graphic file (type png)
 <use Graphics//Communication_Vector_MATLAB.png>
@@ -1799,17 +1798,17 @@ tm/m/n/12 (-20) is fa-cil-i-tated via an S-function. There-fore, a Simulink\TS1
  []
 
 [74 <./Graphics//Communication_Vector_MATLAB.png>]
-<Graphics//Output Port.png, id=1635, 351.11176pt x 215.00325pt>
+<Graphics//Output Port.png, id=1633, 351.11176pt x 215.00325pt>
 File: Graphics//Output Port.png Graphic file (type png)
 <use Graphics//Output Port.png>
 Package pdftex.def Info: Graphics//Output Port.png  used on input line 381.
 (pdftex.def)             Requested size: 355.65944pt x 217.79785pt.
-<Graphics//Input Port.png, id=1636, 274.02374pt x 225.54262pt>
+<Graphics//Input Port.png, id=1634, 274.02374pt x 225.54262pt>
 File: Graphics//Input Port.png Graphic file (type png)
 <use Graphics//Input Port.png>
 Package pdftex.def Info: Graphics//Input Port.png  used on input line 392.
 (pdftex.def)             Requested size: 355.65944pt x 292.75798pt.
-<Graphics//Simulink_schematic_annotated.png, id=1638, 839.646pt x 542.025pt>
+<Graphics//Simulink_schematic_annotated.png, id=1636, 839.646pt x 542.025pt>
 File: Graphics//Simulink_schematic_annotated.png Graphic file (type png)
 <use Graphics//Simulink_schematic_annotated.png>
 Package pdftex.def Info: Graphics//Simulink_schematic_annotated.png  used on in
@@ -1823,7 +1822,7 @@ Overfull \hbox (11.38109pt too wide) in paragraph at lines 403--404
 [75 <./Graphics//Output Port.png>] [76 <./Graphics//Input Port.png> <./Graphics
 //Simulink_schematic_annotated.png>]
 <Graphics//FlexiTribo Figure 7. Rolling Element Contact Stiffness - Dry vs Lubr
-icated Maximum Values.png, id=1655, 1445.4pt x 673.01437pt>
+icated Maximum Values.png, id=1653, 1445.4pt x 673.01437pt>
 File: Graphics//FlexiTribo Figure 7. Rolling Element Contact Stiffness - Dry vs
  Lubricated Maximum Values.png Graphic file (type png)
 <use Graphics//FlexiTribo Figure 7. Rolling Element Contact Stiffness - Dry vs 
@@ -1839,7 +1838,7 @@ Overfull \hbox (11.38109pt too wide) in paragraph at lines 418--419
 [77 <./Graphics//FlexiTribo Figure 7. Rolling Element Contact Stiffness - Dry v
 s Lubricated Maximum Values.png (PNG copy)>]
 <Graphics//FlexiTribo Figure 8. Rolling Element Contact Force - Dry vs Lubricat
-ed Percentage Increase.png, id=1662, 1445.4pt x 673.01437pt>
+ed Percentage Increase.png, id=1660, 1445.4pt x 673.01437pt>
 File: Graphics//FlexiTribo Figure 8. Rolling Element Contact Force - Dry vs Lub
 ricated Percentage Increase.png Graphic file (type png)
 <use Graphics//FlexiTribo Figure 8. Rolling Element Contact Force - Dry vs Lubr
@@ -1853,7 +1852,7 @@ Overfull \hbox (11.38109pt too wide) in paragraph at lines 427--428
  []
 
 <Graphics//FlexiTribo Figure 9. Inner Race Stiffness - Dry vs Lubricated Operat
-ing Envelope.png, id=1665, 1445.4pt x 673.01437pt>
+ing Envelope.png, id=1663, 1445.4pt x 673.01437pt>
 File: Graphics//FlexiTribo Figure 9. Inner Race Stiffness - Dry vs Lubricated O
 perating Envelope.png Graphic file (type png)
 <use Graphics//FlexiTribo Figure 9. Inner Race Stiffness - Dry vs Lubricated Op
@@ -1869,7 +1868,7 @@ Overfull \hbox (11.38109pt too wide) in paragraph at lines 436--437
 [78 <./Graphics//FlexiTribo Figure 8. Rolling Element Contact Force - Dry vs Lu
 bricated Percentage Increase.png (PNG copy)>]
 <Graphics//FlexiTribo Figure 10. Inner Race Displacement - Dry vs Lubricated Op
-erating Envelope.png, id=1671, 1445.4pt x 673.01437pt>
+erating Envelope.png, id=1669, 1445.4pt x 673.01437pt>
 File: Graphics//FlexiTribo Figure 10. Inner Race Displacement - Dry vs Lubricat
 ed Operating Envelope.png Graphic file (type png)
 <use Graphics//FlexiTribo Figure 10. Inner Race Displacement - Dry vs Lubricate
@@ -1886,7 +1885,7 @@ Overfull \hbox (11.38109pt too wide) in paragraph at lines 445--446
 Operating Envelope.png (PNG copy)> <./Graphics//FlexiTribo Figure 10. Inner Rac
 e Displacement - Dry vs Lubricated Operating Envelope.png (PNG copy)>]
 <Graphics//FlexiTribo Figure 11. Inner Race Acceleration - Dry vs Lubricated Op
-erating Envelope.png, id=1678, 1445.4pt x 673.01437pt>
+erating Envelope.png, id=1676, 1445.4pt x 673.01437pt>
 File: Graphics//FlexiTribo Figure 11. Inner Race Acceleration - Dry vs Lubricat
 ed Operating Envelope.png Graphic file (type png)
 <use Graphics//FlexiTribo Figure 11. Inner Race Acceleration - Dry vs Lubricate
@@ -1900,7 +1899,7 @@ Overfull \hbox (11.38109pt too wide) in paragraph at lines 454--455
  []
 
 <Graphics//FlexiTribo Figure 12. Rolling Element Contact Stiffness - Dry vs Lub
-ricated Minimum Values.png, id=1679, 1445.4pt x 673.01437pt>
+ricated Minimum Values.png, id=1677, 1445.4pt x 673.01437pt>
 File: Graphics//FlexiTribo Figure 12. Rolling Element Contact Stiffness - Dry v
 s Lubricated Minimum Values.png Graphic file (type png)
 <use Graphics//FlexiTribo Figure 12. Rolling Element Contact Stiffness - Dry vs
@@ -1917,7 +1916,7 @@ Overfull \hbox (11.38109pt too wide) in paragraph at lines 461--462
 ted Operating Envelope.png> <./Graphics//FlexiTribo Figure 12. Rolling Element 
 Contact Stiffness - Dry vs Lubricated Minimum Values.png (PNG copy)>]
 <Graphics//FlexiTribo Figure 13. Film Thickness vs Contact Force 21 000 rpm.png
-, id=1687, 1445.4pt x 673.01437pt>
+, id=1685, 1445.4pt x 673.01437pt>
 File: Graphics//FlexiTribo Figure 13. Film Thickness vs Contact Force 21 000 rp
 m.png Graphic file (type png)
 <use Graphics//FlexiTribo Figure 13. Film Thickness vs Contact Force 21 000 rpm
@@ -1931,7 +1930,7 @@ Overfull \hbox (11.38109pt too wide) in paragraph at lines 470--471
  []
 
 <Graphics//FlexiTribo Figure 14. Film Thickness vs Contact Force 12 500 rpm.png
-, id=1688, 1445.4pt x 673.01437pt>
+, id=1686, 1445.4pt x 673.01437pt>
 File: Graphics//FlexiTribo Figure 14. Film Thickness vs Contact Force 12 500 rp
 m.png Graphic file (type png)
 <use Graphics//FlexiTribo Figure 14. Film Thickness vs Contact Force 12 500 rpm
@@ -1960,7 +1959,7 @@ Chapter 5.
 
 
 ]
-<Graphics//AnalyticalvsNumerical_PercentageDiff.png, id=1718, 855.6768pt x 627.
+<Graphics//AnalyticalvsNumerical_PercentageDiff.png, id=1716, 855.6768pt x 627.
 3036pt>
 File: Graphics//AnalyticalvsNumerical_PercentageDiff.png Graphic file (type png
 )
@@ -1969,7 +1968,7 @@ Package pdftex.def Info: Graphics//AnalyticalvsNumerical_PercentageDiff.png  us
 ed on input line 23.
 (pdftex.def)             Requested size: 398.33858pt x 292.02817pt.
  [84] [85 <./Graphics//AnalyticalvsNumerical_PercentageDiff.png (PNG copy)>]
-<Graphics//ANN_schematic.png, id=1731, 862.72313pt x 575.14874pt>
+<Graphics//ANN_schematic.png, id=1729, 862.72313pt x 575.14874pt>
 File: Graphics//ANN_schematic.png Graphic file (type png)
 <use Graphics//ANN_schematic.png>
 Package pdftex.def Info: Graphics//ANN_schematic.png  used on input line 40.
@@ -1980,14 +1979,14 @@ Overfull \hbox (11.38109pt too wide) in paragraph at lines 40--41
  []
 
 [86 <./Graphics//ANN_schematic.png>] [87]
-<Graphics//ANN_structure_flowchart.png, id=1756, 1100.11pt x 1610.015pt>
+<Graphics//ANN_structure_flowchart.png, id=1754, 1100.11pt x 1610.015pt>
 File: Graphics//ANN_structure_flowchart.png Graphic file (type png)
 <use Graphics//ANN_structure_flowchart.png>
 Package pdftex.def Info: Graphics//ANN_structure_flowchart.png  used on input l
 ine 102.
 (pdftex.def)             Requested size: 298.75394pt x 437.21568pt.
  [88] [89 <./Graphics//ANN_structure_flowchart.png>] [90]
-<Graphics//ANN_Explicit_MarianvsGreenwood.png, id=1799, 817.6146pt x 610.4406pt
+<Graphics//ANN_Explicit_MarianvsGreenwood.png, id=1797, 817.6146pt x 610.4406pt
 >
 File: Graphics//ANN_Explicit_MarianvsGreenwood.png Graphic file (type png)
 <use Graphics//ANN_Explicit_MarianvsGreenwood.png>
@@ -1995,7 +1994,7 @@ Package pdftex.def Info: Graphics//ANN_Explicit_MarianvsGreenwood.png  used on
 input line 143.
 (pdftex.def)             Requested size: 398.33858pt x 297.40463pt.
  [91]
-<Graphics//EHL_Greenwood_Constraints_Flowchart.png, id=1812, 1266.7325pt x 1951
+<Graphics//EHL_Greenwood_Constraints_Flowchart.png, id=1810, 1266.7325pt x 1951
 .29pt>
 File: Graphics//EHL_Greenwood_Constraints_Flowchart.png Graphic file (type png)
 
@@ -2004,7 +2003,7 @@ Package pdftex.def Info: Graphics//EHL_Greenwood_Constraints_Flowchart.png  use
 d on input line 171.
 (pdftex.def)             Requested size: 369.88582pt x 569.76004pt.
  [92 <./Graphics//ANN_Explicit_MarianvsGreenwood.png (PNG copy)>]
-<Graphics//Training_Unconstrained_GreenwoodRegime.png, id=1820, 817.6146pt x 61
+<Graphics//Training_Unconstrained_GreenwoodRegime.png, id=1818, 817.6146pt x 61
 0.4406pt>
 File: Graphics//Training_Unconstrained_GreenwoodRegime.png Graphic file (type p
 ng)
@@ -2013,7 +2012,7 @@ Package pdftex.def Info: Graphics//Training_Unconstrained_GreenwoodRegime.png
 used on input line 214.
 (pdftex.def)             Requested size: 398.33858pt x 297.40463pt.
  [93] [94 <./Graphics//EHL_Greenwood_Constraints_Flowchart.png>]
-<Graphics//ANN_Structure.png, id=1837, 992.95969pt x 523.9575pt>
+<Graphics//ANN_Structure.png, id=1835, 992.95969pt x 523.9575pt>
 File: Graphics//ANN_Structure.png Graphic file (type png)
 <use Graphics//ANN_Structure.png>
 Package pdftex.def Info: Graphics//ANN_Structure.png  used on input line 235.
@@ -2025,7 +2024,7 @@ Overfull \hbox (11.38109pt too wide) in paragraph at lines 235--236
 
 [95 <./Graphics//Training_Unconstrained_GreenwoodRegime.png (PNG copy)>]
 [96 <./Graphics//ANN_Structure.png>] [97] [98] [99]
-<Graphics//Bearing_Input_Force_FMBD_20_1.15kN_contact_force_data.png, id=1899, 
+<Graphics//Bearing_Input_Force_FMBD_20_1.15kN_contact_force_data.png, id=1897, 
 1228.59pt x 627.3036pt>
 File: Graphics//Bearing_Input_Force_FMBD_20_1.15kN_contact_force_data.png Graph
 ic file (type png)
@@ -2033,7 +2032,7 @@ ic file (type png)
 Package pdftex.def Info: Graphics//Bearing_Input_Force_FMBD_20_1.15kN_contact_f
 orce_data.png  used on input line 367.
 (pdftex.def)             Requested size: 415.41025pt x 212.10306pt.
-<Graphics//Greenwood_Bearing.png, id=1901, 817.6146pt x 610.4406pt>
+<Graphics//Greenwood_Bearing.png, id=1899, 817.6146pt x 610.4406pt>
 File: Graphics//Greenwood_Bearing.png Graphic file (type png)
 <use Graphics//Greenwood_Bearing.png>
 Package pdftex.def Info: Graphics//Greenwood_Bearing.png  used on input line 37
@@ -2041,67 +2040,67 @@ Package pdftex.def Info: Graphics//Greenwood_Bearing.png  used on input line 37
 (pdftex.def)             Requested size: 398.33858pt x 297.40463pt.
  [100] [101 <./Graphics//Bearing_Input_Force_FMBD_20_1.15kN_contact_force_data.
 png (PNG copy)> <./Graphics//Greenwood_Bearing.png (PNG copy)>] [102]
-<Graphics//ANN_Explicit_ActFun_LogSig.jpg, id=1928, 756.9078pt x 117.8001pt>
+<Graphics//ANN_Explicit_ActFun_LogSig.jpg, id=1926, 756.9078pt x 117.8001pt>
 File: Graphics//ANN_Explicit_ActFun_LogSig.jpg Graphic file (type jpg)
 <use Graphics//ANN_Explicit_ActFun_LogSig.jpg>
 Package pdftex.def Info: Graphics//ANN_Explicit_ActFun_LogSig.jpg  used on inpu
 t line 415.
 (pdftex.def)             Requested size: 415.41025pt x 64.65363pt.
-<Graphics//ANN_Explicit_ActFun_Tanh.jpg, id=1929, 756.9078pt x 117.8001pt>
+<Graphics//ANN_Explicit_ActFun_Tanh.jpg, id=1927, 756.9078pt x 117.8001pt>
 File: Graphics//ANN_Explicit_ActFun_Tanh.jpg Graphic file (type jpg)
 <use Graphics//ANN_Explicit_ActFun_Tanh.jpg>
 Package pdftex.def Info: Graphics//ANN_Explicit_ActFun_Tanh.jpg  used on input 
 line 421.
 (pdftex.def)             Requested size: 415.41025pt x 64.65363pt.
-<Graphics//ANN_Explicit_ActFun_ReLU.jpg, id=1930, 756.9078pt x 117.8001pt>
+<Graphics//ANN_Explicit_ActFun_ReLU.jpg, id=1928, 756.9078pt x 117.8001pt>
 File: Graphics//ANN_Explicit_ActFun_ReLU.jpg Graphic file (type jpg)
 <use Graphics//ANN_Explicit_ActFun_ReLU.jpg>
 Package pdftex.def Info: Graphics//ANN_Explicit_ActFun_ReLU.jpg  used on input 
 line 427.
 (pdftex.def)             Requested size: 415.41025pt x 64.65363pt.
-<Graphics//ANN_Explicit_LogSig_600.jpg, id=1931, 756.9078pt x 117.8001pt>
+<Graphics//ANN_Explicit_LogSig_600.jpg, id=1929, 756.9078pt x 117.8001pt>
 File: Graphics//ANN_Explicit_LogSig_600.jpg Graphic file (type jpg)
 <use Graphics//ANN_Explicit_LogSig_600.jpg>
 Package pdftex.def Info: Graphics//ANN_Explicit_LogSig_600.jpg  used on input l
 ine 433.
 (pdftex.def)             Requested size: 415.41025pt x 64.65363pt.
-<Graphics//ANN_Explicit_LogSig_1000.jpg, id=1932, 756.9078pt x 117.8001pt>
+<Graphics//ANN_Explicit_LogSig_1000.jpg, id=1930, 756.9078pt x 117.8001pt>
 File: Graphics//ANN_Explicit_LogSig_1000.jpg Graphic file (type jpg)
 <use Graphics//ANN_Explicit_LogSig_1000.jpg>
 Package pdftex.def Info: Graphics//ANN_Explicit_LogSig_1000.jpg  used on input 
 line 439.
 (pdftex.def)             Requested size: 415.41025pt x 64.65363pt.
-<Graphics//ANN_Explicit_LogSig_2000.jpg, id=1933, 756.9078pt x 117.8001pt>
+<Graphics//ANN_Explicit_LogSig_2000.jpg, id=1931, 756.9078pt x 117.8001pt>
 File: Graphics//ANN_Explicit_LogSig_2000.jpg Graphic file (type jpg)
 <use Graphics//ANN_Explicit_LogSig_2000.jpg>
 Package pdftex.def Info: Graphics//ANN_Explicit_LogSig_2000.jpg  used on input 
 line 445.
 (pdftex.def)             Requested size: 415.41025pt x 64.65363pt.
-<Graphics//ANN_Explicit_LogSig_5000.jpg, id=1934, 756.9078pt x 117.8001pt>
+<Graphics//ANN_Explicit_LogSig_5000.jpg, id=1932, 756.9078pt x 117.8001pt>
 File: Graphics//ANN_Explicit_LogSig_5000.jpg Graphic file (type jpg)
 <use Graphics//ANN_Explicit_LogSig_5000.jpg>
 Package pdftex.def Info: Graphics//ANN_Explicit_LogSig_5000.jpg  used on input 
 line 451.
 (pdftex.def)             Requested size: 415.41025pt x 64.65363pt.
-<Graphics//ANN_Explicit_600_Rval.png, id=1935, 528.0528pt x 520.8258pt>
+<Graphics//ANN_Explicit_600_Rval.png, id=1933, 528.0528pt x 520.8258pt>
 File: Graphics//ANN_Explicit_600_Rval.png Graphic file (type png)
 <use Graphics//ANN_Explicit_600_Rval.png>
 Package pdftex.def Info: Graphics//ANN_Explicit_600_Rval.png  used on input lin
 e 458.
 (pdftex.def)             Requested size: 203.5533pt x 200.76888pt.
-<Graphics//ANN_Explicit_1000_Rval.png, id=1936, 529.0164pt x 520.8258pt>
+<Graphics//ANN_Explicit_1000_Rval.png, id=1934, 529.0164pt x 520.8258pt>
 File: Graphics//ANN_Explicit_1000_Rval.png Graphic file (type png)
 <use Graphics//ANN_Explicit_1000_Rval.png>
 Package pdftex.def Info: Graphics//ANN_Explicit_1000_Rval.png  used on input li
 ne 465.
 (pdftex.def)             Requested size: 203.5533pt x 200.40332pt.
-<Graphics//ANN_Explicit_2000_Rval.png, id=1937, 528.0528pt x 520.8258pt>
+<Graphics//ANN_Explicit_2000_Rval.png, id=1935, 528.0528pt x 520.8258pt>
 File: Graphics//ANN_Explicit_2000_Rval.png Graphic file (type png)
 <use Graphics//ANN_Explicit_2000_Rval.png>
 Package pdftex.def Info: Graphics//ANN_Explicit_2000_Rval.png  used on input li
 ne 472.
 (pdftex.def)             Requested size: 203.5533pt x 200.76888pt.
-<Graphics//ANN_Explicit_5000_Rval.png, id=1938, 528.0528pt x 520.8258pt>
+<Graphics//ANN_Explicit_5000_Rval.png, id=1936, 528.0528pt x 520.8258pt>
 File: Graphics//ANN_Explicit_5000_Rval.png Graphic file (type png)
 <use Graphics//ANN_Explicit_5000_Rval.png>
 Package pdftex.def Info: Graphics//ANN_Explicit_5000_Rval.png  used on input li
@@ -2115,7 +2114,7 @@ cs//ANN_Explicit_LogSig_2000.jpg>]
 val.png (PNG copy)> <./Graphics//ANN_Explicit_1000_Rval.png (PNG copy)> <./Grap
 hics//ANN_Explicit_2000_Rval.png (PNG copy)> <./Graphics//ANN_Explicit_5000_Rva
 l.png (PNG copy)>]
-<Graphics//Bearing_Test_Data_FMBD_20_1.15kN.png, id=1957, 1217.0268pt x 628.267
+<Graphics//Bearing_Test_Data_FMBD_20_1.15kN.png, id=1955, 1217.0268pt x 628.267
 2pt>
 File: Graphics//Bearing_Test_Data_FMBD_20_1.15kN.png Graphic file (type png)
 <use Graphics//Bearing_Test_Data_FMBD_20_1.15kN.png>
@@ -2128,7 +2127,7 @@ Overfull \hbox (11.38109pt too wide) in paragraph at lines 496--497
  []
 
 [106 <./Graphics//Bearing_Test_Data_FMBD_20_1.15kN.png (PNG copy)>]
-<Graphics//ANNvsAnalyticalvsNumerical_Speedsweep.png, id=1966, 820.5054pt x 627
+<Graphics//ANNvsAnalyticalvsNumerical_Speedsweep.png, id=1964, 820.5054pt x 627
 .3036pt>
 File: Graphics//ANNvsAnalyticalvsNumerical_Speedsweep.png Graphic file (type pn
 g)
@@ -2141,34 +2140,34 @@ Overfull \hbox (11.38109pt too wide) in paragraph at lines 521--522
  [][] 
  []
 
-<Graphics//CPU_time_vs_shaft_angular_ANN_implicit.png, id=1967, 581.5326pt x 62
+<Graphics//CPU_time_vs_shaft_angular_ANN_implicit.png, id=1965, 581.5326pt x 62
 7.3036pt>
 File: Graphics//CPU_time_vs_shaft_angular_ANN_implicit.png Graphic file (type p
 ng)
 <use Graphics//CPU_time_vs_shaft_angular_ANN_implicit.png>
 Package pdftex.def Info: Graphics//CPU_time_vs_shaft_angular_ANN_implicit.png  
-used on input line 530.
+used on input line 532.
 (pdftex.def)             Requested size: 355.65944pt x 383.66925pt.
 
-Overfull \hbox (3.7884pt too wide) in paragraph at lines 542--542
+Overfull \hbox (3.7884pt too wide) in paragraph at lines 544--544
  []|[]| 
  []
 
 
-Overfull \hbox (22.01566pt too wide) in paragraph at lines 540--558
+Overfull \hbox (22.01566pt too wide) in paragraph at lines 542--560
  [][] 
  []
 
-<Graphics//film_thickness_vs_shaft_sweep_ann_vs_analytical.png, id=1968, 550.69
+<Graphics//film_thickness_vs_shaft_sweep_ann_vs_analytical.png, id=1966, 550.69
 74pt x 627.3036pt>
 File: Graphics//film_thickness_vs_shaft_sweep_ann_vs_analytical.png Graphic fil
 e (type png)
 <use Graphics//film_thickness_vs_shaft_sweep_ann_vs_analytical.png>
 Package pdftex.def Info: Graphics//film_thickness_vs_shaft_sweep_ann_vs_analyti
-cal.png  used on input line 562.
+cal.png  used on input line 564.
 (pdftex.def)             Requested size: 355.65944pt x 405.13896pt.
 
-Overfull \hbox (3.7884pt too wide) in paragraph at lines 574--574
+Overfull \hbox (3.7884pt too wide) in paragraph at lines 576--576
  []|[]| 
  []
 
@@ -2226,16 +2225,16 @@ ironment/Lubricated_FMBD.aux)
 (Chapters/05_Artificial_Neural_Networks_for_EHL_Film_Thickness_Predictions/ANN_
 Lubricated_Bearing_FMBD.aux) (Chapters/06_Conclusions/Conclusions.aux))
 Package rerunfilecheck Info: File `Master.out' has not changed.
-(rerunfilecheck)             Checksum: 3E9F2CBDA535E993CF861DAE2C73246F;18585.
+(rerunfilecheck)             Checksum: 8F21382894F065D27218DA1D3C18A368;18719.
  ) 
 Here is how much of TeX's memory you used:
- 25904 strings out of 478614
- 526478 string characters out of 2843594
- 859759 words of memory out of 3000000
+ 25903 strings out of 478614
+ 526471 string characters out of 2843594
+ 859818 words of memory out of 3000000
  42383 multiletter control sequences out of 15000+600000
  540715 words of font info for 352 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,14n,120p,1798b,1203s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 125i,14n,120p,1638b,1203s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/wshq/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/
 Users/wshq/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.
 pfb><C:/Users/wshq/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
@@ -2247,9 +2246,9 @@ e1/urw/symbol/usyr.pfb><C:/Users/wshq/AppData/Local/Programs/MiKTeX/fonts/type1
 /urw/times/utmb8a.pfb><C:/Users/wshq/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/times/utmr8a.pfb><C:/Users/wshq/AppData/Local/Programs/MiKTeX/fonts/type1/u
 rw/times/utmri8a.pfb>
-Output written on Master.pdf (159 pages, 16811330 bytes).
+Output written on Master.pdf (159 pages, 16812095 bytes).
 PDF statistics:
  2374 PDF objects out of 2487 (max. 8388607)
- 698 named destinations out of 1000 (max. 500000)
+ 697 named destinations out of 1000 (max. 500000)
  66093 words of extra memory for PDF output out of 74296 (max. 10000000)
 
