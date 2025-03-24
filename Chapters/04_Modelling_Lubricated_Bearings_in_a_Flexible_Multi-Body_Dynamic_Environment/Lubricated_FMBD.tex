@@ -34,7 +34,7 @@ In typical configurations containing flexible structures, it is possible for bot
 
 Within the model, the shaft is treated as a body having linear elastic behaviour and the housing is treated as rigid. The bearings are modelled via non-linear contact forces acting between the shaft and housing.
 
-The shaft is represented by a condensed finite element model and is discretised into a sufficiently high number of partial masses \cite{Parikyan2001}. The total elastic deformation of the shaft is represented by translational and rotational displacement components of these individual partial masses. The mathematical modelling used in the FMBD solver is based on Newton’s equations of motion and Euler’s equation of angular momentum, respectively:
+The shaft is represented by a condensed finite element model and is discretised into partial masses \cite{Parikyan2001}. The total elastic deformation of the shaft is represented by translational and rotational displacement components of these individual partial masses. The mathematical modelling used in the FMBD solver is based on Newton’s equations of motion and Euler’s equation of angular momentum, respectively:
 
 \begin{equation}\label{NewtonFMBD}
 	m_i \frac{\partial^2 x_i^{A b s}}{\partial t^2}=f_{F, i}^{A b s}
