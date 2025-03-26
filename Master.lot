@@ -14,13 +14,13 @@
 \contentsline {table}{\numberline {5.1}{\ignorespaces Range of ANN film thickness calculation parameters\relax }}{96}{table.caption.40}%
 \contentsline {table}{\numberline {5.2}{\ignorespaces Sensitivity study of ANN structure\relax }}{98}{table.caption.42}%
 \contentsline {table}{\numberline {5.3}{\ignorespaces $R^2$ performance of ANN structures using 600 data points and a LogSig activation function\relax }}{105}{table.caption.48}%
-\contentsline {table}{\numberline {5.4}{\ignorespaces $R^2$ performance of ANN structures using 600 data points and a Tanh activation function\relax }}{105}{table.caption.49}%
-\contentsline {table}{\numberline {5.5}{\ignorespaces $R^2$ performance of ANN structures using 600 data points and a Tanh activation function\relax }}{105}{table.caption.50}%
-\contentsline {table}{\numberline {5.6}{\ignorespaces Training time of ANN structures with LogSig activation function and 600 data points\relax }}{105}{table.caption.51}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces $R^2$ performance of ANN structures using 600 data points and a Tanh activation function\relax }}{106}{table.caption.49}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces $R^2$ performance of ANN structures using 600 data points and a Tanh activation function\relax }}{106}{table.caption.50}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces Training time of ANN structures with LogSig activation function and 600 data points\relax }}{106}{table.caption.51}%
 \contentsline {table}{\numberline {5.7}{\ignorespaces Training time of ANN structures with LogSig activation function and 1000 data points\relax }}{106}{table.caption.52}%
 \contentsline {table}{\numberline {5.8}{\ignorespaces Training time of ANN structures with LogSig activation function and 2000 data points\relax }}{106}{table.caption.53}%
-\contentsline {table}{\numberline {5.9}{\ignorespaces Training time of ANN structures with LogSig activation function and 5000 data points\relax }}{106}{table.caption.54}%
-\contentsline {table}{\numberline {5.10}{\ignorespaces Film thickness computation methodology performance relative to the numerical solution\relax }}{108}{table.caption.55}%
-\contentsline {table}{\numberline {5.11}{\ignorespaces Implicit central film thickness comparison: ANN vs analytical\relax }}{110}{table.caption.56}%
-\contentsline {table}{\numberline {5.12}{\ignorespaces Implicit CPU time comparison: ANN vs analytical\relax }}{112}{table.caption.57}%
+\contentsline {table}{\numberline {5.9}{\ignorespaces Training time of ANN structures with LogSig activation function and 5000 data points\relax }}{107}{table.caption.54}%
+\contentsline {table}{\numberline {5.10}{\ignorespaces Film thickness computation methodology performance relative to the numerical solution\relax }}{109}{table.caption.55}%
+\contentsline {table}{\numberline {5.11}{\ignorespaces Implicit central film thickness comparison: ANN vs analytical\relax }}{111}{table.caption.56}%
+\contentsline {table}{\numberline {5.12}{\ignorespaces Implicit CPU time comparison: ANN vs analytical\relax }}{111}{table.caption.57}%
 \addvspace {10\p@ }

@@ -31,8 +31,12 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'field_info' (item size: 4) to 11255 items.
+Reallocating 'field_info' (item size: 4) to 11300 items.
 Database file #1: Literature/library.bib
+I was expecting a `,' or a `}'---line 1813 of file Literature/library.bib
+ :    title = {Thermal elastohydrodynamic lubrication of point contacts using a {}Newtonian}
+ :                                                                                          /generalized {Newtonian} lubricant},
+I'm skipping whatever remains of this entry
 -- IEEEtranN.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -41,7 +45,7 @@ Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
 Warning--missing school in Dietl1997
-Warning--edition ordinal word "Book No. 3" may be too high (or improper) for conversion in Grubin1949
+Warning--empty year in Habchi2008
 Warning--missing school in Rahnejat1984
 Warning--missing school in Roelands1966
 Warning--empty journal in Houpert1984
@@ -49,45 +53,45 @@ Warning--missing institution in Johnson1990
 Warning--missing publisher in Han1995
 
 Done.
-You've used 139 entries,
+You've used 140 entries,
             4783 wiz_defined-function locations,
-            1901 strings with 35618 characters,
-and the built_in function-call counts, 118772 in all, are:
-= -- 10998
-> -- 3023
-< -- 957
+            1910 strings with 35937 characters,
+and the built_in function-call counts, 119348 in all, are:
+= -- 11060
+> -- 3020
+< -- 959
 + -- 1621
 - -- 628
-* -- 6185
-:= -- 18530
-add.period$ -- 278
-call.type$ -- 139
-change.case$ -- 272
-chr.to.int$ -- 2116
-cite$ -- 146
-duplicate$ -- 7986
-empty$ -- 8401
-format.name$ -- 952
-if$ -- 26780
+* -- 6205
+:= -- 18643
+add.period$ -- 280
+call.type$ -- 140
+change.case$ -- 273
+chr.to.int$ -- 2114
+cite$ -- 147
+duplicate$ -- 8042
+empty$ -- 8448
+format.name$ -- 950
+if$ -- 26905
 int.to.chr$ -- 4
-int.to.str$ -- 140
-missing$ -- 1093
-newline$ -- 543
-num.names$ -- 417
-pop$ -- 2700
+int.to.str$ -- 141
+missing$ -- 1099
+newline$ -- 548
+num.names$ -- 420
+pop$ -- 2711
 preamble$ -- 1
-purify$ -- 139
-quote$ -- 4
-skip$ -- 9119
+purify$ -- 140
+quote$ -- 2
+skip$ -- 9164
 stack$ -- 0
-substring$ -- 5009
-swap$ -- 6032
-text.length$ -- 202
+substring$ -- 5021
+swap$ -- 6067
+text.length$ -- 204
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 2028
+type$ -- 2044
 warning$ -- 7
-while$ -- 577
+while$ -- 581
 width$ -- 0
-write$ -- 1739
-(There were 7 warnings)
+write$ -- 1753
+(There was 1 error message)
