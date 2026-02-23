@@ -3,10 +3,10 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Master.aux
 Reallocating 'name_of_file' (item size: 1) to 10 items.
 The style file: IEEEtranN.bst
-Reallocating 'name_of_file' (item size: 1) to 36 items.
-A level-1 auxiliary file: Acknowledgement/acknowledgement.aux
 Reallocating 'name_of_file' (item size: 1) to 22 items.
 A level-1 auxiliary file: Abstract/abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 36 items.
+A level-1 auxiliary file: Acknowledgement/acknowledgement.aux
 Reallocating 'name_of_file' (item size: 1) to 34 items.
 A level-1 auxiliary file: Nomenclature/nomenclature_new.aux
 Reallocating 'name_of_file' (item size: 1) to 39 items.
@@ -31,9 +31,9 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'field_info' (item size: 4) to 11300 items.
+Reallocating 'field_info' (item size: 4) to 11345 items.
 Database file #1: Literature/library.bib
-I was expecting a `,' or a `}'---line 1813 of file Literature/library.bib
+I was expecting a `,' or a `}'---line 3625 of file Literature/library.bib
  :    title = {Thermal elastohydrodynamic lubrication of point contacts using a {}Newtonian}
  :                                                                                          /generalized {Newtonian} lubricant},
 I'm skipping whatever remains of this entry
@@ -53,45 +53,45 @@ Warning--missing institution in Johnson1990
 Warning--missing publisher in Han1995
 
 Done.
-You've used 140 entries,
+You've used 141 entries,
             4783 wiz_defined-function locations,
-            1910 strings with 35937 characters,
-and the built_in function-call counts, 119348 in all, are:
-= -- 11060
-> -- 3020
-< -- 959
-+ -- 1621
-- -- 628
-* -- 6205
-:= -- 18643
-add.period$ -- 280
-call.type$ -- 140
-change.case$ -- 273
-chr.to.int$ -- 2114
-cite$ -- 147
-duplicate$ -- 8042
-empty$ -- 8448
-format.name$ -- 950
-if$ -- 26905
+            1916 strings with 36089 characters,
+and the built_in function-call counts, 119825 in all, are:
+= -- 11107
+> -- 3027
+< -- 960
++ -- 1625
+- -- 630
+* -- 6222
+:= -- 18727
+add.period$ -- 282
+call.type$ -- 141
+change.case$ -- 275
+chr.to.int$ -- 2115
+cite$ -- 148
+duplicate$ -- 8079
+empty$ -- 8490
+format.name$ -- 953
+if$ -- 27007
 int.to.chr$ -- 4
-int.to.str$ -- 141
-missing$ -- 1099
-newline$ -- 548
-num.names$ -- 420
-pop$ -- 2711
+int.to.str$ -- 142
+missing$ -- 1106
+newline$ -- 551
+num.names$ -- 423
+pop$ -- 2734
 preamble$ -- 1
-purify$ -- 140
+purify$ -- 141
 quote$ -- 2
-skip$ -- 9164
+skip$ -- 9202
 stack$ -- 0
-substring$ -- 5021
-swap$ -- 6067
+substring$ -- 5024
+swap$ -- 6085
 text.length$ -- 204
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 2044
+type$ -- 2059
 warning$ -- 7
-while$ -- 581
+while$ -- 583
 width$ -- 0
-write$ -- 1753
+write$ -- 1763
 (There was 1 error message)

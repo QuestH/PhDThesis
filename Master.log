@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.17)  23 FEB 2026 21:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.17)  23 FEB 2026 22:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2225,26 +2225,32 @@ Chapter 6.
 
 
 
-] [121] [122]
-Underfull \hbox (badness 10000) in paragraph at lines 150--156
+]
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
+[]\T1/ptm/m/n/12 (+20) AVL List GmbH, ``Trans-mis-sion,'' [][]$https : / / www 
+. avl . com / en / engineering /
+ []
+
+[121] [122]
+Underfull \hbox (badness 10000) in paragraph at lines 153--159
 \T1/ptm/m/n/12 (+20) article / 101 / 3 / 305 / 410221 / Dynamics-[]of-[]Rolling
 Element-[]BearingsPart-[]IIhttps :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--156
+Underfull \hbox (badness 10000) in paragraph at lines 153--159
 \T1/ptm/m/n/12 (+20) / / asmedigitalcollection . asme . org / tribology / artic
 le / 101 / 3 / 293 / 410262 /
  []
 
 [123] [124]
-Underfull \hbox (badness 1616) in paragraph at lines 288--291
+Underfull \hbox (badness 1616) in paragraph at lines 291--294
 \T1/ptm/m/n/12 (+20) geschmierten um-laufenden achspar-al-le-len zylin-dern,'' 
 \T1/ptm/m/it/12 (+20) Maschinenelemente-
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 313--316
+Underfull \hbox (badness 1205) in paragraph at lines 316--319
 []\T1/ptm/m/n/12 (+20) D. Dow-son and G. R. Hig-gin-son, ``A nu-mer-i-cal so-lu
 -tion to the elasto-
  []
@@ -2255,7 +2261,7 @@ pdfTeX warning: pdflatex.exe (file ./Papers/Tribo-Dynamic Analysis of High-Spee
 d Roller Bearings for Electrified Vehicle Powertrains.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
 <Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified Ve
-hicle Powertrains.pdf, id=2194, 597.50829pt x 796.67737pt>
+hicle Powertrains.pdf, id=2196, 597.50829pt x 796.67737pt>
 File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
 ed Vehicle Powertrains.pdf Graphic file (type pdf)
 <use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
@@ -2274,7 +2280,7 @@ pdfTeX warning: pdflatex.exe (file ./Papers/Tribo-Dynamic Analysis of High-Spee
 d Roller Bearings for Electrified Vehicle Powertrains.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
 <Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified Ve
-hicle Powertrains.pdf, id=2196, page=1, 597.50829pt x 796.67737pt>
+hicle Powertrains.pdf, id=2198, page=1, 597.50829pt x 796.67737pt>
 File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
 ed Vehicle Powertrains.pdf Graphic file (type pdf)
 <use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
@@ -2320,7 +2326,7 @@ pdfTeX warning: pdflatex.exe (file ./Papers/Tribo-Dynamic Analysis of High-Spee
 d Roller Bearings for Electrified Vehicle Powertrains.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
 <Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified Ve
-hicle Powertrains.pdf, id=2252, page=2, 597.50829pt x 796.67737pt>
+hicle Powertrains.pdf, id=2254, page=2, 597.50829pt x 796.67737pt>
 File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
 ed Vehicle Powertrains.pdf Graphic file (type pdf)
 <use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
@@ -2351,7 +2357,7 @@ pdfTeX warning: pdflatex.exe (file ./Papers/Tribo-Dynamic Analysis of High-Spee
 d Roller Bearings for Electrified Vehicle Powertrains.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
 <Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified Ve
-hicle Powertrains.pdf, id=2276, page=3, 597.50829pt x 796.67737pt>
+hicle Powertrains.pdf, id=2278, page=3, 597.50829pt x 796.67737pt>
 File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
 ed Vehicle Powertrains.pdf Graphic file (type pdf)
 <use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
@@ -2382,7 +2388,7 @@ pdfTeX warning: pdflatex.exe (file ./Papers/Tribo-Dynamic Analysis of High-Spee
 d Roller Bearings for Electrified Vehicle Powertrains.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
 <Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified Ve
-hicle Powertrains.pdf, id=2292, page=4, 597.50829pt x 796.67737pt>
+hicle Powertrains.pdf, id=2294, page=4, 597.50829pt x 796.67737pt>
 File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
 ed Vehicle Powertrains.pdf Graphic file (type pdf)
 <use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
@@ -2413,7 +2419,7 @@ pdfTeX warning: pdflatex.exe (file ./Papers/Tribo-Dynamic Analysis of High-Spee
 d Roller Bearings for Electrified Vehicle Powertrains.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
 <Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified Ve
-hicle Powertrains.pdf, id=2310, page=5, 597.50829pt x 796.67737pt>
+hicle Powertrains.pdf, id=2312, page=5, 597.50829pt x 796.67737pt>
 File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
 ed Vehicle Powertrains.pdf Graphic file (type pdf)
 <use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
@@ -2444,7 +2450,7 @@ pdfTeX warning: pdflatex.exe (file ./Papers/Tribo-Dynamic Analysis of High-Spee
 d Roller Bearings for Electrified Vehicle Powertrains.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
 <Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified Ve
-hicle Powertrains.pdf, id=2327, page=6, 597.50829pt x 796.67737pt>
+hicle Powertrains.pdf, id=2329, page=6, 597.50829pt x 796.67737pt>
 File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
 ed Vehicle Powertrains.pdf Graphic file (type pdf)
 <use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
@@ -2475,7 +2481,7 @@ pdfTeX warning: pdflatex.exe (file ./Papers/Tribo-Dynamic Analysis of High-Spee
 d Roller Bearings for Electrified Vehicle Powertrains.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
 <Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified Ve
-hicle Powertrains.pdf, id=2333, page=7, 597.50829pt x 796.67737pt>
+hicle Powertrains.pdf, id=2335, page=7, 597.50829pt x 796.67737pt>
 File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
 ed Vehicle Powertrains.pdf Graphic file (type pdf)
 <use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
@@ -2506,7 +2512,7 @@ pdfTeX warning: pdflatex.exe (file ./Papers/Tribo-Dynamic Analysis of High-Spee
 d Roller Bearings for Electrified Vehicle Powertrains.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
 <Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified Ve
-hicle Powertrains.pdf, id=2339, page=8, 597.50829pt x 796.67737pt>
+hicle Powertrains.pdf, id=2341, page=8, 597.50829pt x 796.67737pt>
 File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
 ed Vehicle Powertrains.pdf Graphic file (type pdf)
 <use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
@@ -2537,7 +2543,7 @@ pdfTeX warning: pdflatex.exe (file ./Papers/Tribo-Dynamic Analysis of High-Spee
 d Roller Bearings for Electrified Vehicle Powertrains.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
 <Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified Ve
-hicle Powertrains.pdf, id=2351, page=9, 597.50829pt x 796.67737pt>
+hicle Powertrains.pdf, id=2353, page=9, 597.50829pt x 796.67737pt>
 File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
 ed Vehicle Powertrains.pdf Graphic file (type pdf)
 <use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
@@ -2568,7 +2574,7 @@ pdfTeX warning: pdflatex.exe (file ./Papers/Tribo-Dynamic Analysis of High-Spee
 d Roller Bearings for Electrified Vehicle Powertrains.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
 <Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified Ve
-hicle Powertrains.pdf, id=2376, page=10, 597.50829pt x 796.67737pt>
+hicle Powertrains.pdf, id=2378, page=10, 597.50829pt x 796.67737pt>
 File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
 ed Vehicle Powertrains.pdf Graphic file (type pdf)
 <use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
@@ -2599,7 +2605,7 @@ pdfTeX warning: pdflatex.exe (file ./Papers/Tribo-Dynamic Analysis of High-Spee
 d Roller Bearings for Electrified Vehicle Powertrains.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
 <Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified Ve
-hicle Powertrains.pdf, id=2388, page=11, 597.50829pt x 796.67737pt>
+hicle Powertrains.pdf, id=2390, page=11, 597.50829pt x 796.67737pt>
 File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
 ed Vehicle Powertrains.pdf Graphic file (type pdf)
 <use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
@@ -2630,7 +2636,7 @@ pdfTeX warning: pdflatex.exe (file ./Papers/Tribo-Dynamic Analysis of High-Spee
 d Roller Bearings for Electrified Vehicle Powertrains.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
 <Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified Ve
-hicle Powertrains.pdf, id=2400, page=12, 597.50829pt x 796.67737pt>
+hicle Powertrains.pdf, id=2402, page=12, 597.50829pt x 796.67737pt>
 File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
 ed Vehicle Powertrains.pdf Graphic file (type pdf)
 <use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
@@ -2660,7 +2666,7 @@ rings for Electrified Vehicle Powertrains.pdf , page12 used on input line 76.
 pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
 d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2411, 597
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2413, 597
 .50829pt x 845.0471pt>
 File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
 file (type pdf)
@@ -2678,7 +2684,7 @@ rsion <1.5> allowed
 pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
 d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2413, pag
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2415, pag
 e=1, 597.50829pt x 845.0471pt>
 File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
 file (type pdf)
@@ -2717,7 +2723,7 @@ ements.pdf , page1 used on input line 77.
 pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
 d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2471, pag
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2473, pag
 e=2, 597.50829pt x 845.0471pt>
 File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
 file (type pdf)
@@ -2744,7 +2750,7 @@ ements.pdf , page2 used on input line 77.
 pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
 d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2481, pag
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2483, pag
 e=3, 597.50829pt x 845.0471pt>
 File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
 file (type pdf)
@@ -2771,7 +2777,7 @@ ements.pdf , page3 used on input line 77.
 pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
 d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2520, pag
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2522, pag
 e=4, 597.50829pt x 845.0471pt>
 File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
 file (type pdf)
@@ -2798,7 +2804,7 @@ ements.pdf , page4 used on input line 77.
 pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
 d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2578, pag
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2580, pag
 e=5, 597.50829pt x 845.0471pt>
 File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
 file (type pdf)
@@ -2825,7 +2831,7 @@ ements.pdf , page5 used on input line 77.
 pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
 d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2588, pag
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2590, pag
 e=6, 597.50829pt x 845.0471pt>
 File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
 file (type pdf)
@@ -2852,7 +2858,7 @@ ements.pdf , page6 used on input line 77.
 pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
 d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2657, pag
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2659, pag
 e=7, 597.50829pt x 845.0471pt>
 File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
 file (type pdf)
@@ -2879,7 +2885,7 @@ ements.pdf , page7 used on input line 77.
 pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
 d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2662, pag
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2664, pag
 e=8, 597.50829pt x 845.0471pt>
 File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
 file (type pdf)
@@ -2906,7 +2912,7 @@ ements.pdf , page8 used on input line 77.
 pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
 d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2708, pag
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2710, pag
 e=9, 597.50829pt x 845.0471pt>
 File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
 file (type pdf)
@@ -2933,7 +2939,7 @@ ements.pdf , page9 used on input line 77.
 pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
 d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2714, pag
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2716, pag
 e=10, 597.50829pt x 845.0471pt>
 File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
 file (type pdf)
@@ -2963,7 +2969,7 @@ ements.pdf , page10 used on input line 77.
 pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
 d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2746, pag
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2748, pag
 e=11, 597.50829pt x 845.0471pt>
 File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
 file (type pdf)
@@ -2993,7 +2999,7 @@ ements.pdf , page11 used on input line 77.
 pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
 d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2784, pag
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2786, pag
 e=12, 597.50829pt x 845.0471pt>
 File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
 file (type pdf)
@@ -3023,7 +3029,7 @@ ements.pdf , page12 used on input line 77.
 pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
 d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2840, pag
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2842, pag
 e=13, 597.50829pt x 845.0471pt>
 File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
 file (type pdf)
@@ -3053,7 +3059,7 @@ ements.pdf , page13 used on input line 77.
 pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
 d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2894, pag
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2896, pag
 e=14, 597.50829pt x 845.0471pt>
 File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
 file (type pdf)
@@ -3083,7 +3089,7 @@ ements.pdf , page14 used on input line 77.
 pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
 d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2949, pag
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2951, pag
 e=15, 597.50829pt x 845.0471pt>
 File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
 file (type pdf)
@@ -3113,7 +3119,7 @@ ements.pdf , page15 used on input line 77.
 pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
 d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2981, pag
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2983, pag
 e=16, 597.50829pt x 845.0471pt>
 File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
 file (type pdf)
@@ -3143,7 +3149,7 @@ ements.pdf , page16 used on input line 77.
 pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
 d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2986, pag
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2988, pag
 e=17, 597.50829pt x 845.0471pt>
 File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
 file (type pdf)
@@ -3173,7 +3179,7 @@ ements.pdf , page17 used on input line 77.
 pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
 d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2996, pag
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2998, pag
 e=18, 597.50829pt x 845.0471pt>
 File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
 file (type pdf)
@@ -3200,7 +3206,7 @@ ements.pdf , page18 used on input line 77.
 
  <./Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf>]
 <Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
-nts.pdf, id=3001, 597.50829pt x 793.83177pt>
+nts.pdf, id=3003, 597.50829pt x 793.83177pt>
 File: Papers/Application of Tribological Artificial Neural Networks in Machine 
 Elements.pdf Graphic file (type pdf)
 <use Papers/Application of Tribological Artificial Neural Networks in Machine E
@@ -3209,7 +3215,7 @@ Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
 etworks in Machine Elements.pdf  used on input line 78.
 (pdftex.def)             Requested size: 597.50682pt x 793.82983pt.
 <Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
-nts.pdf, id=3003, page=1, 597.50829pt x 793.83177pt>
+nts.pdf, id=3005, page=1, 597.50829pt x 793.83177pt>
 File: Papers/Application of Tribological Artificial Neural Networks in Machine 
 Elements.pdf Graphic file (type pdf)
 <use Papers/Application of Tribological Artificial Neural Networks in Machine E
@@ -3251,7 +3257,7 @@ etworks in Machine Elements.pdf , page1 used on input line 78.
  <./Papers/Application of Tribological Artificial Neural Networks in Machine El
 ements.pdf>]
 <Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
-nts.pdf, id=3194, page=2, 597.50829pt x 793.83177pt>
+nts.pdf, id=3196, page=2, 597.50829pt x 793.83177pt>
 File: Papers/Application of Tribological Artificial Neural Networks in Machine 
 Elements.pdf Graphic file (type pdf)
 <use Papers/Application of Tribological Artificial Neural Networks in Machine E
@@ -3278,7 +3284,7 @@ etworks in Machine Elements.pdf , page2 used on input line 78.
  <./Papers/Application of Tribological Artificial Neural Networks in Machine El
 ements.pdf>]
 <Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
-nts.pdf, id=3211, page=3, 597.50829pt x 793.83177pt>
+nts.pdf, id=3213, page=3, 597.50829pt x 793.83177pt>
 File: Papers/Application of Tribological Artificial Neural Networks in Machine 
 Elements.pdf Graphic file (type pdf)
 <use Papers/Application of Tribological Artificial Neural Networks in Machine E
@@ -3305,7 +3311,7 @@ etworks in Machine Elements.pdf , page3 used on input line 78.
  <./Papers/Application of Tribological Artificial Neural Networks in Machine El
 ements.pdf>]
 <Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
-nts.pdf, id=3221, page=4, 597.50829pt x 793.83177pt>
+nts.pdf, id=3223, page=4, 597.50829pt x 793.83177pt>
 File: Papers/Application of Tribological Artificial Neural Networks in Machine 
 Elements.pdf Graphic file (type pdf)
 <use Papers/Application of Tribological Artificial Neural Networks in Machine E
@@ -3332,7 +3338,7 @@ etworks in Machine Elements.pdf , page4 used on input line 78.
  <./Papers/Application of Tribological Artificial Neural Networks in Machine El
 ements.pdf>]
 <Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
-nts.pdf, id=3462, page=5, 597.50829pt x 793.83177pt>
+nts.pdf, id=3464, page=5, 597.50829pt x 793.83177pt>
 File: Papers/Application of Tribological Artificial Neural Networks in Machine 
 Elements.pdf Graphic file (type pdf)
 <use Papers/Application of Tribological Artificial Neural Networks in Machine E
@@ -3359,7 +3365,7 @@ etworks in Machine Elements.pdf , page5 used on input line 78.
  <./Papers/Application of Tribological Artificial Neural Networks in Machine El
 ements.pdf>]
 <Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
-nts.pdf, id=3662, page=6, 597.50829pt x 793.83177pt>
+nts.pdf, id=3664, page=6, 597.50829pt x 793.83177pt>
 File: Papers/Application of Tribological Artificial Neural Networks in Machine 
 Elements.pdf Graphic file (type pdf)
 <use Papers/Application of Tribological Artificial Neural Networks in Machine E
@@ -3386,7 +3392,7 @@ etworks in Machine Elements.pdf , page6 used on input line 78.
  <./Papers/Application of Tribological Artificial Neural Networks in Machine El
 ements.pdf>]
 <Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
-nts.pdf, id=3832, page=7, 597.50829pt x 793.83177pt>
+nts.pdf, id=3834, page=7, 597.50829pt x 793.83177pt>
 File: Papers/Application of Tribological Artificial Neural Networks in Machine 
 Elements.pdf Graphic file (type pdf)
 <use Papers/Application of Tribological Artificial Neural Networks in Machine E
@@ -3413,7 +3419,7 @@ etworks in Machine Elements.pdf , page7 used on input line 78.
  <./Papers/Application of Tribological Artificial Neural Networks in Machine El
 ements.pdf>]
 <Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
-nts.pdf, id=3945, page=8, 597.50829pt x 793.83177pt>
+nts.pdf, id=3947, page=8, 597.50829pt x 793.83177pt>
 File: Papers/Application of Tribological Artificial Neural Networks in Machine 
 Elements.pdf Graphic file (type pdf)
 <use Papers/Application of Tribological Artificial Neural Networks in Machine E
@@ -3440,7 +3446,7 @@ etworks in Machine Elements.pdf , page8 used on input line 78.
  <./Papers/Application of Tribological Artificial Neural Networks in Machine El
 ements.pdf>]
 <Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
-nts.pdf, id=3971, page=9, 597.50829pt x 793.83177pt>
+nts.pdf, id=3973, page=9, 597.50829pt x 793.83177pt>
 File: Papers/Application of Tribological Artificial Neural Networks in Machine 
 Elements.pdf Graphic file (type pdf)
 <use Papers/Application of Tribological Artificial Neural Networks in Machine E
@@ -3467,7 +3473,7 @@ etworks in Machine Elements.pdf , page9 used on input line 78.
  <./Papers/Application of Tribological Artificial Neural Networks in Machine El
 ements.pdf>]
 <Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
-nts.pdf, id=4041, page=10, 597.50829pt x 793.83177pt>
+nts.pdf, id=4043, page=10, 597.50829pt x 793.83177pt>
 File: Papers/Application of Tribological Artificial Neural Networks in Machine 
 Elements.pdf Graphic file (type pdf)
 <use Papers/Application of Tribological Artificial Neural Networks in Machine E
@@ -3495,7 +3501,7 @@ etworks in Machine Elements.pdf , page10 used on input line 78.
  <./Papers/Application of Tribological Artificial Neural Networks in Machine El
 ements.pdf>]
 <Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
-nts.pdf, id=4173, page=11, 597.50829pt x 793.83177pt>
+nts.pdf, id=4175, page=11, 597.50829pt x 793.83177pt>
 File: Papers/Application of Tribological Artificial Neural Networks in Machine 
 Elements.pdf Graphic file (type pdf)
 <use Papers/Application of Tribological Artificial Neural Networks in Machine E
@@ -3522,7 +3528,7 @@ etworks in Machine Elements.pdf , page11 used on input line 78.
  <./Papers/Application of Tribological Artificial Neural Networks in Machine El
 ements.pdf>]
 <Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
-nts.pdf, id=4248, page=12, 597.50829pt x 793.83177pt>
+nts.pdf, id=4250, page=12, 597.50829pt x 793.83177pt>
 File: Papers/Application of Tribological Artificial Neural Networks in Machine 
 Elements.pdf Graphic file (type pdf)
 <use Papers/Application of Tribological Artificial Neural Networks in Machine E
@@ -3549,7 +3555,7 @@ etworks in Machine Elements.pdf , page12 used on input line 78.
  <./Papers/Application of Tribological Artificial Neural Networks in Machine El
 ements.pdf>]
 <Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
-nts.pdf, id=4296, page=13, 597.50829pt x 793.83177pt>
+nts.pdf, id=4298, page=13, 597.50829pt x 793.83177pt>
 File: Papers/Application of Tribological Artificial Neural Networks in Machine 
 Elements.pdf Graphic file (type pdf)
 <use Papers/Application of Tribological Artificial Neural Networks in Machine E
@@ -3576,7 +3582,7 @@ etworks in Machine Elements.pdf , page13 used on input line 78.
  <./Papers/Application of Tribological Artificial Neural Networks in Machine El
 ements.pdf>]
 <Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
-nts.pdf, id=4333, page=14, 597.50829pt x 793.83177pt>
+nts.pdf, id=4335, page=14, 597.50829pt x 793.83177pt>
 File: Papers/Application of Tribological Artificial Neural Networks in Machine 
 Elements.pdf Graphic file (type pdf)
 <use Papers/Application of Tribological Artificial Neural Networks in Machine E
@@ -3603,7 +3609,7 @@ etworks in Machine Elements.pdf , page14 used on input line 78.
  <./Papers/Application of Tribological Artificial Neural Networks in Machine El
 ements.pdf>]
 <Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
-nts.pdf, id=4387, page=15, 597.50829pt x 793.83177pt>
+nts.pdf, id=4389, page=15, 597.50829pt x 793.83177pt>
 File: Papers/Application of Tribological Artificial Neural Networks in Machine 
 Elements.pdf Graphic file (type pdf)
 <use Papers/Application of Tribological Artificial Neural Networks in Machine E
@@ -3630,7 +3636,7 @@ etworks in Machine Elements.pdf , page15 used on input line 78.
  <./Papers/Application of Tribological Artificial Neural Networks in Machine El
 ements.pdf>]
 <Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
-nts.pdf, id=4394, page=16, 597.50829pt x 793.83177pt>
+nts.pdf, id=4396, page=16, 597.50829pt x 793.83177pt>
 File: Papers/Application of Tribological Artificial Neural Networks in Machine 
 Elements.pdf Graphic file (type pdf)
 <use Papers/Application of Tribological Artificial Neural Networks in Machine E
@@ -3672,8 +3678,8 @@ Package rerunfilecheck Info: File `Master.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  26975 strings out of 478614
- 559887 string characters out of 2843594
- 884159 words of memory out of 3000000
+ 559884 string characters out of 2843594
+ 884183 words of memory out of 3000000
  43329 multiletter control sequences out of 15000+600000
  556762 words of font info for 402 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3696,9 +3702,9 @@ hq/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/wshq
 ppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/wshq/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/wshq/App
 Data/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Master.pdf (206 pages, 32812304 bytes).
+Output written on Master.pdf (206 pages, 32813045 bytes).
 PDF statistics:
- 4599 PDF objects out of 5155 (max. 8388607)
+ 4601 PDF objects out of 5155 (max. 8388607)
  742 named destinations out of 1000 (max. 500000)
  88374 words of extra memory for PDF output out of 89155 (max. 10000000)
 
