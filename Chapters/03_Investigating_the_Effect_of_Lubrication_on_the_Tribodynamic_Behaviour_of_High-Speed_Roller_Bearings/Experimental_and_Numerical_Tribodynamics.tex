@@ -77,14 +77,14 @@ The outer surface of the bearing bore was instrumented with two Type~4383 single
 
 \begin{figure}
 	\centering
-	\includegraphics[width=150 mm]{ExpTribo Figure 6(a) - Accelerometer Locations on Test Bracket.png}
+    \includegraphics[width=120 mm]{Picture1.jpg}
 	\caption{Accelerometer locations on test bracket.}
 	\label{Accelerometer locations on test bracket}
 \end{figure}
 
 \begin{figure}
 	\centering
-	\includegraphics[width=120 mm]{ExpTribo Figure 6(b) Laser Vibrometer Locations on Shaft 2.png}
+	\includegraphics[width=120 mm]{Picture2.jpg}
 	\caption{Laser vibrometer locations on shaft.}
 	\label{Laser vibrometer locations on shaft}
 \end{figure}
@@ -93,80 +93,58 @@ A program in MATLAB controlled the speed of the shaft through a ramped voltage i
 
 \subsection{Signal Processing}
 The bearing race displacements were obtained from the instrumented bearing using time-domain data from the accelerometers and laser vibrometers. The laser vibrometer directly provided displacement data, whereas the accelerometer data required post-processing of acceleration data. To ascertain the displacement of the bearing bore and thus outer bearing race, the accelerometer results were integrated twice:
-
 \begin{equation}\label{accelvelointeg}
 	v_{out}\left(t\right)=v_{0,out}+\ \int_{0}^{t}{a_{out}\ dt}
 \end{equation}
-
 \begin{equation}\label{acceldispinteg}
 	x_{out}\left(t\right)=x_{0,out}+\int_{0}^{t}{v_{out}\ dt}
 \end{equation}
-
 As this double integration amplifies non-linearities in the original signal, it requires pre-processing \cite{Takeda2014}. Low frequency drift is removed from the unfiltered time-domain data by applying a linear fit to the data and then removing the trend from it.  
 
 To extract the frequency content of the speed ramp, waterfall plots were generated using the accelerometer and laser vibrometer data. Short-time fast-Fourier transform (STFFT) was used, with data windows of six shaft rotations at each 100~rpm increment. The resulting signal was then filtered using a Butterworth bandpass filter for a frequency range of 70~-~10~000~$Hz$ to remove the high amplitude low frequency noise that was inherent to the equipment setup. The filter used 3~$dB$ of passband ripple and 7~$dB$ attenuation in the stopbands, which were set at 35~-~12~500~$Hz$.  
 The relative displacement of the bearing centre could then be obtained from the relative displacement between the shaft (measured using the single beam laser vibrometer) and bearing bore:
-
 \begin{equation}\label{relativdispaccelx}
 	\Delta x = \Delta x_{in} - \Delta x_{out}
 \end{equation}
-
 \begin{equation}\label{relativdispaccely}
 	\Delta y = \Delta y_{in} - \Delta y_{out}
 \end{equation}
-
 where $\Delta x_{in}$ and $\Delta x_{out}$ correspond to the displacements of the shaft and bearing bore respectively. 
 
 \subsection{Contact Mechanics at the Roller Race Conjunction} \label{Contact mechanics experimental tribodynamics}
 
 The contact between roller and race is modelled as an elastic deformation between an equivalent finite length elastic cylinder and rigid plate. This assumption is realistic under the conditions of an EHL line contact. The contact force on an individual roller at each instantaneous position, $W_i$, is obtained from the Hertzian load-deflection relationship:
-
 \begin{equation}\label{Hertz load deflection}
 	W_i=k \delta_i^n
 \end{equation}
-
 where $k$ is the Hertzian contact stiffness non-linearity between a rolling element and the inner or outer raceway groove. For the case of rolling element bearings, the exponent of localised deflection, $n$, is equal to $10/9$ \cite{Harris1984}. The contact deflection of a roller relative to the race, $\delta_i$, is due to the normal dynamic motion (i.e. the local mutual convergence) of the inner and outer bearing races, contribution of lubricant film thickness and any additional clearance or interference fit \cite{Mohammadpour2015c}. This is expressed as:
-
 \begin{equation}\label{Contact deflection experimental}
 	\delta_i=2\left(h_{c,i}-C\right)+x\cos{\left(\theta_i\right)}+y\sin(\theta_i)
 \end{equation}
-
 where $C$ is the local radial clearance, and $x$ and $y$ are the displacement components of the inner bearing race from its geometric centre. This normal approach between both races is the sum of the total deformation of the rollers and both races \cite{Hamrock1981}, hence:
-
 \begin{equation}\label{Total deflection experimental}
 \delta_i=\ \delta_{i,in}+\delta_{i,out}
 \end{equation}
-
 The equilibrium of forces in a system of stiffnesses in series is therefore:
-
 \begin{equation}\label{Equilibrium of force experimental}
 W_i=W_{i,out}=W_{i,in}
 \end{equation}
-
 To find the individual deflection of each contact due to differences in contact stiffness, the following relationship is used:
-
 \begin{equation}\label{Individual deflection of contacts experimental}
 {\delta_{i,in}}k_i={\delta_{i,out}}k_{out}
 \end{equation}
-
 The deflection value at each contact based on the total deflection and relationship between contact stiffness is then found from Equations \ref{Total deflection experimental} and \ref{Individual deflection of contacts experimental} to give:
-
 \begin{equation}\label{Deflection at each contact}
 	\delta_{i, \text { out }}=\frac{\delta_i}{\left(\frac{k_{\text {out }}}{k_{\text {in }}}\right)^{\frac{1}{n}}+1}
 \end{equation}
-
 The normal stiffness of the inner and outer races differs due to their geometry. To calculate the stiffness at each contact, the following equation is used: 
-
 \begin{equation}\label{Contact stiffness experimental}
 	\delta=\frac{F}{\pi E_r L}\left[\ln \left(\frac{4 \pi E_r R_{z x} L}{F}\right)-1\right]
 \end{equation}
-
 The deflection for a range of loads is calculated based on the geometry and material properties at the inner and outer race contacts. This non-linear relationship is numerically obtained and then curve fitted and represented by a power function in the form $F=a\delta^b$, with $b=10/9$ and a representing the contact stiffness. Individual contact stiffness and deflection at the inner and outer race contacts is then found. The overall contact stiffness, $K_{i,total}$, is given by:
-
 \begin{equation}\label{Overall contact stiffness}
 	K_{i, \text { total }}=\frac{1}{\left(\frac{1}{K_{i, \text { in }}}\right)+\left(\frac{1}{K_{i, \text { out }}}\right)}
 \end{equation}
-
 where $K_{i,in}$ and $K_{i,out}$ are the stiffnesses of the inner and outer race contacts respectively.
 
 \subsection{Implicit Tribological Model}
@@ -176,53 +154,38 @@ A stepwise solution was performed on an individual roller at each orbital positi
 \begin{enumerate}
 	\item $\delta=0$ indicates a film of 0 $\mu m$ and no load.
 	\item $\delta<0$ indicates complete separation of the roller and race. In this instance, the lubricant is assumed to fill the separation gap, with the film thickness value equalling the magnitude of the separation:
-	
 	\begin{equation}\label{hydrodynamic film thickness}
 		h_i=\left|\delta_i\right|
 	\end{equation}
-
 	Under this condition, the lubrication is in the hydrodynamic regime. The hydrodynamic lubricant reaction load was derived by Rahnejat \cite{Rahnejat1984}, and is given by:
-	
 	\begin{equation}\label{hydrodynamic reaction load}
 		W_i=\frac{2 b u_i \eta_0 R_{z x}}{h_i}
 	\end{equation}
-
 	where $b$ is the half length of the contact, $u_i$ is the speed of lubricant entrainment into the contact, $\eta_0$ is the lubricant viscosity, $R_{zx}$ is the reduced radius of the roller and race and $h$ is lubricant film thickness. 
-	
 	\item $\delta>0$ indicates deflection at the roller-race contact. This means that contact pressure is sufficiently high for the lubrication regime to be elastohydrodynamic. For the elastohydrodynamic regime, an iterative process is performed to solve the film thickness. This is due to the contribution of EHL film towards deformation and consequently the load in the contact.
 	
 	The cylindrical roller and race contacts are modelled by an equivalent rigid roller against a semi-infinite elastic half space of equivalent elastic modulus, $E_r$. The extrapolated central film thickness for a line contact is therefore obtained \cite{Dowson1979} from:  
-	
 	\begin{equation}\label{dimensionless central film thickness}
 	h_c=R_{zx}\left[{3.06G}^{\ast0.56}{U^{\ast0.69}W}^{\ast-0.1}\right]
     \end{equation}
-
 	where the following dimensionless parameters are used:
-		
 	\begin{equation}\label{Gstar}
 		G^*=\alpha E_r 
 	\end{equation}
-	
 	\begin{equation}\label{Ustar}
 		U^*=\frac{u \eta_0}{R_{z x} E_r}
 	\end{equation}
-	
 	\begin{equation}\label{Wstar}
 		W^*=\frac{w}{L E_r R_{z x}}
 	\end{equation}
-
 	where $R$ is the reduced radius of the contact, $L$ is the length of the roller and $u$ is the speed of entraining motion into the contact and $W$ is the contact load. Assuming pure rolling, the speed of entraining motion is given by:
-	
 	\begin{equation}\label{entraining motion speed}
 		u_i=\frac{1}{2}\left(\omega_{c, i}-\omega_{r i, i}\right) r_{i n}
 	\end{equation}
-
 	An iterative process is used to calculate load on the roller based on total deflection including lubricant film (Equation \ref{Contact deflection experimental}). At each time step where an EHL film is present, the following convergence criteria must be met before the next time step is calculated:
-	
 	\begin{equation}\label{film convergence}
 		\frac{h_i^n-h_i^{n-1}}{h_i^{n-1}} \leq 0.01
 	\end{equation}
-
 \end{enumerate}
 
 \subsection{Surface Topography Measurements} \label{Surface Topography}
@@ -259,15 +222,15 @@ Whilst the analytical solution used in the implicit tribological model provides 
 
 Reynold’s equation \cite{Reynolds1886} is the governing equation of fluid film lubrication theory. For Newtonian fluids it can be derived from the full Navier-Stokes equations making the following assumptions, primarily the neglection of inertial forces and only retaining viscous forces on the lubricant \cite{Gohar1988}:
 \begin{enumerate} % REQUIRES DIRECTIONS ADDING
-	\item Body forces are negligible (mass of film is negligible)
+	\item Body forces are negligible (mass of film is negligible).
 	\item Pressure is constant through the lubricant film (z-direction) due to the thin film (dimensions of the region of pressure are typically 100 times the central film thickness).
-	\item No slip at the boundaries
-	\item Lubricant flow is laminar (low Reynolds number)
-	\item Inertia and surface tension forces are negligible compared with viscous forces (working fluid has low mass and low acceleration)
-	\item Shear stress and velocity gradients are only significant across the lubricant film
-	\item The lubricant behaves as a Newtonian fluid
-	\item Lubricant viscosity is constant across the film
-	\item The lubricant boundary surfaces are parallel or at a small angle with respect to each other
+	\item No slip at the boundaries.
+	\item Lubricant flow is laminar (low Reynolds number).
+	\item Inertia and surface tension forces are negligible compared with viscous forces (working fluid has low mass and low acceleration).
+	\item Shear stress and velocity gradients are only significant across the lubricant film.
+	\item The lubricant behaves as a Newtonian fluid.
+	\item Lubricant viscosity is constant across the film.
+	\item The lubricant boundary surfaces are parallel or at a small angle with respect to each other.
 \end{enumerate}
 
 Reynolds equation is a second order, non-linear partial differential equation. It is made up of the pressure induced terms (Poiseuille flow) and the boundary velocity-induced term (Couette flow). 
@@ -277,16 +240,12 @@ The simplified 1D version of Reynolds equation is given by:
 \begin{equation}\label{eq3.1}
 	\frac{\partial}{\partial x}\left[\frac{\rho h^{3}}{6 \eta}\left(\frac{\partial p}{\partial x}\right)-\rho h u\right]=2 \frac{\partial(\rho h)}{\partial t}
 \end{equation}
-
 To solve Reynolds equation numerically, it must first be discretized and then solved using the finite-difference method. The following procedure explains this discretization.
-
 Due to the steady state nature of the investigations, with the absence of shock loading, the transient squeeze term can be removed:
 \begin{equation}\label{eq3.2}
 	\frac{\partial}{\partial x}\left[\frac{\rho h^{3}}{6 \eta}\left(\frac{\partial p}{\partial x}\right)-\rho h u\right]=0
 \end{equation}
-
 Due to the many orders of magnitude differences between lubricant film thickness (µm) and pressures (GPa), the numerical solution often becomes unstable. Dimensionless parameters are therefore defined to remove this instability. These are as follows:
-
 \begin{equation}\label{eq3.3}
 	\begin{aligned}
 		U &=\frac{u}{u_{a v}} & \partial x &=a \partial X \\
@@ -298,61 +257,44 @@ Due to the many orders of magnitude differences between lubricant film thickness
 		\mathrm{~W}^{*} &=\frac{w}{E_{r} R_{z x} L} &
 	\end{aligned}
 \end{equation}
-
 Terms in the simplified Reynolds equation are replaced with dimensionless parameters. Similar terms are then grouped and rearranged to give the final form:
-
 \begin{equation}\label{eq3.4}
 	\frac{\partial}{\partial X}\left[\frac{\bar{\rho} H^{3}}{6 \bar{\eta}}\left(\frac{\partial P}{\partial X}\right)\right]=\Psi\left[\frac{\partial}{\partial X} \bar{\rho} H U\right]
 \end{equation}
-
 where
-
 \begin{equation}\label{eq3.5}
 	\Psi=\frac{12 u_{a v} R_{z x}^{2} \eta_{0}}{p_{h}}
 \end{equation}
-
 Grouping terms for simplicity
 \begin{equation}\label{eq3.6}
 	M=\frac{\bar{\rho} H^{3}}{6 \bar{\eta}}
 \end{equation}
-
 \begin{equation}\label{eq3.7}
 	Q=\bar{\rho} H
 \end{equation}
-
 Making substitutions
 \begin{equation}\label{eq3.8}
 	\frac{\partial}{\partial X}\left[M\left(\frac{\partial P}{\partial X}\right)\right]=\Psi \frac{\partial}{\partial X}[Q U
 \end{equation}
-
 \begin{equation}\label{eq3.9}
 	\left[M \frac{\partial^{2} P}{\partial X^{2}}+\left(\frac{\partial M}{\partial X}\right) \frac{\partial P}{\partial X}\right]=\Psi\left[U \frac{\partial Q}{\partial X}+Q \frac{\partial U}{\partial X}\right]
 \end{equation}
-
 The final term is removed, as velocity, $U$, is independent of $x$ when no stretching of the surfaces occurs. This is then differentiated to give:
-
 \begin{equation}\label{eq3.10}
 	\frac{\partial M}{\partial X}=\frac{\partial}{\partial X}\left[\frac{\bar{\rho} H^{3}}{6 \bar{\eta}}\right]=\frac{H^{2}}{2 \bar{\eta}}\left[\left(\frac{H}{3}\right) \frac{\partial P}{\partial X}+\bar{\rho} \frac{\partial H}{\partial X}-\left(\frac{\bar{\rho} H}{2 \bar{\eta}}\right) \frac{\partial \bar{\eta}}{\partial X}\right]
 \end{equation}
-
 and
-
 \begin{equation}\label{eq3.11}
 	\frac{\partial Q}{\partial X}=\frac{\partial}{\partial X}[\bar{\rho} H]=H \frac{\partial \bar{\rho}}{\partial X}+\bar{\rho} \frac{\partial H}{\partial X}
 \end{equation}
-
 Substituting into Equation \ref{eq3.9} gives the following:
-
 \begin{equation}\label{eq1.12}
 	\frac{\bar{\rho} H^{3}}{6 \bar{\eta}} \frac{\partial^{2} P}{\partial X^{2}}+\frac{H^{2}}{2 \bar{\eta}}\left[\frac{H}{3} \frac{\partial \bar{\rho}}{\partial X}+\bar{\rho} \frac{\partial H}{\partial X}-\frac{\bar{\rho} H}{2 \bar{\eta}} \frac{\partial \bar{\eta}}{\partial X}\right] \frac{\partial P}{\partial X}-\Psi U\left[H \frac{\partial \bar{\rho}}{\partial X}+\bar{\rho} \frac{\partial H}{\partial X}\right]=0
 \end{equation}
-
 \begin{equation}\label{eq3.13}
 	\frac{\partial^{2} P}{\partial X^{2}}+\frac{3}{\bar{\rho} H}\left[\frac{H}{3} \frac{\partial \bar{\rho}}{\partial X}+\bar{\rho} \frac{\partial H}{\partial X}-\frac{\bar{\rho} H}{2 \bar{\eta}} \frac{\partial \bar{\eta}}{\partial X}\right] \frac{\partial P}{\partial X}-\frac{6 \bar{\eta}}{\bar{\rho} H^{3}} \Psi U\left[H \frac{\partial \bar{\rho}}{\partial X}+\bar{\rho} \frac{\partial H}{\partial X}\right]=0
 \end{equation}
-
 The final form of the equation is therefore:
-
 \begin{equation}\label{eq3.14}
 	\frac{\partial^{2} P}{\partial X^{2}}+\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{3}{H} \frac{\partial H}{\partial X}-\frac{3}{2 \bar{\eta}} \frac{\partial \bar{\eta}}{\partial X}\right] \frac{\partial P}{\partial X}-\frac{6 \bar{\eta}}{H^{2}}\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{1}{H} \frac{\partial H}{\partial X}\right] \Psi U=0
 \end{equation}
@@ -360,49 +302,35 @@ The final form of the equation is therefore:
 \subsection{Finite Difference Formulation} \label{Finite Difference Formulation}
 
 To solve Reynolds equation computationally, a finite difference formulation required. The central difference formula based on Taylor series expansion \cite{Hoffmann2000} is used. The second derivative of pressure using second order central discretization for the spatial domain is therefore:
-
 \begin{equation}\label{eq3.15}
 	\frac{\partial^2 P}{\partial X^2}=\frac{P_{i-1}-2 P_i+P_{i+1}}{\Delta X^2}
 \end{equation}
-
 and the first derivative is given by:
-
 \begin{equation}\label{eq3.16}
 	\frac{\partial P}{\partial X}=\frac{P_{i+1}-P_{i-1}}{2 \Delta X}
 \end{equation}
-
 Replacing terms in the final form of discretized Reynold equation:
-
 \begin{equation}\label{eq3.17}
 	\frac{P_{i-1}-2 P_i+P_{i+1}}{\Delta X^2}+\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{3}{H} \frac{\partial H}{\partial X}-\frac{3}{2 \bar{\eta}} \frac{\partial \bar{\eta}}{\partial X}\right] \frac{P_{i+1}-P_{i-1}}{2 \Delta X}-\frac{6 \bar{\eta}}{H^2}\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{1}{H} \frac{\partial H}{\partial X}\right] \Psi U=0
 \end{equation}
-
 \begin{equation}\label{eq3.18}
 	\frac{P_{i-1}+P_{i+1}}{\Delta X^2}+\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{3}{H} \frac{\partial H}{\partial X}-\frac{3}{2 \bar{\eta}} \frac{\partial \bar{\eta}}{\partial X}\right] \frac{P_{i+1}-P_{i-1}}{2 \Delta X}-\frac{6 \bar{\eta}}{H^2}\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{1}{H} \frac{\partial H}{\partial X}\right] \Psi U=\frac{2 P_i}{\Delta X^2}
 \end{equation}
-
 Pressure at each node point can then be represented by:
-
 \begin{equation}\label{eq3.19}
 	P_i=\frac{\frac{P_{i-1}+P_{i+1}}{\Delta X^2}+\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{3}{H} \frac{\partial H}{\partial X}-\frac{3}{2 \bar{\eta}} \frac{\partial \bar{\eta}}{\partial X}\right] \frac{P_{i+1}-P_{i-1}}{2 \Delta X}-\frac{6 \bar{\eta}}{H^2}\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{1}{H} \frac{\partial H}{\partial X}\right] \Psi U}{2\left(\frac{1}{\Delta X^2}\right)}
 \end{equation}
-
 Simplified to 
-
 \begin{equation}\label{eq3.20}
 	P_i=\frac{P_{x x}+P_x-E}{2\left(\frac{1}{\Delta X^2}\right)}
 \end{equation}
-
 where
-
 \begin{equation}\label{eq3.21}
 	P_{x x}=\frac{P_{i-1}+P_{i+1}}{\Delta X^2}
 \end{equation}
-
 \begin{equation}\label{eq3.22}
 	P_{x}=\frac{P_{i+1}-P_{i-1}}{2 \Delta X}\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{3}{H} \frac{\partial H}{\partial X}-\frac{3}{2 \bar{\eta}} \frac{\partial \bar{\eta}}{\partial X}\right]
 \end{equation}
-
 \begin{equation}\label{eq3.23}
 	E=\frac{6 \bar{\eta}}{H^2}\left[\frac{1}{\bar{\rho}} \frac{\partial \bar{\rho}}{\partial X}+\frac{1}{H} \frac{\partial H}{\partial X}\right] \Psi U
 \end{equation}
@@ -410,68 +338,50 @@ where
 \subsection{Effect of Pressure on Lubricant Viscosity}
 
 EHL temperatures are typically in the region of 0.5~-~4~$GPa$. The resultant behaviour of the viscosity at these pressures is instrumental in forming the EHL film and must be accounted for. The Barus law \cite{Barus1893} determines viscosity increase with pressure assuming constant ambient temperature: 
-
 \begin{equation}\label{eq3.24}
 	\eta=\eta_0 \exp (\alpha p)
 \end{equation}
-
 where $\eta$ is the lubricant viscosity at gauge pressure, $p$, $\eta_0$ is the viscosity at $p$~=~0, and $\alpha$ is the pressure-viscosity coefficient $({m}^2 /{N})$ and is specific to the lubricant. This relationship does not account for the change in $\alpha$ with temperature and pressure \cite{Gohar2019}, becoming inaccurate above 0.5~GPa.
 
 A more comprehensive relationship which simultaneously includes the effects of temperature and pressure was one proposed by Roelands \cite{Roelands1966} and developed by Houpert \cite{Houpert1984}.  Roelands law is therefore accurate at higher contact pressures:
-
 \begin{equation}\label{eq3.25}
     \eta=\eta_0 \exp \left(\alpha^* p\right)
 \end{equation}
-
 The Roelands pressure-viscosity coefficient, $\alpha^\ast$, is a function of both $p$ and $\theta$, with $\theta_0$ being the reference or ambient temperature, for example at the inlet:
-
 \begin{equation}\label{eq3.26}
 	\alpha^* p=\left[\ln \left(\eta_0+9.67\right)\right]\left\{\left(\frac{\theta-138}{\theta_0-138}\right)^{-S_0}\left[\left(1+\frac{p}{p_0}\right)^{Z_0}-1\right]\right\}
 \end{equation}
-
 where
-
 \begin{equation}\label{eq3.27}
 	z_0=\frac{\alpha}{5.1 \times 10^{-9}\left[\ln \left(\eta_0\right)+9.67\right]}
 \end{equation}
-
 and
-
 \begin{equation}\label{eq3.28}
 	S_0=\frac{\beta\left(\theta_0-138\right)}{\ln \left(\eta_0\right)+9.67}
 \end{equation}
-
 The oil constants $Z_0$ and $S_0$ are independent of both pressure and temperature, and $Z_0$ can be typically taken as 0.68 for computational purposes.
 
 \subsection{Effect of Pressure on Lubricant Density}
 
 For accurate EHL film shape calculations, the effect that pressure has on the lubricant density must be considered. The most common equation for this is the widely used Dowson and Higginson model \cite{Dowson1977}:
-
 \begin{equation}\label{eq3.29}
 	\rho=\rho_0\left(1+\frac{0.6 \times 10^{-9} p}{1+1.7 \times 10^{-9} p}\right)
 \end{equation}
-
 where $\rho_0$ is the lubricant atmospheric pressure. Further modifications can be made to account for the effects of temperature:
-
 \begin{equation}\label{eq3.30}
 	\rho=\rho_0\left(1+\frac{0.6 \times 10^{-9} p}{1+1.7 \times 10^{-9} p}\right)\left[1-0.65 \times 10^{-3}\left(\theta-\theta_0\right]\right.
 \end{equation}
 
-
 \subsection{Effect of Temperature on Lubricant Viscosity}
 
 Most EHL work assumes constant temperature of the contact and that viscosity and density are dependent on pressure only. Standard experiments have been performed to assess effect of temperature on viscosity. Results have previously been curve fit by Crouch and Cameron \cite{Crouch1961}, with the most simple fit due to Reynolds:
-
 \begin{equation}\label{eq3.31}
 	\eta=\eta_s \exp (-\beta \Delta \theta)
 \end{equation}
-
 where $\eta_s$ is the viscosity of the lubricant at temperature $\theta_s$, $\eta$ is the viscosity at representative temperature, $\theta$, and $\Delta \theta$ represents the temperature difference between the two. $\beta$ is the thermoviscous constant and is lubricant specific. This relationship is only valid for small temperature rises of the lubricant. A more accurate and widely used equation is the expression from Vogel:
-
 \begin{equation}\label{eq3.32}
 	\eta=K \exp \left(\frac{b}{\theta+c}\right)
 \end{equation}
-
 with the three constants dependant on the lubricant, obtained from knowing three pairs of values for $\theta$ and $\eta$.
 
 \subsection{1D EHL Solution Methodology}
@@ -479,37 +389,28 @@ with the three constants dependant on the lubricant, obtained from knowing three
 The methodology for the 1D EHL solution used within this thesis is as follows.
 
 Reynolds equation is used to calculate contact pressures. Assuming a thin film of Newtonian lubricant in a line contact, the following form is used and discretized as described in Section \ref{Finite Difference Formulation}:
-
 \begin{equation}\label{eq3.33}
 	\frac{\partial}{\partial X}\left[\frac{\bar{\rho} H^3}{6 \bar{\eta}}\left(\frac{\partial P}{\partial X}\right)\right]=\Psi\left[\frac{\partial}{\partial X} \bar{\rho} H U\right]
 \end{equation}
-
 where $X$ is the direction of entraining motion into the contact. Squeeze film motion is neglected for this analysis. The pressure-density relationship in the compressible model is modelled using Dowson-Higginson \cite{Dowson1977} (\ref{eq3.29}). Roelands equation \cite{Roelands1966} (\ref{eq3.25}) is used for the pressure-viscosity relationship.
 
 Pressure distribution is obtained from the variations in film thickness at the contact, which is defined as below:
-
 \begin{equation}\label{eq3.34}
 	h=h_0+\frac{x^2}{2 R_{z x}}-\frac{2}{\pi E_r} \int_{x_{c, \text { in }}}^{x_{c, \text { out }}} p \ln \left(x-x^{\prime}\right)^2 d x^{\prime}
 \end{equation}
-
 where $h_0$ is the central film thickness, the second term represents an idealised film thickness parabola, with the final term representing the localised contact deflection. Central film thickness is first estimated using \cite{Dowson1979}:
-
 \begin{equation}\label{eq3.35}
 	h_0=R_{z x} 3.06 G^{* 0.56} U^{* 0.69} W^{*-0.1}
 \end{equation}
-
 \begin{equation}\label{eq3.36}
 	G^*=\alpha E_r 
 \end{equation}
-
 \begin{equation}\label{eq3.37}
 	U^*=\frac{u \eta_0}{R_{z x} E_r}
 \end{equation}
-
 \begin{equation}\label{eq3.38}
 	W^*=\frac{w}{L E_r R_{z x}}
 \end{equation}
-
 Below, the method of solution for the numerical EHL model is provided:
 
 \begin{enumerate} % Requires ammendments depending on where in the context of the thesis this is placed
@@ -520,28 +421,22 @@ Below, the method of solution for the numerical EHL model is provided:
 	\begin{equation}\label{eq3.39}
 		\operatorname{Err}_{\text {pressure }}=\frac{\sum_{i=1}^n\left|p_{\text {new }}-p_{\text {old }}\right|}{\sum_{i=1}^n p_{\text {old }}} \leq \varepsilon_p
 	\end{equation}
-
 	where $\varepsilon_p$= 1 $\times 10^{-5}$.
 	
 	Under-relaxation is applied between successive iterations where the criterion is not met:
 	\begin{equation}\label{Under relaxation}
 		p_{\text {new }}=(1-\gamma) p_{\text {old }}+\gamma p_{\text {new }}
 	\end{equation}
-
 	where the under-relaxation factor is typically 0.01 $\le\gamma\le$ 0.8
 	
 	\item Hydrodynamic reaction load is calculated using the integration of pressure over the computational domain:
-	
 	\begin{equation}\label{Reaction load integration EHL}
 		W_h=L \int p d x
 	\end{equation}
-
 	The total reaction from the hydrodynamic load should be equal to the total load share on the roller, $W_i$, obtained from the explicit tribological model. The following convergence criterion is applied:
-	
 	\begin{equation}
 		\frac{\left|W_i-W_h\right|}{W_i} \leq \varepsilon_W
 	\end{equation}
-
 	where $\varepsilon_W$ = 0.001 
 \end{enumerate}
 
@@ -630,19 +525,15 @@ The experimental results obtained from the presented rig were verified against a
 \end{table*}
 
 Primary frequencies in the system due to the interaction of the rolling elements, races and the shaft could be verified. These frequencies were calculated analytically, with $f_{bpi}$ and $f_{bpo}$ representing the ball pass frequencies of the inner and outer race respectively and $f_{shaft}$ being the rotational frequency of the shaft:
-
 \begin{equation}\label{ball pass frequency inner}
 	f_{b p i}=\frac{\omega_s}{2 \pi} \frac{N}{2}\left(1-\frac{D_r}{D_p}\right)
 \end{equation}
-
 \begin{equation}\label{ball pass frequency outer}
 	f_{b p o}=\frac{\omega_s}{2 \pi} \frac{N}{2}\left(1+\frac{D_r}{D_p}\right)
 \end{equation}
-
 \begin{equation}\label{ball pass frequency shaft}
 	f_{\text {shaft }}=\frac{\omega_s}{2 \pi}
 \end{equation}
-
 At 14~000~$rpm$, the theoretical inner and outer race frequencies are calculated to be 1669~$Hz$ and 1131~$Hz$ respectively, with the experimental results being 1611~$Hz$ and 1131~$Hz$. The first order shaft rotational frequency from the experiment was 232~$Hz$ compared to theoretical calculation of 233~$Hz$. The above frequencies can be seen clearly in Figure \ref{Bearing bore displacement frequency spectra}, which shows the bearing bore displacement spectra, and Figure \ref{Shaft displacement frequency spectra} which represents the shaft displacement spectra. The verification frequencies are identical in both, confirming that the bearing motion is accurately measured by the experimental methodology. It is observed that at certain speeds, the ball pass frequency of the outer race has a larger contribution than the inner race. This is particularly highlighted at 12~000~-~14~000~$rpm$. These regional effects are contributed by modal behaviour of the bracket and the bed. The critical speed of the unloaded shaft, where lateral bending frequency of the shaft is equal to the rotation frequency \cite{Shigley'sMechanicalEngineeringDesign}, occurs at 12~660~$rpm$ and 211~$Hz$.
 
 \begin{figure}
@@ -684,15 +575,12 @@ Figure \ref{Film and load - EHL to hydrodynamic regime} presents an interval of 
 \subsection{EHL Regimes} \label{Greenwood EHL Regimes}
 
 As has been demonstrated in the results analysis, the contact conditions deviate from the elastohydrodynamic regime of lubrication into the hydrodynamic regime throughout the roller orbital motion. These conditions can be verified by presenting the results on the Greenwood chart for fluid regimes of lubrication. The charts display the physical effects instrumental to EHL formation under isothermal conditions: viscosity rise due to pressure and elastic deformation of the surface. These two effects are quantified by two dimensionless parameters, $G_e$ and $G_v$, as defined below \cite{Gohar1988}: 
-
 \begin{equation}\label{GoharGe}
 	G_e=\frac{W^*}{U^{* 1 / 2}}
 \end{equation}
-
 \begin{equation}\label{GoharGv}
 	G_v=\frac{W^{* 3 / 2} G^*}{U^{* 1 / 2}}
 \end{equation}
-
 Four regions exist and the boundaries of these regions are defined by the geometry of contacting bodies, material, and lubricant properties. As is shown in Figure \ref{EHL and hydrodynamic conditions during roller operation}, the outer roller-race contact conditions move between the viscous elastic (VE) and iso-viscous rigid (IR) regimes. The VE regime signifies the EHL regime of lubrication where contact pressures are such that the elastic deformation of the surfaces and viscosity rise due to pressure increase is significant. The IR regime occurs when the magnitude of elastic deformation is insignificant, and the contact pressures are low enough that viscosity rise is negligible, i.e. hydrodynamic lubrication \cite{Hamrock1980}. The boundary between the two also corresponds well with the distinction being made between hydrodynamic and EHL in this methodology, presented by the black and blue regions of the plot.
 
 \begin{figure}

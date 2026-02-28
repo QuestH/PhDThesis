@@ -35,27 +35,21 @@ In typical configurations containing flexible structures, it is possible for bot
 Within the model, the shaft is treated as a body having linear elastic behaviour and the housing is treated as rigid. The bearings are modelled via non-linear contact forces acting between the shaft and housing.
 
 The shaft is represented by a condensed finite element model and is discretised into partial masses \cite{Parikyan2001}. The total elastic deformation of the shaft is represented by translational and rotational displacement components of these individual partial masses. The mathematical modelling used in the FMBD solver is based on Newton’s equations of motion and Euler’s equation of angular momentum, respectively:
-
 \begin{equation}\label{NewtonFMBD}
 	m_i \frac{\partial^2 x_i^{A b s}}{\partial t^2}=f_{F, i}^{A b s}
 \end{equation}
-
 \begin{equation}\label{EulerFMBD}
 	\frac{\partial}{\partial t}\left(I_{C, i}^{A b s} \omega_i^{A b s}\right)=f_{M, i}^{A b s}
 \end{equation}
-
 where $m_i$ and $I_{C, i}^{A b s}$ represent the mass and inertia tensors of the partial masses, $i$. The vectors of displacement and angular velocity are represented by $x_i^{A b s}$ and $\omega_i^{A b s}$ respectively and are related to the centre of gravity of each partial mass. The force and moment vectors, $f_{F, i}^{A b s}$ and $f_{M, i}^{A b s}$, must be fulfilled for all partial masses in the shaft.
 
 The combination of displacement and rotations of the shaft takes the form:
-
 \begin{equation}\label{ShaftEquilibrium}
 	M \ddot{q}=f
 \end{equation}
-
 where $M$ represents the block-diagonal mass matrix of the shaft, consisting of the sub-matrices $M_i, i \in\{1, \ldots, n\}$ that make up each partial mass of the full shaft. Acceleration, $\ddot{q}$, represents the second derivative of the displacement vector of all partial masses, $q=\left(q_1, q_2, \ldots, q_n\right)^t$. Each element of this vector has 6 elements associated with it that represent the 6 degrees of freedom - 3 rotational and 3 translational $\left(q_i=\right.$ $\left.\left(u_{t 1}, u_{t 2}, u_{t 3}, \emptyset_1, \emptyset_2, \emptyset_3\right)^t\right)$
 
 The forces and moments acting on each partial mass are contained in sub-vectors of force, $f=\left(f_1, f_2, \ldots, f_n\right)^t$. These are split into a sum of internal force terms, $f_i^{i n t}$, external force terms, $f_i^{\text {ext }}$, and non-linear inertia terms, $p^*$. As with the partial mass terms, these are made up of six elements, each representing a degree of freedom:
-
 \begin{equation}\label{Partial mass force}
 	f_i^{i n t}=\left(\begin{array}{c}
 		f_{i, 1}^{i n t} \\
@@ -66,31 +60,23 @@ The forces and moments acting on each partial mass are contained in sub-vectors 
 		f_{i, 6}^{i n t}
 	\end{array}\right)
 \end{equation}
-
 where each component of force, $f_{i, k}^{i n t}, k=1, \ldots, 6$ is evaluated using the linear-elastic approach
-
 \begin{equation}\label{Partial mass force 6 dof}
 	f_{i, k}^{i n t}=\sum_{j=1}^{6 . n} f_{i, j, k}^{i n t}
 \end{equation}
-
 \begin{equation}\label{Partial mass force 6 dof terms}
 	f_{i, j, k}^{i n t}=-\left(d_{i, j, k} \dot{q}_k+k_{i, j, k} q_k\right)
 \end{equation}
-
 where $d$ and $\mathrm{k}$ represent the material damping and stiffness coefficients, respectively.
 
 Grouping the damping and stiffness coefficients into one matrix gives the equation of motion after rearrangement. This equation represents the behaviour of the total system of rigid partial masses that make up the shaft, and considers both general global motion and small body motion (vibrations) \cite{Offner2011}:
-
 \begin{equation}\label{Equation of motion}
 	M \cdot \ddot{q}+D \cdot \dot{q}+K \cdot q=f^{e x t}+p^*
 \end{equation}
-
 The vector of external forces and moments, $f^{e x t}$, is the sum of excitation forces, $f^*$, and external loads, $f^a$. External loads and moments applied to the shaft, $f^a$, are determined functions given in time and are input as both time-varying and static loads on the system. The non-linear excitation force term, $f^*$, represents the reaction forces from the lubricated component level bearing model.
-
 \begin{equation}\label{External forces}
 	f^{e x t}=f^*+f^a
 \end{equation}
-
 Partial mass displacements $\left(q_i\right)$ and velocities $\left(\dot{q}_i\right)$ at the bearing locations are output from the dynamic model and used as boundary conditions within the lubricated component level bearing model at each time step of the simulation. This model returns resultant forces and torques on the inner race of each bearing $\left(f_i^*\right)$ which are then used to solve the equation of motion (Equation \ref{Equation of motion}) within the dynamic model (see Figure \ref{Flowchart of models}).
 
 \subsection{Lubricated Component Level Model} \label{Contact mechanics FMBD}
@@ -104,19 +90,15 @@ The displacement and velocity vectors from each node connecting the shaft to the
 \end{figure} 
 
 Between the roller and raceways, under sufficient load, the pressures in the non-conformal contact are high enough to cause elastic deformation of the surfaces and a significant increase in lubricant viscosity. This, combined with relative motion between contacting bodies, leads to the generation of an EHL contact. The stiffness of the EHL film is typically 1-2 orders greater than the stiffness of the contacting bodies \cite{Dietl1997}. In this analysis, the film stiffness was calculated using:
-
 \begin{equation}\label{Film stiffness}
 	K_{E H L}=\frac{d w}{d h_c}
 \end{equation}
-
 The lowest average film stiffness was $5.1 \times 10^9 \mathrm{~N} / \mathrm{m}$, which is over one order greater than the contacting material stiffness. The material therefore dominates the stiffness of the contact, and the stiffness of the EHL film can be neglected. The film is modelled as a rigid element that is present between the roller and race \cite{Walford1983} \cite{Dareing1975} \cite{Mehdigoli1990}.
 
 The contact deformation $(\delta)$ is therefore a function of the displacement of the inner bearing race, angular displacement of the roller about the rotational axis $(\theta)$, central EHL film thickness $\left(h_c\right)$ and any clearance or radial preload $( \pm C)$ within the bearing \cite{Rahnejat1985} \cite{Mohammadpour2015c}:
-
 \begin{equation}\label{Contact deformation flextribo}
 	2 \delta=2\left(h_c-C\right)+z \cos (\theta)+y \sin (\theta)
 \end{equation}
-
 Figure \ref{Dry vs lubricated roller-race contact} demonstrates this more clearly. The total contact deformation is the summation of $\left(h_c\right)$ and the material deformation, $\left(\delta_m\right)$ predicted from the dry-Hertzian contact assumption. Conventional dry analysis only accounts for the dry material deformation at the contact.
 
 \begin{figure}
@@ -127,49 +109,37 @@ Figure \ref{Dry vs lubricated roller-race contact} demonstrates this more clearl
 \end{figure} 
 
 The extrapolated central film thickness for a line contact, assuming a fully flooded contact inlet, is therefore obtained from \cite{Dowson1979}: 
-
 \begin{equation}\label{DowsonToyodaCentralFilm}
 	h_c=R_r\left[3.06 G^{* 0.56} U^{* 0.69} W^{*-0.1}\right]
 \end{equation}
-
 where the following dimensionless parameters are used:
-
 \begin{equation}\label{DowsonToyodaDimensionless}
 	W^*=\frac{W}{E_r R_r l_a}, U^*=\frac{\eta_0 U}{E_r R_r}, G^*=E_r \alpha
 \end{equation}
-
 Comprehensive analytical models \cite{Nelias2008} \cite{Majdoub2020} account for the tilting and skew of the rolling elements. Skew has the effect of varying the entrainment speed along the length of the roller, and tilt will affect the contact gap. Due to the stiff housing and shaft used in this analysis, the tilt and skew angles are very small. The entraining motion and contact gap along the contact length can be considered consistent, and a 1D analysis for EHL film thickness is therefore appropriate \cite{Gupta1979}.
 
 The bearings are modelled with light preload due to mounting interference. In practical applications, preload is applied to prevent skidding and chaotic behaviour due to the emergence of zero stiffness regions \cite{Mevel1993}. In contrast, excessive preload can lead to frictional power loss and wear. Assuming pure rolling, the speed of entraining motion is given by \cite{Spikes2015} \cite{Shi2015}: 
-	
 \begin{equation}\label{SpikesEntrainmentSpeed}
 	u=\frac{R \omega}{r}\left(\frac{(R+2 r)}{(R+r)}\right)
 \end{equation}
-
 Due to the dependency of load on film thickness, an iterative approach is performed to calculate the contact force. Convergence criteria for the EHL film must be met at each time step of the simulation before the bearing forces are returned to the system level model and the equations of motion are solved:
-
 \begin{equation}\label{FilmConvergence}
 	\frac{h_c^m-h_c^{m-1}}{h_c^{m-1}} \leq 0.001
 \end{equation}
-
 where $m$ represents the iteration number.
 
 Individual roller-race contact forces are calculated based on the contact deformation. In the case of a rolling element, a cylindrical body of finite length, the contact problem is non-Hertzian. The surfaces cannot be modelled as locally quadratic due to the presence of crowned (rounded) edges \cite{Singh1974}. The most widely used technique to calculate the force-deflection relationship is the contact slicing technique. Whilst this does not reflect edge stress concentrations, these stresses are only distributed over a small area and hence can be neglected for the purpose of force equilibrium \cite{Harris2007a}. In general, this technique is favoured for its simplicity, speed, and sufficient accuracy. The contact slicing technique employed in this study was developed by Andreason \cite{Andreason1973} for modelling these non-Hertzian line contacts.
  
 Modelling the roller-race contacts as a line contact between a cylindrical roller and a flat surface, Lundberg’s \cite{Lundberg1949} expression between contact force per unit length ($w$) and deformation ($\delta$) was used. 
-
 \begin{equation}\label{Lundberg deflection}
 	\frac{\delta}{l_a}=\frac{2 w}{\pi E_r l_a} \ln \frac{\pi E_r l_a}{w}
 \end{equation}
-
 where $E_r$ is the equivalent elastic modulus of the two materials and $l_a$ is the active length of the roller. This assumes that the pressure distribution is uniform along the length of the contact, and elliptical across it. This neglects side leakage along the contact $\left(x_c\right)$ due to the contact dimensions in this direction being much larger than dimensions across it $\left(y_c\right)$. This is valid apart from the small regions at the edges of the contact.
 
 From Equation \ref{Lundberg deflection}, contact forces per unit length of an individual slice along the roller-race contact can be calculated. This is valid if there is no separation of the bodies, i.e., the contact deformation does not become negative $\left(\delta_k>0\right)$.
-
 \begin{equation}\label{Contact force per unit length Lundberg}
 	w_s=\pi E_r l_s\left(\frac{0.5 \delta_s}{7.358 l_s}\right)^{1.11}
 \end{equation}
-
 where $s$ represents the slice number, and $l$ represents the slice length.
 
 The application of the slicing technique was validated against open literature \cite{DeMul1989_2}. The study compared results obtained from an experimental rig with numerical results calculated using both the approximate slicing technique and the sophisticated non-Hertzian technique \cite{DeMul1986}. By replicating the geometry of the test bearing used in their analysis, the application of Andreason’s slicing technique used for this analysis was validated with good agreement (see Figure \ref{Contact level validation}). This method is a much faster way of calculating contact load and moment than more sophisticated methods by \cite{DeMul1989_2}, yet still maintains high accuracy.
@@ -182,15 +152,12 @@ The application of the slicing technique was validated against open literature \
 \end{figure} 
 
 The total contact load $W$ and moment $T$ are obtained by summing the contributions from all loaded slices:
-
 \begin{equation}\label{Total contact load flexitribo}
 	W=\sum_s w_s l_s
 \end{equation}
-
 \begin{equation}\label{Total contact torque flexitribo}
 	T=\sum_s w_s l_s x_{c, s}
 \end{equation}
-
 with $x_{c, s}$ being the distance to the centre of each slice in the conjunction coordinate system. It is assumed that total contact deflection is shared equally between the inner and outer races despite slight differences in contact geometry. The entrainment velocity is equal at each contact, which is the governing parameter for the lubricated contact force differences.
 
 Experimental measurements show that the damping of a rolling element bearing arises from multiple sources \cite{Dietl1997}, including:
@@ -202,23 +169,18 @@ Experimental measurements show that the damping of a rolling element bearing ari
 \end{enumerate}
 
 These measurements show that damping decreases with rotational speed, tending towards a constant value. Sopanen and Mikkola \cite{Sopanen2003_1} summarize the findings of Mitsuya et al. \cite{Mitsuya1992} and Aini et al. \cite{Aini2002}, concluding that the film damping is moderate. The linearized viscous damping method adopted in their study is therefore also adopted here. The damping force for each roller is obtained as a factor of the contact stiffness and contact penetration velocity \cite{Kramer1993}. This is defined as:
-
 \begin{equation}\label{Kramer damping}
 	\left|F_d\right|=-f_{\text {damp }} K_c \dot{q}
 \end{equation}
-
 where $K_c$ is the contact stiffness, and the damping factor, $f_{\text {damp}}$, is in the range of $(0.25-2.5) \times 10^{-5}$ as reported by \cite{Kramer1993}.
 
 At each time step of the analysis, these calculations are performed for each individual roller in the complement. The total bearing force acting on the inner race is solved by separating the total contact force on each roller into its components and summing their contributions.
-
 \begin{equation}\label{Total bearing force z flexitribo}
 	f_{z, i}^*=\sum_N W \cos (\theta)-\sum_N F_d \cos (\theta)
 \end{equation}
-
 \begin{equation}\label{Total bearing force y flexitribo}
 	f_{y, i}^*=\sum_N W \sin (\theta)-\sum_N F_d \sin (\theta)
 \end{equation}
-
 Due to the bearing preload, contact is maintained throughout the rollers’ orbit; hence no emerging clearances are modelled in the lubricated analysis. The contact separation is also unaffected by rolling element centrifugal forces, which are negligible when compared to the contribution of the dynamic load and the EHL film in this study. These have therefore been neglected.
 
 Surface measurements of the rollers used in this analysis were taken using an Alicona InfiniteFocus Variation Microscope (see Section \ref{Surface Topography}) . The composite surface roughness value of a roller and inner race was calculated to be 0.207~$\mu m$. This gives a lambda value of 2.59 for the thinnest EHL film at 1000~$rpm$. Asperity interaction is not considered as the EHL film fully supports the load. Due to the pure rolling and zero sliding assumption, friction at the contacts is therefore neglected and the analysis is performed under isothermal conditions. 
