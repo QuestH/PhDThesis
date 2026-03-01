@@ -1,0 +1,274 @@
+﻿!UI trail file version 1
+!Application name  `PRO`
+! Message Dialog: Warning
+!               : The file shaft_35mm_v2.pdf already exists, continue anyway?
+~ Activate `UI Message Dialog` `ok`
+!sket_eps         6.4515625
+!%CIPDF file is being created...
+!%CEPDF file has been aborted.
+~ Command `ProCmdDwgPubExport` 
+~ Select `file_saveas` `ph_list.Filelist` 1 `shaft_35mm_v2.pdf`
+~ Activate `file_saveas` `OK`
+! Message Dialog: Warning
+!               : The file shaft_35mm_v2.pdf already exists, continue anyway?
+~ Activate `UI Message Dialog` `ok`
+!%CIPDF file is being created...
+!%CIPDF file has been created.
+~ Command `ProCmdDwgPubCloseExportPvw` 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Export_Settings_Preview to page_Layout
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+< 0 2.403556 4073 0 0 2028 3840 0 0 2160 13
+< 0 2.403556 4066 0 0 2028 3840 0 0 2160 13
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1197 1684 0 1 4066 2028 3840 2160 713613
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1197 1684 0 0 4066 2028 3840 2160 713675
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0
+@ sel view 4
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0
+@ sel view 1
+ 1.190476 0.000000 0.000000 0.000000 0.000000 -1.190476
+ 0.000000 1.190476 0.000000 171.826380 511.946182 -0.135479 1.000000 0.000000 0
+@ sel view 2
+ 2.380952 0.000000 0.000000 0.000000 0.000000 -2.380952
+ 0.000000 2.380952 0.000000 -393.805868 282.244639 -29.761905 1.000000 0.000000 0
+@ sel view 3
+ 2.380952 0.000000 0.000000 0.000000 0.000000 -2.380952
+ 0.000000 2.380952 0.000000 121.327811 281.738219 -28.333485 1.000000 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ sel stop
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1197 1684 0 129 4066 2028 3840 2160 713742
+~ Move `main_dlg_cur` `proe_win` 9 1204 1684 0 513 4066 2028 3840 2160 713798
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1204 1684 0 0 4066 2028 3840 2160 713810
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1222 1682 0 1 4066 2028 3840 2160 714187
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1222 1682 0 0 4066 2028 3840 2160 714237
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0
+@ sel view 4
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0
+@ sel view 1
+ 1.190476 0.000000 0.000000 0.000000 0.000000 -1.190476
+ 0.000000 1.190476 0.000000 171.826380 511.946182 -0.135479 1.000000 0.000000 0
+@ sel view 2
+ 2.380952 0.000000 0.000000 0.000000 0.000000 -2.380952
+ 0.000000 2.380952 0.000000 -393.805868 282.244639 -29.761905 1.000000 0.000000 0
+@ sel view 3
+ 2.380952 0.000000 0.000000 0.000000 0.000000 -2.380952
+ 0.000000 2.380952 0.000000 121.327811 281.738219 -28.333485 1.000000 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ sel stop
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1222 1682 0 129 4066 2028 3840 2160 714294
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1222 1682 0 0 4066 2028 3840 2160 714395
+~ Wheel `main_dlg_cur` `proe_win` 9 1214 1695 393216 1536 4066 2028 3840 2160 714924
+~ Wheel `main_dlg_cur` `proe_win` 9 1214 1697 393216 1536 4066 2028 3840 2160 715014
+~ Wheel `main_dlg_cur` `proe_win` 9 1224 1762 393216 1536 4066 2028 3840 2160 715126
+~ Wheel `main_dlg_cur` `proe_win` 9 1249 1862 393216 1536 4066 2028 3840 2160 715317
+~ Wheel `main_dlg_cur` `proe_win` 9 1251 1862 458752 1536 4066 2028 3840 2160 715430
+~ Wheel `main_dlg_cur` `proe_win` 9 1251 1862 458752 1536 4066 2028 3840 2160 715452
+~ Wheel `main_dlg_cur` `proe_win` 9 1251 1855 458752 1536 4066 2028 3840 2160 715486
+~ Wheel `main_dlg_cur` `proe_win` 9 1251 1845 458752 1536 4066 2028 3840 2160 715520
+~ Wheel `main_dlg_cur` `proe_win` 9 1251 1840 458752 1024 4066 2028 3840 2160 715560
+~ Wheel `main_dlg_cur` `proe_win` 9 1246 1835 458752 1536 4066 2028 3840 2160 715606
+~ Wheel `main_dlg_cur` `proe_win` 9 1239 1825 458752 1536 4066 2028 3840 2160 715656
+~ Wheel `main_dlg_cur` `proe_win` 9 1169 1770 458752 1536 4066 2028 3840 2160 715926
+~ Wheel `main_dlg_cur` `proe_win` 9 1169 1770 458752 0 4066 2028 3840 2160 715965
+~ Wheel `main_dlg_cur` `proe_win` 9 849 1092 393216 0 4066 2028 3840 2160 716375
+~ Activate `main_dlg_cur` `page_Annotate_control_btn` 1
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Layout to page_Annotate
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1051 1034 0 1 4066 2028 3840 2160 718157
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1051 1034 0 0 4066 2028 3840 2160 718164
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 2.441406 0.000000 0
+@ sel view 4
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 2.441406 0.000000 0
+@ sel view 1
+ 1.190476 0.000000 0.000000 0.000000 0.000000 -1.190476
+ 0.000000 1.190476 0.000000 171.826380 511.946182 -0.135479 2.441406 0.000000 0
+@ sel view 2
+ 2.380952 0.000000 0.000000 0.000000 0.000000 -2.380952
+ 0.000000 2.380952 0.000000 -393.805868 282.244639 -29.761905 2.441406 0.000000 0
+@ sel view 3
+ 2.380952 0.000000 0.000000 0.000000 0.000000 -2.380952
+ 0.000000 2.380952 0.000000 121.327811 281.738219 -28.333485 2.441406 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 74 5 0 (0.0000000000 2.0000000000) (160.4603290264 144.1807072855 0.0000000000)
+!Cell:Table
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1051 1034 0 129 4066 2028 3840 2160 718351
+@ GRMSEL Drw_Edit_Note 3 0 0 14
+!Embed Edit (Drw_Edit_Note) start edit
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Annotate to page_Text_Style
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~ Move `main_dlg_cur` `NoteEdit` 2 67 67
+~ Move `main_dlg_cur` `proe_win` 9 1051 1034 0 1 4066 2028 3840 2160 718412
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1051 1034 0 0 4066 2028 3840 2160 718413
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 2097184 1024 4066 2028 3840 2160 718827 `Space`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 4391011 1024 4066 2028 3840 2160 718827 `C`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 4259937 1024 4066 2028 3840 2160 718827 `A`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 4718696 1024 4066 2028 3840 2160 718827 `H`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 5111918 1024 4066 2028 3840 2160 718827 `N`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 4653159 1024 4066 2028 3840 2160 718827 `G`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 4522085 1024 4066 2028 3840 2160 718827 `E`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 524296 1024 4066 2028 3840 2160 718827 `Bkspce`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 524296 1024 4066 2028 3840 2160 718827 `Bkspce`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 524296 1024 4066 2028 3840 2160 718827 `Bkspce`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 524296 1024 4066 2028 3840 2160 718827 `Bkspce`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 524296 1024 4066 2028 3840 2160 718827 `Bkspce`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 524296 1024 4066 2028 3840 2160 718827 `Bkspce`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 524296 1024 4066 2028 3840 2160 718827 `Bkspce`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 524296 1024 4066 2028 3840 2160 718827 `Bkspce`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 524296 1024 4066 2028 3840 2160 718827 `Bkspce`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 524296 1024 4066 2028 3840 2160 718827 `Bkspce`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 524296 1024 4066 2028 3840 2160 718827 `Bkspce`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 524296 1024 4066 2028 3840 2160 718827 `Bkspce`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 524296 1024 4066 2028 3840 2160 718827 `Bkspce`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 524296 1024 4066 2028 3840 2160 718827 `Bkspce`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 524296 1024 4066 2028 3840 2160 718827 `Bkspce`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 5046381 1024 4066 2028 3840 2160 718827 `M`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 4259937 1024 4066 2028 3840 2160 718827 `A`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 5505140 1024 4066 2028 3840 2160 718827 `T`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 4522085 1024 4066 2028 3840 2160 718827 `E`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 5374066 1024 4066 2028 3840 2160 718827 `R`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 4784233 1024 4066 2028 3840 2160 718827 `I`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 4259937 1024 4066 2028 3840 2160 718827 `A`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 4980844 1024 4066 2028 3840 2160 718827 `L`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 2097184 1024 4066 2028 3840 2160 718827 `Space`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 4391011 1024 4066 2028 3840 2160 718827 `C`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 4718696 1024 4066 2028 3840 2160 718827 `H`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 4259937 1024 4066 2028 3840 2160 718827 `A`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 5111918 1024 4066 2028 3840 2160 718827 `N`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 4653159 1024 4066 2028 3840 2160 718827 `G`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 4522085 1024 4066 2028 3840 2160 718827 `E`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 4456548 1024 4066 2028 3840 2160 718827 `D`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 2097184 1024 4066 2028 3840 2160 718827 `Space`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 4587622 1024 4066 2028 3840 2160 718827 `F`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 5374066 1024 4066 2028 3840 2160 718827 `R`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 5177455 1024 4066 2028 3840 2160 718827 `O`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 5046381 1024 4066 2028 3840 2160 718827 `M`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 851978 1024 4066 2028 3840 2160 718827 `Enter`
+~ Move `main_dlg_cur` `proe_win` 9 1051 1031 16777216 0 4066 2028 3840 2160 726567
+~ Key `main_dlg_cur` `proe_win` 16777216 `Shift`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 22216787 0 4066 2028 3840 2160 726567 `Shift+S`
+~ Move `main_dlg_cur` `proe_win` 9 1051 1031 0 0 4066 2028 3840 2160 726769
+~ Move `main_dlg_cur` `proe_win` 9 1051 1031 16777216 0 4066 2028 3840 2160 726871
+~ Key `main_dlg_cur` `proe_win` 16777216 `Shift`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 21037121 0 4066 2028 3840 2160 726871 `Shift+A`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 21299269 0 4066 2028 3840 2160 726871 `Shift+E`
+~ Move `main_dlg_cur` `proe_win` 9 1051 1031 0 0 4066 2028 3840 2160 727377
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 3670072 0 4066 2028 3840 2160 727377 `8`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 3538998 0 4066 2028 3840 2160 727377 `6`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 3276850 0 4066 2028 3840 2160 727377 `2`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 3145776 0 4066 2028 3840 2160 727377 `0`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 2097184 0 4066 2028 3840 2160 727377 `Space`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 5505140 0 4066 2028 3840 2160 727377 `T`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 5177455 0 4066 2028 3840 2160 727377 `O`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 2097184 0 4066 2028 3840 2160 727377 `Space`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 3211313 0 4066 2028 3840 2160 727377 `1`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 3538998 0 4066 2028 3840 2160 727377 `6`
+~ Move `main_dlg_cur` `proe_win` 9 1051 1031 16777216 0 4066 2028 3840 2160 732056
+~ Key `main_dlg_cur` `proe_win` 16777216 `Shift`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 21823565 0 4066 2028 3840 2160 732056 `Shift+M`
+~ Move `main_dlg_cur` `proe_win` 9 1051 1031 0 0 4066 2028 3840 2160 732372
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 5111918 0 4066 2028 3840 2160 732372 `N`
+~ Move `main_dlg_cur` `proe_win` 9 1051 1031 16777216 0 4066 2028 3840 2160 732586
+~ Key `main_dlg_cur` `proe_win` 16777216 `Shift`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 21168195 0 4066 2028 3840 2160 732586 `Shift+C`
+~ Move `main_dlg_cur` `proe_win` 9 1051 1031 0 0 4066 2028 3840 2160 732777
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 5374066 0 4066 2028 3840 2160 732777 `R`
+~ Key `main_dlg_cur` `proe_win` 9 1051 1031 3473461 0 4066 2028 3840 2160 732777 `5`
+~ Command `ProCmdModelSave` 
+!Embed Edit (Drw_Edit_Note) finished edit (Not Applied)
+!sket_eps       3.119598623
+!%CISHAFT_V2 has been saved.
+~ Wheel `main_dlg_cur` `proe_win` 9 2016 1910 393216 1536 4066 2028 3840 2160 741294
+~ Wheel `main_dlg_cur` `proe_win` 9 1831 1647 393216 1536 4066 2028 3840 2160 741530
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdExportPreview` 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Text_Style to page_Layout
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+< 0 2.403556 4793 0 0 2028 3840 0 0 2160 13
+< 0 2.403556 4800 0 0 2028 3840 0 0 2160 13
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Layout to page_Export_Settings_Preview
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~ Command `ProCmdDwgPubExport` 
+~ Select `file_saveas` `ph_list.Filelist` 1 `shaft_35mm_v2.pdf`
+~ Activate `file_saveas` `OK`
+! Message Dialog: Warning
+!               : The file shaft_35mm_v2.pdf already exists, continue anyway?
+~ Activate `UI Message Dialog` `ok`
+!%CIPDF file is being created...
+!%CIPDF file has been created.
+~ Command `ProCmdDwgPubCloseExportPvw` 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Export_Settings_Preview to page_Layout
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+< 0 2.403556 4073 0 0 2028 3840 0 0 2160 13
+< 0 2.403556 4066 0 0 2028 3840 0 0 2160 13
+~ LButtonArm `main_dlg_cur` `proe_win` 9 441 923 0 1 4066 2028 3840 2160 770378
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 441 923 0 0 4066 2028 3840 2160 770465
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0
+@ sel view 4
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0
+@ sel view 1
+ 1.190476 0.000000 0.000000 0.000000 0.000000 -1.190476
+ 0.000000 1.190476 0.000000 171.826380 511.946182 -0.135479 1.000000 0.000000 0
+@ sel view 2
+ 2.380952 0.000000 0.000000 0.000000 0.000000 -2.380952
+ 0.000000 2.380952 0.000000 -393.805868 282.244639 -29.761905 1.000000 0.000000 0
+@ sel view 3
+ 2.380952 0.000000 0.000000 0.000000 0.000000 -2.380952
+ 0.000000 2.380952 0.000000 121.327811 281.738219 -28.333485 1.000000 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ sel stop
+~ Command `ProCmdModelSave` 
+!sket_eps       7.616207575
+!%CISHAFT_V2 has been saved.
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdWinOSCloseAsyn was pushed from the software.
+!Command ProCmdWinClose was pushed from the software.
+!%CIBase window cannot be closed.
+< 0 2.468741 4066 0 0 2083 3840 0 0 2160 13
+!MT_CUST - Applied settings for mode # 1 : Drawing Tree
+!Command ProCmdEnvShaded was pushed from the software.
+< 3 2.402370 4066 0 0 2027 3840 0 0 2160 13
+!%CI Shaded model will be displayed
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdWinOSCloseAsyn was pushed from the software.
+!Command ProCmdWinClose was pushed from the software.
+!MT_CUST - Applied settings for mode # 1 : Drawing Tree
+!Command ProCmdEnvShaded was pushed from the software.
+< 2 2.402370 4066 0 0 2027 3840 0 0 2160 13
+!%CI Shaded model will be displayed
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdWinOSCloseAsyn was pushed from the software.
+!Command ProCmdWinClose was pushed from the software.
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+! Message Dialog: Warning
+!               : Creo Parametric Student Edition (for educational use only) will terminate and any unsaved work will be lost.
+!               : Do you really want to exit?
+~ Activate `UI Message Dialog` `yes`
+!End of Trail File

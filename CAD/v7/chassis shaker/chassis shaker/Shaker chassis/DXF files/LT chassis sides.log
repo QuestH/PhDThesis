@@ -1,0 +1,113 @@
+﻿Unigraphics NX V11.0 / 2D Exchange
+
+Reading part: C:\Users\Giorgos\OneDrive - Loughborough University\Uni\Year 3\Individual Project\Individual Project - GP\Rig assy\chassis shaker\LT chassis sides.prt
+
+
+Writing part: C:\Users\Giorgos\AppData\Local\Temp\Gior3B2C1909n27b.prt
+
+Elapsed time   :    0 minutes,  5 seconds
+Actual CPU Time:    0 minutes,  5 seconds
+
+
+ 
+	 	 Annotation Summary 
+ 
+
+ 
+Dimensions in input Part 
+-------------------------------------------------------------------------------------------------------------
+Linear                                         :	21
+Radial                                         :	3
+Angular                                        :	1
+-------------------------------------------------------------------------------------------------------------
+Total                                          :	25
+-------------------------------------------------------------------------------------------------------------
+
+ 
+Other annotations in input Part 
+-------------------------------------------------------------------------------------------------------------
+Note                                           :	21
+-------------------------------------------------------------------------------------------------------------
+Total                                          :	21
+-------------------------------------------------------------------------------------------------------------
+
+ 
+
+Dimensions in output 2D Part 
+-------------------------------------------------------------------------------------------------------------
+Linear                                         :	21
+Angular                                        :	1
+-------------------------------------------------------------------------------------------------------------
+Total                                          :	22
+-------------------------------------------------------------------------------------------------------------
+
+INFO-  Following Dimensions Exported As Grouped
+-------------------------------------------------------------------------------------------------------------
+Type		Dimension Value   View 	 	     Sheet 			   Reason
+-------------------------------------------------------------------------------------------------------------
+Radial                                               Sheet A3                     Hole Callout
+Radial                                               Sheet A3                     Hole Callout
+Radial                                               Sheet A3                     Hole Callout
+-------------------------------------------------------------------------------------------------------------
+
+ 
+Other annotations in output 2D Part 
+-------------------------------------------------------------------------------------------------------------
+Note                                           :	21
+-------------------------------------------------------------------------------------------------------------
+Total                                          :	21
+-------------------------------------------------------------------------------------------------------------
+INFO-
+INFO-		Unigraphics Version NX V11.0 to AutoCAD 2004
+INFO-		
+INFO-
+INFO-		Running UGTODXF Translator .....
+INFO-
+INFO-		Start of Translation: Wed Apr 20 16:38:26 2022
+INFO-
+STATUS-		Converting C:\Users\Giorgos\AppData\Local\Temp\Gior3B2C1909n27b.prt
+STATUS-
+SUMMARY-
+SUMMARY-	Summary of Unigraphics Input Entities
+SUMMARY-	For Unigraphics File: C:\Users\Giorgos\AppData\Local\Temp\Gior3B2C1909n27b.prt
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Entity Type					Count
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Line .....................................:	82
+SUMMARY-	Point ....................................:	4
+SUMMARY-	Arc ......................................:	4
+SUMMARY-	Circle ...................................:	27
+SUMMARY-	Group ....................................:	4
+SUMMARY-	Note .....................................:	40
+SUMMARY-	Cross Hatch ..............................:	3
+SUMMARY-	Dimension ................................:	22
+SUMMARY-	Image ....................................:	1
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Total ....................................:	187
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-
+STATUS-
+INFO-
+INFO-		Writing File: C:\Users\Giorgos\OneDrive - Loughborough University\Uni\Year 3\Individual Project\Individual Project - GP\Rig assy\chassis shaker\DXF files\LT chassis sides.dxf
+SUMMARY-	Summary of AutoCAD Output Entities
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Entity Type					Count
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Arc ......................................:	5
+SUMMARY-	Circle ...................................:	27
+SUMMARY-	Dimension ................................:	22
+SUMMARY-	Point ....................................:	4
+SUMMARY-	Line .....................................:	182
+SUMMARY-	Solid 2D .................................:	44
+SUMMARY-	Hatch ....................................:	3
+SUMMARY-	Multiline Text ...........................:	112
+SUMMARY-	Group ....................................:	4
+SUMMARY-	Layout ...................................:	6
+SUMMARY-	Image ...................................:	1
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Total ....................................:	411
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-
+INFO-
+INFO-		End of Translation: Wed Apr 20 16:38:27 2022
+INFO-		Translation CPU time: 0 m, 2 sINFO-

@@ -1,0 +1,109 @@
+﻿Unigraphics NX V11.0 / 2D Exchange
+
+Reading part: C:\Users\Giorgos\OneDrive - Loughborough University\Uni\Year 3\Individual Project\Individual Project - GP\Rig assy\chassis shaker\Upper load ball base bot.prt
+
+
+Writing part: C:\Users\Giorgos\AppData\Local\Temp\Gior3B2C1909n25v.prt
+
+Elapsed time   :    0 minutes,  4 seconds
+Actual CPU Time:    0 minutes,  4 seconds
+
+
+ 
+	 	 Annotation Summary 
+ 
+
+ 
+Dimensions in input Part 
+-------------------------------------------------------------------------------------------------------------
+Linear                                         :	8
+Radial                                         :	3
+-------------------------------------------------------------------------------------------------------------
+Total                                          :	11
+-------------------------------------------------------------------------------------------------------------
+
+ 
+Other annotations in input Part 
+-------------------------------------------------------------------------------------------------------------
+Note                                           :	21
+-------------------------------------------------------------------------------------------------------------
+Total                                          :	21
+-------------------------------------------------------------------------------------------------------------
+
+ 
+
+Dimensions in output 2D Part 
+-------------------------------------------------------------------------------------------------------------
+Linear                                         :	8
+-------------------------------------------------------------------------------------------------------------
+Total                                          :	8
+-------------------------------------------------------------------------------------------------------------
+
+INFO-  Following Dimensions Exported As Grouped
+-------------------------------------------------------------------------------------------------------------
+Type		Dimension Value   View 	 	     Sheet 			   Reason
+-------------------------------------------------------------------------------------------------------------
+Radial                                               Sheet A3                     Hole Callout
+Radial                                               Sheet A3                     Hole Callout
+Radial                                               Sheet A3                     Hole Callout
+-------------------------------------------------------------------------------------------------------------
+
+ 
+Other annotations in output 2D Part 
+-------------------------------------------------------------------------------------------------------------
+Note                                           :	21
+-------------------------------------------------------------------------------------------------------------
+Total                                          :	21
+-------------------------------------------------------------------------------------------------------------
+INFO-
+INFO-		Unigraphics Version NX V11.0 to AutoCAD 2004
+INFO-		
+INFO-
+INFO-		Running UGTODXF Translator .....
+INFO-
+INFO-		Start of Translation: Wed Apr 20 16:33:59 2022
+INFO-
+STATUS-		Converting C:\Users\Giorgos\AppData\Local\Temp\Gior3B2C1909n25v.prt
+STATUS-
+SUMMARY-
+SUMMARY-	Summary of Unigraphics Input Entities
+SUMMARY-	For Unigraphics File: C:\Users\Giorgos\AppData\Local\Temp\Gior3B2C1909n25v.prt
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Entity Type					Count
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Line .....................................:	81
+SUMMARY-	Point ....................................:	2
+SUMMARY-	Circle ...................................:	9
+SUMMARY-	Group ....................................:	4
+SUMMARY-	Note .....................................:	39
+SUMMARY-	Cross Hatch ..............................:	3
+SUMMARY-	Dimension ................................:	8
+SUMMARY-	Image ....................................:	1
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Total ....................................:	147
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-
+STATUS-
+INFO-
+INFO-		Writing File: C:\Users\Giorgos\OneDrive - Loughborough University\Uni\Year 3\Individual Project\Individual Project - GP\Rig assy\chassis shaker\Upper load ball base bot.dxf
+SUMMARY-	Summary of AutoCAD Output Entities
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Entity Type					Count
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Circle ...................................:	9
+SUMMARY-	Dimension ................................:	8
+SUMMARY-	Point ....................................:	2
+SUMMARY-	Line .....................................:	122
+SUMMARY-	Solid 2D .................................:	16
+SUMMARY-	Hatch ....................................:	3
+SUMMARY-	Multiline Text ...........................:	83
+SUMMARY-	Group ....................................:	4
+SUMMARY-	Layout ...................................:	6
+SUMMARY-	Image ...................................:	1
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Total ....................................:	255
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-
+INFO-
+INFO-		End of Translation: Wed Apr 20 16:34:00 2022
+INFO-		Translation CPU time: 0 m, 1 sINFO-

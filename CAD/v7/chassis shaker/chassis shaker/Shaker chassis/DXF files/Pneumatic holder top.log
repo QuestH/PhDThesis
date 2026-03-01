@@ -1,0 +1,111 @@
+﻿Unigraphics NX V11.0 / 2D Exchange
+
+Reading part: C:\Users\Giorgos\OneDrive - Loughborough University\Uni\Year 3\Individual Project\Individual Project - GP\Rig assy\Impact testing\Pneumatic holder top.prt
+
+
+Writing part: C:\Users\Giorgos\AppData\Local\Temp\Gior3B2C1909n28s.prt
+
+Elapsed time   :    0 minutes,  4 seconds
+Actual CPU Time:    0 minutes,  4 seconds
+
+
+ 
+	 	 Annotation Summary 
+ 
+
+ 
+Dimensions in input Part 
+-------------------------------------------------------------------------------------------------------------
+Linear                                         :	12
+Radial                                         :	3
+-------------------------------------------------------------------------------------------------------------
+Total                                          :	15
+-------------------------------------------------------------------------------------------------------------
+
+ 
+Other annotations in input Part 
+-------------------------------------------------------------------------------------------------------------
+Note                                           :	13
+-------------------------------------------------------------------------------------------------------------
+Total                                          :	13
+-------------------------------------------------------------------------------------------------------------
+
+ 
+
+Dimensions in output 2D Part 
+-------------------------------------------------------------------------------------------------------------
+Linear                                         :	12
+-------------------------------------------------------------------------------------------------------------
+Total                                          :	12
+-------------------------------------------------------------------------------------------------------------
+
+INFO-  Following Dimensions Exported As Grouped
+-------------------------------------------------------------------------------------------------------------
+Type		Dimension Value   View 	 	     Sheet 			   Reason
+-------------------------------------------------------------------------------------------------------------
+Radial                                               Sheet A4                     Hole Callout
+Radial                                               Sheet A4                     Hole Callout
+Radial                                               Sheet A4                     Hole Callout
+-------------------------------------------------------------------------------------------------------------
+
+ 
+Other annotations in output 2D Part 
+-------------------------------------------------------------------------------------------------------------
+Note                                           :	13
+-------------------------------------------------------------------------------------------------------------
+Total                                          :	13
+-------------------------------------------------------------------------------------------------------------
+INFO-
+INFO-		Unigraphics Version NX V11.0 to AutoCAD 2004
+INFO-		
+INFO-
+INFO-		Running UGTODXF Translator .....
+INFO-
+INFO-		Start of Translation: Wed Apr 20 16:44:14 2022
+INFO-
+STATUS-		Converting C:\Users\Giorgos\AppData\Local\Temp\Gior3B2C1909n28s.prt
+STATUS-
+SUMMARY-
+SUMMARY-	Summary of Unigraphics Input Entities
+SUMMARY-	For Unigraphics File: C:\Users\Giorgos\AppData\Local\Temp\Gior3B2C1909n28s.prt
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Entity Type					Count
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Line .....................................:	171
+SUMMARY-	Point ....................................:	3
+SUMMARY-	Arc ......................................:	6
+SUMMARY-	Circle ...................................:	12
+SUMMARY-	Group ....................................:	3
+SUMMARY-	Note .....................................:	28
+SUMMARY-	Cross Hatch ..............................:	3
+SUMMARY-	Dimension ................................:	12
+SUMMARY-	Image ....................................:	1
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Total ....................................:	239
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-
+STATUS-
+INFO-
+INFO-		Writing File: C:\Users\Giorgos\OneDrive - Loughborough University\Uni\Year 3\Individual Project\Individual Project - GP\Rig assy\chassis shaker\DXF files\Pneumatic holder top.dxf
+SUMMARY-	Summary of AutoCAD Output Entities
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Entity Type					Count
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Arc ......................................:	6
+SUMMARY-	Circle ...................................:	12
+SUMMARY-	Dimension ................................:	12
+SUMMARY-	Point ....................................:	3
+SUMMARY-	Line .....................................:	235
+SUMMARY-	Solid 2D .................................:	24
+SUMMARY-	Hatch ....................................:	3
+SUMMARY-	Multiline Text ...........................:	80
+SUMMARY-	Group ....................................:	3
+SUMMARY-	Layout ...................................:	6
+SUMMARY-	Image ...................................:	1
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Total ....................................:	386
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-
+INFO-
+INFO-		End of Translation: Wed Apr 20 16:44:15 2022
+INFO-		Translation CPU time: 0 m, 1 sINFO-

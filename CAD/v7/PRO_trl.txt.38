@@ -1,0 +1,44 @@
+﻿!UI trail file version 1
+!Application name  `PRO`
+! Message Dialog: Warning
+!               : Do you really want to Cancel?
+~ Activate `UI Message Dialog` `yes`
+!ODUI session finished.
+!ProgressBarDlg: Regen Started
+!%CIRIG_ASSY_V3 regeneration completed with atypical feature or component status. Failed: 2. Child of Failed: 34. Suppressed: 8.
+!ProgressBarDlg: Regen Completed
+!Command ProCmdInfoNmgrLightDlg was pushed from the software.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 240 604 0 1 2800 1551 3840 2160 85766
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 240 604 0 0 2800 1551 3840 2160 85852
+@ sel view 0
+ -0.252157 -0.096968 -0.411855 -0.249145 0.421542 0.053290
+ 0.341986 0.235606 -0.264851 470.341029 184.725656 -2523.702813 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ Move `main_dlg_cur` `proe_win` 9 238 606 33554432 0 2800 1551 3840 2160 86077
+>M Chain_oa_sel_CB ProeWin0 238 606 c0 20000 2800 0 0 1551 3840 0 0 2160 13
+~ Key `main_dlg_cur` `proe_win` 9 238 607 39452698 1024 2800 1551 3840 2160 86145 `Ctrl+Z`
+~ Command `ProCmdEditUndo` 
+! Executed sub-command ProCmdEditUndoOASel.
+~ Exit `main_dlg_cur` `proe_win` 9 -26 756 33554432 1536 2800 1551 3840 2160 86709
+~ Key `main_dlg_cur` `proe_win` 9 -26 756 39452698 1536 2800 1551 3840 2160 86709 `Ctrl+Z`
+~ Key `main_dlg_cur` `proe_win` 9 -26 756 39452698 1536 2800 1551 3840 2160 86709 `Ctrl+Z`
+~ Enter `main_dlg_cur` `proe_win` 9 223 856 33554432 1536 2800 1551 3840 2160 87617
+~ Move `main_dlg_cur` `proe_win` 9 223 856 0 0 2800 1551 3840 2160 87632
+>M Chain_oa_sel_CB ProeWin0 223 856 c0 0 2800 0 0 1551 3840 0 0 2160 13
+~ Key `main_dlg_cur` `proe_win` 9 1374 79 39452698 1536 2800 1551 3840 2160 88070 `Ctrl+Z`
+~ Enter `main_dlg_cur` `proe_win` 9 1465 6 33554432 1536 2800 1551 3840 2160 88225
+>M Chain_oa_sel_CB ProeWin0 1465 6 100c0 20000 2800 0 0 1551 3840 0 0 2160 13
+~ Exit `main_dlg_cur` `proe_win` 9 1465 11 33554432 1024 2800 1551 3840 2160 88244
+~ Enter `main_dlg_cur` `proe_win` 9 1411 88 33554432 1536 2800 1551 3840 2160 88382
+~ Key `main_dlg_cur` `proe_win` 9 1328 170 39452698 1536 2800 1551 3840 2160 88418 `Ctrl+Z`
+~ Exit `main_dlg_cur` `proe_win` 9 1754 61 33554432 1536 2800 1551 3840 2160 88552
+~ Key `main_dlg_cur` `proe_win` 9 1754 61 39452698 1536 2800 1551 3840 2160 88552 `Ctrl+Z`
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+! Message Dialog: Warning
+!               : Creo Parametric Student Edition (for educational use only) will terminate and any unsaved work will be lost.
+!               : Do you really want to exit?
+~ Activate `UI Message Dialog` `yes`
+!End of Trail File

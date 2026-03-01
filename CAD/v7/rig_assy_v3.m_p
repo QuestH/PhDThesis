@@ -1,0 +1,124 @@
+﻿MASS PROPERTIES OF THE ASSEMBLY RIG_ASSY_V3
+
+VOLUME =  4.8565637e+08  MM^3
+SURFACE AREA =  2.5247799e+07  MM^2
+AVERAGE DENSITY =  1.0364176e-01 TONNE / MM^3
+MASS =  5.0334282e+07 TONNE 
+CENTER OF GRAVITY with respect to PRT_CSYS_DEF coordinate frame:
+X   Y   Z    -1.1148276e+02  4.8654436e+02 -6.1604370e+02  MM
+
+INERTIA with respect to PRT_CSYS_DEF coordinate frame:  (TONNE * MM^2)
+
+INERTIA TENSOR:
+Ixx Ixy Ixz  3.6751566e+13  1.4437706e+12  0.0000000e+00
+Iyx Iyy Iyz  1.4437706e+12  2.7889749e+13  1.6651141e+13
+Izx Izy Izz  0.0000000e+00  1.6651141e+13  1.7740049e+13
+
+INERTIA at CENTER OF GRAVITY with respect to PRT_CSYS_DEF coordinate frame:  (TONNE * MM^2)
+
+INERTIA TENSOR:
+Ixx Ixy Ixz  5.7338065e+12 -1.2864266e+12  3.4568702e+12
+Iyx Iyy Iyz -1.2864266e+12  8.1618185e+12  1.5643160e+12
+Izx Izy Izz  3.4568702e+12  1.5643160e+12  5.1990699e+12
+
+PRINCIPAL MOMENTS OF INERTIA:  (TONNE * MM^2)
+I1  I2  I3   1.3949677e+12  8.7086212e+12  8.9911060e+12
+
+ROTATION MATRIX from PRT_CSYS_DEF orientation to PRINCIPAL AXES:
+       0.64754       -0.50556        0.57018
+       0.28635        0.85483        0.43275
+      -0.70618       -0.11695        0.69830
+
+ROTATION ANGLES from PRT_CSYS_DEF orientation to PRINCIPAL AXES (degrees):
+angles about x  y  z -31.787         34.763         37.981 
+
+RADII OF GYRATION with respect to PRINCIPAL AXES:
+R1  R2  R3 1.6647543e+02  4.1595156e+02  4.2264391e+02  MM
+
+---------------------------------------------
+
+MASS PROPERTIES OF COMPONENTS OF THE ASSEMBLY
+(in assembly units and the PRT_CSYS_DEF coordinate frame)
+
+   DENSITY             MASS          C.G.:  X        Y         Z
+
+                   ISOLATION_BED            MATERIAL:                                STEEL
+         7.82708e-09  2.09641e+00 -4.72463e+02  5.30035e+02  1.82932e-06
+                     B6090A-STEP            MATERIAL:                              UNKNOWN
+         7.82708e-09  5.28275e-02 -5.19998e+02  3.18031e+02  3.94260e-01
+                       MOTOR_BED            MATERIAL:                                STEEL
+         7.85000e-09  5.47829e-01  3.40000e+02  6.39064e+02  8.60000e+01
+                     B3060A-STEP            MATERIAL:                              UNKNOWN
+         7.82708e-09  1.89395e-02  3.33285e+02  4.22805e+02 -2.86607e-03
+                      HINGE_BASE            MATERIAL:                                STEEL
+         7.82708e-09  1.11891e-01 -2.82104e-06  2.18452e+02 -6.19372e+01
+            BRACKET_HOLDER_SHORT            MATERIAL:                                STEEL
+         7.82708e-09  4.08298e-02 -1.57500e+02  1.27601e+02 -2.51719e-07
+             BRACKET_HOLDER_TALL            MATERIAL:                                STEEL
+         7.82708e-09  6.42359e-02  2.70500e+02  2.11988e+02  5.60623e-07
+        ENBRACKET_BEARING_HOLDER            MATERIAL:                               AL6061
+         2.71020e-09  2.22741e-03 -1.97487e+02  1.10000e+02 -1.49214e-13
+        ENBRACKET_BEARING_HOLDER            MATERIAL:                               AL6061
+         2.71020e-09  2.22741e-03  3.10487e+02  1.10000e+02 -9.59233e-14
+                            6205            MATERIAL:                              UNKNOWN
+         7.82708e-09  1.24545e-04 -1.89000e+02  1.10000e+02 -1.49214e-13
+                   SHAFT_35MM_V2            MATERIAL:                                     
+         1.00000e+00  4.92749e+05  4.56137e+01  1.10000e+02 -1.98952e-13
+                    SHAFT_COLLAR            MATERIAL:                                STEEL
+         7.82708e-09  2.01371e-05 -1.89000e+02  1.10000e+02  5.75540e-13
+                    SHAFT_COLLAR            MATERIAL:                                STEEL
+         7.82708e-09  2.01371e-05  2.99091e+02  1.10000e+02  4.79616e-13
+                            6205            MATERIAL:                              UNKNOWN
+         7.82708e-09  1.24545e-04  2.99091e+02  1.10000e+02 -9.59233e-14
+                    BUSHING-SIDE            MATERIAL:                                STEEL
+         7.82708e-09  6.74582e-05  2.68225e+01 -5.00000e+01 -1.95000e+02
+                  BUSHING-MIDDLE            MATERIAL:                                STEEL
+         7.82708e-09  1.35242e-04  2.84217e-13 -5.00000e+01 -1.95000e+02
+                    BUSHING-SIDE            MATERIAL:                                STEEL
+         7.82708e-09  6.74582e-05 -2.68225e+01 -5.00000e+01 -1.95000e+02
+                           HINGE            MATERIAL:                                STEEL
+         7.82708e-09  1.31174e-01 -8.28711e-07 -5.02847e+01 -1.91361e+02
+                       HINGE_PIN            MATERIAL:                                STEEL
+         7.82708e-09  7.48492e-04  3.58475e+00 -5.00000e+01 -1.95000e+02
+              A-FRAME_BALL_JOINT            MATERIAL:                                     
+         1.00000e+00  1.92562e+05  0.00000e+00  1.60474e+01 -7.45000e+02
+                     SHAKER_ASSY            MATERIAL:                              UNKNOWN
+         5.53429e-01  4.14291e+07  1.88355e-06  5.39414e+02 -7.45000e+02
+              SHAKER_SPACER_BASE            MATERIAL:                                STEEL
+         7.82708e-09  1.66260e-03 -1.02318e-12  2.94061e+02 -7.45000e+02
+                             M20            MATERIAL:                                STEEL
+         7.82708e-09  2.95074e-04 -7.95808e-13  2.39000e+02 -7.45000e+02
+                      MOTOR_ASSY            MATERIAL:                              UNKNOWN
+         6.04943e-01  8.03869e+06 -6.98837e+02  2.57956e+02 -5.68434e-14
+                        COUPLING            MATERIAL:                                     
+         1.00000e+00  5.88420e+04 -2.74409e+02  1.10000e+02 -1.38556e-13
+                          GASKET            MATERIAL:                                STEEL
+         7.82708e-09  6.27736e-03  6.50000e+01  1.43937e+02 -1.15204e-06
+                          GASKET            MATERIAL:                                STEEL
+         7.82708e-09  6.27736e-03 -6.50000e+01  1.43937e+02 -1.15205e-06
+                  THREAD_ADAPTER            MATERIAL:                                STEEL
+         7.82708e-09  2.07490e-04 -2.84217e-13  1.03843e+02 -7.45000e+02
+                 DIN_1479_SP_M20            MATERIAL:                                STEEL
+         7.82708e-09  3.63060e-04 -5.68434e-13  1.69470e+02 -7.45000e+02
+              LOAD_BALL_HOLDER_3            MATERIAL:                                     
+         1.00000e+00  1.22375e+05  6.05523e-07  4.11488e+01 -4.61662e-02
+                  PTFE_OMNITRACK            MATERIAL:                              UNKNOWN
+         7.82708e-09  4.16688e-04 -3.17658e-09  7.68405e+01  1.09580e-06
+                   SPINDLE_SHAFT            MATERIAL:                                STEEL
+         7.82708e-09  2.95074e-04 -5.50640e+02  1.10000e+02 -9.59233e-14
+           TRANSDUCER_MOUNT_ASSY            MATERIAL:                              UNKNOWN
+         7.82708e-09  3.10804e-03 -3.57500e+02  2.13989e+02 -1.13687e-13
+                RWT4086M3D_KEYED            MATERIAL:                                STEEL
+         7.82708e-09  4.32345e-03 -3.62374e+02  1.09999e+02  2.40947e-01
+    ES2_60_96_F_12_15_30_20_40_1            MATERIAL:                              UNKNOWN
+         7.82708e-09  2.12658e-03 -4.58341e+02  1.09919e+02 -8.63944e-02
+                  SENSORCOLLARV2            MATERIAL:                                STEEL
+         7.82708e-09  1.03929e-03  2.65082e+02  1.10676e+02 -6.75795e-01
+              CSH1-Z6610088-80-A            MATERIAL:                              UNKNOWN
+         7.82708e-09  1.75661e-05  2.60997e+02  7.87285e+01  1.32582e-04
+              CSH1-Z6610088-80-A            MATERIAL:                              UNKNOWN
+         7.82708e-09  1.75661e-05  2.60997e+02  1.10000e+02  3.12715e+01
+             AXIAL_PRELOAD_HARRY            MATERIAL:                              UNKNOWN
+         7.82708e-09  1.28896e-03  3.43580e+02  1.07103e+02  2.84350e-07
+                  DE_BEARING_CAP            MATERIAL:                                STEEL
+         7.82708e-09  1.23454e-04 -1.99000e+02  1.10000e+02  1.79767e-12

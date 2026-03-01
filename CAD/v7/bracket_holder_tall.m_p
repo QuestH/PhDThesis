@@ -1,0 +1,38 @@
+﻿                 MASS PROPERTIES OF THE PART BRACKET_HOLDER_TALL
+
+                         VOLUME =  8.2068781e+06 MM^3
+                   SURFACE AREA =  4.8732513e+05 MM^2
+                        DENSITY =  7.8270820e-09 TONNE / MM^3
+                           MASS =  6.4235908e-02 TONNE 
+
+      CENTER OF GRAVITY with respect to _BRACKET_HOLDER_T coordinate frame:
+X   Y   Z           0.0000000e+00 -1.0198758e+02  6.0000000e+01  MM
+
+   INERTIA with respect to _BRACKET_HOLDER_T coordinate frame:  (TONNE * MM^2)
+
+INERTIA TENSOR:
+Ixx Ixy Ixz         2.4357927e+03  0.0000000e+00  0.0000000e+00
+Iyx Iyy Iyz         0.0000000e+00  1.1883813e+03  3.9307588e+02
+Izx Izy Izz         0.0000000e+00  3.9307588e+02  3.0791017e+03
+
+INERTIA at CENTER OF GRAVITY with respect to _BRACKET_HOLDER_T coordinate frame:
+                                                                  (TONNE * MM^2)
+INERTIA TENSOR:
+Ixx Ixy Ixz         1.5363958e+03  0.0000000e+00  0.0000000e+00
+Iyx Iyy Iyz         0.0000000e+00  9.5713207e+02  0.0000000e+00
+Izx Izy Izz         0.0000000e+00  0.0000000e+00  2.4109541e+03
+
+                  PRINCIPAL MOMENTS OF INERTIA:  (TONNE * MM^2)
+I1  I2  I3          9.5713207e+02  1.5363958e+03  2.4109541e+03
+
+      ROTATION MATRIX from _BRACKET_HOLDER_T orientation to PRINCIPAL AXES:
+                       0.00000       -1.00000        0.00000
+                       1.00000        0.00000        0.00000
+                       0.00000        0.00000        1.00000
+
+ ROTATION ANGLES from _BRACKET_HOLDER_T orientation to PRINCIPAL AXES (degrees):
+angles about x  y  z    0.000          0.000         90.000 
+
+                RADII OF GYRATION with respect to PRINCIPAL AXES:
+R1  R2  R3          1.2206664e+02  1.5465452e+02  1.9373386e+02  MM
+

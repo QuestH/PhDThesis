@@ -1,0 +1,83 @@
+﻿!UI trail file version 1
+!Application name  `PRO`
+! Executed sub-command ProCmdViewHideStandard.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 501 515 0 1 3012 1551 3840 2160 601339
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 501 515 0 0 3012 1551 3840 2160 601410
+@ sel view 0
+ -0.249691 0.000086 0.224929 0.016744 0.335138 0.018459
+ -0.224304 0.024922 -0.249008 579.574248 434.634498 -1993.461881 1.562500 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ Wheel `main_dlg_cur` `proe_win` 9 1628 1080 33947648 0 3012 1551 3840 2160 615498
+~ Wheel `main_dlg_cur` `proe_win` 9 1628 1080 33947648 0 3012 1551 3840 2160 615527
+~ Wheel `main_dlg_cur` `proe_win` 9 1628 1080 33947648 0 3012 1551 3840 2160 615563
+~ Wheel `main_dlg_cur` `proe_win` 9 1628 1080 33947648 0 3012 1551 3840 2160 615656
+~ Wheel `main_dlg_cur` `proe_win` 9 1628 1080 34013184 0 3012 1551 3840 2160 615922
+~ Wheel `main_dlg_cur` `proe_win` 9 1628 1080 34013184 0 3012 1551 3840 2160 615965
+~ Wheel `main_dlg_cur` `proe_win` 9 1628 1080 34013184 0 3012 1551 3840 2160 616008
+~ Wheel `main_dlg_cur` `proe_win` 9 1628 1080 34013184 0 3012 1551 3840 2160 616124
+~ Move `main_dlg_cur` `proe_win` 9 1631 1064 0 1536 3012 1551 3840 2160 616928
+~ Wheel `main_dlg_cur` `proe_win` 9 1566 1331 33947648 0 3012 1551 3840 2160 619793
+~ Move `main_dlg_cur` `proe_win` 9 1569 1311 0 1536 3012 1551 3840 2160 620280
+~ Wheel `main_dlg_cur` `proe_win` 9 1633 986 34013184 0 3012 1551 3840 2160 621031
+~ Wheel `main_dlg_cur` `proe_win` 9 1633 986 34013184 0 3012 1551 3840 2160 621188
+~ Wheel `main_dlg_cur` `proe_win` 9 1633 986 33947648 0 3012 1551 3840 2160 621763
+~ Wheel `main_dlg_cur` `proe_win` 9 1633 986 33947648 0 3012 1551 3840 2160 621879
+~ Move `main_dlg_cur` `proe_win` 9 1633 988 0 1024 3012 1551 3840 2160 623287
+~ Wheel `main_dlg_cur` `proe_win` 9 1592 1153 34013184 0 3012 1551 3840 2160 624669
+~ Wheel `main_dlg_cur` `proe_win` 9 1592 1153 34013184 0 3012 1551 3840 2160 625424
+~ Wheel `main_dlg_cur` `proe_win` 9 1592 1153 34013184 0 3012 1551 3840 2160 625526
+~ Wheel `main_dlg_cur` `proe_win` 9 1592 1153 33947648 0 3012 1551 3840 2160 626187
+~ Move `main_dlg_cur` `proe_win` 9 1592 1154 0 1024 3012 1551 3840 2160 627273
+~ Wheel `main_dlg_cur` `proe_win` 9 1577 1222 34013184 0 3012 1551 3840 2160 629941
+~ Wheel `main_dlg_cur` `proe_win` 9 1577 1222 33947648 0 3012 1551 3840 2160 630602
+~ Wheel `main_dlg_cur` `proe_win` 9 1577 1222 33947648 0 3012 1551 3840 2160 630696
+~ Wheel `main_dlg_cur` `proe_win` 9 1577 1222 33947648 0 3012 1551 3840 2160 630811
+~ Move `main_dlg_cur` `proe_win` 9 1577 1223 0 1024 3012 1551 3840 2160 631537
+~ Wheel `main_dlg_cur` `proe_win` 9 1535 1388 34013184 0 3012 1551 3840 2160 634364
+~ Wheel `main_dlg_cur` `proe_win` 9 1535 1388 34013184 0 3012 1551 3840 2160 634486
+~ Wheel `main_dlg_cur` `proe_win` 9 1535 1388 34013184 0 3012 1551 3840 2160 634588
+~ Move `main_dlg_cur` `proe_win` 9 1535 1350 0 1024 3012 1551 3840 2160 636067
+~ Wheel `main_dlg_cur` `proe_win` 9 1543 776 33947648 0 3012 1551 3840 2160 636629
+~ Move `main_dlg_cur` `proe_win` 9 1543 760 0 1024 3012 1551 3840 2160 637081
+~ Wheel `main_dlg_cur` `proe_win` 9 1528 1276 33947648 0 3012 1551 3840 2160 640894
+~ Move `main_dlg_cur` `proe_win` 9 1528 1253 0 1024 3012 1551 3840 2160 642089
+~ Wheel `main_dlg_cur` `proe_win` 9 1523 1274 33947648 0 3012 1551 3840 2160 644520
+~ Wheel `main_dlg_cur` `proe_win` 9 1523 1274 33947648 0 3012 1551 3840 2160 644563
+~ Wheel `main_dlg_cur` `proe_win` 9 1523 1274 33947648 0 3012 1551 3840 2160 644627
+~ Move `main_dlg_cur` `proe_win` 9 1523 1271 0 1024 3012 1551 3840 2160 645483
+~ Wheel `main_dlg_cur` `proe_win` 9 1523 1128 33947648 0 3012 1551 3840 2160 646160
+~ Wheel `main_dlg_cur` `proe_win` 9 1523 1128 33947648 0 3012 1551 3840 2160 646210
+~ Wheel `main_dlg_cur` `proe_win` 9 1523 1128 34013184 0 3012 1551 3840 2160 646526
+~ Wheel `main_dlg_cur` `proe_win` 9 1523 1128 34013184 0 3012 1551 3840 2160 646584
+~ Wheel `main_dlg_cur` `proe_win` 9 1523 1128 34013184 0 3012 1551 3840 2160 646649
+~ Wheel `main_dlg_cur` `proe_win` 9 1523 1128 34013184 0 3012 1551 3840 2160 646699
+~ Wheel `main_dlg_cur` `proe_win` 9 1523 1128 34013184 0 3012 1551 3840 2160 647059
+~ Wheel `main_dlg_cur` `proe_win` 9 1523 1128 34013184 0 3012 1551 3840 2160 647252
+~ Wheel `main_dlg_cur` `proe_win` 9 1523 1128 33947648 0 3012 1551 3840 2160 647828
+~ Wheel `main_dlg_cur` `proe_win` 9 1523 1128 33947648 0 3012 1551 3840 2160 647900
+~ Wheel `main_dlg_cur` `proe_win` 9 1523 1128 34013184 0 3012 1551 3840 2160 648461
+~ Move `main_dlg_cur` `proe_win` 9 1514 1133 0 1536 3012 1551 3840 2160 649705
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+< 0 5.678222 8772 0 0 4791 3840 0 0 2160 13
+~ Restore `main_dlg_cur` `main_dlg_cur`
+~ Resize `main_dlg_cur` `main_dlg_cur` 0
+< 0 3.584000 5572 0 0 3024 3840 0 0 2160 13
+~ Resize `main_dlg_cur` `main_dlg_cur` 0
+< 0 3.544889 5572 0 0 2991 3840 0 0 2160 13
+~ Resize `main_dlg_cur` `main_dlg_cur` 0
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+< 0 1.838222 3012 0 0 1551 3840 0 0 2160 13
+~ Restore `main_dlg_cur` `main_dlg_cur`
+~ Resize `main_dlg_cur` `main_dlg_cur` 0
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Restore `main_dlg_cur` `main_dlg_cur`
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+! Message Dialog: Warning
+!               : Creo Parametric Student Edition (for educational use only) will terminate and any unsaved work will be lost.
+!               : Do you really want to exit?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!End of Trail File

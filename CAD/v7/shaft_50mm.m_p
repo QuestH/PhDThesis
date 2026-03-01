@@ -1,0 +1,38 @@
+﻿                     MASS PROPERTIES OF THE PART SHAFT_50MM
+
+                         VOLUME =  2.9343617e+05 MM^3
+                   SURFACE AREA =  5.1930674e+04 MM^2
+                        DENSITY =  7.8270820e-09 TONNE / MM^3
+                           MASS =  2.2967490e-03 TONNE 
+
+        CENTER OF GRAVITY with respect to PRT_CSYS_DEF coordinate frame:
+X   Y   Z           3.1731152e+02  0.0000000e+00  0.0000000e+00  MM
+
+     INERTIA with respect to PRT_CSYS_DEF coordinate frame:  (TONNE * MM^2)
+
+INERTIA TENSOR:
+Ixx Ixy Ixz         1.8250446e-01  5.3519033e-05 -8.3464365e-06
+Iyx Iyy Iyz         5.3519033e-05  2.9914613e+02 -5.5751960e-05
+Izx Izy Izz        -8.3464365e-06 -5.5751960e-05  2.9914624e+02
+
+   INERTIA at CENTER OF GRAVITY with respect to PRT_CSYS_DEF coordinate frame:
+                                                               (TONNE * MM^2)   
+INERTIA TENSOR:
+Ixx Ixy Ixz         1.8250446e-01 -1.0087856e-04  1.3178401e-05
+Iyx Iyy Iyz        -1.0087856e-04  6.7894277e+01 -5.5751974e-05
+Izx Izy Izz         1.3178401e-05 -5.5751974e-05  6.7894386e+01
+
+                  PRINCIPAL MOMENTS OF INERTIA:  (TONNE * MM^2)
+I1  I2  I3          1.8250446e-01  6.7894253e+01  6.7894409e+01
+
+        ROTATION MATRIX from PRT_CSYS_DEF orientation to PRINCIPAL AXES:
+                       1.00000        0.00000        0.00000
+                       0.00000        1.00000        0.00000
+                       0.00000        0.00000        1.00000
+
+   ROTATION ANGLES from PRT_CSYS_DEF orientation to PRINCIPAL AXES (degrees):
+angles about x  y  z    0.000          0.000          0.000 
+
+                RADII OF GYRATION with respect to PRINCIPAL AXES:
+R1  R2  R3          8.9141509e+00  1.7193320e+02  1.7193340e+02  MM
+

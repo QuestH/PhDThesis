@@ -1,0 +1,3422 @@
+﻿!UI trail file version 1
+!Application name  `PRO`
+! Executed sub-command ProCmdEditDeleteFeat.
+~ FocusIn `del_sup_msg` `ok`
+~ Activate `del_sup_msg` `ok`
+!ProgressBarDlg: Regen Started
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 227 type 5303 
+~ LButtonArm `main_dlg_cur` `proe_win` 9 158 216 0 1 1482 674 1920 1080 7510652
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 158 216 0 0 1482 674 1920 1080 7510731
+@ sel view 0
+ 9.378441 8.950193 -1.038114 1.726462 -3.255706 -12.472309
+ -8.843244 8.856252 -3.535904 612.541286 442.592547 -1595.106182 1.250000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ Activate `main_dlg_cur` `page_Model_control_btn` 1
+~ Command `ProCmdDatumAxis` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Datum Axis
+!ODUI session started.
+!%CPSelect up to 2 references, such as plane, surface, edge or point to place axis.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 684 406 0 1 1482 674 1920 1080 7514183
+~ Move `main_dlg_cur` `proe_win` 9 684 406 0 1 1482 674 1920 1080 7514188
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 684 406 0 0 1482 674 1920 1080 7514230
+@ sel view 0
+ 9.378441 8.950193 -1.038114 1.726462 -3.255706 -12.472309
+ -8.843244 8.856252 -3.535904 612.541286 442.592547 -1595.106182 1.250000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 2 6 -1 (0.0000000000 0.0000000000) (-24.2814249458 2.8758574906 0.0000000000)
+!FRONT:F3(DATUM PLANE)
+~ Move `main_dlg_cur` `proe_win` 9 684 406 33554432 0 1482 674 1920 1080 7514295
+~ LButtonArm `main_dlg_cur` `proe_win` 9 665 313 33554432 1 1482 674 1920 1080 7514921
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 665 313 33554432 0 1482 674 1920 1080 7515010
+@ sel view 0
+ 9.378441 8.950193 -1.038114 1.726462 -3.255706 -12.472309
+ -8.843244 8.856252 -3.535904 612.541286 442.592547 -1595.106182 1.250000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 2 4 -1 (0.0000000000 0.0000000000) (-24.2814249458 0.0000000000 -6.7786830463)
+!TOP:F2(DATUM PLANE)
+~ Move `main_dlg_cur` `proe_win` 9 665 313 0 0 1482 674 1920 1080 7515640
+~ Activate `Odui_Dlg_00` `stdbtn_1`
+!ODUI session finished.
+!F9(A_5)
+!ProgressBarDlg: Regen Started
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 228 type 5304 
+~ Drag `main_dlg_cur` `PHTLeft.AssyTree` `node2`
+~ DragEnter `main_dlg_cur` `PHTLeft.AssyTree` 5 236 633 7 0 8 \
+ 2 `main_dlg_w2` `PHTLeft.AssyTree` \
+ `node3` \
+ 2 695 916
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 301 562 7 0 \
+ `node4` \
+ 2 858 916
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 322 533 7 0 \
+ `node4` \
+ 2 943 500
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 332 521 7 0 \
+ `node4` \
+ 2 981 333
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 342 511 7 0 \
+ `node4` \
+ 2 1018 194
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 351 501 7 0 \
+ `node4` \
+ 2 1056 55
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 361 484 1 0 \
+ `node5` \
+ 2 1148 805
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 383 456 1 0 \
+ `node5` \
+ 2 1237 416
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 387 442 1 0 \
+ `node5` \
+ 2 1257 222
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 402 425 1 0 \
+ `node6` \
+ 2 1445 972
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 414 401 1 0 \
+ `node6` \
+ 2 1500 638
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 424 391 1 0 \
+ `node6` \
+ 2 1543 500
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 426 387 1 0 \
+ `node6` \
+ 2 1554 444
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 428 381 1 0 \
+ `node6` \
+ 2 1565 361
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 431 377 1 0 \
+ `node6` \
+ 2 1576 305
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 431 375 1 0 \
+ `node6` \
+ 2 1576 277
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 433 372 1 0 \
+ `node6` \
+ 2 1586 222
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 433 370 1 0 \
+ `node6` \
+ 2 1586 194
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 436 370 1 0 \
+ `node6` \
+ 2 1597 194
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 438 366 1 0 \
+ `node6` \
+ 2 1608 138
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 440 364 1 0 \
+ `node6` \
+ 2 1619 111
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 445 360 1 0 \
+ `node6` \
+ 2 1641 55
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 448 358 1 0 \
+ `node6` \
+ 2 1652 27
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 448 356 1 0 \
+ `node6` \
+ 2 1652 0
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 450 354 1 0 \
+ `node7` \
+ 2 1108 972
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 450 352 1 0 \
+ `node7` \
+ 2 1108 944
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 453 352 1 0 \
+ `node7` \
+ 2 1115 944
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 455 348 1 0 \
+ `node7` \
+ 2 1123 888
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 457 346 1 0 \
+ `node7` \
+ 2 1130 861
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 460 346 1 0 \
+ `node7` \
+ 2 1137 861
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 460 344 1 0 \
+ `node7` \
+ 2 1137 833
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 462 342 1 0 \
+ `node7` \
+ 2 1144 805
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 462 340 1 0 \
+ `node7` \
+ 2 1144 777
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 462 338 1 0 \
+ `node7` \
+ 2 1144 750
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 465 336 1 0 \
+ `node7` \
+ 2 1152 722
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 467 332 1 0 \
+ `node7` \
+ 2 1159 666
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 469 330 1 0 \
+ `node7` \
+ 2 1166 638
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 472 326 1 0 \
+ `node7` \
+ 2 1173 583
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 474 324 1 0 \
+ `node7` \
+ 2 1181 555
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 474 322 1 0 \
+ `node7` \
+ 2 1181 527
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 477 320 1 0 \
+ `node7` \
+ 2 1188 500
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 477 318 1 0 \
+ `node7` \
+ 2 1188 472
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 477 316 1 0 \
+ `node7` \
+ 2 1188 444
+~ DragLeave `main_dlg_cur` `PHTLeft.AssyTree` 4 477 316 1 0 \
+ `node7` \
+ 2 1188 444
+~ Drop `main_dlg_cur` `PHTLeft.AssyTree` 5 477 316 1 0 8 \
+ 2 `main_dlg_w2` `PHTLeft.AssyTree` \
+ `node7` \
+ 2 1188 444
+!%CIStoring regeneration backup of 'PART2' on the disk.
+!%CIRegeneration backup has been stored.
+!Undo: added rec_id -1 type 5310 
+!ProgressBarDlg: Regen Started
+~ DragFinished `main_dlg_cur` `PHTLeft.AssyTree`
+!%CIRestoring PART2 feature 5 out of 9 ...
+!Topology changes detected; regenerating DATUM AXIS instead...
+!%CIRestoring PART2 feature 6 out of 9 ...
+!%CIRestoring PART2 feature 7 out of 9 ...
+!%CIRestoring PART2 feature 8 out of 9 ...
+!%CIRestoring PART2 feature 9 out of 9 ...
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node11`
+!A_5
+~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node11`
+~ PopupOver `main_dlg_cur` `PM_PHTLeft.AssyTree` 1 `PHTLeft.AssyTree`
+~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Select `main_dlg_cur` `appl_casc`
+~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Close `main_dlg_cur` `appl_casc`
+~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node11`
+~ PopupOver `main_dlg_cur` `PM_PHTLeft.AssyTree` 1 `PHTLeft.AssyTree`
+~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Command `ProCmdRedefine@PopupMenuTree` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Datum Axis
+!ODUI session started.
+!%CPSelect up to 2 references, such as plane, surface, edge or point to place axis.
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `1` `column_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `0` `column_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `` ``
+~ Select `Odui_Dlg_00` `pg_vis_tab` 1 `tab_2`
+~ Select `Odui_Dlg_00` `pg_vis_tab` 1 `tab_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `0` `column_2`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `1` `column_2`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `1` `column_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `` ``
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `1` `column_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `0` `column_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `` ``
+~ Select `Odui_Dlg_00` `pg_vis_tab` 1 `tab_3`
+~ Input `Odui_Dlg_00` `t3.NameInp` `A`
+~ Update `Odui_Dlg_00` `t3.NameInp` `A`
+~ FocusOut `Odui_Dlg_00` `t3.NameInp`
+~ Activate `Odui_Dlg_00` `stdbtn_1`
+!ODUI session finished.
+!ProgressBarDlg: Regen Started
+!%CIRegenerating PART2 feature 5 out of 9 ...
+!%CIRestoring PART2 feature 6 out of 9 ...
+!%CIRestoring PART2 feature 7 out of 9 ...
+!%CIRestoring PART2 feature 8 out of 9 ...
+!%CIRestoring PART2 feature 9 out of 9 ...
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 235 type 5300 
+!%CIFeature redefined successfully.
+!F5(A)
+~ Command `ProCmdEnvAxisDisp`  1
+!%CIAxes will be displayed.
+~ Activate `main_dlg_cur` `page_Analysis_control_btn` 1
+~ Activate `main_dlg_cur` `page_Annotate_control_btn` 1
+< 2 0.738370 1482 0 0 623 1920 0 0 1080 13
+~ Command `ProCmdDtmTrgAnnotFeat` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Annotation Feature
+!ODUI session started.
+!%CPPlease add annotation elements.
+!%CWThe selected geometry can not be used by this tool. Please select new references.
+< 2 0.784593 1482 0 0 662 1920 0 0 1080 13
+~ Select `annot_elem_add_page` `TypeRadioGroup` 1 `existing_annot`
+!%CPSelect an existing annotation or annotation element to add to the active element.
+~ Trigger `annot_elem_add_page` `AnnotSelTable` `0`
+~ Trigger `annot_elem_add_page` `AnnotSelTable` ``
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!A
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 0
+~ Activate `annot_elem_add_page` `CancelButton`
+~ Activate `Odui_Dlg_00` `stdbtn_2`
+! Message Dialog: Warning
+!               : Do you really want to Cancel?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!ODUI session finished.
+!ProgressBarDlg: Regen Started
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+< 2 0.732444 1482 0 0 618 1920 0 0 1080 13
+~ LButtonArm `main_dlg_cur` `proe_win` 9 476 366 0 1 1482 618 1920 1080 7554790
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 476 366 0 0 1482 618 1920 1080 7554879
+@ sel view 0
+ 9.378441 8.950193 -1.038114 1.726462 -3.255706 -12.472309
+ -8.843244 8.856252 -3.535904 612.541286 442.592547 -1595.106182 1.250000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ Command `ProCmdAnnotationFeat` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Annotation Feature
+!ODUI session started.
+!%CPPlease add annotation elements.
+< 2 0.784593 1482 0 0 662 1920 0 0 1080 13
+~ Select `Odui_Dlg_00` `pg_vis_tab` 1 `tab_2`
+~ Select `Odui_Dlg_00` `pg_vis_tab` 1 `tab_1`
+~ Move `Odui_Dlg_00` `Odui_Dlg_00` 2 4.151993 12.949027
+~ LButtonArm `main_dlg_cur` `proe_win` 9 703 379 0 1 1482 662 1920 1080 7563590
+~ Move `main_dlg_cur` `proe_win` 9 703 379 0 1 1482 662 1920 1080 7563591
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 703 379 0 0 1482 662 1920 1080 7563592
+@ sel view 0
+ 9.378441 8.950193 -1.038114 1.726462 -3.255706 -12.472309
+ -8.843244 8.856252 -3.535904 612.541286 442.592547 -1595.106182 1.250000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ Move `Odui_Dlg_00` `Odui_Dlg_00` 2 4.229842 6.279889
+~ Move `Odui_Dlg_00` `Odui_Dlg_00` 2 4.515292 1.868397
+~ Activate `Odui_Dlg_00` `stdbtn_2`
+!ODUI session finished.
+!ProgressBarDlg: Regen Started
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+< 2 0.732444 1482 0 0 618 1920 0 0 1080 13
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1264 190 0 1 1482 618 1920 1080 7567920
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1264 190 0 0 1482 618 1920 1080 7567999
+@ sel view 0
+ 9.378441 8.950193 -1.038114 1.726462 -3.255706 -12.472309
+ -8.843244 8.856252 -3.535904 612.541286 442.592547 -1595.106182 1.250000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ Command `ProCmdDatumAxis` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Datum Axis
+!ODUI session started.
+!%CPSelect up to 2 references, such as plane, surface, edge or point to place axis.
+< 2 0.784593 1482 0 0 662 1920 0 0 1080 13
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `DuMmY` `column_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `` ``
+~ LButtonArm `main_dlg_cur` `proe_win` 9 680 360 0 1 1482 662 1920 1080 7576834
+~ Move `main_dlg_cur` `proe_win` 9 680 360 0 1 1482 662 1920 1080 7576839
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 680 360 0 0 1482 662 1920 1080 7576898
+@ sel view 0
+ 9.378441 8.950193 -1.038114 1.726462 -3.255706 -12.472309
+ -8.843244 8.856252 -3.535904 612.541286 442.592547 -1595.106182 1.250000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 2 104 -1 (-4.9276741935 15.1033207796) (-10.0966792204 -12.2175495343 2.6716609890)
+!Surf:F7(REVOLVE_1)
+~ Activate `Odui_Dlg_00` `stdbtn_1`
+!ODUI session finished.
+!F10(A_5)
+!ProgressBarDlg: Regen Started
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 245 type 5304 
+< 2 0.732444 1482 0 0 618 1920 0 0 1080 13
+~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node11`
+~ PopupOver `main_dlg_cur` `PM_PHTLeft.AssyTree` 1 `PHTLeft.AssyTree`
+~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Command `ProCmdRedefine@PopupMenuTree` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Datum Axis
+!ODUI session started.
+!%CPSelect up to 2 references, such as plane, surface, edge or point to place axis.
+< 2 0.784593 1482 0 0 662 1920 0 0 1080 13
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `0` `column_2`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `0` `column_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `` ``
+~ Select `Odui_Dlg_00` `pg_vis_tab` 1 `tab_2`
+~ Activate `Odui_Dlg_00` `t2.outline_cb` 1
+~ Activate `Odui_Dlg_00` `t2.outline_cb` 0
+~ Select `Odui_Dlg_00` `pg_vis_tab` 1 `tab_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `0` `column_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `` ``
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `0` `column_2`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `` ``
+~ Select `Odui_Dlg_00` `pg_vis_tab` 1 `tab_3`
+~ Activate `Odui_Dlg_00` `stdbtn_1`
+!ODUI session finished.
+!ProgressBarDlg: Regen Started
+!%CIRegenerating PART2 feature 10 out of 10 ...
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 250 type 5300 
+!%CIFeature redefined successfully.
+!F10(A_5)
+< 2 0.732444 1482 0 0 618 1920 0 0 1080 13
+~ Command `ProCmdAnnotationFeat` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Annotation Feature
+!ODUI session started.
+!%CPPlease add annotation elements.
+!%CWThe selected geometry can not be used by this tool. Please select new references.
+< 2 0.784593 1482 0 0 662 1920 0 0 1080 13
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node11`
+~ FocusOut `main_dlg_cur` `PHTLeft.node_edit`
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node11`
+~ FocusOut `main_dlg_cur` `PHTLeft.node_edit`
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node11`
+~ FocusOut `main_dlg_cur` `PHTLeft.node_edit`
+~ Select `Odui_Dlg_00` `t1.elem_table` 0
+~ Trigger `Odui_Dlg_00` `t1.elem_table` 2 `DuMmY` `Element_Name`
+~ Trigger `Odui_Dlg_00` `t1.elem_table` 2 `` ``
+~ Activate `Odui_Dlg_00` `t1.set_datum_tag`
+!%CPSelect a dimension, a gtol, a dimension witness line or a point on a surface.
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node11`
+!A_5
+~ Activate `main_dlg_cur` `PHTLeft.AssyTree` 1 `node11`
+!Expanded A_5
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 0
+~ Activate `main_dlg_cur` `PHTLeft.AssyTree` 1 `node11`
+!Expanded A_5
+~ Close `Odui_Dlg_00` `Odui_Dlg_00`
+! Message Dialog: Warning
+!               : Do you really want to Cancel?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!ODUI session finished.
+!ProgressBarDlg: Regen Started
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+< 2 0.732444 1482 0 0 618 1920 0 0 1080 13
+~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node11`
+~ PopupOver `main_dlg_cur` `PM_PHTLeft.AssyTree` 1 `PHTLeft.AssyTree`
+~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node11`
+~ Command `ProCmdEditDelete@PopupMenuTree` 
+! Executed sub-command ProCmdEditDeleteFeat.
+~ FocusIn `del_sup_msg` `ok`
+~ Activate `del_sup_msg` `ok`
+!ProgressBarDlg: Regen Started
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 259 type 5303 
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!A
+!Expanded PART2.PRT
+~ Select `MiniToolbar` `row1:SOIPOverlayCmd`
+~ Close `MiniToolbar` `row1:SOIPOverlayCmd`
+~ Command `ProCmdDatumAxis@PopupMenuTree` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Datum Axis
+!ODUI session started.
+!ODUI session finished.
+!F10(A_5)
+!ProgressBarDlg: Regen Started
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 261 type 5304 
+~ LButtonArm `main_dlg_cur` `proe_win` 9 704 356 0 1 1482 618 1920 1080 7639329
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 704 356 0 0 1482 618 1920 1080 7639418
+@ sel view 0
+ 9.378441 8.950193 -1.038114 1.726462 -3.255706 -12.472309
+ -8.843244 8.856252 -3.535904 612.541286 442.592547 -1595.106182 1.250000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 4 109 -1 (0.1789955588 0.0000000000) (-19.7041065898 0.0000000000 0.0000000000)
+!A_2(AXIS):F7(REVOLVE_1)
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node11`
+!A_5
+~ Command `ProCmdEditDelete` 
+! Executed sub-command ProCmdEditDeleteFeat.
+~ FocusIn `del_sup_msg` `ok`
+~ Activate `del_sup_msg` `ok`
+!ProgressBarDlg: Regen Started
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 266 type 5303 
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!A
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Command `ProCmdShowAnnots` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Show Annotations
+!ODUI session started.
+< 2 0.784593 1482 0 0 662 1920 0 0 1080 13
+~ LButtonArm `main_dlg_cur` `proe_win` 9 670 389 0 1 1482 662 1920 1080 7650791
+~ Move `main_dlg_cur` `proe_win` 9 670 389 0 1 1482 662 1920 1080 7650795
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 670 389 0 0 1482 662 1920 1080 7650867
+@ sel view 0
+ 9.378441 8.950193 -1.038114 1.726462 -3.255706 -12.472309
+ -8.843244 8.856252 -3.535904 612.541286 442.592547 -1595.106182 1.250000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 4 109 -1 (0.0353909598 0.0000000000) (-23.1506169643 0.0000000000 0.0000000000)
+!A_2(AXIS):F7(REVOLVE_1)
+!sket_eps      0.5011956852
+~ Trigger `Odui_Dlg_00` `t1.tbl_dim` 2 `3` `AnnotShow`
+~ Trigger `Odui_Dlg_00` `t1.tbl_dim` 2 `2` `AnnotShow`
+~ Trigger `Odui_Dlg_00` `t1.tbl_dim` 2 `1` `AnnotSymbol`
+~ Trigger `Odui_Dlg_00` `t1.tbl_dim` 2 `0` `AnnotSymbol`
+~ Trigger `Odui_Dlg_00` `t1.tbl_dim` 2 `` ``
+~ Select `Odui_Dlg_00` `pg_vis_tab` 1 `tab_6`
+~ Activate `Odui_Dlg_00` `t0.psh_cancel`
+!ODUI session finished.
+< 2 0.732444 1482 0 0 618 1920 0 0 1080 13
+~ Trail `UI Desktop` `UI Desktop` `ActivateOnFocus` \
+ `main_dlg_w6`
+!sket_eps       5.538199689
+!Command ProCmdEnvShaded was pushed from the software.
+!%CI Shaded model will be displayed
+< 2 0.784593 1482 0 0 662 1920 0 0 1080 13
+~ Command `ProCmdEnvAxisDisp`  0
+!%CIAxes will not be displayed.
+~ Command `ProCmdEnvDtmDisp`  0
+!%CIDatum planes will not be displayed.
+~ Activate `main_dlg_cur` `page_Annotate_control_btn` 1
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Layout to page_Annotate
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~ Command `ProCmdDwgShowAllAnnots` 
+~ LButtonArm `main_dlg_cur` `proe_win` 9 446 177 0 1 1286 611 1920 1080 7665967
+~ Move `main_dlg_cur` `proe_win` 9 446 177 0 1 1286 611 1920 1080 7665982
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 446 177 0 0 1286 611 1920 1080 7666067
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.695421 0.000000 0
+@ sel view 3
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.695421 0.000000 0
+@ sel view 1
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 442.874162 457.027342 0.000000 1.695421 0.000000 0
+@ sel view 2
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 702.680602 457.027342 85.714286 1.695421 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 65 1 -1 (0.0000000000 0.0000000000) (365.5598574141 585.9987414075 0.0000000000)
+!View:new_view_1
+~ Select `show_model_annotations` `tab_dtl_types` 1 `lay_datum`
+~ Trigger `show_model_annotations` `tbl_datum` 2 `row0` `type`
+~ Trigger `show_model_annotations` `tbl_datum` 2 `row1` `show`
+~ Trigger `show_model_annotations` `tbl_datum` 2 `row1` `type`
+~ Trigger `show_model_annotations` `tbl_datum` 2 `row0` `type`
+~ Trigger `show_model_annotations` `tbl_datum` 2 `row1` `type`
+~ Trigger `show_model_annotations` `tbl_datum` 2 `row1` `show`
+~ Arm `show_model_annotations` `tbl_datum` 2 `row1` `show`
+~ Select `show_model_annotations` `tbl_datum` 2 `row1` `show`
+~ Trigger `show_model_annotations` `tbl_datum` 2 `row2` `show`
+~ Trigger `show_model_annotations` `tbl_datum` 2 `row2` `type`
+~ Trigger `show_model_annotations` `tbl_datum` 2 `` ``
+~ Activate `show_model_annotations` `psh_apply`
+~ Activate `show_model_annotations` `psh_cancel`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 545 331 0 1 1286 611 1920 1080 7673458
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 545 331 0 0 1286 611 1920 1080 7673537
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.695421 0.000000 0
+@ sel view 3
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.695421 0.000000 0
+@ sel view 1
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 442.874162 457.027342 0.000000 1.695421 0.000000 0
+@ sel view 2
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 702.680602 457.027342 85.714286 1.695421 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ draft item: 15
+ 29 0 1 0 0 -1 -1 -1 0.000000
+@ draft item: 15
+ 29 4 1 0 0 -1 -1 -1 0.000000
+@ draft item: 16
+ 29 0 1 0 0 -1 -1 -1 0.000000
+@ draft item: 16
+ 29 4 1 0 0 -1 -1 -1 0.000000
+@ draft item: 67
+ 4 0 1 0 0 -1 -1 -1 0.000000
+@ draft item: 67
+ 4 4 1 0 0 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 0 1 0 0 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 4 1 0 0 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 0 1 0 0 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 4 1 0 0 -1 -1 -1 0.000000
+@ stack idx 0
+@SEL_REC 0 [] 4 46 -1 (0.0000000000 0.0000000000) (446.1960865466 457.0273418531 0.0000000000)
+!A_1(AXIS):F6(SKETCH_1)
+~ RButtonArm `main_dlg_cur` `proe_win` 9 545 331 0 4 1286 611 1920 1080 7674237
+~ RButtonDisarm `main_dlg_cur` `proe_win` 9 545 331 0 0 1286 611 1920 1080 7674327
+~ Command `ProCmdEditProperties@PopupMenuGraphicWinStack` 
+~ Activate `datum_asynch` `psh_cancel`
+~ Activate `0_std_confirm` `Cancel`
+~ Activate `datum_asynch` `psh_cancel`
+~ Activate `0_std_confirm` `OK`
+! Executed sub-command ProCmdEditPropertiesDwg.
+~ Key `main_dlg_cur` `proe_win` 9 818 233 196608 512 1286 611 1920 1080 7683518 `Del`
+~ Command `ProCmdEditDelete` 
+! Executed sub-command ProCmdEditDeleteDwg.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 440 332 0 1537 1286 611 1920 1080 7685298
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 440 332 0 0 1286 611 1920 1080 7685378
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.695421 0.000000 0
+@ sel view 3
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.695421 0.000000 0
+@ sel view 1
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 442.874162 457.027342 0.000000 1.695421 0.000000 0
+@ sel view 2
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 702.680602 457.027342 85.714286 1.695421 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ draft item: 15
+ 29 4 1 0 0 -1 -1 -1 0.000000
+@ draft item: 16
+ 29 4 1 0 0 -1 -1 -1 0.000000
+@ draft item: 67
+ 4 4 1 0 0 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 4 1 0 0 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 4 1 0 0 -1 -1 -1 0.000000
+@ stack idx 0
+@SEL_REC 0 [] 4 260 -1 (0.0000000000 0.0000000000) (361.4873205892 457.0273418531 0.0000000000)
+!A:F5(DATUM AXIS)
+~ Command `ProCmdEditProperties@PopupMenuGraphicWinStack` 
+~ Select `datum_asynch` `rad_unset_asme` 1 `set_rad`
+~ Select `datum_asynch` `rad_unset_asme` 1 `unset_rad`
+~ Activate `datum_asynch` `psh_ok`
+! Executed sub-command ProCmdEditPropertiesDwg.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 549 339 0 1 1286 611 1920 1080 7693158
+~ Move `main_dlg_cur` `proe_win` 9 550 339 0 513 1286 611 1920 1080 7693218
+~ Move `main_dlg_cur` `proe_win` 9 554 339 0 513 1286 611 1920 1080 7693228
+@sel2d for move
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.695421 0.000000 0
+@ sel view 3
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.695421 0.000000 0
+@ sel view 1
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 442.874162 457.027342 0.000000 1.695421 0.000000 0
+@ sel view 2
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 702.680602 457.027342 85.714286 1.695421 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 22
+ 140 4 1 154 0 0 -1 -1 -1.000000
+@ draft item: 22
+ 140 4 1 154 0 0 -1 -1 0.000000
+@ draft item: 22
+ 140 4 1 152 0 0 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ draft item: 15
+ 29 4 1 0 0 -1 -1 -1 0.000000
+@ draft item: 16
+ 29 4 1 0 0 -1 -1 -1 0.000000
+@ draft item: 67
+ 4 4 1 0 0 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 4 1 0 0 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 4 1 0 0 -1 -1 -1 0.000000
+~ Move `main_dlg_cur` `proe_win` 9 560 339 0 513 1286 611 1920 1080 7693254
+~ Move `main_dlg_cur` `proe_win` 9 563 338 0 1537 1286 611 1920 1080 7693259
+~ Move `main_dlg_cur` `proe_win` 9 565 337 0 1537 1286 611 1920 1080 7693271
+~ Move `main_dlg_cur` `proe_win` 9 567 337 0 513 1286 611 1920 1080 7693281
+~ Move `main_dlg_cur` `proe_win` 9 568 337 0 513 1286 611 1920 1080 7693293
+~ Move `main_dlg_cur` `proe_win` 9 569 337 0 513 1286 611 1920 1080 7693347
+~ Move `main_dlg_cur` `proe_win` 9 570 337 0 513 1286 611 1920 1080 7693388
+~ Move `main_dlg_cur` `proe_win` 9 571 337 0 513 1286 611 1920 1080 7693398
+~ Move `main_dlg_cur` `proe_win` 9 572 337 0 513 1286 611 1920 1080 7693408
+~ Move `main_dlg_cur` `proe_win` 9 573 337 0 513 1286 611 1920 1080 7693448
+~ Move `main_dlg_cur` `proe_win` 9 574 337 0 513 1286 611 1920 1080 7693518
+~ Move `main_dlg_cur` `proe_win` 9 575 337 0 513 1286 611 1920 1080 7693529
+~ Move `main_dlg_cur` `proe_win` 9 576 337 0 513 1286 611 1920 1080 7693559
+~ Move `main_dlg_cur` `proe_win` 9 576 336 0 1025 1286 611 1920 1080 7693738
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 576 336 0 0 1286 611 1920 1080 7693748
+~ LButtonArm `main_dlg_cur` `proe_win` 9 323 332 0 1 1286 611 1920 1080 7694719
+~ Move `main_dlg_cur` `proe_win` 9 318 333 0 1537 1286 611 1920 1080 7694848
+@sel2d for move
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.695421 0.000000 0
+@ sel view 3
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.695421 0.000000 0
+@ sel view 1
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 442.874162 457.027342 0.000000 1.695421 0.000000 0
+@ sel view 2
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 702.680602 457.027342 85.714286 1.695421 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 22
+ 140 4 1 153 0 0 -1 -1 -1.000000
+@ draft item: 22
+ 140 4 1 153 0 0 -1 -1 0.000000
+@ draft item: 22
+ 140 4 1 152 0 0 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ draft item: 15
+ 29 4 1 0 0 -1 -1 -1 0.000000
+@ draft item: 16
+ 29 4 1 0 0 -1 -1 -1 0.000000
+@ draft item: 67
+ 4 4 1 0 0 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 4 1 0 0 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 4 1 0 0 -1 -1 -1 0.000000
+~ Move `main_dlg_cur` `proe_win` 9 301 335 0 1537 1286 611 1920 1080 7694876
+~ Move `main_dlg_cur` `proe_win` 9 297 335 0 513 1286 611 1920 1080 7694887
+~ Move `main_dlg_cur` `proe_win` 9 295 335 0 513 1286 611 1920 1080 7694897
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 295 335 0 0 1286 611 1920 1080 7695388
+~ LButtonArm `main_dlg_cur` `proe_win` 9 771 131 0 1 1286 611 1920 1080 7695948
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 771 131 0 0 1286 611 1920 1080 7696047
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.695421 0.000000 0
+@ sel view 3
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.695421 0.000000 0
+@ sel view 1
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 442.874162 457.027342 0.000000 1.695421 0.000000 0
+@ sel view 2
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 702.680602 457.027342 85.714286 1.695421 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node5`
+!A
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w6:PHTLeft.AssyTree:<NULL>`
+~ Select `main_dlg_cur` `DrwAssyTree` 1 `node0:view_1 92 0 2 -1 -1:Datums -1 -1 0 -1 -1 -1`
+!Datums
+~ Expand `main_dlg_cur` `DrwAssyTree` `node0:view_1 92 0 2 -1 -1:Datums -1 -1 0 -1 -1 -1`
+!Expanded Datums
+~ Select `main_dlg_cur` `DrwAssyTree` 1\
+ `node0:view_1 92 0 2 -1 -1:Datums -1 -1 0 -1 -1 -1:Model Axis 7 532 1 84 -1 -\
+1`
+!Model: A
+~ RButtonArm `main_dlg_cur` `DrwAssyTree` `node0:view_1 92 0 2 -1 -1:Datums -1 -1 0 -1 -1 -1:Model Axis 7 532 1 84 -1 -\
+1`
+~ PopupOver `main_dlg_cur` `PM_DrwAssyTree` 1 `DrwAssyTree`
+~ Open `main_dlg_cur` `PM_DrwAssyTree`
+~ Close `main_dlg_cur` `PM_DrwAssyTree`
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Command `ProCmdDwgPopEditAtt@PopupMenuTree` 
+!%CPLeft button to accept new location, middle one to discard it.
+~ Enter `main_dlg_cur` `proe_win` 9 21 308 0 1536 1286 611 1920 1080 7710457
+~ Move `main_dlg_cur` `proe_win` 9 21 308 0 0 1286 611 1920 1080 7710457
+0.019394 0.478484 N 0 0.724148148 6
+~ RButtonArm `main_dlg_cur` `DrwAssyTree` `node0:view_1 92 0 2 -1 -1:Datums -1 -1 0 -1 -1 -1:Model Axis 7 532 1 84 -1 -\
+1`
+~ PopupOver `main_dlg_cur` `PM_DrwAssyTree` 1 `DrwAssyTree`
+~ Open `main_dlg_cur` `PM_DrwAssyTree`
+~ Close `main_dlg_cur` `PM_DrwAssyTree`
+~ Command `ProCmdEditProperties@PopupMenuTree` 
+~ Activate `datum_asynch` `psh_cancel`
+~ Activate `0_std_confirm` `OK`
+! Executed sub-command ProCmdEditPropertiesDwg.
+~ Select `main_dlg_cur` `DrwAssyTree` 1 `node0:view_2 92 0 99 -1 -1:Datums -1 -1 0 -1 -1 -1`
+!Datums
+~ Expand `main_dlg_cur` `DrwAssyTree` `node0:view_2 92 0 99 -1 -1:Datums -1 -1 0 -1 -1 -1`
+!Expanded Datums
+~ Select `main_dlg_cur` `DrwAssyTree` 1\
+ `node0:view_1 92 0 2 -1 -1:Datums -1 -1 0 -1 -1 -1:Model Axis 7 532 1 84 -1 -\
+1`
+!Model: A
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Trail `UI Desktop` `UI Desktop` `ActivateOnFocus` \
+ `main_dlg_w2`
+< 2 0.732444 1482 0 0 618 1920 0 0 1080 13
+~ LButtonArm `main_dlg_cur` `proe_win` 9 277 241 0 1 1482 618 1920 1080 7733108
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 277 241 0 0 1482 618 1920 1080 7733197
+@ sel view 0
+ 9.378441 8.950193 -1.038114 1.726462 -3.255706 -12.472309
+ -8.843244 8.856252 -3.535904 612.541286 442.592547 -1595.106182 1.250000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!A
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w2:PHTLeft.AssyTree:<NULL>`
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Activate `main_dlg_cur` `PHTLeft.MainTreeCollapseChkBtn`
+~ Activate `main_dlg_cur` `PHTLeft.MainTreeCollapseChkBtn`
+~ Activate `main_dlg_cur` `3DDtlTreeCollapseChkBtn`
+~ Activate `main_dlg_cur` `3DDtlTreeCollapseChkBtn`
+~ Select `main_dlg_cur` `3DDtlAssyTree` 1 `node0`
+!DEFAULT ALL
+~ Activate `main_dlg_cur` `page_Model_control_btn` 1
+< 2 0.798815 1482 0 0 674 1920 0 0 1080 13
+~ Activate `main_dlg_cur` `page_Annotate_control_btn` 1
+< 2 0.732444 1482 0 0 618 1920 0 0 1080 13
+~ Select `main_dlg_cur` `3DDtlAssyTree` 1 `node0`
+!DEFAULT ALL
+~ Activate `main_dlg_cur` `3DDtlAssyTree` 1 `node0`
+!Expanded DEFAULT ALL
+~ Select `main_dlg_cur` `PHTLeft.ProExplorerTab` 1 `PHTLeft.Folders`
+~ Select `main_dlg_cur` `PHTLeft.ProExplorerTab` 1 `PHTLeft.MdlTreeLay`
+~ Select `main_dlg_cur` `3DDtlAssyTree` 1 `node0`
+!DEFAULT ALL
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!A
+~ Select `main_dlg_cur` `3DDtlAssyTree` 1 `node0`
+!DEFAULT ALL
+~ Activate `main_dlg_cur` `3DDtlAssyTree` 1 `node0`
+!Expanded DEFAULT ALL
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!A
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Restore `main_dlg_w6` `main_dlg_w6`
+~ Trail `UI Desktop` `UI Desktop` `ActivateOnFocus` \
+ `main_dlg_w6`
+!Command ProCmdEnvShaded was pushed from the software.
+!%CI Shaded model will be displayed
+< 2 0.784593 1482 0 0 662 1920 0 0 1080 13
+~ Select `main_dlg_cur` `DrwAssyTree` 1\
+ `node0:view_1 92 0 2 -1 -1:Datums -1 -1 0 -1 -1 -1:Model Axis 7 532 1 84 -1 -\
+1`
+!Model: A
+~ RButtonArm `main_dlg_cur` `DrwAssyTree` `node0:view_1 92 0 2 -1 -1:Datums -1 -1 0 -1 -1 -1:Model Axis 7 532 1 84 -1 -\
+1`
+~ PopupOver `main_dlg_cur` `PM_DrwAssyTree` 1 `DrwAssyTree`
+~ Open `main_dlg_cur` `PM_DrwAssyTree`
+~ Close `main_dlg_cur` `PM_DrwAssyTree`
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Activate `main_dlg_cur` `PM_DrwAssyTree_rmb_menu_cust_btn`
+~ Select `uit_rmb_cust_cmds` `AvailableCmdsList` 1 `ProCmdCrDatumFeatSym`
+~ Activate `uit_rmb_cust_cmds` `CommitOK`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 491 337 0 1 1286 611 1920 1080 7949815
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 491 337 0 0 1286 611 1920 1080 7949894
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.695421 0.000000 0
+@ sel view 3
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.695421 0.000000 0
+@ sel view 1
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 442.874162 457.027342 0.000000 1.695421 0.000000 0
+@ sel view 2
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 702.680602 457.027342 85.714286 1.695421 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 22
+ 140 4 1 154 0 0 -1 -1 0.000000
+@ draft item: 22
+ 140 4 1 152 0 0 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ draft item: 15
+ 29 4 1 0 0 -1 -1 -1 0.000000
+@ draft item: 16
+ 29 4 1 0 0 -1 -1 -1 0.000000
+@ draft item: 67
+ 4 4 1 0 0 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 4 1 0 0 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 4 1 0 0 -1 -1 -1 0.000000
+@ stack idx 0
+@SEL_REC 0 [] 140 4 154 (0.0000000000 0.0000000000) (402.2126888380 455.6775630115 0.0000000000)
+!A(AXIS):F5(DATUM AXIS)
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 237 140 0 1 1286 611 1920 1080 7950885
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 237 140 0 0 1286 611 1920 1080 7950985
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.695421 0.000000 0
+@ sel view 3
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.695421 0.000000 0
+@ sel view 1
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 442.874162 457.027342 0.000000 1.695421 0.000000 0
+@ sel view 2
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 702.680602 457.027342 85.714286 1.695421 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+~ Wheel `main_dlg_cur` `proe_win` 9 236 140 393216 0 1286 611 1920 1080 7951357
+~ Wheel `main_dlg_cur` `proe_win` 9 841 318 393216 0 1286 611 1920 1080 7952704
+~ Wheel `main_dlg_cur` `proe_win` 9 794 457 458752 0 1286 611 1920 1080 7953614
+~ Wheel `main_dlg_cur` `proe_win` 9 659 526 458752 0 1286 611 1920 1080 7953934
+~ Wheel `main_dlg_cur` `proe_win` 9 659 482 393216 0 1286 611 1920 1080 7980594
+~ Wheel `main_dlg_cur` `proe_win` 9 659 482 393216 0 1286 611 1920 1080 7980844
+~ Wheel `main_dlg_cur` `proe_win` 9 524 275 458752 0 1286 611 1920 1080 7981377
+~ Wheel `main_dlg_cur` `proe_win` 9 497 275 458752 0 1286 611 1920 1080 7981454
+~ Command `ProCmdDwgCrGtolSpecTol` 
+!%CWItems from drawing models can be shown in the drawing by using 'Show Model Annotations' from the Annotate tab.
+!Command ProCmdDtlRMBGtolAuto was pushed from the software.
+!%CPSelect edges edges entities dimensions gtols notes dimension witness lines coordinate systems axis centers axis endpoints.
+< 6 0.718222 1286 0 0 606 1920 0 0 1080 13
+~ LButtonArm `main_dlg_cur` `proe_win` 9 371 311 0 1 1286 606 1920 1080 7986586
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 371 311 0 0 1286 606 1920 1080 7986694
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.695421 0.000000 0
+@ sel view 3
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.695421 0.000000 0
+@ sel view 1
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 442.874162 457.027342 0.000000 1.695421 0.000000 0
+@ sel view 2
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 702.680602 457.027342 85.714286 1.695421 0.000000 0
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+@ draft item: 15
+ 29 4 1 0 0 -1 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 29 4 -1 (0.0000000000 0.0000000000) (309.4653669018 457.0273418531 0.0000000000)
+!A(AXIS):F5(DATUM AXIS)
+!%CPSelect edges edges entities dimensions gtols notes dimension witness lines coordinate systems axis centers axis endpoints, datums, axis lines, curves, surface points, vertices, cosmetic sketched entities, entities, vertices or section entities.
+~ MButtonArm `main_dlg_cur` `proe_win` 9 245 91 0 2 1286 606 1920 1080 7990294
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 245 91 0 0 1286 606 1920 1080 7990423
+!Command ProCmdPmaToolGtol was pushed from the software.
+!LiveUI: Activating PmaToolAnnotGtol
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Annotate to page_Geometric_Tolerance
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Command ProCmdPmaToolGtol was pushed from the software.
+!LiveUI: Deactivating PmaToolAnnotGtol
+!LiveUI: Activating PmaToolAnnotGtol
+~ LButtonArm `main_dlg_cur` `proe_win` 9 238 94 0 1 1286 606 1920 1080 7996964
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.695421 0.000000 0
+@ sel view 3
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.695421 0.000000 0
+@ sel view 1
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 442.874162 457.027342 0.000000 1.695421 0.000000 0
+@ sel view 2
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 702.680602 457.027342 85.714286 1.695421 0.000000 0
+@ stack attr -1 0  1
+!Dragger (TD_USER_NOTE_85_MDL_3_4_ldr_note_0) start dragging
+!Dragger Index 0 Toggled
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 238 94 0 0 1286 606 1920 1080 7997064
+!Dragger (TD_USER_NOTE_85_MDL_3_4_ldr_note_0) end dragging
+~ Command `ProCmdPmaInputGtolPrimDtm`  `A`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 286 101 0 1 1286 606 1920 1080 8000325
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.695421 0.000000 0
+@ sel view 3
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.695421 0.000000 0
+@ sel view 1
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 442.874162 457.027342 0.000000 1.695421 0.000000 0
+@ sel view 2
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 702.680602 457.027342 85.714286 1.695421 0.000000 0
+@ stack attr -1 0  1
+~ Move `main_dlg_cur` `proe_win` 9 286 101 0 1 1286 606 1920 1080 8000373
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 286 101 0 0 1286 606 1920 1080 8000374
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.695421 0.000000 0
+@ sel view 3
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.695421 0.000000 0
+@ sel view 1
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 442.874162 457.027342 0.000000 1.695421 0.000000 0
+@ sel view 2
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 702.680602 457.027342 85.714286 1.695421 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Geometric_Tolerance to page_Annotate
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!LiveUI: Deactivating PmaToolAnnotGtol
+~ LButtonArm `main_dlg_cur` `proe_win` 9 245 93 0 1 1286 606 1920 1080 8004355
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 245 93 0 0 1286 606 1920 1080 8004454
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.695421 0.000000 0
+@ sel view 3
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.695421 0.000000 0
+@ sel view 1
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 442.874162 457.027342 0.000000 1.695421 0.000000 0
+@ sel view 2
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 702.680602 457.027342 85.714286 1.695421 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 50
+ 202 0 0 0 0 -1 85 -1 0.000000
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 202 0 85 (0.0000000000 0.0000000000) (205.9906738325 634.6514437134 0.0000000000)
+!Leader
+!Command ProCmdPmaToolGtol was pushed from the software.
+!LiveUI: Activating PmaToolAnnotGtol
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Annotate to page_Geometric_Tolerance
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Command ProCmdPmaToolGtol was pushed from the software.
+!LiveUI: Deactivating PmaToolAnnotGtol
+!LiveUI: Activating PmaToolAnnotGtol
+~ Command `ProCmdEditDelete@PopupMenuGraphicWinStack` 
+!LiveUI: Deactivating PmaToolAnnotGtol
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Geometric_Tolerance to page_Annotate
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Executed sub-command ProCmdEditDeleteDwg.
+~ Trail `UI Desktop` `UI Desktop` `ActivateOnFocus` \
+ `main_dlg_w2`
+< 2 0.732444 1482 0 0 618 1920 0 0 1080 13
+~ Command `ProCmdCrDatumFeatSym` 
+!%CPSelect a dimension, a gtol, a dimension witness line or a point on a surface.
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!A
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Command `ProCmdEnvAxisDisp`  1
+!%CIAxes will be displayed.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 685 324 0 1 1482 618 1920 1080 8197663
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 685 324 0 0 1482 618 1920 1080 8197771
+@ sel view 0
+ 9.378441 8.950193 -1.038114 1.726462 -3.255706 -12.472309
+ -8.843244 8.856252 -3.535904 612.541286 442.592547 -1595.106182 1.250000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 76 104 -1 (-4.8473953982 15.2709593948) (-9.9290406052 -12.3924489705 1.6832996096)
+!Point:Surface:F7(REVOLVE_1)
+!%CPSelect a dimension, a gtol, a dimension witness line or a point on a surface.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 686 340 0 1 1482 618 1920 1080 8199851
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 686 340 0 0 1482 618 1920 1080 8199912
+@ sel view 0
+ 9.378441 8.950193 -1.038114 1.726462 -3.255706 -12.472309
+ -8.843244 8.856252 -3.535904 612.541286 442.592547 -1595.106182 1.250000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 76 104 -1 (-4.9563017166 15.2907424751) (-9.9092575249 -12.1360709306 3.0202767140)
+!Point:Surface:F7(REVOLVE_1)
+!%CPSelect a dimension, a gtol, a dimension witness line or a point on a surface.
+~ MButtonArm `main_dlg_cur` `proe_win` 9 697 325 0 2 1482 618 1920 1080 8200971
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 697 325 0 0 1482 618 1920 1080 8201131
+!Command ProCmdPmaToolAnnotDfs was pushed from the software.
+!Command ProCmdPmaToolAnnotDfs was pushed from the software.
+!Undo: added rec_id 286 type 5304 
+!Undo: added rec_id 287 type 10015 
+!LiveUI: Activating PmaToolAnnotDfs
+!Command ProCmdPmaToolAnnotDfs was pushed from the software.
+!LiveUI: Deactivating PmaToolAnnotDfs
+!LiveUI: Activating PmaToolAnnotDfs
+~ Wheel `main_dlg_cur` `proe_win` 9 699 336 458752 0 1482 618 1920 1080 8201762
+~ Wheel `main_dlg_cur` `proe_win` 9 697 336 458752 512 1482 618 1920 1080 8201821
+~ Wheel `main_dlg_cur` `proe_win` 9 694 336 458752 512 1482 618 1920 1080 8201876
+~ Wheel `main_dlg_cur` `proe_win` 9 687 336 458752 0 1482 618 1920 1080 8201934
+~ Wheel `main_dlg_cur` `proe_win` 9 668 331 458752 0 1482 618 1920 1080 8201999
+~ MButtonArm `main_dlg_cur` `proe_win` 9 665 294 0 2 1482 618 1920 1080 8202832
+~ Move `main_dlg_cur` `proe_win` 9 664 294 0 514 1482 618 1920 1080 8202841
+~ Move `main_dlg_cur` `proe_win` 9 663 294 0 514 1482 618 1920 1080 8202871
+~ Move `main_dlg_cur` `proe_win` 9 662 295 0 1538 1482 618 1920 1080 8202901
+~ Move `main_dlg_cur` `proe_win` 9 657 295 0 514 1482 618 1920 1080 8202932
+~ Move `main_dlg_cur` `proe_win` 9 656 295 0 514 1482 618 1920 1080 8202950
+~ Move `main_dlg_cur` `proe_win` 9 646 295 0 514 1482 618 1920 1080 8202971
+~ Move `main_dlg_cur` `proe_win` 9 644 295 0 514 1482 618 1920 1080 8202983
+~ Move `main_dlg_cur` `proe_win` 9 643 295 0 514 1482 618 1920 1080 8203011
+~ Move `main_dlg_cur` `proe_win` 9 640 295 0 514 1482 618 1920 1080 8203024
+~ Move `main_dlg_cur` `proe_win` 9 637 294 0 1538 1482 618 1920 1080 8203036
+~ Move `main_dlg_cur` `proe_win` 9 636 294 0 514 1482 618 1920 1080 8203052
+~ Move `main_dlg_cur` `proe_win` 9 635 292 0 1538 1482 618 1920 1080 8203065
+~ Move `main_dlg_cur` `proe_win` 9 633 291 0 1538 1482 618 1920 1080 8203079
+~ Move `main_dlg_cur` `proe_win` 9 631 290 0 1538 1482 618 1920 1080 8203095
+~ Move `main_dlg_cur` `proe_win` 9 628 287 0 1538 1482 618 1920 1080 8203108
+~ Move `main_dlg_cur` `proe_win` 9 626 285 0 1538 1482 618 1920 1080 8203121
+~ Move `main_dlg_cur` `proe_win` 9 623 282 0 1538 1482 618 1920 1080 8203151
+~ Move `main_dlg_cur` `proe_win` 9 621 278 0 1538 1482 618 1920 1080 8203165
+~ Move `main_dlg_cur` `proe_win` 9 619 276 0 1538 1482 618 1920 1080 8203191
+~ Move `main_dlg_cur` `proe_win` 9 619 275 0 1026 1482 618 1920 1080 8203204
+~ Move `main_dlg_cur` `proe_win` 9 618 273 0 1538 1482 618 1920 1080 8203219
+~ Move `main_dlg_cur` `proe_win` 9 617 270 0 1538 1482 618 1920 1080 8203234
+~ Move `main_dlg_cur` `proe_win` 9 616 268 0 1538 1482 618 1920 1080 8203252
+~ Move `main_dlg_cur` `proe_win` 9 615 265 0 1538 1482 618 1920 1080 8203267
+~ Move `main_dlg_cur` `proe_win` 9 615 262 0 1026 1482 618 1920 1080 8203282
+~ Move `main_dlg_cur` `proe_win` 9 615 261 0 1026 1482 618 1920 1080 8203293
+~ Move `main_dlg_cur` `proe_win` 9 614 257 0 1538 1482 618 1920 1080 8203321
+~ Move `main_dlg_cur` `proe_win` 9 614 256 0 1026 1482 618 1920 1080 8203331
+~ Move `main_dlg_cur` `proe_win` 9 614 253 0 1026 1482 618 1920 1080 8203361
+~ Move `main_dlg_cur` `proe_win` 9 614 251 0 1026 1482 618 1920 1080 8203372
+~ Move `main_dlg_cur` `proe_win` 9 614 250 0 1026 1482 618 1920 1080 8203382
+~ Move `main_dlg_cur` `proe_win` 9 614 248 0 1026 1482 618 1920 1080 8203431
+~ Move `main_dlg_cur` `proe_win` 9 614 246 0 1026 1482 618 1920 1080 8203441
+~ Move `main_dlg_cur` `proe_win` 9 614 245 0 1026 1482 618 1920 1080 8203451
+~ Move `main_dlg_cur` `proe_win` 9 614 243 0 1026 1482 618 1920 1080 8203461
+~ Move `main_dlg_cur` `proe_win` 9 614 239 0 1026 1482 618 1920 1080 8203471
+~ Move `main_dlg_cur` `proe_win` 9 614 236 0 1026 1482 618 1920 1080 8203482
+~ Move `main_dlg_cur` `proe_win` 9 614 234 0 1026 1482 618 1920 1080 8203492
+~ Move `main_dlg_cur` `proe_win` 9 614 233 0 1026 1482 618 1920 1080 8203501
+~ Move `main_dlg_cur` `proe_win` 9 614 232 0 1026 1482 618 1920 1080 8203521
+~ Move `main_dlg_cur` `proe_win` 9 614 231 0 1026 1482 618 1920 1080 8203532
+~ Move `main_dlg_cur` `proe_win` 9 614 230 0 1026 1482 618 1920 1080 8203551
+~ Move `main_dlg_cur` `proe_win` 9 618 230 0 514 1482 618 1920 1080 8203661
+~ Move `main_dlg_cur` `proe_win` 9 621 230 0 514 1482 618 1920 1080 8203681
+~ Move `main_dlg_cur` `proe_win` 9 623 230 0 514 1482 618 1920 1080 8203695
+~ Move `main_dlg_cur` `proe_win` 9 625 230 0 514 1482 618 1920 1080 8203706
+~ Move `main_dlg_cur` `proe_win` 9 627 231 0 1538 1482 618 1920 1080 8203719
+~ Move `main_dlg_cur` `proe_win` 9 631 233 0 1538 1482 618 1920 1080 8203733
+~ Move `main_dlg_cur` `proe_win` 9 633 234 0 1538 1482 618 1920 1080 8203744
+~ Move `main_dlg_cur` `proe_win` 9 635 235 0 1538 1482 618 1920 1080 8203757
+~ Move `main_dlg_cur` `proe_win` 9 637 237 0 1538 1482 618 1920 1080 8203770
+~ Move `main_dlg_cur` `proe_win` 9 643 243 0 1538 1482 618 1920 1080 8203784
+~ Move `main_dlg_cur` `proe_win` 9 645 246 0 1538 1482 618 1920 1080 8203801
+~ Move `main_dlg_cur` `proe_win` 9 651 254 0 1538 1482 618 1920 1080 8203814
+~ Move `main_dlg_cur` `proe_win` 9 652 257 0 1538 1482 618 1920 1080 8203825
+~ Move `main_dlg_cur` `proe_win` 9 653 257 0 514 1482 618 1920 1080 8203838
+~ Move `main_dlg_cur` `proe_win` 9 654 258 0 1538 1482 618 1920 1080 8203851
+~ Move `main_dlg_cur` `proe_win` 9 656 261 0 1538 1482 618 1920 1080 8203864
+~ Move `main_dlg_cur` `proe_win` 9 656 262 0 1026 1482 618 1920 1080 8203891
+~ Move `main_dlg_cur` `proe_win` 9 659 265 0 1538 1482 618 1920 1080 8203904
+~ Move `main_dlg_cur` `proe_win` 9 659 266 0 1026 1482 618 1920 1080 8203918
+~ Move `main_dlg_cur` `proe_win` 9 660 268 0 1538 1482 618 1920 1080 8203930
+~ Move `main_dlg_cur` `proe_win` 9 661 270 0 1538 1482 618 1920 1080 8203942
+~ Move `main_dlg_cur` `proe_win` 9 661 271 0 1026 1482 618 1920 1080 8203956
+~ Move `main_dlg_cur` `proe_win` 9 663 273 0 1538 1482 618 1920 1080 8203982
+~ Move `main_dlg_cur` `proe_win` 9 666 276 0 1538 1482 618 1920 1080 8203994
+~ Move `main_dlg_cur` `proe_win` 9 667 279 0 1538 1482 618 1920 1080 8204005
+~ Move `main_dlg_cur` `proe_win` 9 669 282 0 1538 1482 618 1920 1080 8204019
+~ Move `main_dlg_cur` `proe_win` 9 672 289 0 1538 1482 618 1920 1080 8204031
+~ Move `main_dlg_cur` `proe_win` 9 673 293 0 1538 1482 618 1920 1080 8204043
+~ Move `main_dlg_cur` `proe_win` 9 676 298 0 1538 1482 618 1920 1080 8204056
+~ Move `main_dlg_cur` `proe_win` 9 677 301 0 1538 1482 618 1920 1080 8204069
+~ Move `main_dlg_cur` `proe_win` 9 678 308 0 1538 1482 618 1920 1080 8204086
+~ Move `main_dlg_cur` `proe_win` 9 679 310 0 1538 1482 618 1920 1080 8204101
+~ Move `main_dlg_cur` `proe_win` 9 680 312 0 1538 1482 618 1920 1080 8204113
+~ Move `main_dlg_cur` `proe_win` 9 680 314 0 1026 1482 618 1920 1080 8204126
+~ Move `main_dlg_cur` `proe_win` 9 681 316 0 1538 1482 618 1920 1080 8204140
+~ Move `main_dlg_cur` `proe_win` 9 682 318 0 1538 1482 618 1920 1080 8204153
+~ Move `main_dlg_cur` `proe_win` 9 682 320 0 1026 1482 618 1920 1080 8204165
+~ Move `main_dlg_cur` `proe_win` 9 683 320 0 514 1482 618 1920 1080 8204176
+~ Move `main_dlg_cur` `proe_win` 9 684 322 0 1538 1482 618 1920 1080 8204189
+~ Move `main_dlg_cur` `proe_win` 9 684 324 0 1026 1482 618 1920 1080 8204202
+~ Move `main_dlg_cur` `proe_win` 9 685 325 0 1538 1482 618 1920 1080 8204215
+~ Move `main_dlg_cur` `proe_win` 9 685 327 0 1026 1482 618 1920 1080 8204226
+~ Move `main_dlg_cur` `proe_win` 9 685 331 0 1026 1482 618 1920 1080 8204244
+~ Move `main_dlg_cur` `proe_win` 9 685 332 0 1026 1482 618 1920 1080 8204255
+~ Move `main_dlg_cur` `proe_win` 9 685 333 0 1026 1482 618 1920 1080 8204269
+~ Move `main_dlg_cur` `proe_win` 9 685 336 0 1026 1482 618 1920 1080 8204282
+~ Move `main_dlg_cur` `proe_win` 9 686 338 0 1538 1482 618 1920 1080 8204295
+~ Move `main_dlg_cur` `proe_win` 9 686 339 0 1026 1482 618 1920 1080 8204309
+~ Move `main_dlg_cur` `proe_win` 9 686 340 0 1026 1482 618 1920 1080 8204321
+~ Move `main_dlg_cur` `proe_win` 9 687 342 0 1538 1482 618 1920 1080 8204335
+~ Move `main_dlg_cur` `proe_win` 9 687 343 0 1026 1482 618 1920 1080 8204348
+~ Move `main_dlg_cur` `proe_win` 9 688 345 0 1538 1482 618 1920 1080 8204362
+~ Move `main_dlg_cur` `proe_win` 9 688 347 0 1026 1482 618 1920 1080 8204374
+~ Move `main_dlg_cur` `proe_win` 9 688 348 0 1026 1482 618 1920 1080 8204389
+~ Move `main_dlg_cur` `proe_win` 9 689 352 0 1538 1482 618 1920 1080 8204402
+~ Move `main_dlg_cur` `proe_win` 9 690 354 0 1538 1482 618 1920 1080 8204415
+~ Move `main_dlg_cur` `proe_win` 9 690 356 0 1026 1482 618 1920 1080 8204427
+~ Move `main_dlg_cur` `proe_win` 9 690 357 0 1026 1482 618 1920 1080 8204440
+~ Move `main_dlg_cur` `proe_win` 9 691 361 0 1538 1482 618 1920 1080 8204454
+~ Move `main_dlg_cur` `proe_win` 9 691 363 0 1026 1482 618 1920 1080 8204466
+~ Move `main_dlg_cur` `proe_win` 9 692 365 0 1538 1482 618 1920 1080 8204478
+~ Move `main_dlg_cur` `proe_win` 9 692 368 0 1026 1482 618 1920 1080 8204492
+~ Move `main_dlg_cur` `proe_win` 9 695 379 0 1538 1482 618 1920 1080 8204504
+~ Move `main_dlg_cur` `proe_win` 9 696 381 0 1538 1482 618 1920 1080 8204518
+~ Move `main_dlg_cur` `proe_win` 9 697 387 0 1538 1482 618 1920 1080 8204531
+~ Move `main_dlg_cur` `proe_win` 9 699 393 0 1538 1482 618 1920 1080 8204543
+~ Move `main_dlg_cur` `proe_win` 9 700 396 0 1538 1482 618 1920 1080 8204555
+~ Move `main_dlg_cur` `proe_win` 9 700 399 0 1026 1482 618 1920 1080 8204568
+~ Move `main_dlg_cur` `proe_win` 9 700 400 0 1026 1482 618 1920 1080 8204581
+~ Move `main_dlg_cur` `proe_win` 9 701 403 0 1538 1482 618 1920 1080 8204593
+~ Move `main_dlg_cur` `proe_win` 9 702 405 0 1538 1482 618 1920 1080 8204605
+~ Move `main_dlg_cur` `proe_win` 9 703 407 0 1538 1482 618 1920 1080 8204618
+~ Move `main_dlg_cur` `proe_win` 9 705 410 0 1538 1482 618 1920 1080 8204632
+~ Move `main_dlg_cur` `proe_win` 9 706 410 0 514 1482 618 1920 1080 8204643
+~ Move `main_dlg_cur` `proe_win` 9 706 412 0 1026 1482 618 1920 1080 8204656
+~ Move `main_dlg_cur` `proe_win` 9 706 414 0 1026 1482 618 1920 1080 8204669
+~ Move `main_dlg_cur` `proe_win` 9 707 417 0 1538 1482 618 1920 1080 8204682
+~ Move `main_dlg_cur` `proe_win` 9 708 418 0 1538 1482 618 1920 1080 8204694
+~ Move `main_dlg_cur` `proe_win` 9 708 419 0 1026 1482 618 1920 1080 8204707
+~ Move `main_dlg_cur` `proe_win` 9 709 421 0 1538 1482 618 1920 1080 8204720
+~ Move `main_dlg_cur` `proe_win` 9 710 423 0 1538 1482 618 1920 1080 8204734
+~ Move `main_dlg_cur` `proe_win` 9 711 424 0 1538 1482 618 1920 1080 8204746
+~ Move `main_dlg_cur` `proe_win` 9 713 426 0 1538 1482 618 1920 1080 8204758
+~ Move `main_dlg_cur` `proe_win` 9 714 429 0 1538 1482 618 1920 1080 8204771
+~ Move `main_dlg_cur` `proe_win` 9 716 433 0 1538 1482 618 1920 1080 8204785
+~ Move `main_dlg_cur` `proe_win` 9 719 437 0 1538 1482 618 1920 1080 8204798
+~ Move `main_dlg_cur` `proe_win` 9 720 440 0 1538 1482 618 1920 1080 8204811
+~ Move `main_dlg_cur` `proe_win` 9 723 446 0 1538 1482 618 1920 1080 8204823
+~ Move `main_dlg_cur` `proe_win` 9 725 449 0 1538 1482 618 1920 1080 8204837
+~ Move `main_dlg_cur` `proe_win` 9 726 452 0 1538 1482 618 1920 1080 8204849
+~ Move `main_dlg_cur` `proe_win` 9 730 456 0 1538 1482 618 1920 1080 8204862
+~ Move `main_dlg_cur` `proe_win` 9 731 458 0 1538 1482 618 1920 1080 8204876
+~ Move `main_dlg_cur` `proe_win` 9 733 462 0 1538 1482 618 1920 1080 8204889
+~ Move `main_dlg_cur` `proe_win` 9 738 468 0 1538 1482 618 1920 1080 8204902
+~ Move `main_dlg_cur` `proe_win` 9 740 470 0 1538 1482 618 1920 1080 8204915
+~ Move `main_dlg_cur` `proe_win` 9 742 473 0 1538 1482 618 1920 1080 8204926
+~ Move `main_dlg_cur` `proe_win` 9 744 475 0 1538 1482 618 1920 1080 8204939
+~ Move `main_dlg_cur` `proe_win` 9 748 480 0 1538 1482 618 1920 1080 8204953
+~ Move `main_dlg_cur` `proe_win` 9 750 482 0 1538 1482 618 1920 1080 8204966
+~ Move `main_dlg_cur` `proe_win` 9 751 484 0 1538 1482 618 1920 1080 8204978
+~ Move `main_dlg_cur` `proe_win` 9 754 488 0 1538 1482 618 1920 1080 8204992
+~ Move `main_dlg_cur` `proe_win` 9 756 491 0 1538 1482 618 1920 1080 8205005
+~ Move `main_dlg_cur` `proe_win` 9 758 493 0 1538 1482 618 1920 1080 8205019
+~ Move `main_dlg_cur` `proe_win` 9 760 496 0 1538 1482 618 1920 1080 8205030
+~ Move `main_dlg_cur` `proe_win` 9 765 503 0 1538 1482 618 1920 1080 8205042
+~ Move `main_dlg_cur` `proe_win` 9 766 506 0 1538 1482 618 1920 1080 8205053
+~ Move `main_dlg_cur` `proe_win` 9 768 508 0 1538 1482 618 1920 1080 8205065
+~ Move `main_dlg_cur` `proe_win` 9 770 512 0 1538 1482 618 1920 1080 8205075
+~ Move `main_dlg_cur` `proe_win` 9 773 515 0 1538 1482 618 1920 1080 8205088
+~ Move `main_dlg_cur` `proe_win` 9 775 517 0 1538 1482 618 1920 1080 8205099
+~ Move `main_dlg_cur` `proe_win` 9 778 523 0 1538 1482 618 1920 1080 8205111
+~ Move `main_dlg_cur` `proe_win` 9 780 525 0 1538 1482 618 1920 1080 8205124
+~ Move `main_dlg_cur` `proe_win` 9 781 528 0 1538 1482 618 1920 1080 8205138
+~ Move `main_dlg_cur` `proe_win` 9 784 533 0 1538 1482 618 1920 1080 8205152
+~ Move `main_dlg_cur` `proe_win` 9 785 534 0 1538 1482 618 1920 1080 8205165
+~ Move `main_dlg_cur` `proe_win` 9 786 537 0 1538 1482 618 1920 1080 8205175
+~ Move `main_dlg_cur` `proe_win` 9 787 539 0 1538 1482 618 1920 1080 8205188
+~ Move `main_dlg_cur` `proe_win` 9 789 541 0 1538 1482 618 1920 1080 8205199
+~ Move `main_dlg_cur` `proe_win` 9 789 543 0 1026 1482 618 1920 1080 8205211
+~ Move `main_dlg_cur` `proe_win` 9 792 546 0 1538 1482 618 1920 1080 8205223
+~ Move `main_dlg_cur` `proe_win` 9 792 547 0 1026 1482 618 1920 1080 8205234
+~ Move `main_dlg_cur` `proe_win` 9 794 547 0 514 1482 618 1920 1080 8205321
+~ Move `main_dlg_cur` `proe_win` 9 794 550 0 1026 1482 618 1920 1080 8205331
+~ Move `main_dlg_cur` `proe_win` 9 795 551 0 1538 1482 618 1920 1080 8205341
+~ Move `main_dlg_cur` `proe_win` 9 795 553 0 1026 1482 618 1920 1080 8205353
+~ Move `main_dlg_cur` `proe_win` 9 796 555 0 1538 1482 618 1920 1080 8205366
+~ Move `main_dlg_cur` `proe_win` 9 797 557 0 1538 1482 618 1920 1080 8205382
+~ Move `main_dlg_cur` `proe_win` 9 798 559 0 1538 1482 618 1920 1080 8205392
+~ Move `main_dlg_cur` `proe_win` 9 799 562 0 1538 1482 618 1920 1080 8205406
+~ Move `main_dlg_cur` `proe_win` 9 800 566 0 1538 1482 618 1920 1080 8205418
+~ Move `main_dlg_cur` `proe_win` 9 800 567 0 1026 1482 618 1920 1080 8205429
+~ Move `main_dlg_cur` `proe_win` 9 802 570 0 1538 1482 618 1920 1080 8205441
+~ Move `main_dlg_cur` `proe_win` 9 804 574 0 1538 1482 618 1920 1080 8205453
+~ Move `main_dlg_cur` `proe_win` 9 804 576 0 1026 1482 618 1920 1080 8205465
+~ Move `main_dlg_cur` `proe_win` 9 805 576 0 514 1482 618 1920 1080 8205475
+~ Move `main_dlg_cur` `proe_win` 9 805 577 0 1026 1482 618 1920 1080 8205487
+~ Move `main_dlg_cur` `proe_win` 9 806 579 0 1538 1482 618 1920 1080 8205498
+~ Move `main_dlg_cur` `proe_win` 9 807 580 0 1538 1482 618 1920 1080 8205508
+~ Move `main_dlg_cur` `proe_win` 9 808 581 0 1538 1482 618 1920 1080 8205516
+~ Move `main_dlg_cur` `proe_win` 9 808 583 0 1026 1482 618 1920 1080 8205523
+~ Move `main_dlg_cur` `proe_win` 9 809 585 0 1538 1482 618 1920 1080 8205541
+~ Move `main_dlg_cur` `proe_win` 9 810 586 0 1538 1482 618 1920 1080 8205551
+~ Move `main_dlg_cur` `proe_win` 9 811 586 0 514 1482 618 1920 1080 8205560
+~ Move `main_dlg_cur` `proe_win` 9 811 587 0 1026 1482 618 1920 1080 8205581
+~ Move `main_dlg_cur` `proe_win` 9 811 588 0 1026 1482 618 1920 1080 8205591
+~ Move `main_dlg_cur` `proe_win` 9 812 590 0 1538 1482 618 1920 1080 8205602
+~ Move `main_dlg_cur` `proe_win` 9 812 592 0 1026 1482 618 1920 1080 8205614
+~ Move `main_dlg_cur` `proe_win` 9 813 593 0 1538 1482 618 1920 1080 8205631
+~ Move `main_dlg_cur` `proe_win` 9 814 595 0 1538 1482 618 1920 1080 8205641
+~ Move `main_dlg_cur` `proe_win` 9 815 596 0 1538 1482 618 1920 1080 8205654
+~ Move `main_dlg_cur` `proe_win` 9 816 597 0 1538 1482 618 1920 1080 8205664
+~ Move `main_dlg_cur` `proe_win` 9 816 598 0 1026 1482 618 1920 1080 8205674
+~ Move `main_dlg_cur` `proe_win` 9 817 599 0 1538 1482 618 1920 1080 8205686
+~ Move `main_dlg_cur` `proe_win` 9 818 600 0 1538 1482 618 1920 1080 8205698
+~ Move `main_dlg_cur` `proe_win` 9 818 601 0 1026 1482 618 1920 1080 8205708
+~ Move `main_dlg_cur` `proe_win` 9 821 601 0 514 1482 618 1920 1080 8205772
+~ Move `main_dlg_cur` `proe_win` 9 823 601 0 514 1482 618 1920 1080 8205782
+~ Move `main_dlg_cur` `proe_win` 9 829 600 0 1538 1482 618 1920 1080 8205793
+~ Move `main_dlg_cur` `proe_win` 9 832 600 0 514 1482 618 1920 1080 8205803
+~ Move `main_dlg_cur` `proe_win` 9 837 597 0 1538 1482 618 1920 1080 8205814
+~ Move `main_dlg_cur` `proe_win` 9 840 596 0 1538 1482 618 1920 1080 8205825
+~ Move `main_dlg_cur` `proe_win` 9 843 594 0 1538 1482 618 1920 1080 8205837
+~ Move `main_dlg_cur` `proe_win` 9 847 594 0 514 1482 618 1920 1080 8205844
+~ Move `main_dlg_cur` `proe_win` 9 848 593 0 1538 1482 618 1920 1080 8205852
+~ Move `main_dlg_cur` `proe_win` 9 848 592 0 1026 1482 618 1920 1080 8205860
+~ Move `main_dlg_cur` `proe_win` 9 849 590 0 1538 1482 618 1920 1080 8205871
+~ Move `main_dlg_cur` `proe_win` 9 849 589 0 1026 1482 618 1920 1080 8205882
+~ Move `main_dlg_cur` `proe_win` 9 851 587 0 1538 1482 618 1920 1080 8205891
+~ Move `main_dlg_cur` `proe_win` 9 853 585 0 1538 1482 618 1920 1080 8205901
+~ Move `main_dlg_cur` `proe_win` 9 855 583 0 1538 1482 618 1920 1080 8205911
+~ Move `main_dlg_cur` `proe_win` 9 857 581 0 1538 1482 618 1920 1080 8205921
+~ Move `main_dlg_cur` `proe_win` 9 858 580 0 1538 1482 618 1920 1080 8205930
+~ Move `main_dlg_cur` `proe_win` 9 859 577 0 1538 1482 618 1920 1080 8205940
+~ Move `main_dlg_cur` `proe_win` 9 862 576 0 1538 1482 618 1920 1080 8205950
+~ Move `main_dlg_cur` `proe_win` 9 865 573 0 1538 1482 618 1920 1080 8205961
+~ Move `main_dlg_cur` `proe_win` 9 866 572 0 1538 1482 618 1920 1080 8205970
+~ Move `main_dlg_cur` `proe_win` 9 869 569 0 1538 1482 618 1920 1080 8205980
+~ Move `main_dlg_cur` `proe_win` 9 871 567 0 1538 1482 618 1920 1080 8205991
+~ Move `main_dlg_cur` `proe_win` 9 873 565 0 1538 1482 618 1920 1080 8206000
+~ Move `main_dlg_cur` `proe_win` 9 874 563 0 1538 1482 618 1920 1080 8206011
+~ Move `main_dlg_cur` `proe_win` 9 874 561 0 1026 1482 618 1920 1080 8206021
+~ Move `main_dlg_cur` `proe_win` 9 876 559 0 1538 1482 618 1920 1080 8206031
+~ Move `main_dlg_cur` `proe_win` 9 877 558 0 1538 1482 618 1920 1080 8206041
+~ Move `main_dlg_cur` `proe_win` 9 878 557 0 1538 1482 618 1920 1080 8206052
+~ Move `main_dlg_cur` `proe_win` 9 879 555 0 1538 1482 618 1920 1080 8206062
+~ Move `main_dlg_cur` `proe_win` 9 879 554 0 1026 1482 618 1920 1080 8206072
+~ Move `main_dlg_cur` `proe_win` 9 880 553 0 1538 1482 618 1920 1080 8206082
+~ Move `main_dlg_cur` `proe_win` 9 880 552 0 1026 1482 618 1920 1080 8206091
+~ Move `main_dlg_cur` `proe_win` 9 881 552 0 514 1482 618 1920 1080 8206102
+~ Move `main_dlg_cur` `proe_win` 9 881 551 0 1026 1482 618 1920 1080 8206114
+~ Move `main_dlg_cur` `proe_win` 9 882 549 0 1538 1482 618 1920 1080 8206124
+~ Move `main_dlg_cur` `proe_win` 9 883 547 0 1538 1482 618 1920 1080 8206135
+~ Move `main_dlg_cur` `proe_win` 9 884 545 0 1538 1482 618 1920 1080 8206145
+~ Move `main_dlg_cur` `proe_win` 9 885 544 0 1538 1482 618 1920 1080 8206157
+~ Move `main_dlg_cur` `proe_win` 9 886 543 0 1538 1482 618 1920 1080 8206169
+~ Move `main_dlg_cur` `proe_win` 9 886 542 0 1026 1482 618 1920 1080 8206179
+~ Move `main_dlg_cur` `proe_win` 9 888 540 0 1538 1482 618 1920 1080 8206191
+~ Move `main_dlg_cur` `proe_win` 9 889 539 0 1538 1482 618 1920 1080 8206211
+~ Move `main_dlg_cur` `proe_win` 9 889 538 0 1026 1482 618 1920 1080 8206221
+~ Move `main_dlg_cur` `proe_win` 9 890 536 0 1538 1482 618 1920 1080 8206233
+~ Move `main_dlg_cur` `proe_win` 9 891 534 0 1538 1482 618 1920 1080 8206243
+~ Move `main_dlg_cur` `proe_win` 9 891 533 0 1026 1482 618 1920 1080 8206254
+~ Move `main_dlg_cur` `proe_win` 9 893 531 0 1538 1482 618 1920 1080 8206266
+~ Move `main_dlg_cur` `proe_win` 9 894 529 0 1538 1482 618 1920 1080 8206276
+~ Move `main_dlg_cur` `proe_win` 9 895 527 0 1538 1482 618 1920 1080 8206286
+~ Move `main_dlg_cur` `proe_win` 9 895 526 0 1026 1482 618 1920 1080 8206297
+~ Move `main_dlg_cur` `proe_win` 9 896 524 0 1538 1482 618 1920 1080 8206307
+~ Move `main_dlg_cur` `proe_win` 9 897 523 0 1538 1482 618 1920 1080 8206318
+~ Move `main_dlg_cur` `proe_win` 9 898 521 0 1538 1482 618 1920 1080 8206332
+~ Move `main_dlg_cur` `proe_win` 9 899 519 0 1538 1482 618 1920 1080 8206342
+~ Move `main_dlg_cur` `proe_win` 9 900 518 0 1538 1482 618 1920 1080 8206352
+~ Move `main_dlg_cur` `proe_win` 9 901 516 0 1538 1482 618 1920 1080 8206363
+~ Move `main_dlg_cur` `proe_win` 9 901 514 0 1026 1482 618 1920 1080 8206373
+~ Move `main_dlg_cur` `proe_win` 9 903 511 0 1538 1482 618 1920 1080 8206383
+~ Move `main_dlg_cur` `proe_win` 9 904 510 0 1538 1482 618 1920 1080 8206393
+~ Move `main_dlg_cur` `proe_win` 9 905 508 0 1538 1482 618 1920 1080 8206404
+~ Move `main_dlg_cur` `proe_win` 9 905 507 0 1026 1482 618 1920 1080 8206413
+~ Move `main_dlg_cur` `proe_win` 9 906 507 0 514 1482 618 1920 1080 8206422
+~ Move `main_dlg_cur` `proe_win` 9 906 506 0 1026 1482 618 1920 1080 8206431
+~ Move `main_dlg_cur` `proe_win` 9 906 503 0 1026 1482 618 1920 1080 8206461
+~ Move `main_dlg_cur` `proe_win` 9 907 502 0 1538 1482 618 1920 1080 8206471
+~ Move `main_dlg_cur` `proe_win` 9 908 501 0 1538 1482 618 1920 1080 8206483
+~ Move `main_dlg_cur` `proe_win` 9 908 499 0 1026 1482 618 1920 1080 8206493
+~ Move `main_dlg_cur` `proe_win` 9 910 498 0 1538 1482 618 1920 1080 8206504
+~ Move `main_dlg_cur` `proe_win` 9 911 497 0 1538 1482 618 1920 1080 8206517
+~ Move `main_dlg_cur` `proe_win` 9 911 495 0 1026 1482 618 1920 1080 8206530
+~ Move `main_dlg_cur` `proe_win` 9 912 493 0 1538 1482 618 1920 1080 8206543
+~ Move `main_dlg_cur` `proe_win` 9 912 492 0 1026 1482 618 1920 1080 8206571
+~ Move `main_dlg_cur` `proe_win` 9 913 491 0 1538 1482 618 1920 1080 8206583
+~ Move `main_dlg_cur` `proe_win` 9 914 490 0 1538 1482 618 1920 1080 8206595
+~ Move `main_dlg_cur` `proe_win` 9 915 486 0 1538 1482 618 1920 1080 8206608
+~ Move `main_dlg_cur` `proe_win` 9 918 482 0 1538 1482 618 1920 1080 8206621
+~ Move `main_dlg_cur` `proe_win` 9 920 479 0 1538 1482 618 1920 1080 8206634
+~ Move `main_dlg_cur` `proe_win` 9 921 476 0 1538 1482 618 1920 1080 8206648
+~ Move `main_dlg_cur` `proe_win` 9 923 472 0 1538 1482 618 1920 1080 8206659
+~ Move `main_dlg_cur` `proe_win` 9 926 466 0 1538 1482 618 1920 1080 8206673
+~ Move `main_dlg_cur` `proe_win` 9 927 463 0 1538 1482 618 1920 1080 8206687
+~ Move `main_dlg_cur` `proe_win` 9 930 459 0 1538 1482 618 1920 1080 8206700
+~ Move `main_dlg_cur` `proe_win` 9 932 455 0 1538 1482 618 1920 1080 8206713
+~ Move `main_dlg_cur` `proe_win` 9 933 453 0 1538 1482 618 1920 1080 8206725
+~ Move `main_dlg_cur` `proe_win` 9 934 451 0 1538 1482 618 1920 1080 8206738
+~ Move `main_dlg_cur` `proe_win` 9 935 448 0 1538 1482 618 1920 1080 8206751
+~ Move `main_dlg_cur` `proe_win` 9 936 444 0 1538 1482 618 1920 1080 8206765
+~ Move `main_dlg_cur` `proe_win` 9 937 442 0 1538 1482 618 1920 1080 8206777
+~ Move `main_dlg_cur` `proe_win` 9 938 440 0 1538 1482 618 1920 1080 8206789
+~ Move `main_dlg_cur` `proe_win` 9 939 436 0 1538 1482 618 1920 1080 8206801
+~ Move `main_dlg_cur` `proe_win` 9 940 435 0 1538 1482 618 1920 1080 8206815
+~ Move `main_dlg_cur` `proe_win` 9 941 433 0 1538 1482 618 1920 1080 8206827
+~ Move `main_dlg_cur` `proe_win` 9 942 431 0 1538 1482 618 1920 1080 8206840
+~ Move `main_dlg_cur` `proe_win` 9 943 427 0 1538 1482 618 1920 1080 8206853
+~ Move `main_dlg_cur` `proe_win` 9 944 425 0 1538 1482 618 1920 1080 8206863
+~ Move `main_dlg_cur` `proe_win` 9 946 421 0 1538 1482 618 1920 1080 8206871
+~ Move `main_dlg_cur` `proe_win` 9 947 419 0 1538 1482 618 1920 1080 8206881
+~ Move `main_dlg_cur` `proe_win` 9 949 416 0 1538 1482 618 1920 1080 8206891
+~ Move `main_dlg_cur` `proe_win` 9 950 414 0 1538 1482 618 1920 1080 8206901
+~ Move `main_dlg_cur` `proe_win` 9 953 411 0 1538 1482 618 1920 1080 8206910
+~ Move `main_dlg_cur` `proe_win` 9 954 409 0 1538 1482 618 1920 1080 8206931
+~ Move `main_dlg_cur` `proe_win` 9 954 408 0 1026 1482 618 1920 1080 8206942
+~ Move `main_dlg_cur` `proe_win` 9 954 406 0 1026 1482 618 1920 1080 8206950
+~ Move `main_dlg_cur` `proe_win` 9 955 404 0 1538 1482 618 1920 1080 8206961
+~ Move `main_dlg_cur` `proe_win` 9 956 403 0 1538 1482 618 1920 1080 8206971
+~ Move `main_dlg_cur` `proe_win` 9 958 401 0 1538 1482 618 1920 1080 8206981
+~ Move `main_dlg_cur` `proe_win` 9 958 400 0 1026 1482 618 1920 1080 8206991
+~ Move `main_dlg_cur` `proe_win` 9 960 397 0 1538 1482 618 1920 1080 8207003
+~ Move `main_dlg_cur` `proe_win` 9 962 394 0 1538 1482 618 1920 1080 8207011
+~ Move `main_dlg_cur` `proe_win` 9 965 392 0 1538 1482 618 1920 1080 8207021
+~ Move `main_dlg_cur` `proe_win` 9 966 388 0 1538 1482 618 1920 1080 8207031
+~ Move `main_dlg_cur` `proe_win` 9 968 385 0 1538 1482 618 1920 1080 8207041
+~ Move `main_dlg_cur` `proe_win` 9 969 382 0 1538 1482 618 1920 1080 8207050
+~ Move `main_dlg_cur` `proe_win` 9 970 381 0 1538 1482 618 1920 1080 8207061
+~ Move `main_dlg_cur` `proe_win` 9 972 378 0 1538 1482 618 1920 1080 8207071
+~ Move `main_dlg_cur` `proe_win` 9 973 376 0 1538 1482 618 1920 1080 8207081
+~ Move `main_dlg_cur` `proe_win` 9 974 374 0 1538 1482 618 1920 1080 8207090
+~ Move `main_dlg_cur` `proe_win` 9 974 373 0 1026 1482 618 1920 1080 8207111
+~ Move `main_dlg_cur` `proe_win` 9 975 371 0 1538 1482 618 1920 1080 8207121
+~ Move `main_dlg_cur` `proe_win` 9 976 370 0 1538 1482 618 1920 1080 8207130
+~ Move `main_dlg_cur` `proe_win` 9 977 369 0 1538 1482 618 1920 1080 8207141
+~ Move `main_dlg_cur` `proe_win` 9 977 367 0 1026 1482 618 1920 1080 8207163
+~ Move `main_dlg_cur` `proe_win` 9 978 366 0 1538 1482 618 1920 1080 8207175
+~ Move `main_dlg_cur` `proe_win` 9 980 364 0 1538 1482 618 1920 1080 8207188
+~ Move `main_dlg_cur` `proe_win` 9 981 360 0 1538 1482 618 1920 1080 8207202
+~ Move `main_dlg_cur` `proe_win` 9 982 359 0 1538 1482 618 1920 1080 8207215
+~ Move `main_dlg_cur` `proe_win` 9 983 357 0 1538 1482 618 1920 1080 8207227
+~ Move `main_dlg_cur` `proe_win` 9 983 356 0 1026 1482 618 1920 1080 8207239
+~ Move `main_dlg_cur` `proe_win` 9 985 355 0 1538 1482 618 1920 1080 8207253
+~ Move `main_dlg_cur` `proe_win` 9 986 354 0 1538 1482 618 1920 1080 8207281
+~ Move `main_dlg_cur` `proe_win` 9 986 353 0 1026 1482 618 1920 1080 8207292
+~ Move `main_dlg_cur` `proe_win` 9 986 352 0 1026 1482 618 1920 1080 8207304
+~ Move `main_dlg_cur` `proe_win` 9 987 351 0 1538 1482 618 1920 1080 8207318
+~ Move `main_dlg_cur` `proe_win` 9 988 350 0 1538 1482 618 1920 1080 8207331
+~ Move `main_dlg_cur` `proe_win` 9 989 348 0 1538 1482 618 1920 1080 8207344
+~ Move `main_dlg_cur` `proe_win` 9 990 346 0 1538 1482 618 1920 1080 8207401
+~ Move `main_dlg_cur` `proe_win` 9 992 344 0 1538 1482 618 1920 1080 8207412
+~ Move `main_dlg_cur` `proe_win` 9 994 341 0 1538 1482 618 1920 1080 8207424
+~ Move `main_dlg_cur` `proe_win` 9 997 339 0 1538 1482 618 1920 1080 8207436
+~ Move `main_dlg_cur` `proe_win` 9 1000 337 0 1538 1482 618 1920 1080 8207448
+~ Move `main_dlg_cur` `proe_win` 9 1003 335 0 1538 1482 618 1920 1080 8207462
+~ Move `main_dlg_cur` `proe_win` 9 1003 334 0 1026 1482 618 1920 1080 8207474
+~ Move `main_dlg_cur` `proe_win` 9 1004 334 0 514 1482 618 1920 1080 8207486
+~ Move `main_dlg_cur` `proe_win` 9 1004 333 0 1026 1482 618 1920 1080 8207499
+~ Move `main_dlg_cur` `proe_win` 9 1005 333 0 514 1482 618 1920 1080 8207513
+~ Move `main_dlg_cur` `proe_win` 9 1008 333 0 514 1482 618 1920 1080 8207601
+~ Move `main_dlg_cur` `proe_win` 9 1014 333 0 514 1482 618 1920 1080 8207613
+~ Move `main_dlg_cur` `proe_win` 9 1022 333 0 514 1482 618 1920 1080 8207625
+~ Move `main_dlg_cur` `proe_win` 9 1034 333 0 514 1482 618 1920 1080 8207640
+~ Move `main_dlg_cur` `proe_win` 9 1052 333 0 514 1482 618 1920 1080 8207651
+~ Move `main_dlg_cur` `proe_win` 9 1065 332 0 1538 1482 618 1920 1080 8207663
+~ Move `main_dlg_cur` `proe_win` 9 1079 332 0 514 1482 618 1920 1080 8207675
+~ Move `main_dlg_cur` `proe_win` 9 1091 332 0 514 1482 618 1920 1080 8207686
+~ Move `main_dlg_cur` `proe_win` 9 1099 332 0 514 1482 618 1920 1080 8207699
+~ Move `main_dlg_cur` `proe_win` 9 1110 332 0 514 1482 618 1920 1080 8207711
+~ Move `main_dlg_cur` `proe_win` 9 1113 332 0 514 1482 618 1920 1080 8207724
+~ Move `main_dlg_cur` `proe_win` 9 1114 332 0 514 1482 618 1920 1080 8207871
+~ Move `main_dlg_cur` `proe_win` 9 1121 332 0 514 1482 618 1920 1080 8207901
+~ Move `main_dlg_cur` `proe_win` 9 1126 335 0 1538 1482 618 1920 1080 8207914
+~ Move `main_dlg_cur` `proe_win` 9 1131 337 0 1538 1482 618 1920 1080 8207925
+~ Move `main_dlg_cur` `proe_win` 9 1133 338 0 1538 1482 618 1920 1080 8207937
+~ Move `main_dlg_cur` `proe_win` 9 1135 339 0 1538 1482 618 1920 1080 8207951
+~ Move `main_dlg_cur` `proe_win` 9 1140 342 0 1538 1482 618 1920 1080 8207964
+~ Move `main_dlg_cur` `proe_win` 9 1141 342 0 514 1482 618 1920 1080 8207976
+~ Move `main_dlg_cur` `proe_win` 9 1142 343 0 1538 1482 618 1920 1080 8207989
+~ Move `main_dlg_cur` `proe_win` 9 1144 345 0 1538 1482 618 1920 1080 8208002
+~ Move `main_dlg_cur` `proe_win` 9 1145 345 0 514 1482 618 1920 1080 8208015
+~ Move `main_dlg_cur` `proe_win` 9 1147 348 0 1538 1482 618 1920 1080 8208027
+~ Move `main_dlg_cur` `proe_win` 9 1148 349 0 1538 1482 618 1920 1080 8208040
+~ Move `main_dlg_cur` `proe_win` 9 1151 354 0 1538 1482 618 1920 1080 8208052
+~ Move `main_dlg_cur` `proe_win` 9 1152 355 0 1538 1482 618 1920 1080 8208066
+~ Move `main_dlg_cur` `proe_win` 9 1153 357 0 1538 1482 618 1920 1080 8208079
+~ Move `main_dlg_cur` `proe_win` 9 1153 359 0 1026 1482 618 1920 1080 8208092
+~ Move `main_dlg_cur` `proe_win` 9 1153 361 0 1026 1482 618 1920 1080 8208105
+~ Move `main_dlg_cur` `proe_win` 9 1154 363 0 1538 1482 618 1920 1080 8208119
+~ Move `main_dlg_cur` `proe_win` 9 1154 364 0 1026 1482 618 1920 1080 8208133
+~ Move `main_dlg_cur` `proe_win` 9 1154 365 0 1026 1482 618 1920 1080 8208143
+~ Move `main_dlg_cur` `proe_win` 9 1154 367 0 1026 1482 618 1920 1080 8208155
+~ Move `main_dlg_cur` `proe_win` 9 1154 368 0 1026 1482 618 1920 1080 8208168
+~ Move `main_dlg_cur` `proe_win` 9 1154 369 0 1026 1482 618 1920 1080 8208179
+~ Move `main_dlg_cur` `proe_win` 9 1154 370 0 1026 1482 618 1920 1080 8208201
+~ Move `main_dlg_cur` `proe_win` 9 1154 371 0 1026 1482 618 1920 1080 8208216
+~ Move `main_dlg_cur` `proe_win` 9 1154 372 0 1026 1482 618 1920 1080 8208229
+~ Move `main_dlg_cur` `proe_win` 9 1153 374 0 1538 1482 618 1920 1080 8208243
+~ Move `main_dlg_cur` `proe_win` 9 1152 375 0 1538 1482 618 1920 1080 8208254
+~ Move `main_dlg_cur` `proe_win` 9 1151 375 0 514 1482 618 1920 1080 8208268
+~ Move `main_dlg_cur` `proe_win` 9 1150 375 0 514 1482 618 1920 1080 8208284
+~ Move `main_dlg_cur` `proe_win` 9 1147 375 0 514 1482 618 1920 1080 8208382
+~ Move `main_dlg_cur` `proe_win` 9 1146 375 0 514 1482 618 1920 1080 8208393
+~ Move `main_dlg_cur` `proe_win` 9 1145 375 0 514 1482 618 1920 1080 8208404
+~ Move `main_dlg_cur` `proe_win` 9 1143 375 0 514 1482 618 1920 1080 8208417
+~ Move `main_dlg_cur` `proe_win` 9 1142 375 0 514 1482 618 1920 1080 8208430
+~ Move `main_dlg_cur` `proe_win` 9 1136 375 0 514 1482 618 1920 1080 8208446
+~ Move `main_dlg_cur` `proe_win` 9 1134 375 0 514 1482 618 1920 1080 8208460
+~ Move `main_dlg_cur` `proe_win` 9 1132 375 0 514 1482 618 1920 1080 8208473
+~ Move `main_dlg_cur` `proe_win` 9 1130 374 0 1538 1482 618 1920 1080 8208486
+~ Move `main_dlg_cur` `proe_win` 9 1128 373 0 1538 1482 618 1920 1080 8208498
+~ Move `main_dlg_cur` `proe_win` 9 1124 371 0 1538 1482 618 1920 1080 8208509
+~ Move `main_dlg_cur` `proe_win` 9 1118 367 0 1538 1482 618 1920 1080 8208522
+~ Move `main_dlg_cur` `proe_win` 9 1116 365 0 1538 1482 618 1920 1080 8208537
+~ Move `main_dlg_cur` `proe_win` 9 1110 359 0 1538 1482 618 1920 1080 8208551
+~ Move `main_dlg_cur` `proe_win` 9 1110 358 0 1026 1482 618 1920 1080 8208564
+~ Move `main_dlg_cur` `proe_win` 9 1109 357 0 1538 1482 618 1920 1080 8208575
+~ Move `main_dlg_cur` `proe_win` 9 1108 355 0 1538 1482 618 1920 1080 8208588
+~ Move `main_dlg_cur` `proe_win` 9 1106 354 0 1538 1482 618 1920 1080 8208600
+~ Move `main_dlg_cur` `proe_win` 9 1105 351 0 1538 1482 618 1920 1080 8208621
+~ Move `main_dlg_cur` `proe_win` 9 1104 351 0 514 1482 618 1920 1080 8208634
+~ Move `main_dlg_cur` `proe_win` 9 1103 349 0 1538 1482 618 1920 1080 8208647
+~ Move `main_dlg_cur` `proe_win` 9 1102 348 0 1538 1482 618 1920 1080 8208664
+~ Move `main_dlg_cur` `proe_win` 9 1102 347 0 1026 1482 618 1920 1080 8208681
+~ Move `main_dlg_cur` `proe_win` 9 1101 346 0 1538 1482 618 1920 1080 8208771
+~ Move `main_dlg_cur` `proe_win` 9 1100 344 0 1538 1482 618 1920 1080 8208784
+~ Move `main_dlg_cur` `proe_win` 9 1100 343 0 1026 1482 618 1920 1080 8208796
+~ Move `main_dlg_cur` `proe_win` 9 1099 343 0 514 1482 618 1920 1080 8208821
+~ Move `main_dlg_cur` `proe_win` 9 1098 342 0 1538 1482 618 1920 1080 8208832
+~ Move `main_dlg_cur` `proe_win` 9 1098 341 0 1026 1482 618 1920 1080 8208842
+~ Move `main_dlg_cur` `proe_win` 9 1097 341 0 514 1482 618 1920 1080 8209031
+~ Move `main_dlg_cur` `proe_win` 9 1096 341 0 514 1482 618 1920 1080 8209043
+~ Move `main_dlg_cur` `proe_win` 9 1095 342 0 1538 1482 618 1920 1080 8209054
+~ Move `main_dlg_cur` `proe_win` 9 1094 342 0 514 1482 618 1920 1080 8209071
+~ Move `main_dlg_cur` `proe_win` 9 1093 342 0 514 1482 618 1920 1080 8209086
+~ Move `main_dlg_cur` `proe_win` 9 1092 344 0 1538 1482 618 1920 1080 8209097
+~ Move `main_dlg_cur` `proe_win` 9 1091 346 0 1538 1482 618 1920 1080 8209110
+~ Move `main_dlg_cur` `proe_win` 9 1088 351 0 1538 1482 618 1920 1080 8209131
+~ Move `main_dlg_cur` `proe_win` 9 1087 352 0 1538 1482 618 1920 1080 8209143
+~ Move `main_dlg_cur` `proe_win` 9 1087 354 0 1026 1482 618 1920 1080 8209154
+~ Move `main_dlg_cur` `proe_win` 9 1087 355 0 1026 1482 618 1920 1080 8209168
+~ Move `main_dlg_cur` `proe_win` 9 1086 357 0 1538 1482 618 1920 1080 8209180
+~ Move `main_dlg_cur` `proe_win` 9 1086 359 0 1026 1482 618 1920 1080 8209193
+~ Move `main_dlg_cur` `proe_win` 9 1086 360 0 1026 1482 618 1920 1080 8209206
+~ Move `main_dlg_cur` `proe_win` 9 1085 363 0 1538 1482 618 1920 1080 8209219
+~ Move `main_dlg_cur` `proe_win` 9 1085 366 0 1026 1482 618 1920 1080 8209236
+~ Move `main_dlg_cur` `proe_win` 9 1085 368 0 1026 1482 618 1920 1080 8209250
+~ Move `main_dlg_cur` `proe_win` 9 1084 372 0 1538 1482 618 1920 1080 8209264
+~ Move `main_dlg_cur` `proe_win` 9 1083 374 0 1538 1482 618 1920 1080 8209275
+~ Move `main_dlg_cur` `proe_win` 9 1083 375 0 1026 1482 618 1920 1080 8209289
+~ Move `main_dlg_cur` `proe_win` 9 1081 378 0 1538 1482 618 1920 1080 8209301
+~ Move `main_dlg_cur` `proe_win` 9 1080 381 0 1538 1482 618 1920 1080 8209311
+~ Move `main_dlg_cur` `proe_win` 9 1080 382 0 1026 1482 618 1920 1080 8209331
+~ Move `main_dlg_cur` `proe_win` 9 1080 383 0 1026 1482 618 1920 1080 8209341
+~ Move `main_dlg_cur` `proe_win` 9 1080 385 0 1026 1482 618 1920 1080 8209352
+~ Move `main_dlg_cur` `proe_win` 9 1080 387 0 1026 1482 618 1920 1080 8209360
+~ Move `main_dlg_cur` `proe_win` 9 1080 390 0 1026 1482 618 1920 1080 8209370
+~ Move `main_dlg_cur` `proe_win` 9 1080 392 0 1026 1482 618 1920 1080 8209381
+~ Move `main_dlg_cur` `proe_win` 9 1080 393 0 1026 1482 618 1920 1080 8209401
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 1080 393 0 0 1482 618 1920 1080 8209571
+~ Wheel `main_dlg_cur` `proe_win` 9 1080 393 393216 0 1482 618 1920 1080 8209741
+~ Wheel `main_dlg_cur` `proe_win` 9 1080 393 393216 0 1482 618 1920 1080 8209871
+~ Wheel `main_dlg_cur` `proe_win` 9 1080 393 393216 0 1482 618 1920 1080 8209962
+~ MButtonArm `main_dlg_cur` `proe_win` 9 918 287 0 2 1482 618 1920 1080 8210732
+~ Move `main_dlg_cur` `proe_win` 9 915 286 0 1538 1482 618 1920 1080 8210742
+~ Move `main_dlg_cur` `proe_win` 9 915 285 0 1026 1482 618 1920 1080 8210751
+~ Move `main_dlg_cur` `proe_win` 9 914 284 0 1538 1482 618 1920 1080 8210791
+~ Move `main_dlg_cur` `proe_win` 9 913 281 0 1538 1482 618 1920 1080 8210801
+~ Move `main_dlg_cur` `proe_win` 9 912 281 0 514 1482 618 1920 1080 8210818
+~ Move `main_dlg_cur` `proe_win` 9 911 281 0 514 1482 618 1920 1080 8210841
+~ Move `main_dlg_cur` `proe_win` 9 910 275 0 1538 1482 618 1920 1080 8210854
+~ Move `main_dlg_cur` `proe_win` 9 910 273 0 1026 1482 618 1920 1080 8210868
+~ Move `main_dlg_cur` `proe_win` 9 910 271 0 1026 1482 618 1920 1080 8210912
+~ Move `main_dlg_cur` `proe_win` 9 910 269 0 1026 1482 618 1920 1080 8210924
+~ Move `main_dlg_cur` `proe_win` 9 910 267 0 1026 1482 618 1920 1080 8210941
+~ Move `main_dlg_cur` `proe_win` 9 910 258 0 1026 1482 618 1920 1080 8210971
+~ Move `main_dlg_cur` `proe_win` 9 910 253 0 1026 1482 618 1920 1080 8210984
+~ Move `main_dlg_cur` `proe_win` 9 910 252 0 1026 1482 618 1920 1080 8210995
+~ Move `main_dlg_cur` `proe_win` 9 910 249 0 1026 1482 618 1920 1080 8211031
+~ Move `main_dlg_cur` `proe_win` 9 910 247 0 1026 1482 618 1920 1080 8211050
+~ Move `main_dlg_cur` `proe_win` 9 910 244 0 1026 1482 618 1920 1080 8211066
+~ Move `main_dlg_cur` `proe_win` 9 910 242 0 1026 1482 618 1920 1080 8211080
+~ Move `main_dlg_cur` `proe_win` 9 912 231 0 1538 1482 618 1920 1080 8211091
+~ Move `main_dlg_cur` `proe_win` 9 913 228 0 1538 1482 618 1920 1080 8211101
+~ Move `main_dlg_cur` `proe_win` 9 913 220 0 1026 1482 618 1920 1080 8211202
+~ Move `main_dlg_cur` `proe_win` 9 919 207 0 1538 1482 618 1920 1080 8211213
+~ Move `main_dlg_cur` `proe_win` 9 922 204 0 1538 1482 618 1920 1080 8211225
+~ Move `main_dlg_cur` `proe_win` 9 924 199 0 1538 1482 618 1920 1080 8211237
+~ Move `main_dlg_cur` `proe_win` 9 926 194 0 1538 1482 618 1920 1080 8211250
+~ Move `main_dlg_cur` `proe_win` 9 935 180 0 1538 1482 618 1920 1080 8211265
+~ Move `main_dlg_cur` `proe_win` 9 936 178 0 1538 1482 618 1920 1080 8211281
+~ Move `main_dlg_cur` `proe_win` 9 936 176 0 1026 1482 618 1920 1080 8211351
+~ Move `main_dlg_cur` `proe_win` 9 940 166 0 1538 1482 618 1920 1080 8211364
+~ Move `main_dlg_cur` `proe_win` 9 946 155 0 1538 1482 618 1920 1080 8211376
+~ Move `main_dlg_cur` `proe_win` 9 952 148 0 1538 1482 618 1920 1080 8211390
+~ Move `main_dlg_cur` `proe_win` 9 957 136 0 1538 1482 618 1920 1080 8211404
+~ Move `main_dlg_cur` `proe_win` 9 960 133 0 1538 1482 618 1920 1080 8211416
+~ Move `main_dlg_cur` `proe_win` 9 962 128 0 1538 1482 618 1920 1080 8211428
+~ Move `main_dlg_cur` `proe_win` 9 963 127 0 1538 1482 618 1920 1080 8211441
+~ Move `main_dlg_cur` `proe_win` 9 964 125 0 1538 1482 618 1920 1080 8211541
+~ Move `main_dlg_cur` `proe_win` 9 969 120 0 1538 1482 618 1920 1080 8211552
+~ Move `main_dlg_cur` `proe_win` 9 970 118 0 1538 1482 618 1920 1080 8211565
+~ Move `main_dlg_cur` `proe_win` 9 971 116 0 1538 1482 618 1920 1080 8211578
+~ Move `main_dlg_cur` `proe_win` 9 973 111 0 1538 1482 618 1920 1080 8211589
+~ Move `main_dlg_cur` `proe_win` 9 976 108 0 1538 1482 618 1920 1080 8211602
+~ Move `main_dlg_cur` `proe_win` 9 977 107 0 1538 1482 618 1920 1080 8211616
+~ Move `main_dlg_cur` `proe_win` 9 984 106 0 1538 1482 618 1920 1080 8211891
+~ Move `main_dlg_cur` `proe_win` 9 986 106 0 514 1482 618 1920 1080 8211907
+~ Move `main_dlg_cur` `proe_win` 9 987 106 0 514 1482 618 1920 1080 8211920
+~ Move `main_dlg_cur` `proe_win` 9 991 106 0 514 1482 618 1920 1080 8211982
+~ Move `main_dlg_cur` `proe_win` 9 994 107 0 1538 1482 618 1920 1080 8211995
+~ Move `main_dlg_cur` `proe_win` 9 995 107 0 514 1482 618 1920 1080 8212031
+~ Move `main_dlg_cur` `proe_win` 9 997 108 0 1538 1482 618 1920 1080 8212044
+~ Move `main_dlg_cur` `proe_win` 9 999 108 0 514 1482 618 1920 1080 8212056
+~ Move `main_dlg_cur` `proe_win` 9 1001 109 0 1538 1482 618 1920 1080 8212070
+~ Move `main_dlg_cur` `proe_win` 9 1003 110 0 1538 1482 618 1920 1080 8212085
+~ Move `main_dlg_cur` `proe_win` 9 1005 111 0 1538 1482 618 1920 1080 8212101
+~ Move `main_dlg_cur` `proe_win` 9 1008 113 0 1538 1482 618 1920 1080 8212116
+~ Move `main_dlg_cur` `proe_win` 9 1009 113 0 514 1482 618 1920 1080 8212128
+~ Move `main_dlg_cur` `proe_win` 9 1010 114 0 1538 1482 618 1920 1080 8212141
+~ Move `main_dlg_cur` `proe_win` 9 1011 115 0 1538 1482 618 1920 1080 8212241
+~ Move `main_dlg_cur` `proe_win` 9 1012 116 0 1538 1482 618 1920 1080 8212252
+~ Move `main_dlg_cur` `proe_win` 9 1017 118 0 1538 1482 618 1920 1080 8212265
+~ Move `main_dlg_cur` `proe_win` 9 1021 121 0 1538 1482 618 1920 1080 8212277
+~ Move `main_dlg_cur` `proe_win` 9 1024 124 0 1538 1482 618 1920 1080 8212290
+~ Move `main_dlg_cur` `proe_win` 9 1031 127 0 1538 1482 618 1920 1080 8212306
+~ Move `main_dlg_cur` `proe_win` 9 1033 130 0 1538 1482 618 1920 1080 8212322
+~ Move `main_dlg_cur` `proe_win` 9 1034 130 0 514 1482 618 1920 1080 8212339
+~ Move `main_dlg_cur` `proe_win` 9 1035 130 0 514 1482 618 1920 1080 8212354
+~ Move `main_dlg_cur` `proe_win` 9 1038 132 0 1538 1482 618 1920 1080 8212441
+~ Move `main_dlg_cur` `proe_win` 9 1041 136 0 1538 1482 618 1920 1080 8212453
+~ Move `main_dlg_cur` `proe_win` 9 1043 137 0 1538 1482 618 1920 1080 8212465
+~ Move `main_dlg_cur` `proe_win` 9 1043 138 0 1026 1482 618 1920 1080 8212477
+~ Move `main_dlg_cur` `proe_win` 9 1044 139 0 1538 1482 618 1920 1080 8212591
+~ Move `main_dlg_cur` `proe_win` 9 1045 139 0 514 1482 618 1920 1080 8212602
+~ Move `main_dlg_cur` `proe_win` 9 1047 141 0 1538 1482 618 1920 1080 8212617
+~ Move `main_dlg_cur` `proe_win` 9 1048 141 0 514 1482 618 1920 1080 8212631
+~ Move `main_dlg_cur` `proe_win` 9 1048 142 0 1026 1482 618 1920 1080 8212651
+~ Move `main_dlg_cur` `proe_win` 9 1049 144 0 1538 1482 618 1920 1080 8212671
+~ Move `main_dlg_cur` `proe_win` 9 1053 148 0 1538 1482 618 1920 1080 8212721
+~ Move `main_dlg_cur` `proe_win` 9 1054 150 0 1538 1482 618 1920 1080 8212733
+~ Move `main_dlg_cur` `proe_win` 9 1055 152 0 1538 1482 618 1920 1080 8212751
+~ Move `main_dlg_cur` `proe_win` 9 1056 153 0 1538 1482 618 1920 1080 8212765
+~ Move `main_dlg_cur` `proe_win` 9 1057 154 0 1538 1482 618 1920 1080 8212781
+~ Move `main_dlg_cur` `proe_win` 9 1057 156 0 1026 1482 618 1920 1080 8212793
+~ Move `main_dlg_cur` `proe_win` 9 1059 159 0 1538 1482 618 1920 1080 8212881
+~ Move `main_dlg_cur` `proe_win` 9 1059 160 0 1026 1482 618 1920 1080 8212894
+~ Move `main_dlg_cur` `proe_win` 9 1061 163 0 1538 1482 618 1920 1080 8212912
+~ Move `main_dlg_cur` `proe_win` 9 1061 164 0 1026 1482 618 1920 1080 8212926
+~ Move `main_dlg_cur` `proe_win` 9 1061 167 0 1026 1482 618 1920 1080 8213041
+~ Move `main_dlg_cur` `proe_win` 9 1061 168 0 1026 1482 618 1920 1080 8213054
+~ Move `main_dlg_cur` `proe_win` 9 1061 172 0 1026 1482 618 1920 1080 8213071
+~ Move `main_dlg_cur` `proe_win` 9 1061 173 0 1026 1482 618 1920 1080 8213087
+~ Move `main_dlg_cur` `proe_win` 9 1061 174 0 1026 1482 618 1920 1080 8213100
+~ Move `main_dlg_cur` `proe_win` 9 1061 176 0 1026 1482 618 1920 1080 8213141
+~ Move `main_dlg_cur` `proe_win` 9 1061 178 0 1026 1482 618 1920 1080 8213153
+~ Move `main_dlg_cur` `proe_win` 9 1061 179 0 1026 1482 618 1920 1080 8213166
+~ Move `main_dlg_cur` `proe_win` 9 1060 181 0 1538 1482 618 1920 1080 8213191
+~ Move `main_dlg_cur` `proe_win` 9 1056 184 0 1538 1482 618 1920 1080 8213204
+~ Move `main_dlg_cur` `proe_win` 9 1054 185 0 1538 1482 618 1920 1080 8213217
+~ Move `main_dlg_cur` `proe_win` 9 1053 185 0 514 1482 618 1920 1080 8213232
+~ Move `main_dlg_cur` `proe_win` 9 1050 187 0 1538 1482 618 1920 1080 8213245
+~ Move `main_dlg_cur` `proe_win` 9 1047 191 0 1538 1482 618 1920 1080 8213257
+~ Move `main_dlg_cur` `proe_win` 9 1043 193 0 1538 1482 618 1920 1080 8213271
+~ Move `main_dlg_cur` `proe_win` 9 1035 198 0 1538 1482 618 1920 1080 8213286
+~ Move `main_dlg_cur` `proe_win` 9 1032 199 0 1538 1482 618 1920 1080 8213299
+~ Move `main_dlg_cur` `proe_win` 9 1027 201 0 1538 1482 618 1920 1080 8213313
+~ Move `main_dlg_cur` `proe_win` 9 1025 202 0 1538 1482 618 1920 1080 8213325
+~ Move `main_dlg_cur` `proe_win` 9 1024 202 0 514 1482 618 1920 1080 8213491
+~ Move `main_dlg_cur` `proe_win` 9 1023 202 0 514 1482 618 1920 1080 8213503
+~ Move `main_dlg_cur` `proe_win` 9 1022 203 0 1538 1482 618 1920 1080 8213515
+~ Move `main_dlg_cur` `proe_win` 9 1021 203 0 514 1482 618 1920 1080 8213531
+~ Move `main_dlg_cur` `proe_win` 9 1020 203 0 514 1482 618 1920 1080 8213543
+~ Move `main_dlg_cur` `proe_win` 9 1019 203 0 514 1482 618 1920 1080 8213561
+~ Move `main_dlg_cur` `proe_win` 9 1018 203 0 514 1482 618 1920 1080 8213573
+~ Move `main_dlg_cur` `proe_win` 9 1017 203 0 514 1482 618 1920 1080 8213587
+~ Move `main_dlg_cur` `proe_win` 9 1016 203 0 514 1482 618 1920 1080 8213599
+~ Move `main_dlg_cur` `proe_win` 9 1013 203 0 514 1482 618 1920 1080 8213611
+~ Move `main_dlg_cur` `proe_win` 9 1012 202 0 1538 1482 618 1920 1080 8213627
+~ Move `main_dlg_cur` `proe_win` 9 1012 201 0 1026 1482 618 1920 1080 8213641
+~ Move `main_dlg_cur` `proe_win` 9 1009 200 0 1538 1482 618 1920 1080 8213672
+~ Move `main_dlg_cur` `proe_win` 9 1008 199 0 1538 1482 618 1920 1080 8213684
+~ Move `main_dlg_cur` `proe_win` 9 1008 198 0 1026 1482 618 1920 1080 8213695
+~ Move `main_dlg_cur` `proe_win` 9 1007 196 0 1538 1482 618 1920 1080 8213801
+~ Move `main_dlg_cur` `proe_win` 9 1007 195 0 1026 1482 618 1920 1080 8213817
+~ Move `main_dlg_cur` `proe_win` 9 1007 190 0 1026 1482 618 1920 1080 8213836
+~ Move `main_dlg_cur` `proe_win` 9 1007 188 0 1026 1482 618 1920 1080 8213852
+~ Move `main_dlg_cur` `proe_win` 9 1007 185 0 1026 1482 618 1920 1080 8213862
+~ Move `main_dlg_cur` `proe_win` 9 1008 185 0 514 1482 618 1920 1080 8213871
+~ Move `main_dlg_cur` `proe_win` 9 1008 184 0 1026 1482 618 1920 1080 8213881
+~ Move `main_dlg_cur` `proe_win` 9 1008 180 0 1026 1482 618 1920 1080 8213951
+~ Move `main_dlg_cur` `proe_win` 9 1008 178 0 1026 1482 618 1920 1080 8213964
+~ Move `main_dlg_cur` `proe_win` 9 1009 175 0 1538 1482 618 1920 1080 8213975
+~ Move `main_dlg_cur` `proe_win` 9 1010 171 0 1538 1482 618 1920 1080 8213989
+~ Move `main_dlg_cur` `proe_win` 9 1012 167 0 1538 1482 618 1920 1080 8214003
+~ Move `main_dlg_cur` `proe_win` 9 1012 166 0 1026 1482 618 1920 1080 8214016
+~ Move `main_dlg_cur` `proe_win` 9 1012 162 0 1026 1482 618 1920 1080 8214111
+~ Move `main_dlg_cur` `proe_win` 9 1012 161 0 1026 1482 618 1920 1080 8214421
+~ Move `main_dlg_cur` `proe_win` 9 1012 160 0 1026 1482 618 1920 1080 8214452
+~ Move `main_dlg_cur` `proe_win` 9 1012 159 0 1026 1482 618 1920 1080 8214501
+~ Move `main_dlg_cur` `proe_win` 9 1010 157 0 1538 1482 618 1920 1080 8214521
+~ Move `main_dlg_cur` `proe_win` 9 1009 155 0 1538 1482 618 1920 1080 8214535
+~ Move `main_dlg_cur` `proe_win` 9 1008 155 0 514 1482 618 1920 1080 8214549
+~ Move `main_dlg_cur` `proe_win` 9 1007 154 0 1538 1482 618 1920 1080 8214562
+~ Move `main_dlg_cur` `proe_win` 9 1006 154 0 514 1482 618 1920 1080 8214742
+~ Move `main_dlg_cur` `proe_win` 9 1005 152 0 1538 1482 618 1920 1080 8214754
+~ Move `main_dlg_cur` `proe_win` 9 1002 150 0 1538 1482 618 1920 1080 8214766
+~ Move `main_dlg_cur` `proe_win` 9 1001 149 0 1538 1482 618 1920 1080 8214778
+~ Move `main_dlg_cur` `proe_win` 9 1000 148 0 1538 1482 618 1920 1080 8214791
+~ Move `main_dlg_cur` `proe_win` 9 994 145 0 1538 1482 618 1920 1080 8214811
+~ Move `main_dlg_cur` `proe_win` 9 992 143 0 1538 1482 618 1920 1080 8214824
+~ Move `main_dlg_cur` `proe_win` 9 992 142 0 1026 1482 618 1920 1080 8214837
+~ Move `main_dlg_cur` `proe_win` 9 991 142 0 514 1482 618 1920 1080 8215071
+~ Move `main_dlg_cur` `proe_win` 9 990 142 0 514 1482 618 1920 1080 8215086
+~ Move `main_dlg_cur` `proe_win` 9 989 143 0 1538 1482 618 1920 1080 8215101
+~ Move `main_dlg_cur` `proe_win` 9 989 144 0 1026 1482 618 1920 1080 8215114
+~ Move `main_dlg_cur` `proe_win` 9 987 145 0 1538 1482 618 1920 1080 8215127
+~ Move `main_dlg_cur` `proe_win` 9 986 146 0 1538 1482 618 1920 1080 8215151
+~ Move `main_dlg_cur` `proe_win` 9 985 146 0 514 1482 618 1920 1080 8215191
+~ Move `main_dlg_cur` `proe_win` 9 984 148 0 1538 1482 618 1920 1080 8215203
+~ Move `main_dlg_cur` `proe_win` 9 983 150 0 1538 1482 618 1920 1080 8215214
+~ Move `main_dlg_cur` `proe_win` 9 982 151 0 1538 1482 618 1920 1080 8215222
+~ Move `main_dlg_cur` `proe_win` 9 979 153 0 1538 1482 618 1920 1080 8215230
+~ Move `main_dlg_cur` `proe_win` 9 978 155 0 1538 1482 618 1920 1080 8215241
+~ Move `main_dlg_cur` `proe_win` 9 978 156 0 1026 1482 618 1920 1080 8215381
+~ Move `main_dlg_cur` `proe_win` 9 974 160 0 1538 1482 618 1920 1080 8215411
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 974 160 0 0 1482 618 1920 1080 8215711
+~ Wheel `main_dlg_cur` `proe_win` 9 147 250 393216 0 1482 618 1920 1080 8216261
+~ RButtonArm `main_dlg_cur` `3DDtlAssyTree` `node0:Model Datum 2 220 1 2 -1 -1 -1`
+~ PopupOver `main_dlg_cur` `PM_3DDtlAssyTree` 1 `3DDtlAssyTree`
+~ Open `main_dlg_cur` `PM_3DDtlAssyTree`
+~ Close `main_dlg_cur` `PM_3DDtlAssyTree`
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Command `ProCmdAnnotMoveToPlane@PopupMenuTree` 
+!LiveUI: Deactivating PmaToolAnnotDfs
+!%CPSelect a datum plane or flat surface to define the Annotation Plane.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 882 215 0 1 1482 618 1920 1080 8221663
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 882 215 0 0 1482 618 1920 1080 8221750
+@ sel view 0
+ 9.998958 0.791992 8.278428 0.148846 12.927108 -1.416510
+ -8.314894 1.183809 9.929749 619.987495 423.661156 -1588.765987 1.562500 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack idx 0
+@SEL_REC 0 [] 2 80 -1 (-10.0378052641 -8.0765140211) (0.0000000000 8.0765140211 -10.0378052641)
+!Surf:F7(REVOLVE_1)
+!Undo: added rec_id 288 type 10006 
+~ MButtonArm `main_dlg_cur` `proe_win` 9 889 184 0 2 1482 618 1920 1080 8222831
+~ Move `main_dlg_cur` `proe_win` 9 882 190 0 1538 1482 618 1920 1080 8222841
+~ Move `main_dlg_cur` `proe_win` 9 876 194 0 1538 1482 618 1920 1080 8222853
+~ Move `main_dlg_cur` `proe_win` 9 869 201 0 1538 1482 618 1920 1080 8222862
+~ Move `main_dlg_cur` `proe_win` 9 858 211 0 1538 1482 618 1920 1080 8222872
+~ Move `main_dlg_cur` `proe_win` 9 849 217 0 1538 1482 618 1920 1080 8222881
+~ Move `main_dlg_cur` `proe_win` 9 844 221 0 1538 1482 618 1920 1080 8222891
+~ Move `main_dlg_cur` `proe_win` 9 843 222 0 1538 1482 618 1920 1080 8222901
+~ Move `main_dlg_cur` `proe_win` 9 843 223 0 1026 1482 618 1920 1080 8222913
+~ Move `main_dlg_cur` `proe_win` 9 833 230 0 1538 1482 618 1920 1080 8223001
+~ Move `main_dlg_cur` `proe_win` 9 826 237 0 1538 1482 618 1920 1080 8223011
+~ Move `main_dlg_cur` `proe_win` 9 819 240 0 1538 1482 618 1920 1080 8223021
+~ Move `main_dlg_cur` `proe_win` 9 812 244 0 1538 1482 618 1920 1080 8223032
+~ Move `main_dlg_cur` `proe_win` 9 803 252 0 1538 1482 618 1920 1080 8223041
+~ Move `main_dlg_cur` `proe_win` 9 794 255 0 1538 1482 618 1920 1080 8223051
+~ Move `main_dlg_cur` `proe_win` 9 791 257 0 1538 1482 618 1920 1080 8223061
+~ Move `main_dlg_cur` `proe_win` 9 790 257 0 514 1482 618 1920 1080 8223071
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 790 257 0 0 1482 618 1920 1080 8223621
+~ MButtonArm `main_dlg_cur` `proe_win` 9 649 233 0 2 1482 618 1920 1080 8224641
+~ Move `main_dlg_cur` `proe_win` 9 648 232 0 1538 1482 618 1920 1080 8224681
+~ Move `main_dlg_cur` `proe_win` 9 647 231 0 1538 1482 618 1920 1080 8224711
+~ Move `main_dlg_cur` `proe_win` 9 646 231 0 514 1482 618 1920 1080 8224722
+~ Move `main_dlg_cur` `proe_win` 9 645 230 0 1538 1482 618 1920 1080 8224732
+~ Move `main_dlg_cur` `proe_win` 9 644 229 0 1538 1482 618 1920 1080 8224751
+~ Move `main_dlg_cur` `proe_win` 9 643 228 0 1538 1482 618 1920 1080 8224771
+~ Move `main_dlg_cur` `proe_win` 9 643 227 0 1026 1482 618 1920 1080 8224791
+~ Move `main_dlg_cur` `proe_win` 9 643 226 0 1026 1482 618 1920 1080 8224801
+~ Move `main_dlg_cur` `proe_win` 9 642 224 0 1538 1482 618 1920 1080 8224811
+~ Move `main_dlg_cur` `proe_win` 9 642 223 0 1026 1482 618 1920 1080 8224822
+~ Move `main_dlg_cur` `proe_win` 9 642 222 0 1026 1482 618 1920 1080 8224832
+~ Move `main_dlg_cur` `proe_win` 9 642 220 0 1026 1482 618 1920 1080 8224841
+~ Move `main_dlg_cur` `proe_win` 9 642 218 0 1026 1482 618 1920 1080 8224861
+~ Move `main_dlg_cur` `proe_win` 9 642 216 0 1026 1482 618 1920 1080 8224871
+~ Move `main_dlg_cur` `proe_win` 9 642 214 0 1026 1482 618 1920 1080 8224881
+~ Move `main_dlg_cur` `proe_win` 9 644 210 0 1538 1482 618 1920 1080 8224891
+~ Move `main_dlg_cur` `proe_win` 9 645 208 0 1538 1482 618 1920 1080 8224901
+~ Move `main_dlg_cur` `proe_win` 9 648 205 0 1538 1482 618 1920 1080 8224912
+~ Move `main_dlg_cur` `proe_win` 9 652 203 0 1538 1482 618 1920 1080 8224921
+~ Move `main_dlg_cur` `proe_win` 9 654 202 0 1538 1482 618 1920 1080 8224931
+~ Move `main_dlg_cur` `proe_win` 9 655 202 0 514 1482 618 1920 1080 8224941
+~ Move `main_dlg_cur` `proe_win` 9 655 200 0 1026 1482 618 1920 1080 8224952
+~ Move `main_dlg_cur` `proe_win` 9 659 198 0 1538 1482 618 1920 1080 8224963
+~ Move `main_dlg_cur` `proe_win` 9 660 198 0 514 1482 618 1920 1080 8224981
+~ Move `main_dlg_cur` `proe_win` 9 662 197 0 1538 1482 618 1920 1080 8224991
+~ Move `main_dlg_cur` `proe_win` 9 673 194 0 1538 1482 618 1920 1080 8225041
+~ Move `main_dlg_cur` `proe_win` 9 681 189 0 1538 1482 618 1920 1080 8225051
+~ Move `main_dlg_cur` `proe_win` 9 685 188 0 1538 1482 618 1920 1080 8225071
+~ Move `main_dlg_cur` `proe_win` 9 687 188 0 514 1482 618 1920 1080 8225081
+~ Move `main_dlg_cur` `proe_win` 9 690 187 0 1538 1482 618 1920 1080 8225091
+~ Move `main_dlg_cur` `proe_win` 9 693 187 0 514 1482 618 1920 1080 8225101
+~ Move `main_dlg_cur` `proe_win` 9 695 187 0 514 1482 618 1920 1080 8225111
+~ Move `main_dlg_cur` `proe_win` 9 695 186 0 1026 1482 618 1920 1080 8225121
+~ Move `main_dlg_cur` `proe_win` 9 697 186 0 514 1482 618 1920 1080 8225211
+~ Move `main_dlg_cur` `proe_win` 9 699 186 0 514 1482 618 1920 1080 8225231
+~ Move `main_dlg_cur` `proe_win` 9 701 186 0 514 1482 618 1920 1080 8225242
+~ Move `main_dlg_cur` `proe_win` 9 702 187 0 1538 1482 618 1920 1080 8225252
+~ Move `main_dlg_cur` `proe_win` 9 704 187 0 514 1482 618 1920 1080 8225261
+~ Move `main_dlg_cur` `proe_win` 9 706 188 0 1538 1482 618 1920 1080 8225271
+~ Move `main_dlg_cur` `proe_win` 9 706 189 0 1026 1482 618 1920 1080 8225281
+~ Move `main_dlg_cur` `proe_win` 9 708 189 0 514 1482 618 1920 1080 8225291
+~ Move `main_dlg_cur` `proe_win` 9 709 189 0 514 1482 618 1920 1080 8225301
+~ Move `main_dlg_cur` `proe_win` 9 710 189 0 514 1482 618 1920 1080 8225311
+~ Move `main_dlg_cur` `proe_win` 9 711 189 0 514 1482 618 1920 1080 8225321
+~ Move `main_dlg_cur` `proe_win` 9 712 190 0 1538 1482 618 1920 1080 8225331
+~ Move `main_dlg_cur` `proe_win` 9 713 190 0 514 1482 618 1920 1080 8225361
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 713 190 0 0 1482 618 1920 1080 8225381
+~ Select `main_dlg_cur` `3DDtlAssyTree` 1 `node0:Model Datum 2 220 1 2 -1 -1 -1`
+!Datum_Tag_A
+!Command ProCmdPmaToolAnnotDfs was pushed from the software.
+!LiveUI: Activating PmaToolAnnotDfs
+!Command ProCmdPmaToolAnnotDfs was pushed from the software.
+!LiveUI: Deactivating PmaToolAnnotDfs
+!LiveUI: Activating PmaToolAnnotDfs
+~ RButtonArm `main_dlg_cur` `3DDtlAssyTree` `node0:Model Datum 2 220 1 2 -1 -1 -1`
+~ PopupOver `main_dlg_cur` `PM_3DDtlAssyTree` 1 `3DDtlAssyTree`
+~ Open `main_dlg_cur` `PM_3DDtlAssyTree`
+~ Close `main_dlg_cur` `PM_3DDtlAssyTree`
+~ Command `ProCmdEditDelete@PopupMenuTree` 
+!LiveUI: Deactivating PmaToolAnnotDfs
+!Undo: added rec_id 289 type 10015 
+! Executed sub-command ProCmdEditDeleteDtl3D.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 464 181 0 1 1482 618 1920 1080 8229422
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 464 181 0 0 1482 618 1920 1080 8229510
+@ sel view 0
+ 11.637787 -2.732259 5.122057 5.098347 10.298056 -6.090623
+ -2.776250 7.458123 10.286283 639.653439 483.055162 -1522.302256 1.562500 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ MButtonArm `main_dlg_cur` `proe_win` 9 746 184 0 2 1482 618 1920 1080 8230311
+~ Move `main_dlg_cur` `proe_win` 9 745 183 0 1538 1482 618 1920 1080 8230321
+~ Move `main_dlg_cur` `proe_win` 9 744 182 0 1538 1482 618 1920 1080 8230331
+~ Move `main_dlg_cur` `proe_win` 9 743 181 0 1538 1482 618 1920 1080 8230341
+~ Move `main_dlg_cur` `proe_win` 9 742 179 0 1538 1482 618 1920 1080 8230351
+~ Move `main_dlg_cur` `proe_win` 9 741 178 0 1538 1482 618 1920 1080 8230371
+~ Move `main_dlg_cur` `proe_win` 9 741 177 0 1026 1482 618 1920 1080 8230381
+~ Move `main_dlg_cur` `proe_win` 9 740 175 0 1538 1482 618 1920 1080 8230391
+~ Move `main_dlg_cur` `proe_win` 9 740 173 0 1026 1482 618 1920 1080 8230401
+~ Move `main_dlg_cur` `proe_win` 9 740 172 0 1026 1482 618 1920 1080 8230411
+~ Move `main_dlg_cur` `proe_win` 9 740 171 0 1026 1482 618 1920 1080 8230421
+~ Move `main_dlg_cur` `proe_win` 9 740 170 0 1026 1482 618 1920 1080 8230451
+~ Move `main_dlg_cur` `proe_win` 9 740 169 0 1026 1482 618 1920 1080 8230462
+~ Move `main_dlg_cur` `proe_win` 9 740 168 0 1026 1482 618 1920 1080 8230480
+~ Move `main_dlg_cur` `proe_win` 9 740 166 0 1026 1482 618 1920 1080 8230491
+~ Move `main_dlg_cur` `proe_win` 9 740 165 0 1026 1482 618 1920 1080 8230501
+~ Move `main_dlg_cur` `proe_win` 9 740 159 0 1026 1482 618 1920 1080 8230512
+~ Move `main_dlg_cur` `proe_win` 9 740 156 0 1026 1482 618 1920 1080 8230521
+~ Move `main_dlg_cur` `proe_win` 9 741 153 0 1538 1482 618 1920 1080 8230532
+~ Move `main_dlg_cur` `proe_win` 9 743 151 0 1538 1482 618 1920 1080 8230541
+~ Move `main_dlg_cur` `proe_win` 9 744 149 0 1538 1482 618 1920 1080 8230551
+~ Move `main_dlg_cur` `proe_win` 9 745 147 0 1538 1482 618 1920 1080 8230562
+~ Move `main_dlg_cur` `proe_win` 9 745 146 0 1026 1482 618 1920 1080 8230571
+~ Move `main_dlg_cur` `proe_win` 9 746 145 0 1538 1482 618 1920 1080 8230820
+~ Move `main_dlg_cur` `proe_win` 9 753 143 0 1538 1482 618 1920 1080 8230831
+~ Move `main_dlg_cur` `proe_win` 9 760 139 0 1538 1482 618 1920 1080 8230840
+~ Move `main_dlg_cur` `proe_win` 9 763 136 0 1538 1482 618 1920 1080 8230851
+~ Move `main_dlg_cur` `proe_win` 9 766 135 0 1538 1482 618 1920 1080 8230861
+~ Move `main_dlg_cur` `proe_win` 9 770 132 0 1538 1482 618 1920 1080 8230871
+~ Move `main_dlg_cur` `proe_win` 9 773 130 0 1538 1482 618 1920 1080 8230881
+~ Move `main_dlg_cur` `proe_win` 9 775 129 0 1538 1482 618 1920 1080 8230891
+~ Move `main_dlg_cur` `proe_win` 9 776 129 0 514 1482 618 1920 1080 8230901
+~ Move `main_dlg_cur` `proe_win` 9 776 128 0 1026 1482 618 1920 1080 8230962
+~ Move `main_dlg_cur` `proe_win` 9 778 126 0 1538 1482 618 1920 1080 8230971
+~ Move `main_dlg_cur` `proe_win` 9 779 125 0 1538 1482 618 1920 1080 8230981
+~ Move `main_dlg_cur` `proe_win` 9 779 124 0 1026 1482 618 1920 1080 8230992
+~ Move `main_dlg_cur` `proe_win` 9 780 124 0 514 1482 618 1920 1080 8231001
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 780 124 0 0 1482 618 1920 1080 8231261
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!A
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!Expanded PART2.PRT
+~ Select `MiniToolbar` `row1:SOIPOverlayCmd`
+~ Close `MiniToolbar` `row1:SOIPOverlayCmd`
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ FocusOut `main_dlg_cur` `PHTLeft.node_edit`
+~ Trail `UI Desktop` `UI Desktop` `ActivateOnFocus` \
+ `main_dlg_w1`
+< 2 0.784593 1482 0 0 662 1920 0 0 1080 13
+~ Command `ProCmdModelOpen` 
+< 10 0.118519 178 0 0 100 1920 0 0 1080 13
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` \
+ `file_open`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `file_open:Ph_list.Filelist:<NULL>`
+~ Select `file_open` `Ph_list.Filelist` 1 `shaft_50mm.prt`
+~ Command `ProFileSelPushOpen_Standard@context_dlg_open_cmd` 
+!Command ProCmdModelOpenExe was pushed from the software.
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w9:PHTLeft.AssyTree:<NULL>`
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node17`
+!Insert Here
+~ Drag `main_dlg_cur` `PHTLeft.AssyTree` `node17`
+~ DragEnter `main_dlg_cur` `PHTLeft.AssyTree` 5 339 538 7 0 8 \
+ 2 `main_dlg_w9` `PHTLeft.AssyTree` \
+ `node16` \
+ 2 1059 388
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 349 556 7 0 \
+ `node16` \
+ 2 1099 638
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 349 558 7 0 \
+ `node16` \
+ 2 1099 666
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 351 566 7 0 \
+ `node16` \
+ 2 1108 777
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 351 570 7 0 \
+ `node16` \
+ 2 1108 833
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 351 576 7 0 \
+ `node16` \
+ 2 1108 916
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 351 584 7 0 \
+ `node15` \
+ 2 1018 27
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 356 604 7 0 \
+ `node15` \
+ 2 1036 305
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 359 612 7 0 \
+ `node15` \
+ 2 1045 416
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 359 631 7 0 \
+ `node15` \
+ 2 1045 666
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 359 643 7 0 \
+ `node15` \
+ 2 1045 833
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 363 663 7 0 \
+ `node14` \
+ 2 1158 111
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 366 677 7 0 \
+ `node14` \
+ 2 1168 305
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 368 689 7 0 \
+ `node14` \
+ 2 1178 472
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 368 699 7 0 \
+ `node14` \
+ 2 1178 611
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 368 707 7 0 \
+ `node14` \
+ 2 1178 722
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 373 719 7 0 \
+ `node14` \
+ 2 1198 888
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 373 723 7 0 \
+ `node14` \
+ 2 1198 944
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 373 735 7 0 \
+ `node13` \
+ 2 801 111
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 373 741 7 0 \
+ `node13` \
+ 2 801 194
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 373 752 7 0 \
+ `node13` \
+ 2 801 333
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 375 760 7 0 \
+ `node13` \
+ 2 807 444
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 375 778 7 0 \
+ `node13` \
+ 2 807 694
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 378 786 7 0 \
+ `node13` \
+ 2 814 805
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 380 796 7 0 \
+ `node13` \
+ 2 821 944
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 380 808 7 0 \
+ `node12` \
+ 2 1078 111
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 380 820 7 0 \
+ `node12` \
+ 2 1078 277
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 380 832 7 0 \
+ `node12` \
+ 2 1078 444
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 380 846 7 0 \
+ `node12` \
+ 2 1078 638
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 380 852 7 0 \
+ `node12` \
+ 2 1078 722
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 380 856 7 0 \
+ `node12` \
+ 2 1078 777
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 383 860 7 0 \
+ `node12` \
+ 2 1086 833
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 383 864 7 0 \
+ `node12` \
+ 2 1086 888
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 383 872 7 0 \
+ `node11` \
+ 2 1086 0
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 385 883 7 0 \
+ `node11` \
+ 2 1095 138
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 390 891 7 0 \
+ `node11` \
+ 2 1113 250
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 392 909 7 0 \
+ `node11` \
+ 2 1121 500
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 395 925 7 0 \
+ `node11` \
+ 2 1130 722
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 395 937 7 0 \
+ `node11` \
+ 2 1130 888
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 395 947 7 0 \
+ `node10` \
+ 2 1130 27
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 400 985 7 0 \
+ `node9` \
+ 2 1306 83
+~ DragLeave `main_dlg_cur` `PHTLeft.AssyTree` 4 400 1030 7 0 \
+ `node9` \
+ 2 1306 83
+~ DragEnter `main_dlg_cur` `PHTLeft.AssyTree` 5 419 997 7 0 8 \
+ 2 `main_dlg_w9` `PHTLeft.AssyTree` \
+ `node9` \
+ 2 1306 83
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 419 995 7 0 \
+ `node8` \
+ 2 1386 222
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 419 993 7 0 \
+ `node8` \
+ 2 1386 194
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 431 969 7 0 \
+ `node7` \
+ 2 814 -138
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 438 959 7 0 \
+ `node6` \
+ 2 831 -277
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 445 943 7 0 \
+ `node5` \
+ 2 1819 -500
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 445 941 7 0 \
+ `node4` \
+ 2 1819 -527
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 448 941 7 0 \
+ `node1` \
+ 2 1504 222
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 450 941 7 0 \
+ `node1` \
+ 2 1514 222
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 453 943 7 0 \
+ `node1` \
+ 2 1524 250
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 453 945 7 0 \
+ `node1` \
+ 2 1524 277
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 455 947 7 0 \
+ `node1` \
+ 2 1534 305
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 457 949 7 0 \
+ `node1` \
+ 2 1544 333
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 460 953 7 0 \
+ `node1` \
+ 2 1554 388
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 460 955 7 0 \
+ `node1` \
+ 2 1554 416
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 460 957 7 0 \
+ `node1` \
+ 2 1554 444
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 462 959 7 0 \
+ `node1` \
+ 2 1564 472
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 465 961 7 0 \
+ `node1` \
+ 2 1574 500
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 465 963 7 0 \
+ `node1` \
+ 2 1574 527
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 465 965 7 0 \
+ `node1` \
+ 2 1574 555
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 465 967 7 0 \
+ `node1` \
+ 2 1574 583
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 462 967 7 0 \
+ `node1` \
+ 2 1564 583
+~ DragOver `main_dlg_cur` `PHTLeft.AssyTree` 4 460 967 7 0 \
+ `node1` \
+ 2 1554 583
+~ DragLeave `main_dlg_cur` `PHTLeft.AssyTree` 4 460 967 7 0 \
+ `node1` \
+ 2 1554 583
+~ Drop `main_dlg_cur` `PHTLeft.AssyTree` 5 460 967 7 0 8 \
+ 2 `main_dlg_w9` `PHTLeft.AssyTree` \
+ `node1` \
+ 2 1554 583
+!ProgressBarDlg: Regen Started
+~ DragFinished `main_dlg_cur` `PHTLeft.AssyTree`
+!%CIRegenerating SHAFT_50MM feature 6 out of 22 ...
+!sket_eps      0.4414692454
+!%CIRegenerating SHAFT_50MM feature 7 out of 22 ...
+!sket_eps       4.484367165
+!%CIRegenerating SHAFT_50MM feature 8 out of 22 ...
+!%CIRegenerating SHAFT_50MM feature 9 out of 22 ...
+!%CIRegenerating SHAFT_50MM feature 10 out of 22 ...
+!%CIRegenerating SHAFT_50MM feature 11 out of 22 ...
+!%CIRegenerating SHAFT_50MM feature 12 out of 22 ...
+!%CIRegenerating SHAFT_50MM feature 13 out of 22 ...
+!%CIRegenerating SHAFT_50MM feature 14 out of 22 ...
+!%CIRegenerating SHAFT_50MM feature 15 out of 22 ...
+!%CIRegenerating SHAFT_50MM feature 16 out of 22 ...
+!%CIRegenerating SHAFT_50MM feature 17 out of 22 ...
+!%CIRegenerating SHAFT_50MM feature 18 out of 22 ...
+!%CIRegenerating SHAFT_50MM feature 19 out of 22 ...
+!%CIRegenerating SHAFT_50MM feature 20 out of 22 ...
+!%CIRegenerating SHAFT_50MM feature 21 out of 22 ...
+!%CIRegenerating SHAFT_50MM feature 22 out of 22 ...
+!%CISHAFT_50MM regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id -1 type 5321 
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node29`
+!Target Annotation 1
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node28`
+!Target Annotation 2
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node29`
+!Target Annotation 1
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node28`
+!Target Annotation 2
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Wheel `main_dlg_cur` `proe_win` 9 723 263 393216 0 1346 662 1920 1080 8444818
+~ Wheel `main_dlg_cur` `proe_win` 9 723 261 393216 0 1346 662 1920 1080 8444908
+~ Wheel `main_dlg_cur` `proe_win` 9 1210 179 458752 0 1346 662 1920 1080 8445438
+~ Wheel `main_dlg_cur` `proe_win` 9 1210 179 458752 0 1346 662 1920 1080 8445497
+~ Wheel `main_dlg_cur` `proe_win` 9 1210 179 458752 0 1346 662 1920 1080 8445518
+~ Wheel `main_dlg_cur` `proe_win` 9 1210 179 393216 0 1346 662 1920 1080 8446118
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node29`
+!Target Annotation 1
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node29`
+~ PopupOver `main_dlg_cur` `PM_PHTLeft.AssyTree` 1 `PHTLeft.AssyTree`
+~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Command `ProCmdRedefine@PopupMenuTree` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Annotation Feature
+!ODUI session started.
+!%CPSelect Single References
+~ Trigger `Odui_Dlg_00` `t1.elem_table` 2 `0` `Element_Name`
+~ Trigger `Odui_Dlg_00` `t1.elem_table` 2 `` ``
+~ Trigger `Odui_Dlg_00` `t1.SingleItemTable` 2 `0` `Ref_Type`
+~ Trigger `Odui_Dlg_00` `t1.SingleItemTable` 2 `` ``
+~ Trigger `Odui_Dlg_00` `t1.SingleItemTable` 2 `0` `Reference`
+~ Trigger `Odui_Dlg_00` `t1.SingleItemTable` 2 `` ``
+~ Trigger `Odui_Dlg_00` `t1.elem_table` 2 `0` `Element_Name`
+~ Trigger `Odui_Dlg_00` `t1.elem_table` 2 `` ``
+~ Activate `Odui_Dlg_00` `stdbtn_2`
+!ODUI session finished.
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Trail `UI Desktop` `UI Desktop` `ActivateOnFocus` \
+ `main_dlg_w1`
+~ Trail `UI Desktop` `UI Desktop` `ActivateOnFocus` \
+ `main_dlg_w2`
+< 2 0.732444 1482 0 0 618 1920 0 0 1080 13
+~ Command `ProCmdDtmTrgAnnotFeat` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Annotation Feature
+!ODUI session started.
+!%CPPlease add annotation elements.
+< 2 0.784593 1482 0 0 662 1920 0 0 1080 13
+~ LButtonArm `main_dlg_cur` `proe_win` 9 778 387 0 1 1482 662 1920 1080 8470552
+~ Move `main_dlg_cur` `proe_win` 9 778 387 0 1 1482 662 1920 1080 8470556
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 778 387 0 0 1482 662 1920 1080 8470617
+@ sel view 0
+ 8.176279 -2.716048 9.742193 1.295616 12.705658 2.454874
+ -10.030385 -0.572811 8.258454 598.115354 437.422396 -1609.351870 1.562500 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!A
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w2:PHTLeft.AssyTree:<NULL>`
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+~ Select `annot_elem_add_page` `TypeRadioGroup` 1 `existing_annot`
+!%CPSelect an existing annotation or annotation element to add to the active element.
+~ Trigger `annot_elem_add_page` `AnnotSelTable` `0`
+~ Focus `annot_elem_add_page` `AnnotSelTable`
+~ Select `annot_elem_add_page` `AnnotSelTable` 0
+~ Trigger `annot_elem_add_page` `AnnotSelTable` ``
+~ LButtonArm `main_dlg_cur` `proe_win` 9 729 397 0 1 1482 662 1920 1080 8478083
+~ Move `main_dlg_cur` `proe_win` 9 729 397 0 1 1482 662 1920 1080 8478087
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 729 397 0 0 1482 662 1920 1080 8478147
+@ sel view 0
+ 8.176279 -2.716048 9.742193 1.295616 12.705658 2.454874
+ -10.030385 -0.572811 8.258454 598.115354 437.422396 -1609.351870 1.562500 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!A
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 0
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!A
+~ Activate `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!Expanded A
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 0
+~ Activate `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!Expanded A
+~ Trigger `annot_elem_add_page` `AnnotSelTable` `0`
+~ Focus `annot_elem_add_page` `AnnotSelTable`
+~ Select `annot_elem_add_page` `AnnotSelTable` 0
+~ Focus `annot_elem_add_page` `AnnotSelTable`
+~ Select `annot_elem_add_page` `AnnotSelTable` 0
+~ Trigger `annot_elem_add_page` `AnnotSelTable` ``
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!A
+~ LButtonArm `main_dlg_cur` `proe_win` 9 720 368 0 1 1482 662 1920 1080 8485429
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 720 368 0 0 1482 662 1920 1080 8485487
+@ sel view 0
+ 8.176279 -2.716048 9.742193 1.295616 12.705658 2.454874
+ -10.030385 -0.572811 8.258454 598.115354 437.422396 -1609.351870 1.562500 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ LButtonArm `main_dlg_cur` `proe_win` 9 929 183 0 1 1482 662 1920 1080 8485798
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 929 183 0 0 1482 662 1920 1080 8485897
+@ sel view 0
+ 8.176279 -2.716048 9.742193 1.295616 12.705658 2.454874
+ -10.030385 -0.572811 8.258454 598.115354 437.422396 -1609.351870 1.562500 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1006 124 0 1 1482 662 1920 1080 8486458
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1006 124 0 0 1482 662 1920 1080 8486498
+@ sel view 0
+ 8.176279 -2.716048 9.742193 1.295616 12.705658 2.454874
+ -10.030385 -0.572811 8.258454 598.115354 437.422396 -1609.351870 1.562500 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ Trigger `annot_elem_add_page` `AnnotSelTable` `0`
+~ Trigger `annot_elem_add_page` `AnnotSelTable` ``
+~ Activate `annot_elem_add_page` `CancelButton`
+~ Activate `Odui_Dlg_00` `stdbtn_2`
+! Message Dialog: Warning
+!               : Do you really want to Cancel?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!ODUI session finished.
+!ProgressBarDlg: Regen Started
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+< 2 0.732444 1482 0 0 618 1920 0 0 1080 13
+~ Wheel `main_dlg_cur` `proe_win` 9 862 222 393216 0 1482 618 1920 1080 8492547
+~ Wheel `main_dlg_cur` `proe_win` 9 862 222 393216 0 1482 618 1920 1080 8492597
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!A
+~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node6`
+~ PopupOver `main_dlg_cur` `PM_PHTLeft.AssyTree` 1 `PHTLeft.AssyTree`
+~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Command `ProCmdRedefine@PopupMenuTree` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Datum Axis
+!ODUI session started.
+!%CPSelect up to 2 references, such as plane, surface, edge or point to place axis.
+< 2 0.784593 1482 0 0 662 1920 0 0 1080 13
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `0` `column_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `1` `column_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `` ``
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `1` `column_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `0` `column_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `` ``
+~ Select `Odui_Dlg_00` `pg_vis_tab` 1 `tab_2`
+~ Select `Odui_Dlg_00` `pg_vis_tab` 1 `tab_3`
+~ Select `Odui_Dlg_00` `pg_vis_tab` 1 `tab_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `0` `column_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `1` `column_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `` ``
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `1` `column_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `0` `column_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `` ``
+~ Wheel `main_dlg_cur` `proe_win` 9 838 233 458752 0 1482 662 1920 1080 8503157
+~ MButtonArm `main_dlg_cur` `proe_win` 9 838 233 0 2 1482 662 1920 1080 8503252
+~ Move `main_dlg_cur` `proe_win` 9 836 233 0 514 1482 662 1920 1080 8503257
+~ Move `main_dlg_cur` `proe_win` 9 828 231 0 1538 1482 662 1920 1080 8503267
+~ Move `main_dlg_cur` `proe_win` 9 825 227 0 1538 1482 662 1920 1080 8503300
+~ Move `main_dlg_cur` `proe_win` 9 823 226 0 1538 1482 662 1920 1080 8503307
+~ Move `main_dlg_cur` `proe_win` 9 822 224 0 1538 1482 662 1920 1080 8503317
+~ Move `main_dlg_cur` `proe_win` 9 820 222 0 1538 1482 662 1920 1080 8503337
+~ Move `main_dlg_cur` `proe_win` 9 818 220 0 1538 1482 662 1920 1080 8503347
+~ Move `main_dlg_cur` `proe_win` 9 817 218 0 1538 1482 662 1920 1080 8503357
+~ Move `main_dlg_cur` `proe_win` 9 816 214 0 1538 1482 662 1920 1080 8503367
+~ Move `main_dlg_cur` `proe_win` 9 815 213 0 1538 1482 662 1920 1080 8503376
+~ Move `main_dlg_cur` `proe_win` 9 813 209 0 1538 1482 662 1920 1080 8503388
+~ Move `main_dlg_cur` `proe_win` 9 810 206 0 1538 1482 662 1920 1080 8503397
+~ Move `main_dlg_cur` `proe_win` 9 810 205 0 1026 1482 662 1920 1080 8503417
+~ Move `main_dlg_cur` `proe_win` 9 809 202 0 1538 1482 662 1920 1080 8503427
+~ Move `main_dlg_cur` `proe_win` 9 808 200 0 1538 1482 662 1920 1080 8503438
+~ Move `main_dlg_cur` `proe_win` 9 807 199 0 1538 1482 662 1920 1080 8503447
+~ Move `main_dlg_cur` `proe_win` 9 806 196 0 1538 1482 662 1920 1080 8503457
+~ Move `main_dlg_cur` `proe_win` 9 806 195 0 1026 1482 662 1920 1080 8503467
+~ Move `main_dlg_cur` `proe_win` 9 806 194 0 1026 1482 662 1920 1080 8503477
+~ Move `main_dlg_cur` `proe_win` 9 804 193 0 1538 1482 662 1920 1080 8503487
+~ Move `main_dlg_cur` `proe_win` 9 804 189 0 1026 1482 662 1920 1080 8503498
+~ Move `main_dlg_cur` `proe_win` 9 803 187 0 1538 1482 662 1920 1080 8503517
+~ Move `main_dlg_cur` `proe_win` 9 803 185 0 1026 1482 662 1920 1080 8503527
+~ Move `main_dlg_cur` `proe_win` 9 802 183 0 1538 1482 662 1920 1080 8503539
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 802 183 0 0 1482 662 1920 1080 8503857
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `0` `column_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `` ``
+~ Select `Odui_Dlg_00` `pg_vis_tab` 1 `tab_2`
+~ Select `Odui_Dlg_00` `pg_vis_tab` 1 `tab_3`
+~ Activate `Odui_Dlg_00` `stdbtn_1`
+!ODUI session finished.
+!ProgressBarDlg: Regen Started
+!%CIRegenerating PART2 feature 5 out of 9 ...
+!%CIRestoring PART2 feature 6 out of 9 ...
+!%CIRestoring PART2 feature 7 out of 9 ...
+!%CIRestoring PART2 feature 8 out of 9 ...
+!%CIRestoring PART2 feature 9 out of 9 ...
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 295 type 5300 
+!%CIFeature redefined successfully.
+!F5(A)
+< 2 0.732444 1482 0 0 618 1920 0 0 1080 13
+~ Command `ProCmdCrDatumFeatSym` 
+!%CPSelect a dimension, a gtol, a dimension witness line or a point on a surface.
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!A
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Command `ProCmdCrDatumFeatSym` 
+!%CPSelect a dimension, a gtol, a dimension witness line or a point on a surface.
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!A
+~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node6`
+~ PopupOver `main_dlg_cur` `PM_PHTLeft.AssyTree` 1 `PHTLeft.AssyTree`
+~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 322 240 0 1 1482 618 1920 1080 8523959
+~ Move `main_dlg_cur` `proe_win` 9 322 236 0 1025 1482 618 1920 1080 8524007
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 322 236 0 0 1482 618 1920 1080 8524017
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.250000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+~ Activate `main_dlg_cur` `page_Model_control_btn` 1
+< 2 0.798815 1482 0 0 674 1920 0 0 1080 13
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!A
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node6`
+~ PopupOver `main_dlg_cur` `PM_PHTLeft.AssyTree` 1 `PHTLeft.AssyTree`
+~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 159 353 0 1 1482 674 1920 1080 8530084
+~ Move `main_dlg_cur` `proe_win` 9 159 353 0 1 1482 674 1920 1080 8530143
+~ Move `main_dlg_cur` `proe_win` 9 159 353 0 1 1482 674 1920 1080 8530143
+~ Move `main_dlg_cur` `proe_win` 9 159 353 0 1 1482 674 1920 1080 8530143
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 159 353 0 0 1482 674 1920 1080 8530163
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.250000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+~ MButtonArm `main_dlg_cur` `proe_win` 9 118 311 0 2 1482 674 1920 1080 8531327
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 118 311 0 0 1482 674 1920 1080 8531538
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!A
+~ Command `ProCmdRedefine@PopupMenuTree` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Datum Axis
+!ODUI session started.
+!%CPSelect up to 2 references, such as plane, surface, edge or point to place axis.
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `0` `column_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `` ``
+~ Select `Odui_Dlg_00` `pg_vis_tab` 1 `tab_2`
+~ Select `Odui_Dlg_00` `pg_vis_tab` 1 `tab_3`
+~ Select `Odui_Dlg_00` `pg_vis_tab` 1 `tab_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `0` `column_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `0` `column_2`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `1` `column_2`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `` ``
+~ Activate `Odui_Dlg_00` `stdbtn_2`
+!ODUI session finished.
+~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node6`
+~ PopupOver `main_dlg_cur` `PM_PHTLeft.AssyTree` 1 `PHTLeft.AssyTree`
+~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Command `ProCmdReroute@PopupMenuTree` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Edit References
+!ODUI session started.
+!%CPSelect reference corresponding to highlighted original reference
+~ Trigger `Odui_Dlg_00` `t1.erui_new_ref_table` 2 `0` `new_ref_list`
+~ Trigger `Odui_Dlg_00` `t1.erui_new_ref_table` 2 `` ``
+~ Activate `Odui_Dlg_00` `stdbtn_1`
+!ODUI session finished.
+!Undo: added rec_id 302 type 5325 
+! Executed sub-command ProCmdERUsedByFeat.
+~ Activate `main_dlg_cur` `page_Analysis_control_btn` 1
+~ Activate `main_dlg_cur` `page_Annotate_control_btn` 1
+< 2 0.732444 1482 0 0 618 1920 0 0 1080 13
+~ Command `ProCmdCrDatumFeatSym` 
+!%CPSelect a dimension, a gtol, a dimension witness line or a point on a surface.
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!A
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Activate `main_dlg_cur` `dtlplace_quit`
+~ Command `ProCmdDtmTrgAnnotFeat` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Annotation Feature
+!ODUI session started.
+!%CPPlease add annotation elements.
+< 2 0.784593 1482 0 0 662 1920 0 0 1080 13
+~ Select `annot_elem_add_page` `TypeRadioGroup` 1 `existing_annot`
+!%CPSelect an existing annotation or annotation element to add to the active element.
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!A
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 0
+~ Activate `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!Expanded A
+~ Activate `annot_elem_add_page` `CancelButton`
+~ Activate `Odui_Dlg_00` `stdbtn_2`
+! Message Dialog: Warning
+!               : Do you really want to Cancel?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!ODUI session finished.
+!ProgressBarDlg: Regen Started
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+< 2 0.732444 1482 0 0 618 1920 0 0 1080 13
+~ Wheel `main_dlg_cur` `proe_win` 9 1070 331 393216 0 1482 618 1920 1080 8567226
+~ Command `ProCmdDtmTrgAnnotFeat` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Annotation Feature
+!ODUI session started.
+!%CPPlease add annotation elements.
+< 2 0.784593 1482 0 0 662 1920 0 0 1080 13
+~ LButtonArm `main_dlg_cur` `proe_win` 9 811 324 0 1 1482 662 1920 1080 9029925
+~ Move `main_dlg_cur` `proe_win` 9 811 324 0 1 1482 662 1920 1080 9029930
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 811 324 0 0 1482 662 1920 1080 9029931
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ Select `annot_elem_add_page` `TypeRadioGroup` 1 `existing_annot`
+!%CPSelect an existing annotation or annotation element to add to the active element.
+~ Trigger `annot_elem_add_page` `AnnotSelTable` `0`
+~ Trigger `annot_elem_add_page` `AnnotSelTable` ``
+~ LButtonArm `main_dlg_cur` `proe_win` 9 801 321 0 1 1482 662 1920 1080 9034345
+~ Move `main_dlg_cur` `proe_win` 9 801 321 0 1 1482 662 1920 1080 9034350
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 801 321 0 0 1482 662 1920 1080 9034410
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ LButtonArm `main_dlg_cur` `proe_win` 9 801 330 0 1 1482 662 1920 1080 9034932
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 801 330 0 0 1482 662 1920 1080 9035000
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ LButtonArm `main_dlg_cur` `proe_win` 9 801 330 0 129 1482 662 1920 1080 9035091
+** 0.576473 0.500000 2 64 64
+0.371974 0.448377 E 0 0.784592593 2
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 801 330 0 0 1482 662 1920 1080 9035141
+~ LButtonArm `main_dlg_cur` `proe_win` 9 801 330 0 1 1482 662 1920 1080 9035231
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 801 330 0 0 1482 662 1920 1080 9035351
+~ LButtonArm `main_dlg_cur` `proe_win` 9 801 330 0 129 1482 662 1920 1080 9035451
+** 0.576473 0.500000 2 64 64
+0.371974 0.448377 E 0 0.784592593 2
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 801 330 0 0 1482 662 1920 1080 9035501
+~ LButtonArm `main_dlg_cur` `proe_win` 9 801 330 0 1 1482 662 1920 1080 9035602
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 801 330 0 0 1482 662 1920 1080 9035721
+~ LButtonArm `main_dlg_cur` `proe_win` 9 801 330 0 129 1482 662 1920 1080 9035771
+** 0.576473 0.500000 2 64 64
+0.371974 0.448377 E 0 0.784592593 2
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 801 330 0 0 1482 662 1920 1080 9035881
+~ LButtonArm `main_dlg_cur` `proe_win` 9 801 330 0 1 1482 662 1920 1080 9035941
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 801 330 0 0 1482 662 1920 1080 9036041
+~ LButtonArm `main_dlg_cur` `proe_win` 9 801 330 0 129 1482 662 1920 1080 9036141
+** 0.576473 0.500000 2 64 64
+0.371974 0.448377 E 0 0.784592593 2
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 801 330 0 0 1482 662 1920 1080 9036191
+~ Activate `annot_elem_add_page` `CancelButton`
+~ Activate `Odui_Dlg_00` `stdbtn_2`
+! Message Dialog: Warning
+!               : Do you really want to Cancel?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!ODUI session finished.
+!ProgressBarDlg: Regen Started
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+< 2 0.732444 1482 0 0 618 1920 0 0 1080 13
+~ LButtonArm `main_dlg_cur` `proe_win` 9 815 312 0 1 1482 618 1920 1080 9041062
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 815 312 0 0 1482 618 1920 1080 9041131
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 4 109 -1 (0.1322671403 0.0000000000) (-20.8255886321 0.0000000000 0.0000000000)
+!A_2(AXIS):F7(REVOLVE_1)
+~ Command `ProCmdDtmTrgAnnotFeat` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Annotation Feature
+!ODUI session started.
+!%CPPlease add annotation elements.
+!%CWThe selected geometry can not be used by this tool. Please select new references.
+< 2 0.784593 1482 0 0 662 1920 0 0 1080 13
+~ Select `annot_elem_add_page` `TypeRadioGroup` 1 `existing_annot`
+!%CPSelect an existing annotation or annotation element to add to the active element.
+~ Trigger `annot_elem_add_page` `AnnotSelTable` `0`
+~ Focus `annot_elem_add_page` `AnnotSelTable`
+~ Select `annot_elem_add_page` `AnnotSelTable` 0
+~ Trigger `annot_elem_add_page` `AnnotSelTable` ``
+~ LButtonArm `main_dlg_cur` `proe_win` 9 803 326 0 1 1482 662 1920 1080 9045578
+~ Move `main_dlg_cur` `proe_win` 9 804 326 0 513 1482 662 1920 1080 9045584
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 804 326 0 0 1482 662 1920 1080 9045640
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ Activate `annot_elem_add_page` `CancelButton`
+~ Activate `Odui_Dlg_00` `stdbtn_2`
+! Message Dialog: Warning
+!               : Do you really want to Cancel?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!ODUI session finished.
+!ProgressBarDlg: Regen Started
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+< 2 0.732444 1482 0 0 618 1920 0 0 1080 13
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1131 136 0 1 1482 618 1920 1080 9048604
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1131 136 0 0 1482 618 1920 1080 9048680
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ Activate `main_dlg_cur` `page_Model_control_btn` 1
+< 2 0.798815 1482 0 0 674 1920 0 0 1080 13
+~ Command `ProCmdDatumAxis` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Datum Axis
+!ODUI session started.
+!%CPSelect up to 2 references, such as plane, surface, edge or point to place axis.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 817 253 0 1 1482 674 1920 1080 9052205
+~ Move `main_dlg_cur` `proe_win` 9 817 253 0 1 1482 674 1920 1080 9052210
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 817 253 0 0 1482 674 1920 1080 9052231
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 2 78 -1 (-1.6842449925 5.7832816222) (-19.4167183778 12.4258548143 -1.4157758281)
+!Surf:F7(REVOLVE_1)
+~ Activate `Odui_Dlg_00` `stdbtn_1`
+!ODUI session finished.
+!F10(A_5)
+!ProgressBarDlg: Regen Started
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 316 type 5304 
+~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node11`
+~ PopupOver `main_dlg_cur` `PM_PHTLeft.AssyTree` 1 `PHTLeft.AssyTree`
+~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Command `ProCmdRedefine@PopupMenuTree` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Datum Axis
+!ODUI session started.
+!%CPSelect up to 2 references, such as plane, surface, edge or point to place axis.
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `0` `column_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `` ``
+~ Select `Odui_Dlg_00` `pg_vis_tab` 1 `tab_2`
+~ Select `Odui_Dlg_00` `pg_vis_tab` 1 `tab_3`
+~ Select `Odui_Dlg_00` `pg_vis_tab` 1 `tab_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `0` `column_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `` ``
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `0` `column_2`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `` ``
+~ Activate `Odui_Dlg_00` `stdbtn_1`
+!ODUI session finished.
+!ProgressBarDlg: Regen Started
+!%CIRegenerating PART2 feature 10 out of 10 ...
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 321 type 5300 
+!%CIFeature redefined successfully.
+!F10(A_5)
+~ Activate `main_dlg_cur` `page_Annotate_control_btn` 1
+< 2 0.732444 1482 0 0 618 1920 0 0 1080 13
+~ Command `ProCmdCrDatumFeatSym` 
+!%CPSelect a dimension, a gtol, a dimension witness line or a point on a surface.
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!A
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Activate `main_dlg_cur` `dtlplace_quit`
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node11`
+!A_5
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node11`
+~ Update `main_dlg_cur` `PHTLeft.node_edit` ``
+~ FocusOut `main_dlg_cur` `PHTLeft.node_edit`
+!%CE is not a valid name.
+~ Command `ProCmdEditDelete` 
+! Executed sub-command ProCmdEditDeleteFeat.
+~ FocusIn `del_sup_msg` `ok`
+~ Activate `del_sup_msg` `ok`
+!ProgressBarDlg: Regen Started
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 324 type 5303 
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!A
+~ Command `ProCmdRedefine@PopupMenuTree` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Datum Axis
+!ODUI session started.
+!%CPSelect up to 2 references, such as plane, surface, edge or point to place axis.
+< 2 0.784593 1482 0 0 662 1920 0 0 1080 13
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `0` `column_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `` ``
+~ Select `Odui_Dlg_00` `pg_vis_tab` 1 `tab_2`
+~ Select `Odui_Dlg_00` `pg_vis_tab` 1 `tab_3`
+~ Activate `Odui_Dlg_00` `stdbtn_1`
+!ODUI session finished.
+!ProgressBarDlg: Regen Started
+!%CIRegenerating PART2 feature 5 out of 9 ...
+!%CIRestoring PART2 feature 6 out of 9 ...
+!%CIRestoring PART2 feature 7 out of 9 ...
+!%CIRestoring PART2 feature 8 out of 9 ...
+!%CIRestoring PART2 feature 9 out of 9 ...
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 326 type 5300 
+!%CIFeature redefined successfully.
+!F5(A)
+< 2 0.732444 1482 0 0 618 1920 0 0 1080 13
+~ Command `ProCmdDatumAxis` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Datum Axis
+!ODUI session started.
+!ODUI session finished.
+!F10(A_5)
+!ProgressBarDlg: Regen Started
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 328 type 5304 
+~ LButtonArm `main_dlg_cur` `proe_win` 9 803 279 0 1 1482 618 1920 1080 9192151
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 803 279 0 0 1482 618 1920 1080 9192159
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 2 78 -1 (-2.1291456718 7.2551522660) (-17.9448477340 10.6069353364 -6.6256480312)
+!Surf:F7(REVOLVE_1)
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Command `ProCmdDtmTrgAnnotFeat` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Annotation Feature
+!ODUI session started.
+!%CPPlease add annotation elements.
+!%CWThe selected geometry can not be used by this tool. Please select new references.
+< 2 0.784593 1482 0 0 662 1920 0 0 1080 13
+~ Select `annot_elem_add_page` `TypeRadioGroup` 1 `existing_annot`
+!%CPSelect an existing annotation or annotation element to add to the active element.
+~ Trigger `annot_elem_add_page` `AnnotSelTable` `0`
+~ Trigger `annot_elem_add_page` `AnnotSelTable` ``
+~ LButtonArm `main_dlg_cur` `proe_win` 9 814 330 0 1 1482 662 1920 1080 9199331
+~ Move `main_dlg_cur` `proe_win` 9 814 330 0 1 1482 662 1920 1080 9199333
+~ Move `main_dlg_cur` `proe_win` 9 814 329 0 1025 1482 662 1920 1080 9199378
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 814 329 0 0 1482 662 1920 1080 9199379
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ Activate `annot_elem_add_page` `CancelButton`
+~ Activate `Odui_Dlg_00` `stdbtn_2`
+! Message Dialog: Warning
+!               : Do you really want to Cancel?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!ODUI session finished.
+!ProgressBarDlg: Regen Started
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+< 2 0.732444 1482 0 0 618 1920 0 0 1080 13
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node11`
+!A_5
+~ Command `ProCmdEditDelete` 
+! Executed sub-command ProCmdEditDeleteFeat.
+~ FocusIn `del_sup_msg` `ok`
+~ Activate `del_sup_msg` `ok`
+!ProgressBarDlg: Regen Started
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 337 type 5303 
+~ Command `ProCmdDatumAxis` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Datum Axis
+!ODUI session started.
+!%CPSelect up to 2 references, such as plane, surface, edge or point to place axis.
+< 2 0.784593 1482 0 0 662 1920 0 0 1080 13
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `DuMmY` `column_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `` ``
+~ LButtonArm `main_dlg_cur` `proe_win` 9 874 338 0 1 1482 662 1920 1080 9213402
+~ Move `main_dlg_cur` `proe_win` 9 874 338 0 1 1482 662 1920 1080 9213407
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 874 338 0 0 1482 662 1920 1080 9213440
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 2 100 -1 (-5.5329161527 3.2819582896) (-21.9180417104 -10.9115867287 11.7064634123)
+!Surf:F7(REVOLVE_1)
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `0` `column_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `` ``
+~ Select `Odui_Dlg_00` `pg_vis_tab` 1 `tab_2`
+~ Select `Odui_Dlg_00` `pg_vis_tab` 1 `tab_3`
+~ Activate `Odui_Dlg_00` `stdbtn_1`
+!ODUI session finished.
+!F10(A_5)
+!ProgressBarDlg: Regen Started
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 339 type 5304 
+< 2 0.732444 1482 0 0 618 1920 0 0 1080 13
+~ Command `ProCmdDtmTrgAnnotFeat` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Annotation Feature
+!ODUI session started.
+!%CPPlease add annotation elements.
+!%CWThe selected geometry can not be used by this tool. Please select new references.
+< 2 0.784593 1482 0 0 662 1920 0 0 1080 13
+~ LButtonArm `main_dlg_cur` `proe_win` 9 814 324 0 1 1482 662 1920 1080 9219459
+~ Move `main_dlg_cur` `proe_win` 9 814 324 0 1 1482 662 1920 1080 9219465
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 814 324 0 0 1482 662 1920 1080 9219518
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ LButtonArm `main_dlg_cur` `proe_win` 9 762 318 0 1 1482 662 1920 1080 9219889
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 762 318 0 0 1482 662 1920 1080 9219938
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ Select `annot_elem_add_page` `TypeRadioGroup` 1 `existing_annot`
+!%CPSelect an existing annotation or annotation element to add to the active element.
+~ Trigger `annot_elem_add_page` `AnnotSelTable` `0`
+~ Trigger `annot_elem_add_page` `AnnotSelTable` ``
+~ LButtonArm `main_dlg_cur` `proe_win` 9 811 328 0 1 1482 662 1920 1080 9223425
+~ Move `main_dlg_cur` `proe_win` 9 811 328 0 1 1482 662 1920 1080 9223431
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 811 328 0 0 1482 662 1920 1080 9223470
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ LButtonArm `main_dlg_cur` `proe_win` 9 811 328 0 129 1482 662 1920 1080 9223550
+** 0.589218 0.503021 2 64 64
+0.384719 0.450926 E 0 0.784592593 2
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 811 328 0 0 1482 662 1920 1080 9223668
+~ Activate `annot_elem_add_page` `CancelButton`
+~ Activate `Odui_Dlg_00` `stdbtn_2`
+! Message Dialog: Warning
+!               : Do you really want to Cancel?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!ODUI session finished.
+!ProgressBarDlg: Regen Started
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+< 2 0.732444 1482 0 0 618 1920 0 0 1080 13
+~ LButtonArm `main_dlg_cur` `proe_win` 9 788 298 0 1 1482 618 1920 1080 9280198
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 788 298 0 0 1482 618 1920 1080 9280278
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 4 109 -1 (0.0000000000 0.0000000000) (-24.0000000000 0.0000000000 0.0000000000)
+!A_2(AXIS):F7(REVOLVE_1)
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Activate `main_dlg_cur` `page_Model_control_btn` 1
+< 2 0.798815 1482 0 0 674 1920 0 0 1080 13
+~ Command `ProCmdDatumAxis` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Datum Axis
+!ODUI session started.
+!ODUI session finished.
+!F11(A_6)
+!ProgressBarDlg: Regen Started
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 348 type 5304 
+~ LButtonArm `main_dlg_cur` `proe_win` 9 827 280 0 1 1482 674 1920 1080 9310259
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 827 280 0 0 1482 674 1920 1080 9310263
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 2 78 -1 (-1.8997744903 8.0916525242) (-17.1083474758 11.8355769381 -4.0404712107)
+!Surf:F7(REVOLVE_1)
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node12`
+!A_6
+!Expanded PART2.PRT
+~ Select `MiniToolbar` `row1:SOIPOverlayCmd`
+~ Close `MiniToolbar` `row1:SOIPOverlayCmd`
+~ Command `AdbCmdSearchCommand`  1
+~ Input `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `p`
+~ Input `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `pl`
+~ Input `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `pla`
+~ Input `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `plac`
+~ Input `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `place`
+~ Input `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `placem`
+~ Input `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `placeme`
+~ Input `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `placemen`
+~ Input `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `placement`
+~ Input `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `placements`
+~ Update `main_dlg_cur` `search_panel_pholder.search_panel_input_panel` `placements`
+~ Activate `main_dlg_cur` `search_panel_pholder.search_panel_input_panel`
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node12`
+!Expanded PART2.PRT
+~ Select `MiniToolbar` `row1:SOIPOverlayCmd`
+~ Close `MiniToolbar` `row1:SOIPOverlayCmd`
+~ FocusOut `main_dlg_cur` `PHTLeft.node_edit`
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 2 `node12` `node11` \
+ 2
+!A_5
+~ Command `ProCmdEditDelete` 
+! Executed sub-command ProCmdEditDeleteFeat.
+~ FocusIn `del_sup_msg` `ok`
+~ Activate `del_sup_msg` `ok`
+!ProgressBarDlg: Regen Started
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 353 type 5303 
+~ LButtonArm `main_dlg_cur` `proe_win` 9 803 335 0 1 1482 674 1920 1080 9475577
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 803 335 0 0 1482 674 1920 1080 9475625
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 4 109 -1 (0.0477308224 0.0000000000) (-22.8544602613 0.0000000000 0.0000000000)
+!A_2(AXIS):F7(REVOLVE_1)
+~ Command `ProCmdDatumAxis@PopupMenuGraphicWinStack` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Datum Axis
+!ODUI session started.
+!ODUI session finished.
+!F10(A_5)
+!ProgressBarDlg: Regen Started
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 355 type 5304 
+~ LButtonArm `main_dlg_cur` `proe_win` 9 811 333 0 1 1482 674 1920 1080 9479756
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 811 333 0 0 1482 674 1920 1080 9479805
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 4 109 -1 (0.0793146791 0.0000000000) (-22.0964477006 0.0000000000 0.0000000000)
+!A_2(AXIS):F7(REVOLVE_1)
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node11`
+!A_5
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Activate `main_dlg_cur` `page_View_control_btn` 1
+~ Command `ProCmdEnvAxisTagDisp`  1
+!%CIAxis name tags will be displayed.
+~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node11`
+~ PopupOver `main_dlg_cur` `PM_PHTLeft.AssyTree` 1 `PHTLeft.AssyTree`
+~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Command `ProCmdEditDelete@PopupMenuTree` 
+! Executed sub-command ProCmdEditDeleteFeat.
+~ FocusIn `del_sup_msg` `ok`
+~ Activate `del_sup_msg` `ok`
+!ProgressBarDlg: Regen Started
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 360 type 5303 
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!A
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Wheel `main_dlg_cur` `proe_win` 9 855 320 458752 0 1482 674 1920 1080 9499035
+~ Wheel `main_dlg_cur` `proe_win` 9 855 320 458752 0 1482 674 1920 1080 9499084
+~ Wheel `main_dlg_cur` `proe_win` 9 855 320 458752 0 1482 674 1920 1080 9499095
+~ Wheel `main_dlg_cur` `proe_win` 9 845 320 458752 512 1482 674 1920 1080 9499144
+~ Wheel `main_dlg_cur` `proe_win` 9 825 319 458752 512 1482 674 1920 1080 9499198
+~ Wheel `main_dlg_cur` `proe_win` 9 814 318 458752 0 1482 674 1920 1080 9499255
+~ Wheel `main_dlg_cur` `proe_win` 9 803 318 458752 0 1482 674 1920 1080 9499306
+~ LButtonArm `main_dlg_cur` `proe_win` 9 615 366 0 1 1482 674 1920 1080 9500257
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 615 366 0 0 1482 674 1920 1080 9500366
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 4.768372 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 4 109 -1 (0.0111675098 0.0000000000) (-23.7319797644 0.0000000000 0.0000000000)
+!A_2(AXIS):F7(REVOLVE_1)
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Expand `main_dlg_cur` `PHTLeft.AssyTree` `node4`
+!Expanded Revolve 1
+~ Command `ProCmdMdlTreeFilter` 
+!%CIChecked feature types will be displayed in the model tree.
+~ Activate `mdl_filter` `note_btn` 1
+~ Activate `mdl_filter` `placement_btn` 1
+~ Activate `mdl_filter` `supres_btn` 1
+~ Activate `mdl_filter` `envelope_btn` 1
+~ Activate `mdl_filter` `aber_btn` 1
+~ Activate `mdl_filter` `apply`
+~ Activate `mdl_filter` `ok_btn`
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!A
+~ Wheel `main_dlg_cur` `proe_win` 9 80 192 393216 0 1482 674 1920 1080 9523624
+~ Wheel `main_dlg_cur` `proe_win` 9 80 192 393216 0 1482 674 1920 1080 9523725
+~ Wheel `main_dlg_cur` `proe_win` 9 80 192 393216 0 1482 674 1920 1080 9523874
+~ Wheel `main_dlg_cur` `proe_win` 9 80 192 393216 0 1482 674 1920 1080 9524164
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Activate `main_dlg_cur` `page_Annotate_control_btn` 1
+< 2 0.732444 1482 0 0 618 1920 0 0 1080 13
+~ Command `ProCmdDtmTrgAnnotFeat` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Annotation Feature
+!ODUI session started.
+!%CPPlease add annotation elements.
+!%CWThe selected geometry can not be used by this tool. Please select new references.
+< 2 0.784593 1482 0 0 662 1920 0 0 1080 13
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+~ Activate `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!Expanded A
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+~ Activate `main_dlg_cur` `PHTLeft.AssyTree` 1 `node6`
+!Expanded A
+~ Select `annot_elem_add_page` `TypeRadioGroup` 1 `existing_annot`
+!%CPSelect an existing annotation or annotation element to add to the active element.
+~ Select `annot_elem_add_page` `TypeRadioGroup` 1 `set_datum_tag`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 775 385 0 1 1482 662 1920 1080 9538581
+~ Move `main_dlg_cur` `proe_win` 9 775 385 0 1 1482 662 1920 1080 9538584
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 775 385 0 0 1482 662 1920 1080 9538586
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.953125 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ Wheel `main_dlg_cur` `proe_win` 9 1012 284 393216 0 1482 662 1920 1080 9539154
+~ Wheel `main_dlg_cur` `proe_win` 9 1012 284 393216 0 1482 662 1920 1080 9539254
+~ Wheel `main_dlg_cur` `proe_win` 9 1012 284 393216 0 1482 662 1920 1080 9539354
+~ LButtonArm `main_dlg_cur` `proe_win` 9 704 278 0 1 1482 662 1920 1080 9539936
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 704 278 0 0 1482 662 1920 1080 9540004
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ LButtonArm `main_dlg_cur` `proe_win` 9 691 234 0 1 1482 662 1920 1080 9540325
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 691 234 0 0 1482 662 1920 1080 9540405
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ Move `Odui_Dlg_00` `Odui_Dlg_00` 2 16.426321 2.880445
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node2`
+!Round 1
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node3`
+!Chamfer 1
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node11`
+!Sketch 1
+~ Move `Odui_Dlg_00` `Odui_Dlg_00` 2 -3.503244 3.607044
+~ Activate `main_dlg_cur` `page_Model_control_btn` 1
+< 2 0.798815 1482 0 0 674 1920 0 0 1080 13
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1041 332 0 1 1482 674 1920 1080 9548575
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1041 332 0 0 1482 674 1920 1080 9548624
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ LButtonArm `main_dlg_cur` `proe_win` 9 776 284 0 1 1482 674 1920 1080 9549107
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 776 284 0 0 1482 674 1920 1080 9549174
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ LButtonArm `main_dlg_cur` `proe_win` 9 730 228 0 1 1482 674 1920 1080 9549436
+~ Move `main_dlg_cur` `proe_win` 9 728 228 0 513 1482 674 1920 1080 9549446
+~ Move `main_dlg_cur` `proe_win` 9 724 229 0 1537 1482 674 1920 1080 9549455
+~ Move `main_dlg_cur` `proe_win` 9 721 230 0 1537 1482 674 1920 1080 9549465
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 721 230 0 0 1482 674 1920 1080 9549474
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ Open `main_dlg_cur` `Sst_bar.filter_list`
+~ Close `main_dlg_cur` `Sst_bar.filter_list`
+~ Select `main_dlg_cur` `Sst_bar.filter_list` 1 `0`
+~ Activate `annot_elem_add_page` `OKButton`
+!%CPSelect a dimension, a gtol, a dimension witness line or a point on a surface.
+~ Move `Odui_Dlg_00` `Odui_Dlg_00` 2 19.799815 1.012048
+~ Close `Odui_Dlg_00` `Odui_Dlg_00`
+! Message Dialog: Warning
+!               : Do you really want to Cancel?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!ODUI session finished.
+!ProgressBarDlg: Regen Started
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node6`
+~ PopupOver `main_dlg_cur` `PM_PHTLeft.AssyTree` 1 `PHTLeft.AssyTree`
+~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Command `ProCmdUniEditProp@PopupMenuTree` 
+!Command ProCmdEditPropertiesDtm was pushed from the software.
+~ Select `datum` `rad_unset_asme` 1 `set_rad`
+~ Activate `datum` `psh_ok`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1079 283 0 1 1482 674 1920 1080 9675674
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1079 283 0 0 1482 674 1920 1080 9675723
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ Activate `main_dlg_cur` `page_Annotate_control_btn` 1
+< 2 0.732444 1482 0 0 618 1920 0 0 1080 13
+~ Activate `main_dlg_cur` `page_Annotate_control_btn` 0
+~ LButtonDblClk `main_dlg_cur` `page_Annotate_control_btn`
+< 0 0.792889 1475 0 0 669 1920 0 0 1080 13
+< 0 1.012148 1475 0 0 854 1920 0 0 1080 13
+< 2 0.725333 1482 0 0 612 1920 0 0 1080 13
+< 2 0.944593 1482 0 0 797 1920 0 0 1080 13
+< 3 0.777481 1346 0 0 656 1920 0 0 1080 13
+< 3 0.996741 1346 0 0 841 1920 0 0 1080 13
+< 4 0.791704 1482 0 0 668 1920 0 0 1080 13
+< 4 1.010963 1482 0 0 853 1920 0 0 1080 13
+< 5 0.731259 1422 0 0 617 1920 0 0 1080 13
+< 5 0.950519 1422 0 0 802 1920 0 0 1080 13
+< 6 0.711111 1286 0 0 600 1920 0 0 1080 13
+< 6 0.930370 1286 0 0 785 1920 0 0 1080 13
+< 7 0.717037 1286 0 0 605 1920 0 0 1080 13
+< 7 0.936296 1286 0 0 790 1920 0 0 1080 13
+< 8 0.717037 1286 0 0 605 1920 0 0 1080 13
+< 8 0.936296 1286 0 0 790 1920 0 0 1080 13
+< 9 0.777481 1346 0 0 656 1920 0 0 1080 13
+< 9 0.996741 1346 0 0 841 1920 0 0 1080 13
+~ Select `main_dlg_cur` `page_Annotate_control_btn`
+~ LButtonDblClk `main_dlg_cur` `page_Annotate_control_btn`
+< 0 1.019259 1475 0 0 860 1920 0 0 1080 13
+< 0 0.800000 1475 0 0 675 1920 0 0 1080 13
+< 2 0.951704 1482 0 0 803 1920 0 0 1080 13
+< 2 0.732444 1482 0 0 618 1920 0 0 1080 13
+< 3 1.003852 1346 0 0 847 1920 0 0 1080 13
+< 3 0.784593 1346 0 0 662 1920 0 0 1080 13
+< 4 1.018074 1482 0 0 859 1920 0 0 1080 13
+< 4 0.798815 1482 0 0 674 1920 0 0 1080 13
+< 5 0.957630 1422 0 0 808 1920 0 0 1080 13
+< 5 0.738370 1422 0 0 623 1920 0 0 1080 13
+< 6 0.937481 1286 0 0 791 1920 0 0 1080 13
+< 6 0.718222 1286 0 0 606 1920 0 0 1080 13
+< 7 0.943407 1286 0 0 796 1920 0 0 1080 13
+< 7 0.724148 1286 0 0 611 1920 0 0 1080 13
+< 8 0.943407 1286 0 0 796 1920 0 0 1080 13
+< 8 0.724148 1286 0 0 611 1920 0 0 1080 13
+< 9 1.003852 1346 0 0 847 1920 0 0 1080 13
+< 9 0.784593 1346 0 0 662 1920 0 0 1080 13
+~ Activate `main_dlg_cur` `page_Annotate_control_btn` 0
+~ Command `ProCmdDtmTrgAnnotFeat` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Annotation Feature
+!ODUI session started.
+!%CPPlease add annotation elements.
+< 2 0.784593 1482 0 0 662 1920 0 0 1080 13
+~ Select `annot_elem_add_page` `TypeRadioGroup` 1 `existing_annot`
+!%CPSelect an existing annotation or annotation element to add to the active element.
+~ Trigger `annot_elem_add_page` `AnnotSelTable` `0`
+~ Trigger `annot_elem_add_page` `AnnotSelTable` ``
+~ Move `Odui_Dlg_00` `Odui_Dlg_00` 2 -6.435589 5.034291
+~ LButtonArm `main_dlg_cur` `proe_win` 9 883 312 0 1 1482 662 1920 1080 9690562
+~ Move `main_dlg_cur` `proe_win` 9 883 312 0 1 1482 662 1920 1080 9690566
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 883 312 0 0 1482 662 1920 1080 9690632
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ LButtonArm `main_dlg_cur` `proe_win` 9 879 325 0 1 1482 662 1920 1080 9691055
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 879 325 0 0 1482 662 1920 1080 9691113
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ LButtonArm `main_dlg_cur` `proe_win` 9 842 322 0 1 1482 662 1920 1080 9691305
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 842 322 0 0 1482 662 1920 1080 9691353
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ Select `annot_elem_add_page` `TypeRadioGroup` 1 `set_datum_tag`
+~ Activate `annot_elem_add_page` `OKButton`
+!%CPSelect a dimension, a gtol, a dimension witness line or a point on a surface.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 670 272 0 1 1482 662 1920 1080 9698201
+~ Move `main_dlg_cur` `proe_win` 9 671 272 0 513 1482 662 1920 1080 9698206
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 671 272 0 0 1482 662 1920 1080 9698249
+@ sel view 0
+ 11.616375 -1.215550 5.720232 -2.959625 9.749821 8.082103
+ -5.043733 -8.520693 8.431923 639.396496 386.359501 -1549.512050 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 76 78 -1 (-2.3131913298 8.7062023157) (-16.4937976843 9.2152493316 -8.4549079722)
+!Point:Surface:F7(REVOLVE_1)
+!%CPSelect a dimension, a gtol, a dimension witness line or a point on a surface.
+~ MButtonArm `main_dlg_cur` `proe_win` 9 694 275 0 2 1482 662 1920 1080 9699583
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 694 275 0 0 1482 662 1920 1080 9699792
+!Command ProCmdPmaToolAnnotDfs was pushed from the software.
+!Command ProCmdPmaToolAnnotDfs was pushed from the software.
+!Command ProCmdPmaToolAnnotDfs was pushed from the software.
+!LiveUI: Activating PmaToolAnnotDfs
+!Command ProCmdPmaToolAnnotDfs was pushed from the software.
+!LiveUI: Deactivating PmaToolAnnotDfs
+!LiveUI: Activating PmaToolAnnotDfs
+~ Wheel `main_dlg_cur` `proe_win` 9 704 214 393216 0 1482 662 1920 1080 9700221
+~ MButtonArm `main_dlg_cur` `proe_win` 9 704 214 0 2 1482 662 1920 1080 9700312
+~ Move `main_dlg_cur` `proe_win` 9 704 217 0 1026 1482 662 1920 1080 9700483
+~ Move `main_dlg_cur` `proe_win` 9 704 222 0 1026 1482 662 1920 1080 9700493
+~ Move `main_dlg_cur` `proe_win` 9 709 231 0 1538 1482 662 1920 1080 9700504
+~ Move `main_dlg_cur` `proe_win` 9 710 235 0 1538 1482 662 1920 1080 9700513
+~ Move `main_dlg_cur` `proe_win` 9 711 238 0 1538 1482 662 1920 1080 9700525
+~ Move `main_dlg_cur` `proe_win` 9 712 241 0 1538 1482 662 1920 1080 9700534
+~ Move `main_dlg_cur` `proe_win` 9 713 243 0 1538 1482 662 1920 1080 9700633
+~ Move `main_dlg_cur` `proe_win` 9 717 251 0 1538 1482 662 1920 1080 9700643
+~ Move `main_dlg_cur` `proe_win` 9 719 256 0 1538 1482 662 1920 1080 9700654
+~ Move `main_dlg_cur` `proe_win` 9 722 261 0 1538 1482 662 1920 1080 9700664
+~ Move `main_dlg_cur` `proe_win` 9 724 270 0 1538 1482 662 1920 1080 9700674
+~ Move `main_dlg_cur` `proe_win` 9 727 278 0 1538 1482 662 1920 1080 9700683
+~ Move `main_dlg_cur` `proe_win` 9 729 285 0 1538 1482 662 1920 1080 9700694
+~ Move `main_dlg_cur` `proe_win` 9 732 288 0 1538 1482 662 1920 1080 9700704
+~ Move `main_dlg_cur` `proe_win` 9 733 291 0 1538 1482 662 1920 1080 9700714
+~ Move `main_dlg_cur` `proe_win` 9 734 291 0 514 1482 662 1920 1080 9700723
+~ Move `main_dlg_cur` `proe_win` 9 734 292 0 1026 1482 662 1920 1080 9700733
+~ Move `main_dlg_cur` `proe_win` 9 734 293 0 1026 1482 662 1920 1080 9700953
+~ Move `main_dlg_cur` `proe_win` 9 735 293 0 514 1482 662 1920 1080 9700973
+~ Move `main_dlg_cur` `proe_win` 9 736 293 0 514 1482 662 1920 1080 9700993
+~ Move `main_dlg_cur` `proe_win` 9 737 293 0 514 1482 662 1920 1080 9701003
+~ Move `main_dlg_cur` `proe_win` 9 738 293 0 514 1482 662 1920 1080 9701014
+~ Move `main_dlg_cur` `proe_win` 9 739 293 0 514 1482 662 1920 1080 9701043
+~ Move `main_dlg_cur` `proe_win` 9 740 293 0 514 1482 662 1920 1080 9701054
+~ Move `main_dlg_cur` `proe_win` 9 741 292 0 1538 1482 662 1920 1080 9701083
+~ Move `main_dlg_cur` `proe_win` 9 742 291 0 1538 1482 662 1920 1080 9701113
+~ Move `main_dlg_cur` `proe_win` 9 743 290 0 1538 1482 662 1920 1080 9701123
+~ Move `main_dlg_cur` `proe_win` 9 749 286 0 1538 1482 662 1920 1080 9701143
+~ Move `main_dlg_cur` `proe_win` 9 751 286 0 514 1482 662 1920 1080 9701152
+~ Move `main_dlg_cur` `proe_win` 9 753 285 0 1538 1482 662 1920 1080 9701163
+~ Move `main_dlg_cur` `proe_win` 9 755 285 0 514 1482 662 1920 1080 9701175
+~ Move `main_dlg_cur` `proe_win` 9 761 284 0 1538 1482 662 1920 1080 9701186
+~ Move `main_dlg_cur` `proe_win` 9 765 284 0 514 1482 662 1920 1080 9701196
+~ Move `main_dlg_cur` `proe_win` 9 771 284 0 514 1482 662 1920 1080 9701207
+~ Move `main_dlg_cur` `proe_win` 9 774 284 0 514 1482 662 1920 1080 9701216
+~ Move `main_dlg_cur` `proe_win` 9 775 284 0 514 1482 662 1920 1080 9701226
+~ Move `main_dlg_cur` `proe_win` 9 775 283 0 1026 1482 662 1920 1080 9701253
+~ Move `main_dlg_cur` `proe_win` 9 777 282 0 1538 1482 662 1920 1080 9701283
+~ Move `main_dlg_cur` `proe_win` 9 782 282 0 514 1482 662 1920 1080 9701293
+~ Move `main_dlg_cur` `proe_win` 9 791 282 0 514 1482 662 1920 1080 9701313
+~ Move `main_dlg_cur` `proe_win` 9 801 279 0 1538 1482 662 1920 1080 9701322
+~ Move `main_dlg_cur` `proe_win` 9 812 278 0 1538 1482 662 1920 1080 9701333
+~ Move `main_dlg_cur` `proe_win` 9 820 278 0 514 1482 662 1920 1080 9701344
+~ Move `main_dlg_cur` `proe_win` 9 826 278 0 514 1482 662 1920 1080 9701353
+~ Move `main_dlg_cur` `proe_win` 9 832 278 0 514 1482 662 1920 1080 9701363
+~ Move `main_dlg_cur` `proe_win` 9 834 277 0 1538 1482 662 1920 1080 9701375
+~ Move `main_dlg_cur` `proe_win` 9 835 277 0 514 1482 662 1920 1080 9701384
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 835 277 0 0 1482 662 1920 1080 9701742
+~ Move `Odui_Dlg_00` `Odui_Dlg_00` 2 10.328082 4.619092
+~ Activate `main_dlg_cur` `page_Text_Style_control_btn` 1
+< 2 0.764444 1482 0 0 645 1920 0 0 1080 13
+~ Activate `main_dlg_cur` `page_Annotate_control_btn` 1
+!LiveUI: Deactivating PmaToolAnnotDfs
+!%CPSelect Single References
+~ Move `Odui_Dlg_00` `Odui_Dlg_00` 2 5.086191 3.321594
+~ Trigger `Odui_Dlg_00` `t1.elem_table` 2 `0` `Element_Name`
+~ Select `Odui_Dlg_00` `t1.elem_table` 2 `0` `Element_Name`
+~ Trigger `Odui_Dlg_00` `t1.elem_table` 2 `` ``
+~ Trigger `Odui_Dlg_00` `t1.SingleItemTable` 2 `0` `Reference`
+~ Trigger `Odui_Dlg_00` `t1.SingleItemTable` 2 `` ``
+~ FocusOut `Odui_Dlg_00` `elem_name_comp_INPUT1`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 753 276 0 1 1482 645 1920 1080 9761464
+~ Move `main_dlg_cur` `proe_win` 9 754 276 0 513 1482 645 1920 1080 9761465
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 754 276 0 0 1482 645 1920 1080 9761465
+@ sel view 0
+ -5.322673 1.015752 11.822698 1.850883 12.870073 -0.272455
+ -11.721014 1.571066 -5.411872 436.127929 444.085599 -1629.639423 0.800000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+@ sel stop
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 4 109 -1 (0.4252475889 0.0000000000) (-13.7940578660 0.0000000000 0.0000000000)
+!A_2(AXIS):F7(REVOLVE_1)
+~ Trigger `Odui_Dlg_00` `t1.SingleItemTable` 2 `1` `Strong`
+~ Trigger `Odui_Dlg_00` `t1.SingleItemTable` 2 `` ``
+~ Activate `Odui_Dlg_00` `stdbtn_2`
+! Message Dialog: Warning
+!               : Do you really want to Cancel?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!ODUI session finished.
+!ProgressBarDlg: Regen Started
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+< 2 0.712296 1482 0 0 601 1920 0 0 1080 13
+~ LButtonArm `main_dlg_cur` `proe_win` 9 717 233 0 1 1482 601 1920 1080 9768853
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 717 233 0 0 1482 601 1920 1080 9768922
+@ sel view 0
+ -5.322673 1.015752 11.822698 1.850883 12.870073 -0.272455
+ -11.721014 1.571066 -5.411872 436.127929 444.085599 -1629.639423 0.800000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ LButtonArm `main_dlg_cur` `proe_win` 9 379 158 0 1 1482 601 1920 1080 9769542
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 379 158 0 0 1482 601 1920 1080 9769662
+@ sel view 0
+ -5.322673 1.015752 11.822698 1.850883 12.870073 -0.272455
+ -11.721014 1.571066 -5.411872 436.127929 444.085599 -1629.639423 0.800000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ Wheel `main_dlg_cur` `proe_win` 9 320 219 393216 0 1482 601 1920 1080 9770301
+~ Command `ProCmdDtmTrgAnnotFeat` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Annotation Feature
+!ODUI session started.
+!%CPPlease add annotation elements.
+< 2 0.764444 1482 0 0 645 1920 0 0 1080 13
+~ Select `annot_elem_add_page` `TypeRadioGroup` 1 `existing_annot`
+!%CPSelect an existing annotation or annotation element to add to the active element.
+~ Trigger `annot_elem_add_page` `AnnotSelTable` `0`
+~ Trigger `annot_elem_add_page` `AnnotSelTable` ``
+~ LButtonArm `main_dlg_cur` `proe_win` 9 673 271 0 1 1482 645 1920 1080 9773947
+~ Move `main_dlg_cur` `proe_win` 9 673 271 0 1 1482 645 1920 1080 9773952
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 673 271 0 0 1482 645 1920 1080 9773983
+@ sel view 0
+ -5.322673 1.015752 11.822698 1.850883 12.870073 -0.272455
+ -11.721014 1.571066 -5.411872 436.127929 444.085599 -1629.639423 0.640000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ Select `annot_elem_add_page` `TypeRadioGroup` 1 `set_datum_tag`
+~ Activate `annot_elem_add_page` `OKButton`
+!%CPSelect a dimension, a gtol, a dimension witness line or a point on a surface.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 715 247 0 1 1482 645 1920 1080 9780167
+~ Move `main_dlg_cur` `proe_win` 9 715 247 0 1 1482 645 1920 1080 9780171
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 715 247 0 0 1482 645 1920 1080 9780244
+@ sel view 0
+ -5.322673 1.015752 11.822698 1.850883 12.870073 -0.272455
+ -11.721014 1.571066 -5.411872 436.127929 444.085599 -1629.639423 0.640000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 76 78 -1 (-0.2227034323 17.8852347798) (-7.3147652202 2.7622191080 12.1973945850)
+!Point:Surface:F7(REVOLVE_1)
+!%CPSelect a dimension, a gtol, a dimension witness line or a point on a surface.
+~ MButtonArm `main_dlg_cur` `proe_win` 9 775 208 0 2 1482 645 1920 1080 9781562
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 775 208 0 0 1482 645 1920 1080 9781741
+!Command ProCmdPmaToolAnnotDfs was pushed from the software.
+!Command ProCmdPmaToolAnnotDfs was pushed from the software.
+!Command ProCmdPmaToolAnnotDfs was pushed from the software.
+!LiveUI: Activating PmaToolAnnotDfs
+!Command ProCmdPmaToolAnnotDfs was pushed from the software.
+!LiveUI: Deactivating PmaToolAnnotDfs
+!LiveUI: Activating PmaToolAnnotDfs
+~ Wheel `main_dlg_cur` `proe_win` 9 663 79 458752 0 1482 645 1920 1080 9782931
+~ Activate `main_dlg_cur` `page_Annotate_control_btn` 1
+!LiveUI: Deactivating PmaToolAnnotDfs
+!%CPSelect Single References
+~ Trigger `Odui_Dlg_00` `t1.SingleItemTable` 2 `0` `Reference`
+~ Trigger `Odui_Dlg_00` `t1.SingleItemTable` 2 `` ``
+~ Wheel `main_dlg_cur` `proe_win` 9 674 341 458752 0 1482 645 1920 1080 9785361
+~ Wheel `main_dlg_cur` `proe_win` 9 674 341 458752 0 1482 645 1920 1080 9785551
+~ Wheel `main_dlg_cur` `proe_win` 9 674 341 458752 0 1482 645 1920 1080 9785651
+~ Wheel `main_dlg_cur` `proe_win` 9 674 341 458752 0 1482 645 1920 1080 9785701
+~ Wheel `main_dlg_cur` `proe_win` 9 677 337 458752 0 1482 645 1920 1080 9785781
+~ LButtonArm `main_dlg_cur` `proe_win` 9 711 290 0 1 1482 645 1920 1080 9786784
+~ Move `main_dlg_cur` `proe_win` 9 711 291 0 1025 1482 645 1920 1080 9786812
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 711 291 0 0 1482 645 1920 1080 9786931
+@ sel view 0
+ -5.322673 1.015752 11.822698 1.850883 12.870073 -0.272455
+ -11.721014 1.571066 -5.411872 436.127929 444.085599 -1629.639423 2.441406 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+@ sel stop
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 4 109 -1 (0.0833643805 0.0000000000) (-21.9992548689 0.0000000000 0.0000000000)
+!A_2(AXIS):F7(REVOLVE_1)
+~ Trigger `Odui_Dlg_00` `t1.SingleItemTable` 2 `1` `Reference`
+~ Trigger `Odui_Dlg_00` `t1.SingleItemTable` 2 `0` `Reference`
+~ FocusIn `Odui_Dlg_00` `t1.SingleItemTable`
+~ Select `Odui_Dlg_00` `t1.SingleItemTable` 2 `0` `Reference`
+~ RButtonArm `Odui_Dlg_00` `t1.SingleItemTable` 2 `0` `Reference`
+~ PopupOver `Odui_Dlg_00` `t1.SingleItemCollector_Wmo01` 1 `t1.SingleItemTable`
+~ Open `Odui_Dlg_00` `t1.SingleItemCollector_Wmo01`
+~ Trigger `Odui_Dlg_00` `t1.SingleItemTable` 2 `` ``
+~ Close `Odui_Dlg_00` `t1.SingleItemCollector_Wmo01`
+~ Activate `Odui_Dlg_00` `t1.replace_Wmo01`
+~ FocusIn `Odui_Dlg_00` `t1.SingleItemTable`
+!%CPSelect an alternate surface.
+~ Trigger `Odui_Dlg_00` `t1.SingleItemTable` 2 `1` `Reference`
+~ Trigger `Odui_Dlg_00` `t1.SingleItemTable` 2 `1` `Strong`
+~ Trigger `Odui_Dlg_00` `t1.SingleItemTable` 2 `` ``
+~ LButtonArm `main_dlg_cur` `proe_win` 9 678 284 0 1 1482 645 1920 1080 9791717
+~ Move `main_dlg_cur` `proe_win` 9 678 284 0 1 1482 645 1920 1080 9791721
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 678 284 0 0 1482 645 1920 1080 9791773
+@ sel view 0
+ -5.322673 1.015752 11.822698 1.850883 12.870073 -0.272455
+ -11.721014 1.571066 -5.411872 436.127929 444.085599 -1629.639423 2.441406 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ LButtonArm `main_dlg_cur` `proe_win` 9 688 288 0 1 1482 645 1920 1080 9792171
+~ Move `main_dlg_cur` `proe_win` 9 689 288 0 513 1482 645 1920 1080 9792181
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 689 288 0 0 1482 645 1920 1080 9792291
+@ sel view 0
+ -5.322673 1.015752 11.822698 1.850883 12.870073 -0.272455
+ -11.721014 1.571066 -5.411872 436.127929 444.085599 -1629.639423 2.441406 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ LButtonArm `main_dlg_cur` `proe_win` 9 689 288 0 129 1482 645 1920 1080 9792382
+** 0.431977 0.551938 2 64 64
+0.542214 0.406143 E 0 0.764444444 2
+@ sel view 0
+ -5.322673 1.015752 11.822698 1.850883 12.870073 -0.272455
+ -11.721014 1.571066 -5.411872 436.127929 444.085599 -1629.639423 2.441406 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 689 288 0 0 1482 645 1920 1080 9792492
+~ Trigger `Odui_Dlg_00` `t1.SingleItemTable` 2 `1` `Strong`
+~ Trigger `Odui_Dlg_00` `t1.SingleItemTable` 2 `0` `Strong`
+~ Trigger `Odui_Dlg_00` `t1.SingleItemTable` 2 `0` `Reference`
+~ Trigger `Odui_Dlg_00` `t1.SingleItemTable` 2 `` ``
+~ Trigger `Odui_Dlg_00` `t1.SingleItemTable` 2 `0` `Reference`
+~ Trigger `Odui_Dlg_00` `t1.SingleItemTable` 2 `1` `Reference`
+~ Trigger `Odui_Dlg_00` `t1.SingleItemTable` 2 `` ``
+~ Activate `Odui_Dlg_00` `t1.SrfCheckButton` 1
+!%CPSelect surfaces to propagate annotation elements by selecting individual surfaces or by applying selection rules. You can select surfaces created by Offset, Copy, or Moved Copy features.
+~ Trigger `Odui_Dlg_00` `t1.SingleItemTable` 2 `1` `Ref_Type`
+~ Trigger `Odui_Dlg_00` `t1.SingleItemTable` 2 `` ``
+~ Trigger `Odui_Dlg_00` `t1.elem_table` 2 `0` `Element_Name`
+~ Select `Odui_Dlg_00` `t1.elem_table` 2 `0` `Element_Name`
+~ Trigger `Odui_Dlg_00` `t1.elem_table` 2 `` ``
+~ Activate `Odui_Dlg_00` `t1.datum_target`
+!%CEThe file C:\Program Files\PTC\Creo 5.0.0.0\Common Files\symbols\targets\single\datum_target.sym was created with a commercial version of Creo Parametric
+!%C_and is not compatible with the version of Creo Parametric Student Edition (for educational use only) you a
+~ Close `warning` `warning`

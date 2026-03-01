@@ -1,0 +1,201 @@
+﻿!UI trail file version 1
+!Application name  `PRO`
+! UITools Msg Dialog Future: warning
+!                          : The configuration settings that you have made will be
+!                          : applied to the current session only.
+!                          : 
+!                          : Do you want to save settings to a configuration file?
+!                          : 
+!                          : Note: user customization will be automatically
+!                          : saved to your profile directory.
+~ FocusIn `UITools Msg Dialog Future` `no`
+~ Activate `UITools Msg Dialog Future` `no`
+!ODUI external UI session stop. 
+!Command ProCmdInfoNmgrLightDlg was pushed from the software.
+~ Wheel `main_dlg_cur` `proe_win` 9 1696 1158 458752 1536 3951 2091 3840 2160 3649482
+~ Wheel `main_dlg_cur` `proe_win` 9 1696 1158 458752 0 3951 2091 3840 2160 3649575
+~ Wheel `main_dlg_cur` `proe_win` 9 1696 1158 393216 0 3951 2091 3840 2160 3649798
+~ Wheel `main_dlg_cur` `proe_win` 9 1696 1158 393216 0 3951 2091 3840 2160 3649854
+~ Wheel `main_dlg_cur` `proe_win` 9 1696 1158 393216 0 3951 2091 3840 2160 3649966
+~ Activate `nmgr_light_dlg` `CloseBTN`
+~ Wheel `main_dlg_cur` `proe_win` 9 1931 965 458752 1536 3951 2091 3840 2160 3652573
+~ Wheel `main_dlg_cur` `proe_win` 9 1929 988 458752 1536 3951 2091 3840 2160 3652632
+~ Wheel `main_dlg_cur` `proe_win` 9 1929 995 393216 1536 3951 2091 3840 2160 3653038
+~ Wheel `main_dlg_cur` `proe_win` 9 1929 995 393216 0 3951 2091 3840 2160 3653094
+~ Wheel `main_dlg_cur` `proe_win` 9 1929 995 393216 0 3951 2091 3840 2160 3653150
+~ Wheel `main_dlg_cur` `proe_win` 9 1929 995 393216 0 3951 2091 3840 2160 3653206
+~ LButtonArm `main_dlg_cur` `proe_win` 9 3058 498 0 1 3951 2091 3840 2160 3653671
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 3058 498 0 0 3951 2091 3840 2160 3653781
+@ sel view 0
+ 0.492555 0.000000 0.000000 0.000000 0.492555 0.000000
+ 0.000000 0.000000 0.492555 621.186019 196.426107 -2397.872220 5.960464 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ Wheel `main_dlg_cur` `proe_win` 9 1464 908 458752 1024 3951 2091 3840 2160 3655761
+~ Wheel `main_dlg_cur` `proe_win` 9 1474 918 458752 1024 3951 2091 3840 2160 3655821
+~ Wheel `main_dlg_cur` `proe_win` 9 1501 938 458752 1536 3951 2091 3840 2160 3655883
+~ Wheel `main_dlg_cur` `proe_win` 9 1511 945 458752 1536 3951 2091 3840 2160 3655950
+~ Wheel `main_dlg_cur` `proe_win` 9 1524 950 458752 1536 3951 2091 3840 2160 3655967
+~ Wheel `main_dlg_cur` `proe_win` 9 1529 955 458752 1024 3951 2091 3840 2160 3656029
+~ Wheel `main_dlg_cur` `proe_win` 9 1536 958 458752 1024 3951 2091 3840 2160 3656093
+~ Wheel `main_dlg_cur` `proe_win` 9 1546 965 458752 1536 3951 2091 3840 2160 3656156
+~ Wheel `main_dlg_cur` `proe_win` 9 1416 473 393216 1536 3951 2091 3840 2160 3656942
+~ Wheel `main_dlg_cur` `proe_win` 9 1416 473 393216 0 3951 2091 3840 2160 3657009
+~ Wheel `main_dlg_cur` `proe_win` 9 1416 473 393216 0 3951 2091 3840 2160 3657021
+~ Wheel `main_dlg_cur` `proe_win` 9 1414 470 393216 512 3951 2091 3840 2160 3657079
+~ Wheel `main_dlg_cur` `proe_win` 9 1414 470 393216 1536 3951 2091 3840 2160 3657167
+~ Wheel `main_dlg_cur` `proe_win` 9 1411 470 393216 1536 3951 2091 3840 2160 3657369
+~ Wheel `main_dlg_cur` `proe_win` 9 2081 1465 393216 1536 3951 2091 3840 2160 3657852
+~ Wheel `main_dlg_cur` `proe_win` 9 1699 655 458752 1536 3951 2091 3840 2160 3658269
+~ Wheel `main_dlg_cur` `proe_win` 9 1699 655 458752 0 3951 2091 3840 2160 3658370
+~ Wheel `main_dlg_cur` `proe_win` 9 1509 768 393216 1536 3951 2091 3840 2160 3663242
+~ Wheel `main_dlg_cur` `proe_win` 9 1501 768 393216 1536 3951 2091 3840 2160 3663343
+~ Select `main_dlg_cur` `appl_casc`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdRibbonOptionsDlg` 
+!ODUI external UI session start for device : ribbon_options_dialog 
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `env_layouts`
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `DisplayLayout`
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `colors_layouts`
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `DisplayLayout`
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `DisplayObjLayout`
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `Sel_prefs`
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `sketch_layouts`
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `assembly_layouts`
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `assembly_layouts`
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `detailing_layouts`
+~ Activate `ribbon_options_dialog` `CancelPshBtn`
+!ODUI external UI session stop. 
+~ LButtonArm `main_dlg_cur` `proe_win` 9 2528 542 0 1 3951 2091 3840 2160 3705285
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 2528 542 0 0 3951 2091 3840 2160 3705318
+@ sel view 0
+ 0.492555 0.000000 0.000000 0.000000 0.492555 0.000000
+ 0.000000 0.000000 0.492555 621.186019 196.426107 -2397.872220 7.450581 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ Wheel `main_dlg_cur` `proe_win` 9 2454 518 458752 1536 3951 2091 3840 2160 3705812
+~ Wheel `main_dlg_cur` `proe_win` 9 2454 518 458752 0 3951 2091 3840 2160 3705834
+~ Wheel `main_dlg_cur` `proe_win` 9 2449 518 458752 1536 3951 2091 3840 2160 3705958
+~ Wheel `main_dlg_cur` `proe_win` 9 2449 518 458752 0 3951 2091 3840 2160 3706070
+~ Wheel `main_dlg_cur` `proe_win` 9 2449 518 458752 0 3951 2091 3840 2160 3706127
+~ Wheel `main_dlg_cur` `proe_win` 9 2449 518 458752 1536 3951 2091 3840 2160 3706161
+~ Wheel `main_dlg_cur` `proe_win` 9 2726 548 393216 1536 3951 2091 3840 2160 3706499
+~ Wheel `main_dlg_cur` `proe_win` 9 2841 565 393216 1536 3951 2091 3840 2160 3706556
+~ Wheel `main_dlg_cur` `proe_win` 9 2856 568 393216 1536 3951 2091 3840 2160 3706589
+~ Wheel `main_dlg_cur` `proe_win` 9 2869 570 393216 1024 3951 2091 3840 2160 3706633
+~ Wheel `main_dlg_cur` `proe_win` 9 2869 573 393216 1024 3951 2091 3840 2160 3706679
+~ Wheel `main_dlg_cur` `proe_win` 9 2869 573 393216 0 3951 2091 3840 2160 3706734
+~ Wheel `main_dlg_cur` `proe_win` 9 2869 573 393216 0 3951 2091 3840 2160 3706791
+~ Wheel `main_dlg_cur` `proe_win` 9 2869 573 393216 0 3951 2091 3840 2160 3706802
+~ Wheel `main_dlg_cur` `proe_win` 9 2869 573 393216 1536 3951 2091 3840 2160 3706847
+~ Wheel `main_dlg_cur` `proe_win` 9 2004 395 458752 512 3951 2091 3840 2160 3707162
+~ Wheel `main_dlg_cur` `proe_win` 9 2001 395 458752 1536 3951 2091 3840 2160 3707185
+~ Wheel `main_dlg_cur` `proe_win` 9 1999 400 458752 1536 3951 2091 3840 2160 3707229
+~ Wheel `main_dlg_cur` `proe_win` 9 1999 400 458752 1536 3951 2091 3840 2160 3707252
+~ Wheel `main_dlg_cur` `proe_win` 9 1999 403 458752 512 3951 2091 3840 2160 3707274
+~ Wheel `main_dlg_cur` `proe_win` 9 1999 405 458752 512 3951 2091 3840 2160 3707297
+~ Wheel `main_dlg_cur` `proe_win` 9 1999 405 458752 1536 3951 2091 3840 2160 3707308
+~ Wheel `main_dlg_cur` `proe_win` 9 1999 408 458752 512 3951 2091 3840 2160 3707398
+~ Wheel `main_dlg_cur` `proe_win` 9 1596 428 393216 1536 3951 2091 3840 2160 3707567
+~ Wheel `main_dlg_cur` `proe_win` 9 1571 428 393216 1536 3951 2091 3840 2160 3707601
+~ Wheel `main_dlg_cur` `proe_win` 9 1556 428 393216 1024 3951 2091 3840 2160 3707646
+~ Wheel `main_dlg_cur` `proe_win` 9 1541 428 393216 1024 3951 2091 3840 2160 3707681
+~ Wheel `main_dlg_cur` `proe_win` 9 1534 428 393216 1536 3951 2091 3840 2160 3707826
+~ Wheel `main_dlg_cur` `proe_win` 9 3094 960 458752 1536 3951 2091 3840 2160 3708062
+~ Wheel `main_dlg_cur` `proe_win` 9 3096 963 458752 1536 3951 2091 3840 2160 3708132
+~ Wheel `main_dlg_cur` `proe_win` 9 3099 965 458752 512 3951 2091 3840 2160 3708202
+~ Wheel `main_dlg_cur` `proe_win` 9 3099 965 458752 0 3951 2091 3840 2160 3708273
+~ Wheel `main_dlg_cur` `proe_win` 9 3099 965 458752 0 3951 2091 3840 2160 3708290
+~ Wheel `main_dlg_cur` `proe_win` 9 3141 708 393216 1536 3951 2091 3840 2160 3708748
+~ Wheel `main_dlg_cur` `proe_win` 9 1356 603 393216 1536 3951 2091 3840 2160 3709381
+~ Wheel `main_dlg_cur` `proe_win` 9 2696 560 393216 1536 3951 2091 3840 2160 3710098
+~ LButtonArm `main_dlg_cur` `proe_win` 9 3060 697 0 1 3951 2091 3840 2160 3711361
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 3060 697 0 0 3951 2091 3840 2160 3711416
+@ sel view 0
+ 0.492555 0.000000 0.000000 0.000000 0.492555 0.000000
+ 0.000000 0.000000 0.492555 621.186019 196.426107 -2397.872220 11.641532 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ Select `main_dlg_cur` `igToolbar_AncestorIGT_IGT_GRP_inh397369119.proe_win:casc340798662`
+~ Close `main_dlg_cur` `igToolbar_AncestorIGT_IGT_GRP_inh397369119.proe_win:casc340798662`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 722 136 0 1 3951 2091 3840 2160 3718143
+~ Move `main_dlg_cur` `proe_win` 9 720 136 0 513 3951 2091 3840 2160 3718155
+~ Move `main_dlg_cur` `proe_win` 9 719 136 0 513 3951 2091 3840 2160 3718165
+~ Move `main_dlg_cur` `proe_win` 9 717 136 0 513 3951 2091 3840 2160 3718175
+~ Move `main_dlg_cur` `proe_win` 9 716 134 0 1537 3951 2091 3840 2160 3718187
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 716 134 0 0 3951 2091 3840 2160 3718198
+@ sel view 0
+ 0.492555 0.000000 0.000000 0.000000 0.492555 0.000000
+ 0.000000 0.000000 0.492555 621.186019 196.426107 -2397.872220 11.641532 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ LButtonArm `main_dlg_cur` `proe_win` 9 592 99 0 1 3951 2091 3840 2160 3718348
+~ Move `main_dlg_cur` `proe_win` 9 591 99 0 513 3951 2091 3840 2160 3718356
+~ Move `main_dlg_cur` `proe_win` 9 589 99 0 513 3951 2091 3840 2160 3718368
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 589 99 0 0 3951 2091 3840 2160 3718390
+@ sel view 0
+ 0.492555 0.000000 0.000000 0.000000 0.492555 0.000000
+ 0.000000 0.000000 0.492555 621.186019 196.426107 -2397.872220 11.641532 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+< 0 2.478222 3758 0 0 2091 3840 0 0 2160 13
+~ Move `main_dlg_cur` `main_dlg_cur` 0
+~ Resize `main_dlg_w1` `main_dlg_w1` 0
+< 2 2.300444 3951 0 0 1941 3840 0 0 2160 13
+< 0 2.300444 3758 0 0 1941 3840 0 0 2160 13
+~ Resize `main_dlg_cur` `main_dlg_cur` 0
+~ Resize `main_dlg_w1` `main_dlg_w1` 0
+< 2 2.442667 3951 0 0 2061 3840 0 0 2160 13
+< 0 2.442667 3758 0 0 2061 3840 0 0 2160 13
+~ Resize `main_dlg_cur` `main_dlg_cur` 0
+~ Resize `main_dlg_w1` `main_dlg_w1` 0
+< 2 2.478222 3951 0 0 2091 3840 0 0 2160 13
+< 0 2.478222 3758 0 0 2091 3840 0 0 2160 13
+~ Resize `main_dlg_cur` `main_dlg_cur` 0
+~ Resize `main_dlg_w1` `main_dlg_w1` 0
+~ Move `main_dlg_cur` `main_dlg_cur` 0
+~ Move `main_dlg_w1` `main_dlg_w1` 0
+< 2 2.596741 3951 0 0 2191 3840 0 0 2160 13
+< 0 2.596741 3758 0 0 2191 3840 0 0 2160 13
+~ Resize `main_dlg_cur` `main_dlg_cur` 0
+~ Resize `main_dlg_w1` `main_dlg_w1` 0
+< 2 2.501926 3951 0 0 2111 3840 0 0 2160 13
+< 0 2.478222 3758 0 0 2091 3840 0 0 2160 13
+~ Resize `main_dlg_cur` `main_dlg_cur` 0
+~ Resize `main_dlg_w1` `main_dlg_w1` 0
+< 2 2.478222 3951 0 0 2091 3840 0 0 2160 13
+~ Resize `main_dlg_cur` `main_dlg_cur` 0
+~ Wheel `main_dlg_cur` `proe_win` 9 2979 583 458752 1536 3951 2091 3840 2160 12393118
+~ Wheel `main_dlg_cur` `proe_win` 9 2976 585 458752 1536 3951 2091 3840 2160 12393155
+~ Wheel `main_dlg_cur` `proe_win` 9 2969 595 458752 512 3951 2091 3840 2160 12393197
+~ Wheel `main_dlg_cur` `proe_win` 9 3001 615 458752 1024 3951 2091 3840 2160 12393704
+~ Wheel `main_dlg_cur` `proe_win` 9 3001 618 393216 1024 3951 2091 3840 2160 12393962
+~ Wheel `main_dlg_cur` `proe_win` 9 3001 618 393216 0 3951 2091 3840 2160 12394020
+~ Wheel `main_dlg_cur` `proe_win` 9 3001 618 393216 0 3951 2091 3840 2160 12394076
+~ Wheel `main_dlg_cur` `proe_win` 9 3001 618 393216 0 3951 2091 3840 2160 12394184
+~ Wheel `main_dlg_cur` `proe_win` 9 3001 618 393216 0 3951 2091 3840 2160 12394192
+~ Wheel `main_dlg_cur` `proe_win` 9 3001 618 393216 0 3951 2091 3840 2160 12394299
+~ Wheel `main_dlg_cur` `proe_win` 9 3001 618 393216 0 3951 2091 3840 2160 12394401
+< 2 1.814519 2776 0 0 1531 3840 0 0 2160 13
+< 2 1.838222 2991 0 0 1551 3840 0 0 2160 13
+~ Resize `main_dlg_cur` `main_dlg_cur` 0
+~ Move `main_dlg_cur` `main_dlg_cur` 0
+~ Minimize `main_dlg_w1` `main_dlg_w1`
+< 2 2.478222 3951 0 0 2091 3840 0 0 2160 13
+~ Resize `main_dlg_cur` `main_dlg_cur` 0
+< 2 2.596741 3951 0 0 2191 3840 0 0 2160 13
+~ Resize `main_dlg_cur` `main_dlg_cur` 0
+~ Move `main_dlg_cur` `main_dlg_cur` 0
+< 2 2.478222 3951 0 0 2091 3840 0 0 2160 13
+~ Resize `main_dlg_cur` `main_dlg_cur` 0
+~ Activate `lic_exitdlg` `Exit`
+! Message Dialog: Warning
+!               : Creo Parametric Student Edition (for educational use only) will terminate and any unsaved work will be lost.
+!               : Do you really want to exit?
+~ Activate `UI Message Dialog` `yes`
+!End of Trail File

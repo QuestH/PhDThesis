@@ -1,0 +1,90 @@
+﻿Unigraphics NX V11.0 / 2D Exchange
+
+Reading part: C:\Users\Giorgos\OneDrive - Loughborough University\Uni\Year 3\Individual Project\Individual Project - GP\Rig assy\chassis shaker\LT_chassis_v2.prt
+
+
+Writing part: C:\Users\Giorgos\AppData\Local\Temp\Gior3B2C1909n26i.prt
+
+Elapsed time   :    0 minutes,  3 seconds
+Actual CPU Time:    0 minutes,  3 seconds
+
+
+ 
+	 	 Annotation Summary 
+ 
+
+ 
+Dimensions in input Part 
+-------------------------------------------------------------------------------------------------------------
+Linear                                         :	16
+Radial                                         :	2
+-------------------------------------------------------------------------------------------------------------
+Total                                          :	18
+-------------------------------------------------------------------------------------------------------------
+
+Dimensions in output 2D Part 
+-------------------------------------------------------------------------------------------------------------
+Linear                                         :	16
+-------------------------------------------------------------------------------------------------------------
+Total                                          :	16
+-------------------------------------------------------------------------------------------------------------
+
+INFO-  Following Dimensions Exported As Grouped
+-------------------------------------------------------------------------------------------------------------
+Type		Dimension Value   View 	 	     Sheet 			   Reason
+-------------------------------------------------------------------------------------------------------------
+Radial                                               Sheet A3                     Hole Callout
+Radial                                               Sheet A3                     Hole Callout
+-------------------------------------------------------------------------------------------------------------
+INFO-
+INFO-		Unigraphics Version NX V11.0 to AutoCAD 2004
+INFO-		
+INFO-
+INFO-		Running UGTODXF Translator .....
+INFO-
+INFO-		Start of Translation: Wed Apr 20 16:36:25 2022
+INFO-
+STATUS-		Converting C:\Users\Giorgos\AppData\Local\Temp\Gior3B2C1909n26i.prt
+STATUS-
+SUMMARY-
+SUMMARY-	Summary of Unigraphics Input Entities
+SUMMARY-	For Unigraphics File: C:\Users\Giorgos\AppData\Local\Temp\Gior3B2C1909n26i.prt
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Entity Type					Count
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Line .....................................:	79
+SUMMARY-	Point ....................................:	2
+SUMMARY-	Circle ...................................:	29
+SUMMARY-	Group ....................................:	3
+SUMMARY-	Note .....................................:	14
+SUMMARY-	Cross Hatch ..............................:	2
+SUMMARY-	Dimension ................................:	16
+SUMMARY-	Image ....................................:	1
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Total ....................................:	146
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-
+STATUS-
+INFO-
+INFO-		Writing File: C:\Users\Giorgos\OneDrive - Loughborough University\Uni\Year 3\Individual Project\Individual Project - GP\Rig assy\chassis shaker\DXF files\LT_chassis_v2.dxf
+SUMMARY-	Summary of AutoCAD Output Entities
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Entity Type					Count
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Circle ...................................:	29
+SUMMARY-	Dimension ................................:	16
+SUMMARY-	Point ....................................:	2
+SUMMARY-	Line .....................................:	174
+SUMMARY-	Solid 2D .................................:	32
+SUMMARY-	Hatch ....................................:	2
+SUMMARY-	Multiline Text ...........................:	74
+SUMMARY-	Group ....................................:	3
+SUMMARY-	Layout ...................................:	6
+SUMMARY-	Image ...................................:	1
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Total ....................................:	340
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-
+INFO-
+INFO-		End of Translation: Wed Apr 20 16:36:26 2022
+INFO-		Translation CPU time: 0 m, 1 sINFO-

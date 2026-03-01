@@ -1,0 +1,3330 @@
+﻿!UI trail file version 1
+!Application name  `PRO`
+! Executed sub-command ProCmdEditDeleteFeat.
+~ Activate `del_sup_msg` `cancel`
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node2`
+!Chamfer 1
+~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node2`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w3:PHTLeft.AssyTree:<NULL>`
+~ PopupOver `main_dlg_cur` `PM_PHTLeft.AssyTree` 1 `PHTLeft.AssyTree`
+~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Command `ProCmdRedefine@PopupMenuTree` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style on, Tab style off. Feature title : Edge Chamfer
+!ODUI session started.
+!%CPSelect an edge or a chain of edges to create a chamfer set.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1593 517 0 1 2442 1214 1920 1080 351945
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1593 517 0 0 2442 1214 1920 1080 351976
+@ sel view 0
+ 13.502379 7.892312 2.126587 1.297161 1.985424 -15.604508
+ -8.070213 13.523857 1.049839 662.028548 437.440934 -1903.926000 2.441406 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 198 20390 20391 (0.3936795727 16.0634998393) (-5.1365001607 6.1617835076 -14.8347042806)
+!Set 3
+~ Key `main_dlg_cur` `proe_win` 9 1609 514 196608 1536 2442 1214 1920 1080 352169 `Del`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1608 520 0 1 2442 1214 1920 1080 354047
+~ Move `main_dlg_cur` `proe_win` 9 1608 520 0 1 2442 1214 1920 1080 354048
+~ Move `main_dlg_cur` `proe_win` 9 1608 520 0 1 2442 1214 1920 1080 354065
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1608 520 0 0 2442 1214 1920 1080 354135
+@ sel view 0
+ 13.502379 7.892312 2.126587 1.297161 1.985424 -15.604508
+ -8.070213 13.523857 1.049839 662.028548 437.440934 -1903.926000 2.441406 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 209 0 -1 (0.1301202148 2061.0000000000) (-5.0000000000 6.3599114725 -14.6816731356)
+!Edge:F6(REVOLVE_1)
+~ Key `main_dlg_cur` `proe_win` 9 1608 520 196608 0 2442 1214 1920 1080 354135 `Del`
+~ Activate `main_dlg_cur` `chkbn.chamfer_setspg.0` 1
+~ Trigger `chamfer_setspg.1.0` `PH.rndchSets` `Set 4`
+~ Trigger `chamfer_setspg.1.0` `PH.rndchSets` `Set 3`
+~ Select `chamfer_setspg.1.0` `PH.rndchSets` 0
+~ Select `chamfer_setspg.1.0` `PH.rndchSets` 0
+~ Trigger `chamfer_setspg.1.0` `PH.rndchSets` `Set 4`
+~ Trigger `chamfer_setspg.1.0` `PH.rndchSets` ``
+~ Trigger `chamfer_setspg.1.0` `PH.References` `0`
+~ Trigger `chamfer_setspg.1.0` `PH.References` ``
+~ Trigger `chamfer_setspg.1.0` `PH.DimTable` 2 `0` `R`
+~ Trigger `chamfer_setspg.1.0` `PH.DimTable` 2 `` ``
+~ Trigger `chamfer_setspg.1.0` `PH.DimTable` 2 `0` `R`
+~ Trigger `chamfer_setspg.1.0` `PH.DimTable` 2 `` ``
+~ Trigger `chamfer_setspg.1.0` `PH.References` `0`
+~ Trigger `chamfer_setspg.1.0` `PH.References` ``
+~ Trigger `chamfer_setspg.1.0` `PH.rndchSets` `Set 4`
+~ Trigger `chamfer_setspg.1.0` `PH.rndchSets` `Set 3`
+~ RButtonArm `chamfer_setspg.1.0` `PH.rndchSets` `Set 3`
+~ PopupOver `chamfer_setspg.1.0` `PH.OptListMenu_Wmo01` 1 `PH.rndchSets`
+~ Open `chamfer_setspg.1.0` `PH.OptListMenu_Wmo01`
+~ Trigger `chamfer_setspg.1.0` `PH.rndchSets` ``
+~ Close `chamfer_setspg.1.0` `PH.OptListMenu_Wmo01`
+~ Activate `chamfer_setspg.1.0` `PH.Remove_Wmo01`
+~ Enter `main_dlg_cur` `dashInst0.Quit`
+~ Exit `main_dlg_cur` `dashInst0.Quit`
+~ Enter `main_dlg_cur` `dashInst0.Quit`
+~ Exit `main_dlg_cur` `dashInst0.Quit`
+~ FocusOut `chamfer_setspg.1.0` `PH.rndchSets`
+~ Activate `main_dlg_cur` `dashInst0.Done`
+!ODUI session finished.
+!ProgressBarDlg: Regen Started
+!%CIRegenerating PART2 feature 7 out of 7 ...
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 56 type 5300 
+!%CIFeature redefined successfully.
+!F7(CHAMFER_1)
+~ LButtonArm `main_dlg_cur` `proe_win` 9 671 205 0 1 2442 1214 1920 1080 365495
+~ Move `main_dlg_cur` `proe_win` 9 669 206 0 1537 2442 1214 1920 1080 365507
+~ Move `main_dlg_cur` `proe_win` 9 669 207 0 1025 2442 1214 1920 1080 365514
+~ Move `main_dlg_cur` `proe_win` 9 669 208 0 1025 2442 1214 1920 1080 365524
+~ Move `main_dlg_cur` `proe_win` 9 671 208 0 513 2442 1214 1920 1080 365534
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 671 208 0 0 2442 1214 1920 1080 365535
+@ sel view 0
+ 13.502379 7.892312 2.126587 1.297161 1.985424 -15.604508
+ -8.070213 13.523857 1.049839 662.028548 437.440934 -1903.926000 2.441406 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ Activate `main_dlg_cur` `page_Model_control_btn` 1
+~ Command `ProCmdRound` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style on, Tab style off. Feature title : Round
+!ODUI session started.
+!%CPSelect an edge or chain of edges, or a surface to create round set.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1532 490 0 1 2442 1214 1920 1080 369025
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1532 490 0 0 2442 1214 1920 1080 369074
+@ sel view 0
+ 13.502379 7.892312 2.126587 1.297161 1.985424 -15.604508
+ -8.070213 13.523857 1.049839 662.028548 437.440934 -1903.926000 2.441406 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 3 75 -1 (0.0775279413 0.0000000000) (-5.0000000000 3.8582816912 -15.5278269966)
+!Edge:F6(REVOLVE_1)
+!%CPYou can add edges to this set, or create a new set.
+~ Input `main_dlg_cur` `maindashInst0.cir_rad_list` `0`
+~ Input `main_dlg_cur` `maindashInst0.cir_rad_list` `0.`
+~ Input `main_dlg_cur` `maindashInst0.cir_rad_list` `0.6`
+~ Update `main_dlg_cur` `maindashInst0.cir_rad_list` `0.6`
+~ Activate `main_dlg_cur` `maindashInst0.cir_rad_list`
+~ FocusOut `main_dlg_cur` `maindashInst0.cir_rad_list`
+~ Activate `main_dlg_cur` `dashInst0.Done`
+!ODUI session finished.
+!F8(ROUND_1)
+!Undo: added rec_id 59 type 5304 
+~ LButtonArm `main_dlg_cur` `proe_win` 9 723 112 0 1 2442 1214 1920 1080 374978
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 723 112 0 0 2442 1214 1920 1080 375054
+@ sel view 0
+ 13.502379 7.892312 2.126587 1.297161 1.985424 -15.604508
+ -8.070213 13.523857 1.049839 662.028548 437.440934 -1903.926000 2.441406 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ Wheel `main_dlg_cur` `proe_win` 9 665 206 393216 1536 2442 1214 1920 1080 375333
+~ Wheel `main_dlg_cur` `proe_win` 9 665 206 393216 1536 2442 1214 1920 1080 375404
+~ Command `ProCmdModelSave` 
+!%CIPART2 has been saved.
+~ Activate `main_dlg_cur` `page_View_control_btn` 1
+~ Command `ProCmdWinRadio`  `NA49_32_BUSHING.DRW.1`
+!sket_eps       0.760755221
+!Command ProCmdEnvShaded was pushed from the software.
+!%CI Shaded model will be displayed
+~ Wheel `main_dlg_cur` `proe_win` 9 1342 451 393216 512 2438 1159 1920 1080 380044
+~ Wheel `main_dlg_cur` `proe_win` 9 1342 451 393216 0 2438 1159 1920 1080 380123
+~ Wheel `main_dlg_cur` `proe_win` 9 1342 451 393216 0 2438 1159 1920 1080 380224
+~ Wheel `main_dlg_cur` `proe_win` 9 1342 451 393216 0 2438 1159 1920 1080 380323
+~ Wheel `main_dlg_cur` `proe_win` 9 1342 451 393216 0 2438 1159 1920 1080 380475
+~ Wheel `main_dlg_cur` `proe_win` 9 1342 451 393216 0 2438 1159 1920 1080 380574
+~ Wheel `main_dlg_cur` `proe_win` 9 1342 451 393216 0 2438 1159 1920 1080 380673
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1285 802 0 1 2438 1159 1920 1080 381295
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1285 802 0 0 2438 1159 1920 1080 381344
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.250000 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.250000 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.250000 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.250000 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 52 53 74 (-1.0210608591 14.8337158533) (-10.3662841467 13.6426041584 8.3593870455)
+!SEL_PRIM 0 [] 2 74 -1 (-1.0150732823 14.9967874667) (-10.2032125333 13.5923074348 8.4409228522)
+!F6(REVOLVE_1)
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1237 481 0 1 2438 1159 1920 1080 381914
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1237 481 0 0 2438 1159 1920 1080 381967
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.250000 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.250000 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.250000 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.250000 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 65 1 -1 (0.0000000000 0.0000000000) (283.7884671139 565.9201615574 0.0000000000)
+!View:new_view_1
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Activate `main_dlg_cur` `page_Annotate_control_btn` 1
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_View to page_Annotate
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~ Command `ProCmdDwgShowAllAnnots` 
+!sket_eps       3.627563577
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1262 463 0 1 2438 1159 1920 1080 387212
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1262 463 0 0 2438 1159 1920 1080 387218
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.250000 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.250000 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.250000 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.250000 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 4
+ 21 20 1 -1 0 -1 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 21 20 -1 (0.0000000000 -1.0000000000) (298.9308312209 575.8209380889 0.0000000000)
+~ Trigger `show_model_annotations` `tbl_dim` 2 `row5` `show`
+~ Trigger `show_model_annotations` `tbl_dim` 2 `row5` `type`
+~ Trigger `show_model_annotations` `tbl_dim` 2 `` ``
+~ Activate `show_model_annotations` `psh_apply`
+~ Activate `show_model_annotations` `psh_cancel`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1247 461 0 1 2438 1159 1920 1080 390465
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1247 461 0 0 2438 1159 1920 1080 390503
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.250000 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.250000 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.250000 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.250000 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 57
+ 214 20 1 -1 0 -1 -1 -1 0.000000
+@ draft item: 62
+ 21 20 1 -1 0 -1 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 21 20 -1 (0.0000000000 -1.0000000000) (289.6124533089 576.9857353279 0.0000000000)
+!d20:F8(ROUND_1)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Annotate to page_Dimension_Properties
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Command ProCmdPmaAnnotDim was pushed from the software.
+!LiveUI: Activating PmaToolAnnotDim
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1343 497 0 1 2438 1159 1920 1080 391614
+!Dragger (TD_DIM_20_MDL_1_2_arrow_0) start dragging
+~ Move `main_dlg_cur` `proe_win` 9 1344 499 0 1537 2438 1159 1920 1080 391854
+~ Move `main_dlg_cur` `proe_win` 9 1346 503 0 1537 2438 1159 1920 1080 391863
+~ Move `main_dlg_cur` `proe_win` 9 1347 506 0 1537 2438 1159 1920 1080 391874
+~ Move `main_dlg_cur` `proe_win` 9 1348 508 0 1537 2438 1159 1920 1080 391884
+~ Move `main_dlg_cur` `proe_win` 9 1348 509 0 1025 2438 1159 1920 1080 391894
+~ Move `main_dlg_cur` `proe_win` 9 1349 513 0 1537 2438 1159 1920 1080 391904
+~ Move `main_dlg_cur` `proe_win` 9 1350 516 0 1537 2438 1159 1920 1080 391914
+~ Move `main_dlg_cur` `proe_win` 9 1350 518 0 1025 2438 1159 1920 1080 391925
+~ Move `main_dlg_cur` `proe_win` 9 1350 520 0 1025 2438 1159 1920 1080 391934
+~ Move `main_dlg_cur` `proe_win` 9 1350 522 0 1025 2438 1159 1920 1080 391944
+~ Move `main_dlg_cur` `proe_win` 9 1350 524 0 1025 2438 1159 1920 1080 391953
+~ Move `main_dlg_cur` `proe_win` 9 1350 525 0 1025 2438 1159 1920 1080 391963
+~ Move `main_dlg_cur` `proe_win` 9 1350 526 0 1025 2438 1159 1920 1080 391974
+~ Move `main_dlg_cur` `proe_win` 9 1350 527 0 1025 2438 1159 1920 1080 391984
+~ Move `main_dlg_cur` `proe_win` 9 1350 529 0 1025 2438 1159 1920 1080 391993
+~ Move `main_dlg_cur` `proe_win` 9 1350 531 0 1025 2438 1159 1920 1080 392003
+~ Move `main_dlg_cur` `proe_win` 9 1351 533 0 1537 2438 1159 1920 1080 392014
+~ Move `main_dlg_cur` `proe_win` 9 1351 535 0 1025 2438 1159 1920 1080 392024
+~ Move `main_dlg_cur` `proe_win` 9 1351 537 0 1025 2438 1159 1920 1080 392034
+~ Move `main_dlg_cur` `proe_win` 9 1351 540 0 1025 2438 1159 1920 1080 392043
+~ Move `main_dlg_cur` `proe_win` 9 1351 542 0 1025 2438 1159 1920 1080 392063
+~ Move `main_dlg_cur` `proe_win` 9 1351 544 0 1025 2438 1159 1920 1080 392076
+~ Move `main_dlg_cur` `proe_win` 9 1351 547 0 1025 2438 1159 1920 1080 392083
+~ Move `main_dlg_cur` `proe_win` 9 1351 548 0 1025 2438 1159 1920 1080 392093
+~ Move `main_dlg_cur` `proe_win` 9 1351 550 0 1025 2438 1159 1920 1080 392103
+~ Move `main_dlg_cur` `proe_win` 9 1351 551 0 1025 2438 1159 1920 1080 392113
+~ Move `main_dlg_cur` `proe_win` 9 1351 552 0 1025 2438 1159 1920 1080 392123
+~ Move `main_dlg_cur` `proe_win` 9 1351 554 0 1025 2438 1159 1920 1080 392143
+~ Move `main_dlg_cur` `proe_win` 9 1350 556 0 1537 2438 1159 1920 1080 392154
+~ Move `main_dlg_cur` `proe_win` 9 1350 557 0 1025 2438 1159 1920 1080 392164
+~ Move `main_dlg_cur` `proe_win` 9 1350 559 0 1025 2438 1159 1920 1080 392174
+~ Move `main_dlg_cur` `proe_win` 9 1350 560 0 1025 2438 1159 1920 1080 392183
+~ Move `main_dlg_cur` `proe_win` 9 1350 563 0 1025 2438 1159 1920 1080 392193
+~ Move `main_dlg_cur` `proe_win` 9 1349 565 0 1537 2438 1159 1920 1080 392203
+~ Move `main_dlg_cur` `proe_win` 9 1349 567 0 1025 2438 1159 1920 1080 392213
+~ Move `main_dlg_cur` `proe_win` 9 1349 569 0 1025 2438 1159 1920 1080 392224
+~ Move `main_dlg_cur` `proe_win` 9 1349 572 0 1025 2438 1159 1920 1080 392234
+~ Move `main_dlg_cur` `proe_win` 9 1348 575 0 1537 2438 1159 1920 1080 392244
+~ Move `main_dlg_cur` `proe_win` 9 1348 579 0 1025 2438 1159 1920 1080 392254
+~ Move `main_dlg_cur` `proe_win` 9 1348 585 0 1025 2438 1159 1920 1080 392265
+~ Move `main_dlg_cur` `proe_win` 9 1348 587 0 1025 2438 1159 1920 1080 392274
+~ Move `main_dlg_cur` `proe_win` 9 1348 591 0 1025 2438 1159 1920 1080 392283
+~ Move `main_dlg_cur` `proe_win` 9 1348 597 0 1025 2438 1159 1920 1080 392294
+~ Move `main_dlg_cur` `proe_win` 9 1348 605 0 1025 2438 1159 1920 1080 392304
+~ Move `main_dlg_cur` `proe_win` 9 1348 611 0 1025 2438 1159 1920 1080 392313
+~ Move `main_dlg_cur` `proe_win` 9 1348 619 0 1025 2438 1159 1920 1080 392324
+~ Move `main_dlg_cur` `proe_win` 9 1348 627 0 1025 2438 1159 1920 1080 392334
+~ Move `main_dlg_cur` `proe_win` 9 1348 635 0 1025 2438 1159 1920 1080 392344
+~ Move `main_dlg_cur` `proe_win` 9 1348 643 0 1025 2438 1159 1920 1080 392354
+~ Move `main_dlg_cur` `proe_win` 9 1348 652 0 1025 2438 1159 1920 1080 392364
+~ Move `main_dlg_cur` `proe_win` 9 1348 660 0 1025 2438 1159 1920 1080 392374
+~ Move `main_dlg_cur` `proe_win` 9 1348 668 0 1025 2438 1159 1920 1080 392384
+~ Move `main_dlg_cur` `proe_win` 9 1348 676 0 1025 2438 1159 1920 1080 392394
+~ Move `main_dlg_cur` `proe_win` 9 1348 682 0 1025 2438 1159 1920 1080 392404
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Move `main_dlg_cur` `proe_win` 9 1348 690 0 1025 2438 1159 1920 1080 392414
+~ Move `main_dlg_cur` `proe_win` 9 1348 700 0 1025 2438 1159 1920 1080 392423
+~ Move `main_dlg_cur` `proe_win` 9 1348 711 0 1025 2438 1159 1920 1080 392433
+~ Move `main_dlg_cur` `proe_win` 9 1348 721 0 1025 2438 1159 1920 1080 392444
+~ Move `main_dlg_cur` `proe_win` 9 1348 733 0 1025 2438 1159 1920 1080 392454
+~ Move `main_dlg_cur` `proe_win` 9 1344 767 0 1537 2438 1159 1920 1080 392463
+~ Move `main_dlg_cur` `proe_win` 9 1344 783 0 1025 2438 1159 1920 1080 392473
+~ Move `main_dlg_cur` `proe_win` 9 1344 797 0 1025 2438 1159 1920 1080 392484
+~ Move `main_dlg_cur` `proe_win` 9 1343 811 0 1537 2438 1159 1920 1080 392494
+~ Move `main_dlg_cur` `proe_win` 9 1343 823 0 1025 2438 1159 1920 1080 392504
+~ Move `main_dlg_cur` `proe_win` 9 1343 829 0 1025 2438 1159 1920 1080 392514
+~ Move `main_dlg_cur` `proe_win` 9 1343 837 0 1025 2438 1159 1920 1080 392523
+~ Move `main_dlg_cur` `proe_win` 9 1343 845 0 1025 2438 1159 1920 1080 392533
+~ Move `main_dlg_cur` `proe_win` 9 1343 854 0 1025 2438 1159 1920 1080 392544
+~ Move `main_dlg_cur` `proe_win` 9 1341 860 0 1537 2438 1159 1920 1080 392553
+~ Move `main_dlg_cur` `proe_win` 9 1341 868 0 1025 2438 1159 1920 1080 392563
+~ Move `main_dlg_cur` `proe_win` 9 1341 874 0 1025 2438 1159 1920 1080 392573
+~ Move `main_dlg_cur` `proe_win` 9 1341 883 0 1025 2438 1159 1920 1080 392584
+~ Move `main_dlg_cur` `proe_win` 9 1341 887 0 1025 2438 1159 1920 1080 392594
+~ Move `main_dlg_cur` `proe_win` 9 1341 895 0 1025 2438 1159 1920 1080 392604
+~ Move `main_dlg_cur` `proe_win` 9 1341 899 0 1025 2438 1159 1920 1080 392613
+~ Move `main_dlg_cur` `proe_win` 9 1341 902 0 1025 2438 1159 1920 1080 392623
+~ Move `main_dlg_cur` `proe_win` 9 1341 904 0 1025 2438 1159 1920 1080 392634
+~ Move `main_dlg_cur` `proe_win` 9 1341 907 0 1025 2438 1159 1920 1080 392654
+~ Move `main_dlg_cur` `proe_win` 9 1341 909 0 1025 2438 1159 1920 1080 392664
+~ Move `main_dlg_cur` `proe_win` 9 1340 910 0 1537 2438 1159 1920 1080 392673
+~ Move `main_dlg_cur` `proe_win` 9 1340 911 0 1025 2438 1159 1920 1080 392683
+~ Move `main_dlg_cur` `proe_win` 9 1340 912 0 1025 2438 1159 1920 1080 392693
+~ Move `main_dlg_cur` `proe_win` 9 1340 913 0 1025 2438 1159 1920 1080 392714
+~ Move `main_dlg_cur` `proe_win` 9 1340 912 0 1025 2438 1159 1920 1080 392953
+~ Move `main_dlg_cur` `proe_win` 9 1341 911 0 1537 2438 1159 1920 1080 392974
+~ Move `main_dlg_cur` `proe_win` 9 1342 911 0 513 2438 1159 1920 1080 392983
+~ Move `main_dlg_cur` `proe_win` 9 1343 911 0 513 2438 1159 1920 1080 392993
+~ Move `main_dlg_cur` `proe_win` 9 1345 910 0 1537 2438 1159 1920 1080 393003
+~ Move `main_dlg_cur` `proe_win` 9 1346 910 0 513 2438 1159 1920 1080 393013
+~ Move `main_dlg_cur` `proe_win` 9 1346 909 0 1025 2438 1159 1920 1080 393073
+~ Move `main_dlg_cur` `proe_win` 9 1347 909 0 513 2438 1159 1920 1080 393084
+~ Move `main_dlg_cur` `proe_win` 9 1346 910 0 1537 2438 1159 1920 1080 393463
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1346 910 0 0 2438 1159 1920 1080 393464
+!Dragger (TD_DIM_20_MDL_1_2_arrow_0) end dragging
+!Moved by  2.183995, -300.663287
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1346 910 0 1 2438 1159 1920 1080 393714
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.250000 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.250000 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.250000 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.250000 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1346 910 0 0 2438 1159 1920 1080 393764
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.250000 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.250000 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.250000 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.250000 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 65 1 -1 (0.0000000000 0.0000000000) (347.8523152588 315.4887551726 0.0000000000)
+!View:new_view_1
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Dimension_Properties to page_Annotate
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!LiveUI: Deactivating PmaToolAnnotDim
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1252 458 0 1 2438 1159 1920 1080 394785
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1252 458 0 0 2438 1159 1920 1080 394875
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.250000 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.250000 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.250000 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.250000 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 57
+ 214 20 1 -1 0 -1 -1 -1 0.000000
+@ draft item: 62
+ 21 20 1 -1 0 -1 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 21 20 -1 (0.0000000000 -1.0000000000) (292.5244464064 579.3153298059 0.0000000000)
+!d20:F8(ROUND_1)
+!Command ProCmdPmaAnnotDim was pushed from the software.
+!LiveUI: Activating PmaToolAnnotDim
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Annotate to page_Dimension_Properties
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Command ProCmdPmaAnnotDim was pushed from the software.
+!Command ProCmdDtlPushDimRbn was pushed from the software.
+~ Move `main_dlg_cur` `proe_win` 9 1272 455 33554432 0 2438 1159 1920 1080 395874
+~ Key `main_dlg_cur` `proe_win` 33554432 `Ctrl`
+~ Wheel `main_dlg_cur` `proe_win` 9 1271 458 33947648 1536 2438 1159 1920 1080 395996
+~ Wheel `main_dlg_cur` `proe_win` 9 1271 461 33947648 1024 2438 1159 1920 1080 396105
+~ Wheel `main_dlg_cur` `proe_win` 9 1271 461 33947648 0 2438 1159 1920 1080 396207
+~ Wheel `main_dlg_cur` `proe_win` 9 1279 479 34013184 1024 2438 1159 1920 1080 396514
+~ Wheel `main_dlg_cur` `proe_win` 9 1279 479 34013184 0 2438 1159 1920 1080 396617
+~ Wheel `main_dlg_cur` `proe_win` 9 1279 481 34013184 0 2438 1159 1920 1080 396668
+~ Wheel `main_dlg_cur` `proe_win` 9 1279 481 34013184 0 2438 1159 1920 1080 396701
+~ Wheel `main_dlg_cur` `proe_win` 9 1279 481 34013184 0 2438 1159 1920 1080 396745
+~ Wheel `main_dlg_cur` `proe_win` 9 1279 481 34013184 0 2438 1159 1920 1080 396844
+~ Move `main_dlg_cur` `proe_win` 9 1277 457 0 0 2438 1159 1920 1080 397069
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1196 277 0 1 2438 1159 1920 1080 397715
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 4.218750 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 4.218750 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 4.218750 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 4.218750 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 4
+ 21 20 1 -1 0 -1 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+!Dragger (TD_DIM_20_MDL_1_2) start dragging
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1196 277 0 0 2438 1159 1920 1080 397884
+!Dragger (TD_DIM_20_MDL_1_2) end dragging
+!Moved by  0.000000, 0.000000
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 4.218750 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 4.218750 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 4.218750 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 4.218750 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 62
+ 21 20 1 -1 0 -1 -1 -1 0.000000
+~ Command `ProCmdDwgSwView@PopupMenuGraphicWinStack` 
+!LiveUI: Deactivating PmaToolAnnotDim
+!%CPSelect model view or window.
+~ Wheel `main_dlg_cur` `proe_win` 9 1120 217 393216 1536 2438 1159 1920 1080 401743
+~ Wheel `main_dlg_cur` `proe_win` 9 1120 217 393216 0 2438 1159 1920 1080 401833
+~ Wheel `main_dlg_cur` `proe_win` 9 1299 730 393216 1024 2438 1159 1920 1080 402474
+~ Wheel `main_dlg_cur` `proe_win` 9 1301 719 393216 1536 2438 1159 1920 1080 402561
+~ Wheel `main_dlg_cur` `proe_win` 9 1304 710 393216 1536 2438 1159 1920 1080 402662
+~ Wheel `main_dlg_cur` `proe_win` 9 1345 988 458752 1024 2438 1159 1920 1080 402914
+~ Wheel `main_dlg_cur` `proe_win` 9 1345 988 458752 0 2438 1159 1920 1080 402983
+~ Wheel `main_dlg_cur` `proe_win` 9 1345 988 458752 0 2438 1159 1920 1080 403034
+~ Wheel `main_dlg_cur` `proe_win` 9 1345 988 458752 0 2438 1159 1920 1080 403061
+~ Wheel `main_dlg_cur` `proe_win` 9 1345 985 458752 1024 2438 1159 1920 1080 403096
+~ Wheel `main_dlg_cur` `proe_win` 9 1333 962 458752 1536 2438 1159 1920 1080 403192
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1276 839 0 1 2438 1159 1920 1080 404485
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1276 839 0 0 2438 1159 1920 1080 404534
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 5.273438 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 5.273438 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 5.273438 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 5.273438 0.000000 0
+@ stack attr -1 0  1
+@ stack idx 0
+@SEL_REC 0 [] 65 1 -1 (0.0000000000 0.0000000000) (354.3130640186 328.9162114927 0.0000000000)
+!View:new_view_1
+!Command ProCmdPmaAnnotDim was pushed from the software.
+!LiveUI: Activating PmaToolAnnotDim
+~ Wheel `main_dlg_cur` `proe_win` 9 1191 826 393216 512 2438 1159 1920 1080 405104
+~ Wheel `main_dlg_cur` `proe_win` 9 1189 826 393216 512 2438 1159 1920 1080 405142
+~ Wheel `main_dlg_cur` `proe_win` 9 1187 826 393216 512 2438 1159 1920 1080 405175
+~ Wheel `main_dlg_cur` `proe_win` 9 1186 826 393216 512 2438 1159 1920 1080 405206
+~ Wheel `main_dlg_cur` `proe_win` 9 1186 826 393216 0 2438 1159 1920 1080 405239
+~ Wheel `main_dlg_cur` `proe_win` 9 1184 826 393216 1536 2438 1159 1920 1080 405272
+~ Wheel `main_dlg_cur` `proe_win` 9 1181 821 393216 1536 2438 1159 1920 1080 405308
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1160 458 0 1 2438 1159 1920 1080 406935
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.105920 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.105920 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.105920 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.105920 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+!Dragger (TD_DIM_20_MDL_1_2_leader) start dragging
+~ Move `main_dlg_cur` `proe_win` 9 1161 460 0 1537 2438 1159 1920 1080 406944
+~ Move `main_dlg_cur` `proe_win` 9 1161 463 0 1025 2438 1159 1920 1080 406961
+~ Move `main_dlg_cur` `proe_win` 9 1161 467 0 1025 2438 1159 1920 1080 406980
+~ Move `main_dlg_cur` `proe_win` 9 1161 473 0 1025 2438 1159 1920 1080 407001
+~ Move `main_dlg_cur` `proe_win` 9 1161 482 0 1025 2438 1159 1920 1080 407021
+~ Move `main_dlg_cur` `proe_win` 9 1161 493 0 1025 2438 1159 1920 1080 407044
+~ Move `main_dlg_cur` `proe_win` 9 1157 504 0 1537 2438 1159 1920 1080 407065
+~ Move `main_dlg_cur` `proe_win` 9 1149 543 0 1537 2438 1159 1920 1080 407107
+~ Move `main_dlg_cur` `proe_win` 9 1147 553 0 1537 2438 1159 1920 1080 407125
+~ Move `main_dlg_cur` `proe_win` 9 1146 560 0 1537 2438 1159 1920 1080 407148
+~ Move `main_dlg_cur` `proe_win` 9 1146 564 0 1025 2438 1159 1920 1080 407169
+~ Move `main_dlg_cur` `proe_win` 9 1146 569 0 1025 2438 1159 1920 1080 407191
+~ Move `main_dlg_cur` `proe_win` 9 1146 577 0 1025 2438 1159 1920 1080 407211
+~ Move `main_dlg_cur` `proe_win` 9 1145 584 0 1537 2438 1159 1920 1080 407231
+~ Move `main_dlg_cur` `proe_win` 9 1144 593 0 1537 2438 1159 1920 1080 407259
+~ Move `main_dlg_cur` `proe_win` 9 1144 597 0 1025 2438 1159 1920 1080 407274
+~ Move `main_dlg_cur` `proe_win` 9 1143 608 0 1537 2438 1159 1920 1080 407304
+~ Move `main_dlg_cur` `proe_win` 9 1142 614 0 1537 2438 1159 1920 1080 407323
+~ Move `main_dlg_cur` `proe_win` 9 1140 618 0 1537 2438 1159 1920 1080 407342
+~ Move `main_dlg_cur` `proe_win` 9 1140 620 0 1025 2438 1159 1920 1080 407362
+~ Move `main_dlg_cur` `proe_win` 9 1140 623 0 1025 2438 1159 1920 1080 407383
+~ Move `main_dlg_cur` `proe_win` 9 1139 616 0 1537 2438 1159 1920 1080 407513
+~ Move `main_dlg_cur` `proe_win` 9 1136 603 0 1537 2438 1159 1920 1080 407528
+~ Move `main_dlg_cur` `proe_win` 9 1123 566 0 1537 2438 1159 1920 1080 407554
+~ Move `main_dlg_cur` `proe_win` 9 1112 542 0 1537 2438 1159 1920 1080 407581
+~ Move `main_dlg_cur` `proe_win` 9 1108 530 0 1537 2438 1159 1920 1080 407597
+~ Move `main_dlg_cur` `proe_win` 9 1106 518 0 1537 2438 1159 1920 1080 407621
+~ Move `main_dlg_cur` `proe_win` 9 1104 501 0 1537 2438 1159 1920 1080 407650
+~ Move `main_dlg_cur` `proe_win` 9 1104 494 0 1025 2438 1159 1920 1080 407672
+~ Move `main_dlg_cur` `proe_win` 9 1104 490 0 1025 2438 1159 1920 1080 407695
+~ Move `main_dlg_cur` `proe_win` 9 1104 488 0 1025 2438 1159 1920 1080 407710
+~ Move `main_dlg_cur` `proe_win` 9 1104 481 0 1025 2438 1159 1920 1080 407737
+~ Move `main_dlg_cur` `proe_win` 9 1104 476 0 1025 2438 1159 1920 1080 407765
+~ Move `main_dlg_cur` `proe_win` 9 1104 471 0 1025 2438 1159 1920 1080 407787
+~ Move `main_dlg_cur` `proe_win` 9 1103 467 0 1537 2438 1159 1920 1080 407805
+~ Move `main_dlg_cur` `proe_win` 9 1102 463 0 1537 2438 1159 1920 1080 407826
+~ Move `main_dlg_cur` `proe_win` 9 1101 458 0 1537 2438 1159 1920 1080 407866
+~ Move `main_dlg_cur` `proe_win` 9 1101 457 0 1025 2438 1159 1920 1080 407881
+~ Move `main_dlg_cur` `proe_win` 9 1100 454 0 1537 2438 1159 1920 1080 407903
+~ Move `main_dlg_cur` `proe_win` 9 1099 453 0 1537 2438 1159 1920 1080 407924
+~ Move `main_dlg_cur` `proe_win` 9 1099 452 0 1025 2438 1159 1920 1080 407952
+~ Move `main_dlg_cur` `proe_win` 9 1099 451 0 1025 2438 1159 1920 1080 407967
+~ Move `main_dlg_cur` `proe_win` 9 1099 447 0 1025 2438 1159 1920 1080 407998
+~ Move `main_dlg_cur` `proe_win` 9 1099 445 0 1025 2438 1159 1920 1080 408020
+~ Move `main_dlg_cur` `proe_win` 9 1099 443 0 1025 2438 1159 1920 1080 408040
+~ Move `main_dlg_cur` `proe_win` 9 1100 441 0 1537 2438 1159 1920 1080 408061
+~ Move `main_dlg_cur` `proe_win` 9 1100 439 0 1025 2438 1159 1920 1080 408083
+~ Move `main_dlg_cur` `proe_win` 9 1100 437 0 1025 2438 1159 1920 1080 408109
+~ Move `main_dlg_cur` `proe_win` 9 1100 436 0 1025 2438 1159 1920 1080 408132
+~ Move `main_dlg_cur` `proe_win` 9 1100 435 0 1025 2438 1159 1920 1080 408152
+~ Move `main_dlg_cur` `proe_win` 9 1101 434 0 1537 2438 1159 1920 1080 408253
+~ Move `main_dlg_cur` `proe_win` 9 1101 433 0 1025 2438 1159 1920 1080 408294
+~ Move `main_dlg_cur` `proe_win` 9 1106 431 0 1537 2438 1159 1920 1080 408315
+~ Move `main_dlg_cur` `proe_win` 9 1107 430 0 1537 2438 1159 1920 1080 408342
+~ Move `main_dlg_cur` `proe_win` 9 1108 430 0 513 2438 1159 1920 1080 408403
+~ Move `main_dlg_cur` `proe_win` 9 1109 430 0 513 2438 1159 1920 1080 408414
+~ Move `main_dlg_cur` `proe_win` 9 1110 430 0 513 2438 1159 1920 1080 408431
+~ Move `main_dlg_cur` `proe_win` 9 1111 430 0 513 2438 1159 1920 1080 408461
+~ Move `main_dlg_cur` `proe_win` 9 1112 430 0 513 2438 1159 1920 1080 408533
+~ Move `main_dlg_cur` `proe_win` 9 1113 430 0 513 2438 1159 1920 1080 408583
+~ Move `main_dlg_cur` `proe_win` 9 1113 429 0 1025 2438 1159 1920 1080 408624
+~ Move `main_dlg_cur` `proe_win` 9 1114 428 0 1537 2438 1159 1920 1080 408654
+~ Move `main_dlg_cur` `proe_win` 9 1115 427 0 1537 2438 1159 1920 1080 408684
+~ Move `main_dlg_cur` `proe_win` 9 1116 427 0 513 2438 1159 1920 1080 408707
+~ Move `main_dlg_cur` `proe_win` 9 1116 426 0 1025 2438 1159 1920 1080 408743
+~ Move `main_dlg_cur` `proe_win` 9 1118 424 0 1537 2438 1159 1920 1080 408774
+~ Move `main_dlg_cur` `proe_win` 9 1119 424 0 513 2438 1159 1920 1080 408789
+~ Move `main_dlg_cur` `proe_win` 9 1119 423 0 1025 2438 1159 1920 1080 408809
+~ Move `main_dlg_cur` `proe_win` 9 1118 424 0 1537 2438 1159 1920 1080 409164
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1118 424 0 0 2438 1159 1920 1080 409175
+!Dragger (TD_DIM_20_MDL_1_2_leader) end dragging
+!Moved by  -30.575928, 24.751941
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.105920 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.105920 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.105920 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.105920 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 62
+ 21 20 1 -1 0 -1 -1 -1 0.000000
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.105920 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.105920 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.105920 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.105920 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 62
+ 21 20 1 -1 0 -1 -1 -1 0.000000
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1124 457 0 1 2438 1159 1920 1080 410165
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.105920 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.105920 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.105920 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.105920 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 4
+ 21 20 1 -1 0 -1 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+!Dragger (TD_DIM_20_MDL_1_2) start dragging
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1124 457 0 0 2438 1159 1920 1080 410253
+!Dragger (TD_DIM_20_MDL_1_2) end dragging
+!Moved by  0.000000, 0.000000
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.105920 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.105920 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.105920 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.105920 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 62
+ 21 20 1 -1 0 -1 -1 -1 0.000000
+~ RButtonArm `main_dlg_cur` `proe_win` 9 1124 457 0 4 2438 1159 1920 1080 410314
+~ RButtonDisarm `main_dlg_cur` `proe_win` 9 1124 457 0 0 2438 1159 1920 1080 410493
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.105920 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.105920 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.105920 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.105920 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 4
+ 21 20 1 -1 0 -1 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1124 457 0 1 2438 1159 1920 1080 411233
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.105920 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.105920 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.105920 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.105920 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 4
+ 21 20 1 -1 0 -1 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+!Dragger (TD_DIM_20_MDL_1_2) start dragging
+~ Move `main_dlg_cur` `proe_win` 9 1132 461 0 1537 2438 1159 1920 1080 411293
+~ Move `main_dlg_cur` `proe_win` 9 1141 467 0 1537 2438 1159 1920 1080 411311
+~ Move `main_dlg_cur` `proe_win` 9 1161 478 0 1537 2438 1159 1920 1080 411328
+~ Move `main_dlg_cur` `proe_win` 9 1183 495 0 1537 2438 1159 1920 1080 411350
+~ Move `main_dlg_cur` `proe_win` 9 1201 512 0 1537 2438 1159 1920 1080 411372
+~ Move `main_dlg_cur` `proe_win` 9 1213 527 0 1537 2438 1159 1920 1080 411392
+~ Move `main_dlg_cur` `proe_win` 9 1221 543 0 1537 2438 1159 1920 1080 411420
+~ Move `main_dlg_cur` `proe_win` 9 1221 556 0 1025 2438 1159 1920 1080 411439
+~ Move `main_dlg_cur` `proe_win` 9 1221 568 0 1025 2438 1159 1920 1080 411455
+~ Move `main_dlg_cur` `proe_win` 9 1218 580 0 1537 2438 1159 1920 1080 411477
+~ Move `main_dlg_cur` `proe_win` 9 1211 593 0 1537 2438 1159 1920 1080 411498
+~ Move `main_dlg_cur` `proe_win` 9 1203 607 0 1537 2438 1159 1920 1080 411528
+~ Move `main_dlg_cur` `proe_win` 9 1197 613 0 1537 2438 1159 1920 1080 411544
+~ Move `main_dlg_cur` `proe_win` 9 1193 616 0 1537 2438 1159 1920 1080 411573
+~ Move `main_dlg_cur` `proe_win` 9 1192 616 0 513 2438 1159 1920 1080 411586
+~ Move `main_dlg_cur` `proe_win` 9 1190 616 0 513 2438 1159 1920 1080 411607
+~ Move `main_dlg_cur` `proe_win` 9 1186 616 0 513 2438 1159 1920 1080 411625
+~ Move `main_dlg_cur` `proe_win` 9 1179 618 0 1537 2438 1159 1920 1080 411648
+~ Move `main_dlg_cur` `proe_win` 9 1169 620 0 1537 2438 1159 1920 1080 411676
+~ Move `main_dlg_cur` `proe_win` 9 1166 623 0 1537 2438 1159 1920 1080 411694
+~ Move `main_dlg_cur` `proe_win` 9 1164 623 0 513 2438 1159 1920 1080 411713
+~ Move `main_dlg_cur` `proe_win` 9 1162 624 0 1537 2438 1159 1920 1080 411738
+~ Move `main_dlg_cur` `proe_win` 9 1158 628 0 1537 2438 1159 1920 1080 411756
+~ Move `main_dlg_cur` `proe_win` 9 1152 635 0 1537 2438 1159 1920 1080 411785
+~ Move `main_dlg_cur` `proe_win` 9 1148 638 0 1537 2438 1159 1920 1080 411807
+~ Move `main_dlg_cur` `proe_win` 9 1147 639 0 1537 2438 1159 1920 1080 411823
+~ Move `main_dlg_cur` `proe_win` 9 1147 635 0 1025 2438 1159 1920 1080 411855
+~ Move `main_dlg_cur` `proe_win` 9 1145 629 0 1537 2438 1159 1920 1080 411876
+~ Move `main_dlg_cur` `proe_win` 9 1127 594 0 1537 2438 1159 1920 1080 411903
+~ Move `main_dlg_cur` `proe_win` 9 1102 541 0 1537 2438 1159 1920 1080 411924
+~ Move `main_dlg_cur` `proe_win` 9 1088 515 0 1537 2438 1159 1920 1080 411943
+~ Move `main_dlg_cur` `proe_win` 9 1078 494 0 1537 2438 1159 1920 1080 411966
+~ Move `main_dlg_cur` `proe_win` 9 1075 479 0 1537 2438 1159 1920 1080 411986
+~ Move `main_dlg_cur` `proe_win` 9 1073 474 0 1537 2438 1159 1920 1080 412010
+~ Move `main_dlg_cur` `proe_win` 9 1073 467 0 1025 2438 1159 1920 1080 412041
+~ Move `main_dlg_cur` `proe_win` 9 1073 465 0 1025 2438 1159 1920 1080 412055
+~ Move `main_dlg_cur` `proe_win` 9 1073 464 0 1025 2438 1159 1920 1080 412075
+~ Move `main_dlg_cur` `proe_win` 9 1073 463 0 1025 2438 1159 1920 1080 412097
+~ Move `main_dlg_cur` `proe_win` 9 1074 462 0 1537 2438 1159 1920 1080 412126
+~ Move `main_dlg_cur` `proe_win` 9 1075 461 0 1537 2438 1159 1920 1080 412147
+~ Move `main_dlg_cur` `proe_win` 9 1077 459 0 1537 2438 1159 1920 1080 412175
+~ Move `main_dlg_cur` `proe_win` 9 1078 458 0 1537 2438 1159 1920 1080 412188
+~ Move `main_dlg_cur` `proe_win` 9 1081 457 0 1537 2438 1159 1920 1080 412211
+~ Move `main_dlg_cur` `proe_win` 9 1085 452 0 1537 2438 1159 1920 1080 412239
+~ Move `main_dlg_cur` `proe_win` 9 1085 449 0 1025 2438 1159 1920 1080 412258
+~ Move `main_dlg_cur` `proe_win` 9 1086 447 0 1537 2438 1159 1920 1080 412279
+~ Move `main_dlg_cur` `proe_win` 9 1086 446 0 1025 2438 1159 1920 1080 412333
+~ Move `main_dlg_cur` `proe_win` 9 1086 445 0 1025 2438 1159 1920 1080 412363
+~ Move `main_dlg_cur` `proe_win` 9 1086 444 0 1025 2438 1159 1920 1080 412378
+~ Move `main_dlg_cur` `proe_win` 9 1087 444 0 513 2438 1159 1920 1080 412405
+~ Move `main_dlg_cur` `proe_win` 9 1089 443 0 1537 2438 1159 1920 1080 412429
+~ Move `main_dlg_cur` `proe_win` 9 1092 442 0 1537 2438 1159 1920 1080 412446
+~ Move `main_dlg_cur` `proe_win` 9 1093 442 0 513 2438 1159 1920 1080 412470
+~ Move `main_dlg_cur` `proe_win` 9 1095 441 0 1537 2438 1159 1920 1080 412492
+~ Move `main_dlg_cur` `proe_win` 9 1098 440 0 1537 2438 1159 1920 1080 412519
+~ Move `main_dlg_cur` `proe_win` 9 1099 440 0 513 2438 1159 1920 1080 412537
+~ Move `main_dlg_cur` `proe_win` 9 1099 441 0 1025 2438 1159 1920 1080 412559
+~ Move `main_dlg_cur` `proe_win` 9 1100 444 0 1537 2438 1159 1920 1080 412581
+~ Move `main_dlg_cur` `proe_win` 9 1103 447 0 1537 2438 1159 1920 1080 412609
+~ Move `main_dlg_cur` `proe_win` 9 1105 448 0 1537 2438 1159 1920 1080 412629
+~ Move `main_dlg_cur` `proe_win` 9 1107 452 0 1537 2438 1159 1920 1080 412661
+~ Move `main_dlg_cur` `proe_win` 9 1107 453 0 1025 2438 1159 1920 1080 412675
+~ Move `main_dlg_cur` `proe_win` 9 1108 454 0 1537 2438 1159 1920 1080 412699
+~ Move `main_dlg_cur` `proe_win` 9 1108 455 0 1025 2438 1159 1920 1080 412763
+~ Move `main_dlg_cur` `proe_win` 9 1108 456 0 1025 2438 1159 1920 1080 412776
+~ Move `main_dlg_cur` `proe_win` 9 1107 456 0 513 2438 1159 1920 1080 412804
+~ Move `main_dlg_cur` `proe_win` 9 1108 455 0 1537 2438 1159 1920 1080 413063
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1108 455 0 0 2438 1159 1920 1080 413086
+!Dragger (TD_DIM_20_MDL_1_2) end dragging
+!Moved by  -11.647972, 1.455997
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.105920 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.105920 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.105920 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.105920 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 62
+ 21 20 1 -1 0 -1 -1 -1 0.000000
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1190 484 0 1 2438 1159 1920 1080 414264
+!Dragger (TD_DIM_20_MDL_1_2_arrow_0) start dragging
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1190 484 0 0 2438 1159 1920 1080 414384
+!Dragger (TD_DIM_20_MDL_1_2_arrow_0) end dragging
+!Moved by  0.000000, 0.000000
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1190 484 0 129 2438 1159 1920 1080 414735
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1190 484 0 0 2438 1159 1920 1080 415024
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1190 484 0 1 2438 1159 1920 1080 415124
+!Dragger (TD_DIM_20_MDL_1_2_arrow_0) start dragging
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1190 484 0 0 2438 1159 1920 1080 415244
+!Dragger (TD_DIM_20_MDL_1_2_arrow_0) end dragging
+!Moved by  0.000000, 0.000000
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1193 481 0 1 2438 1159 1920 1080 416314
+!Dragger (TD_DIM_20_MDL_1_2_arrow_0) start dragging
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1193 481 0 0 2438 1159 1920 1080 416464
+!Dragger (TD_DIM_20_MDL_1_2_arrow_0) end dragging
+!Moved by  0.000000, 0.000000
+~ Wheel `main_dlg_cur` `proe_win` 9 1153 371 458752 1536 2438 1159 1920 1080 422144
+~ Wheel `main_dlg_cur` `proe_win` 9 1144 395 458752 1536 2438 1159 1920 1080 422246
+~ Wheel `main_dlg_cur` `proe_win` 9 1142 403 458752 1536 2438 1159 1920 1080 422289
+~ Wheel `main_dlg_cur` `proe_win` 9 1141 406 458752 1536 2438 1159 1920 1080 422321
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1093 535 0 1 2438 1159 1920 1080 423305
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 2.700000 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 2.700000 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 2.700000 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 2.700000 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1093 535 0 0 2438 1159 1920 1080 423394
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 2.700000 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 2.700000 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 2.700000 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 2.700000 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Dimension_Properties to page_Annotate
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!LiveUI: Deactivating PmaToolAnnotDim
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1073 535 0 1 2438 1159 1920 1080 423766
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1073 535 0 0 2438 1159 1920 1080 423863
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 2.700000 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 2.700000 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 2.700000 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 2.700000 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 57
+ 214 20 1 -1 0 -1 -1 -1 0.000000
+@ draft item: 62
+ 21 20 1 -1 0 -1 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 21 20 -1 (0.0000000000 -1.0000000000) (296.1549333563 578.0343730274 0.0000000000)
+!d20:F8(ROUND_1)
+!Command ProCmdPmaAnnotDim was pushed from the software.
+!LiveUI: Activating PmaToolAnnotDim
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Annotate to page_Dimension_Properties
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Command ProCmdPmaAnnotDim was pushed from the software.
+!Command ProCmdDtlPushDimRbn was pushed from the software.
+~ Command `ProCmdDwgPopEditAtt@PopupMenuGraphicWinStack` 
+!LiveUI: Deactivating PmaToolAnnotDim
+!%CPSelect new attachment position by picking on the surface or edge.
+~ Wheel `main_dlg_cur` `proe_win` 9 1099 223 393216 1536 2438 1159 1920 1080 429133
+~ Wheel `main_dlg_cur` `proe_win` 9 1099 223 393216 0 2438 1159 1920 1080 429183
+~ Wheel `main_dlg_cur` `proe_win` 9 1099 223 393216 0 2438 1159 1920 1080 429233
+~ Wheel `main_dlg_cur` `proe_win` 9 1196 820 458752 1536 2438 1159 1920 1080 429703
+~ Wheel `main_dlg_cur` `proe_win` 9 1193 820 458752 512 2438 1159 1920 1080 429741
+~ Wheel `main_dlg_cur` `proe_win` 9 1193 820 458752 0 2438 1159 1920 1080 429769
+~ Wheel `main_dlg_cur` `proe_win` 9 1191 820 458752 1024 2438 1159 1920 1080 429813
+~ Wheel `main_dlg_cur` `proe_win` 9 1191 820 458752 1536 2438 1159 1920 1080 429861
+~ Wheel `main_dlg_cur` `proe_win` 9 1190 820 458752 512 2438 1159 1920 1080 429894
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1166 1043 0 1 2438 1159 1920 1080 431393
+~ Move `main_dlg_cur` `proe_win` 9 1167 1042 0 1537 2438 1159 1920 1080 431443
+~ Move `main_dlg_cur` `proe_win` 9 1166 1043 0 1537 2438 1159 1920 1080 431453
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1166 1043 0 0 2438 1159 1920 1080 431454
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 5.273438 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 5.273438 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 5.273438 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 5.273438 0.000000 0
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1169 997 0 1 2438 1159 1920 1080 432415
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1169 997 0 0 2438 1159 1920 1080 432494
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 5.273438 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 5.273438 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 5.273438 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 5.273438 0.000000 0
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 135 216 932460 (2.9350922086 1.5707963268) (-5.0000000000 3.4956627643 16.2277645361)
+!Silh:Surf:F8(ROUND_1)
+~ Wheel `main_dlg_cur` `proe_win` 9 1258 955 393216 1024 2438 1159 1920 1080 433453
+~ Wheel `main_dlg_cur` `proe_win` 9 1258 946 393216 1024 2438 1159 1920 1080 433488
+~ Wheel `main_dlg_cur` `proe_win` 9 1258 940 393216 1024 2438 1159 1920 1080 433532
+~ Wheel `main_dlg_cur` `proe_win` 9 1258 940 393216 1024 2438 1159 1920 1080 433693
+~ Wheel `main_dlg_cur` `proe_win` 9 1259 928 393216 1024 2438 1159 1920 1080 433734
+~ Wheel `main_dlg_cur` `proe_win` 9 1259 911 393216 1024 2438 1159 1920 1080 433784
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1121 913 0 1 2438 1159 1920 1080 434764
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1121 913 0 0 2438 1159 1920 1080 434774
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1120 925 0 1 2438 1159 1920 1080 435314
+~ Move `main_dlg_cur` `proe_win` 9 1118 925 0 513 2438 1159 1920 1080 435343
+~ Move `main_dlg_cur` `proe_win` 9 1117 928 0 1537 2438 1159 1920 1080 435373
+~ Move `main_dlg_cur` `proe_win` 9 1117 932 0 1025 2438 1159 1920 1080 435383
+~ Move `main_dlg_cur` `proe_win` 9 1117 935 0 1025 2438 1159 1920 1080 435395
+~ Move `main_dlg_cur` `proe_win` 9 1117 938 0 1025 2438 1159 1920 1080 435404
+~ Move `main_dlg_cur` `proe_win` 9 1117 941 0 1025 2438 1159 1920 1080 435413
+~ Move `main_dlg_cur` `proe_win` 9 1117 944 0 1025 2438 1159 1920 1080 435423
+~ Move `main_dlg_cur` `proe_win` 9 1117 946 0 1025 2438 1159 1920 1080 435433
+~ Move `main_dlg_cur` `proe_win` 9 1117 947 0 1025 2438 1159 1920 1080 435447
+~ Move `main_dlg_cur` `proe_win` 9 1118 947 0 513 2438 1159 1920 1080 435453
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1118 947 0 0 2438 1159 1920 1080 435454
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1417 660 0 1 2438 1159 1920 1080 436133
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1417 660 0 0 2438 1159 1920 1080 436196
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1172 1025 0 1 2438 1159 1920 1080 436895
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1172 1025 0 0 2438 1159 1920 1080 436903
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ MButtonArm `main_dlg_cur` `proe_win` 9 1150 907 0 2 2438 1159 1920 1080 437323
+~ Move `main_dlg_cur` `proe_win` 9 1150 908 0 1026 2438 1159 1920 1080 437333
+~ Move `main_dlg_cur` `proe_win` 9 1150 909 0 1026 2438 1159 1920 1080 437344
+~ Move `main_dlg_cur` `proe_win` 9 1150 911 0 1026 2438 1159 1920 1080 437353
+~ Move `main_dlg_cur` `proe_win` 9 1150 912 0 1026 2438 1159 1920 1080 437363
+~ Move `main_dlg_cur` `proe_win` 9 1150 913 0 1026 2438 1159 1920 1080 437374
+~ Move `main_dlg_cur` `proe_win` 9 1150 914 0 1026 2438 1159 1920 1080 437384
+~ Move `main_dlg_cur` `proe_win` 9 1150 915 0 1026 2438 1159 1920 1080 437393
+~ Move `main_dlg_cur` `proe_win` 9 1150 916 0 1026 2438 1159 1920 1080 437403
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 1150 916 0 0 2438 1159 1920 1080 437477
+** 0.449768 0.208801 0 4 4
+0.304864 0.339755 M 0 1.373629630 0
+!Command ProCmdPmaAnnotDim was pushed from the software.
+!LiveUI: Activating PmaToolAnnotDim
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1136 916 0 1 2438 1159 1920 1080 438151
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 4
+ 21 20 1 -1 0 -1 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+!Dragger (TD_DIM_20_MDL_1_2) start dragging
+~ Move `main_dlg_cur` `proe_win` 9 1136 921 0 1025 2438 1159 1920 1080 438166
+~ Move `main_dlg_cur` `proe_win` 9 1136 928 0 1025 2438 1159 1920 1080 438177
+~ Move `main_dlg_cur` `proe_win` 9 1137 937 0 1537 2438 1159 1920 1080 438190
+~ Move `main_dlg_cur` `proe_win` 9 1140 960 0 1537 2438 1159 1920 1080 438217
+~ Move `main_dlg_cur` `proe_win` 9 1141 968 0 1537 2438 1159 1920 1080 438235
+~ Move `main_dlg_cur` `proe_win` 9 1141 972 0 1025 2438 1159 1920 1080 438249
+~ Move `main_dlg_cur` `proe_win` 9 1141 977 0 1025 2438 1159 1920 1080 438268
+~ Move `main_dlg_cur` `proe_win` 9 1141 978 0 1025 2438 1159 1920 1080 438283
+~ Move `main_dlg_cur` `proe_win` 9 1141 980 0 1025 2438 1159 1920 1080 438308
+~ Move `main_dlg_cur` `proe_win` 9 1141 981 0 1025 2438 1159 1920 1080 438323
+~ Move `main_dlg_cur` `proe_win` 9 1141 982 0 1025 2438 1159 1920 1080 438346
+~ Move `main_dlg_cur` `proe_win` 9 1140 985 0 1537 2438 1159 1920 1080 438358
+~ Move `main_dlg_cur` `proe_win` 9 1140 987 0 1025 2438 1159 1920 1080 438387
+~ Move `main_dlg_cur` `proe_win` 9 1140 988 0 1025 2438 1159 1920 1080 438433
+~ Move `main_dlg_cur` `proe_win` 9 1139 990 0 1537 2438 1159 1920 1080 438456
+~ Move `main_dlg_cur` `proe_win` 9 1138 990 0 513 2438 1159 1920 1080 438467
+~ Move `main_dlg_cur` `proe_win` 9 1138 991 0 1025 2438 1159 1920 1080 438481
+~ Move `main_dlg_cur` `proe_win` 9 1137 991 0 513 2438 1159 1920 1080 438495
+~ Move `main_dlg_cur` `proe_win` 9 1137 992 0 1025 2438 1159 1920 1080 438517
+~ Move `main_dlg_cur` `proe_win` 9 1136 992 0 513 2438 1159 1920 1080 438541
+~ Move `main_dlg_cur` `proe_win` 9 1135 994 0 1537 2438 1159 1920 1080 438556
+~ Move `main_dlg_cur` `proe_win` 9 1134 995 0 1537 2438 1159 1920 1080 438570
+~ Move `main_dlg_cur` `proe_win` 9 1134 996 0 1025 2438 1159 1920 1080 438588
+~ Move `main_dlg_cur` `proe_win` 9 1133 997 0 1537 2438 1159 1920 1080 438602
+~ Move `main_dlg_cur` `proe_win` 9 1131 1000 0 1537 2438 1159 1920 1080 438615
+~ Move `main_dlg_cur` `proe_win` 9 1131 1004 0 1025 2438 1159 1920 1080 438638
+~ Move `main_dlg_cur` `proe_win` 9 1130 1005 0 1537 2438 1159 1920 1080 438652
+~ Move `main_dlg_cur` `proe_win` 9 1129 1006 0 1537 2438 1159 1920 1080 438667
+~ Move `main_dlg_cur` `proe_win` 9 1129 1008 0 1025 2438 1159 1920 1080 438683
+~ Move `main_dlg_cur` `proe_win` 9 1128 1010 0 1537 2438 1159 1920 1080 438705
+~ Move `main_dlg_cur` `proe_win` 9 1128 1014 0 1025 2438 1159 1920 1080 438725
+~ Move `main_dlg_cur` `proe_win` 9 1128 1015 0 1025 2438 1159 1920 1080 438738
+~ Move `main_dlg_cur` `proe_win` 9 1128 1018 0 1025 2438 1159 1920 1080 439163
+~ Move `main_dlg_cur` `proe_win` 9 1128 1021 0 1025 2438 1159 1920 1080 439180
+~ Move `main_dlg_cur` `proe_win` 9 1128 1022 0 1025 2438 1159 1920 1080 439193
+~ Move `main_dlg_cur` `proe_win` 9 1127 1024 0 1537 2438 1159 1920 1080 439363
+~ Move `main_dlg_cur` `proe_win` 9 1126 1024 0 513 2438 1159 1920 1080 439396
+~ Move `main_dlg_cur` `proe_win` 9 1125 1024 0 513 2438 1159 1920 1080 439413
+~ Move `main_dlg_cur` `proe_win` 9 1124 1025 0 1537 2438 1159 1920 1080 439425
+~ Move `main_dlg_cur` `proe_win` 9 1122 1025 0 513 2438 1159 1920 1080 439443
+~ Move `main_dlg_cur` `proe_win` 9 1121 1025 0 513 2438 1159 1920 1080 439459
+~ Move `main_dlg_cur` `proe_win` 9 1119 1025 0 513 2438 1159 1920 1080 439476
+~ Move `main_dlg_cur` `proe_win` 9 1117 1025 0 513 2438 1159 1920 1080 439501
+~ Move `main_dlg_cur` `proe_win` 9 1117 1026 0 1025 2438 1159 1920 1080 439518
+~ Move `main_dlg_cur` `proe_win` 9 1115 1026 0 513 2438 1159 1920 1080 439535
+~ Move `main_dlg_cur` `proe_win` 9 1114 1026 0 513 2438 1159 1920 1080 439555
+~ Move `main_dlg_cur` `proe_win` 9 1113 1026 0 513 2438 1159 1920 1080 439578
+~ Move `main_dlg_cur` `proe_win` 9 1112 1026 0 513 2438 1159 1920 1080 439599
+~ Move `main_dlg_cur` `proe_win` 9 1114 1025 0 1537 2438 1159 1920 1080 439804
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1114 1025 0 0 2438 1159 1920 1080 439812
+!Dragger (TD_DIM_20_MDL_1_2) end dragging
+!Moved by  -16.015962, -79.351812
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 62
+ 21 20 1 -1 0 -1 -1 -1 0.000000
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1255 1102 0 1 2438 1159 1920 1080 440044
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1255 1102 0 0 2438 1159 1920 1080 440074
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Dimension_Properties to page_Annotate
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!LiveUI: Deactivating PmaToolAnnotDim
+~ Wheel `main_dlg_cur` `proe_win` 9 790 533 393216 1536 2438 1159 1920 1080 441542
+~ Wheel `main_dlg_cur` `proe_win` 9 790 521 393216 512 2438 1159 1920 1080 441633
+~ Wheel `main_dlg_cur` `proe_win` 9 1391 529 458752 512 2438 1159 1920 1080 442323
+~ Wheel `main_dlg_cur` `proe_win` 9 1387 533 458752 1536 2438 1159 1920 1080 442402
+~ Wheel `main_dlg_cur` `proe_win` 9 1384 536 458752 1536 2438 1159 1920 1080 442437
+~ Wheel `main_dlg_cur` `proe_win` 9 -1672 582 393216 1536 2438 1159 1920 1080 444554
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1388 311 0 1 2438 1159 1920 1080 840702
+~ Move `main_dlg_cur` `proe_win` 9 1388 311 0 1 2438 1159 1920 1080 840712
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1388 311 0 0 2438 1159 1920 1080 840730
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+~ Wheel `main_dlg_cur` `proe_win` 9 1434 380 393216 1536 2438 1159 1920 1080 841009
+~ Wheel `main_dlg_cur` `proe_win` 9 1439 383 393216 1024 2438 1159 1920 1080 841049
+~ Wheel `main_dlg_cur` `proe_win` 9 642 529 458752 0 2438 1159 1920 1080 841619
+~ Wheel `main_dlg_cur` `proe_win` 9 592 553 458752 512 2438 1159 1920 1080 841708
+~ LButtonArm `main_dlg_cur` `proe_win` 9 425 647 0 1 2438 1159 1920 1080 842491
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 425 647 0 0 2438 1159 1920 1080 842529
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 57
+ 214 1 1 0 0 -1 0 -1 0.000000
+@ draft item: 62
+ 21 1 1 0 0 -1 0 -1 0.000000
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 21 1 0 (0.0000000000 0.0000000000) (180.9507399515 438.1402571746 0.0000000000)
+!d1:F5(SKETCH_1)
+!Command ProCmdPmaAnnotDim was pushed from the software.
+!LiveUI: Activating PmaToolAnnotDim
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Annotate to page_Dimension_Properties
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Command ProCmdPmaAnnotDim was pushed from the software.
+!Command ProCmdDtlPushDimRbn was pushed from the software.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 425 647 0 129 2438 1159 1920 1080 842760
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 4
+ 21 1 1 0 0 -1 0 -1 0.000000
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+~ Move `main_dlg_cur` `proe_win` 9 425 647 0 1 2438 1159 1920 1080 842772
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 425 647 0 0 2438 1159 1920 1080 842779
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 4
+ 21 1 1 0 0 -1 0 -1 0.000000
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+!Command ProCmdDwgEditValue was pushed from the software.
+@ draft item: 57
+ 214 1 1 0 0 -1 0 -1 0.000000
+!%CECannot modify value of selected item.
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdDwgProperties` 
+!LiveUI: Deactivating PmaToolAnnotDim
+~ Activate `mdlprops_dlg` `OPTIONS_lay_Controls.push_Change.lay_instance`
+~ Input `preferences` `InputOpt` `tan_edge_display_for_new_views`
+~ Input `preferences` `InputOpt` `tol_display`
+~ Input `preferences` `InputOpt` `tol_display`
+~ Update `preferences` `InputOpt` `tol_display`
+~ Activate `preferences` `InputOpt`
+~ FocusOut `preferences` `InputOpt`
+~ Input `preferences` `EditPanel` `yes`
+~ Input `preferences` `EditPanel` `yes`
+~ Input `preferences` `EditPanel` `yes`
+~ Update `preferences` `EditPanel` `yes`
+~ Activate `preferences` `EditPanel`
+~ FocusOut `preferences` `InputOpt`
+~ Activate `preferences` `ApplySave`
+~ FocusOut `preferences` `InputOpt`
+~ Activate `preferences` `Close`
+~ Activate `mdlprops_dlg` `DlgClose_push`
+!Command ProCmdPmaAnnotDim was pushed from the software.
+!LiveUI: Activating PmaToolAnnotDim
+~ Command `ProCmdPmaOptDimTolMode`  `Limits`
+~ Command `ProCmdPmaInpDimUpperTol`  `32.011`
+~ Command `ProCmdPmaInpDimLowerTol`  `32.02`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w1:PHTLeft.AssyTree:<NULL>`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 431 646 0 1 2438 1159 1920 1080 904496
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+~ Move `main_dlg_cur` `proe_win` 9 431 646 0 1 2438 1159 1920 1080 904500
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 431 646 0 0 2438 1159 1920 1080 904509
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Dimension_Properties to page_Annotate
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!LiveUI: Deactivating PmaToolAnnotDim
+~ LButtonArm `main_dlg_cur` `proe_win` 9 461 631 0 1 2438 1159 1920 1080 905189
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 461 631 0 0 2438 1159 1920 1080 905388
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 57
+ 214 1 1 -1 0 -1 -1 -1 0.000000
+@ draft item: 62
+ 21 1 1 -1 0 -1 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 21 1 -1 (0.0000000000 -1.0000000000) (199.3824092245 447.6194013721 0.0000000000)
+!d1:F5(SKETCH_1)
+!Command ProCmdPmaAnnotDim was pushed from the software.
+!LiveUI: Activating PmaToolAnnotDim
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Annotate to page_Dimension_Properties
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Command ProCmdPmaAnnotDim was pushed from the software.
+!Command ProCmdDtlPushDimRbn was pushed from the software.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 461 631 0 129 2438 1159 1920 1080 905619
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 4
+ 21 1 1 -1 0 -1 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+~ Move `main_dlg_cur` `proe_win` 9 461 631 0 1 2438 1159 1920 1080 905630
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 461 631 0 0 2438 1159 1920 1080 905636
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 4
+ 21 1 1 -1 0 -1 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Command `ProCmdPmaInpDimLowerTol`  `32.002`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 955 433 0 1 2438 1159 1920 1080 916040
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 955 433 0 0 2438 1159 1920 1080 916149
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Dimension_Properties to page_Annotate
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!LiveUI: Deactivating PmaToolAnnotDim
+~ LButtonArm `main_dlg_cur` `proe_win` 9 438 634 0 1 2438 1159 1920 1080 917931
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 438 634 0 0 2438 1159 1920 1080 918178
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 57
+ 214 1 1 -1 0 -1 -1 -1 0.000000
+@ draft item: 62
+ 21 1 1 -1 0 -1 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 21 1 -1 (0.0000000000 -1.0000000000) (188.3234076607 445.5129248838 0.0000000000)
+!d1:F5(SKETCH_1)
+!Command ProCmdPmaAnnotDim was pushed from the software.
+!LiveUI: Activating PmaToolAnnotDim
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Annotate to page_Dimension_Properties
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Command ProCmdPmaAnnotDim was pushed from the software.
+!Command ProCmdDtlPushDimRbn was pushed from the software.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 438 634 0 129 2438 1159 1920 1080 918389
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 4
+ 21 1 1 -1 0 -1 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+~ Move `main_dlg_cur` `proe_win` 9 438 634 0 1 2438 1159 1920 1080 918409
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 438 634 0 0 2438 1159 1920 1080 918412
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 4
+ 21 1 1 -1 0 -1 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Open `main_dlg_cur` `Dimension_Properties:ProCmdPmaOptDimNDigits:ProCmdPmaOptDimNDigits`
+~ Trigger `main_dlg_cur` `Dimension_Properties:ProCmdPmaOptDimNDigits:ProCmdPmaOptDimNDigits` `0`
+~ Close `main_dlg_cur` `Dimension_Properties:ProCmdPmaOptDimNDigits:ProCmdPmaOptDimNDigits`
+~ Command `ProCmdPmaOptDimNDigits`  `0`
+~ Open `main_dlg_cur` `Dimension_Properties:ProCmdPmaOptDimNDigits:ProCmdPmaOptDimNDigits`
+~ Trigger `main_dlg_cur` `Dimension_Properties:ProCmdPmaOptDimNDigits:ProCmdPmaOptDimNDigits` `0`
+~ Trigger `main_dlg_cur` `Dimension_Properties:ProCmdPmaOptDimNDigits:ProCmdPmaOptDimNDigits` `0.1`
+~ Trigger `main_dlg_cur` `Dimension_Properties:ProCmdPmaOptDimNDigits:ProCmdPmaOptDimNDigits` `0.12`
+~ Trigger `main_dlg_cur` `Dimension_Properties:ProCmdPmaOptDimNDigits:ProCmdPmaOptDimNDigits` `0.123`
+~ Close `main_dlg_cur` `Dimension_Properties:ProCmdPmaOptDimNDigits:ProCmdPmaOptDimNDigits`
+~ Command `ProCmdPmaOptDimNDigits`  `0.123`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 934 329 0 1 2438 1159 1920 1080 921560
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 934 329 0 0 2438 1159 1920 1080 921609
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Dimension_Properties to page_Annotate
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!LiveUI: Deactivating PmaToolAnnotDim
+~ LButtonArm `main_dlg_cur` `proe_win` 9 399 665 0 1 2438 1159 1920 1080 923459
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 399 665 0 0 2438 1159 1920 1080 923489
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 57
+ 214 1 1 -1 1 -1 -1 -1 0.000000
+@ draft item: 62
+ 21 1 1 -1 1 -1 -1 -1 0.000000
+@ sel stop
+@ sel stop
+~ LButtonArm `main_dlg_cur` `proe_win` 9 420 662 0 1 2438 1159 1920 1080 923933
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 420 662 0 0 2438 1159 1920 1080 924022
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 57
+ 214 1 1 -1 1 -1 -1 -1 0.000000
+@ draft item: 62
+ 21 1 1 -1 1 -1 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 21 1 -1 (1.0000000000 -1.0000000000) (178.3176443410 431.2942085874 0.0000000000)
+!d1:F5(SKETCH_1)
+!Command ProCmdPmaAnnotDim was pushed from the software.
+!LiveUI: Activating PmaToolAnnotDim
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Annotate to page_Dimension_Properties
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Command ProCmdPmaAnnotDim was pushed from the software.
+!Command ProCmdDtlPushDimRbn was pushed from the software.
+~ RButtonArm `main_dlg_cur` `proe_win` 9 420 662 0 4 2438 1159 1920 1080 924236
+~ Move `main_dlg_cur` `proe_win` 9 420 662 0 4 2438 1159 1920 1080 924236
+~ RButtonDisarm `main_dlg_cur` `proe_win` 9 420 662 0 0 2438 1159 1920 1080 924468
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 4
+ 21 1 1 -1 1 -1 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Command `ProCmdPmaChkSldPnlDimTxt`  1
+~ Trail `main_dlg_cur` `Dimension_Properties:ProCmdPmaChkSldPnlDimTxt` `RibbonPanelsOnActivate_ProCmdPmaChkSldPnlDimTxt` \
+ ``
+~ Input `ProCmdPmaChkSldPnlDimTxt__panel` `PH.dim_txt_area` `@D `
+~ Input `ProCmdPmaChkSldPnlDimTxt__panel` `PH.dim_txt_area` `@D k`
+~ Input `ProCmdPmaChkSldPnlDimTxt__panel` `PH.dim_txt_area` `@D k5`
+~ Update `ProCmdPmaChkSldPnlDimTxt__panel` `PH.dim_txt_area` `@D k5`
+~ Input `ProCmdPmaChkSldPnlDimTxt__panel` `PH.dim_txt_area` `@D k5\n`
+~ Input `ProCmdPmaChkSldPnlDimTxt__panel` `PH.dim_txt_area` `@D k5`
+~ Update `ProCmdPmaChkSldPnlDimTxt__panel` `PH.dim_txt_area` `@D k5`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1861 335 0 1 2438 1159 1920 1080 942931
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+~ Move `main_dlg_cur` `proe_win` 9 1861 335 0 1 2438 1159 1920 1080 942934
+~ Move `main_dlg_cur` `proe_win` 9 1861 335 0 1 2438 1159 1920 1080 942948
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1861 335 0 0 2438 1159 1920 1080 942989
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Dimension_Properties to page_Annotate
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!LiveUI: Deactivating PmaToolAnnotDim
+~ LButtonArm `main_dlg_cur` `proe_win` 9 472 632 0 1 2438 1159 1920 1080 943809
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 472 632 0 0 2438 1159 1920 1080 943842
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+~ LButtonArm `main_dlg_cur` `proe_win` 9 445 637 0 1 2438 1159 1920 1080 944119
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 445 637 0 0 2438 1159 1920 1080 944148
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 57
+ 214 1 1 -1 0 -1 -1 -1 0.000000
+@ draft item: 62
+ 21 1 1 -1 0 -1 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 21 1 -1 (0.0000000000 -1.0000000000) (190.4298841491 443.9330675175 0.0000000000)
+!d1:F5(SKETCH_1)
+!Command ProCmdPmaAnnotDim was pushed from the software.
+!LiveUI: Activating PmaToolAnnotDim
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Annotate to page_Dimension_Properties
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Command ProCmdPmaAnnotDim was pushed from the software.
+!Command ProCmdDtlPushDimRbn was pushed from the software.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 440 628 0 1 2438 1159 1920 1080 944729
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 4
+ 21 1 1 -1 0 -1 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+!Dragger (TD_DIM_1_MDL_1_2) start dragging
+~ Move `main_dlg_cur` `proe_win` 9 438 629 0 1537 2438 1159 1920 1080 944749
+~ Move `main_dlg_cur` `proe_win` 9 434 629 0 513 2438 1159 1920 1080 944763
+~ Move `main_dlg_cur` `proe_win` 9 425 629 0 513 2438 1159 1920 1080 944779
+~ Move `main_dlg_cur` `proe_win` 9 413 629 0 513 2438 1159 1920 1080 944801
+~ Move `main_dlg_cur` `proe_win` 9 398 629 0 513 2438 1159 1920 1080 944831
+~ Move `main_dlg_cur` `proe_win` 9 387 629 0 513 2438 1159 1920 1080 944849
+~ Move `main_dlg_cur` `proe_win` 9 385 629 0 513 2438 1159 1920 1080 944868
+~ Move `main_dlg_cur` `proe_win` 9 380 629 0 513 2438 1159 1920 1080 944885
+~ Move `main_dlg_cur` `proe_win` 9 378 629 0 513 2438 1159 1920 1080 944914
+~ Move `main_dlg_cur` `proe_win` 9 376 629 0 513 2438 1159 1920 1080 944948
+~ Move `main_dlg_cur` `proe_win` 9 374 629 0 513 2438 1159 1920 1080 944979
+~ Move `main_dlg_cur` `proe_win` 9 373 629 0 513 2438 1159 1920 1080 944992
+~ Move `main_dlg_cur` `proe_win` 9 371 629 0 513 2438 1159 1920 1080 945012
+~ Move `main_dlg_cur` `proe_win` 9 369 629 0 513 2438 1159 1920 1080 945047
+~ Move `main_dlg_cur` `proe_win` 9 370 628 0 1537 2438 1159 1920 1080 945548
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 370 628 0 0 2438 1159 1920 1080 945561
+!Dragger (TD_DIM_1_MDL_1_2) end dragging
+!Moved by  -50.959879, 0.000000
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 62
+ 21 1 1 -1 0 -1 -1 -1 0.000000
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 62
+ 21 1 1 -1 0 -1 -1 -1 0.000000
+!sket_eps       3.280131996
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1150 535 0 1 2438 1159 1920 1080 946563
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1150 535 0 0 2438 1159 1920 1080 946608
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Dimension_Properties to page_Annotate
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!LiveUI: Deactivating PmaToolAnnotDim
+~ LButtonArm `main_dlg_cur` `proe_win` 9 949 422 0 1 2438 1159 1920 1080 956688
+~ Move `main_dlg_cur` `proe_win` 9 949 422 0 1 2438 1159 1920 1080 956689
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 949 422 0 0 2438 1159 1920 1080 956692
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+~ LButtonArm `main_dlg_cur` `proe_win` 9 692 541 0 1 2438 1159 1920 1080 982283
+~ Move `main_dlg_cur` `proe_win` 9 692 541 0 1 2438 1159 1920 1080 982301
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 692 541 0 0 2438 1159 1920 1080 982328
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 65 1 -1 (0.0000000000 0.0000000000) (321.5580455490 495.0151223601 0.0000000000)
+!View:new_view_1
+~ LButtonArm `main_dlg_cur` `proe_win` 9 692 541 0 129 2438 1159 1920 1080 982588
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 692 541 0 0 2438 1159 1920 1080 982718
+!Command ProCmdEditPropertiesDwg was pushed from the software.
+~ Activate `drawing_view` `psh_close`
+~ Command `ProCmdDwgShowAllAnnots` 
+~ Select `show_model_annotations` `tab_dtl_types` 1 `lay_datum`
+~ Trigger `show_model_annotations` `tbl_datum` 2 `row0` `type`
+~ Trigger `show_model_annotations` `tbl_datum` 2 `row1` `type`
+~ Trigger `show_model_annotations` `tbl_datum` 2 `row1` `show`
+~ Trigger `show_model_annotations` `tbl_datum` 2 `row0` `show`
+~ Arm `show_model_annotations` `tbl_datum` 2 `row0` `show`
+~ Select `show_model_annotations` `tbl_datum` 2 `row0` `show`
+~ Trigger `show_model_annotations` `tbl_datum` 2 `row1` `show`
+~ Trigger `show_model_annotations` `tbl_datum` 2 `` ``
+~ Trigger `show_model_annotations` `tbl_datum` 2 `row1` `show`
+~ Trigger `show_model_annotations` `tbl_datum` 2 `` ``
+~ Activate `show_model_annotations` `psh_apply`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 662 643 0 1 2438 1159 1920 1080 994781
+~ Move `main_dlg_cur` `proe_win` 9 662 643 0 1 2438 1159 1920 1080 994793
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 662 643 0 0 2438 1159 1920 1080 994808
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+@ draft item: 17
+ 4 0 1 0 0 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 1 1 0 0 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 0 1 0 0 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 1 1 0 0 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 0 1 0 0 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 1 1 0 0 -1 -1 -1 0.000000
+@ stack idx 0
+@SEL_REC 0 [] 4 109 -1 (0.0000000000 0.0000000000) (305.2328527642 438.6801121657 0.0000000000)
+~ Activate `show_model_annotations` `psh_ok`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 829 649 0 1 2438 1159 1920 1080 997918
+~ Move `main_dlg_cur` `proe_win` 9 829 648 0 1025 2438 1159 1920 1080 997927
+~ Move `main_dlg_cur` `proe_win` 9 834 648 0 513 2438 1159 1920 1080 997937
+@sel2d for move
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 22
+ 140 1 1 153 0 0 -1 -1 -1.000000
+@ draft item: 22
+ 140 1 1 153 0 0 -1 -1 0.000000
+@ draft item: 22
+ 140 1 1 152 0 0 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ draft item: 15
+ 29 0 1 0 0 -1 -1 -1 0.000000
+@ draft item: 15
+ 29 1 1 0 0 -1 -1 -1 0.000000
+@ draft item: 16
+ 29 0 1 0 0 -1 -1 -1 0.000000
+@ draft item: 16
+ 29 1 1 0 0 -1 -1 -1 0.000000
+@ draft item: 67
+ 4 0 1 0 0 -1 -1 -1 0.000000
+@ draft item: 67
+ 4 1 1 0 0 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 0 1 0 0 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 1 1 0 0 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 0 1 0 0 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 1 1 0 0 -1 -1 -1 0.000000
+~ Move `main_dlg_cur` `proe_win` 9 840 648 0 513 2438 1159 1920 1080 997976
+~ Move `main_dlg_cur` `proe_win` 9 842 648 0 513 2438 1159 1920 1080 997986
+~ Move `main_dlg_cur` `proe_win` 9 846 648 0 513 2438 1159 1920 1080 998016
+~ Move `main_dlg_cur` `proe_win` 9 847 648 0 513 2438 1159 1920 1080 998018
+~ Move `main_dlg_cur` `proe_win` 9 848 647 0 1537 2438 1159 1920 1080 998029
+~ Move `main_dlg_cur` `proe_win` 9 849 646 0 1537 2438 1159 1920 1080 998040
+~ Move `main_dlg_cur` `proe_win` 9 850 645 0 1537 2438 1159 1920 1080 998063
+~ Move `main_dlg_cur` `proe_win` 9 852 645 0 513 2438 1159 1920 1080 998077
+~ Move `main_dlg_cur` `proe_win` 9 853 645 0 513 2438 1159 1920 1080 998079
+~ Move `main_dlg_cur` `proe_win` 9 854 645 0 513 2438 1159 1920 1080 998098
+~ Move `main_dlg_cur` `proe_win` 9 855 645 0 513 2438 1159 1920 1080 998110
+~ Move `main_dlg_cur` `proe_win` 9 856 645 0 513 2438 1159 1920 1080 998128
+~ Move `main_dlg_cur` `proe_win` 9 857 645 0 513 2438 1159 1920 1080 998138
+~ Move `main_dlg_cur` `proe_win` 9 858 645 0 513 2438 1159 1920 1080 998151
+~ Move `main_dlg_cur` `proe_win` 9 859 645 0 513 2438 1159 1920 1080 998161
+~ Move `main_dlg_cur` `proe_win` 9 860 644 0 1537 2438 1159 1920 1080 998175
+~ Move `main_dlg_cur` `proe_win` 9 861 644 0 513 2438 1159 1920 1080 998181
+~ Move `main_dlg_cur` `proe_win` 9 862 644 0 513 2438 1159 1920 1080 998189
+~ Move `main_dlg_cur` `proe_win` 9 863 643 0 1537 2438 1159 1920 1080 998203
+~ Move `main_dlg_cur` `proe_win` 9 864 643 0 513 2438 1159 1920 1080 998212
+~ Move `main_dlg_cur` `proe_win` 9 865 643 0 513 2438 1159 1920 1080 998220
+~ Move `main_dlg_cur` `proe_win` 9 867 643 0 513 2438 1159 1920 1080 998247
+~ Move `main_dlg_cur` `proe_win` 9 868 642 0 1537 2438 1159 1920 1080 998257
+~ Move `main_dlg_cur` `proe_win` 9 868 643 0 1025 2438 1159 1920 1080 998617
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 868 643 0 0 2438 1159 1920 1080 998619
+~ LButtonArm `main_dlg_cur` `proe_win` 9 473 647 0 1 2438 1159 1920 1080 999659
+~ Move `main_dlg_cur` `proe_win` 9 471 646 0 1537 2438 1159 1920 1080 999667
+~ Move `main_dlg_cur` `proe_win` 9 470 646 0 513 2438 1159 1920 1080 999677
+@sel2d for move
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 22
+ 140 1 1 154 0 0 -1 -1 -1.000000
+@ draft item: 22
+ 140 1 1 154 0 0 -1 -1 0.000000
+@ draft item: 22
+ 140 1 1 152 0 0 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ draft item: 15
+ 29 0 1 0 0 -1 -1 -1 0.000000
+@ draft item: 15
+ 29 1 1 0 0 -1 -1 -1 0.000000
+@ draft item: 16
+ 29 0 1 0 0 -1 -1 -1 0.000000
+@ draft item: 16
+ 29 1 1 0 0 -1 -1 -1 0.000000
+@ draft item: 67
+ 4 0 1 0 0 -1 -1 -1 0.000000
+@ draft item: 67
+ 4 1 1 0 0 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 0 1 0 0 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 1 1 0 0 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 0 1 0 0 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 1 1 0 0 -1 -1 -1 0.000000
+~ Move `main_dlg_cur` `proe_win` 9 466 647 0 1537 2438 1159 1920 1080 999708
+~ Move `main_dlg_cur` `proe_win` 9 464 648 0 1537 2438 1159 1920 1080 999724
+~ Move `main_dlg_cur` `proe_win` 9 461 648 0 513 2438 1159 1920 1080 999735
+~ Move `main_dlg_cur` `proe_win` 9 459 648 0 513 2438 1159 1920 1080 999739
+~ Move `main_dlg_cur` `proe_win` 9 458 648 0 513 2438 1159 1920 1080 999757
+~ Move `main_dlg_cur` `proe_win` 9 456 648 0 513 2438 1159 1920 1080 999768
+~ Move `main_dlg_cur` `proe_win` 9 455 648 0 513 2438 1159 1920 1080 999779
+~ Move `main_dlg_cur` `proe_win` 9 453 648 0 513 2438 1159 1920 1080 999791
+~ Move `main_dlg_cur` `proe_win` 9 452 648 0 513 2438 1159 1920 1080 999812
+~ Move `main_dlg_cur` `proe_win` 9 451 648 0 513 2438 1159 1920 1080 999857
+~ Move `main_dlg_cur` `proe_win` 9 450 648 0 513 2438 1159 1920 1080 999878
+~ Move `main_dlg_cur` `proe_win` 9 449 648 0 513 2438 1159 1920 1080 999937
+~ Move `main_dlg_cur` `proe_win` 9 448 648 0 513 2438 1159 1920 1080 999958
+~ Move `main_dlg_cur` `proe_win` 9 447 648 0 513 2438 1159 1920 1080 1000148
+~ Move `main_dlg_cur` `proe_win` 9 446 648 0 513 2438 1159 1920 1080 1000188
+~ Move `main_dlg_cur` `proe_win` 9 447 647 0 1537 2438 1159 1920 1080 1000418
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 447 647 0 0 2438 1159 1920 1080 1000420
+~ LButtonArm `main_dlg_cur` `proe_win` 9 378 637 0 1 2438 1159 1920 1080 1000808
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 378 637 0 0 2438 1159 1920 1080 1000901
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 57
+ 214 1 1 -1 0 -1 -1 -1 0.000000
+@ draft item: 62
+ 21 1 1 -1 0 -1 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 21 1 -1 (0.0000000000 -1.0000000000) (155.6730220912 444.4596866396 0.0000000000)
+!d1:F5(SKETCH_1)
+!Command ProCmdPmaAnnotDim was pushed from the software.
+!LiveUI: Activating PmaToolAnnotDim
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Annotate to page_Dimension_Properties
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Command ProCmdPmaAnnotDim was pushed from the software.
+!Command ProCmdDtlPushDimRbn was pushed from the software.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 349 632 0 1 2438 1159 1920 1080 1001550
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 4
+ 21 1 1 -1 0 -1 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+!Dragger (TD_DIM_1_MDL_1_2) start dragging
+~ Move `main_dlg_cur` `proe_win` 9 349 631 0 1025 2438 1159 1920 1080 1001618
+~ Move `main_dlg_cur` `proe_win` 9 348 631 0 513 2438 1159 1920 1080 1001637
+~ Move `main_dlg_cur` `proe_win` 9 345 631 0 513 2438 1159 1920 1080 1001651
+~ Move `main_dlg_cur` `proe_win` 9 342 631 0 513 2438 1159 1920 1080 1001674
+~ Move `main_dlg_cur` `proe_win` 9 340 631 0 513 2438 1159 1920 1080 1001767
+~ Move `main_dlg_cur` `proe_win` 9 339 631 0 513 2438 1159 1920 1080 1001778
+~ Move `main_dlg_cur` `proe_win` 9 338 631 0 513 2438 1159 1920 1080 1001795
+~ Move `main_dlg_cur` `proe_win` 9 333 630 0 1537 2438 1159 1920 1080 1001824
+~ Move `main_dlg_cur` `proe_win` 9 332 629 0 1537 2438 1159 1920 1080 1001844
+~ Move `main_dlg_cur` `proe_win` 9 331 629 0 513 2438 1159 1920 1080 1001870
+~ Move `main_dlg_cur` `proe_win` 9 330 629 0 513 2438 1159 1920 1080 1001881
+~ Move `main_dlg_cur` `proe_win` 9 328 629 0 513 2438 1159 1920 1080 1001910
+~ Move `main_dlg_cur` `proe_win` 9 327 629 0 513 2438 1159 1920 1080 1001929
+~ Move `main_dlg_cur` `proe_win` 9 326 629 0 513 2438 1159 1920 1080 1002028
+~ Move `main_dlg_cur` `proe_win` 9 326 631 0 1025 2438 1159 1920 1080 1002248
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 326 631 0 0 2438 1159 1920 1080 1002261
+!Dragger (TD_DIM_1_MDL_1_2) end dragging
+!Moved by  -16.743960, 0.727998
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 62
+ 21 1 1 -1 0 -1 -1 -1 0.000000
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 62
+ 21 1 1 -1 0 -1 -1 -1 0.000000
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1306 343 0 1 2438 1159 1920 1080 1002769
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1306 343 0 0 2438 1159 1920 1080 1002818
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Dimension_Properties to page_Annotate
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!LiveUI: Deactivating PmaToolAnnotDim
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1376 502 0 1 2438 1159 1920 1080 1003529
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1376 502 0 0 2438 1159 1920 1080 1003578
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 65 2 -1 (0.0000000000 0.0000000000) (680.7122868130 515.0266489994 0.0000000000)
+!View:right_2
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1376 502 0 129 2438 1159 1920 1080 1003683
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1376 502 0 0 2438 1159 1920 1080 1003738
+!Command ProCmdEditPropertiesDwg was pushed from the software.
+~ Activate `drawing_view` `psh_close`
+~ Command `ProCmdDwgShowAllAnnots` 
+~ Trigger `show_model_annotations` `tbl_datum` 2 `row0` `type`
+~ Trigger `show_model_annotations` `tbl_datum` 2 `row0` `show`
+~ Arm `show_model_annotations` `tbl_datum` 2 `row0` `show`
+~ Select `show_model_annotations` `tbl_datum` 2 `row0` `show`
+~ Trigger `show_model_annotations` `tbl_datum` 2 `row1` `show`
+~ Trigger `show_model_annotations` `tbl_datum` 2 `` ``
+~ Trigger `show_model_annotations` `tbl_datum` 2 `row1` `show`
+~ Arm `show_model_annotations` `tbl_datum` 2 `row1` `show`
+~ Select `show_model_annotations` `tbl_datum` 2 `row1` `show`
+~ Trigger `show_model_annotations` `tbl_datum` 2 `` ``
+~ Activate `show_model_annotations` `psh_ok`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1411 532 0 1 2438 1159 1920 1080 1012989
+~ Move `main_dlg_cur` `proe_win` 9 1413 527 0 1537 2438 1159 1920 1080 1013017
+@sel2d for move
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 22
+ 140 1 1 152 1 2 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ draft item: 15
+ 29 1 1 2 1 -1 -1 -1 0.000000
+@ draft item: 16
+ 29 1 1 2 1 -1 -1 -1 0.000000
+@ draft item: 67
+ 4 1 1 2 1 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 1 1 2 1 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 1 1 2 1 -1 -1 -1 0.000000
+~ Move `main_dlg_cur` `proe_win` 9 1426 510 0 1537 2438 1159 1920 1080 1013051
+~ Move `main_dlg_cur` `proe_win` 9 1430 503 0 1537 2438 1159 1920 1080 1013059
+~ Move `main_dlg_cur` `proe_win` 9 1436 494 0 1537 2438 1159 1920 1080 1013076
+~ Move `main_dlg_cur` `proe_win` 9 1442 487 0 1537 2438 1159 1920 1080 1013080
+~ Move `main_dlg_cur` `proe_win` 9 1447 478 0 1537 2438 1159 1920 1080 1013088
+~ Move `main_dlg_cur` `proe_win` 9 1451 469 0 1537 2438 1159 1920 1080 1013098
+~ Move `main_dlg_cur` `proe_win` 9 1455 462 0 1537 2438 1159 1920 1080 1013116
+~ Move `main_dlg_cur` `proe_win` 9 1459 455 0 1537 2438 1159 1920 1080 1013119
+~ Move `main_dlg_cur` `proe_win` 9 1461 448 0 1537 2438 1159 1920 1080 1013129
+~ Move `main_dlg_cur` `proe_win` 9 1465 441 0 1537 2438 1159 1920 1080 1013139
+~ Move `main_dlg_cur` `proe_win` 9 1469 432 0 1537 2438 1159 1920 1080 1013157
+~ Move `main_dlg_cur` `proe_win` 9 1481 414 0 1537 2438 1159 1920 1080 1013170
+~ Move `main_dlg_cur` `proe_win` 9 1486 406 0 1537 2438 1159 1920 1080 1013182
+~ Move `main_dlg_cur` `proe_win` 9 1486 397 0 1025 2438 1159 1920 1080 1013194
+~ Move `main_dlg_cur` `proe_win` 9 1489 389 0 1537 2438 1159 1920 1080 1013206
+~ Move `main_dlg_cur` `proe_win` 9 1490 384 0 1537 2438 1159 1920 1080 1013213
+~ Move `main_dlg_cur` `proe_win` 9 1490 378 0 1025 2438 1159 1920 1080 1013224
+~ Move `main_dlg_cur` `proe_win` 9 1493 371 0 1537 2438 1159 1920 1080 1013230
+~ Move `main_dlg_cur` `proe_win` 9 1494 369 0 1537 2438 1159 1920 1080 1013238
+~ Move `main_dlg_cur` `proe_win` 9 1494 367 0 1025 2438 1159 1920 1080 1013249
+~ Move `main_dlg_cur` `proe_win` 9 1495 365 0 1537 2438 1159 1920 1080 1013260
+~ Move `main_dlg_cur` `proe_win` 9 1496 362 0 1537 2438 1159 1920 1080 1013269
+~ Move `main_dlg_cur` `proe_win` 9 1497 361 0 1537 2438 1159 1920 1080 1013286
+~ Move `main_dlg_cur` `proe_win` 9 1499 357 0 1537 2438 1159 1920 1080 1013292
+~ Move `main_dlg_cur` `proe_win` 9 1499 356 0 1025 2438 1159 1920 1080 1013301
+~ Move `main_dlg_cur` `proe_win` 9 1501 354 0 1537 2438 1159 1920 1080 1013317
+~ Move `main_dlg_cur` `proe_win` 9 1501 353 0 1025 2438 1159 1920 1080 1013342
+~ Move `main_dlg_cur` `proe_win` 9 1503 352 0 1537 2438 1159 1920 1080 1013354
+~ Move `main_dlg_cur` `proe_win` 9 1503 351 0 1025 2438 1159 1920 1080 1013367
+~ Move `main_dlg_cur` `proe_win` 9 1504 351 0 513 2438 1159 1920 1080 1013379
+~ Move `main_dlg_cur` `proe_win` 9 1505 351 0 513 2438 1159 1920 1080 1013393
+~ Move `main_dlg_cur` `proe_win` 9 1506 351 0 513 2438 1159 1920 1080 1013404
+~ Move `main_dlg_cur` `proe_win` 9 1507 350 0 1537 2438 1159 1920 1080 1013409
+~ Move `main_dlg_cur` `proe_win` 9 1509 349 0 1537 2438 1159 1920 1080 1013425
+~ Move `main_dlg_cur` `proe_win` 9 1510 348 0 1537 2438 1159 1920 1080 1013439
+~ Move `main_dlg_cur` `proe_win` 9 1512 347 0 1537 2438 1159 1920 1080 1013450
+~ Move `main_dlg_cur` `proe_win` 9 1514 346 0 1537 2438 1159 1920 1080 1013462
+~ Move `main_dlg_cur` `proe_win` 9 1517 346 0 513 2438 1159 1920 1080 1013474
+~ Move `main_dlg_cur` `proe_win` 9 1521 344 0 1537 2438 1159 1920 1080 1013479
+~ Move `main_dlg_cur` `proe_win` 9 1524 343 0 1537 2438 1159 1920 1080 1013495
+~ Move `main_dlg_cur` `proe_win` 9 1526 342 0 1537 2438 1159 1920 1080 1013500
+~ Move `main_dlg_cur` `proe_win` 9 1530 339 0 1537 2438 1159 1920 1080 1013509
+~ Move `main_dlg_cur` `proe_win` 9 1534 337 0 1537 2438 1159 1920 1080 1013518
+~ Move `main_dlg_cur` `proe_win` 9 1536 335 0 1537 2438 1159 1920 1080 1013528
+~ Move `main_dlg_cur` `proe_win` 9 1540 333 0 1537 2438 1159 1920 1080 1013548
+~ Move `main_dlg_cur` `proe_win` 9 1547 327 0 1537 2438 1159 1920 1080 1013560
+~ Move `main_dlg_cur` `proe_win` 9 1550 323 0 1537 2438 1159 1920 1080 1013574
+~ Move `main_dlg_cur` `proe_win` 9 1554 320 0 1537 2438 1159 1920 1080 1013586
+~ Move `main_dlg_cur` `proe_win` 9 1557 315 0 1537 2438 1159 1920 1080 1013594
+~ Move `main_dlg_cur` `proe_win` 9 1563 309 0 1537 2438 1159 1920 1080 1013604
+~ Move `main_dlg_cur` `proe_win` 9 1572 299 0 1537 2438 1159 1920 1080 1013624
+~ Move `main_dlg_cur` `proe_win` 9 1583 291 0 1537 2438 1159 1920 1080 1013640
+~ Move `main_dlg_cur` `proe_win` 9 1590 287 0 1537 2438 1159 1920 1080 1013655
+~ Move `main_dlg_cur` `proe_win` 9 1593 284 0 1537 2438 1159 1920 1080 1013665
+~ Move `main_dlg_cur` `proe_win` 9 1596 281 0 1537 2438 1159 1920 1080 1013668
+~ Move `main_dlg_cur` `proe_win` 9 1601 280 0 1537 2438 1159 1920 1080 1013678
+~ Move `main_dlg_cur` `proe_win` 9 1604 278 0 1537 2438 1159 1920 1080 1013697
+~ Move `main_dlg_cur` `proe_win` 9 1610 274 0 1537 2438 1159 1920 1080 1013710
+~ Move `main_dlg_cur` `proe_win` 9 1613 273 0 1537 2438 1159 1920 1080 1013721
+~ Move `main_dlg_cur` `proe_win` 9 1615 271 0 1537 2438 1159 1920 1080 1013734
+~ Move `main_dlg_cur` `proe_win` 9 1619 269 0 1537 2438 1159 1920 1080 1013743
+~ Move `main_dlg_cur` `proe_win` 9 1622 267 0 1537 2438 1159 1920 1080 1013749
+~ Move `main_dlg_cur` `proe_win` 9 1625 264 0 1537 2438 1159 1920 1080 1013759
+~ Move `main_dlg_cur` `proe_win` 9 1630 262 0 1537 2438 1159 1920 1080 1013771
+~ Move `main_dlg_cur` `proe_win` 9 1633 260 0 1537 2438 1159 1920 1080 1013779
+~ Move `main_dlg_cur` `proe_win` 9 1638 257 0 1537 2438 1159 1920 1080 1013797
+~ Move `main_dlg_cur` `proe_win` 9 1645 252 0 1537 2438 1159 1920 1080 1013810
+~ Move `main_dlg_cur` `proe_win` 9 1648 249 0 1537 2438 1159 1920 1080 1013821
+~ Move `main_dlg_cur` `proe_win` 9 1652 247 0 1537 2438 1159 1920 1080 1013833
+~ Move `main_dlg_cur` `proe_win` 9 1655 245 0 1537 2438 1159 1920 1080 1013844
+~ Move `main_dlg_cur` `proe_win` 9 1659 243 0 1537 2438 1159 1920 1080 1013857
+~ Move `main_dlg_cur` `proe_win` 9 1663 238 0 1537 2438 1159 1920 1080 1013870
+~ Move `main_dlg_cur` `proe_win` 9 1666 235 0 1537 2438 1159 1920 1080 1013882
+~ Move `main_dlg_cur` `proe_win` 9 1667 234 0 1537 2438 1159 1920 1080 1013890
+~ Move `main_dlg_cur` `proe_win` 9 1669 232 0 1537 2438 1159 1920 1080 1013905
+~ Move `main_dlg_cur` `proe_win` 9 1672 229 0 1537 2438 1159 1920 1080 1013919
+~ Move `main_dlg_cur` `proe_win` 9 1673 229 0 513 2438 1159 1920 1080 1013929
+~ Move `main_dlg_cur` `proe_win` 9 1676 227 0 1537 2438 1159 1920 1080 1013945
+~ Move `main_dlg_cur` `proe_win` 9 1679 226 0 1537 2438 1159 1920 1080 1013951
+~ Move `main_dlg_cur` `proe_win` 9 1682 225 0 1537 2438 1159 1920 1080 1013961
+~ Move `main_dlg_cur` `proe_win` 9 1685 224 0 1537 2438 1159 1920 1080 1013970
+~ Move `main_dlg_cur` `proe_win` 9 1689 222 0 1537 2438 1159 1920 1080 1013986
+~ Move `main_dlg_cur` `proe_win` 9 1692 221 0 1537 2438 1159 1920 1080 1013993
+~ Move `main_dlg_cur` `proe_win` 9 1694 220 0 1537 2438 1159 1920 1080 1014003
+~ Move `main_dlg_cur` `proe_win` 9 1695 220 0 513 2438 1159 1920 1080 1014012
+~ Move `main_dlg_cur` `proe_win` 9 1697 220 0 513 2438 1159 1920 1080 1014021
+~ Move `main_dlg_cur` `proe_win` 9 1697 219 0 1025 2438 1159 1920 1080 1014036
+~ Move `main_dlg_cur` `proe_win` 9 1697 220 0 1025 2438 1159 1920 1080 1014077
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1697 220 0 0 2438 1159 1920 1080 1014084
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1409 289 0 1 2438 1159 1920 1080 1015454
+~ Move `main_dlg_cur` `proe_win` 9 1411 289 0 513 2438 1159 1920 1080 1015458
+~ Move `main_dlg_cur` `proe_win` 9 1411 290 0 1025 2438 1159 1920 1080 1015477
+~ Move `main_dlg_cur` `proe_win` 9 1412 291 0 1537 2438 1159 1920 1080 1015497
+~ Move `main_dlg_cur` `proe_win` 9 1412 294 0 1025 2438 1159 1920 1080 1015510
+~ Move `main_dlg_cur` `proe_win` 9 1412 298 0 1025 2438 1159 1920 1080 1015518
+~ Move `main_dlg_cur` `proe_win` 9 1412 303 0 1025 2438 1159 1920 1080 1015527
+~ Move `main_dlg_cur` `proe_win` 9 1412 307 0 1025 2438 1159 1920 1080 1015537
+~ Move `main_dlg_cur` `proe_win` 9 1411 311 0 1537 2438 1159 1920 1080 1015547
+~ Move `main_dlg_cur` `proe_win` 9 1411 314 0 1025 2438 1159 1920 1080 1015558
+~ Move `main_dlg_cur` `proe_win` 9 1411 316 0 1025 2438 1159 1920 1080 1015573
+~ Move `main_dlg_cur` `proe_win` 9 1412 321 0 1537 2438 1159 1920 1080 1015591
+~ Move `main_dlg_cur` `proe_win` 9 1416 328 0 1537 2438 1159 1920 1080 1015613
+~ Move `main_dlg_cur` `proe_win` 9 1421 336 0 1537 2438 1159 1920 1080 1015629
+~ Move `main_dlg_cur` `proe_win` 9 1426 344 0 1537 2438 1159 1920 1080 1015649
+~ Move `main_dlg_cur` `proe_win` 9 1430 351 0 1537 2438 1159 1920 1080 1015667
+~ Move `main_dlg_cur` `proe_win` 9 1437 361 0 1537 2438 1159 1920 1080 1015690
+~ Move `main_dlg_cur` `proe_win` 9 1439 364 0 1537 2438 1159 1920 1080 1015720
+~ Move `main_dlg_cur` `proe_win` 9 1440 367 0 1537 2438 1159 1920 1080 1015735
+~ Move `main_dlg_cur` `proe_win` 9 1441 373 0 1537 2438 1159 1920 1080 1015756
+~ Move `main_dlg_cur` `proe_win` 9 1444 378 0 1537 2438 1159 1920 1080 1015779
+~ Move `main_dlg_cur` `proe_win` 9 1445 382 0 1537 2438 1159 1920 1080 1015798
+~ Move `main_dlg_cur` `proe_win` 9 1449 387 0 1537 2438 1159 1920 1080 1015819
+~ Move `main_dlg_cur` `proe_win` 9 1452 392 0 1537 2438 1159 1920 1080 1015842
+~ Move `main_dlg_cur` `proe_win` 9 1452 394 0 1025 2438 1159 1920 1080 1015870
+~ Move `main_dlg_cur` `proe_win` 9 1453 395 0 1537 2438 1159 1920 1080 1015882
+~ Move `main_dlg_cur` `proe_win` 9 1454 395 0 513 2438 1159 1920 1080 1015900
+~ Move `main_dlg_cur` `proe_win` 9 1455 396 0 1537 2438 1159 1920 1080 1015997
+~ Move `main_dlg_cur` `proe_win` 9 1454 395 0 1537 2438 1159 1920 1080 1016261
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1454 395 0 0 2438 1159 1920 1080 1016273
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1403 569 0 1 2438 1159 1920 1080 1016942
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1403 569 0 0 2438 1159 1920 1080 1016957
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ draft item: 15
+ 29 0 1 2 1 -1 -1 -1 0.000000
+@ draft item: 15
+ 29 1 1 2 1 -1 -1 -1 0.000000
+@ draft item: 16
+ 29 0 1 2 1 -1 -1 -1 0.000000
+@ draft item: 16
+ 29 1 1 2 1 -1 -1 -1 0.000000
+@ draft item: 67
+ 4 0 1 2 1 -1 -1 -1 0.000000
+@ draft item: 67
+ 4 1 1 2 1 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 0 1 2 1 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 1 1 2 1 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 0 1 2 1 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 1 1 2 1 -1 -1 -1 0.000000
+@ stack idx 0
+@SEL_REC 0 [] 4 46 -1 (2.0000000000 1.0000000000) (697.2814870578 479.7431678195 0.0000000000)
+!A_1(AXIS):F5(SKETCH_1)
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1407 566 0 1 2438 1159 1920 1080 1017768
+~ Move `main_dlg_cur` `proe_win` 9 1411 564 0 1537 2438 1159 1920 1080 1017777
+@sel2d for move
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 22
+ 140 0 1 152 1 2 -1 -1 0.000000
+@ sel stop
+@ sel stop
+@ draft item: 15
+ 29 0 1 2 1 -1 -1 -1 0.000000
+@ draft item: 15
+ 29 1 1 2 1 -1 -1 -1 0.000000
+@ draft item: 16
+ 29 0 1 2 1 -1 -1 -1 0.000000
+@ draft item: 16
+ 29 1 1 2 1 -1 -1 -1 0.000000
+@ draft item: 67
+ 4 0 1 2 1 -1 -1 -1 0.000000
+@ draft item: 67
+ 4 1 1 2 1 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 0 1 2 1 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 1 1 2 1 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 0 1 2 1 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 1 1 2 1 -1 -1 -1 0.000000
+~ Move `main_dlg_cur` `proe_win` 9 1419 562 0 1537 2438 1159 1920 1080 1017807
+~ Move `main_dlg_cur` `proe_win` 9 1434 558 0 1537 2438 1159 1920 1080 1017819
+~ Move `main_dlg_cur` `proe_win` 9 1442 556 0 1537 2438 1159 1920 1080 1017832
+~ Move `main_dlg_cur` `proe_win` 9 1447 555 0 1537 2438 1159 1920 1080 1017847
+~ Move `main_dlg_cur` `proe_win` 9 1460 554 0 1537 2438 1159 1920 1080 1017861
+~ Move `main_dlg_cur` `proe_win` 9 1464 553 0 1537 2438 1159 1920 1080 1017871
+~ Move `main_dlg_cur` `proe_win` 9 1471 550 0 1537 2438 1159 1920 1080 1017884
+~ Move `main_dlg_cur` `proe_win` 9 1476 549 0 1537 2438 1159 1920 1080 1017889
+~ Move `main_dlg_cur` `proe_win` 9 1481 545 0 1537 2438 1159 1920 1080 1017906
+~ Move `main_dlg_cur` `proe_win` 9 1488 542 0 1537 2438 1159 1920 1080 1017910
+~ Move `main_dlg_cur` `proe_win` 9 1493 540 0 1537 2438 1159 1920 1080 1017921
+~ Move `main_dlg_cur` `proe_win` 9 1498 537 0 1537 2438 1159 1920 1080 1017930
+~ Move `main_dlg_cur` `proe_win` 9 1503 535 0 1537 2438 1159 1920 1080 1017946
+~ Move `main_dlg_cur` `proe_win` 9 1508 532 0 1537 2438 1159 1920 1080 1017951
+~ Move `main_dlg_cur` `proe_win` 9 1514 530 0 1537 2438 1159 1920 1080 1017961
+~ Move `main_dlg_cur` `proe_win` 9 1521 525 0 1537 2438 1159 1920 1080 1017976
+~ Move `main_dlg_cur` `proe_win` 9 1538 514 0 1537 2438 1159 1920 1080 1017989
+~ Move `main_dlg_cur` `proe_win` 9 1545 508 0 1537 2438 1159 1920 1080 1018004
+~ Move `main_dlg_cur` `proe_win` 9 1554 500 0 1537 2438 1159 1920 1080 1018010
+~ Move `main_dlg_cur` `proe_win` 9 1558 495 0 1537 2438 1159 1920 1080 1018025
+~ Move `main_dlg_cur` `proe_win` 9 1565 489 0 1537 2438 1159 1920 1080 1018030
+~ Move `main_dlg_cur` `proe_win` 9 1569 482 0 1537 2438 1159 1920 1080 1018043
+~ Move `main_dlg_cur` `proe_win` 9 1576 471 0 1537 2438 1159 1920 1080 1018056
+~ Move `main_dlg_cur` `proe_win` 9 1580 463 0 1537 2438 1159 1920 1080 1018061
+~ Move `main_dlg_cur` `proe_win` 9 1583 454 0 1537 2438 1159 1920 1080 1018069
+~ Move `main_dlg_cur` `proe_win` 9 1586 447 0 1537 2438 1159 1920 1080 1018077
+~ Move `main_dlg_cur` `proe_win` 9 1589 438 0 1537 2438 1159 1920 1080 1018091
+~ Move `main_dlg_cur` `proe_win` 9 1590 432 0 1537 2438 1159 1920 1080 1018106
+~ Move `main_dlg_cur` `proe_win` 9 1592 427 0 1537 2438 1159 1920 1080 1018111
+~ Move `main_dlg_cur` `proe_win` 9 1594 417 0 1537 2438 1159 1920 1080 1018121
+~ Move `main_dlg_cur` `proe_win` 9 1597 408 0 1537 2438 1159 1920 1080 1018133
+~ Move `main_dlg_cur` `proe_win` 9 1601 393 0 1537 2438 1159 1920 1080 1018154
+~ Move `main_dlg_cur` `proe_win` 9 1605 384 0 1537 2438 1159 1920 1080 1018162
+~ Move `main_dlg_cur` `proe_win` 9 1608 375 0 1537 2438 1159 1920 1080 1018170
+~ Move `main_dlg_cur` `proe_win` 9 1610 365 0 1537 2438 1159 1920 1080 1018179
+~ Move `main_dlg_cur` `proe_win` 9 1611 359 0 1537 2438 1159 1920 1080 1018190
+~ Move `main_dlg_cur` `proe_win` 9 1612 352 0 1537 2438 1159 1920 1080 1018206
+~ Move `main_dlg_cur` `proe_win` 9 1615 341 0 1537 2438 1159 1920 1080 1018217
+~ Move `main_dlg_cur` `proe_win` 9 1616 338 0 1537 2438 1159 1920 1080 1018228
+~ Move `main_dlg_cur` `proe_win` 9 1617 333 0 1537 2438 1159 1920 1080 1018240
+~ Move `main_dlg_cur` `proe_win` 9 1618 328 0 1537 2438 1159 1920 1080 1018252
+~ Move `main_dlg_cur` `proe_win` 9 1618 325 0 1025 2438 1159 1920 1080 1018264
+~ Move `main_dlg_cur` `proe_win` 9 1619 322 0 1537 2438 1159 1920 1080 1018277
+~ Move `main_dlg_cur` `proe_win` 9 1620 315 0 1537 2438 1159 1920 1080 1018293
+~ Move `main_dlg_cur` `proe_win` 9 1620 313 0 1025 2438 1159 1920 1080 1018303
+~ Move `main_dlg_cur` `proe_win` 9 1621 311 0 1537 2438 1159 1920 1080 1018318
+~ Move `main_dlg_cur` `proe_win` 9 1621 310 0 1025 2438 1159 1920 1080 1018347
+~ Move `main_dlg_cur` `proe_win` 9 1622 309 0 1537 2438 1159 1920 1080 1018427
+~ Move `main_dlg_cur` `proe_win` 9 1623 308 0 1537 2438 1159 1920 1080 1018438
+~ Move `main_dlg_cur` `proe_win` 9 1624 307 0 1537 2438 1159 1920 1080 1018448
+~ Move `main_dlg_cur` `proe_win` 9 1625 306 0 1537 2438 1159 1920 1080 1018460
+~ Move `main_dlg_cur` `proe_win` 9 1630 301 0 1537 2438 1159 1920 1080 1018469
+~ Move `main_dlg_cur` `proe_win` 9 1636 297 0 1537 2438 1159 1920 1080 1018483
+~ Move `main_dlg_cur` `proe_win` 9 1641 294 0 1537 2438 1159 1920 1080 1018493
+~ Move `main_dlg_cur` `proe_win` 9 1644 292 0 1537 2438 1159 1920 1080 1018502
+~ Move `main_dlg_cur` `proe_win` 9 1647 291 0 1537 2438 1159 1920 1080 1018512
+~ Move `main_dlg_cur` `proe_win` 9 1652 289 0 1537 2438 1159 1920 1080 1018521
+~ Move `main_dlg_cur` `proe_win` 9 1654 288 0 1537 2438 1159 1920 1080 1018539
+~ Move `main_dlg_cur` `proe_win` 9 1656 285 0 1537 2438 1159 1920 1080 1018551
+~ Move `main_dlg_cur` `proe_win` 9 1658 285 0 513 2438 1159 1920 1080 1018563
+~ Move `main_dlg_cur` `proe_win` 9 1660 283 0 1537 2438 1159 1920 1080 1018574
+~ Move `main_dlg_cur` `proe_win` 9 1661 282 0 1537 2438 1159 1920 1080 1018585
+~ Move `main_dlg_cur` `proe_win` 9 1664 281 0 1537 2438 1159 1920 1080 1018598
+~ Move `main_dlg_cur` `proe_win` 9 1665 281 0 513 2438 1159 1920 1080 1018609
+~ Move `main_dlg_cur` `proe_win` 9 1662 285 0 1537 2438 1159 1920 1080 1018897
+~ Move `main_dlg_cur` `proe_win` 9 1661 286 0 1537 2438 1159 1920 1080 1018907
+~ Move `main_dlg_cur` `proe_win` 9 1659 287 0 1537 2438 1159 1920 1080 1018918
+~ Move `main_dlg_cur` `proe_win` 9 1659 288 0 1025 2438 1159 1920 1080 1018929
+~ Move `main_dlg_cur` `proe_win` 9 1658 289 0 1537 2438 1159 1920 1080 1019107
+~ Move `main_dlg_cur` `proe_win` 9 1658 290 0 1025 2438 1159 1920 1080 1019126
+~ Move `main_dlg_cur` `proe_win` 9 1658 291 0 1025 2438 1159 1920 1080 1019138
+~ Move `main_dlg_cur` `proe_win` 9 1657 293 0 1537 2438 1159 1920 1080 1019151
+~ Move `main_dlg_cur` `proe_win` 9 1656 295 0 1537 2438 1159 1920 1080 1019161
+~ Move `main_dlg_cur` `proe_win` 9 1656 297 0 1025 2438 1159 1920 1080 1019174
+~ Move `main_dlg_cur` `proe_win` 9 1654 300 0 1537 2438 1159 1920 1080 1019181
+~ Move `main_dlg_cur` `proe_win` 9 1653 301 0 1537 2438 1159 1920 1080 1019190
+~ Move `main_dlg_cur` `proe_win` 9 1652 303 0 1537 2438 1159 1920 1080 1019207
+~ Move `main_dlg_cur` `proe_win` 9 1650 307 0 1537 2438 1159 1920 1080 1019223
+~ Move `main_dlg_cur` `proe_win` 9 1649 308 0 1537 2438 1159 1920 1080 1019234
+~ Move `main_dlg_cur` `proe_win` 9 1648 309 0 1537 2438 1159 1920 1080 1019239
+~ Move `main_dlg_cur` `proe_win` 9 1647 311 0 1537 2438 1159 1920 1080 1019255
+~ Move `main_dlg_cur` `proe_win` 9 1646 313 0 1537 2438 1159 1920 1080 1019259
+~ Move `main_dlg_cur` `proe_win` 9 1645 315 0 1537 2438 1159 1920 1080 1019270
+~ Move `main_dlg_cur` `proe_win` 9 1644 316 0 1537 2438 1159 1920 1080 1019286
+~ Move `main_dlg_cur` `proe_win` 9 1642 319 0 1537 2438 1159 1920 1080 1019292
+~ Move `main_dlg_cur` `proe_win` 9 1641 321 0 1537 2438 1159 1920 1080 1019300
+~ Move `main_dlg_cur` `proe_win` 9 1639 324 0 1537 2438 1159 1920 1080 1019309
+~ Move `main_dlg_cur` `proe_win` 9 1638 326 0 1537 2438 1159 1920 1080 1019320
+~ Move `main_dlg_cur` `proe_win` 9 1637 329 0 1537 2438 1159 1920 1080 1019330
+~ Move `main_dlg_cur` `proe_win` 9 1635 331 0 1537 2438 1159 1920 1080 1019339
+~ Move `main_dlg_cur` `proe_win` 9 1633 338 0 1537 2438 1159 1920 1080 1019359
+~ Move `main_dlg_cur` `proe_win` 9 1632 340 0 1537 2438 1159 1920 1080 1019377
+~ Move `main_dlg_cur` `proe_win` 9 1625 356 0 1537 2438 1159 1920 1080 1019389
+~ Move `main_dlg_cur` `proe_win` 9 1624 357 0 1537 2438 1159 1920 1080 1019407
+~ Move `main_dlg_cur` `proe_win` 9 1624 358 0 1025 2438 1159 1920 1080 1019417
+~ Move `main_dlg_cur` `proe_win` 9 1624 359 0 1025 2438 1159 1920 1080 1019586
+~ Move `main_dlg_cur` `proe_win` 9 1623 359 0 513 2438 1159 1920 1080 1019618
+~ Move `main_dlg_cur` `proe_win` 9 1623 360 0 1025 2438 1159 1920 1080 1019635
+~ Move `main_dlg_cur` `proe_win` 9 1623 361 0 1025 2438 1159 1920 1080 1019639
+~ Move `main_dlg_cur` `proe_win` 9 1621 363 0 1537 2438 1159 1920 1080 1019654
+~ Move `main_dlg_cur` `proe_win` 9 1620 365 0 1537 2438 1159 1920 1080 1019660
+~ Move `main_dlg_cur` `proe_win` 9 1618 367 0 1537 2438 1159 1920 1080 1019677
+~ Move `main_dlg_cur` `proe_win` 9 1614 372 0 1537 2438 1159 1920 1080 1019688
+~ Move `main_dlg_cur` `proe_win` 9 1613 374 0 1537 2438 1159 1920 1080 1019700
+~ Move `main_dlg_cur` `proe_win` 9 1611 378 0 1537 2438 1159 1920 1080 1019712
+~ Move `main_dlg_cur` `proe_win` 9 1609 381 0 1537 2438 1159 1920 1080 1019724
+~ Move `main_dlg_cur` `proe_win` 9 1605 384 0 1537 2438 1159 1920 1080 1019735
+~ Move `main_dlg_cur` `proe_win` 9 1604 388 0 1537 2438 1159 1920 1080 1019746
+~ Move `main_dlg_cur` `proe_win` 9 1602 390 0 1537 2438 1159 1920 1080 1019753
+~ Move `main_dlg_cur` `proe_win` 9 1602 391 0 1025 2438 1159 1920 1080 1019764
+~ Move `main_dlg_cur` `proe_win` 9 1601 393 0 1537 2438 1159 1920 1080 1019776
+~ Move `main_dlg_cur` `proe_win` 9 1600 393 0 513 2438 1159 1920 1080 1019788
+~ Move `main_dlg_cur` `proe_win` 9 1600 394 0 1025 2438 1159 1920 1080 1019799
+~ Move `main_dlg_cur` `proe_win` 9 1600 395 0 1025 2438 1159 1920 1080 1019817
+~ Move `main_dlg_cur` `proe_win` 9 1600 394 0 1025 2438 1159 1920 1080 1019927
+~ Move `main_dlg_cur` `proe_win` 9 1601 391 0 1537 2438 1159 1920 1080 1019958
+~ Move `main_dlg_cur` `proe_win` 9 1604 386 0 1537 2438 1159 1920 1080 1019967
+~ Move `main_dlg_cur` `proe_win` 9 1606 384 0 1537 2438 1159 1920 1080 1019978
+~ Move `main_dlg_cur` `proe_win` 9 1609 379 0 1537 2438 1159 1920 1080 1019991
+~ Move `main_dlg_cur` `proe_win` 9 1612 377 0 1537 2438 1159 1920 1080 1020003
+~ Move `main_dlg_cur` `proe_win` 9 1614 375 0 1537 2438 1159 1920 1080 1020014
+~ Move `main_dlg_cur` `proe_win` 9 1616 373 0 1537 2438 1159 1920 1080 1020026
+~ Move `main_dlg_cur` `proe_win` 9 1619 371 0 1537 2438 1159 1920 1080 1020029
+~ Move `main_dlg_cur` `proe_win` 9 1619 369 0 1025 2438 1159 1920 1080 1020048
+~ Move `main_dlg_cur` `proe_win` 9 1620 368 0 1537 2438 1159 1920 1080 1020067
+~ Move `main_dlg_cur` `proe_win` 9 1622 366 0 1537 2438 1159 1920 1080 1020080
+~ Move `main_dlg_cur` `proe_win` 9 1624 366 0 513 2438 1159 1920 1080 1020091
+~ Move `main_dlg_cur` `proe_win` 9 1626 363 0 1537 2438 1159 1920 1080 1020104
+~ Move `main_dlg_cur` `proe_win` 9 1627 363 0 513 2438 1159 1920 1080 1020107
+~ Move `main_dlg_cur` `proe_win` 9 1629 362 0 1537 2438 1159 1920 1080 1020125
+~ Move `main_dlg_cur` `proe_win` 9 1630 361 0 1537 2438 1159 1920 1080 1020129
+~ Move `main_dlg_cur` `proe_win` 9 1632 360 0 1537 2438 1159 1920 1080 1020145
+~ Move `main_dlg_cur` `proe_win` 9 1634 359 0 1537 2438 1159 1920 1080 1020158
+~ Move `main_dlg_cur` `proe_win` 9 1635 358 0 1537 2438 1159 1920 1080 1020169
+~ Move `main_dlg_cur` `proe_win` 9 1636 357 0 1537 2438 1159 1920 1080 1020197
+~ Move `main_dlg_cur` `proe_win` 9 1637 356 0 1537 2438 1159 1920 1080 1020209
+~ Move `main_dlg_cur` `proe_win` 9 1638 355 0 1537 2438 1159 1920 1080 1020219
+~ Move `main_dlg_cur` `proe_win` 9 1640 354 0 1537 2438 1159 1920 1080 1020247
+~ Move `main_dlg_cur` `proe_win` 9 1641 354 0 513 2438 1159 1920 1080 1020258
+~ Move `main_dlg_cur` `proe_win` 9 1642 354 0 513 2438 1159 1920 1080 1020308
+~ Move `main_dlg_cur` `proe_win` 9 1642 353 0 1025 2438 1159 1920 1080 1020322
+~ Move `main_dlg_cur` `proe_win` 9 1643 352 0 1537 2438 1159 1920 1080 1020332
+~ Move `main_dlg_cur` `proe_win` 9 1643 351 0 1025 2438 1159 1920 1080 1020345
+~ Move `main_dlg_cur` `proe_win` 9 1645 349 0 1537 2438 1159 1920 1080 1020356
+~ Move `main_dlg_cur` `proe_win` 9 1647 348 0 1537 2438 1159 1920 1080 1020361
+~ Move `main_dlg_cur` `proe_win` 9 1648 347 0 1537 2438 1159 1920 1080 1020376
+~ Move `main_dlg_cur` `proe_win` 9 1652 344 0 1537 2438 1159 1920 1080 1020388
+~ Move `main_dlg_cur` `proe_win` 9 1654 342 0 1537 2438 1159 1920 1080 1020400
+~ Move `main_dlg_cur` `proe_win` 9 1657 341 0 1537 2438 1159 1920 1080 1020418
+~ Move `main_dlg_cur` `proe_win` 9 1658 340 0 1537 2438 1159 1920 1080 1020432
+~ Move `main_dlg_cur` `proe_win` 9 1660 339 0 1537 2438 1159 1920 1080 1020446
+~ Move `main_dlg_cur` `proe_win` 9 1662 338 0 1537 2438 1159 1920 1080 1020465
+~ Move `main_dlg_cur` `proe_win` 9 1664 337 0 1537 2438 1159 1920 1080 1020476
+~ Move `main_dlg_cur` `proe_win` 9 1665 337 0 513 2438 1159 1920 1080 1020488
+~ Move `main_dlg_cur` `proe_win` 9 1666 337 0 513 2438 1159 1920 1080 1020501
+~ Move `main_dlg_cur` `proe_win` 9 1667 337 0 513 2438 1159 1920 1080 1020513
+~ Move `main_dlg_cur` `proe_win` 9 1668 337 0 513 2438 1159 1920 1080 1020524
+~ Move `main_dlg_cur` `proe_win` 9 1667 338 0 1537 2438 1159 1920 1080 1020773
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1667 338 0 0 2438 1159 1920 1080 1020780
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1757 320 0 1 2438 1159 1920 1080 1021346
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1757 320 0 0 2438 1159 1920 1080 1021387
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1804 647 0 1 2438 1159 1920 1080 1022638
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1804 647 0 0 2438 1159 1920 1080 1022687
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ draft item: 15
+ 29 1 1 0 1 -1 -1 -1 0.000000
+@ draft item: 16
+ 29 1 1 0 1 -1 -1 -1 0.000000
+@ draft item: 67
+ 4 1 1 0 1 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 1 1 0 1 -1 -1 -1 0.000000
+@ draft item: 17
+ 4 1 1 0 1 -1 -1 -1 0.000000
+@ stack idx 0
+@SEL_REC 0 [] 4 109 -1 (0.0000000000 1.0000000000) (906.6318901887 438.6801121657 0.0000000000)
+!A_2(AXIS):F6(REVOLVE_1)
+~ Key `main_dlg_cur` `proe_win` 9 1817 644 196608 512 2438 1159 1920 1080 1022853 `Del`
+~ Command `ProCmdEditDelete` 
+! Executed sub-command ProCmdEditDeleteDwg.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1507 228 0 1 2438 1159 1920 1080 1024747
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1507 228 0 0 2438 1159 1920 1080 1024797
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+~ Command `ProCmdDwgCrGtolSpecTol` 
+!%CWItems from drawing models can be shown in the drawing by using 'Show Model Annotations' from the Annotate tab.
+!Command ProCmdDtlRMBGtolAuto was pushed from the software.
+!%CPSelect edges edges entities dimensions gtols notes dimension witness lines coordinate systems axis centers axis endpoints.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 569 868 0 1 2438 1159 1920 1080 1075465
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 569 868 0 0 2438 1159 1920 1080 1075489
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 5 100 -1 (2.0000000000 0.3157783494) (-18.0528340416 -0.0000000000 16.0000000000)
+!Silh:Surf:F6(REVOLVE_1)
+!%CPSelect edges edges entities dimensions gtols notes dimension witness lines coordinate systems axis centers axis endpoints, datums, axis lines, curves, surface points, vertices, cosmetic sketched entities, entities, vertices or section entities.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 446 986 0 1 2438 1159 1920 1080 1076399
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 446 986 0 0 2438 1159 1920 1080 1076477
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+~ MButtonArm `main_dlg_cur` `proe_win` 9 446 989 0 2 2438 1159 1920 1080 1077458
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 446 989 0 0 2438 1159 1920 1080 1077577
+!Command ProCmdPmaToolGtol was pushed from the software.
+!LiveUI: Activating PmaToolAnnotGtol
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Annotate to page_Geometric_Tolerance
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Command ProCmdPmaToolGtol was pushed from the software.
+!LiveUI: Deactivating PmaToolAnnotGtol
+!LiveUI: Activating PmaToolAnnotGtol
+~ Command `ProCmdPmaOptGtolType`  `Total Runout`
+!%CPA datum reference is required
+~ Command `ProCmdPmaInputGtolValue`  `0.0045`
+!%CPA datum reference is required
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1079 275 0 1 2438 1159 1920 1080 1102397
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+~ Move `main_dlg_cur` `proe_win` 9 1079 275 0 1 2438 1159 1920 1080 1102444
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1079 275 0 0 2438 1159 1920 1080 1102463
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Geometric_Tolerance to page_Annotate
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!LiveUI: Deactivating PmaToolAnnotGtol
+~ LButtonArm `main_dlg_cur` `proe_win` 9 356 988 0 1 2438 1159 1920 1080 1103805
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 356 988 0 0 2438 1159 1920 1080 1103886
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 54
+ 211 0 0 0 0 82 0 82 0.000000
+@ draft item: 61
+ 23 0 0 82 0 100 0 -1 0.000000
+@ sel stop
+@ sel stop
+~ LButtonArm `main_dlg_cur` `proe_win` 9 356 988 0 129 2438 1159 1920 1080 1103966
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 356 988 0 0 2438 1159 1920 1080 1104057
+~ LButtonArm `main_dlg_cur` `proe_win` 9 296 986 0 1 2438 1159 1920 1080 1108752
+~ Move `main_dlg_cur` `proe_win` 9 296 986 0 1 2438 1159 1920 1080 1108754
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 296 986 0 0 2438 1159 1920 1080 1108797
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 54
+ 211 0 0 0 0 82 0 82 0.000000
+@ draft item: 61
+ 23 0 0 82 0 100 0 -1 0.000000
+@ sel stop
+@ sel stop
+~ LButtonArm `main_dlg_cur` `proe_win` 9 296 986 0 129 2438 1159 1920 1080 1108887
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 296 986 0 0 2438 1159 1920 1080 1108977
+~ LButtonArm `main_dlg_cur` `proe_win` 9 337 986 0 1 2438 1159 1920 1080 1109517
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 337 986 0 0 2438 1159 1920 1080 1109576
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 54
+ 211 0 0 0 0 82 0 82 0.000000
+@ draft item: 61
+ 23 0 0 82 0 100 0 -1 0.000000
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 23 0 0 (0.0000000000 82.0000000000) (134.0816380856 260.1429939088 0.0000000000)
+!ID0(GTOL)
+!Command ProCmdPmaToolGtol was pushed from the software.
+!LiveUI: Activating PmaToolAnnotGtol
+!%CPA datum reference is required
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Annotate to page_Geometric_Tolerance
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Command ProCmdPmaToolGtol was pushed from the software.
+!LiveUI: Deactivating PmaToolAnnotGtol
+!LiveUI: Activating PmaToolAnnotGtol
+!%CPA datum reference is required
+~ LButtonArm `main_dlg_cur` `proe_win` 9 337 986 0 129 2438 1159 1920 1080 1109792
+@ sel view 0
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 1
+ 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000
+ 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.382400 0.000000 0
+@ sel view 2
+ 7.142857 0.000000 0.000000 0.000000 0.000000 -7.142857
+ 0.000000 7.142857 0.000000 385.206089 438.680112 0.000000 1.382400 0.000000 0
+@ sel view 3
+ 0.000000 -7.142857 0.000000 0.000000 0.000000 -7.142857
+ 7.142857 0.000000 0.000000 697.281487 438.680112 85.714286 1.382400 0.000000 0
+@ stack attr -1 0  1
+@ draft item: 7
+ 24 82 0 0 0 -1 0 -1 0.000000
+~ Move `main_dlg_cur` `proe_win` 9 337 986 0 1 2438 1159 1920 1080 1109804
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 337 986 0 0 2438 1159 1920 1080 1109809
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Trail `UI Desktop` `UI Desktop` `ActivateOnFocus` \
+ `main_dlg_w3`
+!LiveUI: Deactivating PmaToolAnnotGtol
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Geometric_Tolerance to page_Annotate
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~ LButtonArm `main_dlg_cur` `proe_win` 9 619 166 0 1 2442 1214 1920 1080 1142448
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 619 166 0 0 2442 1214 1920 1080 1142476
+@ sel view 0
+ 13.502379 7.892312 2.126587 1.297161 1.985424 -15.604508
+ -8.070213 13.523857 1.049839 662.028548 437.440934 -1903.926000 1.562500 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ Wheel `main_dlg_cur` `proe_win` 9 359 169 393216 512 2442 1214 1920 1080 1142787
+~ Wheel `main_dlg_cur` `proe_win` 9 359 169 393216 0 2442 1214 1920 1080 1142835
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w3:PHTLeft.AssyTree:<NULL>`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 312 197 0 1 2442 1214 1920 1080 1146183
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 312 197 0 0 2442 1214 1920 1080 1146266
+@ sel view 0
+ 13.502379 7.892312 2.126587 1.297161 1.985424 -15.604508
+ -8.070213 13.523857 1.049839 662.028548 437.440934 -1903.926000 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ Activate `main_dlg_cur` `page_Model_control_btn` 1
+~ LButtonArm `main_dlg_cur` `proe_win` 9 489 583 0 1 2442 1214 1920 1080 1149156
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 489 583 0 0 2442 1214 1920 1080 1149166
+@ sel view 0
+ 13.502379 7.892312 2.126587 1.297161 1.985424 -15.604508
+ -8.070213 13.523857 1.049839 662.028548 437.440934 -1903.926000 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ Command `ProCmdDatumAxis` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Datum Axis
+!ODUI session started.
+!%CPSelect up to 2 references, such as plane, surface, edge or point to place axis.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 576 694 0 1 2442 1214 1920 1080 1151553
+~ Move `main_dlg_cur` `proe_win` 9 576 694 0 1 2442 1214 1920 1080 1151554
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 576 694 0 0 2442 1214 1920 1080 1151579
+@ sel view 0
+ 13.502379 7.892312 2.126587 1.297161 1.985424 -15.604508
+ -8.070213 13.523857 1.049839 662.028548 437.440934 -1903.926000 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 2 104 -1 (-4.6038462375 10.3289986044) (-14.8710013956 -12.4264377216 -1.3541216897)
+!Surf:F6(REVOLVE_1)
+~ Activate `Odui_Dlg_00` `stdbtn_1`
+!ODUI session finished.
+!F9(A_3)
+!Undo: added rec_id 87 type 5304 
+~ Activate `main_dlg_cur` `page_Annotate_control_btn` 1
+< 3 1.378370 2442 0 0 1163 1920 0 0 1080 13
+~ Command `ProCmdCrDatumFeatSym` 
+!%CPSelect a dimension, a gtol, a dimension witness line or a point on a surface.
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node10`
+!A_3
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 0
+~ Activate `main_dlg_cur` `PHTLeft.AssyTree` 1 `node10`
+!Expanded A_3
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 0
+~ Activate `main_dlg_cur` `PHTLeft.AssyTree` 1 `node10`
+!Expanded A_3
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Command `ProCmdEnvAxisDisp`  1
+!%CIAxes will be displayed.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 640 673 0 1 2442 1163 1920 1080 1168406
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 640 673 0 0 2442 1163 1920 1080 1168469
+@ sel view 0
+ 13.502379 7.892312 2.126587 1.297161 1.985424 -15.604508
+ -8.070213 13.523857 1.049839 662.028548 437.440934 -1903.926000 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 76 104 -1 (-4.6466779511 12.2550942875) (-12.9449057125 -12.4730225883 -0.8207968763)
+!Point:Surface:F6(REVOLVE_1)
+!%CPSelect a dimension, a gtol, a dimension witness line or a point on a surface.
+~ MButtonArm `main_dlg_cur` `proe_win` 9 1346 345 0 2 2442 1163 1920 1080 1169942
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 1346 345 0 0 2442 1163 1920 1080 1170096
+!Command ProCmdPmaToolAnnotDfs was pushed from the software.
+!Command ProCmdPmaToolAnnotDfs was pushed from the software.
+!Undo: added rec_id 95 type 5304 
+!Undo: added rec_id 96 type 10015 
+!LiveUI: Activating PmaToolAnnotDfs
+!Command ProCmdPmaToolAnnotDfs was pushed from the software.
+!LiveUI: Deactivating PmaToolAnnotDfs
+!LiveUI: Activating PmaToolAnnotDfs
+< 3 1.372444 2442 0 0 1158 1920 0 0 1080 13
+~ Wheel `main_dlg_cur` `proe_win` 9 172 559 393216 1024 2442 1158 1920 1080 1171135
+~ Wheel `main_dlg_cur` `proe_win` 9 171 556 393216 1024 2442 1158 1920 1080 1171235
+~ Wheel `main_dlg_cur` `proe_win` 9 171 556 393216 0 2442 1158 1920 1080 1171285
+~ Move `main_dlg_cur` `proe_win` 9 1132 536 33554432 0 2442 1158 1920 1080 1173090
+>M Chain_oa_sel_CB ProeWin3 1132 536 c0 20000 2442 0 0 1158 1920 0 0 1080 13
+~ Key `main_dlg_cur` `proe_win` 33554432 `Ctrl`
+~ Key `main_dlg_cur` `proe_win` 9 1132 536 39452698 0 2442 1158 1920 1080 1173090 `Ctrl+Z`
+~ Command `ProCmdEditUndo` 
+!Command ProCmdEditUndoAssemDism was pushed from the software.
+! Executed sub-command ProCmdEditUndoAssem.
+!LiveUI: Deactivating PmaToolAnnotDfs
+~ Move `main_dlg_cur` `proe_win` 9 1132 536 0 0 2442 1158 1920 1080 1173317
+>M Chain_oa_sel_CB ProeWin3 1132 536 c0 0 2442 0 0 1158 1920 0 0 1080 13
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node10`
+!A_3
+~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node10`
+~ PopupOver `main_dlg_cur` `PM_PHTLeft.AssyTree` 1 `PHTLeft.AssyTree`
+~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node10`
+~ Activate `main_dlg_cur` `PHTLeft.AssyTree` 1 `node10`
+!Expanded A_3
+~ Command `ProCmdRedefine@PopupMenuTree` 
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on. Feature title : Datum Axis
+!ODUI session started.
+!%CPSelect up to 2 references, such as plane, surface, edge or point to place axis.
+< 3 1.424593 2442 0 0 1202 1920 0 0 1080 13
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `0` `column_1`
+~ Trigger `Odui_Dlg_00` `t1.constrs_table` 2 `` ``
+~ Select `Odui_Dlg_00` `pg_vis_tab` 1 `tab_2`
+~ Select `Odui_Dlg_00` `pg_vis_tab` 1 `tab_3`
+~ Select `Odui_Dlg_00` `pg_vis_tab` 1 `tab_1`
+~ Activate `Odui_Dlg_00` `stdbtn_1`
+!ODUI session finished.
+!ProgressBarDlg: Regen Started
+!%CIRegenerating PART2 feature 5 out of 9 ...
+!sket_eps      0.5601886422
+!%CIRegenerating PART2 feature 6 out of 9 ...
+!%CIRegenerating PART2 feature 7 out of 9 ...
+!%CIRegenerating PART2 feature 8 out of 9 ...
+!%CIRegenerating PART2 feature 9 out of 9 ...
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 102 type 5300 
+!%CIFeature redefined successfully.
+!F9(A_3)
+< 3 1.372444 2442 0 0 1158 1920 0 0 1080 13
+~ Wheel `main_dlg_cur` `proe_win` 9 417 626 458752 1536 2442 1158 1920 1080 1191296
+~ Wheel `main_dlg_cur` `proe_win` 9 408 631 458752 512 2442 1158 1920 1080 1191445
+~ Wheel `main_dlg_cur` `proe_win` 9 408 631 458752 0 2442 1158 1920 1080 1191545
+~ Wheel `main_dlg_cur` `proe_win` 9 408 631 458752 0 2442 1158 1920 1080 1191595
+~ Wheel `main_dlg_cur` `proe_win` 9 408 631 458752 0 2442 1158 1920 1080 1191645
+~ Wheel `main_dlg_cur` `proe_win` 9 408 631 458752 0 2442 1158 1920 1080 1191675
+~ LButtonArm `main_dlg_cur` `proe_win` 9 429 563 0 1 2442 1158 1920 1080 1192706
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 429 563 0 0 2442 1158 1920 1080 1192786
+@ sel view 0
+ 13.502379 7.892312 2.126587 1.297161 1.985424 -15.604508
+ -8.070213 13.523857 1.049839 662.028548 437.440934 -1903.926000 1.953125 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 4 109 -1 (0.1640448521 0.0000000000) (-20.0629235494 0.0000000000 0.0000000000)
+!A_2(AXIS):F6(REVOLVE_1)
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Command `ProCmdCrDatumFeatSym` 
+!%CPSelect a dimension, a gtol, a dimension witness line or a point on a surface.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 300 524 0 1 2442 1158 1920 1080 1201292
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 300 524 0 0 2442 1158 1920 1080 1201326
+@ sel view 0
+ 13.502379 7.892312 2.126587 1.297161 1.985424 -15.604508
+ -8.070213 13.523857 1.049839 662.028548 437.440934 -1903.926000 1.953125 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ stack idx 0
+@SEL_REC 0 [] 76 104 -1 (-4.5327798035 9.1035788773) (-16.0964211227 -12.2989198317 -2.2330631369)
+!Point:Surface:F6(REVOLVE_1)
+!%CPSelect a dimension, a gtol, a dimension witness line or a point on a surface.
+~ Move `main_dlg_cur` `proe_win` 9 377 518 33554432 0 2442 1158 1920 1080 1204258
+~ Key `main_dlg_cur` `proe_win` 9 377 518 39452698 0 2442 1158 1920 1080 1204258 `Ctrl+Z`
+~ Command `ProCmdEditUndo` 
+!Command ProCmdEditUndoAssemDism was pushed from the software.
+! Executed sub-command ProCmdEditUndoAssem.
+!ProgressBarDlg: Regen Started
+!%CIRegenerating PART2 feature 9 out of 9 ...
+!%CIPART2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+~ Move `main_dlg_cur` `proe_win` 9 377 518 0 0 2442 1158 1920 1080 1204457
+~ Activate `main_dlg_cur` `page_Tools_control_btn` 1
+< 3 1.438815 2442 0 0 1214 1920 0 0 1080 13
+~ Activate `main_dlg_cur` `page_View_control_btn` 1
+~ Activate `main_dlg_cur` `page_Analysis_control_btn` 1
+~ Activate `main_dlg_cur` `page_Model_control_btn` 1
+~ Activate `main_dlg_cur` `page_Tools_control_btn` 1
+~ Activate `main_dlg_cur` `page_Annotate_control_btn` 1
+< 3 1.372444 2442 0 0 1158 1920 0 0 1080 13
+~ Wheel `main_dlg_cur` `proe_win` 9 1863 275 393216 1536 2442 1158 1920 1080 1212765
+~ Wheel `main_dlg_cur` `proe_win` 9 1863 275 393216 0 2442 1158 1920 1080 1212855
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1863 275 0 1 2442 1158 1920 1080 1213276
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1863 275 0 0 2442 1158 1920 1080 1213315
+@ sel view 0
+ 13.502379 7.892312 2.126587 1.297161 1.985424 -15.604508
+ -8.070213 13.523857 1.049839 662.028548 437.440934 -1903.926000 1.250000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ LButtonArm `main_dlg_cur` `proe_win` 9 860 469 0 1 2442 1158 1920 1080 1219576
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 860 469 0 0 2442 1158 1920 1080 1219656
+@ sel view 0
+ 13.502379 7.892312 2.126587 1.297161 1.985424 -15.604508
+ -8.070213 13.523857 1.049839 662.028548 437.440934 -1903.926000 1.250000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ LButtonArm `main_dlg_cur` `proe_win` 9 860 469 0 129 2442 1158 1920 1080 1219708
+** 0.236966 0.594128 3 64 64
+0.341311 0.406214 E 0 1.372444444 3
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 860 469 0 0 2442 1158 1920 1080 1219835
+~ LButtonArm `main_dlg_cur` `proe_win` 9 860 470 0 1 2442 1158 1920 1080 1220485
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 860 470 0 0 2442 1158 1920 1080 1220535
+@ sel view 0
+ 13.502379 7.892312 2.126587 1.297161 1.985424 -15.604508
+ -8.070213 13.523857 1.049839 662.028548 437.440934 -1903.926000 1.250000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 4 109 -1 (0.0101822702 0.0000000000) (-23.7556255143 0.0000000000 0.0000000000)
+!A_2(AXIS):F6(REVOLVE_1)
+~ RButtonArm `main_dlg_cur` `proe_win` 9 860 470 0 4 2442 1158 1920 1080 1221915
+~ RButtonDisarm `main_dlg_cur` `proe_win` 9 860 470 0 0 2442 1158 1920 1080 1222075
+@ sel_rmb_cmds 1
+!Expanded PART2.PRT
+~ Select `MiniToolbar` `row0:SOIPOverlayCmd`
+~ Close `MiniToolbar` `row0:SOIPOverlayCmd`
+~ Command `ProCmdL05Edit@PopupMenuGraphicWinStack` 
+!Command ProCmdViewRepaint was pushed from the software.
+!Command ProCmdDynEdit was pushed from the software.
+! Executed sub-command ProCmdL05EditFeat.
+!%CPSelect items such as Dimensions, Sections, Trajectories, Tolerances, Surface Finish or other features for editing
+!sket_eps      0.2294532678
+@ sel view 0
+ 13.502379 7.892312 2.126587 1.297161 1.985424 -15.604508
+ -8.070213 13.523857 1.049839 662.028548 437.440934 -1903.926000 1.250000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ sel2d 0 LINE 
+4 4
+< 3 1.424593 2442 0 0 1202 1920 0 0 1080 13
+~ Wheel `main_dlg_cur` `proe_win` 9 1032 322 393216 512 2442 1202 1920 1080 1239655
+~ Wheel `main_dlg_cur` `proe_win` 9 1028 322 393216 512 2442 1202 1920 1080 1239745
+~ Move `main_dlg_cur` `proe_win` 9 1853 118 33554432 0 2442 1202 1920 1080 1241509
+~ Key `main_dlg_cur` `proe_win` 9 1853 118 39452698 0 2442 1202 1920 1080 1241509 `Ctrl+Z`
+~ Move `main_dlg_cur` `proe_win` 9 1853 118 0 0 2442 1202 1920 1080 1241652
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1877 130 0 1 2442 1202 1920 1080 1242150
+@ nothing
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1877 130 0 0 2442 1202 1920 1080 1242215
+@ sel view 0
+ 13.502379 7.892312 2.126587 1.297161 1.985424 -15.604508
+ -8.070213 13.523857 1.049839 662.028548 437.440934 -1903.926000 0.800000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ sel stop
+@ sel stop
+@ sel stop
+@ sel stop
+!Command ProCmdDummyExitCmd was pushed from the software.
+!%CIPart 'PART2' not changed since last regen.
+!Command ProCmdViewRepaint was pushed from the software.
+< 3 1.372444 2442 0 0 1158 1920 0 0 1080 13
+~ Wheel `main_dlg_cur` `proe_win` 9 213 280 393216 1536 2442 1158 1920 1080 1244225
+~ Wheel `main_dlg_cur` `proe_win` 9 213 281 393216 512 2442 1158 1920 1080 1244255
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node10`
+!A_3
+~ Command `ProCmdEditDelete` 
+! Executed sub-command ProCmdEditDeleteFeat.
+~ FocusIn `del_sup_msg` `ok`
+~ Activate `del_sup_msg` `ok`
+!Undo: added rec_id 111 type 5303 
+~ Wheel `main_dlg_cur` `proe_win` 9 875 707 393216 1024 2442 1158 1920 1080 1255324
+~ Wheel `main_dlg_cur` `proe_win` 9 875 707 393216 0 2442 1158 1920 1080 1255374
+~ Wheel `main_dlg_cur` `proe_win` 9 675 365 458752 1024 2442 1158 1920 1080 1255815
+~ Wheel `main_dlg_cur` `proe_win` 9 675 365 458752 0 2442 1158 1920 1080 1255844
+~ Wheel `main_dlg_cur` `proe_win` 9 677 377 458752 0 2442 1158 1920 1080 1255895
+~ Wheel `main_dlg_cur` `proe_win` 9 696 412 458752 1536 2442 1158 1920 1080 1255955
+~ Wheel `main_dlg_cur` `proe_win` 9 715 439 458752 512 2442 1158 1920 1080 1256015
+~ Wheel `main_dlg_cur` `proe_win` 9 920 709 458752 512 2442 1158 1920 1080 1256431
+~ Wheel `main_dlg_cur` `proe_win` 9 918 713 458752 1536 2442 1158 1920 1080 1256496
+~ Wheel `main_dlg_cur` `proe_win` 9 918 715 458752 1024 2442 1158 1920 1080 1256591
+~ Wheel `main_dlg_cur` `proe_win` 9 918 715 458752 0 2442 1158 1920 1080 1256627
+~ LButtonArm `main_dlg_cur` `proe_win` 9 899 679 0 1 2442 1158 1920 1080 1257476
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 899 679 0 0 2442 1158 1920 1080 1257575
+@ sel view 0
+ 13.502379 7.892312 2.126587 1.297161 1.985424 -15.604508
+ -8.070213 13.523857 1.049839 662.028548 437.440934 -1903.926000 2.441406 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ LButtonArm `main_dlg_cur` `proe_win` 9 900 679 0 1 2442 1158 1920 1080 1258326
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 900 679 0 0 2442 1158 1920 1080 1258417
+@ sel view 0
+ 13.502379 7.892312 2.126587 1.297161 1.985424 -15.604508
+ -8.070213 13.523857 1.049839 662.028548 437.440934 -1903.926000 2.441406 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ LButtonArm `main_dlg_cur` `proe_win` 9 900 679 0 129 2442 1158 1920 1080 1258495
+** 0.266111 0.412781 3 64 64
+0.376058 0.408898 E 0 1.372444444 3
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 900 679 0 0 2442 1158 1920 1080 1258605
+~ Command `ProCmdCrDatumFeatSym` 
+!%CPSelect a dimension, a gtol, a dimension witness line or a point on a surface.
+~ Open `main_dlg_cur` `Sst_bar.filter_list`
+~ Close `main_dlg_cur` `Sst_bar.filter_list`
+~ Select `main_dlg_cur` `Sst_bar.filter_list` 1 `2`
+!%CPSelect visible geometry item.
+~ Open `main_dlg_cur` `Sst_bar.filter_list`
+~ Close `main_dlg_cur` `Sst_bar.filter_list`
+~ Select `main_dlg_cur` `Sst_bar.filter_list` 1 `3`
+!%CPSelect visible geometry item.
+~ Open `main_dlg_cur` `Sst_bar.filter_list`
+~ Close `main_dlg_cur` `Sst_bar.filter_list`
+~ Select `main_dlg_cur` `Sst_bar.filter_list` 1 `1`
+!%CPSelect visible geometry item.
+~ Open `main_dlg_cur` `Sst_bar.filter_list`
+~ Close `main_dlg_cur` `Sst_bar.filter_list`
+~ Select `main_dlg_cur` `Sst_bar.filter_list` 1 `0`
+!%CPSelect visible geometry item.
+~ Wheel `main_dlg_cur` `proe_win` 9 911 773 393216 512 2442 1158 1920 1080 1276596
+~ Wheel `main_dlg_cur` `proe_win` 9 909 788 393216 1536 2442 1158 1920 1080 1276750
+~ Activate `main_dlg_cur` `dtlplace_quit`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 359 715 0 1 2442 1158 1920 1080 1278457
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 359 715 0 0 2442 1158 1920 1080 1278504
+@ sel view 0
+ 13.502379 7.892312 2.126587 1.297161 1.985424 -15.604508
+ -8.070213 13.523857 1.049839 662.028548 437.440934 -1903.926000 1.562500 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ Activate `main_dlg_cur` `page_Model_control_btn` 1
+< 3 1.438815 2442 0 0 1214 1920 0 0 1080 13
+~ Wheel `main_dlg_cur` `proe_win` 9 307 553 393216 1536 2442 1214 1920 1080 1281875
+~ Wheel `main_dlg_cur` `proe_win` 9 307 553 393216 0 2442 1214 1920 1080 1281985
+~ LButtonArm `main_dlg_cur` `proe_win` 9 633 683 0 1 2442 1214 1920 1080 1283645
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 633 683 0 0 2442 1214 1920 1080 1283695
+@ sel view 0
+ 13.502379 7.892312 2.126587 1.297161 1.985424 -15.604508
+ -8.070213 13.523857 1.049839 662.028548 437.440934 -1903.926000 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ Key `main_dlg_cur` `proe_win` 9 633 683 196608 0 2442 1214 1920 1080 1283695 `Del`
+~ Key `main_dlg_cur` `proe_win` 9 633 683 196608 0 2442 1214 1920 1080 1283695 `Del`
+~ LButtonArm `main_dlg_cur` `proe_win` 9 684 680 0 1 2442 1214 1920 1080 1286868
+~ Move `main_dlg_cur` `proe_win` 9 684 680 0 1 2442 1214 1920 1080 1286881
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 684 680 0 0 2442 1214 1920 1080 1286965
+@ sel view 0
+ 13.502379 7.892312 2.126587 1.297161 1.985424 -15.604508
+ -8.070213 13.523857 1.049839 662.028548 437.440934 -1903.926000 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ Key `main_dlg_cur` `proe_win` 9 684 680 196608 0 2442 1214 1920 1080 1286965 `Del`
+~ Activate `main_dlg_cur` `page_Annotate_control_btn` 1
+< 3 1.372444 2442 0 0 1158 1920 0 0 1080 13
+~ LButtonArm `main_dlg_cur` `proe_win` 9 706 652 0 1 2442 1158 1920 1080 1293126
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 706 652 0 0 2442 1158 1920 1080 1293394
+@ sel view 0
+ 13.502379 7.892312 2.126587 1.297161 1.985424 -15.604508
+ -8.070213 13.523857 1.049839 662.028548 437.440934 -1903.926000 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ LButtonArm `main_dlg_cur` `proe_win` 9 706 652 0 129 2442 1158 1920 1080 1293484
+** 0.124757 0.436097 3 64 64
+0.377532 0.405579 E 0 1.372444444 3
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 706 652 0 0 2442 1158 1920 1080 1293585
+~ LButtonArm `main_dlg_cur` `proe_win` 9 706 646 0 1 2442 1158 1920 1080 1294395
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 706 646 0 0 2442 1158 1920 1080 1294484
+@ sel view 0
+ 13.502379 7.892312 2.126587 1.297161 1.985424 -15.604508
+ -8.070213 13.523857 1.049839 662.028548 437.440934 -1903.926000 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+~ LButtonArm `main_dlg_cur` `proe_win` 9 706 646 0 129 2442 1158 1920 1080 1294584
+** 0.124757 0.441278 3 64 64
+0.377532 0.409950 E 0 1.372444444 3
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 706 646 0 0 2442 1158 1920 1080 1294634
+~ LButtonArm `main_dlg_cur` `proe_win` 9 706 646 0 1 2442 1158 1920 1080 1295195
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 706 646 0 0 2442 1158 1920 1080 1295325
+@ sel view 0
+ 13.502379 7.892312 2.126587 1.297161 1.985424 -15.604508
+ -8.070213 13.523857 1.049839 662.028548 437.440934 -1903.926000 1.000000 0.000000 0
+@ stack attr 8
+@ stack attr -1 0  1
+@ stack attr twk_s_eps
+@ stack idx 0
+@SEL_REC 0 [] 4 109 -1 (0.1244740128 0.0000000000) (-21.0126236920 0.0000000000 0.0000000000)
+!A_2(AXIS):F6(REVOLVE_1)
+~ Trail `UI Desktop` `UI Desktop` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Command `ProCmdIns3dGtolSpecTol` 
+!Command ProCmdDtlRMBGtolAuto was pushed from the software.
+!%CPSelect edges edges entities dimensions gtols notes dimension witness lines coordinate systems datums curves, surface points, vertices, cosmetic sketched entities, entities, vertices, section entities or start points.
+~ Command `ProCmdCrDatumTarget` 
+!%CEThe file C:\Program Files\PTC\Creo 5.0.0.0\Common Files\symbols\targets\single\datum_target.sym was created with a commercial version of Creo Parametric
+!%C_and is not compatible with the version of Creo Parametric Student Edition (for educational use only) you a
+~ Activate `warning` `Ok`
