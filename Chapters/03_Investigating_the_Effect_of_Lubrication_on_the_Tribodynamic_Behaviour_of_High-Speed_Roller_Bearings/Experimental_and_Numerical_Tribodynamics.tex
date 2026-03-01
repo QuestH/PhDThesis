@@ -7,7 +7,7 @@ A review of the literature revealed that a comprehensive understanding of bearin
 
 To determine the contact conditions within bearings, the relative motion between the bearing races must first be established. Traditionally, this motion is derived from dynamic models by solving the equations of motion. However, these can be computationally intensive and often lack required physics such as system flexibility. 
 
-This chapter presents a high-speed experimental test rig which has been instrumented to experimentally measure the kinematic motion of a bearing at rotational speeds and loads up to 15~000~$rpm$ and 750~$N$ respectively. This motion was used as the boundary conditions for tribological modelling. Roller-race contact load and film thickness are obtained using a lubricated contact model, whereby the EHL film is considered implicitly at the roller-race conjunction. EHL pressure and film thickness distributions are then obtained using an explicit 1D numerical EHL model. Fundamental equations used in the subsequent chapters are also introduced.
+This chapter presents a high-speed experimental test rig which has been instrumented to experimentally measure the kinematic motion of a bearing at rotational speeds up to 15~000~$rpm$ (equating to an $nD_m$ of 5.85$~\times~10^{5}$~$mm/min$) and a radial load of 750~$N$. This motion was used as the boundary conditions for tribological modelling. Roller-race contact load and film thickness are obtained using a lubricated contact model, whereby the EHL film is considered implicitly at the roller-race conjunction. EHL pressure and film thickness distributions are then obtained using an explicit 1D numerical EHL model. Fundamental equations used in the subsequent chapters are also introduced.
 
 This initial work was performed to ascertain which models must be developed in the tribology domain without the requirement for a complex flexible dynamic model. The necessity of implicit inclusion of the EHL film when considering roller bearing dynamics at high-speed, and the shortcoming of conventional dry analyses at these speeds and loading conditions is established.
 
@@ -61,7 +61,7 @@ For detailed tribological investigations, the numerical solution of the fluid fi
 
 \subsection{Experimental Test Rig}
 
-The displacement of the bearing centre governs the conditions at the contact and was found experimentally using a high-speed bearing test rig. A 5~kW AC synchronous motor, capable of speeds up to 32~000~rpm was coupled to a steel shaft that is supported by two bearing brackets. Radial force was transferred to the inner bearing race via the shaft using a hinge/arm mechanism and a point load application device on the shaft. Displacement data were obtained from an instrumented bearing bracket. Figure \ref{Experimental rig schematic} shows a schematic of the rig.
+The displacement of the bearing centre governs the conditions at the contact and was found experimentally using a high-speed bearing test rig\footnote[1]{The author was responsible for the design, technical drawings, partial manufacture, assembly and operation of the test rig.}. A 5~kW AC synchronous motor, capable of speeds up to 32~000~rpm was coupled to a steel shaft that is supported by two bearing brackets. Radial force was transferred to the inner bearing race via the shaft using a hinge/arm mechanism and a point load application device on the shaft. Displacement data were obtained from an instrumented bearing bracket. Figure \ref{Experimental rig schematic} shows a schematic of the rig.
 
 \begin{figure}
 	\centering
@@ -137,7 +137,7 @@ The deflection value at each contact based on the total deflection and relations
 \begin{equation}\label{Deflection at each contact}
 	\delta_{i, \text { out }}=\frac{\delta_i}{\left(\frac{k_{\text {out }}}{k_{\text {in }}}\right)^{\frac{1}{n}}+1}
 \end{equation}
-The normal stiffness of the inner and outer races differs due to their geometry. To calculate the stiffness at each contact, the following equation is used: 
+The normal stiffness of the inner and outer races differs due to their geometry. To calculate the stiffness at each contact, the following equation for a finite-length line contact is used \cite{Hertz1881} \cite{Johnson1985}:
 \begin{equation}\label{Contact stiffness experimental}
 	\delta=\frac{F}{\pi E_r L}\left[\ln \left(\frac{4 \pi E_r R_{z x} L}{F}\right)-1\right]
 \end{equation}
@@ -337,7 +337,7 @@ where
 
 \subsection{Effect of Pressure on Lubricant Viscosity}
 
-EHL temperatures are typically in the region of 0.5~-~4~$GPa$. The resultant behaviour of the viscosity at these pressures is instrumental in forming the EHL film and must be accounted for. The Barus law \cite{Barus1893} determines viscosity increase with pressure assuming constant ambient temperature: 
+EHL peak contact pressures are typically in the region of 0.5~-~4~$GPa$. In the inlet region, where pressures are typically of the order of tens of $MPa$, the pressure–viscosity response of the lubricant governs the rate of pressure build-up and therefore the film formation. Under these moderate and approximately isothermal conditions, the Barus law \cite{Barus1893} provides an adequate first-order description of the viscosity increase with pressure, assuming constant ambient temperature: 
 \begin{equation}\label{eq3.24}
 	\eta=\eta_0 \exp (\alpha p)
 \end{equation}
@@ -505,21 +505,9 @@ The experimental results obtained from the presented rig were verified against a
 		\hline
 		Lubricant inlet density ($\rho_0$) & 833.8 $\mathrm{~kg}\cdot\mathrm{m}^{-3}$ \\ [0.5ex]
 		\hline
-		Eyring stress ($\tau_0$) & 2 $MPa$ \\ [0.5ex]
-		\hline
-		Shear strength of asperities ($\varsigma$) & 0.3 \\ [0.5ex]
-		\hline
-		Thermal conductivity of fluid & 1600 $\mathrm{~W}\cdot\mathrm{m}^{-1}\cdot\mathrm{K}^{-1}$ \\ [0.5ex]
-		\hline
 		Modulus of elasticity of contacting solids & 210 GPa \\ [0.5ex]
 		\hline
 		Poisson’s ratio of contacting solids & 0.3 \\ [0.5ex]
-		\hline
-        Density of contacting solids & 7850 $\mathrm{~kg}\cdot\mathrm{m}^{-3}$ \\ [0.5ex]
-		\hline
-		Thermal conductivity of contacting solids & 46 $\mathrm{~W}\cdot\mathrm{m}^{-1}\cdot\mathrm{K}^{-1}$ \\ [0.5ex]
-		\hline
-		Specific heat capacity of contacting solids & 470 $\mathrm{~J}\cdot\mathrm{kg}^{-1}\cdot\mathrm{K}^{-1}$ \\ [0.5ex]
 		\hline
 	\end{tabular}
 \end{table*}
@@ -563,7 +551,7 @@ The variation in EHL film thickness and roller contact load across the speed swe
 	\label{Contact load and film thickness - Outer race}
 \end{figure}
 
-Figure \ref{Film and load - EHL to hydrodynamic regime} presents an interval of the speed sweep where the effect of the EHL load on reducing the film thickness under oscillating conditions can be observed and the hydrodynamic film growth as the roller is unloaded. It is possible to see the effect of the resonant frequency at 1765~$Hz$ superimposed on the lower fundamental train frequency within the loaded region as the inner and outer rings converge and diverge. The results in Figure \ref{Film and load - EHL to hydrodynamic regime} confirm the significant effect of dynamic behaviour as well as the multi-regime nature of the lubrication due to dynamic effects.
+Figure \ref{Film and load - EHL to hydrodynamic regime} presents an interval of the speed sweep where the effect of the EHL load on reducing the film thickness under oscillating conditions can be observed. It is possible to see the effect of the resonant frequency at 1765~$Hz$ superimposed on the lower fundamental train frequency within the loaded region as the inner and outer rings converge and diverge. At this high-frequency resonance, the rolling elements undergo rapid cyclic unloading and reloading within the contact zone. During the unloading phase, the contact pressure decreases sufficiently for the lubrication regime to transition from elastohydrodynamic (EHL) to hydrodynamic. A hydrodynamic film is temporarily established, along with a corresponding hydrodynamic load-carrying mechanism. As the elements reload, the contact re-enters the EHL regime. These results highlight the strong influence of dynamic behaviour and demonstrate the inherently multi-regime nature of lubrication under dynamic excitation. Although transient modelling incorporating squeeze effects is not included in the present analysis, the observed behaviour indicates that such an approach would be appropriate when investigating high-frequency resonance.
 
 \begin{figure}
 	\centering
@@ -592,7 +580,7 @@ Four regions exist and the boundaries of these regions are defined by the geomet
 
 \subsection{Dry vs Lubricated Tribodynamic Model}
 
-Previously presented results confirmed the significance of considering tribodynamic coupling on the tribological predictions. The aim of this section is to assess the significance of this coupling on dynamics via affecting contact load and stiffness values. The surface deformation at the EHL contact is further exacerbated by the presence of the lubricant film. Since the contact load and contact stiffness are governed by this deformation, neglecting the film leads to an underestimation of the total load at the roller-race contact. At higher speeds, such as those present in modern electrified powertrains, the growth of the lubricant film due to the increased entraining motion into the conjunction cannot be neglected – as is shown in Figure \ref{Contact load and film thickness - Outer race} with a film growth from 0.1 to 1.9~$\mu m$. The implicit tribological model was run for two cases, including and negating lubricant film thickness in the deformation obtained from Equation \ref{Contact deflection experimental}. The difference in magnitude at each time step is computed, and the increase in load magnitude between a dry and lubricated model is calculated. For EHL loads, the magnitude of the load difference through the speed sweep is plotted in Figure \ref{Contact load difference between dry and lubricated model}.
+Previously presented results confirmed the significance of considering tribodynamic coupling on the tribological predictions. The aim of this section is to assess the significance of this coupling on dynamics via affecting contact load and stiffness. The surface deformation at the EHL contact is further exacerbated by the presence of the lubricant film, which acts as an interference wedge. Since the contact load and contact stiffness are governed by this deformation, neglecting the film leads to an underestimation of the total load at the roller-race contact. At higher speeds, such as those present in modern electrified powertrains, the growth of the lubricant film due to the increased entraining motion into the conjunction cannot be neglected – as is shown in Figure \ref{Contact load and film thickness - Outer race} with a film growth from 0.1 to 1.9~$\mu m$. The implicit tribological model was run for two cases, including and negating lubricant film in the deformation obtained from Equation \ref{Contact deflection experimental}. The difference in magnitude at each time step is computed, and the increase in load magnitude between a dry and lubricated model is calculated. For EHL loads, the magnitude of the load difference through the speed sweep is plotted in Figure \ref{Contact load difference between dry and lubricated model}.
 
 \begin{figure}
 	\centering
@@ -601,7 +589,7 @@ Previously presented results confirmed the significance of considering tribodyna
 	\label{Contact load difference between dry and lubricated model}
 \end{figure} 
 
-There is an increasing contact load difference across the speed sweep, with fluctuations arising from the dynamics of the system. To fully understand the requirement for a lubricated bearing model, the percentage difference between both cases is presented at three different rotational speed snapshots of 3~050~$rpm$, 14~135~$rpm$, and 14~855~$rpm$ in Figure \ref{Dry and lubricated model load difference}. At low speeds and relatively low dynamic load, the addition of the film contributes to a 14.8\% greater load prediction than a dry model, showing that the film inclusion has a significant contribution even at low rotational speeds. At shaft speeds of 14~135~$rpm$, the first order resonance in the system, as shown in the frequency plots, creates high dynamic loading. At peak load, the growth of the film is still present, however, the high contact deformation is close to the magnitude of the film growth, hence the difference between dry and lubricated model reaches 25.1\%. As the system passes through this resonant region and the overall dynamic load is reduced, the percentage load difference reaches values as high as 149\% as the effect of the film growth at high speeds exceeds that of the surface deformation.
+An increasing disparity in predicted contact load is observed across the speed sweep, with superimposed fluctuations arising from system dynamics. To quantify the influence of lubrication modelling, the percentage difference between simulations performed with and without the EHL film is evaluated at three representative shaft speeds: 3~050~$rpm$, 14~135~$rpm$, and 14~855~$rpm$. These are shown in Figure \ref{Dry and lubricated model load difference}. At 3~050~$rpm$, where both rotational speed and dynamic excitation are relatively low, inclusion of the EHL film increases the predicted contact load by 14.8\% compared to the dry contact model. This demonstrates that even under modest operating conditions, the lubricant film makes a non-negligible contribution to contact load. At 14~135~$rpm$, corresponding to the first-order resonance identified in the frequency response, contact load is much higher. Although film growth persists at this speed, the magnitude of elastic contact deformation from the dry assumption becomes comparable to the film thickness magnitude. Hence, the difference between the dry and lubricated model reaches 25.1\%. As the system traverses this resonant region and the overall dynamic load decreases (14~855~$rpm$), the percentage load difference reaches values as high as 149\%. In this region, film growth at high entrainment speeds dominates the contact behaviour due to its wedge effect, with a much higher contribution to contact deformation than the dry assumption. The lubricated model therefore predicts substantially higher contact load than the dry formulation.
 
 \begin{figure}
 	\centering
@@ -628,8 +616,6 @@ There is an increasing contact load difference across the speed sweep, with fluc
 	\caption{Dry and lubricated model load difference: a) 3~050~$rpm$, b) 14~135~$rpm$, c) 14~855~$rpm$.}
 	\label{Dry and lubricated model load difference}
 \end{figure}
-
-At high speeds in periods of resonance, the magnitude of the bearing load dominates, and the effect of the increasing film thickness with speed diminishes in regions of resonance. The percentage difference between the dry and lubricated model is lower as the external force and corresponding surface deformation prevails the effect of the film. However, at high speeds outside of this period of resonance, the film thickness is of the same order as the deformation and the percentage difference between the two models is much greater.  
 
 \subsection{Numerical EHL Results} \label{Numerical vs analytical experimental}
 

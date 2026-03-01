@@ -3,11 +3,11 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces 2-speed E-Axle, $adapted from$ \cite {AVL2023}\relax }}{9}{figure.2.1}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Torque-speed characteristics of permanent magnet synchronous motor (PMSM).\relax }}{9}{figure.2.2}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Roller-race model for line contact.}}{11}{figure.2.3}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Ball-race model for point contact.}}{11}{figure.2.4}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Ball-race model for point contact.}}{12}{figure.2.4}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Hertzian contact deflection.\relax }}{13}{figure.2.5}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Effect of dimensionless inlet distance on film thickness for starvation modelling.}}{19}{figure.2.6}%
 \contentsline {figure}{\numberline {2.7}{\ignorespaces EHL film and pressure distribution.}}{21}{figure.2.7}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Stribeck curve and specific film thickness values.}}{22}{figure.2.8}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Stribeck curve and specific film thickness values.}}{23}{figure.2.8}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Experimental tribodynamics methodology overview.\relax }}{32}{figure.3.1}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Cylindrical roller bearing in equilibrium position.\relax }}{33}{figure.3.2}%
@@ -38,15 +38,15 @@
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Communication vector and degrees of freedom.\relax }}{79}{figure.4.8}%
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Output port Demux blocks and degrees of freedom.\relax }}{80}{figure.4.9}%
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Input port Mux blocks and degrees of freedom.\relax }}{80}{figure.4.10}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Simulink\textregistered \ model schematic.\relax }}{81}{figure.4.11}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Rolling element contact stiffness - Dry vs lubricated maximum values.\relax }}{82}{figure.4.12}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Simulink\textregistered \ model schematic.\relax }}{82}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Rolling element contact stiffness - Dry vs lubricated maximum values.\relax }}{83}{figure.4.12}%
 \contentsline {figure}{\numberline {4.13}{\ignorespaces Rolling element contact force - Dry vs lubricated percentage increase.\relax }}{83}{figure.4.13}%
 \contentsline {figure}{\numberline {4.14}{\ignorespaces Inner race stiffness - Dry vs lubricated operating envelope.\relax }}{84}{figure.4.14}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Inner race displacement - Dry vs lubricated operating envelope.\relax }}{84}{figure.4.15}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Inner race displacement - Dry vs lubricated operating envelope.\relax }}{85}{figure.4.15}%
 \contentsline {figure}{\numberline {4.16}{\ignorespaces Inner race acceleration - Dry vs lubricated operating envelope.\relax }}{85}{figure.4.16}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Rolling element contact stiffness - Dry vs lubricated minimum values.\relax }}{85}{figure.4.17}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Rolling element contact stiffness - Dry vs lubricated minimum values.\relax }}{86}{figure.4.17}%
 \contentsline {figure}{\numberline {4.18}{\ignorespaces Film thickness vs contact force 21\nobreakspace {}000\nobreakspace {}$\mathrm {rpm}$.\relax }}{86}{figure.4.18}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Film thickness vs contact force 12\nobreakspace {}500\nobreakspace {}$\mathrm {rpm}$.\relax }}{86}{figure.4.19}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Film thickness vs contact force 12\nobreakspace {}500\nobreakspace {}$\mathrm {rpm}$.\relax }}{87}{figure.4.19}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Central film thickness - EHL vs analytical.\relax }}{91}{figure.5.1}%
 \contentsline {figure}{\numberline {5.2}{\ignorespaces ANN schematic.\relax }}{92}{figure.5.2}%
