@@ -11,23 +11,44 @@ With a trend towards cost saving zero-prototype development, the use of simulati
 
 \section{Research Aims and Objectives} \label{Research Questions}
 
-The primary aim of this work is to investigate the interaction between tribology and dynamics in rolling element bearings, with particular focus on the significance of this multi-physics interaction in high-speed automotive powertrain applications. With rotational speeds up to 25~000~$rpm$, the entrainment velocity of lubricant into the roller-race contact is significant, and conventional dry analyses may no longer be valid. Specifically, this work examines the influence of the elastohydrodynamic (EHL) film, and assesses the necessity of its implicit inclusion in dynamic bearing modelling within flexible multi-body (FMBD) environments. This research also aims to investigate the contribution of artificial neural networks (ANNs) to tribological modelling, assessing if they can achieve the accuracy of numerical methods at high speeds without the computational limitations. These research points are addressed through the following aims and objectives:
+The overarching aim of this thesis is to investigate the interaction between tribology and dynamics in rolling element bearings, with particular focus on the significance of this multi-physics interaction in high-speed automotive powertrain applications. Particular attention is given to operating conditions where lubricant entrainment into the roller-race contact becomes substantial - up to 25~000~$rpm$ - such that conventional dry analyses may no longer be valid.
 
-\paragraph{Aims}
+This work evaluates the influence of the elastohydrodynamic (EHL) film on bearing contact behaviour and system dynamics, and assesses the necessity of modelling this film implicitly within flexible multi‑body (FMBD) environments. In parallel, the research investigates the potential of artificial neural networks (ANNs) to deliver accurate and computationally efficient tribological predictions suitable for deployment in FMBD simulations.
+
+\paragraph{Sub-Aims}
 \begin{enumerate}
-	\item To investigate how the EHL film affects the contact load and stiffness of rolling element bearings at the high speed, low torque operating conditions representative of electrified vehicle powertrains. 
-	\item To assess how implicit modelling of this film affects system dynamics at these operating conditions in a flexible, system-level model.
-	\item To investigate methods of calculating the central EHL film thickness, and assess if an ANN can be used to predict film thickness across a broad range of rolling element bearing input parameters.
-	\item To explore the possibility of employing an ANN to model tribological phenomena implicitly at the roller-race contact in an FMBD model. 
+	\item To understand the influence of the EHL film on contact load and stiffness of rolling element bearings at the high speed, low torque operating conditions representative of electrified vehicle powertrains. 
+	\item To assess the impact of implicit EHL modelling on the dynamic system response within an FMBD environment.
+	\item To evaluate the accuracy and computational suitability of ANNs for predicting central EHL film thickness across a representative operating domain.
+	\item To determine whether ANN-based surrogate models can provide a viable embedded alternative to conventional film thickness formulations within dynamic simulations.
 \end{enumerate}
 
 \paragraph{Objectives}
 \begin{enumerate}
-	\item Develop a high-speed experimental test rig to measure bearing orbital motion as a kinematic input to tribological models. Use this to identify the required workflows and necessary models for tribodynamic analysis, as well as analyse the influence of the EHL film on contact and component behaviour.
-	\item Develop a lubricated component bearing model, considering the EHL film implicitly at the contact between rolling elements and raceways.
-	\item Embed the lubricated bearing model within a flexible multi-body dynamic model to assess the influence of the EHL film on the dynamic response of the system. 
-	\item Develop an artificial neural network, capable of computing central EHL film thickness for a wide range of the required input parameters. Assess the computational viability of integrating this implicitly within the FMBD model.
+	\item Design and implement a high-speed experimental test rig to measure bearing orbital motion as a kinematic input to tribological models. Use experimental results to establish suitable workflows for tribodynamic analysis and quantify the influence of EHL films on contact and component behaviour.
+	\item Develop a lubricated component-level bearing model, including implicit representation of the EHL film at the roller–race contact.
+	\item Integrate the lubricated bearing model into an FMBD environment to assess the influence of the EHL film on system-level dynamic response across a range of high‑speed operating conditions. 
+	\item Design, train and validate an ANN capable of computing central EHL film thickness for a wide range of the required input parameters. Evaluate its feasibility for embedded use within FMBD simulation workflows.
 \end{enumerate}
+
+\paragraph{Tasks}
+\begin{enumerate}
+	\item Design, manufacture and commission a high-speed bearing test rig capable of operating up to the defined speed and load limits. Instrument the rig to measure bearing orbital motion and establish a repeatable data acquisition procedure suitable for use as kinematic boundary conditions in tribological analysis.
+	\item Develop a lubricated component-level bearing model, including implicit representation of the EHL film at the roller–race contact.
+	\item Integrate the lubricated bearing model into an FMBD environment to assess the influence of the EHL film on system-level dynamic response across a range of high‑speed operating conditions. 
+	\item Design, train and validate an ANN capable of computing central EHL film thickness for a wide range of the required input parameters. Evaluate its feasibility for embedded use within FMBD simulation workflows.
+\end{enumerate}
+
+\paragraph{Scope of the Research}
+This research is confined to the investigation of lubricated rolling element bearings operating under high-speed, low-load conditions representative of electrified automotive powertrains. The study focuses specifically on cylindrical roller bearings in which lubricant entrainment at rotational speeds up to 25~000~$rpm$ significantly influences contact behaviour.
+
+The work examines the influence of the EHL film on bearing load–deflection characteristics and the resulting modification of effective stiffness within a defined FMBD framework. The analysis is confined to smooth steel–steel contacts and the prediction of central film thickness as the governing tribological parameter affecting contact compliance. The system considered comprises a flexible shaft and rigid housing representative of a high-speed electric motor and single-stage gear arrangement.
+
+Thermal effects, starvation, surface roughness interactions, and wear are beyond the scope of this research. The study does not seek to develop a comprehensive thermo-tribo-dynamic bearing model, but rather to determine whether implicit representation of EHL effects is necessary for accurate dynamic simulation.
+
+ANNs are considered as surrogate models for central film thickness prediction, with emphasis on computational suitability for integration within dynamic simulations.
+
+The scope is therefore limited to establishing the modelling boundaries required to capture the dynamic significance of EHL in high-speed rolling element bearings for electrified powertrain applications.
 
 This work was performed in collaboration with AVL List GmbH in order to disseminate the outcomes of this research in the development of commercial codes: AVL EXCITE\textsuperscript{TM} M and AVL EXCITE\textsuperscript{TM} Power Unit.
 

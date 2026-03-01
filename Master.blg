@@ -31,12 +31,9 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'field_info' (item size: 4) to 11345 items.
+Reallocating 'field_info' (item size: 4) to 11435 items.
 Database file #1: Literature/library.bib
-I was expecting a `,' or a `}'---line 3625 of file Literature/library.bib
- :    title = {Thermal elastohydrodynamic lubrication of point contacts using a {}Newtonian}
- :                                                                                          /generalized {Newtonian} lubricant},
-I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "AVL2023"
 -- IEEEtranN.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -45,7 +42,7 @@ Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
 Warning--missing school in Dietl1997
-Warning--empty year in Habchi2008
+Warning--edition ordinal word "Book No. 3" may be too high (or improper) for conversion in Grubin1949
 Warning--missing school in Rahnejat1984
 Warning--missing school in Roelands1966
 Warning--empty journal in Houpert1984
@@ -53,45 +50,45 @@ Warning--missing institution in Johnson1990
 Warning--missing publisher in Han1995
 
 Done.
-You've used 141 entries,
+You've used 142 entries,
             4783 wiz_defined-function locations,
-            1916 strings with 36089 characters,
-and the built_in function-call counts, 119825 in all, are:
-= -- 11107
-> -- 3027
-< -- 960
-+ -- 1625
-- -- 630
-* -- 6222
-:= -- 18727
-add.period$ -- 282
-call.type$ -- 141
-change.case$ -- 275
-chr.to.int$ -- 2115
-cite$ -- 148
-duplicate$ -- 8079
-empty$ -- 8490
-format.name$ -- 953
-if$ -- 27007
+            1924 strings with 36275 characters,
+and the built_in function-call counts, 121560 in all, are:
+= -- 11266
+> -- 3103
+< -- 976
++ -- 1660
+- -- 646
+* -- 6339
+:= -- 18968
+add.period$ -- 284
+call.type$ -- 142
+change.case$ -- 278
+chr.to.int$ -- 2152
+cite$ -- 149
+duplicate$ -- 8179
+empty$ -- 8583
+format.name$ -- 978
+if$ -- 27409
 int.to.chr$ -- 4
-int.to.str$ -- 142
-missing$ -- 1106
-newline$ -- 551
-num.names$ -- 423
-pop$ -- 2734
+int.to.str$ -- 143
+missing$ -- 1121
+newline$ -- 554
+num.names$ -- 426
+pop$ -- 2760
 preamble$ -- 1
-purify$ -- 141
-quote$ -- 2
-skip$ -- 9202
+purify$ -- 142
+quote$ -- 4
+skip$ -- 9334
 stack$ -- 0
-substring$ -- 5024
-swap$ -- 6085
-text.length$ -- 204
+substring$ -- 5106
+swap$ -- 6186
+text.length$ -- 209
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 2059
+type$ -- 2076
 warning$ -- 7
-while$ -- 583
+while$ -- 590
 width$ -- 0
-write$ -- 1763
-(There was 1 error message)
+write$ -- 1779
+(There were 8 warnings)

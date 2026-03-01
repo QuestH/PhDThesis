@@ -10,103 +10,107 @@
 \contentsline {chapter}{Publications}{xxv}{chapter*.14}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Research Aims and Objectives}{2}{section.1.1}%
-\contentsline {paragraph}{Aims}{2}{section*.16}%
+\contentsline {paragraph}{Sub-Aims}{2}{section*.16}%
 \contentsline {paragraph}{Objectives}{3}{section*.17}%
-\contentsline {section}{\numberline {1.2}Contributions to Knowledge}{3}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Structure of the Thesis}{4}{section.1.3}%
-\contentsline {paragraph}{Chapter 1}{4}{section*.18}%
-\contentsline {paragraph}{Chapter 2}{4}{section*.19}%
-\contentsline {paragraph}{Chapter 3}{5}{section*.20}%
-\contentsline {paragraph}{Chapter 4}{5}{section*.21}%
-\contentsline {paragraph}{Chapter 5}{5}{section*.22}%
-\contentsline {paragraph}{Chapter 6}{5}{section*.23}%
+\contentsline {paragraph}{Tasks}{3}{section*.18}%
+\contentsline {paragraph}{Scope of the Research}{3}{section*.19}%
+\contentsline {section}{\numberline {1.2}Contributions to Knowledge}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Structure of the Thesis}{5}{section.1.3}%
+\contentsline {paragraph}{Chapter 1}{5}{section*.20}%
+\contentsline {paragraph}{Chapter 2}{5}{section*.21}%
+\contentsline {paragraph}{Chapter 3}{6}{section*.22}%
+\contentsline {paragraph}{Chapter 4}{6}{section*.23}%
+\contentsline {paragraph}{Chapter 5}{6}{section*.24}%
+\contentsline {paragraph}{Chapter 6}{6}{section*.25}%
 \contentsline {chapter}{\numberline {2}Literature Review}{7}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Rolling Element Bearing Introduction}{7}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Rolling Element Bearing Modelling}{9}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Quasi-static Bearing Models}{9}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Dynamic Bearing Models}{10}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Lubricated Dynamic Bearing Models}{11}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Contact Mechanics}{13}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Hertzian Contact Mechanics}{13}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Line Contacts}{16}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}Elastohydrodynamic Lubrication}{17}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}History}{17}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Numerical Methods}{18}{subsection.2.4.2}%
-\contentsline {paragraph}{Inverse Method}{18}{section*.24}%
-\contentsline {paragraph}{Direct Method}{19}{section*.25}%
-\contentsline {subsection}{\numberline {2.4.3}Starvation}{20}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Thermal EHL}{20}{subsection.2.4.4}%
-\contentsline {subsection}{\numberline {2.4.5}Elastohydrodynamic Pressure and Film Characteristics}{22}{subsection.2.4.5}%
-\contentsline {subsection}{\numberline {2.4.6}Lubrication Regimes}{23}{subsection.2.4.6}%
-\contentsline {section}{\numberline {2.5}Artifical Neural Networks}{24}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Closure}{26}{section.2.6}%
-\contentsline {chapter}{\numberline {3}Investigating the Effect of Lubrication on the Tribodynamic Behaviour of High-Speed Roller Bearings}{29}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{29}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Workflow}{30}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Operating Principles}{31}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Lubricated Contact Mechanics}{32}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Experimental Test Rig}{33}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Instrumentation}{34}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Signal Processing}{36}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}Contact Mechanics at the Roller Race Conjunction}{37}{subsection.3.2.6}%
-\contentsline {subsection}{\numberline {3.2.7}Implicit Tribological Model}{38}{subsection.3.2.7}%
-\contentsline {subsection}{\numberline {3.2.8}Surface Topography Measurements}{40}{subsection.3.2.8}%
-\contentsline {section}{\numberline {3.3}Numerical EHL Model}{40}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Reynolds Equation}{41}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Finite Difference Formulation}{43}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Effect of Pressure on Lubricant Viscosity}{45}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Effect of Pressure on Lubricant Density}{45}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Effect of Temperature on Lubricant Viscosity}{46}{subsection.3.3.5}%
-\contentsline {subsection}{\numberline {3.3.6}1D EHL Solution Methodology}{46}{subsection.3.3.6}%
-\contentsline {subsection}{\numberline {3.3.7}Numerical EHL Model Validation}{48}{subsection.3.3.7}%
-\contentsline {subsection}{\numberline {3.3.8}Experimental Result Verification}{50}{subsection.3.3.8}%
-\contentsline {section}{\numberline {3.4}Results and Discussion}{51}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Film Thickness and Load Across Speed Sweep}{53}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}EHL Regimes}{54}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Dry vs Lubricated Tribodynamic Model}{55}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Numerical EHL Results}{58}{subsection.3.4.4}%
-\contentsline {section}{\numberline {3.5}Conclusions}{60}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Modelling Lubricated Bearings in a Flexible Multi-Body Dynamic Environment}{63}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{63}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Methodology}{64}{section.4.2}%
-\contentsline {section}{\numberline {4.3}System Level Flexible Model}{64}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Lubricated Component Level Model}{68}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Representative Excitation Methodology}{73}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Co-Simulation of Coupled Models}{75}{subsection.4.3.3}%
-\contentsline {paragraph}{Connected Degrees of Freedom}{75}{section*.34}%
-\contentsline {paragraph}{Output Port}{77}{section*.35}%
-\contentsline {paragraph}{Input Port}{77}{section*.36}%
-\contentsline {paragraph}{Simulink Model}{77}{section*.37}%
-\contentsline {section}{\numberline {4.4}Results and Discussion}{79}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Conclusions}{85}{subsection.4.4.1}%
-\contentsline {chapter}{\numberline {5}Artificial Neural Networks for EHL Film Thickness Predictions}{87}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Introduction}{87}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Numerical vs Analytical Film Thickness Values at High Entrainment Velocities}{88}{section.5.2}%
-\contentsline {section}{\numberline {5.3}ANN Fundamentals}{89}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Network Architecture}{90}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Forward Propagation}{91}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Backpropagation}{91}{subsection.5.3.3}%
-\contentsline {section}{\numberline {5.4}Methodology}{92}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}EHL Input Data Generation}{94}{subsection.5.4.1}%
-\contentsline {subsubsection}{Sampling Input Variables}{94}{section*.38}%
-\contentsline {subsubsection}{Constraining the Input Data Bounds}{95}{section*.39}%
-\contentsline {subsubsection}{Constructing the Numerical Database}{97}{section*.41}%
-\contentsline {subsection}{\numberline {5.4.2}ANN Structure Evaluation}{99}{subsection.5.4.2}%
-\contentsline {subsubsection}{Training, Validation and Test Datasets}{101}{section*.43}%
-\contentsline {subsubsection}{Data Normalisation}{101}{section*.44}%
-\contentsline {subsubsection}{Activation Functions}{102}{section*.45}%
-\contentsline {subsubsection}{Evaluating the Network Performance}{103}{section*.46}%
-\contentsline {subsubsection}{Preventing Overfitting}{103}{section*.47}%
-\contentsline {subsection}{\numberline {5.4.3}Explicit Bearing Film Thickness Predictions}{104}{subsection.5.4.3}%
-\contentsline {subsection}{\numberline {5.4.4}Implicit Bearing Film Thickness Predictions}{106}{subsection.5.4.4}%
-\contentsline {section}{\numberline {5.5}Results and Discussion}{106}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}ANN Structure Evaluation}{106}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}Explicit Bearing Film Thickness Predictions}{110}{subsection.5.5.2}%
-\contentsline {subsection}{\numberline {5.5.3}Implicit Bearing Film Thickness Predictions}{112}{subsection.5.5.3}%
-\contentsline {section}{\numberline {5.6}Conclusions}{113}{section.5.6}%
-\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{117}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Overall Conclusions}{117}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Contributions to Knowledge}{119}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Addressing the Research Questions}{121}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Future Work}{121}{section.6.4}%
-\contentsline {chapter}{References}{123}{chapter*.58}%
+\contentsline {subsection}{\numberline {2.1.1}Function of Rolling Element Bearings}{8}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Application in Automotive Powertrains}{8}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Contact Mechanics}{10}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Hertzian Contact Mechanics}{10}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Line Contacts}{13}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Elastohydrodynamic Lubrication}{15}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}History}{15}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Numerical Methods}{16}{subsection.2.3.2}%
+\contentsline {paragraph}{Inverse Method}{16}{section*.26}%
+\contentsline {paragraph}{Direct Method}{17}{section*.27}%
+\contentsline {subsection}{\numberline {2.3.3}Starvation}{18}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Thermal EHL}{18}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Elastohydrodynamic Pressure and Film Characteristics}{20}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Lubrication Regimes}{21}{subsection.2.3.6}%
+\contentsline {section}{\numberline {2.4}Rolling Element Bearing Modelling}{22}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Quasi-static Bearing Models}{23}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Dynamic Bearing Models}{24}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Lubricated Dynamic Bearing Models}{25}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Artifical Neural Networks}{26}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Closure}{28}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Investigating the Effect of Lubrication on the Tribodynamic Behaviour of High-Speed Roller Bearings}{31}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{31}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Workflow}{32}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Operating Principles}{33}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Lubricated Contact Mechanics}{34}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Experimental Test Rig}{35}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Instrumentation}{36}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Signal Processing}{38}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Contact Mechanics at the Roller Race Conjunction}{39}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.2.7}Implicit Tribological Model}{40}{subsection.3.2.7}%
+\contentsline {subsection}{\numberline {3.2.8}Surface Topography Measurements}{42}{subsection.3.2.8}%
+\contentsline {section}{\numberline {3.3}Numerical EHL Model}{42}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Reynolds Equation}{43}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Finite Difference Formulation}{45}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Effect of Pressure on Lubricant Viscosity}{47}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Effect of Pressure on Lubricant Density}{47}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Effect of Temperature on Lubricant Viscosity}{48}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.6}1D EHL Solution Methodology}{48}{subsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.3.7}Numerical EHL Model Validation}{50}{subsection.3.3.7}%
+\contentsline {subsection}{\numberline {3.3.8}Experimental Result Verification}{52}{subsection.3.3.8}%
+\contentsline {section}{\numberline {3.4}Results and Discussion}{53}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Film Thickness and Load Across Speed Sweep}{55}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}EHL Regimes}{56}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Dry vs Lubricated Tribodynamic Model}{57}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Numerical EHL Results}{60}{subsection.3.4.4}%
+\contentsline {section}{\numberline {3.5}Conclusions}{62}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Modelling Lubricated Bearings in a Flexible Multi-Body Dynamic Environment}{65}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{65}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Methodology}{66}{section.4.2}%
+\contentsline {section}{\numberline {4.3}System Level Flexible Model}{66}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Lubricated Component Level Model}{70}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Representative Excitation Methodology}{75}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Co-Simulation of Coupled Models}{77}{subsection.4.3.3}%
+\contentsline {paragraph}{Connected Degrees of Freedom}{77}{section*.36}%
+\contentsline {paragraph}{Output Port}{79}{section*.37}%
+\contentsline {paragraph}{Input Port}{79}{section*.38}%
+\contentsline {paragraph}{Simulink Model}{79}{section*.39}%
+\contentsline {section}{\numberline {4.4}Results and Discussion}{81}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Conclusions}{87}{subsection.4.4.1}%
+\contentsline {chapter}{\numberline {5}Artificial Neural Networks for EHL Film Thickness Predictions}{89}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introduction}{89}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Numerical vs Analytical Film Thickness Values at High Entrainment Velocities}{90}{section.5.2}%
+\contentsline {section}{\numberline {5.3}ANN Fundamentals}{91}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Network Architecture}{92}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Forward Propagation}{93}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Backpropagation}{93}{subsection.5.3.3}%
+\contentsline {section}{\numberline {5.4}Methodology}{94}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}EHL Input Data Generation}{96}{subsection.5.4.1}%
+\contentsline {subsubsection}{Sampling Input Variables}{96}{section*.40}%
+\contentsline {subsubsection}{Constraining the Input Data Bounds}{97}{section*.41}%
+\contentsline {subsubsection}{Constructing the Numerical Database}{99}{section*.43}%
+\contentsline {subsection}{\numberline {5.4.2}ANN Structure Evaluation}{101}{subsection.5.4.2}%
+\contentsline {subsubsection}{Training, Validation and Test Datasets}{103}{section*.45}%
+\contentsline {subsubsection}{Data Normalisation}{103}{section*.46}%
+\contentsline {subsubsection}{Activation Functions}{104}{section*.47}%
+\contentsline {subsubsection}{Evaluating the Network Performance}{105}{section*.48}%
+\contentsline {subsubsection}{Preventing Overfitting}{105}{section*.49}%
+\contentsline {subsection}{\numberline {5.4.3}Explicit Bearing Film Thickness Predictions}{106}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Implicit Bearing Film Thickness Predictions}{108}{subsection.5.4.4}%
+\contentsline {section}{\numberline {5.5}Results and Discussion}{108}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}ANN Structure Evaluation}{108}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Explicit Bearing Film Thickness Predictions}{112}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Implicit Bearing Film Thickness Predictions}{114}{subsection.5.5.3}%
+\contentsline {section}{\numberline {5.6}Conclusions}{115}{section.5.6}%
+\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{119}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Overall Conclusions}{119}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Contributions to Knowledge}{121}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Addressing the Research Questions}{123}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Future Work}{123}{section.6.4}%
+\contentsline {chapter}{References}{125}{chapter*.60}%
