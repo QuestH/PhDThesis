@@ -7,7 +7,7 @@ A review of the literature revealed that a comprehensive understanding of bearin
 
 To determine the contact conditions within bearings, the relative motion between the bearing races must first be established. Traditionally, this motion is derived from dynamic models by solving the equations of motion. However, these can be computationally intensive and often lack required physics such as system flexibility. 
 
-This chapter presents a high-speed experimental test rig which has been instrumented to experimentally measure the kinematic motion of a bearing at rotational speeds up to 15~000~$rpm$ (equating to an $nD_m$ of 5.85$~\times~10^{5}$~$mm/min$) and a radial load of 750~$N$. This motion was used as the boundary conditions for tribological modelling. Roller-race contact load and film thickness are obtained using a lubricated contact model, whereby the EHL film is considered implicitly at the roller-race conjunction. EHL pressure and film thickness distributions are then obtained using an explicit 1D numerical EHL model. Fundamental equations used in the subsequent chapters are also introduced.
+This chapter presents a high-speed experimental test rig which has been instrumented to experimentally measure the kinematic motion of a bearing at rotational speeds up to 15~000~$rpm$ (equating to an $nD_m$ of 5.78$~\times~10^{5}$~$mm/min$) and a radial load of 750~$N$. This motion was used as the boundary conditions for tribological modelling. Roller-race contact load and film thickness are obtained using a lubricated contact model, whereby the EHL film is considered implicitly at the roller-race conjunction. EHL pressure and film thickness distributions are then obtained using an explicit 1D numerical EHL model. Fundamental equations used in the subsequent chapters are also introduced.
 
 This initial work was performed to ascertain which models must be developed in the tribology domain without the requirement for a complex flexible dynamic model. The necessity of implicit inclusion of the EHL film when considering roller bearing dynamics at high-speed, and the shortcoming of conventional dry analyses at these speeds and loading conditions is established.
 
@@ -61,7 +61,28 @@ For detailed tribological investigations, the numerical solution of the fluid fi
 
 \subsection{Experimental Test Rig}
 
-The displacement of the bearing centre governs the conditions at the contact and was found experimentally using a high-speed bearing test rig\footnote[1]{The author was responsible for the design, technical drawings, partial manufacture, assembly and operation of the test rig.}. A 5~kW AC synchronous motor, capable of speeds up to 32~000~rpm was coupled to a steel shaft that is supported by two bearing brackets. Radial force was transferred to the inner bearing race via the shaft using a hinge/arm mechanism and a point load application device on the shaft. Displacement data were obtained from an instrumented bearing bracket. Figure \ref{Experimental rig schematic} shows a schematic of the rig.
+The displacement of the bearing centre, which governs the conditions at the contact, was determined experimentally using a high-speed bearing test rig\footnote[1]{The author was responsible for the design, technical drawings, partial manufacture, assembly and operation of the test rig.}. 
+
+\paragraph{Motor}
+A 5~$kW$ AC synchronous motor, capable of speeds up to 32~000~rpm was coupled to a steel shaft supported by two bearing brackets. A CNC spindle was selected as the drive motor due to its low axial and radial runout, minimising harmonics originating from the drive unit itself.
+
+\paragraph{Shaft Coupling}
+The motor was connected to the shaft using a polymeric jaw coupling (Ondrives OKBE3/19), rated for speeds up to 19~000~$rpm$ to provide sufficient margin above the maximum required test speed. The 98~$ShA$ polyurethane insert provided torsional flexibility whilst maintaining adequate stiffness for high‑speed operation. It was selected to accommodate small angular and parallel misalignment and to limit the transmission of torsional vibration to the shaft.
+
+\paragraph{Alignment}
+For the operating speeds considered, the permissible coupling alignment limits were specified as 0.01~$mm$ per 100~$mm$ for angular misalignment and 0.01~$mm$ for parallel offset. Although tight dimensional tolerances were applied during the design and manufacture, these alone could not guarantee coaxial alignment at this precision. Laser alignment was therefore performed to correct both forms of misalignment, ensuring the shafts operated within permissible limits and to prevent excitation of higher‑order vibration modes at elevated speeds.
+
+\paragraph{Radial Force Application}
+Radial force was transferred to the shaft via a hinge‑arm mechanism, terminating in a point‑load applicator. A point contact was selected to avoid the use of an auxiliary support bearing at the load application location. This would introduce additional excitation frequencies within the measurement bandwidth. The applied radial force was calibrated using a permanently preloaded force transducer (B\&K Type 8200), capable of measuring up to 5000~$N$ in compression.
+
+\paragraph{Shaft}
+The shaft was manufactured from SAE~8620 steel due to its favourable combination of tensile and yield strength, as well as surface wear resistance. The load application area was finish‑turned and polished to a surface roughness of 0.1~–~0.2$\mu m$ to minimise the risk of fretting or wear under repeated point loading. A diamond‑like carbon (DLC) coating was additionally applied to further enhance wear resistance and reduce friction.
+
+\paragraph{Bearing Bracket}
+Bearing centre displacement was measured using an instrumented bearing bracket. The bracket, machined from 7075 aluminium, was based on an AVL e‑Axle endplate design. Modal analysis was performed to ensure that the first mode of vibration would not be excited by the rotary frequency of the shaft. This mode was calculated to be 1120.5~$Hz$; well above both the shaft’s first‑order excitation at 15~000~$rpm$ (300~$Hz$) and its first natural frequency (211~$Hz$), corresponding to a critical speed of 12,660~$rpm$. Figure \ref{Experimental rig schematic} shows a schematic of the rig.
+
+\paragraph{Bearing}
+The bearing under test was a single-row cylindrical roller bearing, NU~205~ECP. The same bearing was used in the support bracket. This had a high-speed $nD_m$ value of 5.78$~\times~10^{5}$~$mm/min$ at its reference speed of 15~000~$rpm$.
 
 \begin{figure}
 	\centering
@@ -70,10 +91,14 @@ The displacement of the bearing centre governs the conditions at the contact and
 	\label{Experimental rig schematic}
 \end{figure}
 
-The motor control unit was connected to a voltage input, transmitted via an NI cDAQ-9178 USB chassis for optimum resolution of the input voltage. A MATLAB script controlled the voltage ramp over a specified time-period and thus the spindle acceleration. In this study, a transient speed sweep was performed from 0~–~15~000~rpm over a 4~s period, with 750~N of static radial load applied to the shaft. The bearing under test was a single row cylindrical roller bearing, NU~205~ECP, located in an aluminium test bracket that has an extruded bore for instrumentation.
+\subsection{Control System}
+
+The motor control unit was connected to a voltage input, transmitted via an NI cDAQ-9178 USB chassis for optimum resolution. A MATLAB\textregistered\ script controlled the voltage ramp over a specified time-period and thus the spindle acceleration. In this study, a transient speed sweep was performed from 0~–~15~000~$rpm$ over a 4~$s$ period, with a voltage resolution of 1~$V$~/~3~500~$rpm$.
 
 \subsection{Instrumentation}
-The outer surface of the bearing bore was instrumented with two Type~4383 single-axis piezo-electric charge accelerometers, with a frequency range of 0.1~–~8.5~kHz and sensitivity of 3.16~pC/ms2.  These measured acceleration of the bracket’s bore, corresponding to the outer race of the bearing (Figure \ref{Accelerometer locations on test bracket}). Two single beam laser vibrometers measured the displacement of the shaft at the edge of the bearing which corresponds to the displacement of the inner race of the bearing (Figure \ref{Laser vibrometer locations on shaft}). A dual-beam vibrometer was used to measure the rotational speed of the shaft. All laser vibrometers had a frequency range of 0~–~10~kHz and maximum speed of 20~000~rpm.
+The outer surface of the bearing bore was instrumented with two Type~4383 single-axis piezo-electric charge accelerometers, with a frequency range of 0.1~–~8.50$~kHz$ and sensitivity of 3.16~$pC/ms^{-2}$.  These measured acceleration of the bracket’s bore, corresponding to the outer race of the bearing (Figure \ref{Accelerometer locations on test bracket}). The Type~4383 accelerometer resolution is governed by the residual noise floor of 0.06~$mg$ (rms) over the useable frequency range. When converted via double integration (see Section \ref{Signal processing}), this noise corresponds to a displacement resolution of 150~$nm$ at 300~$Hz$ (the shaft order at 15~000~$rpm$).
+
+Two single beam laser vibrometers measured the displacement of the shaft at the edge of the bearing which corresponds to the displacement of the inner race of the bearing (Figure \ref{Laser vibrometer locations on shaft}). Laser vibrometers offered the advantage of non-interfering (stiffness/mass) measurement and allowed for radial displacement to be obtained from a rotating shaft. The Polytec OFV-505 vibrometers combined with an OFV-5000 controller have a displacement resolution of 0.15~$nm$. A Polytec RLV-5500 dual-beam vibrometer with a frequency range of 0~–~10~$kHz$ was used to measure the rotational speed of the shaft.
 
 \begin{figure}
 	\centering
@@ -89,9 +114,9 @@ The outer surface of the bearing bore was instrumented with two Type~4383 single
 	\label{Laser vibrometer locations on shaft}
 \end{figure}
 
-A program in MATLAB controlled the speed of the shaft through a ramped voltage input. Data was simultaneously acquired from the accelerometers and laser vibrometers through synchronised input channels at a sampling rate of 100~kHz. Simultaneous control and data acquisition ensure accurate results between different instrumentation locations.
+Data was simultaneously acquired from the accelerometers and laser vibrometers through synchronised input channels at a sampling rate of 100~$kHz$. Simultaneous control and data acquisition ensured accurate results between different instrumentation locations.
 
-\subsection{Signal Processing}
+\subsection{Signal Processing} \label{Signal processing}
 The bearing race displacements were obtained from the instrumented bearing using time-domain data from the accelerometers and laser vibrometers. The laser vibrometer directly provided displacement data, whereas the accelerometer data required post-processing of acceleration data. To ascertain the displacement of the bearing bore and thus outer bearing race, the accelerometer results were integrated twice:
 \begin{equation}\label{accelvelointeg}
 	v_{out}\left(t\right)=v_{0,out}+\ \int_{0}^{t}{a_{out}\ dt}
@@ -99,9 +124,13 @@ The bearing race displacements were obtained from the instrumented bearing using
 \begin{equation}\label{acceldispinteg}
 	x_{out}\left(t\right)=x_{0,out}+\int_{0}^{t}{v_{out}\ dt}
 \end{equation}
-As this double integration amplifies non-linearities in the original signal, it requires pre-processing \cite{Takeda2014}. Low frequency drift is removed from the unfiltered time-domain data by applying a linear fit to the data and then removing the trend from it.  
 
-To extract the frequency content of the speed ramp, waterfall plots were generated using the accelerometer and laser vibrometer data. Short-time fast-Fourier transform (STFFT) was used, with data windows of six shaft rotations at each 100~rpm increment. The resulting signal was then filtered using a Butterworth bandpass filter for a frequency range of 70~-~10~000~$Hz$ to remove the high amplitude low frequency noise that was inherent to the equipment setup. The filter used 3~$dB$ of passband ripple and 7~$dB$ attenuation in the stopbands, which were set at 35~-~12~500~$Hz$.  
+Double integration is inherently sensitive to low‑frequency drift, DC (direct current) offsets, and non-linearities in the original acceleration signal. This can lead to displacement errors if not pre-processed \cite{Takeda2014}. To suppress this drift, a linear trend was removed from the raw acceleration data before integration. This detrending specifically targetted frequencies below 50~-~70~$Hz$, where the Type~4383 accelerometer exhibits the highest noise amplification under double integration. This frequency range was below the measurement band of interest.
+
+To extract the frequency content of the speed ramp, waterfall plots were generated using the accelerometer and laser vibrometer data. Short-time fast-Fourier transform (STFFT) was used, with data windows of six shaft rotations at each 100~$rpm$ increment. Using a fixed number of rotations per window ensured consistent shaft‑order resolution across the full speed range, whilst six rotations provided sufficient cycles for adequate spectral resolution without degrading time localisation. The 100~$rpm$ increment was small enough to track gradual changes in contact dynamics during acceleration whilst retaining computational efficiency.
+
+The resulting signal was then filtered using a Butterworth bandpass filter for a frequency range of 70~-~10~000~$Hz$ to to retain the bearing‑related dynamic content while suppressing low‑frequency equipment noise and high‑frequency artefacts.The lower cutoff at 70~$Hz$ eliminates the frequency region where double‑integration drift dominates, while the upper cutoff of 10~$kHz$ lies safely within the accelerometer’s linear operating bandwidth, which is specified as 0.1~–~8~400~$Hz$. The Butterworth response was selected for its maximally flat passband, ensuring no artificial gain or attenuation of the displacement amplitudes. The stopbands were set at 35~$Hz$ and 12~500~$Hz$, each with 7~$dB$ attenuation and a 3~$dB$ passband ripple, providing smooth roll‑off characteristics and preserving physical displacement information throughout the full operating range.
+
 The relative displacement of the bearing centre could then be obtained from the relative displacement between the shaft (measured using the single beam laser vibrometer) and bearing bore:
 \begin{equation}\label{relativdispaccelx}
 	\Delta x = \Delta x_{in} - \Delta x_{out}
