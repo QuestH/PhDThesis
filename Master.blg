@@ -15,25 +15,13 @@ Reallocating 'name_of_file' (item size: 1) to 30 items.
 A level-1 auxiliary file: Publications/Publications.aux
 Reallocating 'name_of_file' (item size: 1) to 42 items.
 A level-1 auxiliary file: Chapters/01_Introduction/Introduction.aux
-Reallocating 'name_of_file' (item size: 1) to 52 items.
-A level-1 auxiliary file: Chapters/02_Literature_Review/Literature_Review.aux
-Reallocating 'name_of_file' (item size: 1) to 157 items.
-A level-1 auxiliary file: Chapters/03_Investigating_the_Effect_of_Lubrication_on_the_Tribodynamic_Behaviour_of_High-Speed_Roller_Bearings/Experimental_and_Numerical_Tribodynamics.aux
-Reallocating 'name_of_file' (item size: 1) to 107 items.
-A level-1 auxiliary file: Chapters/04_Modelling_Lubricated_Bearings_in_a_Flexible_Multi-Body_Dynamic_Environment/Lubricated_FMBD.aux
-Reallocating 'name_of_file' (item size: 1) to 106 items.
-A level-1 auxiliary file: Chapters/05_Artificial_Neural_Networks_for_EHL_Film_Thickness_Predictions/ANN_Lubricated_Bearing_FMBD.aux
-Reallocating 'name_of_file' (item size: 1) to 40 items.
-A level-1 auxiliary file: Chapters/06_Conclusions/Conclusions.aux
 Reallocating 'name_of_file' (item size: 1) to 23 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'field_info' (item size: 4) to 11480 items.
 Database file #1: Literature/library.bib
-Warning--I didn't find a database entry for "AVL2023"
 -- IEEEtranN.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -41,54 +29,46 @@ Warning--I didn't find a database entry for "AVL2023"
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
-Warning--edition ordinal word "Book No. 3" may be too high (or improper) for conversion in Grubin1949
-Warning--missing school in Dietl1997
-Warning--missing school in Rahnejat1984
-Warning--missing school in Roelands1966
-Warning--empty journal in Houpert1984
-Warning--missing institution in Johnson1990
-Warning--missing publisher in Han1995
 
 Done.
-You've used 143 entries,
+You've used 2 entries,
             4783 wiz_defined-function locations,
-            1932 strings with 36441 characters,
-and the built_in function-call counts, 122113 in all, are:
-= -- 11326
-> -- 3110
-< -- 977
-+ -- 1664
-- -- 648
-* -- 6361
-:= -- 19071
-add.period$ -- 286
-call.type$ -- 143
-change.case$ -- 281
-chr.to.int$ -- 2153
-cite$ -- 150
-duplicate$ -- 8220
-empty$ -- 8627
-format.name$ -- 981
-if$ -- 27528
-int.to.chr$ -- 4
-int.to.str$ -- 144
-missing$ -- 1129
-newline$ -- 557
-num.names$ -- 429
-pop$ -- 2782
+            957 strings with 8713 characters,
+and the built_in function-call counts, 1878 in all, are:
+= -- 154
+> -- 61
+< -- 12
++ -- 29
+- -- 14
+* -- 117
+:= -- 306
+add.period$ -- 4
+call.type$ -- 2
+change.case$ -- 4
+chr.to.int$ -- 26
+cite$ -- 2
+duplicate$ -- 115
+empty$ -- 122
+format.name$ -- 20
+if$ -- 396
+int.to.chr$ -- 1
+int.to.str$ -- 3
+missing$ -- 20
+newline$ -- 32
+num.names$ -- 6
+pop$ -- 54
 preamble$ -- 1
-purify$ -- 143
-quote$ -- 4
-skip$ -- 9378
+purify$ -- 2
+quote$ -- 2
+skip$ -- 127
 stack$ -- 0
-substring$ -- 5111
-swap$ -- 6209
-text.length$ -- 209
+substring$ -- 60
+swap$ -- 88
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 2091
-warning$ -- 7
-while$ -- 592
+type$ -- 31
+warning$ -- 0
+while$ -- 10
 width$ -- 0
-write$ -- 1791
-(There were 8 warnings)
+write$ -- 48
