@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.17)  8 MAR 2026 00:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.17)  9 MAR 2026 23:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -910,8 +910,18 @@ h' as default language. on input line 38.
 (Acknowledgement/acknowledgement.aux) (Nomenclature/nomenclature_new.aux)
 (Nomenclature/list_of_abbreviations.aux) (Publications/Publications.aux)
 (Chapters/01_Introduction/Introduction.aux)
+(Chapters/02_Literature_Review/Literature_Review.aux
+
+LaTeX Warning: Label `nDm' multiply defined.
+
+)
+(Chapters/03_Investigating_the_Effect_of_Lubrication_on_the_Tribodynamic_Behavi
+our_of_High-Speed_Roller_Bearings/Experimental_and_Numerical_Tribodynamics.aux)
+
 (Chapters/04_Modelling_Lubricated_Bearings_in_a_Flexible_Multi-Body_Dynamic_Env
-ironment/Lubricated_FMBD.aux))
+ironment/Lubricated_FMBD.aux)
+(Chapters/05_Artificial_Neural_Networks_for_EHL_Film_Thickness_Predictions/ANN_
+Lubricated_Bearing_FMBD.aux) (Chapters/06_Conclusions/Conclusions.aux))
 \openout1 = `Master.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
@@ -1096,8 +1106,8 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 \PHD@crest=\box74
-<Graphics//Loughborough-University-Lboro-Logo.png, id=82, 2191.18625pt x 551.05
-875pt>
+<Graphics//Loughborough-University-Lboro-Logo.png, id=378, 2191.18625pt x 551.0
+5875pt>
 File: Graphics//Loughborough-University-Lboro-Logo.png Graphic file (type png)
 <use Graphics//Loughborough-University-Lboro-Logo.png>
 Package pdftex.def Info: Graphics//Loughborough-University-Lboro-Logo.png  used
@@ -1139,49 +1149,56 @@ oughborough-University-Lboro-Logo.png>]
 
 
 
-] (Master.toc)
+] (Master.toc [7
+
+] [8] [9])
 \tf@toc=\write6
 \openout6 = `Master.toc'.
 
- [7
 
-] [8
+[10] (Master.lof [11
 
 ]
-(Master.lof
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-3.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
+1.
 
 (C:\Users\wshq\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-))
+)
+[12]
+Overfull \hbox (3.2669pt too wide) in paragraph at lines 63--63
+ [][] []\T1/ptm/m/n/12 (-20) ANN vs an-a-lyt-i-cal film thick-ness at speed in-
+ter-vals from 5 000 - 20 000 $\OML/ztmcm/m/it/12 rpm$\T1/ptm/m/n/12 (-20) . [][
+]  
+ []
+
+)
 \tf@lof=\write7
 \openout7 = `Master.lof'.
 
+ [13] [14
 
-[9] [10
-
-] (Master.lot)
+] (Master.lot [15])
 \tf@lot=\write8
 \openout8 = `Master.lot'.
 
- [11]
+ [16]
 \openout2 = `Nomenclature/nomenclature_new.aux'.
 
- (Nomenclature/nomenclature_new.tex [12
+ (Nomenclature/nomenclature_new.tex [17
 
 
-] [13]
-[14] [15] [16]) [17]
+]
+[18] [19] [20]) [21]
 \openout2 = `Nomenclature/list_of_abbreviations.aux'.
 
- (Nomenclature/list_of_abbreviations.tex [18
+ (Nomenclature/list_of_abbreviations.tex [22
 
 
 
 
-] [19])
-[20]
+] [23])
+[24]
 \openout2 = `Publications/Publications.aux'.
 
  (Publications/Publications.tex)
@@ -1190,12 +1207,12 @@ Overfull \hbox (0.10199pt too wide) in paragraph at lines 29--62
 3&p=88&view=issueViewer 
  []
 
-[21
+[25
 
 
 
 
-] [22
+] [26
 
 
 
@@ -1204,41 +1221,590 @@ Overfull \hbox (0.10199pt too wide) in paragraph at lines 29--62
 
  (Chapters/01_Introduction/Introduction.tex
 Chapter 1.
-
-Package natbib Warning: Citation `EUL110/5' on page 1 undefined on input line 3
-.
-
-
-Package natbib Warning: Citation `Cai2021' on page 1 undefined on input line 5.
-
-
 [1
 
 
 ] [2] [3] [4]) [5]
-\openout2 = `Chapters/04_Modelling_Lubricated_Bearings_in_a_Flexible_Multi-Body
-_Dynamic_Environment/Lubricated_FMBD.aux'.
+\openout2 = `Chapters/02_Literature_Review/Literature_Review.aux'.
 
-
-(Chapters/04_Modelling_Lubricated_Bearings_in_a_Flexible_Multi-Body_Dynamic_Env
-ironment/Lubricated_FMBD.tex [6
+ (Chapters/02_Literature_Review/Literature_Review.tex
+[6
 
 
 
 
 ]
 Chapter 2.
+[7]
+<Graphics//eMotorAnnotated.png, id=824, 1195.1049pt x 845.19765pt>
+File: Graphics//eMotorAnnotated.png Graphic file (type png)
+<use Graphics//eMotorAnnotated.png>
+Package pdftex.def Info: Graphics//eMotorAnnotated.png  used on input line 24.
+(pdftex.def)             Requested size: 284.52756pt x 201.2137pt.
+<Graphics//torque_speed_curve.png, id=827, 1217.0268pt x 641.7576pt>
+File: Graphics//torque_speed_curve.png Graphic file (type png)
+<use Graphics//torque_speed_curve.png>
+Package pdftex.def Info: Graphics//torque_speed_curve.png  used on input line 3
+0.
+(pdftex.def)             Requested size: 355.65944pt x 187.54442pt.
+ [8] [9 <./Graphics//eMotorAnnotated.png> <./Graphics//torque_speed_curve.png (
+PNG copy)>] [10]
+<Graphics//LineContact.png, id=851, 669.4611pt x 607.3089pt>
+File: Graphics//LineContact.png Graphic file (type png)
+<use Graphics//LineContact.png>
+Package pdftex.def Info: Graphics//LineContact.png  used on input line 65.
+(pdftex.def)             Requested size: 312.9803pt x 283.92474pt.
+<Graphics//PointContact.png, id=854, 669.4611pt x 607.3089pt>
+File: Graphics//PointContact.png Graphic file (type png)
+<use Graphics//PointContact.png>
+Package pdftex.def Info: Graphics//PointContact.png  used on input line 71.
+(pdftex.def)             Requested size: 312.9803pt x 283.92474pt.
+ [11] [12 <./Graphics//LineContact.png> <./Graphics//PointContact.png>]
+<Graphics//Hertzian_Contact_Deflection.png, id=880, 835.4412pt x 654.0435pt>
+File: Graphics//Hertzian_Contact_Deflection.png Graphic file (type png)
+<use Graphics//Hertzian_Contact_Deflection.png>
+Package pdftex.def Info: Graphics//Hertzian_Contact_Deflection.png  used on inp
+ut line 98.
+(pdftex.def)             Requested size: 284.52756pt x 222.7411pt.
+ [13] [14 <./Graphics//Hertzian_Contact_Deflection.png>] [15]
+[16]
+<Graphics//EHL_Film_Pressure_Schematic.png, id=938, 844.3545pt x 695.83965pt>
+File: Graphics//EHL_Film_Pressure_Schematic.png Graphic file (type png)
+<use Graphics//EHL_Film_Pressure_Schematic.png>
+Package pdftex.def Info: Graphics//EHL_Film_Pressure_Schematic.png  used on inp
+ut line 146.
+(pdftex.def)             Requested size: 355.65944pt x 293.10007pt.
+ [17] [18 <./Graphics//EHL_Film_Pressure_Schematic.png>]
+<Graphics//Stribeck_Curve.png, id=961, 790.45313pt x 395.22656pt>
+File: Graphics//Stribeck_Curve.png Graphic file (type png)
+<use Graphics//Stribeck_Curve.png>
+Package pdftex.def Info: Graphics//Stribeck_Curve.png  used on input line 171.
+(pdftex.def)             Requested size: 284.52756pt x 142.26335pt.
+ [19 <./Graphics//Stribeck_Curve.png>] [20]
+<Graphics//Starvation_Hamrock_Dowson.png, id=1001, 526.21594pt x 604.50844pt>
+File: Graphics//Starvation_Hamrock_Dowson.png Graphic file (type png)
+<use Graphics//Starvation_Hamrock_Dowson.png>
+Package pdftex.def Info: Graphics//Starvation_Hamrock_Dowson.png  used on input
+ line 205.
+(pdftex.def)             Requested size: 256.0748pt x 294.18243pt.
 
-Package natbib Warning: Citation `Andreason1973' on page 7 undefined on input l
-ine 7.
+
+LaTeX Warning: Reference `MacLaren2024' on page 21 undefined on input line 210.
 
 
-Package natbib Warning: Citation `Lundberg1949' on page 7 undefined on input li
-ne 7.
+[21] [22 <./Graphics//Starvation_Hamrock_Dowson.png>] [23] [24] [25] [26]
+[27] [28] [29] [30] [31] [32]) [33]
+\openout2 = `Chapters/03_Investigating_the_Effect_of_Lubrication_on_the_Tribody
+namic_Behaviour_of_High-Speed_Roller_Bearings/Experimental_and_Numerical_Tribod
+ynamics.aux'.
 
-[7] [8]
-<Graphics//FlexiTribo Figure 1. Flowchart of Models.png, id=323, 1242.14063pt x
- 618.81187pt>
+
+(Chapters/03_Investigating_the_Effect_of_Lubrication_on_the_Tribodynamic_Behavi
+our_of_High-Speed_Roller_Bearings/Experimental_and_Numerical_Tribodynamics.tex
+[34
+
+
+
+
+]
+Chapter 3.
+[35]
+<Graphics//ExpTribo Figure 1 - Methodology Overview.png, id=1245, 3733.95pt x 4
+481.74374pt>
+File: Graphics//ExpTribo Figure 1 - Methodology Overview.png Graphic file (type
+ png)
+<use Graphics//ExpTribo Figure 1 - Methodology Overview.png>
+Package pdftex.def Info: Graphics//ExpTribo Figure 1 - Methodology Overview.png
+  used on input line 27.
+(pdftex.def)             Requested size: 426.79134pt x 512.20976pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 27--28
+ [][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[36] [37 <./Graphics//ExpTribo Figure 1 - Methodology Overview.png>]
+<Graphics//ExpTribo Figure 2 - CRB in equilibrium position.png, id=1263, 597.55
+244pt x 491.07465pt>
+File: Graphics//ExpTribo Figure 2 - CRB in equilibrium position.png Graphic fil
+e (type png)
+<use Graphics//ExpTribo Figure 2 - CRB in equilibrium position.png>
+Package pdftex.def Info: Graphics//ExpTribo Figure 2 - CRB in equilibrium posit
+ion.png  used on input line 38.
+(pdftex.def)             Requested size: 256.0748pt x 210.44612pt.
+<Graphics//ExpTribo Figure 3 – Mutual separation and convergence of inner and
+ outer races 2.png, id=1265, 7419.72pt x 3739.9725pt>
+File: Graphics//ExpTribo Figure 3 – Mutual separation and convergence of inne
+r and outer races 2.png Graphic file (type png)
+<use Graphics//ExpTribo Figure 3 – Mutual separation and convergence of inner
+ and outer races 2.png>
+Package pdftex.def Info: Graphics//ExpTribo Figure 3 – Mutual separation and 
+convergence of inner and outer races 2.png  used on input line 47.
+(pdftex.def)             Requested size: 426.79134pt x 215.0867pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 47--48
+ [][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[38 <./Graphics//ExpTribo Figure 2 - CRB in equilibrium position.png>]
+<Graphics//FlexiTribo Figure 4. Dry vs Lubricated Roller-Race Contact.png, id=1
+276, 6335.67pt x 3318.3975pt>
+File: Graphics//FlexiTribo Figure 4. Dry vs Lubricated Roller-Race Contact.png 
+Graphic file (type png)
+<use Graphics//FlexiTribo Figure 4. Dry vs Lubricated Roller-Race Contact.png>
+Package pdftex.def Info: Graphics//FlexiTribo Figure 4. Dry vs Lubricated Rolle
+r-Race Contact.png  used on input line 60.
+(pdftex.def)             Requested size: 426.79134pt x 223.50114pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 60--61
+ [][] 
+ []
+
+[39 <./Graphics//ExpTribo Figure 3 – Mutual separation and convergence of inn
+er and outer races 2.png>]
+<Graphics//ExpTribo Figure 4 - EHL film thickness and pressure distribution at 
+contact.png, id=1290, 652.95946pt x 592.97536pt>
+File: Graphics//ExpTribo Figure 4 - EHL film thickness and pressure distributio
+n at contact.png Graphic file (type png)
+<use Graphics//ExpTribo Figure 4 - EHL film thickness and pressure distribution
+ at contact.png>
+Package pdftex.def Info: Graphics//ExpTribo Figure 4 - EHL film thickness and p
+ressure distribution at contact.png  used on input line 71.
+(pdftex.def)             Requested size: 284.52756pt x 258.39459pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
+
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[40 <./Graphics//FlexiTribo Figure 4. Dry vs Lubricated Roller-Race Contact.png
+>] [41 <./Graphics//ExpTribo Figure 4 - EHL film thickness and pressure distrib
+ution at contact.png>]
+Overfull \hbox (3.49332pt too wide) in paragraph at lines 99--100
+ []\T1/ptm/b/n/12 (-20) Bearing[] \T1/ptm/m/n/12 (-20) The bear-ing un-der test
+ was a single-row cylin-dri-cal roller bear-ing, NU 205 ECP.
+ []
+
+<Graphics//ExpTribo Figure 5 – Experimental rig schematic.png, id=1311, 1195.
+1049pt x 715.11165pt>
+File: Graphics//ExpTribo Figure 5 – Experimental rig schematic.png Graphic fi
+le (type png)
+<use Graphics//ExpTribo Figure 5 – Experimental rig schematic.png>
+Package pdftex.def Info: Graphics//ExpTribo Figure 5 – Experimental rig schem
+atic.png  used on input line 103.
+(pdftex.def)             Requested size: 426.79134pt x 255.37767pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 103--104
+ [][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[42]
+<Graphics//ExpTribo Figure 6(a) - Accelerometer Locations on Test Bracket.png, 
+id=1322, 6329.6475pt x 4661.415pt>
+File: Graphics//ExpTribo Figure 6(a) - Accelerometer Locations on Test Bracket.
+png Graphic file (type png)
+<use Graphics//ExpTribo Figure 6(a) - Accelerometer Locations on Test Bracket.p
+ng>
+Package pdftex.def Info: Graphics//ExpTribo Figure 6(a) - Accelerometer Locatio
+ns on Test Bracket.png  used on input line 119.
+(pdftex.def)             Requested size: 384.1122pt x 282.87357pt.
+<Graphics//ExpTribo Figure 6(b) - Laser Vibrometer Locations on Shaft.png, id=1
+323, 5558.7675pt x 4546.9875pt>
+File: Graphics//ExpTribo Figure 6(b) - Laser Vibrometer Locations on Shaft.png 
+Graphic file (type png)
+<use Graphics//ExpTribo Figure 6(b) - Laser Vibrometer Locations on Shaft.png>
+Package pdftex.def Info: Graphics//ExpTribo Figure 6(b) - Laser Vibrometer Loca
+tions on Shaft.png  used on input line 126.
+(pdftex.def)             Requested size: 384.1122pt x 314.15877pt.
+ [43 <./Graphics//ExpTribo Figure 5 – Experimental rig schematic.png>]
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[44 <./Graphics//ExpTribo Figure 6(a) - Accelerometer Locations on Test Bracket
+.png> <./Graphics//ExpTribo Figure 6(b) - Laser Vibrometer Locations on Shaft.p
+ng>] [45]
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[46] [47]
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[48]
+
+LaTeX Warning: Reference `{Thermal EHL}' on page 49 undefined on input line 234
+.
+
+[49]
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[50] [51]
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[52]
+Overfull \hbox (22.2627pt too wide) detected at line 360
+ $[] \OT1/ztmcm/m/n/12 + [] [] \OMS/ztmcm/m/n/12 ^^@ [] [] \OT1/ztmcm/m/n/12 	\
+OML/ztmcm/m/it/12 U \OT1/ztmcm/m/n/12 = 0$  
+ []
+
+
+Overfull \hbox (11.97554pt too wide) detected at line 363
+ $[] \OT1/ztmcm/m/n/12 + [] [] \OMS/ztmcm/m/n/12 ^^@ [] [] \OT1/ztmcm/m/n/12 	\
+OML/ztmcm/m/it/12 U \OT1/ztmcm/m/n/12 = []$  
+ []
+
+[53]
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[54] [55]
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[56] [57]
+<Graphics//ExpTribo Figure 9 - Validation of dimensionless pressure distributio
+n, present model (solid), Masjedi and Khonsari (dashed).png, id=1511, 1557.5690
+6pt x 752.0597pt>
+File: Graphics//ExpTribo Figure 9 - Validation of dimensionless pressure distri
+bution, present model (solid), Masjedi and Khonsari (dashed).png Graphic file (
+type png)
+<use Graphics//ExpTribo Figure 9 - Validation of dimensionless pressure distrib
+ution, present model (solid), Masjedi and Khonsari (dashed).png>
+Package pdftex.def Info: Graphics//ExpTribo Figure 9 - Validation of dimensionl
+ess pressure distribution, present model (solid), Masjedi and Khonsari (dashed)
+.png  used on input line 497.
+(pdftex.def)             Requested size: 341.43306pt x 164.85692pt.
+<Graphics//ExpTribo Figure 10 - Validation of dimensionless film thickness dist
+ribution, present model (solid), Masjedi and Khonsari (dashed).png, id=1512, 15
+31.97343pt x 786.68906pt>
+File: Graphics//ExpTribo Figure 10 - Validation of dimensionless film thickness
+ distribution, present model (solid), Masjedi and Khonsari (dashed).png Graphic
+ file (type png)
+<use Graphics//ExpTribo Figure 10 - Validation of dimensionless film thickness 
+distribution, present model (solid), Masjedi and Khonsari (dashed).png>
+Package pdftex.def Info: Graphics//ExpTribo Figure 10 - Validation of dimension
+less film thickness distribution, present model (solid), Masjedi and Khonsari (
+dashed).png  used on input line 504.
+(pdftex.def)             Requested size: 341.43306pt x 175.32886pt.
+
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[58] [59 <./Graphics//ExpTribo Figure 9 - Validation of dimensionless pressure 
+distribution, present model (solid), Masjedi and Khonsari (dashed).png> <./Grap
+hics//ExpTribo Figure 10 - Validation of dimensionless film thickness distribut
+ion, present model (solid), Masjedi and Khonsari (dashed).png>]
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[60]
+<Graphics//ExpTribo Figure 7 - Bearing Bore Displacement Frequency Spectra.png,
+ id=1540, 1988.93062pt x 866.48718pt>
+File: Graphics//ExpTribo Figure 7 - Bearing Bore Displacement Frequency Spectra
+.png Graphic file (type png)
+<use Graphics//ExpTribo Figure 7 - Bearing Bore Displacement Frequency Spectra.
+png>
+Package pdftex.def Info: Graphics//ExpTribo Figure 7 - Bearing Bore Displacemen
+t Frequency Spectra.png  used on input line 578.
+(pdftex.def)             Requested size: 426.79134pt x 185.93413pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 578--579
+ [][] 
+ []
+
+<Graphics//ExpTribo Figure 8 - Shaft Displacement Frequency Spectra.png, id=154
+1, 1986.67218pt x 959.83594pt>
+File: Graphics//ExpTribo Figure 8 - Shaft Displacement Frequency Spectra.png Gr
+aphic file (type png)
+<use Graphics//ExpTribo Figure 8 - Shaft Displacement Frequency Spectra.png>
+Package pdftex.def Info: Graphics//ExpTribo Figure 8 - Shaft Displacement Frequ
+ency Spectra.png  used on input line 585.
+(pdftex.def)             Requested size: 426.79134pt x 206.1996pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 585--586
+ [][] 
+ []
+
+[61 <./Graphics//ExpTribo Figure 7 - Bearing Bore Displacement Frequency Spectr
+a.png>]
+<Graphics//ExpTribo Figure 11 - Contact Load and Film Thickness - Outer Race_2.
+png, id=1553, 1069.596pt x 495.7722pt>
+File: Graphics//ExpTribo Figure 11 - Contact Load and Film Thickness - Outer Ra
+ce_2.png Graphic file (type png)
+<use Graphics//ExpTribo Figure 11 - Contact Load and Film Thickness - Outer Rac
+e_2.png>
+Package pdftex.def Info: Graphics//ExpTribo Figure 11 - Contact Load and Film T
+hickness - Outer Race_2.png  used on input line 598.
+(pdftex.def)             Requested size: 426.79134pt x 197.82877pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 598--599
+ [][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[62 <./Graphics//ExpTribo Figure 8 - Shaft Displacement Frequency Spectra.png>]
+<Graphics//ExpTribo Figure 12 - Film and Load - EHL to Hydrodynamic Regime_2.pn
+g, id=1560, 1035.3882pt x 495.7722pt>
+File: Graphics//ExpTribo Figure 12 - Film and Load - EHL to Hydrodynamic Regime
+_2.png Graphic file (type png)
+<use Graphics//ExpTribo Figure 12 - Film and Load - EHL to Hydrodynamic Regime_
+2.png>
+Package pdftex.def Info: Graphics//ExpTribo Figure 12 - Film and Load - EHL to 
+Hydrodynamic Regime_2.png  used on input line 607.
+(pdftex.def)             Requested size: 426.79134pt x 204.35725pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 607--608
+ [][] 
+ []
+
+[63 <./Graphics//ExpTribo Figure 11 - Contact Load and Film Thickness - Outer R
+ace_2.png (PNG copy)>]
+<Graphics//ExpTribo Figure 14 – EHL and hydrodynamic conditions during roller
+ operation_2.png, id=1569, 840.741pt x 461.5644pt>
+File: Graphics//ExpTribo Figure 14 – EHL and hydrodynamic conditions during r
+oller operation_2.png Graphic file (type png)
+<use Graphics//ExpTribo Figure 14 – EHL and hydrodynamic conditions during ro
+ller operation_2.png>
+Package pdftex.def Info: Graphics//ExpTribo Figure 14 – EHL and hydrodynamic 
+conditions during roller operation_2.png  used on input line 625.
+(pdftex.def)             Requested size: 426.79134pt x 234.31012pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 625--626
+ [][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[64 <./Graphics//ExpTribo Figure 12 - Film and Load - EHL to Hydrodynamic Regim
+e_2.png (PNG copy)>]
+<Graphics//ExpTribo Figure 15 - Contact Load Difference Between Dry and Lubrica
+ted Model_2.png, id=1579, 1010.8164pt x 494.8086pt>
+File: Graphics//ExpTribo Figure 15 - Contact Load Difference Between Dry and Lu
+bricated Model_2.png Graphic file (type png)
+<use Graphics//ExpTribo Figure 15 - Contact Load Difference Between Dry and Lub
+ricated Model_2.png>
+Package pdftex.def Info: Graphics//ExpTribo Figure 15 - Contact Load Difference
+ Between Dry and Lubricated Model_2.png  used on input line 636.
+(pdftex.def)             Requested size: 426.79134pt x 208.9205pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 636--637
+ [][] 
+ []
+
+[65 <./Graphics//ExpTribo Figure 14 – EHL and hydrodynamic conditions during 
+roller operation_2.png (PNG copy)>]
+<Graphics//ExpTribo Figure 16a.png, id=1586, 1583.16469pt x 745.28438pt>
+File: Graphics//ExpTribo Figure 16a.png Graphic file (type png)
+<use Graphics//ExpTribo Figure 16a.png>
+Package pdftex.def Info: Graphics//ExpTribo Figure 16a.png  used on input line 
+647.
+(pdftex.def)             Requested size: 311.55768pt x 146.66609pt.
+<Graphics//ExpTribo Figure 16b.png, id=1587, 1593.70406pt x 746.79pt>
+File: Graphics//ExpTribo Figure 16b.png Graphic file (type png)
+<use Graphics//ExpTribo Figure 16b.png>
+Package pdftex.def Info: Graphics//ExpTribo Figure 16b.png  used on input line 
+654.
+(pdftex.def)             Requested size: 311.55768pt x 145.9824pt.
+<Graphics//ExpTribo Figure 16c.png, id=1588, 1593.70406pt x 752.0597pt>
+File: Graphics//ExpTribo Figure 16c.png Graphic file (type png)
+<use Graphics//ExpTribo Figure 16c.png>
+Package pdftex.def Info: Graphics//ExpTribo Figure 16c.png  used on input line 
+661.
+(pdftex.def)             Requested size: 311.55768pt x 147.01253pt.
+<Graphics//ExpTribo Figure 17 – Selected Points for Numerical EHL Model.png, 
+id=1590, 963.6pt x 464.937pt>
+File: Graphics//ExpTribo Figure 17 – Selected Points for Numerical EHL Model.
+png Graphic file (type png)
+<use Graphics//ExpTribo Figure 17 – Selected Points for Numerical EHL Model.p
+ng>
+Package pdftex.def Info: Graphics//ExpTribo Figure 17 – Selected Points for N
+umerical EHL Model.png  used on input line 675.
+(pdftex.def)             Requested size: 426.79134pt x 205.92084pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 675--676
+ [][] 
+ []
+
+<Graphics//ExpTribo Figure 18a.png, id=1592, 1594.45688pt x 757.32938pt>
+File: Graphics//ExpTribo Figure 18a.png Graphic file (type png)
+<use Graphics//ExpTribo Figure 18a.png>
+Package pdftex.def Info: Graphics//ExpTribo Figure 18a.png  used on input line 
+686.
+(pdftex.def)             Requested size: 203.5533pt x 96.67667pt.
+<Graphics//ExpTribo Figure 18b.png, id=1593, 1594.45688pt x 757.32938pt>
+File: Graphics//ExpTribo Figure 18b.png Graphic file (type png)
+<use Graphics//ExpTribo Figure 18b.png>
+Package pdftex.def Info: Graphics//ExpTribo Figure 18b.png  used on input line 
+693.
+(pdftex.def)             Requested size: 203.5533pt x 96.67667pt.
+<Graphics//ExpTribo Figure 18c.png, id=1594, 1594.45688pt x 756.57657pt>
+File: Graphics//ExpTribo Figure 18c.png Graphic file (type png)
+<use Graphics//ExpTribo Figure 18c.png>
+Package pdftex.def Info: Graphics//ExpTribo Figure 18c.png  used on input line 
+700.
+(pdftex.def)             Requested size: 203.5533pt x 96.58057pt.
+<Graphics//ExpTribo Figure 18d.png, id=1595, 1594.45688pt x 757.32938pt>
+File: Graphics//ExpTribo Figure 18d.png Graphic file (type png)
+<use Graphics//ExpTribo Figure 18d.png>
+Package pdftex.def Info: Graphics//ExpTribo Figure 18d.png  used on input line 
+707.
+(pdftex.def)             Requested size: 203.5533pt x 96.67667pt.
+<Graphics//ExpTribo Figure 18e.png, id=1596, 1594.45688pt x 753.5653pt>
+File: Graphics//ExpTribo Figure 18e.png Graphic file (type png)
+<use Graphics//ExpTribo Figure 18e.png>
+Package pdftex.def Info: Graphics//ExpTribo Figure 18e.png  used on input line 
+714.
+(pdftex.def)             Requested size: 203.5533pt x 96.19615pt.
+<Graphics//ExpTribo Figure 18f.png, id=1597, 1594.45688pt x 754.31813pt>
+File: Graphics//ExpTribo Figure 18f.png Graphic file (type png)
+<use Graphics//ExpTribo Figure 18f.png>
+Package pdftex.def Info: Graphics//ExpTribo Figure 18f.png  used on input line 
+721.
+(pdftex.def)             Requested size: 203.5533pt x 96.29227pt.
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[66 <./Graphics//ExpTribo Figure 15 - Contact Load Difference Between Dry and L
+ubricated Model_2.png (PNG copy)>] [67 <./Graphics//ExpTribo Figure 16a.png> <.
+/Graphics//ExpTribo Figure 16b.png> <./Graphics//ExpTribo Figure 16c.png>]
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[68 <./Graphics//ExpTribo Figure 17 – Selected Points for Numerical EHL Model
+.png> <./Graphics//ExpTribo Figure 18a.png> <./Graphics//ExpTribo Figure 18b.pn
+g> <./Graphics//ExpTribo Figure 18c.png> <./Graphics//ExpTribo Figure 18d.png> 
+<./Graphics//ExpTribo Figure 18e.png> <./Graphics//ExpTribo Figure 18f.png>]
+Overfull \hbox (33.38632pt too wide) in paragraph at lines 737--754
+ [][] 
+ []
+
+[69])
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.48592pt}.
+
+[70]
+\openout2 = `Chapters/04_Modelling_Lubricated_Bearings_in_a_Flexible_Multi-Body
+_Dynamic_Environment/Lubricated_FMBD.aux'.
+
+
+(Chapters/04_Modelling_Lubricated_Bearings_in_a_Flexible_Multi-Body_Dynamic_Env
+ironment/Lubricated_FMBD.tex
+Chapter 4.
+[71
+
+
+
+
+] [72]
+<Graphics//FlexiTribo Figure 1. Flowchart of Models.png, id=1658, 1242.14063pt 
+x 618.81187pt>
 File: Graphics//FlexiTribo Figure 1. Flowchart of Models.png Graphic file (type
  png)
 <use Graphics//FlexiTribo Figure 1. Flowchart of Models.png>
@@ -1250,8 +1816,8 @@ Overfull \hbox (11.38109pt too wide) in paragraph at lines 28--29
  [][] 
  []
 
-<Graphics//FlexiTribo Figure 2. System Level Model Schematic.png, id=326, 6654.
-8625pt x 3679.7475pt>
+<Graphics//FlexiTribo Figure 2. System Level Model Schematic.png, id=1661, 6654
+.8625pt x 3679.7475pt>
 File: Graphics//FlexiTribo Figure 2. System Level Model Schematic.png Graphic f
 ile (type png)
 <use Graphics//FlexiTribo Figure 2. System Level Model Schematic.png>
@@ -1263,427 +1829,1940 @@ Overfull \hbox (11.38109pt too wide) in paragraph at lines 39--40
  [][] 
  []
 
-
-Package natbib Warning: Citation `DeMul1989_2' on page 9 undefined on input lin
-e 44.
-
-[9 <./Graphics//FlexiTribo Figure 1. Flowchart of Models.png>]
-
-Package natbib Warning: Citation `Parikyan2001' on page 10 undefined on input l
-ine 48.
-
-[10 <./Graphics//FlexiTribo Figure 2. System Level Model Schematic.png>]
-
-Package natbib Warning: Citation `Offner2011' on page 11 undefined on input lin
-e 83.
-
-[11]
-<Graphics//FlexiTribo Figure 3. Bearing Schematic.png, id=352, 945.89384pt x 51
-9.3804pt>
+[73 <./Graphics//FlexiTribo Figure 1. Flowchart of Models.png>] [74 <./Graphics
+//FlexiTribo Figure 2. System Level Model Schematic.png>] [75]
+<Graphics//FlexiTribo Figure 3. Bearing Schematic.png, id=1689, 945.89384pt x 5
+19.3804pt>
 File: Graphics//FlexiTribo Figure 3. Bearing Schematic.png Graphic file (type p
 ng)
 <use Graphics//FlexiTribo Figure 3. Bearing Schematic.png>
 Package pdftex.def Info: Graphics//FlexiTribo Figure 3. Bearing Schematic.png  
 used on input line 98.
 (pdftex.def)             Requested size: 369.88582pt x 203.09644pt.
-
-
-Package natbib Warning: Citation `Dietl1997' on page 12 undefined on input line
- 103.
-
-
-Package natbib Warning: Citation `Walford1983' on page 12 undefined on input li
-ne 107.
-
-
-Package natbib Warning: Citation `Dareing1975' on page 12 undefined on input li
-ne 107.
-
-
-Package natbib Warning: Citation `Mehdigoli1990' on page 12 undefined on input 
-line 107.
-
-
-Package natbib Warning: Citation `Rahnejat1985' on page 12 undefined on input l
-ine 109.
-
-
-Package natbib Warning: Citation `Mohammadpour2015c' on page 12 undefined on in
-put line 109.
-
-[12]
-<Graphics//FlexiTribo Figure 4. Dry vs Lubricated Roller-Race Contact.png, id=3
-61, 6335.67pt x 3318.3975pt>
-File: Graphics//FlexiTribo Figure 4. Dry vs Lubricated Roller-Race Contact.png 
-Graphic file (type png)
-<use Graphics//FlexiTribo Figure 4. Dry vs Lubricated Roller-Race Contact.png>
-Package pdftex.def Info: Graphics//FlexiTribo Figure 4. Dry vs Lubricated Rolle
-r-Race Contact.png  used on input line 117.
-(pdftex.def)             Requested size: 426.79134pt x 223.50114pt.
-
-Overfull \hbox (11.38109pt too wide) in paragraph at lines 117--118
- [][] 
- []
-
-
-Package natbib Warning: Citation `Dowson1979' on page 13 undefined on input lin
-e 122.
-
-
-Package natbib Warning: Citation `Nelias2008' on page 13 undefined on input lin
-e 130.
-
-
-Package natbib Warning: Citation `Majdoub2020' on page 13 undefined on input li
-ne 130.
-
-
-Package natbib Warning: Citation `Gupta1979' on page 13 undefined on input line
- 130.
-
-[13 <./Graphics//FlexiTribo Figure 3. Bearing Schematic.png>]
-
-Package natbib Warning: Citation `Mevel1993' on page 14 undefined on input line
- 132.
-
-
-Package natbib Warning: Citation `Spikes2015' on page 14 undefined on input lin
-e 132.
-
-
-Package natbib Warning: Citation `Shi2015' on page 14 undefined on input line 1
-32.
-
-
-Package natbib Warning: Citation `Singh1974' on page 14 undefined on input line
- 142.
-
-
-Package natbib Warning: Citation `Harris2007a' on page 14 undefined on input li
-ne 142.
-
-
-Package natbib Warning: Citation `Andreason1973' on page 14 undefined on input 
-line 142.
-
-[14 <./Graphics//FlexiTribo Figure 4. Dry vs Lubricated Roller-Race Contact.png
->]
-
-Package natbib Warning: Citation `Lundberg1949' on page 15 undefined on input l
-ine 144.
-
-
-Package natbib Warning: Citation `DeMul1989_2' on page 15 undefined on input li
-ne 156.
-
-
-Package natbib Warning: Citation `DeMul1986' on page 15 undefined on input line
- 156.
-
-
-Package natbib Warning: Citation `DeMul1989_2' on page 15 undefined on input li
-ne 156.
-
-<Graphics//FlexiTribo Figure 5. Contact Level Validation.png, id=379, 1445.4pt 
-x 673.01437pt>
+ [76] [77 <./Graphics//FlexiTribo Figure 3. Bearing Schematic.png>] [78]
+<Graphics//FlexiTribo Figure 5. Contact Level Validation.png, id=1745, 1445.4pt
+ x 673.01437pt>
 File: Graphics//FlexiTribo Figure 5. Contact Level Validation.png Graphic file 
 (type png)
 <use Graphics//FlexiTribo Figure 5. Contact Level Validation.png>
 Package pdftex.def Info: Graphics//FlexiTribo Figure 5. Contact Level Validatio
-n.png  used on input line 160.
+n.png  used on input line 153.
 (pdftex.def)             Requested size: 426.79134pt x 198.72237pt.
 
-Overfull \hbox (11.38109pt too wide) in paragraph at lines 160--161
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 153--154
  [][] 
  []
 
-[15]
-
-Package natbib Warning: Citation `Dietl1997' on page 16 undefined on input line
- 174.
-
-
-Package natbib Warning: Citation `Sopanen2003_1' on page 16 undefined on input 
-line 182.
-
-
-Package natbib Warning: Citation `Mitsuya1992' on page 16 undefined on input li
-ne 182.
-
-
-Package natbib Warning: Citation `Aini2002' on page 16 undefined on input line 
-182.
-
-
-Package natbib Warning: Citation `Kramer1993' on page 16 undefined on input lin
-e 182.
-
-
-Package natbib Warning: Citation `Kramer1993' on page 16 undefined on input lin
-e 186.
-
-[16 <./Graphics//FlexiTribo Figure 5. Contact Level Validation.png (PNG copy)>]
-
-LaTeX Warning: Reference `Surface Topography' on page 17 undefined on input lin
-e 197.
-
+[79 <./Graphics//FlexiTribo Figure 5. Contact Level Validation.png (PNG copy)>]
+[80]
 <Graphics//FlexiTribo Figure 6. PMSM Torque Profile and Maximum and Minimum Tor
-que Fluctuation.png, id=399, 1445.4pt x 673.01437pt>
+que Fluctuation.png, id=1775, 1445.4pt x 673.01437pt>
 File: Graphics//FlexiTribo Figure 6. PMSM Torque Profile and Maximum and Minimu
 m Torque Fluctuation.png Graphic file (type png)
 <use Graphics//FlexiTribo Figure 6. PMSM Torque Profile and Maximum and Minimum
  Torque Fluctuation.png>
 Package pdftex.def Info: Graphics//FlexiTribo Figure 6. PMSM Torque Profile and
- Maximum and Minimum Torque Fluctuation.png  used on input line 255.
+ Maximum and Minimum Torque Fluctuation.png  used on input line 248.
 (pdftex.def)             Requested size: 426.79134pt x 198.72237pt.
 
-Overfull \hbox (11.38109pt too wide) in paragraph at lines 255--256
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 248--249
  [][] 
  []
 
-[17] [18 <./Graphics//FlexiTribo Figure 6. PMSM Torque Profile and Maximum and 
+[81] [82 <./Graphics//FlexiTribo Figure 6. PMSM Torque Profile and Maximum and 
 Minimum Torque Fluctuation.png (PNG copy)>]
-<Graphics//Hub_motor_excitation_model_annotated.png, id=412, 1104.2856pt x 801.
-9561pt>
+<Graphics//Hub_motor_excitation_model_annotated.png, id=1786, 1104.2856pt x 801
+.9561pt>
 File: Graphics//Hub_motor_excitation_model_annotated.png Graphic file (type png
 )
 <use Graphics//Hub_motor_excitation_model_annotated.png>
 Package pdftex.def Info: Graphics//Hub_motor_excitation_model_annotated.png  us
-ed on input line 266.
+ed on input line 259.
 (pdftex.def)             Requested size: 355.65944pt x 258.28316pt.
- [19 <./Graphics//Hub_motor_excitation_model_annotated.png>] [20]
-<Graphics//Communication_Vector_MATLAB.png, id=422, 1166.85938pt x 70.76437pt>
+ [83 <./Graphics//Hub_motor_excitation_model_annotated.png>] [84]
+<Graphics//Communication_Vector_MATLAB.png, id=1797, 1166.85938pt x 70.76437pt>
+
 File: Graphics//Communication_Vector_MATLAB.png Graphic file (type png)
 <use Graphics//Communication_Vector_MATLAB.png>
 Package pdftex.def Info: Graphics//Communication_Vector_MATLAB.png  used on inp
-ut line 334.
+ut line 327.
 (pdftex.def)             Requested size: 426.79134pt x 25.88222pt.
 
-Overfull \hbox (11.38109pt too wide) in paragraph at lines 334--335
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 327--328
  [][] 
  []
 
 
-Overfull \hbox (3.42612pt too wide) in paragraph at lines 341--342
+Overfull \hbox (3.42612pt too wide) in paragraph at lines 334--335
 []\T1/ptm/m/n/12 (-20) The con-nec-tion to MAT-LAB\TS1/ptm/m/n/12 (-20) � \T1/p
 tm/m/n/12 (-20) is fa-cil-i-tated via an S-function. There-fore, a Simulink\TS1
 /ptm/m/n/12 (-20) �
  []
 
-<Graphics//Output Port.png, id=423, 351.11176pt x 215.00325pt>
+<Graphics//Output Port.png, id=1798, 351.11176pt x 215.00325pt>
 File: Graphics//Output Port.png Graphic file (type png)
 <use Graphics//Output Port.png>
-Package pdftex.def Info: Graphics//Output Port.png  used on input line 354.
+Package pdftex.def Info: Graphics//Output Port.png  used on input line 347.
 (pdftex.def)             Requested size: 355.65944pt x 217.79785pt.
-<Graphics//Input Port.png, id=424, 274.02374pt x 225.54262pt>
+<Graphics//Input Port.png, id=1799, 274.02374pt x 225.54262pt>
 File: Graphics//Input Port.png Graphic file (type png)
 <use Graphics//Input Port.png>
-Package pdftex.def Info: Graphics//Input Port.png  used on input line 365.
+Package pdftex.def Info: Graphics//Input Port.png  used on input line 358.
 (pdftex.def)             Requested size: 355.65944pt x 292.75798pt.
-[21 <./Graphics//Communication_Vector_MATLAB.png>] [22 <./Graphics//Output Port
+[85 <./Graphics//Communication_Vector_MATLAB.png>] [86 <./Graphics//Output Port
 .png> <./Graphics//Input Port.png>]
-<Graphics//Simulink_schematic_annotated.png, id=444, 2886.28313pt x 1863.21094p
-t>
+<Graphics//Simulink_schematic_annotated.png, id=1818, 2886.28313pt x 1863.21094
+pt>
 File: Graphics//Simulink_schematic_annotated.png Graphic file (type png)
 <use Graphics//Simulink_schematic_annotated.png>
 Package pdftex.def Info: Graphics//Simulink_schematic_annotated.png  used on in
-put line 376.
+put line 369.
 (pdftex.def)             Requested size: 711.3189pt x 459.17734pt.
 
-Overfull \hbox (42.67912pt too wide) in paragraph at lines 376--377
+Overfull \hbox (42.67912pt too wide) in paragraph at lines 369--370
  [][] 
  []
 
-
-Package natbib Warning: Citation `Dietl1997' on page 23 undefined on input line
- 387.
-
 <Graphics//FlexiTribo Figure 7. Rolling Element Contact Stiffness - Dry vs Lubr
-icated Maximum Values.png, id=446, 1445.4pt x 673.01437pt>
+icated Maximum Values.png, id=1821, 1445.4pt x 673.01437pt>
 File: Graphics//FlexiTribo Figure 7. Rolling Element Contact Stiffness - Dry vs
  Lubricated Maximum Values.png Graphic file (type png)
 <use Graphics//FlexiTribo Figure 7. Rolling Element Contact Stiffness - Dry vs 
 Lubricated Maximum Values.png>
 Package pdftex.def Info: Graphics//FlexiTribo Figure 7. Rolling Element Contact
- Stiffness - Dry vs Lubricated Maximum Values.png  used on input line 391.
+ Stiffness - Dry vs Lubricated Maximum Values.png  used on input line 384.
 (pdftex.def)             Requested size: 426.79134pt x 198.72237pt.
 
-Overfull \hbox (11.38109pt too wide) in paragraph at lines 391--392
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 384--385
  [][] 
  []
 
-
-LaTeX Warning: Reference `Investigating the Effect of Lubrication on the Tribod
-ynamic Behaviour of High-Speed Roller Bearings' on page 23 undefined on input l
-ine 396.
-
-[23] [24 <./Graphics//Simulink_schematic_annotated.png>]
+[87] [88 <./Graphics//Simulink_schematic_annotated.png>]
 <Graphics//FlexiTribo Figure 8. Rolling Element Contact Force - Dry vs Lubricat
-ed Percentage Increase.png, id=457, 1445.4pt x 673.01437pt>
+ed Percentage Increase.png, id=1833, 1445.4pt x 673.01437pt>
 File: Graphics//FlexiTribo Figure 8. Rolling Element Contact Force - Dry vs Lub
 ricated Percentage Increase.png Graphic file (type png)
 <use Graphics//FlexiTribo Figure 8. Rolling Element Contact Force - Dry vs Lubr
 icated Percentage Increase.png>
 Package pdftex.def Info: Graphics//FlexiTribo Figure 8. Rolling Element Contact
- Force - Dry vs Lubricated Percentage Increase.png  used on input line 400.
+ Force - Dry vs Lubricated Percentage Increase.png  used on input line 393.
 (pdftex.def)             Requested size: 426.79134pt x 198.72237pt.
 
-Overfull \hbox (11.38109pt too wide) in paragraph at lines 400--401
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 393--394
  [][] 
  []
 
-[25 <./Graphics//FlexiTribo Figure 7. Rolling Element Contact Stiffness - Dry v
+[89 <./Graphics//FlexiTribo Figure 7. Rolling Element Contact Stiffness - Dry v
 s Lubricated Maximum Values.png (PNG copy)> <./Graphics//FlexiTribo Figure 8. R
 olling Element Contact Force - Dry vs Lubricated Percentage Increase.png (PNG c
 opy)>]
 <Graphics//FlexiTribo Figure 9. Inner Race Stiffness - Dry vs Lubricated Operat
-ing Envelope.png, id=464, 1445.4pt x 673.01437pt>
+ing Envelope.png, id=1841, 1445.4pt x 673.01437pt>
 File: Graphics//FlexiTribo Figure 9. Inner Race Stiffness - Dry vs Lubricated O
 perating Envelope.png Graphic file (type png)
 <use Graphics//FlexiTribo Figure 9. Inner Race Stiffness - Dry vs Lubricated Op
 erating Envelope.png>
 Package pdftex.def Info: Graphics//FlexiTribo Figure 9. Inner Race Stiffness - 
-Dry vs Lubricated Operating Envelope.png  used on input line 409.
+Dry vs Lubricated Operating Envelope.png  used on input line 402.
 (pdftex.def)             Requested size: 426.79134pt x 198.72237pt.
 
-Overfull \hbox (11.38109pt too wide) in paragraph at lines 409--410
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 402--403
  [][] 
  []
 
 <Graphics//FlexiTribo Figure 10. Inner Race Displacement - Dry vs Lubricated Op
-erating Envelope.png, id=466, 1445.4pt x 673.01437pt>
+erating Envelope.png, id=1843, 1445.4pt x 673.01437pt>
 File: Graphics//FlexiTribo Figure 10. Inner Race Displacement - Dry vs Lubricat
 ed Operating Envelope.png Graphic file (type png)
 <use Graphics//FlexiTribo Figure 10. Inner Race Displacement - Dry vs Lubricate
 d Operating Envelope.png>
 Package pdftex.def Info: Graphics//FlexiTribo Figure 10. Inner Race Displacemen
-t - Dry vs Lubricated Operating Envelope.png  used on input line 418.
+t - Dry vs Lubricated Operating Envelope.png  used on input line 411.
 (pdftex.def)             Requested size: 426.79134pt x 198.72237pt.
 
-Overfull \hbox (11.38109pt too wide) in paragraph at lines 418--419
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 411--412
  [][] 
  []
 
-[26 <./Graphics//FlexiTribo Figure 9. Inner Race Stiffness - Dry vs Lubricated 
+[90 <./Graphics//FlexiTribo Figure 9. Inner Race Stiffness - Dry vs Lubricated 
 Operating Envelope.png (PNG copy)>]
 <Graphics//FlexiTribo Figure 11. Inner Race Acceleration - Dry vs Lubricated Op
-erating Envelope.png, id=473, 1445.4pt x 673.01437pt>
+erating Envelope.png, id=1850, 1445.4pt x 673.01437pt>
 File: Graphics//FlexiTribo Figure 11. Inner Race Acceleration - Dry vs Lubricat
 ed Operating Envelope.png Graphic file (type png)
 <use Graphics//FlexiTribo Figure 11. Inner Race Acceleration - Dry vs Lubricate
 d Operating Envelope.png>
 Package pdftex.def Info: Graphics//FlexiTribo Figure 11. Inner Race Acceleratio
-n - Dry vs Lubricated Operating Envelope.png  used on input line 427.
+n - Dry vs Lubricated Operating Envelope.png  used on input line 420.
+(pdftex.def)             Requested size: 426.79134pt x 198.72237pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 420--421
+ [][] 
+ []
+
+<Graphics//FlexiTribo Figure 12. Rolling Element Contact Stiffness - Dry vs Lub
+ricated Minimum Values.png, id=1851, 1445.4pt x 673.01437pt>
+File: Graphics//FlexiTribo Figure 12. Rolling Element Contact Stiffness - Dry v
+s Lubricated Minimum Values.png Graphic file (type png)
+<use Graphics//FlexiTribo Figure 12. Rolling Element Contact Stiffness - Dry vs
+ Lubricated Minimum Values.png>
+Package pdftex.def Info: Graphics//FlexiTribo Figure 12. Rolling Element Contac
+t Stiffness - Dry vs Lubricated Minimum Values.png  used on input line 427.
 (pdftex.def)             Requested size: 426.79134pt x 198.72237pt.
 
 Overfull \hbox (11.38109pt too wide) in paragraph at lines 427--428
  [][] 
  []
 
-<Graphics//FlexiTribo Figure 12. Rolling Element Contact Stiffness - Dry vs Lub
-ricated Minimum Values.png, id=474, 1445.4pt x 673.01437pt>
-File: Graphics//FlexiTribo Figure 12. Rolling Element Contact Stiffness - Dry v
-s Lubricated Minimum Values.png Graphic file (type png)
-<use Graphics//FlexiTribo Figure 12. Rolling Element Contact Stiffness - Dry vs
- Lubricated Minimum Values.png>
-Package pdftex.def Info: Graphics//FlexiTribo Figure 12. Rolling Element Contac
-t Stiffness - Dry vs Lubricated Minimum Values.png  used on input line 434.
-(pdftex.def)             Requested size: 426.79134pt x 198.72237pt.
-
-Overfull \hbox (11.38109pt too wide) in paragraph at lines 434--435
- [][] 
- []
-
-[27 <./Graphics//FlexiTribo Figure 10. Inner Race Displacement - Dry vs Lubrica
+[91 <./Graphics//FlexiTribo Figure 10. Inner Race Displacement - Dry vs Lubrica
 ted Operating Envelope.png (PNG copy)> <./Graphics//FlexiTribo Figure 11. Inner
  Race Acceleration - Dry vs Lubricated Operating Envelope.png>]
 <Graphics//FlexiTribo Figure 13. Film Thickness vs Contact Force 21 000 rpm.png
-, id=483, 1445.4pt x 673.01437pt>
+, id=1859, 1445.4pt x 673.01437pt>
 File: Graphics//FlexiTribo Figure 13. Film Thickness vs Contact Force 21 000 rp
 m.png Graphic file (type png)
 <use Graphics//FlexiTribo Figure 13. Film Thickness vs Contact Force 21 000 rpm
 .png>
 Package pdftex.def Info: Graphics//FlexiTribo Figure 13. Film Thickness vs Cont
-act Force 21 000 rpm.png  used on input line 443.
+act Force 21 000 rpm.png  used on input line 436.
+(pdftex.def)             Requested size: 426.79134pt x 198.72237pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 436--437
+ [][] 
+ []
+
+<Graphics//FlexiTribo Figure 14. Film Thickness vs Contact Force 12 500 rpm.png
+, id=1860, 1445.4pt x 673.01437pt>
+File: Graphics//FlexiTribo Figure 14. Film Thickness vs Contact Force 12 500 rp
+m.png Graphic file (type png)
+<use Graphics//FlexiTribo Figure 14. Film Thickness vs Contact Force 12 500 rpm
+.png>
+Package pdftex.def Info: Graphics//FlexiTribo Figure 14. Film Thickness vs Cont
+act Force 12 500 rpm.png  used on input line 443.
 (pdftex.def)             Requested size: 426.79134pt x 198.72237pt.
 
 Overfull \hbox (11.38109pt too wide) in paragraph at lines 443--444
  [][] 
  []
 
-<Graphics//FlexiTribo Figure 14. Film Thickness vs Contact Force 12 500 rpm.png
-, id=484, 1445.4pt x 673.01437pt>
-File: Graphics//FlexiTribo Figure 14. Film Thickness vs Contact Force 12 500 rp
-m.png Graphic file (type png)
-<use Graphics//FlexiTribo Figure 14. Film Thickness vs Contact Force 12 500 rpm
-.png>
-Package pdftex.def Info: Graphics//FlexiTribo Figure 14. Film Thickness vs Cont
-act Force 12 500 rpm.png  used on input line 450.
-(pdftex.def)             Requested size: 426.79134pt x 198.72237pt.
+[92 <./Graphics//FlexiTribo Figure 12. Rolling Element Contact Stiffness - Dry 
+vs Lubricated Minimum Values.png (PNG copy)> <./Graphics//FlexiTribo Figure 13.
+ Film Thickness vs Contact Force 21 000 rpm.png (PNG copy)>] [93 <./Graphics//F
+lexiTribo Figure 14. Film Thickness vs Contact Force 12 500 rpm.png (PNG copy)>
+]) [94]
+\openout2 = `Chapters/05_Artificial_Neural_Networks_for_EHL_Film_Thickness_Pred
+ictions/ANN_Lubricated_Bearing_FMBD.aux'.
 
-Overfull \hbox (11.38109pt too wide) in paragraph at lines 450--451
+
+(Chapters/05_Artificial_Neural_Networks_for_EHL_Film_Thickness_Predictions/ANN_
+Lubricated_Bearing_FMBD.tex
+Chapter 5.
+[95
+
+
+
+
+] [96]
+<Graphics//AnalyticalvsNumerical_PercentageDiff.png, id=1904, 855.6768pt x 627.
+3036pt>
+File: Graphics//AnalyticalvsNumerical_PercentageDiff.png Graphic file (type png
+)
+<use Graphics//AnalyticalvsNumerical_PercentageDiff.png>
+Package pdftex.def Info: Graphics//AnalyticalvsNumerical_PercentageDiff.png  us
+ed on input line 33.
+(pdftex.def)             Requested size: 384.1122pt x 281.59483pt.
+ [97 <./Graphics//AnalyticalvsNumerical_PercentageDiff.png (PNG copy)>]
+<Graphics//ANN_schematic.png, id=1921, 862.72313pt x 575.14874pt>
+File: Graphics//ANN_schematic.png Graphic file (type png)
+<use Graphics//ANN_schematic.png>
+Package pdftex.def Info: Graphics//ANN_schematic.png  used on input line 54.
+(pdftex.def)             Requested size: 426.79134pt x 284.51959pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 54--55
  [][] 
  []
 
-[28 <./Graphics//FlexiTribo Figure 12. Rolling Element Contact Stiffness - Dry 
-vs Lubricated Minimum Values.png (PNG copy)> <./Graphics//FlexiTribo Figure 13.
- Film Thickness vs Contact Force 21 000 rpm.png (PNG copy)>] [29 <./Graphics//F
-lexiTribo Figure 14. Film Thickness vs Contact Force 12 500 rpm.png (PNG copy)>
+[98] [99 <./Graphics//ANN_schematic.png>] [100]
+<Graphics//ANN_structure_flowchart.png, id=1953, 2750.275pt x 4025.0375pt>
+File: Graphics//ANN_structure_flowchart.png Graphic file (type png)
+<use Graphics//ANN_structure_flowchart.png>
+Package pdftex.def Info: Graphics//ANN_structure_flowchart.png  used on input l
+ine 114.
+(pdftex.def)             Requested size: 298.75394pt x 437.22797pt.
+ [101] [102 <./Graphics//ANN_structure_flowchart.png>] [103]
+<Graphics//ANN_Explicit_MarianvsGreenwood.png, id=1995, 817.6146pt x 610.4406pt
+>
+File: Graphics//ANN_Explicit_MarianvsGreenwood.png Graphic file (type png)
+<use Graphics//ANN_Explicit_MarianvsGreenwood.png>
+Package pdftex.def Info: Graphics//ANN_Explicit_MarianvsGreenwood.png  used on 
+input line 151.
+(pdftex.def)             Requested size: 384.1122pt x 286.78603pt.
+ [104]
+<Graphics//EHL_Greenwood_Constraints_Flowchart.png, id=2008, 3166.83125pt x 487
+8.225pt>
+File: Graphics//EHL_Greenwood_Constraints_Flowchart.png Graphic file (type png)
+
+<use Graphics//EHL_Greenwood_Constraints_Flowchart.png>
+Package pdftex.def Info: Graphics//EHL_Greenwood_Constraints_Flowchart.png  use
+d on input line 176.
+(pdftex.def)             Requested size: 369.88582pt x 569.73027pt.
+ [105 <./Graphics//ANN_Explicit_MarianvsGreenwood.png (PNG copy)>]
+<Graphics//Training_Unconstrained_GreenwoodRegime.png, id=2016, 817.6146pt x 61
+0.4406pt>
+File: Graphics//Training_Unconstrained_GreenwoodRegime.png Graphic file (type p
+ng)
+<use Graphics//Training_Unconstrained_GreenwoodRegime.png>
+Package pdftex.def Info: Graphics//Training_Unconstrained_GreenwoodRegime.png  
+used on input line 217.
+(pdftex.def)             Requested size: 384.1122pt x 286.78603pt.
+ [106] [107 <./Graphics//EHL_Greenwood_Constraints_Flowchart.png>]
+<Graphics//ANN_Structure.png, id=2036, 992.95969pt x 523.9575pt>
+File: Graphics//ANN_Structure.png Graphic file (type png)
+<use Graphics//ANN_Structure.png>
+Package pdftex.def Info: Graphics//ANN_Structure.png  used on input line 238.
+(pdftex.def)             Requested size: 426.79134pt x 225.20938pt.
+
+Overfull \hbox (11.38109pt too wide) in paragraph at lines 238--239
+ [][] 
+ []
+
+[108 <./Graphics//Training_Unconstrained_GreenwoodRegime.png (PNG copy)>]
+[109 <./Graphics//ANN_Structure.png>] [110] [111] [112]
+<Graphics//Bearing_Input_Force_FMBD_20_1.15kN_contact_force_data.png, id=2095, 
+1228.59pt x 627.3036pt>
+File: Graphics//Bearing_Input_Force_FMBD_20_1.15kN_contact_force_data.png Graph
+ic file (type png)
+<use Graphics//Bearing_Input_Force_FMBD_20_1.15kN_contact_force_data.png>
+Package pdftex.def Info: Graphics//Bearing_Input_Force_FMBD_20_1.15kN_contact_f
+orce_data.png  used on input line 355.
+(pdftex.def)             Requested size: 415.41025pt x 212.10306pt.
+<Graphics//Greenwood_Bearing.png, id=2097, 817.6146pt x 610.4406pt>
+File: Graphics//Greenwood_Bearing.png Graphic file (type png)
+<use Graphics//Greenwood_Bearing.png>
+Package pdftex.def Info: Graphics//Greenwood_Bearing.png  used on input line 36
+4.
+(pdftex.def)             Requested size: 384.1122pt x 286.78603pt.
+ [113] [114 <./Graphics//Bearing_Input_Force_FMBD_20_1.15kN_contact_force_data.
+png (PNG copy)> <./Graphics//Greenwood_Bearing.png (PNG copy)>] [115]
+<Graphics//ANN_Explicit_ActFun_LogSig.jpg, id=2125, 756.9078pt x 117.8001pt>
+File: Graphics//ANN_Explicit_ActFun_LogSig.jpg Graphic file (type jpg)
+<use Graphics//ANN_Explicit_ActFun_LogSig.jpg>
+Package pdftex.def Info: Graphics//ANN_Explicit_ActFun_LogSig.jpg  used on inpu
+t line 400.
+(pdftex.def)             Requested size: 415.41025pt x 64.65363pt.
+ [116]
+<Graphics//ANN_Explicit_ActFun_Tanh.jpg, id=2130, 756.9078pt x 117.8001pt>
+File: Graphics//ANN_Explicit_ActFun_Tanh.jpg Graphic file (type jpg)
+<use Graphics//ANN_Explicit_ActFun_Tanh.jpg>
+Package pdftex.def Info: Graphics//ANN_Explicit_ActFun_Tanh.jpg  used on input 
+line 406.
+(pdftex.def)             Requested size: 415.41025pt x 64.65363pt.
+<Graphics//ANN_Explicit_ActFun_ReLU.jpg, id=2131, 756.9078pt x 117.8001pt>
+File: Graphics//ANN_Explicit_ActFun_ReLU.jpg Graphic file (type jpg)
+<use Graphics//ANN_Explicit_ActFun_ReLU.jpg>
+Package pdftex.def Info: Graphics//ANN_Explicit_ActFun_ReLU.jpg  used on input 
+line 412.
+(pdftex.def)             Requested size: 415.41025pt x 64.65363pt.
+<Graphics//ANN_Explicit_LogSig_600.jpg, id=2132, 756.9078pt x 117.8001pt>
+File: Graphics//ANN_Explicit_LogSig_600.jpg Graphic file (type jpg)
+<use Graphics//ANN_Explicit_LogSig_600.jpg>
+Package pdftex.def Info: Graphics//ANN_Explicit_LogSig_600.jpg  used on input l
+ine 418.
+(pdftex.def)             Requested size: 415.41025pt x 64.65363pt.
+<Graphics//ANN_Explicit_LogSig_1000.jpg, id=2133, 756.9078pt x 117.8001pt>
+File: Graphics//ANN_Explicit_LogSig_1000.jpg Graphic file (type jpg)
+<use Graphics//ANN_Explicit_LogSig_1000.jpg>
+Package pdftex.def Info: Graphics//ANN_Explicit_LogSig_1000.jpg  used on input 
+line 424.
+(pdftex.def)             Requested size: 415.41025pt x 64.65363pt.
+<Graphics//ANN_Explicit_LogSig_2000.jpg, id=2134, 756.9078pt x 117.8001pt>
+File: Graphics//ANN_Explicit_LogSig_2000.jpg Graphic file (type jpg)
+<use Graphics//ANN_Explicit_LogSig_2000.jpg>
+Package pdftex.def Info: Graphics//ANN_Explicit_LogSig_2000.jpg  used on input 
+line 430.
+(pdftex.def)             Requested size: 415.41025pt x 64.65363pt.
+ [117 <./Graphics//ANN_Explicit_ActFun_LogSig.jpg> <./Graphics//ANN_Explicit_Ac
+tFun_Tanh.jpg> <./Graphics//ANN_Explicit_ActFun_ReLU.jpg> <./Graphics//ANN_Expl
+icit_LogSig_600.jpg> <./Graphics//ANN_Explicit_LogSig_1000.jpg>]
+<Graphics//ANN_Explicit_LogSig_5000.jpg, id=2139, 756.9078pt x 117.8001pt>
+File: Graphics//ANN_Explicit_LogSig_5000.jpg Graphic file (type jpg)
+<use Graphics//ANN_Explicit_LogSig_5000.jpg>
+Package pdftex.def Info: Graphics//ANN_Explicit_LogSig_5000.jpg  used on input 
+line 436.
+(pdftex.def)             Requested size: 415.41025pt x 64.65363pt.
+<Graphics//ANN_Explicit_600_Rval.png, id=2140, 528.0528pt x 520.8258pt>
+File: Graphics//ANN_Explicit_600_Rval.png Graphic file (type png)
+<use Graphics//ANN_Explicit_600_Rval.png>
+Package pdftex.def Info: Graphics//ANN_Explicit_600_Rval.png  used on input lin
+e 443.
+(pdftex.def)             Requested size: 203.5533pt x 200.76888pt.
+<Graphics//ANN_Explicit_1000_Rval.png, id=2141, 529.0164pt x 520.8258pt>
+File: Graphics//ANN_Explicit_1000_Rval.png Graphic file (type png)
+<use Graphics//ANN_Explicit_1000_Rval.png>
+Package pdftex.def Info: Graphics//ANN_Explicit_1000_Rval.png  used on input li
+ne 450.
+(pdftex.def)             Requested size: 203.5533pt x 200.40332pt.
+<Graphics//ANN_Explicit_2000_Rval.png, id=2142, 528.0528pt x 520.8258pt>
+File: Graphics//ANN_Explicit_2000_Rval.png Graphic file (type png)
+<use Graphics//ANN_Explicit_2000_Rval.png>
+Package pdftex.def Info: Graphics//ANN_Explicit_2000_Rval.png  used on input li
+ne 457.
+(pdftex.def)             Requested size: 203.5533pt x 200.76888pt.
+<Graphics//ANN_Explicit_5000_Rval.png, id=2143, 528.0528pt x 520.8258pt>
+File: Graphics//ANN_Explicit_5000_Rval.png Graphic file (type png)
+<use Graphics//ANN_Explicit_5000_Rval.png>
+Package pdftex.def Info: Graphics//ANN_Explicit_5000_Rval.png  used on input li
+ne 464.
+(pdftex.def)             Requested size: 203.5533pt x 200.76888pt.
+ [118 <./Graphics//ANN_Explicit_LogSig_2000.jpg> <./Graphics//ANN_Explicit_LogS
+ig_5000.jpg>]
+<Graphics//Bearing_Test_Data_FMBD_20_1.15kN.png, id=2150, 1217.0268pt x 628.267
+2pt>
+File: Graphics//Bearing_Test_Data_FMBD_20_1.15kN.png Graphic file (type png)
+<use Graphics//Bearing_Test_Data_FMBD_20_1.15kN.png>
+Package pdftex.def Info: Graphics//Bearing_Test_Data_FMBD_20_1.15kN.png  used o
+n input line 481.
+(pdftex.def)             Requested size: 398.33858pt x 205.63199pt.
+ [119 <./Graphics//ANN_Explicit_600_Rval.png (PNG copy)> <./Graphics//ANN_Expli
+cit_1000_Rval.png (PNG copy)> <./Graphics//ANN_Explicit_2000_Rval.png (PNG copy
+)> <./Graphics//ANN_Explicit_5000_Rval.png (PNG copy)>]
+<Graphics//ANNvsAnalyticalvsNumerical_Speedsweep.png, id=2164, 820.5054pt x 627
+.3036pt>
+File: Graphics//ANNvsAnalyticalvsNumerical_Speedsweep.png Graphic file (type pn
+g)
+<use Graphics//ANNvsAnalyticalvsNumerical_Speedsweep.png>
+Package pdftex.def Info: Graphics//ANNvsAnalyticalvsNumerical_Speedsweep.png  u
+sed on input line 506.
+(pdftex.def)             Requested size: 384.1122pt x 293.66496pt.
+ [120 <./Graphics//Bearing_Test_Data_FMBD_20_1.15kN.png (PNG copy)>]
+<Graphics//film_thickness_vs_shaft_sweep_ann_vs_analytical.png, id=2172, 550.69
+74pt x 627.3036pt>
+File: Graphics//film_thickness_vs_shaft_sweep_ann_vs_analytical.png Graphic fil
+e (type png)
+<use Graphics//film_thickness_vs_shaft_sweep_ann_vs_analytical.png>
+Package pdftex.def Info: Graphics//film_thickness_vs_shaft_sweep_ann_vs_analyti
+cal.png  used on input line 517.
+(pdftex.def)             Requested size: 270.30118pt x 307.89833pt.
+
+Overfull \hbox (3.7884pt too wide) in paragraph at lines 529--529
+ []|[]| 
+ []
+
+<Graphics//CPU_time_vs_shaft_angular_ANN_implicit.png, id=2175, 581.5326pt x 62
+7.3036pt>
+File: Graphics//CPU_time_vs_shaft_angular_ANN_implicit.png Graphic file (type p
+ng)
+<use Graphics//CPU_time_vs_shaft_angular_ANN_implicit.png>
+Package pdftex.def Info: Graphics//CPU_time_vs_shaft_angular_ANN_implicit.png  
+used on input line 548.
+(pdftex.def)             Requested size: 270.30118pt x 291.58786pt.
+[121 <./Graphics//ANNvsAnalyticalvsNumerical_Speedsweep.png (PNG copy)>]
+[122 <./Graphics//film_thickness_vs_shaft_sweep_ann_vs_analytical.png (PNG copy
+)>]
+Overfull \hbox (3.7884pt too wide) in paragraph at lines 560--560
+ []|[]| 
+ []
+
+
+Overfull \hbox (22.01566pt too wide) in paragraph at lines 558--576
+ [][] 
+ []
+
+[123 <./Graphics//CPU_time_vs_shaft_angular_ANN_implicit.png (PNG copy)>]
+[124]) [125]
+\openout2 = `Chapters/06_Conclusions/Conclusions.aux'.
+
+ (Chapters/06_Conclusions/Conclusions.tex [126
+
+
+
+
 ]
-
-LaTeX Warning: Reference `Investigating the Effect of Lubrication on the Tribod
-ynamic Behaviour of High-Speed Roller Bearings' on page 30 undefined on input l
-ine 470.
+Chapter 6.
+[127] [128] [129] [130] [131]) [132] (Master.bbl [133
 
 
-LaTeX Warning: Reference `Numerical vs analytical experimental' on page 30 unde
-fined on input line 470.
+
+]
+Underfull \hbox (badness 1616) in paragraph at lines 110--113
+\T1/ptm/m/n/12 (+20) geschmierten um-laufenden achspar-al-le-len zylin-dern,'' 
+\T1/ptm/m/it/12 (+20) Maschinenelemente-
+ []
 
 
-LaTeX Warning: Reference `ANN Lubricated Bearing FMBD' on page 30 undefined on 
-input line 470.
+Underfull \hbox (badness 1205) in paragraph at lines 135--138
+[]\T1/ptm/m/n/12 (+20) D. Dow-son and G. R. Hig-gin-son, ``A nu-mer-i-cal so-lu
+-tion to the elasto-
+ []
+
+[134] [135] [136] [137] [138] [139]
+Underfull \hbox (badness 10000) in paragraph at lines 474--480
+\T1/ptm/m/n/12 (+20) article / 101 / 3 / 305 / 410221 / Dynamics-[]of-[]Rolling
+Element-[]BearingsPart-[]IIhttps :
+ []
 
 
-LaTeX Warning: Reference `EHL_NumericalvsAnalytical_25000' on page 30 undefined
- on input line 470.
+Underfull \hbox (badness 10000) in paragraph at lines 474--480
+\T1/ptm/m/n/12 (+20) / / asmedigitalcollection . asme . org / tribology / artic
+le / 101 / 3 / 293 / 410262 /
+ []
 
-) [30]
+[140] [141] [142] [143] [144] [145] [146] [147])
 
-Package natbib Warning: There were undefined citations.
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribo-Dynamic Analysis of High-Spee
+d Roller Bearings for Electrified Vehicle Powertrains.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified Ve
+hicle Powertrains.pdf, id=2394, 597.50829pt x 796.67737pt>
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf  used on input line 76.
+(pdftex.def)             Requested size: 597.50682pt x 796.67543pt.
 
-(Master.aux (Abstract/abstract.aux) (Acknowledgement/acknowledgement.aux)
-(Nomenclature/nomenclature_new.aux) (Nomenclature/list_of_abbreviations.aux)
-(Publications/Publications.aux) (Chapters/01_Introduction/Introduction.aux)
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribo-Dynamic Analysis of High-Spee
+d Roller Bearings for Electrified Vehicle Powertrains.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribo-Dynamic Analysis of High-Spee
+d Roller Bearings for Electrified Vehicle Powertrains.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified Ve
+hicle Powertrains.pdf, id=2396, page=1, 597.50829pt x 796.67737pt>
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 1>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page1 used on input line 76.
+(pdftex.def)             Requested size: 597.50682pt x 796.67543pt.
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 1>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page1 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+[148]
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 1>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page1 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 1>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page1 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 1>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page1 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+ [149
+
+ <./Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified
+ Vehicle Powertrains.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribo-Dynamic Analysis of High-Spee
+d Roller Bearings for Electrified Vehicle Powertrains.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified Ve
+hicle Powertrains.pdf, id=2453, page=2, 597.50829pt x 796.67737pt>
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 2>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page2 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 2>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page2 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 2>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page2 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+[150
+
+ <./Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified
+ Vehicle Powertrains.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribo-Dynamic Analysis of High-Spee
+d Roller Bearings for Electrified Vehicle Powertrains.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified Ve
+hicle Powertrains.pdf, id=2477, page=3, 597.50829pt x 796.67737pt>
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 3>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page3 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 3>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page3 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 3>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page3 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+[151
+
+ <./Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified
+ Vehicle Powertrains.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribo-Dynamic Analysis of High-Spee
+d Roller Bearings for Electrified Vehicle Powertrains.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified Ve
+hicle Powertrains.pdf, id=2492, page=4, 597.50829pt x 796.67737pt>
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 4>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page4 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 4>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page4 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 4>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page4 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+[152
+
+ <./Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified
+ Vehicle Powertrains.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribo-Dynamic Analysis of High-Spee
+d Roller Bearings for Electrified Vehicle Powertrains.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified Ve
+hicle Powertrains.pdf, id=2510, page=5, 597.50829pt x 796.67737pt>
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 5>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page5 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 5>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page5 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 5>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page5 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+[153
+
+ <./Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified
+ Vehicle Powertrains.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribo-Dynamic Analysis of High-Spee
+d Roller Bearings for Electrified Vehicle Powertrains.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified Ve
+hicle Powertrains.pdf, id=2527, page=6, 597.50829pt x 796.67737pt>
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 6>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page6 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 6>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page6 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 6>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page6 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+[154
+
+ <./Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified
+ Vehicle Powertrains.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribo-Dynamic Analysis of High-Spee
+d Roller Bearings for Electrified Vehicle Powertrains.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified Ve
+hicle Powertrains.pdf, id=2533, page=7, 597.50829pt x 796.67737pt>
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 7>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page7 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 7>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page7 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 7>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page7 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+[155
+
+ <./Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified
+ Vehicle Powertrains.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribo-Dynamic Analysis of High-Spee
+d Roller Bearings for Electrified Vehicle Powertrains.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified Ve
+hicle Powertrains.pdf, id=2540, page=8, 597.50829pt x 796.67737pt>
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 8>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page8 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 8>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page8 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 8>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page8 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+[156
+
+ <./Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified
+ Vehicle Powertrains.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribo-Dynamic Analysis of High-Spee
+d Roller Bearings for Electrified Vehicle Powertrains.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified Ve
+hicle Powertrains.pdf, id=2552, page=9, 597.50829pt x 796.67737pt>
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 9>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page9 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 9>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page9 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 9>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page9 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+[157
+
+ <./Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified
+ Vehicle Powertrains.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribo-Dynamic Analysis of High-Spee
+d Roller Bearings for Electrified Vehicle Powertrains.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified Ve
+hicle Powertrains.pdf, id=2576, page=10, 597.50829pt x 796.67737pt>
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 10>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page10 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 10>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page10 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 10>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page10 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+[158
+
+ <./Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified
+ Vehicle Powertrains.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribo-Dynamic Analysis of High-Spee
+d Roller Bearings for Electrified Vehicle Powertrains.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified Ve
+hicle Powertrains.pdf, id=2588, page=11, 597.50829pt x 796.67737pt>
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 11>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page11 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 11>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page11 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 11>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page11 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+[159
+
+ <./Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified
+ Vehicle Powertrains.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribo-Dynamic Analysis of High-Spee
+d Roller Bearings for Electrified Vehicle Powertrains.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified Ve
+hicle Powertrains.pdf, id=2600, page=12, 597.50829pt x 796.67737pt>
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 12>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page12 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 12>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page12 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+File: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifi
+ed Vehicle Powertrains.pdf Graphic file (type pdf)
+<use Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrifie
+d Vehicle Powertrains.pdf, page 12>
+Package pdftex.def Info: Papers/Tribo-Dynamic Analysis of High-Speed Roller Bea
+rings for Electrified Vehicle Powertrains.pdf , page12 used on input line 76.
+(pdftex.def)             Requested size: 598.00826pt x 797.34402pt.
+[160
+
+ <./Papers/Tribo-Dynamic Analysis of High-Speed Roller Bearings for Electrified
+ Vehicle Powertrains.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
+d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
+rsion <1.5> allowed
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2611, 597
+.50829pt x 845.0471pt>
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf  used on input line 77.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
+d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
+rsion <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
+d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
+rsion <1.5> allowed
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2613, pag
+e=1, 597.50829pt x 845.0471pt>
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 1>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page1 used on input line 77.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 1>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page1 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 1>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page1 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 1>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page1 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 1>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page1 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[161
+
+ <./Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
+d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
+rsion <1.5> allowed
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2672, pag
+e=2, 597.50829pt x 845.0471pt>
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 2>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page2 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 2>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page2 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 2>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page2 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[162
+
+ <./Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
+d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
+rsion <1.5> allowed
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2682, pag
+e=3, 597.50829pt x 845.0471pt>
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 3>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page3 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 3>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page3 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 3>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page3 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[163
+
+ <./Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
+d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
+rsion <1.5> allowed
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2720, pag
+e=4, 597.50829pt x 845.0471pt>
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 4>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page4 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 4>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page4 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 4>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page4 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[164
+
+ <./Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
+d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
+rsion <1.5> allowed
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2778, pag
+e=5, 597.50829pt x 845.0471pt>
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 5>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page5 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 5>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page5 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 5>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page5 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[165
+
+ <./Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
+d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
+rsion <1.5> allowed
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2788, pag
+e=6, 597.50829pt x 845.0471pt>
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 6>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page6 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 6>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page6 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 6>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page6 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[166
+
+ <./Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
+d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
+rsion <1.5> allowed
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2857, pag
+e=7, 597.50829pt x 845.0471pt>
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 7>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page7 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 7>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page7 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 7>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page7 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[167
+
+ <./Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
+d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
+rsion <1.5> allowed
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2863, pag
+e=8, 597.50829pt x 845.0471pt>
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 8>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page8 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 8>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page8 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 8>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page8 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[168
+
+ <./Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
+d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
+rsion <1.5> allowed
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2909, pag
+e=9, 597.50829pt x 845.0471pt>
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 9>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page9 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 9>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page9 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 9>
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page9 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[169
+
+ <./Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
+d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
+rsion <1.5> allowed
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2914, pag
+e=10, 597.50829pt x 845.0471pt>
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 10>
+
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page10 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 10>
+
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page10 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 10>
+
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page10 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[170
+
+ <./Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
+d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
+rsion <1.5> allowed
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2946, pag
+e=11, 597.50829pt x 845.0471pt>
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 11>
+
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page11 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 11>
+
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page11 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 11>
+
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page11 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[171
+
+ <./Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
+d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
+rsion <1.5> allowed
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=2984, pag
+e=12, 597.50829pt x 845.0471pt>
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 12>
+
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page12 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 12>
+
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page12 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 12>
+
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page12 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[172
+
+ <./Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
+d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
+rsion <1.5> allowed
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=3040, pag
+e=13, 597.50829pt x 845.0471pt>
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 13>
+
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page13 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 13>
+
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page13 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 13>
+
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page13 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[173
+
+ <./Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
+d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
+rsion <1.5> allowed
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=3095, pag
+e=14, 597.50829pt x 845.0471pt>
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 14>
+
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page14 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 14>
+
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page14 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 14>
+
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page14 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[174
+
+ <./Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
+d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
+rsion <1.5> allowed
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=3150, pag
+e=15, 597.50829pt x 845.0471pt>
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 15>
+
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page15 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 15>
+
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page15 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 15>
+
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page15 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[175
+
+ <./Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
+d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
+rsion <1.5> allowed
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=3181, pag
+e=16, 597.50829pt x 845.0471pt>
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 16>
+
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page16 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 16>
+
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page16 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 16>
+
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page16 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[176
+
+ <./Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
+d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
+rsion <1.5> allowed
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=3186, pag
+e=17, 597.50829pt x 845.0471pt>
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 17>
+
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page17 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 17>
+
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page17 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 17>
+
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page17 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[177
+
+ <./Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Papers/Tribodynamic Modelling of High-Spee
+d Rolling Elements.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
+rsion <1.5> allowed
+<Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, id=3196, pag
+e=18, 597.50829pt x 845.0471pt>
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 18>
+
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page18 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 18>
+
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page18 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf Graphic 
+file (type pdf)
+<use Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf, page 18>
+
+Package pdftex.def Info: Papers/Tribodynamic Modelling of High-Speed Rolling El
+ements.pdf , page18 used on input line 77.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[178
+
+ <./Papers/Tribodynamic Modelling of High-Speed Rolling Elements.pdf>]
+<Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
+nts.pdf, id=3201, 597.50829pt x 793.83177pt>
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf  used on input line 78.
+(pdftex.def)             Requested size: 597.50682pt x 793.82983pt.
+<Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
+nts.pdf, id=3203, page=1, 597.50829pt x 793.83177pt>
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 1>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page1 used on input line 78.
+(pdftex.def)             Requested size: 597.50682pt x 793.82983pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 1>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page1 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 1>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page1 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 1>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page1 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 1>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page1 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+
+[179
+
+ <./Papers/Application of Tribological Artificial Neural Networks in Machine El
+ements.pdf>]
+<Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
+nts.pdf, id=3395, page=2, 597.50829pt x 793.83177pt>
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 2>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page2 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 2>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page2 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 2>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page2 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+ [180
+
+ <./Papers/Application of Tribological Artificial Neural Networks in Machine El
+ements.pdf>]
+<Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
+nts.pdf, id=3412, page=3, 597.50829pt x 793.83177pt>
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 3>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page3 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 3>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page3 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 3>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page3 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+ [181
+
+ <./Papers/Application of Tribological Artificial Neural Networks in Machine El
+ements.pdf>]
+<Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
+nts.pdf, id=3421, page=4, 597.50829pt x 793.83177pt>
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 4>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page4 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 4>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page4 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 4>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page4 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+ [182
+
+ <./Papers/Application of Tribological Artificial Neural Networks in Machine El
+ements.pdf>]
+<Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
+nts.pdf, id=3662, page=5, 597.50829pt x 793.83177pt>
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 5>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page5 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 5>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page5 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 5>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page5 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+ [183
+
+ <./Papers/Application of Tribological Artificial Neural Networks in Machine El
+ements.pdf>]
+<Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
+nts.pdf, id=3862, page=6, 597.50829pt x 793.83177pt>
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 6>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page6 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 6>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page6 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 6>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page6 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+ [184
+
+ <./Papers/Application of Tribological Artificial Neural Networks in Machine El
+ements.pdf>]
+<Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
+nts.pdf, id=4032, page=7, 597.50829pt x 793.83177pt>
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 7>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page7 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 7>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page7 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 7>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page7 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+ [185
+
+ <./Papers/Application of Tribological Artificial Neural Networks in Machine El
+ements.pdf>]
+<Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
+nts.pdf, id=4146, page=8, 597.50829pt x 793.83177pt>
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 8>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page8 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 8>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page8 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 8>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page8 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+ [186
+
+ <./Papers/Application of Tribological Artificial Neural Networks in Machine El
+ements.pdf>]
+<Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
+nts.pdf, id=4172, page=9, 597.50829pt x 793.83177pt>
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 9>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page9 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 9>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page9 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 9>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page9 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+ [187
+
+ <./Papers/Application of Tribological Artificial Neural Networks in Machine El
+ements.pdf>]
+<Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
+nts.pdf, id=4241, page=10, 597.50829pt x 793.83177pt>
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 10>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page10 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 10>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page10 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 10>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page10 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+
+[188
+
+ <./Papers/Application of Tribological Artificial Neural Networks in Machine El
+ements.pdf>]
+<Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
+nts.pdf, id=4373, page=11, 597.50829pt x 793.83177pt>
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 11>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page11 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 11>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page11 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 11>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page11 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+ [189
+
+ <./Papers/Application of Tribological Artificial Neural Networks in Machine El
+ements.pdf>]
+<Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
+nts.pdf, id=4448, page=12, 597.50829pt x 793.83177pt>
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 12>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page12 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 12>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page12 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 12>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page12 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+ [190
+
+ <./Papers/Application of Tribological Artificial Neural Networks in Machine El
+ements.pdf>]
+<Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
+nts.pdf, id=4496, page=13, 597.50829pt x 793.83177pt>
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 13>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page13 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 13>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page13 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 13>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page13 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+ [191
+
+ <./Papers/Application of Tribological Artificial Neural Networks in Machine El
+ements.pdf>]
+<Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
+nts.pdf, id=4534, page=14, 597.50829pt x 793.83177pt>
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 14>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page14 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 14>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page14 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 14>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page14 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+ [192
+
+ <./Papers/Application of Tribological Artificial Neural Networks in Machine El
+ements.pdf>]
+<Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
+nts.pdf, id=4588, page=15, 597.50829pt x 793.83177pt>
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 15>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page15 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 15>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page15 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 15>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page15 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+ [193
+
+ <./Papers/Application of Tribological Artificial Neural Networks in Machine El
+ements.pdf>]
+<Papers/Application of Tribological Artificial Neural Networks in Machine Eleme
+nts.pdf, id=4594, page=16, 597.50829pt x 793.83177pt>
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 16>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page16 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 16>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page16 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+File: Papers/Application of Tribological Artificial Neural Networks in Machine 
+Elements.pdf Graphic file (type pdf)
+<use Papers/Application of Tribological Artificial Neural Networks in Machine E
+lements.pdf, page 16>
+Package pdftex.def Info: Papers/Application of Tribological Artificial Neural N
+etworks in Machine Elements.pdf , page16 used on input line 78.
+(pdftex.def)             Requested size: 598.00826pt x 794.49603pt.
+ [194
+
+ <./Papers/Application of Tribological Artificial Neural Networks in Machine El
+ements.pdf>] (Master.aux (Abstract/abstract.aux)
+(Acknowledgement/acknowledgement.aux) (Nomenclature/nomenclature_new.aux)
+(Nomenclature/list_of_abbreviations.aux) (Publications/Publications.aux)
+(Chapters/01_Introduction/Introduction.aux)
+(Chapters/02_Literature_Review/Literature_Review.aux)
+(Chapters/03_Investigating_the_Effect_of_Lubrication_on_the_Tribodynamic_Behavi
+our_of_High-Speed_Roller_Bearings/Experimental_and_Numerical_Tribodynamics.aux)
+
 (Chapters/04_Modelling_Lubricated_Bearings_in_a_Flexible_Multi-Body_Dynamic_Env
-ironment/Lubricated_FMBD.aux))
+ironment/Lubricated_FMBD.aux)
+(Chapters/05_Artificial_Neural_Networks_for_EHL_Film_Thickness_Predictions/ANN_
+Lubricated_Bearing_FMBD.aux) (Chapters/06_Conclusions/Conclusions.aux))
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `Master.out' has not changed.
-(rerunfilecheck)             Checksum: BED6EAEFA74EB490CEA7BE165D31FDDB;3848.
+(rerunfilecheck)             Checksum: CDC7C382C247F4E6CF62AABE314B5807;20808.
  ) 
 Here is how much of TeX's memory you used:
- 24800 strings out of 478614
- 485861 string characters out of 2843594
- 864300 words of memory out of 3000000
- 42019 multiletter control sequences out of 15000+600000
- 522278 words of font info for 251 fonts, out of 8000000 for 9000
+ 27234 strings out of 478614
+ 563836 string characters out of 2843594
+ 886817 words of memory out of 3000000
+ 43478 multiletter control sequences out of 15000+600000
+ 558268 words of font info for 422 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,12n,120p,1483b,936s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 125i,17n,120p,1829b,1223s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/wshq/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/
 Users/wshq/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.
 pfb><C:/Users/wshq/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmmi10.pfb><C:/Users/wshq/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmr10.pfb><C:/Users/wshq/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmsy10.pfb><C:/Users/wshq/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/urw/symbol/usyr.pfb><C:/Users/wshq/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/urw/symbol/usyr.pfb><C:/Users/wshq/AppData/Local/Programs/MiKTeX/fonts/type1
-/urw/times/utmb8a.pfb><C:/Users/wshq/AppData/Local/Programs/MiKTeX/fonts/type1/
-urw/times/utmr8a.pfb><C:/Users/wshq/AppData/Local/Programs/MiKTeX/fonts/type1/u
-rw/times/utmri8a.pfb>
-Output written on Master.pdf (52 pages, 6128097 bytes).
+ype1/public/amsfonts/euler/eurm10.pfb><C:/Users/wshq/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/wshq/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/wshq/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/wshq/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/wshq/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/wshq/
+AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb><C:/Users/ws
+hq/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/wshq
+/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/wshq/A
+ppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/wshq/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/wshq/App
+Data/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Master.pdf (220 pages, 49845797 bytes).
 PDF statistics:
- 578 PDF objects out of 1000 (max. 8388607)
- 168 named destinations out of 1000 (max. 500000)
- 52997 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 4817 PDF objects out of 5155 (max. 8388607)
+ 817 named destinations out of 1000 (max. 500000)
+ 88438 words of extra memory for PDF output out of 89155 (max. 10000000)
 

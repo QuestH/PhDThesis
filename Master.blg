@@ -15,13 +15,28 @@ Reallocating 'name_of_file' (item size: 1) to 30 items.
 A level-1 auxiliary file: Publications/Publications.aux
 Reallocating 'name_of_file' (item size: 1) to 42 items.
 A level-1 auxiliary file: Chapters/01_Introduction/Introduction.aux
+Reallocating 'name_of_file' (item size: 1) to 52 items.
+A level-1 auxiliary file: Chapters/02_Literature_Review/Literature_Review.aux
+Reallocating 'name_of_file' (item size: 1) to 157 items.
+A level-1 auxiliary file: Chapters/03_Investigating_the_Effect_of_Lubrication_on_the_Tribodynamic_Behaviour_of_High-Speed_Roller_Bearings/Experimental_and_Numerical_Tribodynamics.aux
+Reallocating 'name_of_file' (item size: 1) to 107 items.
+A level-1 auxiliary file: Chapters/04_Modelling_Lubricated_Bearings_in_a_Flexible_Multi-Body_Dynamic_Environment/Lubricated_FMBD.aux
+Reallocating 'name_of_file' (item size: 1) to 106 items.
+A level-1 auxiliary file: Chapters/05_Artificial_Neural_Networks_for_EHL_Film_Thickness_Predictions/ANN_Lubricated_Bearing_FMBD.aux
+Reallocating 'name_of_file' (item size: 1) to 40 items.
+A level-1 auxiliary file: Chapters/06_Conclusions/Conclusions.aux
 Reallocating 'name_of_file' (item size: 1) to 23 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'field_info' (item size: 4) to 12200 items.
 Database file #1: Literature/library.bib
+Repeated entry---line 4740 of file Literature/library.bib
+ : @techreport{Wilson1983
+ :                       ,
+I'm skipping whatever remains of this entry
 -- IEEEtranN.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -29,46 +44,57 @@ Database file #1: Literature/library.bib
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Warning--edition ordinal word "Book No. 3" may be too high (or improper) for conversion in Grubin1949
+Warning--missing school in Gonda2024
+Warning--missing institution in Cheng1965b
+Warning--missing institution in Wilson1983
+Warning--missing school in Dietl1997
+Warning--missing school in Rahnejat1984
+Warning--missing school in Roelands1966
+Warning--empty journal in Houpert1984
+Warning--missing institution in Johnson1990
+Warning--missing publisher in Han1995
 
 Done.
-You've used 2 entries,
+You've used 160 entries,
             4783 wiz_defined-function locations,
-            957 strings with 8713 characters,
-and the built_in function-call counts, 1878 in all, are:
-= -- 154
-> -- 61
-< -- 12
-+ -- 29
-- -- 14
-* -- 117
-:= -- 306
-add.period$ -- 4
-call.type$ -- 2
-change.case$ -- 4
-chr.to.int$ -- 26
-cite$ -- 2
-duplicate$ -- 115
-empty$ -- 122
-format.name$ -- 20
-if$ -- 396
-int.to.chr$ -- 1
-int.to.str$ -- 3
-missing$ -- 20
-newline$ -- 32
-num.names$ -- 6
-pop$ -- 54
+            2029 strings with 39411 characters,
+and the built_in function-call counts, 136324 in all, are:
+= -- 12673
+> -- 3470
+< -- 1088
++ -- 1856
+- -- 722
+* -- 7107
+:= -- 21322
+add.period$ -- 320
+call.type$ -- 160
+change.case$ -- 314
+chr.to.int$ -- 2395
+cite$ -- 170
+duplicate$ -- 9176
+empty$ -- 9576
+format.name$ -- 1103
+if$ -- 30688
+int.to.chr$ -- 4
+int.to.str$ -- 161
+missing$ -- 1273
+newline$ -- 622
+num.names$ -- 480
+pop$ -- 3109
 preamble$ -- 1
-purify$ -- 2
-quote$ -- 2
-skip$ -- 127
+purify$ -- 160
+quote$ -- 4
+skip$ -- 10454
 stack$ -- 0
-substring$ -- 60
-swap$ -- 88
-text.length$ -- 3
+substring$ -- 5685
+swap$ -- 6957
+text.length$ -- 232
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 31
-warning$ -- 0
-while$ -- 10
+type$ -- 2363
+warning$ -- 10
+while$ -- 659
 width$ -- 0
-write$ -- 48
+write$ -- 2004
+(There was 1 error message)

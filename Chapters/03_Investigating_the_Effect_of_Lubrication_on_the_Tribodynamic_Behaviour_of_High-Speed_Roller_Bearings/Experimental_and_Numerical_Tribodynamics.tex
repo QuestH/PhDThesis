@@ -5,13 +5,20 @@
 
 A review of the literature revealed that a comprehensive understanding of bearing performance in modern electrified powertrains requires a multi-physics approach comprising dynamics and tribology at high speeds. The working conditions for the tribological contacts between rollers and races are affected by the dynamic behaviour of the bearing. The dynamic behaviour itself is affected by the tribological phenomena at the lubricated conjunctions via its influence on the contact stiffness \cite{Nonato2014} \cite{Bizarre2018}. Therefore, a coupled tribodynamic methodology must be established for more accurately capturing the system’s behaviour.
 
-To determine the contact conditions within bearings, the relative motion between the bearing races must first be established. Traditionally, this motion is derived from dynamic models by solving the equations of motion. However, these can be computationally intensive and often lack required physics such as system flexibility. 
+This chapter presents a high-speed experimental test rig which has been instrumented to experimentally measure the kinematic motion of a bearing at rotational speeds up to 15~000~$rpm$ (equating to an $nD_m$ of 5.78$~\times~10^{5}$~$mm/min$) and a radial load of 750~$N$. This motion was used as the boundary condition for tribological modelling. Roller-race contact load and film thickness are obtained using a lubricated contact model, whereby the EHL film is considered implicitly at the roller-race conjunction. EHL pressure and film thickness distributions are then obtained using an explicit 1D numerical EHL model. Fundamental equations used in the subsequent chapters are also introduced.
 
-This chapter presents a high-speed experimental test rig which has been instrumented to experimentally measure the kinematic motion of a bearing at rotational speeds up to 15~000~$rpm$ (equating to an $nD_m$ of 5.78$~\times~10^{5}$~$mm/min$) and a radial load of 750~$N$. This motion was used as the boundary conditions for tribological modelling. Roller-race contact load and film thickness are obtained using a lubricated contact model, whereby the EHL film is considered implicitly at the roller-race conjunction. EHL pressure and film thickness distributions are then obtained using an explicit 1D numerical EHL model. Fundamental equations used in the subsequent chapters are also introduced.
+\subsection{Chapter Contributions}
 
-This initial work was performed to ascertain which models must be developed in the tribology domain without the requirement for a complex flexible dynamic model. The necessity of implicit inclusion of the EHL film when considering roller bearing dynamics at high-speed, and the shortcoming of conventional dry analyses at these speeds and loading conditions is established.
+The influence of EHL film formation on contact load, deflection, and stiffness in rolling element bearings is not widely investigated in literature for the high-speed, low-load operating conditions characteristic of modern electrified powertrains. Before assessing the system-level implications of this behaviour, the extent of the film contribution to contact mechanics must first be quantified.
 
-\section{Workflow}
+This chapter addresses these limitations through the following contributions:
+\begin{enumerate}
+	\item Design and manufacture of a high-speed bearing test capable of resolving kinematic bearing motion under operating conditions representative of electrified powertrains. This negates the requirement for system level dynamic modelling in the investigative stages, whilst providing realistic bearing orbital motion for the loading conditions under investigation.
+	\item Development of a coupled experimental-tribological modelling framework in which the bearing kinematics from the test rig are used as boundary conditions for a lubricated bearing model. Such direct coupling of high‑speed kinematic measurements with EHL-based contact analysis has not previously been reported at these operating conditions.
+	\item Quantify the influence of the implicitly modelled EHL film on roller-race contact load, deflection, and stiffness, and demonstrate the limitations of conventional dry analyses in the high-speed regime.
+\end{enumerate}
+
+\section{Methodology}
 
 An experimental test rig is used to measure the relative displacement between the inner and outer races of a cylindrical roller bearing (CRB). At each instantaneous position of a roller's orbit, the Hertzian load-deflection relationship in conjunction with the EHL central film thickness is used to determine the roller-race contact load. Experiments are performed across a speed range from 0~–~15~000~$rpm$. To implicitly consider the EHL film, an analytical tribological model is iterated to account for tribodynamic coupling between film thickness, contact deflection and load. After the experimentally informed tribological model is solved, load and speed values at specific rotational velocities are used within an explicit numerical EHL model to calculate film thickness and pressure distribution across the contact. The flow diagram in Figure \ref{Experimental Tribodynamics Methodology Overview} illustrates the methodology used. Interactions between each stage are explained in subsequent sections.
 
@@ -46,7 +53,14 @@ Figure \ref{Mutual separation and convergence of inner and outer races} presents
 
 \subsection{Lubricated Contact Mechanics}
 
-To calculate contact force based on deflection between the roller and race, the Hertzian load-deflection relationship is used. For low-speed, highly loaded analysis, the EHL film is typically neglected and the contact is considered dry. However, at high entrainment velocities, the literature study revealed that the EHL film also influences this contact force. The lubricant imposes additional deformation at the contact points which, changes the calculated force. Figure \ref{Dry vs lubricated roller-race contact} in Chapter \ref{Lubricated FMBD} demonstrates this graphically. 
+To calculate contact force based on deflection between the roller and race, the Hertzian load-deflection relationship is used. For low-speed, highly loaded analysis, the EHL film is typically neglected and the contact is considered dry. However, at high entrainment velocities, the literature study revealed that the EHL film also influences this contact force. The lubricant imposes additional deformation at the contact points which, changes the calculated force. Figure \ref{Dry vs lubricated roller-race contact} demonstrates this graphically. 
+
+\begin{figure}
+	\centering  
+	\includegraphics[width=150mm]{FlexiTribo Figure 4. Dry vs Lubricated Roller-Race Contact.png}
+	\caption{Dry vs lubricated roller-race contact.}
+	\label{Dry vs lubricated roller-race contact}
+\end{figure} 
 
 In this study, the central film thickness at the roller-race conjunction is calculated using an extrapolated central film thickness formula. The impact of the film on deflection, and consequently contact force, is evaluated using an iterative approach due to the interdependence between contact load and film thickness. In this part of the workflow, the stiffness and damping of the EHL film is neglected due to its rigid-like stiffness, which is several orders of magnitude higher than the Hertzian contact \cite{Walford1983} \cite{Dareing1975} \cite{Mehdigoli1990}.
 
@@ -61,7 +75,7 @@ For detailed tribological investigations, the numerical solution of the fluid fi
 
 \subsection{Experimental Test Rig}
 
-The displacement of the bearing centre, which governs the conditions at the contact, was determined experimentally using a high-speed bearing test rig\footnote[1]{The author was responsible for the design, technical drawings, partial manufacture, assembly and operation of the test rig.}. 
+The displacement of the bearing centre, which governs the conditions at the contact, was determined experimentally using a high-speed bearing test rig\footnote[1]{The author was responsible for the design, technical drawings, partial manufacture, assembly and operation of the test rig.}. Figure \ref{Experimental rig schematic} shows a schematic of the rig.
 
 \paragraph{Motor}
 A 5~$kW$ AC synchronous motor, capable of speeds up to 32~000~rpm was coupled to a steel shaft supported by two bearing brackets. A CNC spindle was selected as the drive motor due to its low axial and radial runout, minimising harmonics originating from the drive unit itself.
@@ -73,16 +87,16 @@ The motor was connected to the shaft using a polymeric jaw coupling (Ondrives OK
 For the operating speeds considered, the permissible coupling alignment limits were specified as 0.01~$mm$ per 100~$mm$ for angular misalignment and 0.01~$mm$ for parallel offset. Although tight dimensional tolerances were applied during the design and manufacture, these alone could not guarantee coaxial alignment at this precision. Laser alignment was therefore performed to correct both forms of misalignment, ensuring the shafts operated within permissible limits and to prevent excitation of higher‑order vibration modes at elevated speeds.
 
 \paragraph{Radial Force Application}
-Radial force was transferred to the shaft via a hinge‑arm mechanism, terminating in a point‑load applicator. A point contact was selected to avoid the use of an auxiliary support bearing at the load application location. This would introduce additional excitation frequencies within the measurement bandwidth. The applied radial force was calibrated using a permanently preloaded force transducer (B\&K Type 8200), capable of measuring up to 5000~$N$ in compression.
+Radial force was transferred to the shaft via a hinge‑arm mechanism, as is common in similar applications \cite{Cockburn1995a}. The force was transferred via a point‑load applicator. A point contact was selected to avoid the use of an auxiliary support bearing at the load application location, such as in \cite{Flack1993a}. This would introduce additional excitation frequencies within the measurement bandwidth. The applied radial force was calibrated using a permanently preloaded force transducer (B\&K Type 8200), capable of measuring up to 5000~$N$ in compression.
 
 \paragraph{Shaft}
-The shaft was manufactured from SAE~8620 steel due to its favourable combination of tensile and yield strength, as well as surface wear resistance. The load application area was finish‑turned and polished to a surface roughness of 0.1~–~0.2$\mu m$ to minimise the risk of fretting or wear under repeated point loading. A diamond‑like carbon (DLC) coating was additionally applied to further enhance wear resistance and reduce friction.
+The shaft was manufactured from SAE~8620 steel due to its favourable combination of tensile and yield strength, as well as surface wear resistance. The load application area was finish‑turned and polished to a surface roughness of 0.1~–~0.2~$\mu m$ to minimise the risk of fretting or wear under repeated point loading. A diamond‑like carbon (DLC) coating was additionally applied to further enhance wear resistance and reduce friction.
 
 \paragraph{Bearing Bracket}
-Bearing centre displacement was measured using an instrumented bearing bracket. The bracket, machined from 7075 aluminium, was based on an AVL e‑Axle endplate design. Modal analysis was performed to ensure that the first mode of vibration would not be excited by the rotary frequency of the shaft. This mode was calculated to be 1120.5~$Hz$; well above both the shaft’s first‑order excitation at 15~000~$rpm$ (300~$Hz$) and its first natural frequency (211~$Hz$), corresponding to a critical speed of 12,660~$rpm$. Figure \ref{Experimental rig schematic} shows a schematic of the rig.
+Bearing centre displacement was measured using an instrumented bearing bracket. The bracket, machined from 7075 aluminium, was based on an AVL e‑Axle endplate design. Modal analysis was performed to ensure that the first mode of vibration would not be excited by the rotary frequency of the shaft. This mode was calculated to be 1120.5~$Hz$; well above both the shaft’s first‑order excitation at 15~000~$rpm$ (300~$Hz$) and its first natural frequency (211~$Hz$), corresponding to a critical speed of 12,660~$rpm$.
 
 \paragraph{Bearing}
-The bearing under test was a single-row cylindrical roller bearing, NU~205~ECP. The same bearing was used in the support bracket. This had a high-speed $nD_m$ value of 5.78$~\times~10^{5}$~$mm/min$ at its reference speed of 15~000~$rpm$.
+The bearing under test was a single-row cylindrical roller bearing, NU~205~ECP. The same bearing was used in the support bracket. This had a high-speed $nD_m$ value of 5.78$~\times~10^{5}$~$mm/min$ at its operating speed of 15~000~$rpm$.
 
 \begin{figure}
 	\centering
@@ -127,9 +141,9 @@ The bearing race displacements were obtained from the instrumented bearing using
 
 Double integration is inherently sensitive to low‑frequency drift, DC (direct current) offsets, and non-linearities in the original acceleration signal. This can lead to displacement errors if not pre-processed \cite{Takeda2014}. To suppress this drift, a linear trend was removed from the raw acceleration data before integration. This detrending specifically targetted frequencies below 50~-~70~$Hz$, where the Type~4383 accelerometer exhibits the highest noise amplification under double integration. This frequency range was below the measurement band of interest.
 
-To extract the frequency content of the speed ramp, waterfall plots were generated using the accelerometer and laser vibrometer data. Short-time fast-Fourier transform (STFFT) was used, with data windows of six shaft rotations at each 100~$rpm$ increment. Using a fixed number of rotations per window ensured consistent shaft‑order resolution across the full speed range, whilst six rotations provided sufficient cycles for adequate spectral resolution without degrading time localisation. The 100~$rpm$ increment was small enough to track gradual changes in contact dynamics during acceleration whilst retaining computational efficiency.
+To extract the frequency content of the speed ramp, waterfall plots were generated using the accelerometer and laser vibrometer data. Short-time fast-Fourier transform (STFFT) was used, with data windows of six shaft rotations at each 100~$rpm$ increment. Using a fixed number of rotations per window ensured consistent shaft‑order resolution across the full speed range, whilst six rotations provided sufficient cycles for adequate spectral resolution without degrading time localisation. The 100~$rpm$ increment was small enough to track gradual changes in contact dynamics during acceleration whilst retaining computational efficiency of result processing.
 
-The resulting signal was then filtered using a Butterworth bandpass filter for a frequency range of 70~-~10~000~$Hz$ to to retain the bearing‑related dynamic content while suppressing low‑frequency equipment noise and high‑frequency artefacts.The lower cutoff at 70~$Hz$ eliminates the frequency region where double‑integration drift dominates, while the upper cutoff of 10~$kHz$ lies safely within the accelerometer’s linear operating bandwidth, which is specified as 0.1~–~8~400~$Hz$. The Butterworth response was selected for its maximally flat passband, ensuring no artificial gain or attenuation of the displacement amplitudes. The stopbands were set at 35~$Hz$ and 12~500~$Hz$, each with 7~$dB$ attenuation and a 3~$dB$ passband ripple, providing smooth roll‑off characteristics and preserving physical displacement information throughout the full operating range.
+The resulting signal was then filtered using a Butterworth bandpass filter for a frequency range of 70~-~10~000~$Hz$ to to retain the bearing‑related dynamic content whilst suppressing low‑frequency equipment noise and high‑frequency artefacts. The lower cutoff at 70~$Hz$ eliminates the frequency region where double‑integration drift dominates, whilst the upper cutoff of 10~$kHz$ lies safely within the accelerometer’s linear operating bandwidth, which is specified as 0.1~–~8~400~$Hz$. The Butterworth response was selected for its maximally flat passband, ensuring no artificial gain or attenuation of the displacement amplitudes. The stopbands were set at 35~$Hz$ and 12~500~$Hz$, each with 7~$dB$ attenuation and a 3~$dB$ passband ripple, providing smooth roll‑off characteristics and preserving physical displacement information throughout the full operating range.
 
 The relative displacement of the bearing centre could then be obtained from the relative displacement between the shaft (measured using the single beam laser vibrometer) and bearing bore:
 \begin{equation}\label{relativdispaccelx}
@@ -216,6 +230,8 @@ A stepwise solution was performed on an individual roller at each orbital positi
 		\frac{h_i^n-h_i^{n-1}}{h_i^{n-1}} \leq 0.01
 	\end{equation}
 \end{enumerate}
+
+As demonstrated in Section \ref{{Thermal EHL}}, inlet shear heating can cause the central film thickness to deviate from the isothermal predictions at high entrainment velocities. In the present study, the maximum entrainment velocity is 7.5~$m \cdot \mathrm{s}^{-1}$. At this speed, assuming pure-rolling, the film reduction predicted by Gupta \textit{et al.} \cite{Gupta1992} remains small relative to the overall magnitude of the film, and more importantly, is negligible compared with the difference in contact deformation between dry and lubricated analyses. Consequently, the incremental reduction in film thickness induced by inlet shear heating is not expected to materially affect the comparative contact force results that underpin this investigation. The lubricant film in both the analytical and numerical investigations in this study are modelled as isothermal.
 
 \subsection{Surface Topography Measurements} \label{Surface Topography}
 
@@ -401,6 +417,8 @@ where $\rho_0$ is the lubricant atmospheric pressure. Further modifications can 
 	\rho=\rho_0\left(1+\frac{0.6 \times 10^{-9} p}{1+1.7 \times 10^{-9} p}\right)\left[1-0.65 \times 10^{-3}\left(\theta-\theta_0\right]\right.
 \end{equation}
 
+The 
+
 \subsection{Effect of Temperature on Lubricant Viscosity}
 
 Most EHL work assumes constant temperature of the contact and that viscosity and density are dependent on pressure only. Standard experiments have been performed to assess effect of temperature on viscosity. Results have previously been curve fit by Crouch and Cameron \cite{Crouch1961}, with the most simple fit due to Reynolds:
@@ -415,13 +433,15 @@ with the three constants dependant on the lubricant, obtained from knowing three
 
 \subsection{1D EHL Solution Methodology}
 
-The methodology for the 1D EHL solution used within this thesis is as follows.
+The analysis of the film behaviour in this thesis is performed under isothermal, steady-state conditions. The methodology for the 1D EHL solution is as follows.
 
 Reynolds equation is used to calculate contact pressures. Assuming a thin film of Newtonian lubricant in a line contact, the following form is used and discretized as described in Section \ref{Finite Difference Formulation}:
 \begin{equation}\label{eq3.33}
 	\frac{\partial}{\partial X}\left[\frac{\bar{\rho} H^3}{6 \bar{\eta}}\left(\frac{\partial P}{\partial X}\right)\right]=\Psi\left[\frac{\partial}{\partial X} \bar{\rho} H U\right]
 \end{equation}
-where $X$ is the direction of entraining motion into the contact. Squeeze film motion is neglected for this analysis. The pressure-density relationship in the compressible model is modelled using Dowson-Higginson \cite{Dowson1977} (\ref{eq3.29}). Roelands equation \cite{Roelands1966} (\ref{eq3.25}) is used for the pressure-viscosity relationship.
+where $X$ is the direction of entraining motion into the contact. 
+
+In the absence of shock loading, squeeze film motion is neglected for this analysis. The pressure-density relationship in the compressible model is modelled using Dowson-Higginson \cite{Dowson1977} (Equation \ref{eq3.29}). Roelands equation \cite{Roelands1966} (\ref{eq3.25}) is used for the pressure-viscosity relationship.
 
 Pressure distribution is obtained from the variations in film thickness at the contact, which is defined as below:
 \begin{equation}\label{eq3.34}
@@ -580,7 +600,7 @@ The variation in EHL film thickness and roller contact load across the speed swe
 	\label{Contact load and film thickness - Outer race}
 \end{figure}
 
-Figure \ref{Film and load - EHL to hydrodynamic regime} presents an interval of the speed sweep where the effect of the EHL load on reducing the film thickness under oscillating conditions can be observed. It is possible to see the effect of the resonant frequency at 1765~$Hz$ superimposed on the lower fundamental train frequency within the loaded region as the inner and outer rings converge and diverge. At this high-frequency resonance, the rolling elements undergo rapid cyclic unloading and reloading within the contact zone. During the unloading phase, the contact pressure decreases sufficiently for the lubrication regime to transition from elastohydrodynamic (EHL) to hydrodynamic. A hydrodynamic film is temporarily established, along with a corresponding hydrodynamic load-carrying mechanism. As the elements reload, the contact re-enters the EHL regime. These results highlight the strong influence of dynamic behaviour and demonstrate the inherently multi-regime nature of lubrication under dynamic excitation. Although transient modelling incorporating squeeze effects is not included in the present analysis, the observed behaviour indicates that such an approach would be appropriate when investigating high-frequency resonance.
+Figure \ref{Film and load - EHL to hydrodynamic regime} presents an interval of the speed sweep where the effect of the EHL load on reducing the film thickness under oscillating conditions can be observed. It is possible to see the effect of the resonant frequency at 1765~$Hz$ superimposed on the lower fundamental train frequency within the loaded region as the inner and outer rings converge and diverge. At this high-frequency resonance, the rolling elements undergo rapid cyclic unloading and reloading within the contact zone. During the unloading phase, the contact pressure decreases sufficiently for the lubrication regime to transition from elastohydrodynamic (EHL) to hydrodynamic. A hydrodynamic film is temporarily established, along with a corresponding hydrodynamic load-carrying mechanism. As the elements reload, the contact re-enters the EHL regime. These results highlight the strong influence of dynamic behaviour and demonstrate the inherently multi-regime nature of lubrication under excitation. Although transient modelling incorporating squeeze effects is not included in the present analysis, the observed behaviour indicates that such an approach would be appropriate when investigating high-frequency resonance.
 
 \begin{figure}
 	\centering
@@ -735,7 +755,7 @@ In each of these plots, it is possible again to see the central film thickness d
 
 \section{Conclusions}
 
-A novel methodology comprising experiments and numerical modelling was developed to allow component and conjunction level tribodynamic analysis of a roller bearing under speeds and loading conditions previously not reported. The experimental data contain the physics of the dynamics and tribology within the bearing, negating the need for a simplified and computationally intensive dynamic bearing model. The tribological conditions at the contact between an individual roller and raceways are numerically analysed. considering transitions between elastohydrodynamic and hydrodynamic lubrication regimes as the roller passes through loaded and unloaded regions. The following conclusions can be made based on presented results:
+A novel methodology comprising experiments and numerical modelling was developed to allow component and conjunction level tribodynamic analysis of a roller bearing under speeds and loading conditions previously not reported. The experimental data contain the physics of the dynamics and tribology within the bearing, negating the need for a simplified and computationally intensive dynamic bearing model. The tribological conditions at the contact between an individual roller and raceways are numerically analysed. EHL and hydrodynamic lubrication regimes are considered as the roller passes through loaded and unloaded regions. The following conclusions can be made based on presented results:
 
 \begin{enumerate}
 	\item The contact experiences an order of magnitude increase in film thickness (0.1~-~1.9~$\mu m$) across the speed sweep from 0~-~15~000$rpm$. The film contributes directly to the interference at roll-race contact and increases with speed. For a given bearing displacement, the predicted contact reaction force increases because the load is now generated by both the Hertzian elastic deformation and the additional separation imposed by the elastohydrodynamic film.	This leads to a 1~200~$N$ higher contact load for the analysis considering the EHL film implicitly when compared to the conventional dry modelling approach.
